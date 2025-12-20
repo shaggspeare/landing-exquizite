@@ -3,7 +3,7 @@ import { Zap, Globe, Lock, Code } from 'lucide-react';
 
 const WhyUs: React.FC = () => {
   return (
-    <section className="py-24 bg-slate-900 text-white">
+    <section className="py-12 md:py-24 bg-slate-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
@@ -57,7 +57,7 @@ const WhyUs: React.FC = () => {
           
           <div className="relative flex justify-center lg:justify-end">
              <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-purple-600 rounded-3xl opacity-20 blur-2xl"></div>
-             <div className="relative rounded-[2rem] border-8 border-slate-800 bg-slate-900 overflow-hidden shadow-2xl max-w-[320px]">
+             <div className="relative rounded-[2rem] border-[6px] md:border-8 border-slate-800 bg-slate-900 overflow-hidden shadow-2xl max-w-[240px] md:max-w-[320px]">
                <img
                  src="/images/match-mode.PNG"
                  alt="Exquizite Match Mode"

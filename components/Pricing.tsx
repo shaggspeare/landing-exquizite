@@ -3,9 +3,9 @@ import { Check } from 'lucide-react';
 
 const Pricing: React.FC = () => {
   return (
-    <section id="pricing" className="py-24 bg-slate-50">
+    <section id="pricing" className="py-12 md:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 md:mb-16">
           <h2 className="text-3xl font-extrabold text-slate-900">Simple, Transparent Pricing</h2>
           <p className="mt-4 text-xl text-slate-600">Education should be accessible to everyone.</p>
         </div>

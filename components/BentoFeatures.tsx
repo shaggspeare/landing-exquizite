@@ -3,9 +3,9 @@ import { Layers, Puzzle, CheckCircle, Edit3, Sparkles, Globe2, Share2, Smartphon
 
 const BentoFeatures: React.FC = () => {
   return (
-    <section id="features" className="py-24 bg-white">
+    <section id="features" className="py-12 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 md:mb-16">
           <h2 className="text-base font-semibold text-primary-600 tracking-wide uppercase">Features & Highlights</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-4xl">
             Everything you need to master a language

@@ -21,9 +21,9 @@ const testimonials = [
 
 const Testimonials: React.FC = () => {
   return (
-    <section id="testimonials" className="py-24 bg-white border-t border-slate-100">
+    <section id="testimonials" className="py-12 md:py-24 bg-white border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-center text-slate-900 mb-16">Loved by Learners</h2>
+        <h2 className="text-3xl font-extrabold text-center text-slate-900 mb-8 md:mb-16">Loved by Learners</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((t, i) => (
