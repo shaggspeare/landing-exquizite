@@ -2,13 +2,13 @@ import React from 'react';
 
 const ScreenshotGallery: React.FC = () => {
   const screenshots = [
+    { src: "/images/ai-generation.PNG", alt: "AI Word Generation" },
+    { src: "/images/added-words.PNG", alt: "Added Words" },
     { src: "/images/learning-modes.PNG", alt: "Learning Modes" },
+    { src: "/images/my-sets.PNG", alt: "My Sets" },
     { src: "/images/match-mode.PNG", alt: "Match Game" },
     { src: "/images/quiz.PNG", alt: "Quiz Mode" },
     { src: "/images/fill-in-blank.PNG", alt: "Fill in the Blank" },
-    { src: "/images/ai-generation.PNG", alt: "AI Word Generation" },
-    { src: "/images/added-words.PNG", alt: "Added Words" },
-    { src: "/images/my-sets.PNG", alt: "My Sets" },
   ];
 
   return (

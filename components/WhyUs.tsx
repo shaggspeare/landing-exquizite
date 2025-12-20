@@ -59,7 +59,7 @@ const WhyUs: React.FC = () => {
              <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-purple-600 rounded-3xl opacity-20 blur-2xl"></div>
              <div className="relative rounded-[2rem] border-[6px] md:border-8 border-slate-800 bg-slate-900 overflow-hidden shadow-2xl max-w-[240px] md:max-w-[320px]">
                <img
-                 src="/images/match-mode.PNG"
+                 src="/images/my-sets.PNG"
                  alt="Exquizite Match Mode"
                  className="w-full h-auto block"
                />
