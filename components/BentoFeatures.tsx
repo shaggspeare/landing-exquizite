@@ -71,12 +71,19 @@ const BentoFeatures: React.FC = () => {
           </div>
 
           {/* Tile 3: 40+ Languages */}
-          <div className="bento-card col-span-1 bg-slate-50 rounded-3xl p-6 border border-slate-100 relative">
+          <div className="bento-card col-span-1 bg-slate-50 rounded-3xl p-6 border border-slate-100 relative overflow-hidden">
              <div className="mb-4 bg-emerald-100 w-12 h-12 rounded-full flex items-center justify-center text-emerald-600">
                <Globe2 size={24} />
              </div>
              <h3 className="text-xl font-bold text-slate-900 mb-2">40+ Languages</h3>
-             <p className="text-slate-600 text-sm">Full interface localization and native language support.</p>
+             <p className="text-slate-600 text-sm mb-4">Full interface localization and native language support.</p>
+
+             <div className="text-2xl leading-relaxed opacity-80">
+               🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹<br/>
+               🇵🇹 🇷🇺 🇨🇳 🇯🇵 🇰🇷<br/>
+               🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪<br/>
+               🇬🇷 🇮🇳 🇻🇳 🇹🇭 🇮🇩
+             </div>
           </div>
 
           {/* Tile 4: Native iOS */}
