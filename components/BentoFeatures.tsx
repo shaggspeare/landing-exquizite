@@ -86,7 +86,7 @@ const BentoFeatures: React.FC = () => {
                  <Smartphone size={24} />
               </div>
               <h3 className="text-xl font-bold mb-2">Native iOS</h3>
-              <p className="text-slate-400 text-sm">Smooth animations and dark mode support.</p>
+              <p className="text-slate-400 text-sm">Get and app to learn on the go.</p>
             </div>
           </div>
 
