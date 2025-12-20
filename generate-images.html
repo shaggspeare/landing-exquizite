@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Social Media Images</title>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+            padding: 20px;
+            background: #f8fafc;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            display: block;
+        }
+        button {
+            background: #2563eb;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .preview {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #1e293b;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Social Media Images for Exquizite</h1>
+        <p>Click the buttons below to generate and download each image.</p>
+
+        <div class="preview">
+            <h2>Open Graph Image (1200x630)</h2>
+            <canvas id="ogCanvas" width="1200" height="630"></canvas>
+            <button onclick="downloadCanvas('ogCanvas', 'og-image.png')">Download OG Image</button>
+        </div>
+
+        <div class="preview">
+            <h2>Twitter Card Image (1200x600)</h2>
+            <canvas id="twitterCanvas" width="1200" height="600"></canvas>
+            <button onclick="downloadCanvas('twitterCanvas', 'twitter-card.png')">Download Twitter Card</button>
+        </div>
+
+        <div class="preview">
+            <h2>Favicon 32x32</h2>
+            <canvas id="favicon32Canvas" width="32" height="32"></canvas>
+            <button onclick="downloadCanvas('favicon32Canvas', 'favicon-32x32.png')">Download Favicon 32x32</button>
+        </div>
+
+        <div class="preview">
+            <h2>Favicon 16x16</h2>
+            <canvas id="favicon16Canvas" width="16" height="16"></canvas>
+            <button onclick="downloadCanvas('favicon16Canvas', 'favicon-16x16.png')">Download Favicon 16x16</button>
+        </div>
+
+        <div class="preview">
+            <h2>Apple Touch Icon (180x180)</h2>
+            <canvas id="appleCanvas" width="180" height="180"></canvas>
+            <button onclick="downloadCanvas('appleCanvas', 'apple-touch-icon.png')">Download Apple Touch Icon</button>
+        </div>
+
+        <button onclick="downloadAll()" style="background: #059669; margin-top: 20px; font-size: 18px;">Download All Images</button>
+    </div>
+
+    <script>
+        // Load the logo image
+        const logoImg = new Image();
+        logoImg.crossOrigin = "anonymous";
+        logoImg.src = './public/images/logo.png';
+
+        logoImg.onload = function() {
+            generateOGImage();
+            generateTwitterImage();
+            generateFavicon32();
+            generateFavicon16();
+            generateAppleIcon();
+        };
+
+        function generateOGImage() {
+            const canvas = document.getElementById('ogCanvas');
+            const ctx = canvas.getContext('2d');
+
+            // Gradient background
+            const gradient = ctx.createLinearGradient(0, 0, 1200, 630);
+            gradient.addColorStop(0, '#2563eb');
+            gradient.addColorStop(1, '#7c3aed');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 1200, 630);
+
+            // Add some decorative circles
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+            ctx.beginPath();
+            ctx.arc(100, 100, 150, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(1100, 530, 200, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Draw logo
+            const logoSize = 220;
+            ctx.drawImage(logoImg, 80, 205, logoSize, logoSize);
+
+            // Add text
+            ctx.fillStyle = 'white';
+            ctx.font = 'bold 72px Plus Jakarta Sans, Arial, sans-serif';
+            ctx.fillText('Exquizite', 350, 260);
+
+            ctx.font = '36px Plus Jakarta Sans, Arial, sans-serif';
+            ctx.fillText('Master Languages Through', 350, 330);
+            ctx.fillText('Smart, Interactive Practice', 350, 380);
+
+            ctx.font = '24px Plus Jakarta Sans, Arial, sans-serif';
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+            ctx.fillText('40+ Languages • AI-Powered • Free on iOS & Web', 350, 440);
+        }
+
+        function generateTwitterImage() {
+            const canvas = document.getElementById('twitterCanvas');
+            const ctx = canvas.getContext('2d');
+
+            // Gradient background
+            const gradient = ctx.createLinearGradient(0, 0, 1200, 600);
+            gradient.addColorStop(0, '#2563eb');
+            gradient.addColorStop(1, '#7c3aed');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 1200, 600);
+
+            // Add decorative circles
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+            ctx.beginPath();
+            ctx.arc(100, 100, 150, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(1100, 500, 200, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Draw logo
+            const logoSize = 200;
+            ctx.drawImage(logoImg, 80, 200, logoSize, logoSize);
+
+            // Add text
+            ctx.fillStyle = 'white';
+            ctx.font = 'bold 68px Plus Jakarta Sans, Arial, sans-serif';
+            ctx.fillText('Exquizite', 330, 240);
+
+            ctx.font = '34px Plus Jakarta Sans, Arial, sans-serif';
+            ctx.fillText('Master Languages Through', 330, 300);
+            ctx.fillText('Smart, Interactive Practice', 330, 350);
+
+            ctx.font = '22px Plus Jakarta Sans, Arial, sans-serif';
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+            ctx.fillText('40+ Languages • AI-Powered • Free on iOS & Web', 330, 410);
+        }
+
+        function generateFavicon32() {
+            const canvas = document.getElementById('favicon32Canvas');
+            const ctx = canvas.getContext('2d');
+
+            // Draw scaled logo
+            ctx.drawImage(logoImg, 0, 0, 32, 32);
+        }
+
+        function generateFavicon16() {
+            const canvas = document.getElementById('favicon16Canvas');
+            const ctx = canvas.getContext('2d');
+
+            // Draw scaled logo
+            ctx.drawImage(logoImg, 0, 0, 16, 16);
+        }
+
+        function generateAppleIcon() {
+            const canvas = document.getElementById('appleCanvas');
+            const ctx = canvas.getContext('2d');
+
+            // White background for Apple
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, 180, 180);
+
+            // Draw logo centered
+            const padding = 20;
+            ctx.drawImage(logoImg, padding, padding, 180 - padding * 2, 180 - padding * 2);
+        }
+
+        function downloadCanvas(canvasId, filename) {
+            const canvas = document.getElementById(canvasId);
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+
+        function downloadAll() {
+            setTimeout(() => downloadCanvas('ogCanvas', 'og-image.png'), 100);
+            setTimeout(() => downloadCanvas('twitterCanvas', 'twitter-card.png'), 300);
+            setTimeout(() => downloadCanvas('favicon32Canvas', 'favicon-32x32.png'), 500);
+            setTimeout(() => downloadCanvas('favicon16Canvas', 'favicon-16x16.png'), 700);
+            setTimeout(() => downloadCanvas('appleCanvas', 'apple-touch-icon.png'), 900);
+        }
+    </script>
+</body>
+</html>

@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
                 Download on App Store
               </a>
               <a
-                href="https://web.app"
+                href="https://exquizite-app.vercel.app/"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-xl font-semibold hover:bg-slate-50 transition-all shadow-sm hover:shadow-md hover:-translate-y-1"
               >
                 <Globe size={24} />

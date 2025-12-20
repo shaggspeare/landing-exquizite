@@ -25,8 +25,8 @@ const DownloadCTA: React.FC = () => {
                 <Apple size={24} />
                 Download for iOS
               </a>
-              <a 
-                href="https://web.app" 
+              <a
+                href="https://exquizite-app.vercel.app/"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-700 text-white border border-primary-500 rounded-xl font-bold hover:bg-primary-800 transition-transform hover:-translate-y-1 shadow-lg group"
               >
                 <Globe size={24} />
