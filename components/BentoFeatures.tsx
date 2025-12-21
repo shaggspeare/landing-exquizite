@@ -30,7 +30,7 @@ const BentoFeatures: React.FC = () => {
               <div className="grid grid-cols-2 gap-4 max-w-md">
                 <div className="bg-white/80 backdrop-blur p-4 rounded-xl shadow-sm border border-slate-200 flex items-center gap-3">
                   <div className="bg-blue-100 p-2 rounded-lg text-blue-600"><Layers size={20}/></div>
-                  <span className="font-semibold text-slate-700">Flashcards</span>
+                  <span className="font-semibold text-slate-700">Flash Сards</span>
                 </div>
                 <div className="bg-white/80 backdrop-blur p-4 rounded-xl shadow-sm border border-slate-200 flex items-center gap-3">
                   <div className="bg-purple-100 p-2 rounded-lg text-purple-600"><Puzzle size={20}/></div>
