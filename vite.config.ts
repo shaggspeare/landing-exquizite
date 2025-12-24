@@ -21,12 +21,12 @@ export default defineConfig(({ mode }) => {
               keywords: 'language learning, vocabulary app, flashcards, language games, AI language learning, learn languages, iOS app, web app, multilingual, vocabulary builder',
               ogTitle: 'Exquizite - Master Any Language, Your Way',
               ogDescription: 'Learn languages with AI-powered flashcards, games, and smart practice tools. 40+ languages supported. Start free on iOS or web.',
-              ogImage: 'https://app.www.exquizite.app/images/og-image.png',
-              ogUrl: 'https://app.www.exquizite.app/',
+              ogImage: 'https://app.exquizite.app/images/og-image.png',
+              ogUrl: 'https://app.exquizite.app/',
               twitterCard: 'summary_large_image',
               twitterTitle: 'Exquizite - Master Languages Through Smart Practice',
               twitterDescription: 'AI-powered language learning with flashcards, games, and 40+ languages. Free on iOS and web.',
-              twitterImage: 'https://app.www.exquizite.app/images/twitter-card.png',
+              twitterImage: 'https://app.exquizite.app/images/twitter-card.png',
             }
           }
         })
