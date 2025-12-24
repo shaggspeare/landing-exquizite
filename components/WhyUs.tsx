@@ -49,7 +49,7 @@ const WhyUs: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-xl mb-2">Modern & Fast</h3>
-                  <p className="text-slate-400">Built with React Native for smooth performance on every platform.</p>
+                  <p className="text-slate-400">Built with modern technology for smooth performance on every platform.</p>
                 </div>
               </div>
             </div>

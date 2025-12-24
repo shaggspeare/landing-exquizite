@@ -53,13 +53,6 @@ const Footer: React.FC = () => {
         
         <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-slate-500">© 2025 Exquizite. Master languages, your way.</p>
-          <div className="text-xs text-slate-400 flex items-center gap-4">
-            <span>Built with React Native</span>
-            <span>•</span>
-            <span>Expo</span>
-            <span>•</span>
-            <span>OpenAI</span>
-          </div>
         </div>
       </div>
     </footer>
