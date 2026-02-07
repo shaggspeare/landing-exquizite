@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Twitter, Instagram, Github } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -36,9 +37,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold text-slate-900 mb-4">Support</h3>
             <ul className="space-y-2 text-sm text-slate-600">
-              <li><a href="#" className="hover:text-primary-600">FAQ</a></li>
-              <li><a href="#" className="hover:text-primary-600">Contact</a></li>
-              <li><a href="#" className="hover:text-primary-600">Privacy Policy</a></li>
+              <li><Link to="/support" className="hover:text-primary-600">Help & Support</Link></li>
+              <li><a href="mailto:viacheslav@exquizite.app" className="hover:text-primary-600">Contact</a></li>
+              <li><Link to="/privacy-policy" className="hover:text-primary-600">Privacy Policy</Link></li>
             </ul>
           </div>
 

@@ -1,41 +1,50 @@
 import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  const isPrivacyPage = location.pathname === '/privacy-policy';
+  const isSupportPage = location.pathname === '/support';
+  const isContentPage = isPrivacyPage || isSupportPage;
 
   return (
     <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
+          <Link to="/" className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
             <div className="w-10 h-10 rounded-lg overflow-hidden">
               <img src="/images/logo.png" alt="Exquizite Logo" className="w-full h-full object-cover" />
             </div>
             <span className="font-bold text-xl tracking-tight text-slate-900">Exquizite</span>
-          </div>
-          
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">Features</a>
-            <a href="#how-it-works" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">How it Works</a>
-            <a href="#testimonials" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">Stories</a>
-            <a href="#pricing" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">Pricing</a>
-            <a 
-              href="#download" 
-              className="bg-slate-900 hover:bg-slate-800 text-white px-5 py-2 rounded-full font-medium transition-colors text-sm"
-            >
-              Get App
-            </a>
-          </div>
+          </Link>
 
-          <div className="md:hidden flex items-center">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-slate-600 hover:text-slate-900 focus:outline-none p-2"
-            >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
-          </div>
+          {!isContentPage && (
+            <div className="hidden md:flex items-center space-x-8">
+              <a href="#features" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">Features</a>
+              <a href="#how-it-works" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">How it Works</a>
+              <a href="#testimonials" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">Stories</a>
+              <a href="#pricing" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">Pricing</a>
+              <a
+                href="#download"
+                className="bg-slate-900 hover:bg-slate-800 text-white px-5 py-2 rounded-full font-medium transition-colors text-sm"
+              >
+                Get App
+              </a>
+            </div>
+          )}
+
+          {!isContentPage && (
+            <div className="md:hidden flex items-center">
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                className="text-slate-600 hover:text-slate-900 focus:outline-none p-2"
+              >
+                {isOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+            </div>
+          )}
         </div>
       </div>
 
