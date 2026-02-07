@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "376HNWM383.com.shaggspeare.exquiziteapp",
+        "paths": ["/shared/*", "/shared-*"]
+      }
+    ]
+  }
+}
