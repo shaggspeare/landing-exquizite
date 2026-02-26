@@ -1,0 +1,966 @@
+{
+  "navbar": {
+    "brandName": "Exquizite",
+    "links": {
+      "features": "Recursos",
+      "howItWorks": "Como Funciona",
+      "stories": "Depoimentos",
+      "pricing": "Preços",
+      "getApp": "Baixar App",
+      "downloadApp": "Baixar App"
+    }
+  },
+  "hero": {
+    "badge": "Disponível agora no iOS e na Web",
+    "titleLine1": "Domine o Aprendizado",
+    "titleLine2": "Com Prática Inteligente",
+    "subtitle": "Crie conjuntos de palavras personalizados, jogue jogos envolventes e acelere sua jornada de aprendizado de idiomas com ferramentas de IA.",
+    "appStoreButton": "Baixar na App Store",
+    "webAppButton": "Experimentar na Web",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "images": {
+      "quiz": { "src": "/images/quiz.PNG", "alt": "Modo Quiz do Exquizite" },
+      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Tela de Modos de Aprendizado" },
+      "mySets": { "src": "/images/my-sets.PNG", "alt": "Tela Meus Conjuntos" }
+    }
+  },
+  "bentoFeatures": {
+    "sectionLabel": "Recursos e Destaques",
+    "sectionTitle": "Tudo o que você precisa para dominar um idioma",
+    "sectionSubtitle": "Da geração inteligente com IA aos modos de jogo envolventes, o Exquizite tem todas as ferramentas para você aprender mais rápido.",
+    "tiles": {
+      "learnYourWay": {
+        "title": "Aprenda do Seu Jeito",
+        "description": "Escolha entre 4 modos de aprendizado interativos que combinam com seu estilo único.",
+        "modes": ["Flashcards", "Jogo da Memória", "Modo Quiz", "Preencher Lacunas"]
+      },
+      "aiPowered": {
+        "title": "Powered by IA",
+        "description": "Gere pares de palavras instantaneamente e receba dicas inteligentes.",
+        "image": { "src": "/images/ai-generation.PNG", "alt": "Palavras Geradas por IA" }
+      },
+      "languages": {
+        "title": "Mais de 40 Idiomas",
+        "description": "Localização completa da interface e suporte nativo a idiomas.",
+        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇷🇺 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+      },
+      "nativeIos": {
+        "title": "iOS Nativo",
+        "description": "Baixe o app para aprender em qualquer lugar."
+      },
+      "shareDiscover": {
+        "title": "Compartilhe e Descubra",
+        "description": "Crie links compartilháveis para seus conjuntos de palavras ou copie conjuntos da comunidade para sua coleção. Acompanhe visualizações e engajamento.",
+        "recentShares": "Compartilhamentos Recentes",
+        "viewAll": "Ver Todos",
+        "shares": [
+          { "initials": "FR", "name": "Francês Básico", "wordCount": "24 palavras" },
+          { "initials": "ES", "name": "Cozinha Espanhola", "wordCount": "12 palavras" }
+        ]
+      },
+      "seamlessSync": {
+        "title": "Sincronização Perfeita",
+        "description": "Comece no iPhone, continue na Web. Seu progresso acompanha você."
+      }
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Como Funciona",
+    "sectionSubtitle": "Comece sua jornada de aprendizado em quatro passos simples",
+    "steps": [
+      {
+        "title": "1. Crie Conjuntos",
+        "desc": "Monte listas de vocabulário ou use IA para gerar palavras sobre qualquer tema instantaneamente."
+      },
+      {
+        "title": "2. Escolha o Jogo",
+        "desc": "Escolha entre 4 modos de jogo envolventes que tornam o aprendizado divertido."
+      },
+      {
+        "title": "3. Acompanhe o Progresso",
+        "desc": "Monitore sua sequência, níveis de domínio e histórico no seu painel."
+      },
+      {
+        "title": "4. Compartilhe e Aprenda",
+        "desc": "Compartilhe seus melhores conjuntos com amigos ou descubra conteúdo da comunidade."
+      }
+    ]
+  },
+  "whyUs": {
+    "sectionTitle": "Por que o Exquizite?",
+    "sectionSubtitle": "Criamos o Exquizite para eliminar as barreiras do aprendizado de idiomas. Seja você um estudante casual ou poliglota, nossa plataforma se adapta a você.",
+    "points": [
+      {
+        "title": "Comece em Segundos",
+        "description": "Experimente o modo visitante instantaneamente. Sem necessidade de cadastro até querer sincronizar."
+      },
+      {
+        "title": "Verdadeiramente Multilíngue",
+        "description": "Interface disponível em vários idiomas. Aprenda na sua zona de conforto."
+      },
+      {
+        "title": "Privacidade em Primeiro Lugar",
+        "description": "Seus dados são armazenados com segurança via Supabase. Você está sempre no controle."
+      },
+      {
+        "title": "Moderno e Rápido",
+        "description": "Construído com tecnologia moderna para desempenho suave em todas as plataformas."
+      }
+    ],
+    "image": { "src": "/images/my-sets.PNG", "alt": "Modo Combinar do Exquizite" }
+  },
+  "testimonials": {
+    "sectionTitle": "Amado pelos Estudantes",
+    "items": [
+      {
+        "quote": "A geração de palavras por IA me economizou horas criando listas de vocabulário para minha aula de espanhol. É incrivelmente preciso.",
+        "author": "Sarah J.",
+        "role": "Estudante de Idiomas"
+      },
+      {
+        "quote": "Finalmente, um app de idiomas que funciona igual no celular e no computador! A sincronização é impecável.",
+        "author": "Michael C.",
+        "role": "Nômade Digital"
+      },
+      {
+        "quote": "O jogo da memória torna o estudo divertido. Meus filhos também adoram! Virou uma atividade familiar diária.",
+        "author": "Elena R.",
+        "role": "Mãe e Professora"
+      }
+    ]
+  },
+  "screenshotGallery": {
+    "sectionTitle": "Conheça o App",
+    "sectionSubtitle": "Veja de perto nossos modos de aprendizado interativos.",
+    "screenshots": [
+      { "src": "/images/ai-generation.PNG", "alt": "Geração de Palavras por IA" },
+      { "src": "/images/added-words.PNG", "alt": "Palavras Adicionadas" },
+      { "src": "/images/learning-modes.PNG", "alt": "Modos de Aprendizado" },
+      { "src": "/images/my-sets.PNG", "alt": "Meus Conjuntos" },
+      { "src": "/images/match-mode.PNG", "alt": "Jogo da Memória" },
+      { "src": "/images/quiz.PNG", "alt": "Modo Quiz" },
+      { "src": "/images/fill-in-blank.PNG", "alt": "Preencher Lacunas" }
+    ]
+  },
+  "pricing": {
+    "sectionTitle": "Preços Simples e Transparentes",
+    "sectionSubtitle": "Educação deve ser acessível para todos.",
+    "planName": "Grátis para Sempre",
+    "planDescription": "Tudo o que você precisa para dominar um idioma.",
+    "price": "$0",
+    "period": "/mês",
+    "features": [
+      "Conjuntos de palavras ilimitados",
+      "Acesso a todos os 4 modos de jogo",
+      "Geração de palavras com IA",
+      "Compartilhe seus conjuntos",
+      "Sincronização entre plataformas"
+    ],
+    "ctaButton": "Comece Grátis"
+  },
+  "faq": {
+    "sectionTitle": "Perguntas Frequentes",
+    "items": [
+      { "q": "Preciso de uma conta para usar o Exquizite?", "a": "Não! Comece a aprender imediatamente com o modo visitante. Crie uma conta depois para sincronizar entre dispositivos." },
+      { "q": "Quantos idiomas são suportados?", "a": "Mais de 40 idiomas tanto para conteúdo de aprendizado quanto para a interface do app." },
+      { "q": "O app funciona offline?", "a": "Sim, o app iOS permite acesso offline aos conjuntos de palavras baixados." },
+      { "q": "Posso usar o Exquizite no computador?", "a": "Com certeza! O app web oferece uma experiência otimizada para desktop." },
+      { "q": "Meus dados estão seguros?", "a": "Sim, todos os dados são armazenados e sincronizados com segurança via Supabase com criptografia padrão da indústria." },
+      { "q": "Posso compartilhar meus conjuntos de palavras?", "a": "Sim! Gere um link compartilhável para qualquer conjunto. Outros podem visualizar e copiar para suas coleções." }
+    ]
+  },
+  "downloadCTA": {
+    "title": "Comece a Aprender Hoje",
+    "subtitle": "Junte-se a milhares de estudantes dominando novos idiomas com o Exquizite. Baixe agora ou experimente no navegador.",
+    "iosButton": "Baixar para iOS",
+    "webButton": "Abrir App Web",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "disclaimer": "Não é necessário cartão de crédito para o plano gratuito."
+  },
+  "footer": {
+    "brandName": "Exquizite",
+    "brandDescription": "Domine idiomas com prática inteligente e interativa. Feito para estudantes, por estudantes.",
+    "columns": {
+      "product": {
+        "title": "Produto",
+        "links": [
+          { "label": "Recursos", "href": "#features" },
+          { "label": "Como Funciona", "href": "#how-it-works" },
+          { "label": "Preços", "href": "#pricing" },
+          { "label": "Download", "href": "#download" }
+        ]
+      },
+      "support": {
+        "title": "Suporte",
+        "links": [
+          { "label": "Ajuda e Suporte", "to": "/support" },
+          { "label": "Contato", "href": "mailto:viacheslav@exquizite.app" },
+          { "label": "Política de Privacidade", "to": "/privacy-policy" }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": [
+          { "label": "Termos de Serviço", "href": "#" },
+          { "label": "Política de Cookies", "href": "#" }
+        ]
+      }
+    },
+    "copyright": "© 2025 Exquizite. Domine idiomas, do seu jeito."
+  },
+  "privacyPolicy": {
+    "title": "Política de Privacidade do Exquizite",
+    "lastUpdated": "Última atualização: 7 de fevereiro de 2026",
+    "sections": [
+      {
+        "title": "Introdução",
+        "content": "Bem-vindo ao Exquizite, um aplicativo de aprendizado de idiomas. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações quando você usa nosso aplicativo móvel e serviços web (coletivamente, o \"App\"). Por favor, leia esta política de privacidade com atenção. Se você não concordar com os termos desta política de privacidade, por favor, não acesse o App."
+      },
+      {
+        "title": "Informações que Coletamos",
+        "subsections": [
+          {
+            "title": "Informações Pessoais",
+            "intro": "Ao criar uma conta no Exquizite, coletamos:",
+            "items": [
+              { "bold": "Endereço de E-mail", "text": "Usado para criação de conta, autenticação e comunicação" },
+              { "bold": "ID do Usuário", "text": "Um identificador único gerado automaticamente para autenticação e associação de dados" },
+              { "bold": "Senha", "text": "Armazenada com segurança usando criptografia padrão da indústria (nunca armazenamos senhas em texto simples)" }
+            ]
+          },
+          {
+            "title": "Conteúdo Gerado pelo Usuário",
+            "items": [
+              { "bold": "Conjuntos de Vocabulário", "text": "Pares de palavras, traduções, nomes de conjuntos e preferências de aprendizado que você cria" },
+              { "bold": "Preferências de Idioma", "text": "Seus idiomas alvo e nativo escolhidos para aprendizado" },
+              { "bold": "Histórico de Prática", "text": "Informações sobre quando você praticou um conjunto pela última vez e seu progresso" },
+              { "bold": "Configurações do App", "text": "Preferências de tema, idioma da interface e outras configurações de personalização" }
+            ]
+          },
+          {
+            "title": "Informações Coletadas Automaticamente",
+            "items": [
+              { "bold": "Dados de Uso", "text": "Informações sobre como você interage com o App, incluindo modos de jogo utilizados e recursos usados" },
+              { "bold": "Informações do Dispositivo", "text": "Tipo de dispositivo, sistema operacional e versão do app para solução de problemas e compatibilidade" },
+              { "bold": "Análises Anônimas", "text": "Estatísticas de uso agregadas e não identificáveis para melhorar o App" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Modo Visitante",
+        "intro": "Se você usar o App sem criar uma conta (Modo Visitante):",
+        "items": [
+          "Nenhum endereço de e-mail ou informação pessoal é coletado",
+          "Seus conjuntos de vocabulário são armazenados apenas localmente no seu dispositivo",
+          "Os dados não são sincronizados entre dispositivos",
+          "Os dados podem ser perdidos se você desinstalar o App ou limpar os dados do app"
+        ]
+      },
+      {
+        "title": "Como Usamos Suas Informações",
+        "intro": "Usamos as informações que coletamos para:",
+        "items": [
+          { "bold": "Fornecer Serviços", "text": "Permitir criação de contas, sincronização de dados e funcionalidade do app" },
+          { "bold": "Melhorar a Experiência", "text": "Personalizar sua experiência de aprendizado e lembrar suas preferências" },
+          { "bold": "Gerar Conteúdo com IA", "text": "Usar a API da OpenAI para gerar sugestões de vocabulário e frases de exemplo com base nos temas que você fornece" },
+          { "bold": "Manter a Segurança", "text": "Autenticar usuários e proteger contra acesso não autorizado" },
+          { "bold": "Comunicar", "text": "Enviar atualizações importantes sobre o App (não enviamos e-mails de marketing sem seu consentimento)" },
+          { "bold": "Solucionar Problemas", "text": "Diagnosticar problemas técnicos e melhorar o desempenho do app" }
+        ]
+      },
+      {
+        "title": "Armazenamento e Segurança de Dados",
+        "subsections": [
+          {
+            "title": "Local de Armazenamento",
+            "intro": "Seus dados são armazenados com segurança usando Supabase, um serviço de banco de dados em nuvem:",
+            "items": [
+              { "bold": "Localização", "text": "Os dados são hospedados em servidores seguros gerenciados pelo Supabase (infraestrutura AWS)" },
+              { "bold": "Criptografia", "text": "Todos os dados são criptografados em trânsito usando protocolos HTTPS/TLS" },
+              { "bold": "Controle de Acesso", "text": "Políticas de Segurança em Nível de Linha (RLS) garantem que você só acesse seus próprios dados" },
+              { "bold": "Backups", "text": "Backups automáticos regulares para prevenir perda de dados" }
+            ]
+          },
+          {
+            "title": "Medidas de Segurança",
+            "intro": "Implementamos medidas de segurança padrão da indústria, incluindo:",
+            "items": [
+              "Autenticação segura usando tokens JWT",
+              "Hash de senhas usando bcrypt ou algoritmos similares",
+              "Criptografia HTTPS para toda transmissão de dados",
+              "Registro de acesso e monitoramento de atividades suspeitas"
+            ],
+            "note": "No entanto, nenhum método de transmissão pela Internet ou armazenamento eletrônico é 100% seguro. Embora nos esforcemos para proteger seus dados, não podemos garantir segurança absoluta."
+          }
+        ]
+      },
+      {
+        "title": "Serviços de Terceiros",
+        "subsections": [
+          {
+            "title": "Supabase (Banco de Dados e Autenticação)",
+            "intro": "Usamos o Supabase para armazenar e gerenciar dados dos usuários:",
+            "items": [
+              { "bold": "Finalidade", "text": "Banco de dados em nuvem, autenticação de usuários e sincronização de dados" },
+              { "bold": "Dados Compartilhados", "text": "E-mail, ID do usuário, conjuntos de vocabulário, histórico de prática" }
+            ],
+            "privacyUrl": "https://supabase.com/privacy"
+          },
+          {
+            "title": "OpenAI API (Recursos de IA)",
+            "intro": "Usamos a API da OpenAI para gerar sugestões de vocabulário e frases de exemplo:",
+            "items": [
+              { "bold": "Finalidade", "text": "Geração de conteúdo com IA para materiais de aprendizado" },
+              { "bold": "Dados Compartilhados", "text": "APENAS os temas ou tópicos que você solicita (ex: \"comida\", \"viagem\")" },
+              { "bold": "Importante", "text": "NÃO enviamos suas informações pessoais, e-mail, ID de usuário ou conjuntos de vocabulário existentes para a OpenAI" },
+              { "bold": "Uso dos Dados", "text": "A OpenAI processa as solicitações de forma transitória e não usa seus dados para treinamento de modelos (conforme nosso contrato de API)" }
+            ],
+            "privacyUrl": "https://openai.com/privacy"
+          },
+          {
+            "title": "Expo (Plataforma de Desenvolvimento)",
+            "intro": "Usamos o Expo para desenvolvimento e implantação do app:",
+            "items": [
+              { "bold": "Finalidade", "text": "Infraestrutura e atualizações do app" },
+              { "bold": "Dados Compartilhados", "text": "Relatórios mínimos de falhas e estatísticas de uso anônimas" }
+            ],
+            "privacyUrl": "https://expo.dev/privacy"
+          }
+        ]
+      },
+      {
+        "title": "Compartilhamento e Divulgação de Dados",
+        "intro": "NÃO vendemos, alugamos ou negociamos suas informações pessoais com terceiros.",
+        "intro2": "Podemos compartilhar suas informações apenas nas seguintes circunstâncias:",
+        "items": [
+          { "bold": "Com Seu Consentimento", "text": "Quando você escolhe explicitamente compartilhar conjuntos de vocabulário com outros usuários" },
+          { "bold": "Prestadores de Serviço", "text": "Com serviços terceirizados de confiança (Supabase, OpenAI) conforme descrito acima" },
+          { "bold": "Exigências Legais", "text": "Se exigido por lei, ordem judicial ou regulamentação governamental" },
+          { "bold": "Transferências Comerciais", "text": "Em caso de fusão, aquisição ou venda de ativos (você será notificado)" },
+          { "bold": "Segurança e Proteção", "text": "Para proteger os direitos, propriedade ou segurança do Exquizite, nossos usuários ou outros" }
+        ]
+      },
+      {
+        "title": "Conjuntos de Vocabulário Compartilhados",
+        "intro": "Quando você escolhe compartilhar um conjunto de vocabulário:",
+        "items": [
+          "Um código de compartilhamento único é gerado",
+          "Qualquer pessoa com o código pode visualizar e copiar o conjunto",
+          "Seu e-mail e informações pessoais NÃO são incluídos nos conjuntos compartilhados",
+          "Você pode ver quantas vezes seu conjunto foi visualizado e copiado",
+          "Você pode parar de compartilhar um conjunto a qualquer momento excluindo o código de compartilhamento"
+        ]
+      },
+      {
+        "title": "Seus Direitos e Escolhas",
+        "intro": "Você tem os seguintes direitos sobre seus dados:",
+        "rights": [
+          {
+            "title": "Acessar Seus Dados",
+            "description": "Você pode visualizar todos os seus conjuntos de vocabulário e informações da conta dentro do App"
+          },
+          {
+            "title": "Modificar Seus Dados",
+            "description": "Edite ou atualize seus conjuntos de vocabulário, preferências de idioma e configurações do app a qualquer momento"
+          },
+          {
+            "title": "Excluir Seus Dados",
+            "description": "Você pode solicitar a exclusão completa da sua conta e de todos os dados associados:",
+            "steps": [
+              { "bold": "Exclusão no App", "text": "(em breve): Navegue até Configurações > Conta > Excluir Conta" },
+              {
+                "bold": "Solicitação por E-mail",
+                "text": "Entre em contato conosco em viacheslav@exquizite.app com o assunto \"Data Deletion Request\"",
+                "subItems": [
+                  "Inclua seu endereço de e-mail cadastrado",
+                  "Confirmaremos sua identidade e excluiremos todos os dados em até 30 dias",
+                  "A exclusão é permanente e não pode ser desfeita"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Exportar Seus Dados",
+            "description": "Para solicitar uma cópia dos seus dados, entre em contato conosco em viacheslav@exquizite.app com o assunto \"Data Export Request\""
+          },
+          {
+            "title": "Modo Visitante",
+            "description": "Se você usou o Modo Visitante, pode excluir seus dados locais:",
+            "items": [
+              "Limpando o cache e dados do app nas configurações do dispositivo",
+              "Desinstalando o App"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Privacidade de Crianças",
+        "content": "O Exquizite é destinado a usuários com 13 anos ou mais. Não coletamos intencionalmente informações pessoais de crianças menores de 13 anos. Se você é pai/mãe ou responsável e acredita que seu filho nos forneceu informações pessoais, entre em contato conosco em viacheslav@exquizite.app e excluiremos essas informações imediatamente."
+      },
+      {
+        "title": "Transferências Internacionais de Dados",
+        "content": "Seus dados podem ser transferidos e armazenados em servidores localizados fora do seu país de residência, incluindo os Estados Unidos. Ao usar o App, você consente com a transferência dos seus dados para países que podem ter leis de proteção de dados diferentes das do seu país."
+      },
+      {
+        "title": "Alterações nesta Política de Privacidade",
+        "intro": "Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos você sobre quaisquer alterações:",
+        "items": [
+          "Atualizando a data de \"Última atualização\" no topo desta política",
+          "Exibindo uma notificação no app para alterações significativas",
+          "Enviando uma notificação por e-mail (se você tiver uma conta)"
+        ],
+        "note": "Seu uso continuado do App após a publicação de alterações constitui sua aceitação da política revisada."
+      },
+      {
+        "title": "Retenção de Dados",
+        "intro": "Retemos seus dados enquanto sua conta estiver ativa ou conforme necessário para fornecer serviços. Se você excluir sua conta:",
+        "items": [
+          "Dados pessoais são excluídos em até 30 dias",
+          "Alguns dados podem ser retidos por motivos legais ou de segurança (ex: prevenção de fraudes)",
+          "Conjuntos de vocabulário compartilhados podem permanecer acessíveis para usuários que os copiaram anteriormente"
+        ]
+      },
+      {
+        "title": "Seu Consentimento",
+        "content": "Ao usar o Exquizite, você consente com esta Política de Privacidade e concorda com seus termos."
+      },
+      {
+        "title": "Fale Conosco",
+        "intro": "Se você tiver perguntas, preocupações ou solicitações sobre esta Política de Privacidade ou seus dados, entre em contato conosco:",
+        "contactInfo": {
+          "email": "viacheslav@exquizite.app",
+          "developer": "Equipe de Desenvolvimento Exquizite",
+          "responseTime": "Nosso objetivo é responder a todas as consultas em até 7 dias úteis."
+        }
+      }
+    ],
+    "summary": {
+      "title": "Resumo dos Pontos Principais",
+      "intro": "Para sua conveniência, aqui está um resumo rápido:",
+      "items": [
+        { "label": "O que coletamos", "value": "E-mail, conjuntos de vocabulário que você cria, preferências de idioma" },
+        { "label": "Por que coletamos", "value": "Para fornecer recursos de aprendizado, sincronizar entre dispositivos, gerar conteúdo com IA" },
+        { "label": "Onde é armazenado", "value": "Servidores Supabase em nuvem (infraestrutura AWS)" },
+        { "label": "Terceiros", "value": "Supabase (banco de dados), OpenAI (geração com IA - nenhum dado pessoal enviado)" },
+        { "label": "Seus direitos", "value": "Acessar, modificar, excluir seus dados a qualquer momento" },
+        { "label": "Contato", "value": "viacheslav@exquizite.app" }
+      ],
+      "thankYou": "Obrigado por confiar no Exquizite para sua jornada de aprendizado de idiomas!"
+    }
+  },
+  "support": {
+    "title": "Suporte Exquizite",
+    "subtitle": "Bem-vindo ao Suporte Exquizite! Encontre respostas para perguntas comuns e obtenha ajuda com o app.",
+    "contactEmail": "viacheslav@exquizite.app",
+    "lastUpdated": "Última atualização: 7 de fevereiro de 2026",
+    "thankYou": "Obrigado por usar o Exquizite! Bons estudos!",
+    "toc": {
+      "title": "Índice",
+      "items": [
+        { "id": "getting-started", "label": "Primeiros Passos" },
+        { "id": "account-login", "label": "Conta e Login" },
+        { "id": "creating-vocabulary-sets", "label": "Criando Conjuntos de Vocabulário" },
+        { "id": "game-modes", "label": "Modos de Jogo" },
+        { "id": "sharing-sets", "label": "Compartilhando Conjuntos" },
+        { "id": "settings-preferences", "label": "Configurações e Preferências" },
+        { "id": "troubleshooting", "label": "Solução de Problemas" },
+        { "id": "privacy-data", "label": "Privacidade e Dados" },
+        { "id": "contact-us", "label": "Fale Conosco" }
+      ]
+    },
+    "gettingStarted": {
+      "title": "Primeiros Passos",
+      "whatIs": {
+        "title": "O que é o Exquizite?",
+        "content": "O Exquizite é um app de aprendizado de idiomas que ajuda você a dominar vocabulário por meio de jogos interativos e flashcards. Crie conjuntos de palavras personalizados, pratique com modos de jogo divertidos e acompanhe seu progresso."
+      },
+      "needAccount": {
+        "title": "Preciso de uma conta?",
+        "intro": "Não! Você pode usar o Exquizite de duas formas:",
+        "options": [
+          { "bold": "Modo Visitante", "text": "Use o app sem se cadastrar. Seus conjuntos são salvos apenas localmente no seu dispositivo." },
+          { "bold": "Com Conta", "text": "Cadastre-se com e-mail para sincronizar seus conjuntos em todos os dispositivos (iPhone, iPad, Android, Web)." }
+        ]
+      },
+      "howToStart": {
+        "title": "Como começo?",
+        "steps": [
+          "Baixe o Exquizite na App Store ou Google Play",
+          "Escolha \"Continuar como Visitante\" ou \"Cadastrar\"",
+          "Selecione seu idioma de aprendizado (ex: espanhol) e idioma nativo (ex: português)",
+          "Crie seu primeiro conjunto de vocabulário",
+          "Comece a praticar!"
+        ]
+      }
+    },
+    "accountLogin": {
+      "title": "Conta e Login",
+      "createAccount": {
+        "title": "Como crio uma conta?",
+        "steps": [
+          "Toque em \"Cadastrar\" na tela de login",
+          "Digite seu endereço de e-mail e crie uma senha",
+          "Toque em \"Criar Conta\"",
+          "Você será logado automaticamente"
+        ]
+      },
+      "forgotPassword": {
+        "title": "Esqueci minha senha. Como redefinir?",
+        "steps": [
+          "Na tela de login, toque em \"Esqueceu a Senha?\"",
+          "Digite seu endereço de e-mail",
+          "Verifique seu e-mail para o link de redefinição de senha",
+          "Siga o link para criar uma nova senha"
+        ]
+      },
+      "guestToAccount": {
+        "title": "Posso migrar do Modo Visitante para uma conta?",
+        "intro": "Atualmente, os dados do Modo Visitante não podem ser transferidos automaticamente para uma conta. Para preservar seus conjuntos:",
+        "steps": [
+          "Compartilhe cada conjunto que deseja manter (obtenha o código de compartilhamento)",
+          "Crie uma conta",
+          "Use os códigos de compartilhamento para copiar os conjuntos para sua nova conta"
+        ],
+        "note": "Estamos trabalhando em um recurso de migração direta!"
+      },
+      "logout": {
+        "title": "Como faço logout?",
+        "steps": [
+          "Vá para Perfil (aba inferior)",
+          "Role para baixo e toque em \"Sair\""
+        ]
+      },
+      "deleteAccount": {
+        "title": "Como excluo minha conta?",
+        "content": "Veja a seção Privacidade e Dados abaixo."
+      }
+    },
+    "creatingVocabularySets": {
+      "title": "Criando Conjuntos de Vocabulário",
+      "createNew": {
+        "title": "Como crio um novo conjunto de vocabulário?",
+        "steps": [
+          "Toque no botão \"+\" na tela inicial",
+          "Digite um nome para seu conjunto (ex: \"Comida Espanhola\")",
+          "Adicione pares de palavras:\n  - Coluna esquerda: Palavras no idioma de aprendizado\n  - Coluna direita: Traduções no seu idioma nativo",
+          "Toque em \"Salvar\" quando terminar"
+        ]
+      },
+      "wordLimit": {
+        "title": "Quantas palavras posso adicionar a um conjunto?",
+        "content": "Cada conjunto pode conter até 20 pares de palavras. Esse limite garante aprendizado e desempenho ideais."
+      },
+      "aiGeneration": {
+        "title": "Posso usar IA para gerar vocabulário?",
+        "intro": "Sim! Toque no botão \"Sugestões de IA\" ao criar um conjunto:",
+        "steps": [
+          "Digite um tema (ex: \"vocabulário de restaurante\", \"frases de viagem\")",
+          "Escolha quantas palavras você quer (até 20)",
+          "Revise as sugestões geradas pela IA",
+          "Selecione as palavras que deseja adicionar",
+          "Edite ou personalize conforme necessário"
+        ]
+      },
+      "bulkImport": {
+        "title": "Posso importar palavras em massa?",
+        "intro": "Sim! Toque em \"Importar em Massa\" ao criar um conjunto. Opções de formato:",
+        "formats": [
+          { "name": "Opção 1: Separado por tab", "example": "word[TAB]translation\nhola[TAB]hello\nadiós[TAB]goodbye" },
+          { "name": "Opção 2: Separado por hífen", "example": "word - translation\nhola - hello\nadiós - goodbye" },
+          { "name": "Opção 3: Separado por igual", "example": "word = translation\nhola = hello\nadiós = goodbye" }
+        ]
+      },
+      "editSet": {
+        "title": "Como edito um conjunto de vocabulário?",
+        "steps": [
+          "Vá para Meus Conjuntos (aba inferior)",
+          "Toque no conjunto que deseja editar",
+          "Toque no ícone de edição (lápis) no canto superior direito",
+          "Faça suas alterações",
+          "Toque em \"Salvar\""
+        ]
+      },
+      "deleteSet": {
+        "title": "Como excluo um conjunto de vocabulário?",
+        "steps": [
+          "Vá para Meus Conjuntos",
+          "Toque no conjunto que deseja excluir",
+          "Toque no ícone de menu (três pontos)",
+          "Selecione \"Excluir Conjunto\"",
+          "Confirme a exclusão"
+        ],
+        "warning": "Atenção: Esta ação não pode ser desfeita!"
+      },
+      "differentLanguages": {
+        "title": "Posso usar idiomas diferentes para conjuntos diferentes?",
+        "intro": "Sim! Por padrão, os conjuntos usam suas preferências globais de idioma, mas você pode personalizar por conjunto:",
+        "steps": [
+          "Ao criar/editar um conjunto, toque em \"Substituir Idioma\"",
+          "Selecione idiomas personalizados para este conjunto específico",
+          "Essas configurações afetam apenas este conjunto"
+        ]
+      }
+    },
+    "gameModes": {
+      "title": "Modos de Jogo",
+      "available": {
+        "title": "Quais modos de jogo estão disponíveis?",
+        "intro": "O Exquizite oferece 4 modos de aprendizado interativos:",
+        "modes": [
+          { "bold": "Flashcards", "text": "Cartões clássicos de virar para testar sua memória" },
+          { "bold": "Quiz", "text": "Perguntas de múltipla escolha para reforçar o aprendizado" },
+          { "bold": "Combinar", "text": "Encontre pares de palavras correspondentes contra o relógio" },
+          { "bold": "Preencher Lacunas", "text": "Complete frases com as palavras corretas" }
+        ]
+      },
+      "howToPlay": {
+        "title": "Como jogo um modo de jogo?",
+        "steps": [
+          "Vá para Meus Conjuntos ou Início",
+          "Toque em um conjunto de vocabulário",
+          "Escolha um modo de jogo no menu",
+          "Siga as instruções na tela",
+          "Complete o jogo para acompanhar seu progresso!"
+        ]
+      },
+      "modeDetails": [
+        {
+          "title": "Modo Flashcard",
+          "items": [
+            "Toque no cartão para virar entre a palavra e a tradução",
+            "Use os botões \"Anterior\" e \"Próximo\" para navegar",
+            "A barra de progresso mostra sua posição no conjunto",
+            "A prática é registrada automaticamente ao completar o conjunto"
+          ]
+        },
+        {
+          "title": "Modo Quiz",
+          "items": [
+            "Escolha entre 4 respostas de múltipla escolha (A, B, C, D)",
+            "Toque em uma resposta para verificar se está correta",
+            "Marca verde = Correto!",
+            "X vermelho = Tente novamente ou pule",
+            "Pular avança para a próxima pergunta sem pontuar",
+            "Veja sua pontuação final no término"
+          ]
+        },
+        {
+          "title": "Modo Combinar",
+          "items": [
+            "Encontre pares de palavra-tradução correspondentes",
+            "Toque em dois cartões para verificar se combinam",
+            "Combine todos os pares o mais rápido possível",
+            "Supere seu melhor tempo!"
+          ]
+        },
+        {
+          "title": "Modo Preencher Lacunas",
+          "items": [
+            "Leia a frase de exemplo",
+            "Digite a palavra que falta",
+            "Use a dica se precisar de ajuda",
+            "Envie sua resposta para verificar se está correta"
+          ]
+        }
+      ],
+      "replay": {
+        "title": "Posso repetir um modo de jogo?",
+        "content": "Sim! Você pode praticar qualquer conjunto quantas vezes quiser. A data de \"Última Prática\" é atualizada cada vez que você completa uma sessão."
+      }
+    },
+    "sharingSets": {
+      "title": "Compartilhando Conjuntos",
+      "howToShare": {
+        "title": "Como compartilho um conjunto de vocabulário?",
+        "steps": [
+          "Abra o conjunto que deseja compartilhar",
+          "Toque no ícone de compartilhar (ou menu > Compartilhar)",
+          "Um código de compartilhamento único é gerado (ex: ABC123XYZ)",
+          "Compartilhe o código via mensagem, e-mail ou redes sociais"
+        ]
+      },
+      "useShared": {
+        "title": "Como uso um conjunto compartilhado?",
+        "steps": [
+          "Toque na busca da tela inicial ou na opção \"Inserir Código de Compartilhamento\"",
+          "Digite o código de compartilhamento (ex: ABC123XYZ)",
+          "Visualize o conjunto",
+          "Toque em \"Copiar para Meus Conjuntos\"",
+          "Opcionalmente renomeie o conjunto",
+          "O conjunto agora está na sua biblioteca!"
+        ]
+      },
+      "viewStats": {
+        "title": "Posso ver quem visualizou ou copiou meu conjunto compartilhado?",
+        "intro": "Sim! Ao visualizar um conjunto compartilhado, você pode ver:",
+        "items": [
+          { "bold": "Contagem de visualizações", "text": "Quantas vezes foi visualizado" },
+          { "bold": "Contagem de cópias", "text": "Quantos usuários copiaram" }
+        ],
+        "note": "Você não pode ver nomes ou e-mails de usuários individuais (proteção de privacidade)."
+      },
+      "stopSharing": {
+        "title": "Posso parar de compartilhar um conjunto?",
+        "intro": "Sim! Para revogar o compartilhamento:",
+        "steps": [
+          "Abra o conjunto compartilhado",
+          "Toque no ícone de menu",
+          "Selecione \"Parar de Compartilhar\" ou \"Excluir Código de Compartilhamento\"",
+          "O código de compartilhamento não funcionará mais"
+        ],
+        "note": "Cópias existentes nas bibliotecas de outros usuários permanecem (eles são donos de suas cópias)."
+      },
+      "autoUpdate": {
+        "title": "Conjuntos compartilhados atualizam automaticamente?",
+        "content": "Não. Quando alguém copia seu conjunto compartilhado, recebe um instantâneo daquele momento. Se você editar seu conjunto original depois, a cópia dele não será atualizada automaticamente."
+      }
+    },
+    "settingsPreferences": {
+      "title": "Configurações e Preferências",
+      "appLanguage": {
+        "title": "Como mudo o idioma do app (interface)?",
+        "intro": "O Exquizite suporta mais de 45 idiomas para a interface:",
+        "steps": [
+          "Vá para Configurações",
+          "Toque em \"Idioma do App\"",
+          "Selecione seu idioma preferido",
+          "O app será recarregado com o novo idioma"
+        ],
+        "note": "Idiomas Suportados: Inglês, Espanhol, Francês, Alemão, Italiano, Português, Japonês, Coreano, Chinês, Árabe, Hebraico e mais de 35 outros!"
+      },
+      "learningLanguages": {
+        "title": "Como mudo meus idiomas de aprendizado?",
+        "steps": [
+          "Vá para Perfil",
+          "Toque em \"Preferências de Idioma\"",
+          "Selecione seu Idioma de Aprendizado (idioma que está estudando)",
+          "Selecione seu Idioma Nativo (idioma que você conhece)",
+          "Salve as alterações"
+        ],
+        "note": "Nota: Isso afeta novos conjuntos. Conjuntos existentes mantêm seus idiomas originais, a menos que você os edite individualmente."
+      },
+      "darkMode": {
+        "title": "Como ativo o Modo Escuro?",
+        "steps": [
+          "Vá para Configurações",
+          "Ative/desative \"Modo Escuro\""
+        ],
+        "note": "O modo escuro é mais confortável para os olhos em ambientes com pouca luz e pode economizar bateria em telas OLED."
+      },
+      "tour": {
+        "title": "O que é o Tour Inicial?",
+        "intro": "Ao usar o Exquizite pela primeira vez, um tour interativo guia você pelos principais recursos. Para reiniciar o tour:",
+        "steps": [
+          "Vá para Configurações",
+          "Toque em \"Reiniciar Tour\"",
+          "Siga as instruções na tela"
+        ]
+      }
+    },
+    "troubleshooting": {
+      "title": "Solução de Problemas",
+      "syncIssue": {
+        "title": "Meus conjuntos não estão sincronizando entre dispositivos",
+        "accountSteps": {
+          "label": "Para Usuários com Conta:",
+          "steps": [
+            "Certifique-se de estar logado na mesma conta em todos os dispositivos",
+            "Verifique sua conexão com a internet",
+            "Tente sair e entrar novamente",
+            "Puxe para baixo para atualizar na tela Meus Conjuntos"
+          ]
+        },
+        "guestNote": "Para Usuários Visitantes: Dados do Modo Visitante são armazenados apenas localmente e NÃO sincronizam. Crie uma conta para ativar a sincronização."
+      },
+      "crashing": {
+        "title": "O app está travando ou congelando",
+        "intro": "Tente estes passos:",
+        "steps": [
+          "Force o fechamento do app e reabra",
+          "Reinicie seu dispositivo",
+          "Verifique atualizações na App Store/Play Store",
+          "Limpe o cache do app (Configurações > Apps > Exquizite > Limpar Cache no Android)",
+          "Reinstale o app (Atenção: Dados do Modo Visitante serão perdidos!)"
+        ],
+        "note": "Se o problema persistir, entre em contato conosco em viacheslav@exquizite.app informando modelo do dispositivo, versão do SO, versão do app e descrição do problema."
+      },
+      "aiNotWorking": {
+        "title": "Sugestões de IA não estão funcionando",
+        "intro": "Se os recursos de IA falharem:",
+        "steps": [
+          "Verifique sua conexão com a internet",
+          "Tente novamente em alguns minutos (problema temporário no servidor)",
+          "Use um tema/tópico diferente",
+          "Adicione palavras manualmente como alternativa"
+        ]
+      },
+      "sharedSetNotFound": {
+        "title": "Não consigo encontrar um conjunto compartilhado com o código",
+        "intro": "Problemas comuns:",
+        "items": [
+          { "bold": "Código expirado", "text": "Alguns códigos de compartilhamento têm data de validade" },
+          { "bold": "Código excluído", "text": "O criador parou de compartilhar o conjunto" },
+          { "bold": "Erro de digitação", "text": "Verifique o código com atenção (códigos diferenciam maiúsculas e minúsculas)" },
+          { "bold": "Conexão com internet", "text": "Certifique-se de estar online" }
+        ]
+      },
+      "wrongLanguage": {
+        "title": "O app está no idioma errado",
+        "steps": [
+          "Vá para Configurações (procure o ícone de engrenagem)",
+          "Encontre a opção de idioma (mesmo que o texto esteja ilegível, geralmente fica perto do topo)",
+          "Selecione seu idioma",
+          "O app será recarregado"
+        ]
+      },
+      "lostSets": {
+        "title": "Perdi meus conjuntos de vocabulário (Modo Visitante)",
+        "content": "Infelizmente, dados do Modo Visitante são armazenados apenas localmente. Se você desinstalou o app, limpou os dados ou resetou o dispositivo, os dados não podem ser recuperados.",
+        "recommendation": "Recomendamos fortemente criar uma conta para ativar o backup em nuvem e sincronização."
+      },
+      "keyboardIssue": {
+        "title": "O teclado cobre o campo de entrada",
+        "intro": "Este é um problema conhecido em alguns dispositivos. Tente:",
+        "steps": [
+          "Tocar fora do campo de entrada e focar novamente",
+          "Girar o dispositivo para o modo paisagem",
+          "Rolar a tela manualmente",
+          "Usar um teclado externo (tablets/desktops)"
+        ],
+        "note": "Estamos trabalhando em uma correção na próxima atualização!"
+      }
+    },
+    "privacyData": {
+      "title": "Privacidade e Dados",
+      "isSecure": {
+        "title": "Meus dados estão seguros?",
+        "intro": "Sim! Levamos a segurança a sério:",
+        "items": [
+          "Todos os dados são criptografados em trânsito (HTTPS/TLS)",
+          "Senhas são hasheadas e nunca armazenadas em texto simples",
+          "Dados em nuvem são armazenados em servidores seguros do Supabase (infraestrutura AWS)",
+          "Segurança em Nível de Linha garante que você só acesse seus próprios dados"
+        ]
+      },
+      "whatCollected": {
+        "title": "Quais dados vocês coletam?",
+        "collected": [
+          { "bold": "Usuários com conta", "text": "E-mail, ID do usuário, conjuntos de vocabulário, histórico de prática, preferências de idioma" },
+          { "bold": "Usuários visitantes", "text": "Conjuntos de vocabulário armazenados apenas localmente (sem dados em nuvem)" },
+          { "bold": "Análises", "text": "Estatísticas de uso anônimas para melhorar o app" }
+        ],
+        "notCollectedIntro": "NÃO coletamos:",
+        "notCollected": [
+          "Dados de localização",
+          "Listas de contatos",
+          "Fotos ou mídia (a menos que você escolha compartilhar)",
+          "Histórico de navegação fora do app"
+        ]
+      },
+      "thirdPartySharing": {
+        "title": "Vocês compartilham meus dados com terceiros?",
+        "intro": "Não, NÃO vendemos nem alugamos seus dados. Usamos serviços confiáveis:",
+        "services": [
+          { "bold": "Supabase", "text": "Banco de dados em nuvem e autenticação" },
+          { "bold": "OpenAI", "text": "Geração de vocabulário com IA (apenas nomes de temas são enviados, NÃO seus dados pessoais)" },
+          { "bold": "Expo", "text": "Infraestrutura do app (relatórios mínimos de falhas)" }
+        ]
+      },
+      "downloadData": {
+        "title": "Como baixo meus dados?",
+        "intro": "Para solicitar uma cópia dos seus dados:",
+        "steps": [
+          "Envie e-mail para viacheslav@exquizite.app com assunto \"Data Export Request\"",
+          "Inclua seu endereço de e-mail cadastrado",
+          "Enviaremos um arquivo com todos os seus conjuntos de vocabulário e informações da conta em até 7 dias úteis"
+        ]
+      },
+      "deleteAccountData": {
+        "title": "Como excluo minha conta e dados?",
+        "label": "Exclusão Permanente:",
+        "steps": [
+          "Envie e-mail para viacheslav@exquizite.app com assunto \"Data Deletion Request\"",
+          "Inclua seu endereço de e-mail cadastrado",
+          "Confirmaremos sua identidade e excluiremos todos os dados em até 30 dias"
+        ],
+        "importantNotes": [
+          "A exclusão é permanente e não pode ser desfeita",
+          "Conjuntos compartilhados copiados por outros usuários permanecem em suas bibliotecas (eles são donos de suas cópias)",
+          "Alguns dados podem ser retidos por motivos legais/de segurança (ex: prevenção de fraudes)"
+        ],
+        "comingSoon": "Em breve: Exclusão de conta no app (Configurações > Conta > Excluir Conta)"
+      }
+    },
+    "contactUs": {
+      "title": "Fale Conosco",
+      "categories": [
+        {
+          "title": "Suporte Geral",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "Em até 2-3 dias úteis"
+        },
+        {
+          "title": "Solicitações de Privacidade e Dados",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "Em até 7 dias úteis"
+        },
+        {
+          "title": "Relatórios de Bugs e Solicitações de Recursos",
+          "email": "viacheslav@exquizite.app",
+          "subject": "\"Bug Report\" ou \"Feature Request\"",
+          "includeItems": [
+            "Modelo do dispositivo e versão do SO (ex: iPhone 14, iOS 17.2)",
+            "Versão do app (encontrada em Configurações > Sobre)",
+            "Passos para reproduzir o problema",
+            "Capturas de tela, se aplicável"
+          ]
+        }
+      ]
+    },
+    "supportFaq": {
+      "title": "Perguntas Frequentes",
+      "items": [
+        {
+          "q": "O Exquizite é gratuito?",
+          "a": "Sim! O Exquizite é completamente gratuito, sem anúncios ou compras no app. Todos os recursos estão disponíveis para todos os usuários."
+        },
+        {
+          "q": "Em quais plataformas o Exquizite está disponível?",
+          "a": "iOS: iPhone e iPad (iOS 13+), Android: Smartphones e tablets (Android 6.0+), Web: app.exquizite.com (em breve)"
+        },
+        {
+          "q": "Posso aprender vários idiomas ao mesmo tempo?",
+          "a": "Sim! Você pode criar conjuntos para diferentes pares de idiomas. Sua preferência global de idioma é apenas um padrão; cada conjunto pode ter seus próprios idiomas."
+        },
+        {
+          "q": "Posso usar o Exquizite offline?",
+          "a": "Modo Visitante: Sim, totalmente offline após o download inicial. Com Conta: Requer internet para sincronização inicial, depois acesso offline limitado (apenas dados em cache). Estamos trabalhando no modo offline completo com sincronização para usuários com conta!"
+        },
+        {
+          "q": "O Exquizite será sempre gratuito?",
+          "a": "Sim! Nossa missão principal é tornar o aprendizado de idiomas acessível a todos. Podemos introduzir recursos premium opcionais no futuro, mas o app principal será sempre gratuito."
+        }
+      ]
+    },
+    "learningTips": {
+      "title": "Dicas para um Aprendizado Eficaz",
+      "tips": [
+        {
+          "title": "Crie Conjuntos Focados",
+          "content": "Em vez de um único conjunto gigante de \"Espanhol\", crie conjuntos temáticos como \"Comida Espanhola\", \"Frases de Viagem\", etc."
+        },
+        {
+          "title": "Pratique Regularmente",
+          "content": "Prática consistente é melhor que estudar tudo de uma vez. Revise cada conjunto pelo menos uma vez por semana."
+        },
+        {
+          "title": "Use Múltiplos Modos de Jogo",
+          "content": "Cada modo reforça o aprendizado de forma diferente - alterne entre eles para melhores resultados!"
+        }
+      ]
+    }
+  }
+}

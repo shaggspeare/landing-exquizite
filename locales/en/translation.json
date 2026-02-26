@@ -1,0 +1,966 @@
+{
+  "navbar": {
+    "brandName": "Exquizite",
+    "links": {
+      "features": "Features",
+      "howItWorks": "How it Works",
+      "stories": "Stories",
+      "pricing": "Pricing",
+      "getApp": "Get App",
+      "downloadApp": "Download App"
+    }
+  },
+  "hero": {
+    "badge": "Now available on iOS and Web",
+    "titleLine1": "Master Learning",
+    "titleLine2": "Through Smart Practice",
+    "subtitle": "Create custom word sets, play engaging games, and accelerate your language learning journey with AI-powered tools.",
+    "appStoreButton": "Download on App Store",
+    "webAppButton": "Try Web App",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "images": {
+      "quiz": { "src": "/images/quiz.PNG", "alt": "Exquizite App Quiz Mode" },
+      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Learning Modes Screen" },
+      "mySets": { "src": "/images/my-sets.PNG", "alt": "My Sets Screen" }
+    }
+  },
+  "bentoFeatures": {
+    "sectionLabel": "Features & Highlights",
+    "sectionTitle": "Everything you need to master a language",
+    "sectionSubtitle": "From smart AI generation to engaging game modes, Exquizite is packed with tools to help you learn faster.",
+    "tiles": {
+      "learnYourWay": {
+        "title": "Learn Your Way",
+        "description": "Choose from 4 interactive learning modes that match your unique learning style.",
+        "modes": ["Flash Cards", "Match Game", "Quiz Mode", "Fill Blanks"]
+      },
+      "aiPowered": {
+        "title": "AI-Powered",
+        "description": "Generate word pairs instantly and get smart hints.",
+        "image": { "src": "/images/ai-generation.PNG", "alt": "AI Generated Words" }
+      },
+      "languages": {
+        "title": "40+ Languages",
+        "description": "Full interface localization and native language support.",
+        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇷🇺 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+      },
+      "nativeIos": {
+        "title": "Native iOS",
+        "description": "Get and app to learn on the go."
+      },
+      "shareDiscover": {
+        "title": "Share & Discover",
+        "description": "Create shareable links to your word sets or copy community sets to your collection. Track views and engagement.",
+        "recentShares": "Recent Shares",
+        "viewAll": "View All",
+        "shares": [
+          { "initials": "FR", "name": "French Basics", "wordCount": "24 words" },
+          { "initials": "ES", "name": "Spanish Kitchen", "wordCount": "12 words" }
+        ]
+      },
+      "seamlessSync": {
+        "title": "Seamless Sync",
+        "description": "Start on iPhone, continue on Web. Progress follows you."
+      }
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "How It Works",
+    "sectionSubtitle": "Start your learning journey in four simple steps",
+    "steps": [
+      {
+        "title": "1. Create Sets",
+        "desc": "Build vocabulary lists or use AI to generate words for any topic instantly."
+      },
+      {
+        "title": "2. Choose Game",
+        "desc": "Pick from 4 engaging game modes that make learning feel like play."
+      },
+      {
+        "title": "3. Track Progress",
+        "desc": "Monitor your streak, mastery levels, and history on your dashboard."
+      },
+      {
+        "title": "4. Share & Learn",
+        "desc": "Share your best sets with friends or discover community content."
+      }
+    ]
+  },
+  "whyUs": {
+    "sectionTitle": "Why Exquizite?",
+    "sectionSubtitle": "We built Exquizite to remove the friction from language learning. Whether you are a casual learner or a polyglot, our platform adapts to you.",
+    "points": [
+      {
+        "title": "Start in Seconds",
+        "description": "Try guest mode instantly. No signup required until you want to sync."
+      },
+      {
+        "title": "Truly Multilingual",
+        "description": "Interface available in multiple languages. Learn in your comfort zone."
+      },
+      {
+        "title": "Privacy-First",
+        "description": "Your data is securely stored via Supabase. You are always in control."
+      },
+      {
+        "title": "Modern & Fast",
+        "description": "Built with modern technology for smooth performance on every platform."
+      }
+    ],
+    "image": { "src": "/images/my-sets.PNG", "alt": "Exquizite Match Mode" }
+  },
+  "testimonials": {
+    "sectionTitle": "Loved by Learners",
+    "items": [
+      {
+        "quote": "The AI word generation saved me hours creating vocabulary lists for my Spanish class. It's incredibly accurate.",
+        "author": "Sarah J.",
+        "role": "Language Student"
+      },
+      {
+        "quote": "Finally, a language app that works the same on my phone and computer! The sync is flawless.",
+        "author": "Michael C.",
+        "role": "Digital Nomad"
+      },
+      {
+        "quote": "The match game makes studying feel like fun. My kids love it too! It's become a daily family activity.",
+        "author": "Elena R.",
+        "role": "Parent & Teacher"
+      }
+    ]
+  },
+  "screenshotGallery": {
+    "sectionTitle": "Experience the App",
+    "sectionSubtitle": "Take a closer look at our interactive learning modes.",
+    "screenshots": [
+      { "src": "/images/ai-generation.PNG", "alt": "AI Word Generation" },
+      { "src": "/images/added-words.PNG", "alt": "Added Words" },
+      { "src": "/images/learning-modes.PNG", "alt": "Learning Modes" },
+      { "src": "/images/my-sets.PNG", "alt": "My Sets" },
+      { "src": "/images/match-mode.PNG", "alt": "Match Game" },
+      { "src": "/images/quiz.PNG", "alt": "Quiz Mode" },
+      { "src": "/images/fill-in-blank.PNG", "alt": "Fill in the Blank" }
+    ]
+  },
+  "pricing": {
+    "sectionTitle": "Simple, Transparent Pricing",
+    "sectionSubtitle": "Education should be accessible to everyone.",
+    "planName": "Free Forever",
+    "planDescription": "Everything you need to master a language.",
+    "price": "$0",
+    "period": "/month",
+    "features": [
+      "Unlimited word sets",
+      "Access all 4 game modes",
+      "AI word generation",
+      "Share your sets",
+      "Cross-platform sync"
+    ],
+    "ctaButton": "Get Started for Free"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      { "q": "Do I need an account to use Exquizite?", "a": "No! Start learning immediately with guest mode. Create an account later to sync across devices." },
+      { "q": "How many languages are supported?", "a": "Over 40 languages for both learning content and app interface." },
+      { "q": "Does the app work offline?", "a": "Yes, the iOS app supports offline access to your downloaded word sets." },
+      { "q": "Can I use Exquizite on my computer?", "a": "Absolutely! The web app offers a desktop-optimized experience." },
+      { "q": "Is my data secure?", "a": "Yes, all data is securely stored and synced via Supabase with industry-standard encryption." },
+      { "q": "Can I share my word sets?", "a": "Yes! Generate a shareable link for any set. Others can view and copy it to their collection." }
+    ]
+  },
+  "downloadCTA": {
+    "title": "Start Learning Today",
+    "subtitle": "Join thousands of learners mastering new languages with Exquizite. Download now or try it in your browser.",
+    "iosButton": "Download for iOS",
+    "webButton": "Launch Web App",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "disclaimer": "No credit card required for free tier."
+  },
+  "footer": {
+    "brandName": "Exquizite",
+    "brandDescription": "Master languages through smart, interactive practice. Built for learners, by learners.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": [
+          { "label": "Features", "href": "#features" },
+          { "label": "How It Works", "href": "#how-it-works" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "Download", "href": "#download" }
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "links": [
+          { "label": "Help & Support", "to": "/support" },
+          { "label": "Contact", "href": "mailto:viacheslav@exquizite.app" },
+          { "label": "Privacy Policy", "to": "/privacy-policy" }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": [
+          { "label": "Terms of Service", "href": "#" },
+          { "label": "Cookie Policy", "href": "#" }
+        ]
+      }
+    },
+    "copyright": "© 2025 Exquizite. Master languages, your way."
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy for Exquizite",
+    "lastUpdated": "Last Updated: February 7, 2026",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Welcome to Exquizite, a language learning application. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and web services (collectively, the \"App\"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the App."
+      },
+      {
+        "title": "Information We Collect",
+        "subsections": [
+          {
+            "title": "Personal Information",
+            "intro": "When you create an account with Exquizite, we collect:",
+            "items": [
+              { "bold": "Email Address", "text": "Used for account creation, authentication, and communication" },
+              { "bold": "User ID", "text": "A unique identifier automatically generated for authentication and data association" },
+              { "bold": "Password", "text": "Stored securely using industry-standard encryption (we never store passwords in plain text)" }
+            ]
+          },
+          {
+            "title": "User-Generated Content",
+            "items": [
+              { "bold": "Vocabulary Sets", "text": "Word pairs, translations, set names, and learning preferences you create" },
+              { "bold": "Language Preferences", "text": "Your chosen target and native languages for learning" },
+              { "bold": "Practice History", "text": "Information about when you last practiced a set and your progress" },
+              { "bold": "App Settings", "text": "Theme preferences, UI language, and other customization settings" }
+            ]
+          },
+          {
+            "title": "Automatically Collected Information",
+            "items": [
+              { "bold": "Usage Data", "text": "Information about how you interact with the App, including game modes played and features used" },
+              { "bold": "Device Information", "text": "Device type, operating system, and app version for troubleshooting and compatibility" },
+              { "bold": "Anonymous Analytics", "text": "Aggregated, non-personally identifiable usage statistics to improve the App" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Guest Mode",
+        "intro": "If you use the App without creating an account (Guest Mode):",
+        "items": [
+          "No email address or personal information is collected",
+          "Your vocabulary sets are stored locally on your device only",
+          "Data is not synchronized across devices",
+          "Data may be lost if you uninstall the App or clear app data"
+        ]
+      },
+      {
+        "title": "How We Use Your Information",
+        "intro": "We use the information we collect to:",
+        "items": [
+          { "bold": "Provide Services", "text": "Enable account creation, data synchronization, and app functionality" },
+          { "bold": "Improve User Experience", "text": "Personalize your learning experience and remember your preferences" },
+          { "bold": "Generate AI Content", "text": "Use OpenAI's API to generate vocabulary suggestions and example sentences based on themes you provide" },
+          { "bold": "Maintain Security", "text": "Authenticate users and protect against unauthorized access" },
+          { "bold": "Communicate", "text": "Send important updates about the App (we do not send marketing emails without your consent)" },
+          { "bold": "Troubleshoot", "text": "Diagnose technical issues and improve app performance" }
+        ]
+      },
+      {
+        "title": "Data Storage and Security",
+        "subsections": [
+          {
+            "title": "Storage Location",
+            "intro": "Your data is stored securely using Supabase, a cloud-based database service:",
+            "items": [
+              { "bold": "Location", "text": "Data is hosted on secure servers managed by Supabase (powered by AWS infrastructure)" },
+              { "bold": "Encryption", "text": "All data is encrypted in transit using HTTPS/TLS protocols" },
+              { "bold": "Access Control", "text": "Row-Level Security (RLS) policies ensure you can only access your own data" },
+              { "bold": "Backups", "text": "Regular automated backups to prevent data loss" }
+            ]
+          },
+          {
+            "title": "Security Measures",
+            "intro": "We implement industry-standard security measures including:",
+            "items": [
+              "Secure authentication using JWT tokens",
+              "Password hashing using bcrypt or similar algorithms",
+              "HTTPS encryption for all data transmission",
+              "Access logging and monitoring for suspicious activity"
+            ],
+            "note": "However, no method of transmission over the Internet or electronic storage is 100% secure. While we strive to protect your data, we cannot guarantee absolute security."
+          }
+        ]
+      },
+      {
+        "title": "Third-Party Services",
+        "subsections": [
+          {
+            "title": "Supabase (Database and Authentication)",
+            "intro": "We use Supabase to store and manage user data:",
+            "items": [
+              { "bold": "Purpose", "text": "Cloud database, user authentication, and data synchronization" },
+              { "bold": "Data Shared", "text": "Email, user ID, vocabulary sets, practice history" }
+            ],
+            "privacyUrl": "https://supabase.com/privacy"
+          },
+          {
+            "title": "OpenAI API (AI-Powered Features)",
+            "intro": "We use OpenAI's API to generate vocabulary suggestions and example sentences:",
+            "items": [
+              { "bold": "Purpose", "text": "AI-powered content generation for learning materials" },
+              { "bold": "Data Shared", "text": "ONLY the themes or topics you request (e.g., \"food\", \"travel\")" },
+              { "bold": "Important", "text": "We do NOT send your personal information, email, user ID, or existing vocabulary sets to OpenAI" },
+              { "bold": "Data Usage", "text": "OpenAI processes requests transiently and does not use your data for model training (as per our API agreement)" }
+            ],
+            "privacyUrl": "https://openai.com/privacy"
+          },
+          {
+            "title": "Expo (Development Platform)",
+            "intro": "We use Expo for app development and deployment:",
+            "items": [
+              { "bold": "Purpose", "text": "App infrastructure and updates" },
+              { "bold": "Data Shared", "text": "Minimal crash reports and anonymous usage statistics" }
+            ],
+            "privacyUrl": "https://expo.dev/privacy"
+          }
+        ]
+      },
+      {
+        "title": "Data Sharing and Disclosure",
+        "intro": "We do NOT sell, rent, or trade your personal information to third parties.",
+        "intro2": "We may share your information only in the following circumstances:",
+        "items": [
+          { "bold": "With Your Consent", "text": "When you explicitly choose to share vocabulary sets with other users" },
+          { "bold": "Service Providers", "text": "With trusted third-party services (Supabase, OpenAI) as described above" },
+          { "bold": "Legal Requirements", "text": "If required by law, court order, or government regulation" },
+          { "bold": "Business Transfers", "text": "In the event of a merger, acquisition, or sale of assets (you will be notified)" },
+          { "bold": "Safety and Security", "text": "To protect the rights, property, or safety of Exquizite, our users, or others" }
+        ]
+      },
+      {
+        "title": "Shared Vocabulary Sets",
+        "intro": "When you choose to share a vocabulary set:",
+        "items": [
+          "A unique share code is generated",
+          "Anyone with the share code can view and copy the set",
+          "Your email and personal information are NOT included in shared sets",
+          "You can view how many times your set has been viewed and copied",
+          "You can stop sharing a set at any time by deleting the share code"
+        ]
+      },
+      {
+        "title": "Your Rights and Choices",
+        "intro": "You have the following rights regarding your data:",
+        "rights": [
+          {
+            "title": "Access Your Data",
+            "description": "You can view all your vocabulary sets and account information within the App"
+          },
+          {
+            "title": "Modify Your Data",
+            "description": "Edit or update your vocabulary sets, language preferences, and app settings at any time"
+          },
+          {
+            "title": "Delete Your Data",
+            "description": "You can request complete deletion of your account and all associated data:",
+            "steps": [
+              { "bold": "In-App Deletion", "text": "(coming soon): Navigate to Settings > Account > Delete Account" },
+              {
+                "bold": "Email Request",
+                "text": "Contact us at viacheslav@exquizite.app with the subject \"Data Deletion Request\"",
+                "subItems": [
+                  "Include your registered email address",
+                  "We will confirm your identity and delete all data within 30 days",
+                  "Deletion is permanent and cannot be undone"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Export Your Data",
+            "description": "To request a copy of your data, contact us at viacheslav@exquizite.app with the subject \"Data Export Request\""
+          },
+          {
+            "title": "Guest Mode",
+            "description": "If you used Guest Mode, you can delete your local data by:",
+            "items": [
+              "Clearing the app's cache and data in your device settings",
+              "Uninstalling the App"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Children's Privacy",
+        "content": "Exquizite is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at viacheslav@exquizite.app, and we will delete such information immediately."
+      },
+      {
+        "title": "International Data Transfers",
+        "content": "Your data may be transferred to and stored on servers located outside your country of residence, including the United States. By using the App, you consent to the transfer of your data to countries that may have different data protection laws than your country."
+      },
+      {
+        "title": "Changes to This Privacy Policy",
+        "intro": "We may update this Privacy Policy from time to time. We will notify you of any changes by:",
+        "items": [
+          "Updating the \"Last Updated\" date at the top of this policy",
+          "Displaying an in-app notification for material changes",
+          "Sending an email notification (if you have an account)"
+        ],
+        "note": "Your continued use of the App after changes are posted constitutes your acceptance of the revised policy."
+      },
+      {
+        "title": "Data Retention",
+        "intro": "We retain your data for as long as your account is active or as needed to provide services. If you delete your account:",
+        "items": [
+          "Personal data is deleted within 30 days",
+          "Some data may be retained for legal or security purposes (e.g., to prevent fraud)",
+          "Shared vocabulary sets may remain accessible to users who previously copied them"
+        ]
+      },
+      {
+        "title": "Your Consent",
+        "content": "By using Exquizite, you consent to this Privacy Policy and agree to its terms."
+      },
+      {
+        "title": "Contact Us",
+        "intro": "If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:",
+        "contactInfo": {
+          "email": "viacheslav@exquizite.app",
+          "developer": "Exquizite Development Team",
+          "responseTime": "We aim to respond to all inquiries within 7 business days."
+        }
+      }
+    ],
+    "summary": {
+      "title": "Summary of Key Points",
+      "intro": "For your convenience, here's a quick summary:",
+      "items": [
+        { "label": "What we collect", "value": "Email, vocabulary sets you create, language preferences" },
+        { "label": "Why we collect it", "value": "To provide learning features, sync across devices, generate AI content" },
+        { "label": "Where it's stored", "value": "Supabase cloud servers (AWS-powered)" },
+        { "label": "Third parties", "value": "Supabase (database), OpenAI (AI generation - no personal data sent)" },
+        { "label": "Your rights", "value": "Access, modify, delete your data anytime" },
+        { "label": "Contact", "value": "viacheslav@exquizite.app" }
+      ],
+      "thankYou": "Thank you for trusting Exquizite with your language learning journey!"
+    }
+  },
+  "support": {
+    "title": "Exquizite Support",
+    "subtitle": "Welcome to Exquizite Support! Find answers to common questions and get help with the app.",
+    "contactEmail": "viacheslav@exquizite.app",
+    "lastUpdated": "Last updated: February 7, 2026",
+    "thankYou": "Thank you for using Exquizite! Happy learning!",
+    "toc": {
+      "title": "Table of Contents",
+      "items": [
+        { "id": "getting-started", "label": "Getting Started" },
+        { "id": "account-login", "label": "Account & Login" },
+        { "id": "creating-vocabulary-sets", "label": "Creating Vocabulary Sets" },
+        { "id": "game-modes", "label": "Game Modes" },
+        { "id": "sharing-sets", "label": "Sharing Sets" },
+        { "id": "settings-preferences", "label": "Settings & Preferences" },
+        { "id": "troubleshooting", "label": "Troubleshooting" },
+        { "id": "privacy-data", "label": "Privacy & Data" },
+        { "id": "contact-us", "label": "Contact Us" }
+      ]
+    },
+    "gettingStarted": {
+      "title": "Getting Started",
+      "whatIs": {
+        "title": "What is Exquizite?",
+        "content": "Exquizite is a language learning app that helps you master vocabulary through interactive games and flashcards. Create custom word sets, practice with fun game modes, and track your progress."
+      },
+      "needAccount": {
+        "title": "Do I need an account?",
+        "intro": "No! You can use Exquizite in two ways:",
+        "options": [
+          { "bold": "Guest Mode", "text": "Use the app without signing up. Your sets are saved locally on your device only." },
+          { "bold": "With Account", "text": "Sign up with email to sync your sets across all devices (iPhone, iPad, Android, Web)." }
+        ]
+      },
+      "howToStart": {
+        "title": "How do I get started?",
+        "steps": [
+          "Download Exquizite from the App Store or Google Play",
+          "Choose \"Continue as Guest\" or \"Sign Up\"",
+          "Select your learning language (e.g., Spanish) and native language (e.g., English)",
+          "Create your first vocabulary set",
+          "Start practicing!"
+        ]
+      }
+    },
+    "accountLogin": {
+      "title": "Account & Login",
+      "createAccount": {
+        "title": "How do I create an account?",
+        "steps": [
+          "Tap \"Sign Up\" on the login screen",
+          "Enter your email address and create a password",
+          "Tap \"Create Account\"",
+          "You'll be logged in automatically"
+        ]
+      },
+      "forgotPassword": {
+        "title": "I forgot my password. How do I reset it?",
+        "steps": [
+          "On the login screen, tap \"Forgot Password?\"",
+          "Enter your email address",
+          "Check your email for a password reset link",
+          "Follow the link to create a new password"
+        ]
+      },
+      "guestToAccount": {
+        "title": "Can I switch from Guest Mode to an account?",
+        "intro": "Currently, Guest Mode data cannot be automatically transferred to an account. To preserve your sets:",
+        "steps": [
+          "Share each set you want to keep (get the share code)",
+          "Create an account",
+          "Use the share codes to copy sets to your new account"
+        ],
+        "note": "We're working on a direct migration feature!"
+      },
+      "logout": {
+        "title": "How do I log out?",
+        "steps": [
+          "Go to Profile (bottom tab)",
+          "Scroll down and tap \"Sign Out\""
+        ]
+      },
+      "deleteAccount": {
+        "title": "How do I delete my account?",
+        "content": "See the Privacy & Data section below."
+      }
+    },
+    "creatingVocabularySets": {
+      "title": "Creating Vocabulary Sets",
+      "createNew": {
+        "title": "How do I create a new vocabulary set?",
+        "steps": [
+          "Tap the \"+\" button on the home screen",
+          "Enter a name for your set (e.g., \"Spanish Food\")",
+          "Add word pairs:\n  - Left column: Words in your learning language\n  - Right column: Translations in your native language",
+          "Tap \"Save\" when done"
+        ]
+      },
+      "wordLimit": {
+        "title": "How many words can I add to a set?",
+        "content": "Each set can contain up to 20 word pairs. This limit ensures optimal learning and performance."
+      },
+      "aiGeneration": {
+        "title": "Can I use AI to generate vocabulary?",
+        "intro": "Yes! Tap the \"AI Suggestions\" button when creating a set:",
+        "steps": [
+          "Enter a theme (e.g., \"restaurant vocabulary\", \"travel phrases\")",
+          "Choose how many words you want (up to 20)",
+          "Review the AI-generated suggestions",
+          "Select the words you want to add",
+          "Edit or customize as needed"
+        ]
+      },
+      "bulkImport": {
+        "title": "Can I import words in bulk?",
+        "intro": "Yes! Tap \"Bulk Import\" when creating a set. Format options:",
+        "formats": [
+          { "name": "Option 1: Tab-separated", "example": "word[TAB]translation\nhola[TAB]hello\nadiós[TAB]goodbye" },
+          { "name": "Option 2: Hyphen-separated", "example": "word - translation\nhola - hello\nadiós - goodbye" },
+          { "name": "Option 3: Equals-separated", "example": "word = translation\nhola = hello\nadiós = goodbye" }
+        ]
+      },
+      "editSet": {
+        "title": "How do I edit a vocabulary set?",
+        "steps": [
+          "Go to My Sets (bottom tab)",
+          "Tap the set you want to edit",
+          "Tap the edit icon (pencil) in the top right",
+          "Make your changes",
+          "Tap \"Save\""
+        ]
+      },
+      "deleteSet": {
+        "title": "How do I delete a vocabulary set?",
+        "steps": [
+          "Go to My Sets",
+          "Tap the set you want to delete",
+          "Tap the menu icon (three dots)",
+          "Select \"Delete Set\"",
+          "Confirm deletion"
+        ],
+        "warning": "Note: This action cannot be undone!"
+      },
+      "differentLanguages": {
+        "title": "Can I use different languages for different sets?",
+        "intro": "Yes! By default, sets use your global language preferences, but you can override this per set:",
+        "steps": [
+          "When creating/editing a set, tap \"Language Override\"",
+          "Select custom languages for this specific set",
+          "These settings only affect this one set"
+        ]
+      }
+    },
+    "gameModes": {
+      "title": "Game Modes",
+      "available": {
+        "title": "What game modes are available?",
+        "intro": "Exquizite offers 4 interactive learning modes:",
+        "modes": [
+          { "bold": "Flashcards", "text": "Classic flip cards to test your memory" },
+          { "bold": "Quiz", "text": "Multiple choice questions to reinforce learning" },
+          { "bold": "Match", "text": "Find matching word pairs against the clock" },
+          { "bold": "Fill in the Blank", "text": "Complete sentences with the correct words" }
+        ]
+      },
+      "howToPlay": {
+        "title": "How do I play a game mode?",
+        "steps": [
+          "Go to My Sets or Home",
+          "Tap a vocabulary set",
+          "Choose a game mode from the menu",
+          "Follow the on-screen instructions",
+          "Complete the game to track your progress!"
+        ]
+      },
+      "modeDetails": [
+        {
+          "title": "Flashcard Mode",
+          "items": [
+            "Tap the card to flip between word and translation",
+            "Use \"Previous\" and \"Next\" buttons to navigate",
+            "Progress bar shows your position in the set",
+            "Practice is automatically tracked when you complete the set"
+          ]
+        },
+        {
+          "title": "Quiz Mode",
+          "items": [
+            "Choose from 4 multiple-choice answers (A, B, C, D)",
+            "Tap an answer to check if it's correct",
+            "Green checkmark = Correct!",
+            "Red X = Try again or skip",
+            "Skip moves to the next question without scoring",
+            "See your final score at the end"
+          ]
+        },
+        {
+          "title": "Match Mode",
+          "items": [
+            "Find matching word-translation pairs",
+            "Tap two cards to check if they match",
+            "Match all pairs as quickly as possible",
+            "Beat your best time!"
+          ]
+        },
+        {
+          "title": "Fill in the Blank Mode",
+          "items": [
+            "Read the example sentence",
+            "Type the missing word",
+            "Use the hint if you need help",
+            "Submit your answer to check if it's correct"
+          ]
+        }
+      ],
+      "replay": {
+        "title": "Can I replay a game mode?",
+        "content": "Yes! You can practice any set as many times as you want. Your \"Last Practiced\" date updates each time you complete a session."
+      }
+    },
+    "sharingSets": {
+      "title": "Sharing Sets",
+      "howToShare": {
+        "title": "How do I share a vocabulary set?",
+        "steps": [
+          "Open the set you want to share",
+          "Tap the share icon (or menu > Share)",
+          "A unique share code is generated (e.g., ABC123XYZ)",
+          "Share the code via message, email, or social media"
+        ]
+      },
+      "useShared": {
+        "title": "How do I use a shared set?",
+        "steps": [
+          "Tap the home screen search or \"Enter Share Code\" option",
+          "Enter the share code (e.g., ABC123XYZ)",
+          "Preview the set",
+          "Tap \"Copy to My Sets\"",
+          "Optionally rename the set",
+          "The set is now in your library!"
+        ]
+      },
+      "viewStats": {
+        "title": "Can I see who viewed or copied my shared set?",
+        "intro": "Yes! When viewing a shared set, you can see:",
+        "items": [
+          { "bold": "View count", "text": "How many times it's been viewed" },
+          { "bold": "Copy count", "text": "How many users copied it" }
+        ],
+        "note": "You cannot see individual users' names or emails (privacy protection)."
+      },
+      "stopSharing": {
+        "title": "Can I stop sharing a set?",
+        "intro": "Yes! To revoke sharing:",
+        "steps": [
+          "Open the shared set",
+          "Tap the menu icon",
+          "Select \"Stop Sharing\" or \"Delete Share Code\"",
+          "The share code will no longer work"
+        ],
+        "note": "Existing copies in other users' libraries remain (they own their copies)."
+      },
+      "autoUpdate": {
+        "title": "Do shared sets update automatically?",
+        "content": "No. When someone copies your shared set, they get a snapshot at that moment. If you edit your original set later, their copy does not update automatically."
+      }
+    },
+    "settingsPreferences": {
+      "title": "Settings & Preferences",
+      "appLanguage": {
+        "title": "How do I change the app language (UI)?",
+        "intro": "Exquizite supports 45+ languages for the interface:",
+        "steps": [
+          "Go to Settings",
+          "Tap \"App Language\"",
+          "Select your preferred language",
+          "The app will reload with the new language"
+        ],
+        "note": "Supported Languages: English, Spanish, French, German, Italian, Portuguese, Japanese, Korean, Chinese, Arabic, Hebrew, and 35+ more!"
+      },
+      "learningLanguages": {
+        "title": "How do I change my learning languages?",
+        "steps": [
+          "Go to Profile",
+          "Tap \"Language Preferences\"",
+          "Select your Learning Language (language you're studying)",
+          "Select your Native Language (language you know)",
+          "Save changes"
+        ],
+        "note": "Note: This affects new sets. Existing sets keep their original languages unless you edit them individually."
+      },
+      "darkMode": {
+        "title": "How do I enable Dark Mode?",
+        "steps": [
+          "Go to Settings",
+          "Toggle \"Dark Mode\" on/off"
+        ],
+        "note": "Dark mode is easier on the eyes in low-light conditions and can save battery on OLED screens."
+      },
+      "tour": {
+        "title": "What is the First-Time Tour?",
+        "intro": "When you first use Exquizite, an interactive tour guides you through key features. To restart the tour:",
+        "steps": [
+          "Go to Settings",
+          "Tap \"Restart Tour\"",
+          "Follow the on-screen prompts"
+        ]
+      }
+    },
+    "troubleshooting": {
+      "title": "Troubleshooting",
+      "syncIssue": {
+        "title": "My sets aren't syncing across devices",
+        "accountSteps": {
+          "label": "For Account Users:",
+          "steps": [
+            "Make sure you're logged into the same account on all devices",
+            "Check your internet connection",
+            "Try logging out and back in",
+            "Pull down to refresh on the My Sets screen"
+          ]
+        },
+        "guestNote": "For Guest Users: Guest Mode data is stored locally only and does NOT sync. Create an account to enable sync."
+      },
+      "crashing": {
+        "title": "The app is crashing or freezing",
+        "intro": "Try these steps:",
+        "steps": [
+          "Force close the app and reopen it",
+          "Restart your device",
+          "Check for updates in the App Store/Play Store",
+          "Clear app cache (Settings > Apps > Exquizite > Clear Cache on Android)",
+          "Reinstall the app (Note: Guest Mode data will be lost!)"
+        ],
+        "note": "If the issue persists, contact us at viacheslav@exquizite.app with device model, OS version, app version, and description of the issue."
+      },
+      "aiNotWorking": {
+        "title": "AI suggestions aren't working",
+        "intro": "If AI-powered features fail:",
+        "steps": [
+          "Check your internet connection",
+          "Try again in a few minutes (temporary server issue)",
+          "Use a different theme/topic",
+          "Add words manually as a fallback"
+        ]
+      },
+      "sharedSetNotFound": {
+        "title": "I can't find a shared set with the code",
+        "intro": "Common issues:",
+        "items": [
+          { "bold": "Code expired", "text": "Some share codes have expiration dates" },
+          { "bold": "Code deleted", "text": "The creator stopped sharing the set" },
+          { "bold": "Typo", "text": "Double-check the code for accuracy (codes are case-sensitive)" },
+          { "bold": "Internet connection", "text": "Ensure you're online" }
+        ]
+      },
+      "wrongLanguage": {
+        "title": "The app is in the wrong language",
+        "steps": [
+          "Go to Settings (look for the gear icon)",
+          "Find the language option (even if text is unreadable, it's usually near the top)",
+          "Select your language",
+          "The app will reload"
+        ]
+      },
+      "lostSets": {
+        "title": "I lost my vocabulary sets (Guest Mode)",
+        "content": "Unfortunately, Guest Mode data is stored locally only. If you uninstalled the app, cleared app data, or reset your device, the data cannot be recovered.",
+        "recommendation": "We strongly recommend creating an account to enable cloud backup and sync."
+      },
+      "keyboardIssue": {
+        "title": "The keyboard covers the input field",
+        "intro": "This is a known issue on some devices. Try:",
+        "steps": [
+          "Tapping outside the input field and re-focusing",
+          "Rotating your device to landscape mode",
+          "Scrolling the screen manually",
+          "Using an external keyboard (tablets/desktops)"
+        ],
+        "note": "We're working on a fix in the next update!"
+      }
+    },
+    "privacyData": {
+      "title": "Privacy & Data",
+      "isSecure": {
+        "title": "Is my data secure?",
+        "intro": "Yes! We take security seriously:",
+        "items": [
+          "All data is encrypted in transit (HTTPS/TLS)",
+          "Passwords are hashed and never stored in plain text",
+          "Cloud data is stored on secure Supabase servers (AWS-powered)",
+          "Row-Level Security ensures you can only access your own data"
+        ]
+      },
+      "whatCollected": {
+        "title": "What data do you collect?",
+        "collected": [
+          { "bold": "Account users", "text": "Email, user ID, vocabulary sets, practice history, language preferences" },
+          { "bold": "Guest users", "text": "Vocabulary sets stored locally only (no cloud data)" },
+          { "bold": "Analytics", "text": "Anonymous usage statistics to improve the app" }
+        ],
+        "notCollectedIntro": "We do NOT collect:",
+        "notCollected": [
+          "Location data",
+          "Contact lists",
+          "Photos or media (unless you choose to share)",
+          "Browsing history outside the app"
+        ]
+      },
+      "thirdPartySharing": {
+        "title": "Do you share my data with third parties?",
+        "intro": "No, we do NOT sell or rent your data. We use trusted services:",
+        "services": [
+          { "bold": "Supabase", "text": "Cloud database and authentication" },
+          { "bold": "OpenAI", "text": "AI vocabulary generation (only theme names are sent, NOT your personal data)" },
+          { "bold": "Expo", "text": "App infrastructure (minimal crash reports)" }
+        ]
+      },
+      "downloadData": {
+        "title": "How do I download my data?",
+        "intro": "To request a copy of your data:",
+        "steps": [
+          "Email viacheslav@exquizite.app with subject \"Data Export Request\"",
+          "Include your registered email address",
+          "We'll send you a file with all your vocabulary sets and account info within 7 business days"
+        ]
+      },
+      "deleteAccountData": {
+        "title": "How do I delete my account and data?",
+        "label": "Permanent Deletion:",
+        "steps": [
+          "Email viacheslav@exquizite.app with subject \"Data Deletion Request\"",
+          "Include your registered email address",
+          "We'll confirm your identity and delete all data within 30 days"
+        ],
+        "importantNotes": [
+          "Deletion is permanent and cannot be undone",
+          "Shared sets copied by other users remain in their libraries (they own their copies)",
+          "Some data may be retained for legal/security purposes (e.g., fraud prevention)"
+        ],
+        "comingSoon": "Coming Soon: In-app account deletion (Settings > Account > Delete Account)"
+      }
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "categories": [
+        {
+          "title": "General Support",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "Within 2-3 business days"
+        },
+        {
+          "title": "Privacy & Data Requests",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "Within 7 business days"
+        },
+        {
+          "title": "Bug Reports & Feature Requests",
+          "email": "viacheslav@exquizite.app",
+          "subject": "\"Bug Report\" or \"Feature Request\"",
+          "includeItems": [
+            "Device model and OS version (e.g., iPhone 14, iOS 17.2)",
+            "App version (found in Settings > About)",
+            "Steps to reproduce the issue",
+            "Screenshots if applicable"
+          ]
+        }
+      ]
+    },
+    "supportFaq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Is Exquizite free?",
+          "a": "Yes! Exquizite is completely free to use with no ads or in-app purchases. All features are available to all users."
+        },
+        {
+          "q": "What platforms is Exquizite available on?",
+          "a": "iOS: iPhone and iPad (iOS 13+), Android: Phones and tablets (Android 6.0+), Web: app.exquizite.com (coming soon)"
+        },
+        {
+          "q": "Can I learn multiple languages at once?",
+          "a": "Yes! You can create sets for different language pairs. Your global language preference is just a default; each set can have its own languages."
+        },
+        {
+          "q": "Can I use Exquizite offline?",
+          "a": "Guest Mode: Yes, fully offline after initial download. With Account: Requires internet for initial sync, then limited offline access (cached data only). We're working on full offline mode with sync for account users!"
+        },
+        {
+          "q": "Will Exquizite always be free?",
+          "a": "Yes! Our core mission is to make language learning accessible to everyone. We may introduce optional premium features in the future, but the core app will always remain free."
+        }
+      ]
+    },
+    "learningTips": {
+      "title": "Tips for Effective Learning",
+      "tips": [
+        {
+          "title": "Create Focused Sets",
+          "content": "Instead of one giant \"Spanish\" set, create themed sets like \"Spanish Food\", \"Travel Phrases\", etc."
+        },
+        {
+          "title": "Practice Regularly",
+          "content": "Consistent practice beats cramming. Review each set at least once per week."
+        },
+        {
+          "title": "Use Multiple Game Modes",
+          "content": "Each mode reinforces learning differently - mix them up for best results!"
+        }
+      ]
+    }
+  }
+}

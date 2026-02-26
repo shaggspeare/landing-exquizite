@@ -1,0 +1,966 @@
+{
+  "navbar": {
+    "brandName": "Exquizite",
+    "links": {
+      "features": "Fitur",
+      "howItWorks": "Cara Kerja",
+      "stories": "Cerita",
+      "pricing": "Harga",
+      "getApp": "Dapatkan Aplikasi",
+      "downloadApp": "Unduh Aplikasi"
+    }
+  },
+  "hero": {
+    "badge": "Tersedia sekarang di iOS dan Web",
+    "titleLine1": "Kuasai Pembelajaran",
+    "titleLine2": "Melalui Latihan Cerdas",
+    "subtitle": "Buat set kata khusus, mainkan permainan yang menarik, dan percepat perjalanan belajar bahasamu dengan alat bertenaga AI.",
+    "appStoreButton": "Unduh di App Store",
+    "webAppButton": "Coba Aplikasi Web",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "images": {
+      "quiz": { "src": "/images/quiz.PNG", "alt": "Mode Kuis Aplikasi Exquizite" },
+      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Layar Mode Pembelajaran" },
+      "mySets": { "src": "/images/my-sets.PNG", "alt": "Layar Set Saya" }
+    }
+  },
+  "bentoFeatures": {
+    "sectionLabel": "Fitur dan Keunggulan",
+    "sectionTitle": "Semua yang kamu butuhkan untuk menguasai bahasa",
+    "sectionSubtitle": "Dari pembuatan cerdas dengan AI hingga mode permainan yang seru, Exquizite dilengkapi dengan alat untuk membantumu belajar lebih cepat.",
+    "tiles": {
+      "learnYourWay": {
+        "title": "Belajar Sesuai Gayamu",
+        "description": "Pilih dari 4 mode pembelajaran interaktif yang cocok dengan gaya belajar unikmu.",
+        "modes": ["Kartu Flash", "Permainan Cocokkan", "Mode Kuis", "Isi Bagian Kosong"]
+      },
+      "aiPowered": {
+        "title": "Bertenaga AI",
+        "description": "Buat pasangan kata secara instan dan dapatkan petunjuk cerdas.",
+        "image": { "src": "/images/ai-generation.PNG", "alt": "Kata yang Dihasilkan AI" }
+      },
+      "languages": {
+        "title": "40+ Bahasa",
+        "description": "Lokalisasi antarmuka lengkap dan dukungan bahasa asli.",
+        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇷🇺 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+      },
+      "nativeIos": {
+        "title": "iOS Native",
+        "description": "Dapatkan aplikasinya untuk belajar di mana saja."
+      },
+      "shareDiscover": {
+        "title": "Bagikan dan Temukan",
+        "description": "Buat tautan yang bisa dibagikan untuk set katamu atau salin set komunitas ke koleksimu. Lacak tayangan dan interaksi.",
+        "recentShares": "Bagikan Terbaru",
+        "viewAll": "Lihat Semua",
+        "shares": [
+          { "initials": "FR", "name": "Dasar Prancis", "wordCount": "24 kata" },
+          { "initials": "ES", "name": "Dapur Spanyol", "wordCount": "12 kata" }
+        ]
+      },
+      "seamlessSync": {
+        "title": "Sinkronisasi Mulus",
+        "description": "Mulai di iPhone, lanjutkan di Web. Progresmu mengikutimu ke mana saja."
+      }
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Cara Kerja",
+    "sectionSubtitle": "Mulai perjalanan belajarmu dalam empat langkah sederhana",
+    "steps": [
+      {
+        "title": "1. Buat Set",
+        "desc": "Bangun daftar kosakata atau gunakan AI untuk menghasilkan kata untuk topik apa pun secara instan."
+      },
+      {
+        "title": "2. Pilih Permainan",
+        "desc": "Pilih dari 4 mode permainan seru yang membuat belajar terasa seperti bermain."
+      },
+      {
+        "title": "3. Lacak Progres",
+        "desc": "Pantau streak, level penguasaan, dan riwayatmu di dasbor."
+      },
+      {
+        "title": "4. Bagikan dan Belajar",
+        "desc": "Bagikan set terbaikmu dengan teman atau temukan konten komunitas."
+      }
+    ]
+  },
+  "whyUs": {
+    "sectionTitle": "Mengapa Exquizite?",
+    "sectionSubtitle": "Kami membangun Exquizite untuk menghilangkan hambatan dalam belajar bahasa. Baik kamu pelajar kasual atau poliglot, platform kami menyesuaikan denganmu.",
+    "points": [
+      {
+        "title": "Mulai dalam Hitungan Detik",
+        "description": "Coba mode tamu secara instan. Tidak perlu mendaftar sampai kamu ingin sinkronisasi."
+      },
+      {
+        "title": "Benar-benar Multibahasa",
+        "description": "Antarmuka tersedia dalam berbagai bahasa. Belajar di zona nyamanmu."
+      },
+      {
+        "title": "Privasi Diutamakan",
+        "description": "Datamu disimpan dengan aman melalui Supabase. Kamu selalu memegang kendali."
+      },
+      {
+        "title": "Modern dan Cepat",
+        "description": "Dibangun dengan teknologi modern untuk performa mulus di setiap platform."
+      }
+    ],
+    "image": { "src": "/images/my-sets.PNG", "alt": "Mode Cocokkan Exquizite" }
+  },
+  "testimonials": {
+    "sectionTitle": "Dicintai oleh Para Pelajar",
+    "items": [
+      {
+        "quote": "Pembuatan kata dengan AI menghemat berjam-jam waktu saya dalam membuat daftar kosakata untuk kelas bahasa Spanyol saya. Sangat akurat.",
+        "author": "Sarah J.",
+        "role": "Mahasiswa Bahasa"
+      },
+      {
+        "quote": "Akhirnya, aplikasi bahasa yang bekerja sama baiknya di ponsel dan komputer! Sinkronisasinya sempurna.",
+        "author": "Michael C.",
+        "role": "Nomad Digital"
+      },
+      {
+        "quote": "Permainan cocokkan membuat belajar terasa menyenangkan. Anak-anak saya juga suka! Ini sudah menjadi aktivitas keluarga harian.",
+        "author": "Elena R.",
+        "role": "Orang Tua & Guru"
+      }
+    ]
+  },
+  "screenshotGallery": {
+    "sectionTitle": "Jelajahi Aplikasinya",
+    "sectionSubtitle": "Lihat lebih dekat mode pembelajaran interaktif kami.",
+    "screenshots": [
+      { "src": "/images/ai-generation.PNG", "alt": "Pembuatan Kata dengan AI" },
+      { "src": "/images/added-words.PNG", "alt": "Kata yang Ditambahkan" },
+      { "src": "/images/learning-modes.PNG", "alt": "Mode Pembelajaran" },
+      { "src": "/images/my-sets.PNG", "alt": "Set Saya" },
+      { "src": "/images/match-mode.PNG", "alt": "Permainan Cocokkan" },
+      { "src": "/images/quiz.PNG", "alt": "Mode Kuis" },
+      { "src": "/images/fill-in-blank.PNG", "alt": "Isi Bagian Kosong" }
+    ]
+  },
+  "pricing": {
+    "sectionTitle": "Harga Sederhana dan Transparan",
+    "sectionSubtitle": "Pendidikan harus bisa diakses semua orang.",
+    "planName": "Gratis Selamanya",
+    "planDescription": "Semua yang kamu butuhkan untuk menguasai bahasa.",
+    "price": "$0",
+    "period": "/bulan",
+    "features": [
+      "Set kata tanpa batas",
+      "Akses semua 4 mode permainan",
+      "Pembuatan kata dengan AI",
+      "Bagikan set-mu",
+      "Sinkronisasi lintas platform"
+    ],
+    "ctaButton": "Mulai Gratis"
+  },
+  "faq": {
+    "sectionTitle": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      { "q": "Apakah saya perlu akun untuk menggunakan Exquizite?", "a": "Tidak! Mulai belajar langsung dengan mode tamu. Buat akun nanti untuk sinkronisasi antar perangkat." },
+      { "q": "Berapa banyak bahasa yang didukung?", "a": "Lebih dari 40 bahasa untuk konten pembelajaran dan antarmuka aplikasi." },
+      { "q": "Apakah aplikasinya bisa dipakai offline?", "a": "Ya, aplikasi iOS mendukung akses offline untuk set kata yang sudah diunduh." },
+      { "q": "Bisakah saya menggunakan Exquizite di komputer?", "a": "Tentu saja! Aplikasi web menyediakan pengalaman yang dioptimalkan untuk desktop." },
+      { "q": "Apakah data saya aman?", "a": "Ya, semua data disimpan dan disinkronkan dengan aman melalui Supabase dengan enkripsi standar industri." },
+      { "q": "Bisakah saya membagikan set kata saya?", "a": "Ya! Buat tautan yang bisa dibagikan untuk set apa pun. Orang lain bisa melihat dan menyalinnya ke koleksi mereka." }
+    ]
+  },
+  "downloadCTA": {
+    "title": "Mulai Belajar Hari Ini",
+    "subtitle": "Bergabunglah dengan ribuan pelajar yang menguasai bahasa baru dengan Exquizite. Unduh sekarang atau coba di browsermu.",
+    "iosButton": "Unduh untuk iOS",
+    "webButton": "Buka Aplikasi Web",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "disclaimer": "Tidak perlu kartu kredit untuk paket gratis."
+  },
+  "footer": {
+    "brandName": "Exquizite",
+    "brandDescription": "Kuasai bahasa melalui latihan cerdas dan interaktif. Dibuat untuk pelajar, oleh pelajar.",
+    "columns": {
+      "product": {
+        "title": "Produk",
+        "links": [
+          { "label": "Fitur", "href": "#features" },
+          { "label": "Cara Kerja", "href": "#how-it-works" },
+          { "label": "Harga", "href": "#pricing" },
+          { "label": "Unduh", "href": "#download" }
+        ]
+      },
+      "support": {
+        "title": "Dukungan",
+        "links": [
+          { "label": "Bantuan & Dukungan", "to": "/support" },
+          { "label": "Kontak", "href": "mailto:viacheslav@exquizite.app" },
+          { "label": "Kebijakan Privasi", "to": "/privacy-policy" }
+        ]
+      },
+      "legal": {
+        "title": "Hukum",
+        "links": [
+          { "label": "Ketentuan Layanan", "href": "#" },
+          { "label": "Kebijakan Cookie", "href": "#" }
+        ]
+      }
+    },
+    "copyright": "© 2025 Exquizite. Kuasai bahasa, dengan caramu."
+  },
+  "privacyPolicy": {
+    "title": "Kebijakan Privasi Exquizite",
+    "lastUpdated": "Terakhir Diperbarui: 7 Februari 2026",
+    "sections": [
+      {
+        "title": "Pendahuluan",
+        "content": "Selamat datang di Exquizite, aplikasi pembelajaran bahasa. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, mengungkapkan, dan melindungi informasimu saat menggunakan aplikasi seluler dan layanan web kami (secara kolektif disebut \"Aplikasi\"). Silakan baca kebijakan privasi ini dengan saksama. Jika kamu tidak setuju dengan ketentuan kebijakan privasi ini, mohon jangan mengakses Aplikasi."
+      },
+      {
+        "title": "Informasi yang Kami Kumpulkan",
+        "subsections": [
+          {
+            "title": "Informasi Pribadi",
+            "intro": "Saat membuat akun di Exquizite, kami mengumpulkan:",
+            "items": [
+              { "bold": "Alamat Email", "text": "Digunakan untuk pembuatan akun, autentikasi, dan komunikasi" },
+              { "bold": "ID Pengguna", "text": "Pengenal unik yang dibuat secara otomatis untuk autentikasi dan asosiasi data" },
+              { "bold": "Kata Sandi", "text": "Disimpan dengan aman menggunakan enkripsi standar industri (kami tidak pernah menyimpan kata sandi dalam teks biasa)" }
+            ]
+          },
+          {
+            "title": "Konten Buatan Pengguna",
+            "items": [
+              { "bold": "Set Kosakata", "text": "Pasangan kata, terjemahan, nama set, dan preferensi pembelajaran yang kamu buat" },
+              { "bold": "Preferensi Bahasa", "text": "Bahasa target dan bahasa ibu yang kamu pilih untuk belajar" },
+              { "bold": "Riwayat Latihan", "text": "Informasi tentang kapan terakhir kamu berlatih dan progresmu" },
+              { "bold": "Pengaturan Aplikasi", "text": "Preferensi tema, bahasa antarmuka, dan pengaturan kustomisasi lainnya" }
+            ]
+          },
+          {
+            "title": "Informasi yang Dikumpulkan Secara Otomatis",
+            "items": [
+              { "bold": "Data Penggunaan", "text": "Informasi tentang bagaimana kamu berinteraksi dengan Aplikasi, termasuk mode permainan yang dimainkan dan fitur yang digunakan" },
+              { "bold": "Informasi Perangkat", "text": "Jenis perangkat, sistem operasi, dan versi aplikasi untuk pemecahan masalah dan kompatibilitas" },
+              { "bold": "Analitik Anonim", "text": "Statistik penggunaan agregat yang tidak dapat diidentifikasi secara personal untuk meningkatkan Aplikasi" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Mode Tamu",
+        "intro": "Jika kamu menggunakan Aplikasi tanpa membuat akun (Mode Tamu):",
+        "items": [
+          "Tidak ada alamat email atau informasi pribadi yang dikumpulkan",
+          "Set kosakatatamu disimpan secara lokal di perangkatmu saja",
+          "Data tidak disinkronkan antar perangkat",
+          "Data mungkin hilang jika kamu menghapus Aplikasi atau membersihkan data aplikasi"
+        ]
+      },
+      {
+        "title": "Bagaimana Kami Menggunakan Informasimu",
+        "intro": "Kami menggunakan informasi yang kami kumpulkan untuk:",
+        "items": [
+          { "bold": "Menyediakan Layanan", "text": "Memungkinkan pembuatan akun, sinkronisasi data, dan fungsionalitas aplikasi" },
+          { "bold": "Meningkatkan Pengalaman Pengguna", "text": "Mempersonalisasi pengalaman belajarmu dan mengingat preferensimu" },
+          { "bold": "Menghasilkan Konten AI", "text": "Menggunakan API OpenAI untuk menghasilkan saran kosakata dan contoh kalimat berdasarkan tema yang kamu berikan" },
+          { "bold": "Menjaga Keamanan", "text": "Mengautentikasi pengguna dan melindungi dari akses tidak sah" },
+          { "bold": "Berkomunikasi", "text": "Mengirim pembaruan penting tentang Aplikasi (kami tidak mengirim email pemasaran tanpa persetujuanmu)" },
+          { "bold": "Pemecahan Masalah", "text": "Mendiagnosis masalah teknis dan meningkatkan performa aplikasi" }
+        ]
+      },
+      {
+        "title": "Penyimpanan Data dan Keamanan",
+        "subsections": [
+          {
+            "title": "Lokasi Penyimpanan",
+            "intro": "Datamu disimpan dengan aman menggunakan Supabase, layanan database berbasis cloud:",
+            "items": [
+              { "bold": "Lokasi", "text": "Data dihosting di server aman yang dikelola oleh Supabase (didukung infrastruktur AWS)" },
+              { "bold": "Enkripsi", "text": "Semua data dienkripsi saat transit menggunakan protokol HTTPS/TLS" },
+              { "bold": "Kontrol Akses", "text": "Kebijakan Keamanan Tingkat Baris (RLS) memastikan kamu hanya bisa mengakses datamu sendiri" },
+              { "bold": "Cadangan", "text": "Cadangan otomatis rutin untuk mencegah kehilangan data" }
+            ]
+          },
+          {
+            "title": "Langkah Keamanan",
+            "intro": "Kami menerapkan langkah keamanan standar industri termasuk:",
+            "items": [
+              "Autentikasi aman menggunakan token JWT",
+              "Hashing kata sandi menggunakan bcrypt atau algoritma serupa",
+              "Enkripsi HTTPS untuk semua transmisi data",
+              "Pencatatan akses dan pemantauan aktivitas mencurigakan"
+            ],
+            "note": "Namun, tidak ada metode transmisi melalui Internet atau penyimpanan elektronik yang 100% aman. Meskipun kami berusaha melindungi datamu, kami tidak dapat menjamin keamanan absolut."
+          }
+        ]
+      },
+      {
+        "title": "Layanan Pihak Ketiga",
+        "subsections": [
+          {
+            "title": "Supabase (Database dan Autentikasi)",
+            "intro": "Kami menggunakan Supabase untuk menyimpan dan mengelola data pengguna:",
+            "items": [
+              { "bold": "Tujuan", "text": "Database cloud, autentikasi pengguna, dan sinkronisasi data" },
+              { "bold": "Data yang Dibagikan", "text": "Email, ID pengguna, set kosakata, riwayat latihan" }
+            ],
+            "privacyUrl": "https://supabase.com/privacy"
+          },
+          {
+            "title": "OpenAI API (Fitur Bertenaga AI)",
+            "intro": "Kami menggunakan API OpenAI untuk menghasilkan saran kosakata dan contoh kalimat:",
+            "items": [
+              { "bold": "Tujuan", "text": "Pembuatan konten bertenaga AI untuk materi pembelajaran" },
+              { "bold": "Data yang Dibagikan", "text": "HANYA tema atau topik yang kamu minta (misalnya \"makanan\", \"perjalanan\")" },
+              { "bold": "Penting", "text": "Kami TIDAK mengirim informasi pribadimu, email, ID pengguna, atau set kosakata yang ada ke OpenAI" },
+              { "bold": "Penggunaan Data", "text": "OpenAI memproses permintaan secara sementara dan tidak menggunakan datamu untuk pelatihan model (sesuai perjanjian API kami)" }
+            ],
+            "privacyUrl": "https://openai.com/privacy"
+          },
+          {
+            "title": "Expo (Platform Pengembangan)",
+            "intro": "Kami menggunakan Expo untuk pengembangan dan deployment aplikasi:",
+            "items": [
+              { "bold": "Tujuan", "text": "Infrastruktur aplikasi dan pembaruan" },
+              { "bold": "Data yang Dibagikan", "text": "Laporan crash minimal dan statistik penggunaan anonim" }
+            ],
+            "privacyUrl": "https://expo.dev/privacy"
+          }
+        ]
+      },
+      {
+        "title": "Pembagian dan Pengungkapan Data",
+        "intro": "Kami TIDAK menjual, menyewakan, atau memperdagangkan informasi pribadimu kepada pihak ketiga.",
+        "intro2": "Kami mungkin membagikan informasimu hanya dalam keadaan berikut:",
+        "items": [
+          { "bold": "Dengan Persetujuanmu", "text": "Saat kamu secara eksplisit memilih untuk membagikan set kosakata dengan pengguna lain" },
+          { "bold": "Penyedia Layanan", "text": "Dengan layanan pihak ketiga terpercaya (Supabase, OpenAI) seperti yang dijelaskan di atas" },
+          { "bold": "Persyaratan Hukum", "text": "Jika diwajibkan oleh hukum, perintah pengadilan, atau peraturan pemerintah" },
+          { "bold": "Transfer Bisnis", "text": "Dalam hal merger, akuisisi, atau penjualan aset (kamu akan diberitahu)" },
+          { "bold": "Keselamatan dan Keamanan", "text": "Untuk melindungi hak, properti, atau keselamatan Exquizite, pengguna kami, atau pihak lain" }
+        ]
+      },
+      {
+        "title": "Set Kosakata yang Dibagikan",
+        "intro": "Saat kamu memilih untuk membagikan set kosakata:",
+        "items": [
+          "Kode berbagi unik dibuat",
+          "Siapa pun dengan kode berbagi bisa melihat dan menyalin set tersebut",
+          "Email dan informasi pribadimu TIDAK disertakan dalam set yang dibagikan",
+          "Kamu bisa melihat berapa kali set-mu dilihat dan disalin",
+          "Kamu bisa berhenti membagikan set kapan saja dengan menghapus kode berbagi"
+        ]
+      },
+      {
+        "title": "Hak dan Pilihanmu",
+        "intro": "Kamu memiliki hak berikut terkait datamu:",
+        "rights": [
+          {
+            "title": "Mengakses Datamu",
+            "description": "Kamu bisa melihat semua set kosakata dan informasi akunmu di dalam Aplikasi"
+          },
+          {
+            "title": "Mengubah Datamu",
+            "description": "Edit atau perbarui set kosakata, preferensi bahasa, dan pengaturan aplikasi kapan saja"
+          },
+          {
+            "title": "Menghapus Datamu",
+            "description": "Kamu bisa meminta penghapusan lengkap akun dan semua data terkait:",
+            "steps": [
+              { "bold": "Penghapusan di Aplikasi", "text": "(segera hadir): Navigasi ke Pengaturan > Akun > Hapus Akun" },
+              {
+                "bold": "Permintaan melalui Email",
+                "text": "Hubungi kami di viacheslav@exquizite.app dengan subjek \"Data Deletion Request\"",
+                "subItems": [
+                  "Sertakan alamat email terdaftarmu",
+                  "Kami akan memverifikasi identitasmu dan menghapus semua data dalam 30 hari",
+                  "Penghapusan bersifat permanen dan tidak bisa dibatalkan"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Mengekspor Datamu",
+            "description": "Untuk meminta salinan datamu, hubungi kami di viacheslav@exquizite.app dengan subjek \"Data Export Request\""
+          },
+          {
+            "title": "Mode Tamu",
+            "description": "Jika kamu menggunakan Mode Tamu, kamu bisa menghapus data lokalmu dengan:",
+            "items": [
+              "Membersihkan cache dan data aplikasi di pengaturan perangkatmu",
+              "Menghapus instalasi Aplikasi"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Privasi Anak-anak",
+        "content": "Exquizite ditujukan untuk pengguna berusia 13 tahun ke atas. Kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun. Jika kamu adalah orang tua atau wali dan percaya bahwa anakmu telah memberikan informasi pribadi kepada kami, silakan hubungi kami di viacheslav@exquizite.app, dan kami akan menghapus informasi tersebut segera."
+      },
+      {
+        "title": "Transfer Data Internasional",
+        "content": "Datamu mungkin ditransfer ke dan disimpan di server yang berlokasi di luar negara tempat tinggalmu, termasuk Amerika Serikat. Dengan menggunakan Aplikasi, kamu menyetujui transfer datamu ke negara yang mungkin memiliki undang-undang perlindungan data yang berbeda dari negaramu."
+      },
+      {
+        "title": "Perubahan Kebijakan Privasi Ini",
+        "intro": "Kami mungkin memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami akan memberitahumu tentang perubahan dengan:",
+        "items": [
+          "Memperbarui tanggal \"Terakhir Diperbarui\" di bagian atas kebijakan ini",
+          "Menampilkan notifikasi dalam aplikasi untuk perubahan material",
+          "Mengirim notifikasi email (jika kamu memiliki akun)"
+        ],
+        "note": "Penggunaan berkelanjutanmu atas Aplikasi setelah perubahan diposting merupakan penerimaan terhadap kebijakan yang direvisi."
+      },
+      {
+        "title": "Retensi Data",
+        "intro": "Kami menyimpan datamu selama akunmu aktif atau sesuai kebutuhan untuk menyediakan layanan. Jika kamu menghapus akunmu:",
+        "items": [
+          "Data pribadi dihapus dalam 30 hari",
+          "Beberapa data mungkin disimpan untuk tujuan hukum atau keamanan (misalnya pencegahan penipuan)",
+          "Set kosakata yang dibagikan mungkin tetap bisa diakses oleh pengguna yang sebelumnya menyalinnya"
+        ]
+      },
+      {
+        "title": "Persetujuanmu",
+        "content": "Dengan menggunakan Exquizite, kamu menyetujui Kebijakan Privasi ini dan menyetujui ketentuannya."
+      },
+      {
+        "title": "Hubungi Kami",
+        "intro": "Jika kamu memiliki pertanyaan, kekhawatiran, atau permintaan mengenai Kebijakan Privasi ini atau datamu, silakan hubungi kami:",
+        "contactInfo": {
+          "email": "viacheslav@exquizite.app",
+          "developer": "Tim Pengembangan Exquizite",
+          "responseTime": "Kami bertujuan merespons semua pertanyaan dalam 7 hari kerja."
+        }
+      }
+    ],
+    "summary": {
+      "title": "Ringkasan Poin Penting",
+      "intro": "Untuk kemudahanmu, berikut ringkasan singkat:",
+      "items": [
+        { "label": "Yang kami kumpulkan", "value": "Email, set kosakata yang kamu buat, preferensi bahasa" },
+        { "label": "Mengapa kami mengumpulkan", "value": "Untuk menyediakan fitur pembelajaran, sinkronisasi antar perangkat, menghasilkan konten AI" },
+        { "label": "Di mana disimpan", "value": "Server cloud Supabase (didukung AWS)" },
+        { "label": "Pihak ketiga", "value": "Supabase (database), OpenAI (pembuatan AI - tidak ada data pribadi yang dikirim)" },
+        { "label": "Hakmu", "value": "Akses, ubah, hapus datamu kapan saja" },
+        { "label": "Kontak", "value": "viacheslav@exquizite.app" }
+      ],
+      "thankYou": "Terima kasih telah mempercayakan perjalanan belajar bahasamu kepada Exquizite!"
+    }
+  },
+  "support": {
+    "title": "Dukungan Exquizite",
+    "subtitle": "Selamat datang di Dukungan Exquizite! Temukan jawaban untuk pertanyaan umum dan dapatkan bantuan tentang aplikasi.",
+    "contactEmail": "viacheslav@exquizite.app",
+    "lastUpdated": "Terakhir diperbarui: 7 Februari 2026",
+    "thankYou": "Terima kasih sudah menggunakan Exquizite! Selamat belajar!",
+    "toc": {
+      "title": "Daftar Isi",
+      "items": [
+        { "id": "getting-started", "label": "Memulai" },
+        { "id": "account-login", "label": "Akun & Login" },
+        { "id": "creating-vocabulary-sets", "label": "Membuat Set Kosakata" },
+        { "id": "game-modes", "label": "Mode Permainan" },
+        { "id": "sharing-sets", "label": "Berbagi Set" },
+        { "id": "settings-preferences", "label": "Pengaturan & Preferensi" },
+        { "id": "troubleshooting", "label": "Pemecahan Masalah" },
+        { "id": "privacy-data", "label": "Privasi & Data" },
+        { "id": "contact-us", "label": "Hubungi Kami" }
+      ]
+    },
+    "gettingStarted": {
+      "title": "Memulai",
+      "whatIs": {
+        "title": "Apa itu Exquizite?",
+        "content": "Exquizite adalah aplikasi pembelajaran bahasa yang membantumu menguasai kosakata melalui permainan interaktif dan kartu flash. Buat set kata khusus, berlatih dengan mode permainan yang menyenangkan, dan lacak progresmu."
+      },
+      "needAccount": {
+        "title": "Apakah saya perlu akun?",
+        "intro": "Tidak! Kamu bisa menggunakan Exquizite dengan dua cara:",
+        "options": [
+          { "bold": "Mode Tamu", "text": "Gunakan aplikasi tanpa mendaftar. Set-mu disimpan secara lokal di perangkatmu saja." },
+          { "bold": "Dengan Akun", "text": "Daftar dengan email untuk menyinkronkan set-mu di semua perangkat (iPhone, iPad, Android, Web)." }
+        ]
+      },
+      "howToStart": {
+        "title": "Bagaimana cara memulai?",
+        "steps": [
+          "Unduh Exquizite dari App Store atau Google Play",
+          "Pilih \"Lanjutkan sebagai Tamu\" atau \"Daftar\"",
+          "Pilih bahasa yang ingin dipelajari (misalnya Spanyol) dan bahasa ibu (misalnya Indonesia)",
+          "Buat set kosakata pertamamu",
+          "Mulai berlatih!"
+        ]
+      }
+    },
+    "accountLogin": {
+      "title": "Akun & Login",
+      "createAccount": {
+        "title": "Bagaimana cara membuat akun?",
+        "steps": [
+          "Ketuk \"Daftar\" di layar login",
+          "Masukkan alamat emailmu dan buat kata sandi",
+          "Ketuk \"Buat Akun\"",
+          "Kamu akan login secara otomatis"
+        ]
+      },
+      "forgotPassword": {
+        "title": "Saya lupa kata sandi. Bagaimana cara mengatur ulang?",
+        "steps": [
+          "Di layar login, ketuk \"Lupa Kata Sandi?\"",
+          "Masukkan alamat emailmu",
+          "Cek emailmu untuk tautan pengaturan ulang kata sandi",
+          "Ikuti tautan untuk membuat kata sandi baru"
+        ]
+      },
+      "guestToAccount": {
+        "title": "Bisakah saya beralih dari Mode Tamu ke akun?",
+        "intro": "Saat ini, data Mode Tamu tidak bisa ditransfer secara otomatis ke akun. Untuk menyimpan set-mu:",
+        "steps": [
+          "Bagikan setiap set yang ingin disimpan (dapatkan kode berbagi)",
+          "Buat akun",
+          "Gunakan kode berbagi untuk menyalin set ke akun barumu"
+        ],
+        "note": "Kami sedang mengerjakan fitur migrasi langsung!"
+      },
+      "logout": {
+        "title": "Bagaimana cara logout?",
+        "steps": [
+          "Buka Profil (tab bawah)",
+          "Gulir ke bawah dan ketuk \"Keluar\""
+        ]
+      },
+      "deleteAccount": {
+        "title": "Bagaimana cara menghapus akun saya?",
+        "content": "Lihat bagian Privasi & Data di bawah."
+      }
+    },
+    "creatingVocabularySets": {
+      "title": "Membuat Set Kosakata",
+      "createNew": {
+        "title": "Bagaimana cara membuat set kosakata baru?",
+        "steps": [
+          "Ketuk tombol \"+\" di layar utama",
+          "Masukkan nama untuk set-mu (misalnya \"Makanan Spanyol\")",
+          "Tambahkan pasangan kata:\n  - Kolom kiri: Kata dalam bahasa yang dipelajari\n  - Kolom kanan: Terjemahan dalam bahasa ibumu",
+          "Ketuk \"Simpan\" setelah selesai"
+        ]
+      },
+      "wordLimit": {
+        "title": "Berapa banyak kata yang bisa ditambahkan ke satu set?",
+        "content": "Setiap set bisa berisi hingga 20 pasangan kata. Batas ini memastikan pembelajaran dan performa yang optimal."
+      },
+      "aiGeneration": {
+        "title": "Bisakah saya menggunakan AI untuk menghasilkan kosakata?",
+        "intro": "Ya! Ketuk tombol \"Saran AI\" saat membuat set:",
+        "steps": [
+          "Masukkan tema (misalnya \"kosakata restoran\", \"frasa perjalanan\")",
+          "Pilih berapa banyak kata yang kamu inginkan (hingga 20)",
+          "Tinjau saran yang dihasilkan AI",
+          "Pilih kata yang ingin kamu tambahkan",
+          "Edit atau sesuaikan sesuai kebutuhan"
+        ]
+      },
+      "bulkImport": {
+        "title": "Bisakah saya mengimpor kata secara massal?",
+        "intro": "Ya! Ketuk \"Impor Massal\" saat membuat set. Pilihan format:",
+        "formats": [
+          { "name": "Opsi 1: Dipisah tab", "example": "word[TAB]translation\nhola[TAB]hello\nadiós[TAB]goodbye" },
+          { "name": "Opsi 2: Dipisah tanda hubung", "example": "word - translation\nhola - hello\nadiós - goodbye" },
+          { "name": "Opsi 3: Dipisah tanda sama dengan", "example": "word = translation\nhola = hello\nadiós = goodbye" }
+        ]
+      },
+      "editSet": {
+        "title": "Bagaimana cara mengedit set kosakata?",
+        "steps": [
+          "Buka Set Saya (tab bawah)",
+          "Ketuk set yang ingin diedit",
+          "Ketuk ikon edit (pensil) di kanan atas",
+          "Lakukan perubahanmu",
+          "Ketuk \"Simpan\""
+        ]
+      },
+      "deleteSet": {
+        "title": "Bagaimana cara menghapus set kosakata?",
+        "steps": [
+          "Buka Set Saya",
+          "Ketuk set yang ingin dihapus",
+          "Ketuk ikon menu (tiga titik)",
+          "Pilih \"Hapus Set\"",
+          "Konfirmasi penghapusan"
+        ],
+        "warning": "Catatan: Tindakan ini tidak bisa dibatalkan!"
+      },
+      "differentLanguages": {
+        "title": "Bisakah saya menggunakan bahasa berbeda untuk set berbeda?",
+        "intro": "Ya! Secara default, set menggunakan preferensi bahasa globalmu, tapi kamu bisa mengganti per set:",
+        "steps": [
+          "Saat membuat/mengedit set, ketuk \"Ganti Bahasa\"",
+          "Pilih bahasa khusus untuk set spesifik ini",
+          "Pengaturan ini hanya memengaruhi set ini saja"
+        ]
+      }
+    },
+    "gameModes": {
+      "title": "Mode Permainan",
+      "available": {
+        "title": "Mode permainan apa saja yang tersedia?",
+        "intro": "Exquizite menawarkan 4 mode pembelajaran interaktif:",
+        "modes": [
+          { "bold": "Kartu Flash", "text": "Kartu balik klasik untuk menguji ingatanmu" },
+          { "bold": "Kuis", "text": "Pertanyaan pilihan ganda untuk memperkuat pembelajaran" },
+          { "bold": "Cocokkan", "text": "Temukan pasangan kata yang cocok melawan waktu" },
+          { "bold": "Isi Bagian Kosong", "text": "Lengkapi kalimat dengan kata yang benar" }
+        ]
+      },
+      "howToPlay": {
+        "title": "Bagaimana cara memainkan mode permainan?",
+        "steps": [
+          "Buka Set Saya atau Beranda",
+          "Ketuk set kosakata",
+          "Pilih mode permainan dari menu",
+          "Ikuti instruksi di layar",
+          "Selesaikan permainan untuk melacak progresmu!"
+        ]
+      },
+      "modeDetails": [
+        {
+          "title": "Mode Kartu Flash",
+          "items": [
+            "Ketuk kartu untuk membalik antara kata dan terjemahan",
+            "Gunakan tombol \"Sebelumnya\" dan \"Berikutnya\" untuk navigasi",
+            "Bar progres menunjukkan posisimu dalam set",
+            "Latihan dilacak secara otomatis saat kamu menyelesaikan set"
+          ]
+        },
+        {
+          "title": "Mode Kuis",
+          "items": [
+            "Pilih dari 4 jawaban pilihan ganda (A, B, C, D)",
+            "Ketuk jawaban untuk memeriksa apakah benar",
+            "Tanda centang hijau = Benar!",
+            "X merah = Coba lagi atau lewati",
+            "Lewati berpindah ke pertanyaan berikutnya tanpa skor",
+            "Lihat skor akhirmu di akhir"
+          ]
+        },
+        {
+          "title": "Mode Cocokkan",
+          "items": [
+            "Temukan pasangan kata-terjemahan yang cocok",
+            "Ketuk dua kartu untuk memeriksa apakah cocok",
+            "Cocokkan semua pasangan secepat mungkin",
+            "Kalahkan waktu terbaikmu!"
+          ]
+        },
+        {
+          "title": "Mode Isi Bagian Kosong",
+          "items": [
+            "Baca contoh kalimat",
+            "Ketik kata yang hilang",
+            "Gunakan petunjuk jika perlu bantuan",
+            "Kirim jawabanmu untuk memeriksa apakah benar"
+          ]
+        }
+      ],
+      "replay": {
+        "title": "Bisakah saya mengulang mode permainan?",
+        "content": "Ya! Kamu bisa berlatih set apa pun sesering yang kamu mau. Tanggal \"Terakhir Berlatih\" diperbarui setiap kali kamu menyelesaikan sesi."
+      }
+    },
+    "sharingSets": {
+      "title": "Berbagi Set",
+      "howToShare": {
+        "title": "Bagaimana cara membagikan set kosakata?",
+        "steps": [
+          "Buka set yang ingin dibagikan",
+          "Ketuk ikon berbagi (atau menu > Bagikan)",
+          "Kode berbagi unik dibuat (misalnya ABC123XYZ)",
+          "Bagikan kode melalui pesan, email, atau media sosial"
+        ]
+      },
+      "useShared": {
+        "title": "Bagaimana cara menggunakan set yang dibagikan?",
+        "steps": [
+          "Ketuk pencarian di layar utama atau opsi \"Masukkan Kode Berbagi\"",
+          "Masukkan kode berbagi (misalnya ABC123XYZ)",
+          "Pratinjau set",
+          "Ketuk \"Salin ke Set Saya\"",
+          "Opsional ganti nama set",
+          "Set sekarang ada di perpustakaanmu!"
+        ]
+      },
+      "viewStats": {
+        "title": "Bisakah saya melihat siapa yang melihat atau menyalin set saya yang dibagikan?",
+        "intro": "Ya! Saat melihat set yang dibagikan, kamu bisa melihat:",
+        "items": [
+          { "bold": "Jumlah tayangan", "text": "Berapa kali dilihat" },
+          { "bold": "Jumlah salinan", "text": "Berapa pengguna yang menyalin" }
+        ],
+        "note": "Kamu tidak bisa melihat nama atau email pengguna individu (perlindungan privasi)."
+      },
+      "stopSharing": {
+        "title": "Bisakah saya berhenti membagikan set?",
+        "intro": "Ya! Untuk mencabut berbagi:",
+        "steps": [
+          "Buka set yang dibagikan",
+          "Ketuk ikon menu",
+          "Pilih \"Hentikan Berbagi\" atau \"Hapus Kode Berbagi\"",
+          "Kode berbagi tidak akan berfungsi lagi"
+        ],
+        "note": "Salinan yang sudah ada di perpustakaan pengguna lain tetap ada (mereka pemilik salinannya)."
+      },
+      "autoUpdate": {
+        "title": "Apakah set yang dibagikan diperbarui secara otomatis?",
+        "content": "Tidak. Saat seseorang menyalin set yang kamu bagikan, mereka mendapatkan salinan pada saat itu. Jika kamu mengedit set aslimu nanti, salinan mereka tidak diperbarui secara otomatis."
+      }
+    },
+    "settingsPreferences": {
+      "title": "Pengaturan & Preferensi",
+      "appLanguage": {
+        "title": "Bagaimana cara mengubah bahasa aplikasi (antarmuka)?",
+        "intro": "Exquizite mendukung 45+ bahasa untuk antarmuka:",
+        "steps": [
+          "Buka Pengaturan",
+          "Ketuk \"Bahasa Aplikasi\"",
+          "Pilih bahasa yang diinginkan",
+          "Aplikasi akan dimuat ulang dengan bahasa baru"
+        ],
+        "note": "Bahasa yang Didukung: Inggris, Spanyol, Prancis, Jerman, Italia, Portugis, Jepang, Korea, Cina, Arab, Ibrani, dan 35+ lainnya!"
+      },
+      "learningLanguages": {
+        "title": "Bagaimana cara mengubah bahasa pembelajaran saya?",
+        "steps": [
+          "Buka Profil",
+          "Ketuk \"Preferensi Bahasa\"",
+          "Pilih Bahasa Pembelajaran (bahasa yang kamu pelajari)",
+          "Pilih Bahasa Ibu (bahasa yang kamu kuasai)",
+          "Simpan perubahan"
+        ],
+        "note": "Catatan: Ini memengaruhi set baru. Set yang sudah ada mempertahankan bahasa aslinya kecuali kamu mengeditnya satu per satu."
+      },
+      "darkMode": {
+        "title": "Bagaimana cara mengaktifkan Mode Gelap?",
+        "steps": [
+          "Buka Pengaturan",
+          "Aktifkan/nonaktifkan \"Mode Gelap\""
+        ],
+        "note": "Mode gelap lebih nyaman untuk mata dalam kondisi cahaya rendah dan dapat menghemat baterai pada layar OLED."
+      },
+      "tour": {
+        "title": "Apa itu Tur Pertama Kali?",
+        "intro": "Saat pertama kali menggunakan Exquizite, tur interaktif akan memandumu melalui fitur utama. Untuk memulai ulang tur:",
+        "steps": [
+          "Buka Pengaturan",
+          "Ketuk \"Mulai Ulang Tur\"",
+          "Ikuti petunjuk di layar"
+        ]
+      }
+    },
+    "troubleshooting": {
+      "title": "Pemecahan Masalah",
+      "syncIssue": {
+        "title": "Set saya tidak tersinkronisasi antar perangkat",
+        "accountSteps": {
+          "label": "Untuk Pengguna Akun:",
+          "steps": [
+            "Pastikan kamu login dengan akun yang sama di semua perangkat",
+            "Periksa koneksi internetmu",
+            "Coba logout dan login kembali",
+            "Tarik ke bawah untuk menyegarkan di layar Set Saya"
+          ]
+        },
+        "guestNote": "Untuk Pengguna Tamu: Data Mode Tamu disimpan secara lokal saja dan TIDAK tersinkronisasi. Buat akun untuk mengaktifkan sinkronisasi."
+      },
+      "crashing": {
+        "title": "Aplikasi crash atau membeku",
+        "intro": "Coba langkah-langkah ini:",
+        "steps": [
+          "Paksa tutup aplikasi dan buka kembali",
+          "Mulai ulang perangkatmu",
+          "Periksa pembaruan di App Store/Play Store",
+          "Bersihkan cache aplikasi (Pengaturan > Aplikasi > Exquizite > Bersihkan Cache di Android)",
+          "Instal ulang aplikasi (Catatan: Data Mode Tamu akan hilang!)"
+        ],
+        "note": "Jika masalah berlanjut, hubungi kami di viacheslav@exquizite.app dengan model perangkat, versi OS, versi aplikasi, dan deskripsi masalah."
+      },
+      "aiNotWorking": {
+        "title": "Saran AI tidak berfungsi",
+        "intro": "Jika fitur AI gagal:",
+        "steps": [
+          "Periksa koneksi internetmu",
+          "Coba lagi dalam beberapa menit (masalah server sementara)",
+          "Gunakan tema/topik yang berbeda",
+          "Tambahkan kata secara manual sebagai alternatif"
+        ]
+      },
+      "sharedSetNotFound": {
+        "title": "Saya tidak bisa menemukan set yang dibagikan dengan kode tersebut",
+        "intro": "Masalah umum:",
+        "items": [
+          { "bold": "Kode kedaluwarsa", "text": "Beberapa kode berbagi memiliki tanggal kedaluwarsa" },
+          { "bold": "Kode dihapus", "text": "Pembuat menghentikan berbagi set" },
+          { "bold": "Salah ketik", "text": "Periksa kembali kode dengan teliti (kode peka huruf besar/kecil)" },
+          { "bold": "Koneksi internet", "text": "Pastikan kamu terhubung ke internet" }
+        ]
+      },
+      "wrongLanguage": {
+        "title": "Aplikasi menggunakan bahasa yang salah",
+        "steps": [
+          "Buka Pengaturan (cari ikon gerigi)",
+          "Temukan opsi bahasa (meskipun teks tidak terbaca, biasanya di dekat atas)",
+          "Pilih bahasamu",
+          "Aplikasi akan dimuat ulang"
+        ]
+      },
+      "lostSets": {
+        "title": "Saya kehilangan set kosakata saya (Mode Tamu)",
+        "content": "Sayangnya, data Mode Tamu hanya disimpan secara lokal. Jika kamu menghapus instalasi aplikasi, membersihkan data aplikasi, atau mereset perangkat, data tidak bisa dipulihkan.",
+        "recommendation": "Kami sangat menyarankan untuk membuat akun agar cadangan cloud dan sinkronisasi aktif."
+      },
+      "keyboardIssue": {
+        "title": "Keyboard menutupi kolom input",
+        "intro": "Ini adalah masalah yang diketahui di beberapa perangkat. Coba:",
+        "steps": [
+          "Ketuk di luar kolom input dan fokus ulang",
+          "Putar perangkatmu ke mode lanskap",
+          "Gulir layar secara manual",
+          "Gunakan keyboard eksternal (tablet/desktop)"
+        ],
+        "note": "Kami sedang mengerjakan perbaikan di pembaruan berikutnya!"
+      }
+    },
+    "privacyData": {
+      "title": "Privasi & Data",
+      "isSecure": {
+        "title": "Apakah data saya aman?",
+        "intro": "Ya! Kami serius soal keamanan:",
+        "items": [
+          "Semua data dienkripsi saat transit (HTTPS/TLS)",
+          "Kata sandi di-hash dan tidak pernah disimpan dalam teks biasa",
+          "Data cloud disimpan di server Supabase yang aman (didukung AWS)",
+          "Keamanan Tingkat Baris memastikan kamu hanya bisa mengakses datamu sendiri"
+        ]
+      },
+      "whatCollected": {
+        "title": "Data apa yang kalian kumpulkan?",
+        "collected": [
+          { "bold": "Pengguna akun", "text": "Email, ID pengguna, set kosakata, riwayat latihan, preferensi bahasa" },
+          { "bold": "Pengguna tamu", "text": "Set kosakata disimpan secara lokal saja (tidak ada data cloud)" },
+          { "bold": "Analitik", "text": "Statistik penggunaan anonim untuk meningkatkan aplikasi" }
+        ],
+        "notCollectedIntro": "Kami TIDAK mengumpulkan:",
+        "notCollected": [
+          "Data lokasi",
+          "Daftar kontak",
+          "Foto atau media (kecuali kamu memilih untuk berbagi)",
+          "Riwayat browsing di luar aplikasi"
+        ]
+      },
+      "thirdPartySharing": {
+        "title": "Apakah kalian membagikan data saya ke pihak ketiga?",
+        "intro": "Tidak, kami TIDAK menjual atau menyewakan datamu. Kami menggunakan layanan terpercaya:",
+        "services": [
+          { "bold": "Supabase", "text": "Database cloud dan autentikasi" },
+          { "bold": "OpenAI", "text": "Pembuatan kosakata AI (hanya nama tema yang dikirim, BUKAN data pribadimu)" },
+          { "bold": "Expo", "text": "Infrastruktur aplikasi (laporan crash minimal)" }
+        ]
+      },
+      "downloadData": {
+        "title": "Bagaimana cara mengunduh data saya?",
+        "intro": "Untuk meminta salinan datamu:",
+        "steps": [
+          "Email viacheslav@exquizite.app dengan subjek \"Data Export Request\"",
+          "Sertakan alamat email terdaftarmu",
+          "Kami akan mengirim file berisi semua set kosakata dan info akunmu dalam 7 hari kerja"
+        ]
+      },
+      "deleteAccountData": {
+        "title": "Bagaimana cara menghapus akun dan data saya?",
+        "label": "Penghapusan Permanen:",
+        "steps": [
+          "Email viacheslav@exquizite.app dengan subjek \"Data Deletion Request\"",
+          "Sertakan alamat email terdaftarmu",
+          "Kami akan memverifikasi identitasmu dan menghapus semua data dalam 30 hari"
+        ],
+        "importantNotes": [
+          "Penghapusan bersifat permanen dan tidak bisa dibatalkan",
+          "Set yang dibagikan dan disalin oleh pengguna lain tetap di perpustakaan mereka (mereka pemilik salinannya)",
+          "Beberapa data mungkin disimpan untuk tujuan hukum/keamanan (misalnya pencegahan penipuan)"
+        ],
+        "comingSoon": "Segera Hadir: Penghapusan akun dalam aplikasi (Pengaturan > Akun > Hapus Akun)"
+      }
+    },
+    "contactUs": {
+      "title": "Hubungi Kami",
+      "categories": [
+        {
+          "title": "Dukungan Umum",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "Dalam 2-3 hari kerja"
+        },
+        {
+          "title": "Permintaan Privasi & Data",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "Dalam 7 hari kerja"
+        },
+        {
+          "title": "Laporan Bug & Permintaan Fitur",
+          "email": "viacheslav@exquizite.app",
+          "subject": "\"Bug Report\" atau \"Feature Request\"",
+          "includeItems": [
+            "Model perangkat dan versi OS (misalnya iPhone 14, iOS 17.2)",
+            "Versi aplikasi (ditemukan di Pengaturan > Tentang)",
+            "Langkah untuk mereproduksi masalah",
+            "Screenshot jika ada"
+          ]
+        }
+      ]
+    },
+    "supportFaq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "items": [
+        {
+          "q": "Apakah Exquizite gratis?",
+          "a": "Ya! Exquizite sepenuhnya gratis tanpa iklan atau pembelian dalam aplikasi. Semua fitur tersedia untuk semua pengguna."
+        },
+        {
+          "q": "Di platform apa saja Exquizite tersedia?",
+          "a": "iOS: iPhone dan iPad (iOS 13+), Android: Ponsel dan tablet (Android 6.0+), Web: app.exquizite.com (segera hadir)"
+        },
+        {
+          "q": "Bisakah saya belajar beberapa bahasa sekaligus?",
+          "a": "Ya! Kamu bisa membuat set untuk pasangan bahasa yang berbeda. Preferensi bahasa globalmu hanya default; setiap set bisa memiliki bahasanya sendiri."
+        },
+        {
+          "q": "Bisakah saya menggunakan Exquizite secara offline?",
+          "a": "Mode Tamu: Ya, sepenuhnya offline setelah unduhan awal. Dengan Akun: Memerlukan internet untuk sinkronisasi awal, kemudian akses offline terbatas (hanya data yang di-cache). Kami sedang mengerjakan mode offline penuh dengan sinkronisasi untuk pengguna akun!"
+        },
+        {
+          "q": "Apakah Exquizite akan selalu gratis?",
+          "a": "Ya! Misi utama kami adalah membuat pembelajaran bahasa bisa diakses semua orang. Kami mungkin memperkenalkan fitur premium opsional di masa depan, tapi aplikasi inti akan selalu gratis."
+        }
+      ]
+    },
+    "learningTips": {
+      "title": "Tips Belajar yang Efektif",
+      "tips": [
+        {
+          "title": "Buat Set yang Terfokus",
+          "content": "Daripada satu set raksasa \"Spanyol\", buat set bertema seperti \"Makanan Spanyol\", \"Frasa Perjalanan\", dll."
+        },
+        {
+          "title": "Berlatih Secara Teratur",
+          "content": "Latihan konsisten lebih baik daripada belajar dadakan. Tinjau setiap set minimal sekali seminggu."
+        },
+        {
+          "title": "Gunakan Berbagai Mode Permainan",
+          "content": "Setiap mode memperkuat pembelajaran dengan cara berbeda - variasikan untuk hasil terbaik!"
+        }
+      ]
+    }
+  }
+}

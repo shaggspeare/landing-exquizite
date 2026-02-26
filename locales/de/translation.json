@@ -1,0 +1,966 @@
+{
+  "navbar": {
+    "brandName": "Exquizite",
+    "links": {
+      "features": "Funktionen",
+      "howItWorks": "So funktioniert's",
+      "stories": "Erfahrungen",
+      "pricing": "Preise",
+      "getApp": "App holen",
+      "downloadApp": "App herunterladen"
+    }
+  },
+  "hero": {
+    "badge": "Jetzt verfügbar für iOS und Web",
+    "titleLine1": "Lernen meistern",
+    "titleLine2": "durch smartes Üben",
+    "subtitle": "Erstelle eigene Wortsets, spiele spannende Lernspiele und beschleunige deine Sprachreise mit KI-gestützten Tools.",
+    "appStoreButton": "Im App Store laden",
+    "webAppButton": "Web-App testen",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "images": {
+      "quiz": { "src": "/images/quiz.PNG", "alt": "Exquizite App Quiz-Modus" },
+      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Lernmodi-Bildschirm" },
+      "mySets": { "src": "/images/my-sets.PNG", "alt": "Meine Sets-Bildschirm" }
+    }
+  },
+  "bentoFeatures": {
+    "sectionLabel": "Funktionen & Highlights",
+    "sectionTitle": "Alles, was du brauchst, um eine Sprache zu meistern",
+    "sectionSubtitle": "Von intelligenter KI-Generierung bis hin zu spannenden Spielmodi – Exquizite bietet dir alle Werkzeuge, um schneller zu lernen.",
+    "tiles": {
+      "learnYourWay": {
+        "title": "Lerne auf deine Art",
+        "description": "Wähle aus 4 interaktiven Lernmodi, die zu deinem individuellen Lernstil passen.",
+        "modes": ["Karteikarten", "Zuordnungsspiel", "Quiz-Modus", "Lückentext"]
+      },
+      "aiPowered": {
+        "title": "KI-gestützt",
+        "description": "Generiere Wortpaare sofort und erhalte intelligente Hinweise.",
+        "image": { "src": "/images/ai-generation.PNG", "alt": "KI-generierte Wörter" }
+      },
+      "languages": {
+        "title": "40+ Sprachen",
+        "description": "Vollständige Lokalisierung der Benutzeroberfläche und native Sprachunterstützung.",
+        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇷🇺 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+      },
+      "nativeIos": {
+        "title": "Native iOS",
+        "description": "Hol dir die App und lerne unterwegs."
+      },
+      "shareDiscover": {
+        "title": "Teilen & Entdecken",
+        "description": "Erstelle teilbare Links zu deinen Wortsets oder kopiere Community-Sets in deine Sammlung. Verfolge Aufrufe und Engagement.",
+        "recentShares": "Kürzlich geteilt",
+        "viewAll": "Alle anzeigen",
+        "shares": [
+          { "initials": "FR", "name": "Französisch Grundlagen", "wordCount": "24 Wörter" },
+          { "initials": "ES", "name": "Spanisch Küche", "wordCount": "12 Wörter" }
+        ]
+      },
+      "seamlessSync": {
+        "title": "Nahtlose Synchronisierung",
+        "description": "Starte auf dem iPhone, mach am Computer weiter. Dein Fortschritt folgt dir."
+      }
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "So funktioniert's",
+    "sectionSubtitle": "Starte deine Lernreise in vier einfachen Schritten",
+    "steps": [
+      {
+        "title": "1. Sets erstellen",
+        "desc": "Erstelle Vokabellisten oder nutze die KI, um sofort Wörter zu jedem Thema zu generieren."
+      },
+      {
+        "title": "2. Spiel wählen",
+        "desc": "Wähle aus 4 spannenden Spielmodi, die Lernen wie Spielen anfühlen lassen."
+      },
+      {
+        "title": "3. Fortschritt verfolgen",
+        "desc": "Behalte deine Lernsträhne, Fortschrittsstufen und Verlauf im Dashboard im Blick."
+      },
+      {
+        "title": "4. Teilen & Lernen",
+        "desc": "Teile deine besten Sets mit Freunden oder entdecke Inhalte der Community."
+      }
+    ]
+  },
+  "whyUs": {
+    "sectionTitle": "Warum Exquizite?",
+    "sectionSubtitle": "Wir haben Exquizite entwickelt, um die Hürden beim Sprachenlernen zu beseitigen. Ob Gelegenheitslerner oder Polyglott – unsere Plattform passt sich dir an.",
+    "points": [
+      {
+        "title": "In Sekunden starten",
+        "description": "Teste den Gastmodus sofort. Keine Anmeldung nötig, bis du synchronisieren möchtest."
+      },
+      {
+        "title": "Wirklich mehrsprachig",
+        "description": "Die Benutzeroberfläche ist in vielen Sprachen verfügbar. Lerne in deiner Komfortzone."
+      },
+      {
+        "title": "Datenschutz zuerst",
+        "description": "Deine Daten werden sicher über Supabase gespeichert. Du behältst stets die Kontrolle."
+      },
+      {
+        "title": "Modern & Schnell",
+        "description": "Mit moderner Technologie für flüssige Performance auf jeder Plattform."
+      }
+    ],
+    "image": { "src": "/images/my-sets.PNG", "alt": "Exquizite Zuordnungsmodus" }
+  },
+  "testimonials": {
+    "sectionTitle": "Von Lernenden geliebt",
+    "items": [
+      {
+        "quote": "Die KI-Wortgenerierung hat mir stundenlange Arbeit beim Erstellen von Vokabellisten für meinen Spanischkurs erspart. Unglaublich genau.",
+        "author": "Sarah J.",
+        "role": "Sprachstudentin"
+      },
+      {
+        "quote": "Endlich eine Sprach-App, die auf meinem Handy und Computer gleich gut funktioniert! Die Synchronisierung ist einwandfrei.",
+        "author": "Michael C.",
+        "role": "Digitaler Nomade"
+      },
+      {
+        "quote": "Das Zuordnungsspiel macht das Lernen zum Vergnügen. Meine Kinder lieben es auch! Es ist zu einer täglichen Familienaktivität geworden.",
+        "author": "Elena R.",
+        "role": "Elternteil & Lehrerin"
+      }
+    ]
+  },
+  "screenshotGallery": {
+    "sectionTitle": "Erlebe die App",
+    "sectionSubtitle": "Wirf einen genaueren Blick auf unsere interaktiven Lernmodi.",
+    "screenshots": [
+      { "src": "/images/ai-generation.PNG", "alt": "KI-Wortgenerierung" },
+      { "src": "/images/added-words.PNG", "alt": "Hinzugefügte Wörter" },
+      { "src": "/images/learning-modes.PNG", "alt": "Lernmodi" },
+      { "src": "/images/my-sets.PNG", "alt": "Meine Sets" },
+      { "src": "/images/match-mode.PNG", "alt": "Zuordnungsspiel" },
+      { "src": "/images/quiz.PNG", "alt": "Quiz-Modus" },
+      { "src": "/images/fill-in-blank.PNG", "alt": "Lückentext" }
+    ]
+  },
+  "pricing": {
+    "sectionTitle": "Einfache, transparente Preise",
+    "sectionSubtitle": "Bildung sollte für alle zugänglich sein.",
+    "planName": "Für immer kostenlos",
+    "planDescription": "Alles, was du brauchst, um eine Sprache zu meistern.",
+    "price": "$0",
+    "period": "/Monat",
+    "features": [
+      "Unbegrenzte Wortsets",
+      "Zugriff auf alle 4 Spielmodi",
+      "KI-Wortgenerierung",
+      "Sets teilen",
+      "Plattformübergreifende Synchronisierung"
+    ],
+    "ctaButton": "Kostenlos loslegen"
+  },
+  "faq": {
+    "sectionTitle": "Häufig gestellte Fragen",
+    "items": [
+      { "q": "Brauche ich ein Konto, um Exquizite zu nutzen?", "a": "Nein! Starte sofort mit dem Gastmodus. Erstelle später ein Konto, um geräteübergreifend zu synchronisieren." },
+      { "q": "Wie viele Sprachen werden unterstützt?", "a": "Über 40 Sprachen für Lerninhalte und die App-Oberfläche." },
+      { "q": "Funktioniert die App offline?", "a": "Ja, die iOS-App unterstützt den Offline-Zugriff auf deine heruntergeladenen Wortsets." },
+      { "q": "Kann ich Exquizite auf meinem Computer nutzen?", "a": "Auf jeden Fall! Die Web-App bietet ein für den Desktop optimiertes Erlebnis." },
+      { "q": "Sind meine Daten sicher?", "a": "Ja, alle Daten werden sicher gespeichert und über Supabase mit branchenüblicher Verschlüsselung synchronisiert." },
+      { "q": "Kann ich meine Wortsets teilen?", "a": "Ja! Erstelle einen teilbaren Link für jedes Set. Andere können es ansehen und in ihre Sammlung kopieren." }
+    ]
+  },
+  "downloadCTA": {
+    "title": "Starte heute mit dem Lernen",
+    "subtitle": "Schließe dich Tausenden von Lernenden an, die mit Exquizite neue Sprachen meistern. Jetzt herunterladen oder im Browser ausprobieren.",
+    "iosButton": "Für iOS herunterladen",
+    "webButton": "Web-App starten",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "disclaimer": "Keine Kreditkarte für den kostenlosen Tarif erforderlich."
+  },
+  "footer": {
+    "brandName": "Exquizite",
+    "brandDescription": "Sprachen meistern durch smartes, interaktives Üben. Von Lernenden für Lernende entwickelt.",
+    "columns": {
+      "product": {
+        "title": "Produkt",
+        "links": [
+          { "label": "Funktionen", "href": "#features" },
+          { "label": "So funktioniert's", "href": "#how-it-works" },
+          { "label": "Preise", "href": "#pricing" },
+          { "label": "Herunterladen", "href": "#download" }
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "links": [
+          { "label": "Hilfe & Support", "to": "/support" },
+          { "label": "Kontakt", "href": "mailto:viacheslav@exquizite.app" },
+          { "label": "Datenschutzrichtlinie", "to": "/privacy-policy" }
+        ]
+      },
+      "legal": {
+        "title": "Rechtliches",
+        "links": [
+          { "label": "Nutzungsbedingungen", "href": "#" },
+          { "label": "Cookie-Richtlinie", "href": "#" }
+        ]
+      }
+    },
+    "copyright": "© 2025 Exquizite. Sprachen meistern, auf deine Art."
+  },
+  "privacyPolicy": {
+    "title": "Datenschutzrichtlinie für Exquizite",
+    "lastUpdated": "Zuletzt aktualisiert: 7. Februar 2026",
+    "sections": [
+      {
+        "title": "Einleitung",
+        "content": "Willkommen bei Exquizite, einer Anwendung zum Sprachenlernen. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Daten erfassen, verwenden, offenlegen und schützen, wenn Sie unsere mobile Anwendung und Webdienste (zusammen die „App“) nutzen. Bitte lesen Sie diese Datenschutzrichtlinie sorgfältig durch. Wenn Sie mit den Bedingungen dieser Datenschutzrichtlinie nicht einverstanden sind, nutzen Sie die App bitte nicht."
+      },
+      {
+        "title": "Daten, die wir erfassen",
+        "subsections": [
+          {
+            "title": "Persönliche Daten",
+            "intro": "Wenn Sie ein Konto bei Exquizite erstellen, erfassen wir:",
+            "items": [
+              { "bold": "E-Mail-Adresse", "text": "Verwendet für Kontoerstellung, Authentifizierung und Kommunikation" },
+              { "bold": "Benutzer-ID", "text": "Ein automatisch generierter eindeutiger Identifikator für Authentifizierung und Datenzuordnung" },
+              { "bold": "Passwort", "text": "Sicher gespeichert mit branchenüblicher Verschlüsselung (wir speichern Passwörter niemals im Klartext)" }
+            ]
+          },
+          {
+            "title": "Nutzergenerierte Inhalte",
+            "items": [
+              { "bold": "Vokabelsets", "text": "Wortpaare, Übersetzungen, Set-Namen und Lerneinstellungen, die Sie erstellen" },
+              { "bold": "Spracheinstellungen", "text": "Ihre gewählte Ziel- und Muttersprache zum Lernen" },
+              { "bold": "Übungsverlauf", "text": "Informationen darüber, wann Sie zuletzt ein Set geübt haben und Ihr Fortschritt" },
+              { "bold": "App-Einstellungen", "text": "Theme-Einstellungen, UI-Sprache und andere Anpassungen" }
+            ]
+          },
+          {
+            "title": "Automatisch erfasste Daten",
+            "items": [
+              { "bold": "Nutzungsdaten", "text": "Informationen darüber, wie Sie mit der App interagieren, einschließlich genutzter Spielmodi und Funktionen" },
+              { "bold": "Geräteinformationen", "text": "Gerätetyp, Betriebssystem und App-Version zur Fehlerbehebung und Kompatibilität" },
+              { "bold": "Anonyme Analysen", "text": "Aggregierte, nicht personenbezogene Nutzungsstatistiken zur Verbesserung der App" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Gastmodus",
+        "intro": "Wenn Sie die App ohne Kontoerstellung nutzen (Gastmodus):",
+        "items": [
+          "Es werden keine E-Mail-Adressen oder persönlichen Daten erfasst",
+          "Ihre Vokabelsets werden nur lokal auf Ihrem Gerät gespeichert",
+          "Daten werden nicht geräteübergreifend synchronisiert",
+          "Daten können verloren gehen, wenn Sie die App deinstallieren oder App-Daten löschen"
+        ]
+      },
+      {
+        "title": "Wie wir Ihre Daten verwenden",
+        "intro": "Wir verwenden die erfassten Daten, um:",
+        "items": [
+          { "bold": "Dienste bereitzustellen", "text": "Kontoerstellung, Datensynchronisierung und App-Funktionalität zu ermöglichen" },
+          { "bold": "Nutzererfahrung verbessern", "text": "Ihr Lernerlebnis zu personalisieren und Ihre Einstellungen zu merken" },
+          { "bold": "KI-Inhalte generieren", "text": "OpenAIs API zu nutzen, um Vokabelvorschläge und Beispielsätze basierend auf Ihren Themen zu generieren" },
+          { "bold": "Sicherheit gewährleisten", "text": "Benutzer zu authentifizieren und vor unbefugtem Zugriff zu schützen" },
+          { "bold": "Kommunizieren", "text": "Wichtige Updates über die App zu senden (wir senden keine Marketing-E-Mails ohne Ihre Zustimmung)" },
+          { "bold": "Fehler beheben", "text": "Technische Probleme zu diagnostizieren und die App-Performance zu verbessern" }
+        ]
+      },
+      {
+        "title": "Datenspeicherung und Sicherheit",
+        "subsections": [
+          {
+            "title": "Speicherort",
+            "intro": "Ihre Daten werden sicher über Supabase gespeichert, einen cloudbasierten Datenbankdienst:",
+            "items": [
+              { "bold": "Standort", "text": "Daten werden auf sicheren Servern gehostet, die von Supabase verwaltet werden (betrieben mit AWS-Infrastruktur)" },
+              { "bold": "Verschlüsselung", "text": "Alle Daten werden während der Übertragung mit HTTPS/TLS-Protokollen verschlüsselt" },
+              { "bold": "Zugriffskontrolle", "text": "Row-Level Security (RLS)-Richtlinien stellen sicher, dass Sie nur auf Ihre eigenen Daten zugreifen können" },
+              { "bold": "Backups", "text": "Regelmäßige automatische Sicherungen zur Vermeidung von Datenverlust" }
+            ]
+          },
+          {
+            "title": "Sicherheitsmaßnahmen",
+            "intro": "Wir implementieren branchenübliche Sicherheitsmaßnahmen, darunter:",
+            "items": [
+              "Sichere Authentifizierung mit JWT-Tokens",
+              "Passwort-Hashing mit bcrypt oder ähnlichen Algorithmen",
+              "HTTPS-Verschlüsselung für alle Datenübertragungen",
+              "Zugriffsprotokolle und Überwachung auf verdächtige Aktivitäten"
+            ],
+            "note": "Allerdings ist keine Methode der Übertragung über das Internet oder der elektronischen Speicherung zu 100 % sicher. Obwohl wir uns bemühen, Ihre Daten zu schützen, können wir keine absolute Sicherheit garantieren."
+          }
+        ]
+      },
+      {
+        "title": "Drittanbieterdienste",
+        "subsections": [
+          {
+            "title": "Supabase (Datenbank und Authentifizierung)",
+            "intro": "Wir nutzen Supabase zur Speicherung und Verwaltung von Benutzerdaten:",
+            "items": [
+              { "bold": "Zweck", "text": "Cloud-Datenbank, Benutzerauthentifizierung und Datensynchronisierung" },
+              { "bold": "Geteilte Daten", "text": "E-Mail, Benutzer-ID, Vokabelsets, Übungsverlauf" }
+            ],
+            "privacyUrl": "https://supabase.com/privacy"
+          },
+          {
+            "title": "OpenAI API (KI-gestützte Funktionen)",
+            "intro": "Wir nutzen die API von OpenAI, um Vokabelvorschläge und Beispielsätze zu generieren:",
+            "items": [
+              { "bold": "Zweck", "text": "KI-gestützte Inhaltsgenerierung für Lernmaterialien" },
+              { "bold": "Geteilte Daten", "text": "NUR die von Ihnen angeforderten Themen (z.B. „Essen“, „Reisen“)" },
+              { "bold": "Wichtig", "text": "Wir senden KEINE persönlichen Daten, E-Mail-Adressen, Benutzer-IDs oder bestehende Vokabelsets an OpenAI" },
+              { "bold": "Datennutzung", "text": "OpenAI verarbeitet Anfragen vorübergehend und nutzt Ihre Daten nicht zum Modelltraining (gemäß unserer API-Vereinbarung)" }
+            ],
+            "privacyUrl": "https://openai.com/privacy"
+          },
+          {
+            "title": "Expo (Entwicklungsplattform)",
+            "intro": "Wir nutzen Expo für App-Entwicklung und -Bereitstellung:",
+            "items": [
+              { "bold": "Zweck", "text": "App-Infrastruktur und Updates" },
+              { "bold": "Geteilte Daten", "text": "Minimale Absturzberichte und anonyme Nutzungsstatistiken" }
+            ],
+            "privacyUrl": "https://expo.dev/privacy"
+          }
+        ]
+      },
+      {
+        "title": "Datenweitergabe und Offenlegung",
+        "intro": "Wir verkaufen, vermieten oder handeln NICHT mit Ihren persönlichen Daten an Dritte.",
+        "intro2": "Wir geben Ihre Daten nur unter folgenden Umständen weiter:",
+        "items": [
+          { "bold": "Mit Ihrer Zustimmung", "text": "Wenn Sie sich ausdrücklich dafür entscheiden, Vokabelsets mit anderen Nutzern zu teilen" },
+          { "bold": "Dienstanbieter", "text": "Mit vertrauenswürdigen Drittanbieterdiensten (Supabase, OpenAI) wie oben beschrieben" },
+          { "bold": "Gesetzliche Anforderungen", "text": "Wenn gesetzlich vorgeschrieben, durch Gerichtsbeschluss oder behördliche Anordnung" },
+          { "bold": "Geschäftsübertragungen", "text": "Im Falle einer Fusion, Übernahme oder eines Verkaufs von Vermögenswerten (Sie werden benachrichtigt)" },
+          { "bold": "Sicherheit und Schutz", "text": "Zum Schutz der Rechte, des Eigentums oder der Sicherheit von Exquizite, unseren Nutzern oder anderen" }
+        ]
+      },
+      {
+        "title": "Geteilte Vokabelsets",
+        "intro": "Wenn Sie ein Vokabelset teilen:",
+        "items": [
+          "Es wird ein eindeutiger Freigabecode generiert",
+          "Jeder mit dem Freigabecode kann das Set ansehen und kopieren",
+          "Ihre E-Mail-Adresse und persönlichen Daten sind NICHT in geteilten Sets enthalten",
+          "Sie können sehen, wie oft Ihr Set angesehen und kopiert wurde",
+          "Sie können das Teilen jederzeit beenden, indem Sie den Freigabecode löschen"
+        ]
+      },
+      {
+        "title": "Ihre Rechte und Wahlmöglichkeiten",
+        "intro": "Sie haben folgende Rechte bezüglich Ihrer Daten:",
+        "rights": [
+          {
+            "title": "Zugriff auf Ihre Daten",
+            "description": "Sie können alle Ihre Vokabelsets und Kontoinformationen innerhalb der App einsehen"
+          },
+          {
+            "title": "Daten ändern",
+            "description": "Bearbeiten oder aktualisieren Sie Ihre Vokabelsets, Spracheinstellungen und App-Einstellungen jederzeit"
+          },
+          {
+            "title": "Daten löschen",
+            "description": "Sie können die vollständige Löschung Ihres Kontos und aller zugehörigen Daten beantragen:",
+            "steps": [
+              { "bold": "In-App-Löschung", "text": "(demnächst verfügbar): Navigieren Sie zu Einstellungen > Konto > Konto löschen" },
+              {
+                "bold": "Per E-Mail anfragen",
+                "text": "Kontaktieren Sie uns unter viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenlöschung“",
+                "subItems": [
+                  "Geben Sie Ihre registrierte E-Mail-Adresse an",
+                  "Wir bestätigen Ihre Identität und löschen alle Daten innerhalb von 30 Tagen",
+                  "Die Löschung ist dauerhaft und kann nicht rückgängig gemacht werden"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Daten exportieren",
+            "description": "Um eine Kopie Ihrer Daten anzufordern, kontaktieren Sie uns unter viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenexport“"
+          },
+          {
+            "title": "Gastmodus",
+            "description": "Wenn Sie den Gastmodus genutzt haben, können Sie Ihre lokalen Daten löschen, indem Sie:",
+            "items": [
+              "Den Cache und die Daten der App in Ihren Geräteeinstellungen löschen",
+              "Die App deinstallieren"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Datenschutz für Kinder",
+        "content": "Exquizite ist für Nutzer ab 13 Jahren bestimmt. Wir erfassen wissentlich keine persönlichen Daten von Kindern unter 13 Jahren. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und glauben, dass Ihr Kind uns persönliche Daten zur Verfügung gestellt hat, kontaktieren Sie uns bitte unter viacheslav@exquizite.app, und wir werden diese Daten umgehend löschen."
+      },
+      {
+        "title": "Internationale Datenübertragungen",
+        "content": "Ihre Daten können auf Server außerhalb Ihres Wohnsitzlandes, einschließlich der Vereinigten Staaten, übertragen und dort gespeichert werden. Durch die Nutzung der App stimmen Sie der Übertragung Ihrer Daten in Länder zu, die möglicherweise andere Datenschutzgesetze als Ihr Land haben."
+      },
+      {
+        "title": "Änderungen dieser Datenschutzrichtlinie",
+        "intro": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir informieren Sie über Änderungen durch:",
+        "items": [
+          "Aktualisierung des Datums „Zuletzt aktualisiert“ am Anfang dieser Richtlinie",
+          "Anzeige einer In-App-Benachrichtigung bei wesentlichen Änderungen",
+          "Senden einer E-Mail-Benachrichtigung (falls Sie ein Konto haben)"
+        ],
+        "note": "Ihre fortgesetzte Nutzung der App nach Veröffentlichung von Änderungen gilt als Annahme der überarbeiteten Richtlinie."
+      },
+      {
+        "title": "Datenspeicherung",
+        "intro": "Wir bewahren Ihre Daten so lange auf, wie Ihr Konto aktiv ist oder wie es zur Bereitstellung unserer Dienste erforderlich ist. Wenn Sie Ihr Konto löschen:",
+        "items": [
+          "Persönliche Daten werden innerhalb von 30 Tagen gelöscht",
+          "Einige Daten können aus rechtlichen oder sicherheitstechnischen Gründen aufbewahrt werden (z.B. zur Betrugsprävention)",
+          "Geteilte Vokabelsets können für Nutzer, die sie zuvor kopiert haben, weiterhin zugänglich sein"
+        ]
+      },
+      {
+        "title": "Ihre Zustimmung",
+        "content": "Durch die Nutzung von Exquizite stimmen Sie dieser Datenschutzrichtlinie zu und erklären sich mit ihren Bedingungen einverstanden."
+      },
+      {
+        "title": "Kontakt",
+        "intro": "Wenn Sie Fragen, Bedenken oder Anfragen bezüglich dieser Datenschutzrichtlinie oder Ihrer Daten haben, kontaktieren Sie uns bitte:",
+        "contactInfo": {
+          "email": "viacheslav@exquizite.app",
+          "developer": "Exquizite Entwicklungsteam",
+          "responseTime": "Wir bemühen uns, alle Anfragen innerhalb von 7 Werktagen zu beantworten."
+        }
+      }
+    ],
+    "summary": {
+      "title": "Zusammenfassung der wichtigsten Punkte",
+      "intro": "Zu Ihrer Information eine kurze Zusammenfassung:",
+      "items": [
+        { "label": "Was wir erfassen", "value": "E-Mail, von Ihnen erstellte Vokabelsets, Spracheinstellungen" },
+        { "label": "Warum wir es erfassen", "value": "Um Lernfunktionen bereitzustellen, geräteübergreifend zu synchronisieren, KI-Inhalte zu generieren" },
+        { "label": "Wo es gespeichert wird", "value": "Supabase Cloud-Server (betrieben mit AWS)" },
+        { "label": "Drittanbieter", "value": "Supabase (Datenbank), OpenAI (KI-Generierung – keine persönlichen Daten gesendet)" },
+        { "label": "Ihre Rechte", "value": "Jederzeit auf Ihre Daten zugreifen, sie ändern oder löschen" },
+        { "label": "Kontakt", "value": "viacheslav@exquizite.app" }
+      ],
+      "thankYou": "Vielen Dank, dass Sie Exquizite auf Ihrer Sprachlernreise vertrauen!"
+    }
+  },
+  "support": {
+    "title": "Exquizite Support",
+    "subtitle": "Willkommen beim Exquizite Support! Finden Sie Antworten auf häufige Fragen und erhalten Sie Hilfe zur App.",
+    "contactEmail": "viacheslav@exquizite.app",
+    "lastUpdated": "Zuletzt aktualisiert: 7. Februar 2026",
+    "thankYou": "Vielen Dank, dass Sie Exquizite nutzen! Viel Spaß beim Lernen!",
+    "toc": {
+      "title": "Inhaltsverzeichnis",
+      "items": [
+        { "id": "getting-started", "label": "Erste Schritte" },
+        { "id": "account-login", "label": "Konto & Anmeldung" },
+        { "id": "creating-vocabulary-sets", "label": "Vokabelsets erstellen" },
+        { "id": "game-modes", "label": "Spielmodi" },
+        { "id": "sharing-sets", "label": "Sets teilen" },
+        { "id": "settings-preferences", "label": "Einstellungen & Präferenzen" },
+        { "id": "troubleshooting", "label": "Fehlerbehebung" },
+        { "id": "privacy-data", "label": "Datenschutz & Daten" },
+        { "id": "contact-us", "label": "Kontakt" }
+      ]
+    },
+    "gettingStarted": {
+      "title": "Erste Schritte",
+      "whatIs": {
+        "title": "Was ist Exquizite?",
+        "content": "Exquizite ist eine Sprach-App, die Ihnen hilft, Vokabeln durch interaktive Spiele und Karteikarten zu meistern. Erstellen Sie eigene Wortsets, üben Sie mit unterhaltsamen Spielmodi und verfolgen Sie Ihren Fortschritt."
+      },
+      "needAccount": {
+        "title": "Brauche ich ein Konto?",
+        "intro": "Nein! Sie können Exquizite auf zwei Arten nutzen:",
+        "options": [
+          { "bold": "Gastmodus", "text": "Nutzen Sie die App ohne Registrierung. Ihre Sets werden nur lokal auf Ihrem Gerät gespeichert." },
+          { "bold": "Mit Konto", "text": "Registrieren Sie sich mit E-Mail, um Ihre Sets auf allen Geräten zu synchronisieren (iPhone, iPad, Android, Web)." }
+        ]
+      },
+      "howToStart": {
+        "title": "Wie fange ich an?",
+        "steps": [
+          "Laden Sie Exquizite aus dem App Store oder Google Play herunter",
+          "Wählen Sie „Als Gast fortfahren“ oder „Registrieren“",
+          "Wählen Sie Ihre Lernsprache (z.B. Spanisch) und Muttersprache (z.B. Deutsch)",
+          "Erstellen Sie Ihr erstes Vokabelset",
+          "Starten Sie mit dem Üben!"
+        ]
+      }
+    },
+    "accountLogin": {
+      "title": "Konto & Anmeldung",
+      "createAccount": {
+        "title": "Wie erstelle ich ein Konto?",
+        "steps": [
+          "Tippen Sie auf dem Anmeldebildschirm auf „Registrieren“",
+          "Geben Sie Ihre E-Mail-Adresse ein und erstellen Sie ein Passwort",
+          "Tippen Sie auf „Konto erstellen“",
+          "Sie werden automatisch angemeldet"
+        ]
+      },
+      "forgotPassword": {
+        "title": "Ich habe mein Passwort vergessen. Wie setze ich es zurück?",
+        "steps": [
+          "Tippen Sie auf dem Anmeldebildschirm auf „Passwort vergessen?“",
+          "Geben Sie Ihre E-Mail-Adresse ein",
+          "Prüfen Sie Ihre E-Mails auf einen Link zum Zurücksetzen des Passworts",
+          "Folgen Sie dem Link, um ein neues Passwort zu erstellen"
+        ]
+      },
+      "guestToAccount": {
+        "title": "Kann ich vom Gastmodus zu einem Konto wechseln?",
+        "intro": "Derzeit können Gastmodus-Daten nicht automatisch auf ein Konto übertragen werden. Um Ihre Sets zu sichern:",
+        "steps": [
+          "Teilen Sie jedes Set, das Sie behalten möchten (holen Sie sich den Freigabecode)",
+          "Erstellen Sie ein Konto",
+          "Verwenden Sie die Freigabecodes, um Sets in Ihr neues Konto zu kopieren"
+        ],
+        "note": "Wir arbeiten an einer direkten Migrationsfunktion!"
+      },
+      "logout": {
+        "title": "Wie melde ich mich ab?",
+        "steps": [
+          "Gehen Sie zu Profil (untere Leiste)",
+          "Scrollen Sie nach unten und tippen Sie auf „Abmelden“"
+        ]
+      },
+      "deleteAccount": {
+        "title": "Wie lösche ich mein Konto?",
+        "content": "Siehe den Abschnitt Datenschutz & Daten weiter unten."
+      }
+    },
+    "creatingVocabularySets": {
+      "title": "Vokabelsets erstellen",
+      "createNew": {
+        "title": "Wie erstelle ich ein neues Vokabelset?",
+        "steps": [
+          "Tippen Sie auf dem Startbildschirm auf die „+“-Schaltfläche",
+          "Geben Sie einen Namen für Ihr Set ein (z.B. „Spanisches Essen“)",
+          "Fügen Sie Wortpaare hinzu:\n  - Linke Spalte: Wörter in Ihrer Lernsprache\n  - Rechte Spalte: Übersetzungen in Ihrer Muttersprache",
+          "Tippen Sie auf „Speichern“, wenn Sie fertig sind"
+        ]
+      },
+      "wordLimit": {
+        "title": "Wie viele Wörter kann ich einem Set hinzufügen?",
+        "content": "Jedes Set kann bis zu 20 Wortpaare enthalten. Dieses Limit gewährleistet optimales Lernen und beste Leistung."
+      },
+      "aiGeneration": {
+        "title": "Kann ich KI zur Vokabelgenerierung nutzen?",
+        "intro": "Ja! Tippen Sie beim Erstellen eines Sets auf „KI-Vorschläge“:",
+        "steps": [
+          "Geben Sie ein Thema ein (z.B. „Restaurant-Vokabeln“, „Reisephrasen“)",
+          "Wählen Sie, wie viele Wörter Sie möchten (bis zu 20)",
+          "Überprüfen Sie die KI-generierten Vorschläge",
+          "Wählen Sie die Wörter aus, die Sie hinzufügen möchten",
+          "Bearbeiten oder passen Sie nach Bedarf an"
+        ]
+      },
+      "bulkImport": {
+        "title": "Kann ich Wörter in großen Mengen importieren?",
+        "intro": "Ja! Tippen Sie beim Erstellen eines Sets auf „Massenimport“. Formatoptionen:",
+        "formats": [
+          { "name": "Option 1: Tab-getrennt", "example": "Wort[TAB]Übersetzung\nhola[TAB]hallo\nadiós[TAB]tschüss" },
+          { "name": "Option 2: Bindestrich-getrennt", "example": "Wort - Übersetzung\nhola - hallo\nadiós - tschüss" },
+          { "name": "Option 3: Gleichheitszeichen-getrennt", "example": "Wort = Übersetzung\nhola = hallo\nadiós = tschüss" }
+        ]
+      },
+      "editSet": {
+        "title": "Wie bearbeite ich ein Vokabelset?",
+        "steps": [
+          "Gehen Sie zu Meine Sets (untere Leiste)",
+          "Tippen Sie auf das Set, das Sie bearbeiten möchten",
+          "Tippen Sie auf das Bearbeitungssymbol (Stift) oben rechts",
+          "Nehmen Sie Ihre Änderungen vor",
+          "Tippen Sie auf „Speichern“"
+        ]
+      },
+      "deleteSet": {
+        "title": "Wie lösche ich ein Vokabelset?",
+        "steps": [
+          "Gehen Sie zu Meine Sets",
+          "Tippen Sie auf das Set, das Sie löschen möchten",
+          "Tippen Sie auf das Menüsymbol (drei Punkte)",
+          "Wählen Sie „Set löschen“",
+          "Bestätigen Sie die Löschung"
+        ],
+        "warning": "Hinweis: Diese Aktion kann nicht rückgängig gemacht werden!"
+      },
+      "differentLanguages": {
+        "title": "Kann ich verschiedene Sprachen für verschiedene Sets verwenden?",
+        "intro": "Ja! Standardmäßig verwenden Sets Ihre globalen Spracheinstellungen, aber Sie können diese pro Set überschreiben:",
+        "steps": [
+          "Tippen Sie beim Erstellen/Bearbeiten eines Sets auf „Sprache überschreiben“",
+          "Wählen Sie benutzerdefinierte Sprachen für dieses spezifische Set",
+          "Diese Einstellungen betreffen nur dieses eine Set"
+        ]
+      }
+    },
+    "gameModes": {
+      "title": "Spielmodi",
+      "available": {
+        "title": "Welche Spielmodi sind verfügbar?",
+        "intro": "Exquizite bietet 4 interaktive Lernmodi:",
+        "modes": [
+          { "bold": "Karteikarten", "text": "Klassische Wendekarten zum Testen Ihres Gedächtnisses" },
+          { "bold": "Quiz", "text": "Multiple-Choice-Fragen zur Festigung des Gelernten" },
+          { "bold": "Zuordnen", "text": "Finden Sie passende Wortpaare gegen die Uhr" },
+          { "bold": "Lückentext", "text": "Vervollständigen Sie Sätze mit den richtigen Wörtern" }
+        ]
+      },
+      "howToPlay": {
+        "title": "Wie starte ich einen Spielmodus?",
+        "steps": [
+          "Gehen Sie zu Meine Sets oder Startseite",
+          "Tippen Sie auf ein Vokabelset",
+          "Wählen Sie einen Spielmodus aus dem Menü",
+          "Folgen Sie den Anweisungen auf dem Bildschirm",
+          "Schließen Sie das Spiel ab, um Ihren Fortschritt zu verfolgen!"
+        ]
+      },
+      "modeDetails": [
+        {
+          "title": "Karteikarten-Modus",
+          "items": [
+            "Tippen Sie auf die Karte, um zwischen Wort und Übersetzung zu wechseln",
+            "Verwenden Sie „Zurück“ und „Weiter“ zum Navigieren",
+            "Der Fortschrittsbalken zeigt Ihre Position im Set",
+            "Das Üben wird automatisch erfasst, wenn Sie das Set abschließen"
+          ]
+        },
+        {
+          "title": "Quiz-Modus",
+          "items": [
+            "Wählen Sie aus 4 Multiple-Choice-Antworten (A, B, C, D)",
+            "Tippen Sie auf eine Antwort, um sie zu prüfen",
+            "Grünes Häkchen = Richtig!",
+            "Rotes X = Versuchen Sie es nochmal oder überspringen",
+            "Überspringen geht zur nächsten Frage ohne Punkte",
+            "Sehen Sie Ihre Endpunktzahl am Schluss"
+          ]
+        },
+        {
+          "title": "Zuordnungsmodus",
+          "items": [
+            "Finden Sie passende Wort-Übersetzungs-Paare",
+            "Tippen Sie auf zwei Karten, um zu prüfen, ob sie zusammenpassen",
+            "Ordnen Sie alle Paare so schnell wie möglich zu",
+            "Schlagen Sie Ihre Bestzeit!"
+          ]
+        },
+        {
+          "title": "Lückentext-Modus",
+          "items": [
+            "Lesen Sie den Beispielsatz",
+            "Geben Sie das fehlende Wort ein",
+            "Nutzen Sie den Hinweis, wenn Sie Hilfe brauchen",
+            "Senden Sie Ihre Antwort ab, um zu prüfen, ob sie richtig ist"
+          ]
+        }
+      ],
+      "replay": {
+        "title": "Kann ich einen Spielmodus wiederholen?",
+        "content": "Ja! Sie können jedes Set so oft üben, wie Sie möchten. Ihr „Zuletzt geübt“-Datum wird bei jeder abgeschlossenen Sitzung aktualisiert."
+      }
+    },
+    "sharingSets": {
+      "title": "Sets teilen",
+      "howToShare": {
+        "title": "Wie teile ich ein Vokabelset?",
+        "steps": [
+          "Öffnen Sie das Set, das Sie teilen möchten",
+          "Tippen Sie auf das Teilen-Symbol (oder Menü > Teilen)",
+          "Ein eindeutiger Freigabecode wird generiert (z.B. ABC123XYZ)",
+          "Teilen Sie den Code per Nachricht, E-Mail oder Social Media"
+        ]
+      },
+      "useShared": {
+        "title": "Wie verwende ich ein geteiltes Set?",
+        "steps": [
+          "Tippen Sie auf die Suche auf dem Startbildschirm oder „Freigabecode eingeben“",
+          "Geben Sie den Freigabecode ein (z.B. ABC123XYZ)",
+          "Sehen Sie sich das Set in der Vorschau an",
+          "Tippen Sie auf „In meine Sets kopieren“",
+          "Benennen Sie das Set optional um",
+          "Das Set befindet sich jetzt in Ihrer Bibliothek!"
+        ]
+      },
+      "viewStats": {
+        "title": "Kann ich sehen, wer mein geteiltes Set angesehen oder kopiert hat?",
+        "intro": "Ja! Beim Anzeigen eines geteilten Sets können Sie sehen:",
+        "items": [
+          { "bold": "Aufrufe", "text": "Wie oft es angesehen wurde" },
+          { "bold": "Kopien", "text": "Wie viele Nutzer es kopiert haben" }
+        ],
+        "note": "Sie können keine individuellen Benutzernamen oder E-Mails sehen (Datenschutz)."
+      },
+      "stopSharing": {
+        "title": "Kann ich das Teilen eines Sets beenden?",
+        "intro": "Ja! So widerrufen Sie die Freigabe:",
+        "steps": [
+          "Öffnen Sie das geteilte Set",
+          "Tippen Sie auf das Menüsymbol",
+          "Wählen Sie „Teilen beenden“ oder „Freigabecode löschen“",
+          "Der Freigabecode funktioniert nicht mehr"
+        ],
+        "note": "Bestehende Kopien in den Bibliotheken anderer Nutzer bleiben erhalten (sie besitzen ihre Kopien)."
+      },
+      "autoUpdate": {
+        "title": "Werden geteilte Sets automatisch aktualisiert?",
+        "content": "Nein. Wenn jemand Ihr geteiltes Set kopiert, erhält er einen Schnappschuss zu diesem Zeitpunkt. Wenn Sie Ihr Original-Set später bearbeiten, wird die Kopie nicht automatisch aktualisiert."
+      }
+    },
+    "settingsPreferences": {
+      "title": "Einstellungen & Präferenzen",
+      "appLanguage": {
+        "title": "Wie ändere ich die App-Sprache (Benutzeroberfläche)?",
+        "intro": "Exquizite unterstützt über 45 Sprachen für die Benutzeroberfläche:",
+        "steps": [
+          "Gehen Sie zu Einstellungen",
+          "Tippen Sie auf „App-Sprache“",
+          "Wählen Sie Ihre bevorzugte Sprache",
+          "Die App wird mit der neuen Sprache neu geladen"
+        ],
+        "note": "Unterstützte Sprachen: Englisch, Spanisch, Französisch, Deutsch, Italienisch, Portugiesisch, Japanisch, Koreanisch, Chinesisch, Arabisch, Hebräisch und über 35 weitere!"
+      },
+      "learningLanguages": {
+        "title": "Wie ändere ich meine Lernsprachen?",
+        "steps": [
+          "Gehen Sie zu Profil",
+          "Tippen Sie auf „Spracheinstellungen“",
+          "Wählen Sie Ihre Lernsprache (Sprache, die Sie studieren)",
+          "Wählen Sie Ihre Muttersprache (Sprache, die Sie beherrschen)",
+          "Änderungen speichern"
+        ],
+        "note": "Hinweis: Dies betrifft neue Sets. Bestehende Sets behalten ihre ursprünglichen Sprachen, es sei denn, Sie bearbeiten sie einzeln."
+      },
+      "darkMode": {
+        "title": "Wie aktiviere ich den Dunkelmodus?",
+        "steps": [
+          "Gehen Sie zu Einstellungen",
+          "Schalten Sie „Dunkelmodus“ ein/aus"
+        ],
+        "note": "Der Dunkelmodus schont die Augen bei schwachen Lichtverhältnissen und kann bei OLED-Bildschirmen Akku sparen."
+      },
+      "tour": {
+        "title": "Was ist die Einführungstour?",
+        "intro": "Bei der ersten Nutzung von Exquizite führt Sie eine interaktive Tour durch die wichtigsten Funktionen. So starten Sie die Tour erneut:",
+        "steps": [
+          "Gehen Sie zu Einstellungen",
+          "Tippen Sie auf „Tour neu starten“",
+          "Folgen Sie den Anweisungen auf dem Bildschirm"
+        ]
+      }
+    },
+    "troubleshooting": {
+      "title": "Fehlerbehebung",
+      "syncIssue": {
+        "title": "Meine Sets werden nicht geräteübergreifend synchronisiert",
+        "accountSteps": {
+          "label": "Für Kontonutzer:",
+          "steps": [
+            "Stellen Sie sicher, dass Sie auf allen Geräten im selben Konto angemeldet sind",
+            "Überprüfen Sie Ihre Internetverbindung",
+            "Versuchen Sie, sich abzumelden und erneut anzumelden",
+            "Ziehen Sie nach unten zum Aktualisieren im Meine-Sets-Bildschirm"
+          ]
+        },
+        "guestNote": "Für Gastnutzer: Gastmodus-Daten werden nur lokal gespeichert und werden NICHT synchronisiert. Erstellen Sie ein Konto, um die Synchronisierung zu aktivieren."
+      },
+      "crashing": {
+        "title": "Die App stürzt ab oder friert ein",
+        "intro": "Versuchen Sie diese Schritte:",
+        "steps": [
+          "Erzwingen Sie das Schließen der App und öffnen Sie sie erneut",
+          "Starten Sie Ihr Gerät neu",
+          "Suchen Sie nach Updates im App Store/Play Store",
+          "Leeren Sie den App-Cache (Einstellungen > Apps > Exquizite > Cache leeren auf Android)",
+          "Installieren Sie die App neu (Hinweis: Gastmodus-Daten gehen verloren!)"
+        ],
+        "note": "Falls das Problem weiterbesteht, kontaktieren Sie uns unter viacheslav@exquizite.app mit Gerätemodell, Betriebssystemversion, App-Version und Beschreibung des Problems."
+      },
+      "aiNotWorking": {
+        "title": "KI-Vorschläge funktionieren nicht",
+        "intro": "Wenn KI-Funktionen nicht funktionieren:",
+        "steps": [
+          "Überprüfen Sie Ihre Internetverbindung",
+          "Versuchen Sie es in ein paar Minuten erneut (vorübergehendes Serverproblem)",
+          "Verwenden Sie ein anderes Thema",
+          "Fügen Sie Wörter als Alternative manuell hinzu"
+        ]
+      },
+      "sharedSetNotFound": {
+        "title": "Ich finde ein geteiltes Set mit dem Code nicht",
+        "intro": "Häufige Probleme:",
+        "items": [
+          { "bold": "Code abgelaufen", "text": "Einige Freigabecodes haben ein Ablaufdatum" },
+          { "bold": "Code gelöscht", "text": "Der Ersteller hat das Teilen des Sets beendet" },
+          { "bold": "Tippfehler", "text": "Überprüfen Sie den Code auf Richtigkeit (Codes beachten Groß-/Kleinschreibung)" },
+          { "bold": "Internetverbindung", "text": "Stellen Sie sicher, dass Sie online sind" }
+        ]
+      },
+      "wrongLanguage": {
+        "title": "Die App ist in der falschen Sprache",
+        "steps": [
+          "Gehen Sie zu Einstellungen (suchen Sie das Zahnrad-Symbol)",
+          "Finden Sie die Sprachoption (auch wenn der Text nicht lesbar ist, befindet sie sich meist oben)",
+          "Wählen Sie Ihre Sprache",
+          "Die App wird neu geladen"
+        ]
+      },
+      "lostSets": {
+        "title": "Ich habe meine Vokabelsets verloren (Gastmodus)",
+        "content": "Leider werden Gastmodus-Daten nur lokal gespeichert. Wenn Sie die App deinstalliert, App-Daten gelöscht oder Ihr Gerät zurückgesetzt haben, können die Daten nicht wiederhergestellt werden.",
+        "recommendation": "Wir empfehlen dringend, ein Konto zu erstellen, um Cloud-Backup und Synchronisierung zu aktivieren."
+      },
+      "keyboardIssue": {
+        "title": "Die Tastatur verdeckt das Eingabefeld",
+        "intro": "Dies ist ein bekanntes Problem auf einigen Geräten. Versuchen Sie:",
+        "steps": [
+          "Außerhalb des Eingabefelds tippen und erneut fokussieren",
+          "Ihr Gerät ins Querformat drehen",
+          "Den Bildschirm manuell scrollen",
+          "Eine externe Tastatur verwenden (Tablets/Desktops)"
+        ],
+        "note": "Wir arbeiten an einer Lösung im nächsten Update!"
+      }
+    },
+    "privacyData": {
+      "title": "Datenschutz & Daten",
+      "isSecure": {
+        "title": "Sind meine Daten sicher?",
+        "intro": "Ja! Wir nehmen Sicherheit ernst:",
+        "items": [
+          "Alle Daten werden bei der Übertragung verschlüsselt (HTTPS/TLS)",
+          "Passwörter werden gehasht und niemals im Klartext gespeichert",
+          "Cloud-Daten werden auf sicheren Supabase-Servern gespeichert (betrieben mit AWS)",
+          "Row-Level Security stellt sicher, dass Sie nur auf Ihre eigenen Daten zugreifen können"
+        ]
+      },
+      "whatCollected": {
+        "title": "Welche Daten erfassen Sie?",
+        "collected": [
+          { "bold": "Kontonutzer", "text": "E-Mail, Benutzer-ID, Vokabelsets, Übungsverlauf, Spracheinstellungen" },
+          { "bold": "Gastnutzer", "text": "Vokabelsets nur lokal gespeichert (keine Cloud-Daten)" },
+          { "bold": "Analysen", "text": "Anonyme Nutzungsstatistiken zur Verbesserung der App" }
+        ],
+        "notCollectedIntro": "Wir erfassen NICHT:",
+        "notCollected": [
+          "Standortdaten",
+          "Kontaktlisten",
+          "Fotos oder Medien (es sei denn, Sie teilen diese aktiv)",
+          "Browserverlauf außerhalb der App"
+        ]
+      },
+      "thirdPartySharing": {
+        "title": "Teilen Sie meine Daten mit Dritten?",
+        "intro": "Nein, wir verkaufen oder vermieten Ihre Daten NICHT. Wir nutzen vertrauenswürdige Dienste:",
+        "services": [
+          { "bold": "Supabase", "text": "Cloud-Datenbank und Authentifizierung" },
+          { "bold": "OpenAI", "text": "KI-Vokabelgenerierung (nur Themennamen werden gesendet, NICHT Ihre persönlichen Daten)" },
+          { "bold": "Expo", "text": "App-Infrastruktur (minimale Absturzberichte)" }
+        ]
+      },
+      "downloadData": {
+        "title": "Wie lade ich meine Daten herunter?",
+        "intro": "So fordern Sie eine Kopie Ihrer Daten an:",
+        "steps": [
+          "Senden Sie eine E-Mail an viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenexport“",
+          "Geben Sie Ihre registrierte E-Mail-Adresse an",
+          "Wir senden Ihnen innerhalb von 7 Werktagen eine Datei mit all Ihren Vokabelsets und Kontoinformationen"
+        ]
+      },
+      "deleteAccountData": {
+        "title": "Wie lösche ich mein Konto und meine Daten?",
+        "label": "Dauerhafte Löschung:",
+        "steps": [
+          "Senden Sie eine E-Mail an viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenlöschung“",
+          "Geben Sie Ihre registrierte E-Mail-Adresse an",
+          "Wir bestätigen Ihre Identität und löschen alle Daten innerhalb von 30 Tagen"
+        ],
+        "importantNotes": [
+          "Die Löschung ist dauerhaft und kann nicht rückgängig gemacht werden",
+          "Von anderen Nutzern kopierte geteilte Sets bleiben in deren Bibliotheken erhalten (sie besitzen ihre Kopien)",
+          "Einige Daten können aus rechtlichen/sicherheitstechnischen Gründen aufbewahrt werden (z.B. Betrugsprävention)"
+        ],
+        "comingSoon": "Demnächst: In-App-Kontolöschung (Einstellungen > Konto > Konto löschen)"
+      }
+    },
+    "contactUs": {
+      "title": "Kontakt",
+      "categories": [
+        {
+          "title": "Allgemeiner Support",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "Innerhalb von 2-3 Werktagen"
+        },
+        {
+          "title": "Datenschutz- & Datenanfragen",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "Innerhalb von 7 Werktagen"
+        },
+        {
+          "title": "Fehlermeldungen & Feature-Wünsche",
+          "email": "viacheslav@exquizite.app",
+          "subject": "„Fehlermeldung“ oder „Feature-Wunsch“",
+          "includeItems": [
+            "Gerätemodell und Betriebssystemversion (z.B. iPhone 14, iOS 17.2)",
+            "App-Version (zu finden unter Einstellungen > Über)",
+            "Schritte zur Reproduktion des Problems",
+            "Screenshots, falls zutreffend"
+          ]
+        }
+      ]
+    },
+    "supportFaq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "q": "Ist Exquizite kostenlos?",
+          "a": "Ja! Exquizite ist komplett kostenlos, ohne Werbung oder In-App-Käufe. Alle Funktionen stehen allen Nutzern zur Verfügung."
+        },
+        {
+          "q": "Auf welchen Plattformen ist Exquizite verfügbar?",
+          "a": "iOS: iPhone und iPad (iOS 13+), Android: Smartphones und Tablets (Android 6.0+), Web: app.exquizite.com (demnächst)"
+        },
+        {
+          "q": "Kann ich mehrere Sprachen gleichzeitig lernen?",
+          "a": "Ja! Sie können Sets für verschiedene Sprachpaare erstellen. Ihre globale Spracheinstellung ist nur ein Standard; jedes Set kann eigene Sprachen haben."
+        },
+        {
+          "q": "Kann ich Exquizite offline nutzen?",
+          "a": "Gastmodus: Ja, vollständig offline nach dem ersten Download. Mit Konto: Internet für die erste Synchronisierung erforderlich, danach eingeschränkter Offline-Zugriff (nur zwischengespeicherte Daten). Wir arbeiten an einem vollständigen Offline-Modus mit Synchronisierung für Kontonutzer!"
+        },
+        {
+          "q": "Wird Exquizite immer kostenlos bleiben?",
+          "a": "Ja! Unser Kernziel ist es, Sprachenlernen für alle zugänglich zu machen. Wir werden möglicherweise in Zukunft optionale Premium-Funktionen einführen, aber die Kern-App wird immer kostenlos bleiben."
+        }
+      ]
+    },
+    "learningTips": {
+      "title": "Tipps für effektives Lernen",
+      "tips": [
+        {
+          "title": "Thematische Sets erstellen",
+          "content": "Erstellen Sie statt eines riesigen „Spanisch“-Sets thematische Sets wie „Spanisches Essen“, „Reisephrasen“ usw."
+        },
+        {
+          "title": "Regelmäßig üben",
+          "content": "Regelmäßiges Üben schlägt Pauken. Wiederholen Sie jedes Set mindestens einmal pro Woche."
+        },
+        {
+          "title": "Verschiedene Spielmodi nutzen",
+          "content": "Jeder Modus festigt das Gelernte auf andere Weise – mischen Sie sie für beste Ergebnisse!"
+        }
+      ]
+    }
+  }
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
-import data from '../data.json';
-
-const faqs = data.faq.items;
+import { useData } from '../hooks/useData';
 
 const FAQ: React.FC = () => {
+  const data = useData();
+  const faqs = data.faq.items;
+
   return (
     <section className="py-24 bg-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

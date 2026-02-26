@@ -1,10 +1,12 @@
 import React from 'react';
-import data from '../data.json';
-
-const d = data.hero;
-import { Apple, Globe } from 'lucide-react';
+import { useData } from '../hooks/useData';
+import { Globe } from 'lucide-react';
+import AppStoreBadge from './AppStoreBadge';
 
 const Hero: React.FC = () => {
+  const data = useData();
+  const d = data.hero;
+
   return (
     <section className="relative pt-24 pb-12 lg:pt-40 lg:pb-40 overflow-hidden">
       {/* Background Decor */}
@@ -40,13 +42,7 @@ const Hero: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row lg:justify-start justify-center gap-4">
-              <a
-                href={d.appStoreUrl}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-slate-900 text-white rounded-xl font-semibold hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
-              >
-                <Apple size={24} />
-                {d.appStoreButton}
-              </a>
+              <AppStoreBadge url={d.appStoreUrl} height={56} />
               <a
                 href={d.webAppUrl}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-xl font-semibold hover:bg-slate-50 transition-all shadow-sm hover:shadow-md hover:-translate-y-1"

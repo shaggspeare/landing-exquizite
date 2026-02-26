@@ -1,0 +1,966 @@
+{
+  "navbar": {
+    "brandName": "Exquizite",
+    "links": {
+      "features": "Özellikler",
+      "howItWorks": "Nasıl Çalışır",
+      "stories": "Hikayeler",
+      "pricing": "Fiyatlandırma",
+      "getApp": "Uygulamayı İndir",
+      "downloadApp": "Uygulamayı İndir"
+    }
+  },
+  "hero": {
+    "badge": "Artık iOS ve Web'de mevcut",
+    "titleLine1": "Öğrenmeyi Ustalaştır",
+    "titleLine2": "Akıllı Pratikle",
+    "subtitle": "Özel kelime setleri oluşturun, eğlenceli oyunlar oynayın ve yapay zeka destekli araçlarla dil öğrenme yolculuğunuzu hızlandırın.",
+    "appStoreButton": "App Store'dan İndir",
+    "webAppButton": "Web Uygulamasını Dene",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "images": {
+      "quiz": { "src": "/images/quiz.PNG", "alt": "Exquizite Uygulama Quiz Modu" },
+      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Öğrenme Modları Ekranı" },
+      "mySets": { "src": "/images/my-sets.PNG", "alt": "Setlerim Ekranı" }
+    }
+  },
+  "bentoFeatures": {
+    "sectionLabel": "Özellikler ve Öne Çıkanlar",
+    "sectionTitle": "Bir dili öğrenmek için ihtiyacınız olan her şey",
+    "sectionSubtitle": "Akıllı yapay zeka üretiminden eğlenceli oyun modlarına kadar, Exquizite daha hızlı öğrenmenize yardımcı olacak araçlarla dolu.",
+    "tiles": {
+      "learnYourWay": {
+        "title": "Kendi Tarzınızda Öğrenin",
+        "description": "Benzersiz öğrenme tarzınıza uygun 4 etkileşimli öğrenme modundan birini seçin.",
+        "modes": ["Bilgi Kartları", "Eşleştirme Oyunu", "Quiz Modu", "Boşluk Doldurma"]
+      },
+      "aiPowered": {
+        "title": "Yapay Zeka Destekli",
+        "description": "Anında kelime çiftleri oluşturun ve akıllı ipuçları alın.",
+        "image": { "src": "/images/ai-generation.PNG", "alt": "Yapay Zeka ile Üretilen Kelimeler" }
+      },
+      "languages": {
+        "title": "40'tan Fazla Dil",
+        "description": "Tam arayüz yerelleştirmesi ve ana dil desteği.",
+        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇷🇺 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+      },
+      "nativeIos": {
+        "title": "Yerel iOS",
+        "description": "Hareket halindeyken öğrenmek için uygulamayı edinin."
+      },
+      "shareDiscover": {
+        "title": "Paylaş ve Keşfet",
+        "description": "Kelime setleriniz için paylaşılabilir bağlantılar oluşturun veya topluluk setlerini koleksiyonunuza kopyalayın. Görüntülemeleri ve etkileşimi takip edin.",
+        "recentShares": "Son Paylaşımlar",
+        "viewAll": "Tümünü Gör",
+        "shares": [
+          { "initials": "FR", "name": "Temel Fransızca", "wordCount": "24 kelime" },
+          { "initials": "ES", "name": "İspanyol Mutfağı", "wordCount": "12 kelime" }
+        ]
+      },
+      "seamlessSync": {
+        "title": "Kesintisiz Senkronizasyon",
+        "description": "iPhone'da başlayın, Web'de devam edin. İlerlemeniz sizi takip eder."
+      }
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Nasıl Çalışır",
+    "sectionSubtitle": "Öğrenme yolculuğunuza dört basit adımda başlayın",
+    "steps": [
+      {
+        "title": "1. Set Oluşturun",
+        "desc": "Kelime listeleri oluşturun veya yapay zeka ile herhangi bir konu için anında kelime üretin."
+      },
+      {
+        "title": "2. Oyun Seçin",
+        "desc": "Öğrenmeyi eğlenceye dönüştüren 4 çekici oyun modundan birini seçin."
+      },
+      {
+        "title": "3. İlerlemeyi Takip Edin",
+        "desc": "Seriinizi, ustalık seviyelerinizi ve geçmişinizi kontrol panelinizden izleyin."
+      },
+      {
+        "title": "4. Paylaşın ve Öğrenin",
+        "desc": "En iyi setlerinizi arkadaşlarınızla paylaşın veya topluluk içeriğini keşfedin."
+      }
+    ]
+  },
+  "whyUs": {
+    "sectionTitle": "Neden Exquizite?",
+    "sectionSubtitle": "Exquizite'i dil öğrenimindeki engelleri kaldırmak için geliştirdik. İster sıradan bir öğrenci ister çok dilli olun, platformumuz size uyum sağlar.",
+    "points": [
+      {
+        "title": "Saniyeler İçinde Başlayın",
+        "description": "Misafir modunu anında deneyin. Senkronize etmek isteyene kadar kayıt gerekmez."
+      },
+      {
+        "title": "Gerçekten Çok Dilli",
+        "description": "Arayüz birden fazla dilde mevcut. Rahat olduğunuz dilde öğrenin."
+      },
+      {
+        "title": "Gizlilik Öncelikli",
+        "description": "Verileriniz Supabase üzerinden güvenle saklanır. Kontrol her zaman sizdedir."
+      },
+      {
+        "title": "Modern ve Hızlı",
+        "description": "Her platformda akıcı performans için modern teknolojiyle geliştirildi."
+      }
+    ],
+    "image": { "src": "/images/my-sets.PNG", "alt": "Exquizite Eşleştirme Modu" }
+  },
+  "testimonials": {
+    "sectionTitle": "Öğrenenler Tarafından Seviliyor",
+    "items": [
+      {
+        "quote": "Yapay zeka kelime üretimi, İspanyolca dersim için kelime listeleri oluştururken saatlerce zaman kazandırdı. İnanılmaz derecede doğru.",
+        "author": "Sarah J.",
+        "role": "Dil Öğrencisi"
+      },
+      {
+        "quote": "Sonunda, telefonumda ve bilgisayarımda aynı şekilde çalışan bir dil uygulaması! Senkronizasyon kusursuz.",
+        "author": "Michael C.",
+        "role": "Dijital Göçebe"
+      },
+      {
+        "quote": "Eşleştirme oyunu çalışmayı eğlenceli hale getiriyor. Çocuklarım da bayılıyor! Günlük bir aile aktivitesi haline geldi.",
+        "author": "Elena R.",
+        "role": "Ebeveyn ve Öğretmen"
+      }
+    ]
+  },
+  "screenshotGallery": {
+    "sectionTitle": "Uygulamayı Keşfedin",
+    "sectionSubtitle": "Etkileşimli öğrenme modlarımıza yakından bakın.",
+    "screenshots": [
+      { "src": "/images/ai-generation.PNG", "alt": "Yapay Zeka Kelime Üretimi" },
+      { "src": "/images/added-words.PNG", "alt": "Eklenen Kelimeler" },
+      { "src": "/images/learning-modes.PNG", "alt": "Öğrenme Modları" },
+      { "src": "/images/my-sets.PNG", "alt": "Setlerim" },
+      { "src": "/images/match-mode.PNG", "alt": "Eşleştirme Oyunu" },
+      { "src": "/images/quiz.PNG", "alt": "Quiz Modu" },
+      { "src": "/images/fill-in-blank.PNG", "alt": "Boşluk Doldurma" }
+    ]
+  },
+  "pricing": {
+    "sectionTitle": "Basit ve Şeffaf Fiyatlandırma",
+    "sectionSubtitle": "Eğitim herkes için erişilebilir olmalıdır.",
+    "planName": "Sonsuza Kadar Ücretsiz",
+    "planDescription": "Bir dili öğrenmek için ihtiyacınız olan her şey.",
+    "price": "$0",
+    "period": "/ay",
+    "features": [
+      "Sınırsız kelime seti",
+      "Tüm 4 oyun moduna erişim",
+      "Yapay zeka kelime üretimi",
+      "Setlerinizi paylaşın",
+      "Platformlar arası senkronizasyon"
+    ],
+    "ctaButton": "Ücretsiz Başlayın"
+  },
+  "faq": {
+    "sectionTitle": "Sıkça Sorulan Sorular",
+    "items": [
+      { "q": "Exquizite'i kullanmak için hesap gerekli mi?", "a": "Hayır! Misafir moduyla hemen öğrenmeye başlayın. Cihazlar arası senkronize etmek istediğinizde hesap oluşturun." },
+      { "q": "Kaç dil destekleniyor?", "a": "Hem öğrenme içeriği hem de uygulama arayüzü için 40'tan fazla dil." },
+      { "q": "Uygulama çevrimdışı çalışır mı?", "a": "Evet, iOS uygulaması indirilen kelime setlerine çevrimdışı erişimi destekler." },
+      { "q": "Exquizite'i bilgisayarımda kullanabilir miyim?", "a": "Kesinlikle! Web uygulaması masaüstü için optimize edilmiş bir deneyim sunar." },
+      { "q": "Verilerim güvende mi?", "a": "Evet, tüm veriler endüstri standardı şifreleme ile Supabase üzerinden güvenle saklanır ve senkronize edilir." },
+      { "q": "Kelime setlerimi paylaşabilir miyim?", "a": "Evet! Herhangi bir set için paylaşılabilir bağlantı oluşturun. Diğerleri görüntüleyebilir ve koleksiyonlarına kopyalayabilir." }
+    ]
+  },
+  "downloadCTA": {
+    "title": "Bugün Öğrenmeye Başlayın",
+    "subtitle": "Exquizite ile yeni diller öğrenen binlerce kişiye katılın. Hemen indirin veya tarayıcınızda deneyin.",
+    "iosButton": "iOS için İndir",
+    "webButton": "Web Uygulamasını Aç",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "disclaimer": "Ücretsiz plan için kredi kartı gerekmez."
+  },
+  "footer": {
+    "brandName": "Exquizite",
+    "brandDescription": "Akıllı ve etkileşimli pratikle dilleri öğrenin. Öğrenenler tarafından, öğrenenler için yapıldı.",
+    "columns": {
+      "product": {
+        "title": "Ürün",
+        "links": [
+          { "label": "Özellikler", "href": "#features" },
+          { "label": "Nasıl Çalışır", "href": "#how-it-works" },
+          { "label": "Fiyatlandırma", "href": "#pricing" },
+          { "label": "İndir", "href": "#download" }
+        ]
+      },
+      "support": {
+        "title": "Destek",
+        "links": [
+          { "label": "Yardım ve Destek", "to": "/support" },
+          { "label": "İletişim", "href": "mailto:viacheslav@exquizite.app" },
+          { "label": "Gizlilik Politikası", "to": "/privacy-policy" }
+        ]
+      },
+      "legal": {
+        "title": "Yasal",
+        "links": [
+          { "label": "Hizmet Şartları", "href": "#" },
+          { "label": "Çerez Politikası", "href": "#" }
+        ]
+      }
+    },
+    "copyright": "© 2025 Exquizite. Dilleri kendi tarzınızda öğrenin."
+  },
+  "privacyPolicy": {
+    "title": "Exquizite Gizlilik Politikası",
+    "lastUpdated": "Son Güncelleme: 7 Şubat 2026",
+    "sections": [
+      {
+        "title": "Giriş",
+        "content": "Exquizite'e hoş geldiniz, bir dil öğrenme uygulaması. Bu Gizlilik Politikası, mobil uygulamamızı ve web hizmetlerimizi (toplu olarak \"Uygulama\") kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, açıkladığımızı ve koruduğumuzu açıklar. Lütfen bu gizlilik politikasını dikkatlice okuyun. Bu gizlilik politikasının şartlarını kabul etmiyorsanız, lütfen Uygulamaya erişmeyin."
+      },
+      {
+        "title": "Topladığımız Bilgiler",
+        "subsections": [
+          {
+            "title": "Kişisel Bilgiler",
+            "intro": "Exquizite'de hesap oluşturduğunuzda şunları toplarız:",
+            "items": [
+              { "bold": "E-posta Adresi", "text": "Hesap oluşturma, kimlik doğrulama ve iletişim için kullanılır" },
+              { "bold": "Kullanıcı Kimliği", "text": "Kimlik doğrulama ve veri ilişkilendirme için otomatik olarak oluşturulan benzersiz tanımlayıcı" },
+              { "bold": "Şifre", "text": "Endüstri standardı şifreleme kullanılarak güvenli şekilde saklanır (şifreleri düz metin olarak asla saklamayız)" }
+            ]
+          },
+          {
+            "title": "Kullanıcı Tarafından Oluşturulan İçerik",
+            "items": [
+              { "bold": "Kelime Setleri", "text": "Oluşturduğunuz kelime çiftleri, çeviriler, set isimleri ve öğrenme tercihleri" },
+              { "bold": "Dil Tercihleri", "text": "Öğrenme için seçtiğiniz hedef ve ana diller" },
+              { "bold": "Pratik Geçmişi", "text": "Bir seti en son ne zaman çalıştığınız ve ilerlemeniz hakkında bilgi" },
+              { "bold": "Uygulama Ayarları", "text": "Tema tercihleri, arayüz dili ve diğer kişiselleştirme ayarları" }
+            ]
+          },
+          {
+            "title": "Otomatik Toplanan Bilgiler",
+            "items": [
+              { "bold": "Kullanım Verileri", "text": "Oynanan oyun modları ve kullanılan özellikler dahil Uygulamayla nasıl etkileşim kurduğunuz hakkında bilgi" },
+              { "bold": "Cihaz Bilgileri", "text": "Sorun giderme ve uyumluluk için cihaz türü, işletim sistemi ve uygulama sürümü" },
+              { "bold": "Anonim Analizler", "text": "Uygulamayı iyileştirmek için toplu, kişisel olarak tanımlanamayan kullanım istatistikleri" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Misafir Modu",
+        "intro": "Uygulamayı hesap oluşturmadan kullanırsanız (Misafir Modu):",
+        "items": [
+          "E-posta adresi veya kişisel bilgi toplanmaz",
+          "Kelime setleriniz yalnızca cihazınızda yerel olarak saklanır",
+          "Veriler cihazlar arasında senkronize edilmez",
+          "Uygulamayı kaldırırsanız veya uygulama verilerini temizlerseniz veriler kaybolabilir"
+        ]
+      },
+      {
+        "title": "Bilgilerinizi Nasıl Kullanıyoruz",
+        "intro": "Topladığımız bilgileri şu amaçlarla kullanıyoruz:",
+        "items": [
+          { "bold": "Hizmet Sağlama", "text": "Hesap oluşturma, veri senkronizasyonu ve uygulama işlevselliğini etkinleştirme" },
+          { "bold": "Kullanıcı Deneyimini İyileştirme", "text": "Öğrenme deneyiminizi kişiselleştirme ve tercihlerinizi hatırlama" },
+          { "bold": "Yapay Zeka İçerik Üretimi", "text": "Sağladığınız temalara göre kelime önerileri ve örnek cümleler üretmek için OpenAI API'sini kullanma" },
+          { "bold": "Güvenliği Sağlama", "text": "Kullanıcıları doğrulama ve yetkisiz erişime karşı koruma" },
+          { "bold": "İletişim", "text": "Uygulama hakkında önemli güncellemeler gönderme (onayınız olmadan pazarlama e-postaları göndermiyoruz)" },
+          { "bold": "Sorun Giderme", "text": "Teknik sorunları teşhis etme ve uygulama performansını iyileştirme" }
+        ]
+      },
+      {
+        "title": "Veri Depolama ve Güvenlik",
+        "subsections": [
+          {
+            "title": "Depolama Konumu",
+            "intro": "Verileriniz bulut tabanlı bir veritabanı hizmeti olan Supabase kullanılarak güvenli bir şekilde saklanır:",
+            "items": [
+              { "bold": "Konum", "text": "Veriler Supabase tarafından yönetilen güvenli sunucularda barındırılır (AWS altyapısıyla desteklenir)" },
+              { "bold": "Şifreleme", "text": "Tüm veriler HTTPS/TLS protokolleri kullanılarak aktarım sırasında şifrelenir" },
+              { "bold": "Erişim Kontrolü", "text": "Satır Düzeyinde Güvenlik (RLS) politikaları yalnızca kendi verilerinize erişebilmenizi sağlar" },
+              { "bold": "Yedeklemeler", "text": "Veri kaybını önlemek için düzenli otomatik yedeklemeler" }
+            ]
+          },
+          {
+            "title": "Güvenlik Önlemleri",
+            "intro": "Aşağıdakiler dahil endüstri standardı güvenlik önlemleri uyguluyoruz:",
+            "items": [
+              "JWT token'ları kullanarak güvenli kimlik doğrulama",
+              "bcrypt veya benzeri algoritmalar kullanarak şifre hashleme",
+              "Tüm veri aktarımı için HTTPS şifreleme",
+              "Şüpheli aktivite için erişim günlükleme ve izleme"
+            ],
+            "note": "Ancak, İnternet üzerinden hiçbir iletim yöntemi veya elektronik depolama %100 güvenli değildir. Verilerinizi korumak için çaba göstermemize rağmen, mutlak güvenliği garanti edemeyiz."
+          }
+        ]
+      },
+      {
+        "title": "Üçüncü Taraf Hizmetleri",
+        "subsections": [
+          {
+            "title": "Supabase (Veritabanı ve Kimlik Doğrulama)",
+            "intro": "Kullanıcı verilerini depolamak ve yönetmek için Supabase kullanıyoruz:",
+            "items": [
+              { "bold": "Amaç", "text": "Bulut veritabanı, kullanıcı kimlik doğrulama ve veri senkronizasyonu" },
+              { "bold": "Paylaşılan Veriler", "text": "E-posta, kullanıcı kimliği, kelime setleri, pratik geçmişi" }
+            ],
+            "privacyUrl": "https://supabase.com/privacy"
+          },
+          {
+            "title": "OpenAI API (Yapay Zeka Özellikleri)",
+            "intro": "Kelime önerileri ve örnek cümleler üretmek için OpenAI API'sini kullanıyoruz:",
+            "items": [
+              { "bold": "Amaç", "text": "Öğrenme materyalleri için yapay zeka destekli içerik üretimi" },
+              { "bold": "Paylaşılan Veriler", "text": "YALNIZCA talep ettiğiniz temalar veya konular (ör. \"yemek\", \"seyahat\")" },
+              { "bold": "Önemli", "text": "Kişisel bilgilerinizi, e-postanızı, kullanıcı kimliğinizi veya mevcut kelime setlerinizi OpenAI'ye GÖNDERMİYORUZ" },
+              { "bold": "Veri Kullanımı", "text": "OpenAI istekleri geçici olarak işler ve verilerinizi model eğitimi için kullanmaz (API anlaşmamıza göre)" }
+            ],
+            "privacyUrl": "https://openai.com/privacy"
+          },
+          {
+            "title": "Expo (Geliştirme Platformu)",
+            "intro": "Uygulama geliştirme ve dağıtım için Expo kullanıyoruz:",
+            "items": [
+              { "bold": "Amaç", "text": "Uygulama altyapısı ve güncellemeler" },
+              { "bold": "Paylaşılan Veriler", "text": "Minimum çökme raporları ve anonim kullanım istatistikleri" }
+            ],
+            "privacyUrl": "https://expo.dev/privacy"
+          }
+        ]
+      },
+      {
+        "title": "Veri Paylaşımı ve Açıklama",
+        "intro": "Kişisel bilgilerinizi üçüncü taraflara SATMIYORUZ, KİRALAMIYORUZ veya TAKAS ETMİYORUZ.",
+        "intro2": "Bilgilerinizi yalnızca aşağıdaki durumlarda paylaşabiliriz:",
+        "items": [
+          { "bold": "Onayınızla", "text": "Kelime setlerini diğer kullanıcılarla açıkça paylaşmayı seçtiğinizde" },
+          { "bold": "Hizmet Sağlayıcılar", "text": "Yukarıda açıklanan güvenilir üçüncü taraf hizmetleriyle (Supabase, OpenAI)" },
+          { "bold": "Yasal Gereklilikler", "text": "Kanun, mahkeme kararı veya hükümet düzenlemesi gerektiriyorsa" },
+          { "bold": "İş Transferleri", "text": "Birleşme, devralma veya varlık satışı durumunda (bilgilendirileceksiniz)" },
+          { "bold": "Güvenlik ve Emniyet", "text": "Exquizite'in, kullanıcılarımızın veya başkalarının haklarını, mülkiyetini veya güvenliğini korumak için" }
+        ]
+      },
+      {
+        "title": "Paylaşılan Kelime Setleri",
+        "intro": "Bir kelime setini paylaşmayı seçtiğinizde:",
+        "items": [
+          "Benzersiz bir paylaşım kodu oluşturulur",
+          "Paylaşım koduna sahip herkes seti görüntüleyebilir ve kopyalayabilir",
+          "E-postanız ve kişisel bilgileriniz paylaşılan setlere DAHİL DEĞİLDİR",
+          "Setinizin kaç kez görüntülendiğini ve kopyalandığını görebilirsiniz",
+          "Paylaşım kodunu silerek bir seti paylaşmayı istediğiniz zaman durdurabilirsiniz"
+        ]
+      },
+      {
+        "title": "Haklarınız ve Seçenekleriniz",
+        "intro": "Verilerinizle ilgili aşağıdaki haklara sahipsiniz:",
+        "rights": [
+          {
+            "title": "Verilerinize Erişin",
+            "description": "Uygulama içinde tüm kelime setlerinizi ve hesap bilgilerinizi görüntüleyebilirsiniz"
+          },
+          {
+            "title": "Verilerinizi Değiştirin",
+            "description": "Kelime setlerinizi, dil tercihlerinizi ve uygulama ayarlarınızı istediğiniz zaman düzenleyin veya güncelleyin"
+          },
+          {
+            "title": "Verilerinizi Silin",
+            "description": "Hesabınızın ve ilişkili tüm verilerin tamamen silinmesini talep edebilirsiniz:",
+            "steps": [
+              { "bold": "Uygulama İçi Silme", "text": "(yakında): Ayarlar > Hesap > Hesabı Sil yolunu izleyin" },
+              {
+                "bold": "E-posta Talebi",
+                "text": "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
+                "subItems": [
+                  "Kayıtlı e-posta adresinizi ekleyin",
+                  "Kimliğinizi doğrulayacağız ve tüm verileri 30 gün içinde sileceğiz",
+                  "Silme kalıcıdır ve geri alınamaz"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Verilerinizi Dışa Aktarın",
+            "description": "Verilerinizin bir kopyasını talep etmek için viacheslav@exquizite.app adresine \"Data Export Request\" konulu e-posta gönderin"
+          },
+          {
+            "title": "Misafir Modu",
+            "description": "Misafir Modunu kullandıysanız, yerel verilerinizi şu şekilde silebilirsiniz:",
+            "items": [
+              "Cihaz ayarlarınızda uygulamanın önbelleğini ve verilerini temizleyerek",
+              "Uygulamayı kaldırarak"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Çocukların Gizliliği",
+        "content": "Exquizite 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi sağladığına inanıyorsanız, lütfen viacheslav@exquizite.app adresinden bize ulaşın, bu bilgileri derhal sileceğiz."
+      },
+      {
+        "title": "Uluslararası Veri Transferleri",
+        "content": "Verileriniz, Amerika Birleşik Devletleri dahil, ikamet ettiğiniz ülke dışında bulunan sunuculara aktarılabilir ve orada saklanabilir. Uygulamayı kullanarak, verilerinizin ülkenizden farklı veri koruma yasalarına sahip olabilecek ülkelere aktarılmasına onay verirsiniz."
+      },
+      {
+        "title": "Bu Gizlilik Politikasındaki Değişiklikler",
+        "intro": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikleri şu şekillerde bildireceğiz:",
+        "items": [
+          "Bu politikanın üst kısmındaki \"Son Güncelleme\" tarihini güncelleyerek",
+          "Önemli değişiklikler için uygulama içi bildirim göstererek",
+          "E-posta bildirimi göndererek (hesabınız varsa)"
+        ],
+        "note": "Değişiklikler yayınlandıktan sonra Uygulamayı kullanmaya devam etmeniz, revize edilmiş politikayı kabul ettiğiniz anlamına gelir."
+      },
+      {
+        "title": "Veri Saklama",
+        "intro": "Hesabınız aktif olduğu sürece veya hizmet sağlamak için gerekli olduğu sürece verilerinizi saklıyoruz. Hesabınızı silerseniz:",
+        "items": [
+          "Kişisel veriler 30 gün içinde silinir",
+          "Bazı veriler yasal veya güvenlik amaçları için saklanabilir (ör. dolandırıcılığı önleme)",
+          "Paylaşılan kelime setleri daha önce kopyalayan kullanıcılar tarafından erişilebilir kalabilir"
+        ]
+      },
+      {
+        "title": "Onayınız",
+        "content": "Exquizite'i kullanarak, bu Gizlilik Politikasına onay vermiş ve şartlarını kabul etmiş olursunuz."
+      },
+      {
+        "title": "Bize Ulaşın",
+        "intro": "Bu Gizlilik Politikası veya verilerinizle ilgili sorularınız, endişeleriniz veya talepleriniz varsa lütfen bizimle iletişime geçin:",
+        "contactInfo": {
+          "email": "viacheslav@exquizite.app",
+          "developer": "Exquizite Geliştirme Ekibi",
+          "responseTime": "Tüm sorulara 7 iş günü içinde yanıt vermeyi hedefliyoruz."
+        }
+      }
+    ],
+    "summary": {
+      "title": "Önemli Noktaların Özeti",
+      "intro": "Kolaylığınız için hızlı bir özet:",
+      "items": [
+        { "label": "Ne topluyoruz", "value": "E-posta, oluşturduğunuz kelime setleri, dil tercihleri" },
+        { "label": "Neden topluyoruz", "value": "Öğrenme özellikleri sağlamak, cihazlar arası senkronize etmek, yapay zeka içeriği üretmek" },
+        { "label": "Nerede saklanıyor", "value": "Supabase bulut sunucuları (AWS altyapılı)" },
+        { "label": "Üçüncü taraflar", "value": "Supabase (veritabanı), OpenAI (yapay zeka üretimi - kişisel veri gönderilmez)" },
+        { "label": "Haklarınız", "value": "Verilerinize istediğiniz zaman erişin, değiştirin, silin" },
+        { "label": "İletişim", "value": "viacheslav@exquizite.app" }
+      ],
+      "thankYou": "Dil öğrenme yolculuğunuzda Exquizite'e güvendiğiniz için teşekkür ederiz!"
+    }
+  },
+  "support": {
+    "title": "Exquizite Destek",
+    "subtitle": "Exquizite Destek'e hoş geldiniz! Sık sorulan soruların yanıtlarını bulun ve uygulama hakkında yardım alın.",
+    "contactEmail": "viacheslav@exquizite.app",
+    "lastUpdated": "Son güncelleme: 7 Şubat 2026",
+    "thankYou": "Exquizite'i kullandığınız için teşekkürler! İyi öğrenmeler!",
+    "toc": {
+      "title": "İçindekiler",
+      "items": [
+        { "id": "getting-started", "label": "Başlarken" },
+        { "id": "account-login", "label": "Hesap ve Giriş" },
+        { "id": "creating-vocabulary-sets", "label": "Kelime Setleri Oluşturma" },
+        { "id": "game-modes", "label": "Oyun Modları" },
+        { "id": "sharing-sets", "label": "Set Paylaşma" },
+        { "id": "settings-preferences", "label": "Ayarlar ve Tercihler" },
+        { "id": "troubleshooting", "label": "Sorun Giderme" },
+        { "id": "privacy-data", "label": "Gizlilik ve Veriler" },
+        { "id": "contact-us", "label": "Bize Ulaşın" }
+      ]
+    },
+    "gettingStarted": {
+      "title": "Başlarken",
+      "whatIs": {
+        "title": "Exquizite nedir?",
+        "content": "Exquizite, etkileşimli oyunlar ve bilgi kartları aracılığıyla kelime dağarcığınızı geliştirmenize yardımcı olan bir dil öğrenme uygulamasıdır. Özel kelime setleri oluşturun, eğlenceli oyun modlarıyla pratik yapın ve ilerlemenizi takip edin."
+      },
+      "needAccount": {
+        "title": "Hesaba ihtiyacım var mı?",
+        "intro": "Hayır! Exquizite'i iki şekilde kullanabilirsiniz:",
+        "options": [
+          { "bold": "Misafir Modu", "text": "Kayıt olmadan uygulamayı kullanın. Setleriniz yalnızca cihazınızda yerel olarak kaydedilir." },
+          { "bold": "Hesapla", "text": "Setlerinizi tüm cihazlarınızda senkronize etmek için e-posta ile kaydolun (iPhone, iPad, Android, Web)." }
+        ]
+      },
+      "howToStart": {
+        "title": "Nasıl başlarım?",
+        "steps": [
+          "Exquizite'i App Store veya Google Play'den indirin",
+          "\"Misafir Olarak Devam Et\" veya \"Kaydol\" seçeneğini belirleyin",
+          "Öğrenme dilinizi (ör. İspanyolca) ve ana dilinizi (ör. Türkçe) seçin",
+          "İlk kelime setinizi oluşturun",
+          "Pratik yapmaya başlayın!"
+        ]
+      }
+    },
+    "accountLogin": {
+      "title": "Hesap ve Giriş",
+      "createAccount": {
+        "title": "Nasıl hesap oluştururum?",
+        "steps": [
+          "Giriş ekranında \"Kaydol\"a dokunun",
+          "E-posta adresinizi girin ve bir şifre oluşturun",
+          "\"Hesap Oluştur\"a dokunun",
+          "Otomatik olarak giriş yapılacaktır"
+        ]
+      },
+      "forgotPassword": {
+        "title": "Şifremi unuttum. Nasıl sıfırlarım?",
+        "steps": [
+          "Giriş ekranında \"Şifremi Unuttum?\"a dokunun",
+          "E-posta adresinizi girin",
+          "Şifre sıfırlama bağlantısı için e-postanızı kontrol edin",
+          "Yeni şifre oluşturmak için bağlantıyı takip edin"
+        ]
+      },
+      "guestToAccount": {
+        "title": "Misafir Modundan hesaba geçebilir miyim?",
+        "intro": "Şu anda Misafir Modu verileri otomatik olarak bir hesaba aktarılamaz. Setlerinizi korumak için:",
+        "steps": [
+          "Saklamak istediğiniz her seti paylaşın (paylaşım kodunu alın)",
+          "Bir hesap oluşturun",
+          "Setleri yeni hesabınıza kopyalamak için paylaşım kodlarını kullanın"
+        ],
+        "note": "Doğrudan aktarım özelliği üzerinde çalışıyoruz!"
+      },
+      "logout": {
+        "title": "Nasıl çıkış yaparım?",
+        "steps": [
+          "Profil'e gidin (alt sekme)",
+          "Aşağı kaydırın ve \"Çıkış Yap\"a dokunun"
+        ]
+      },
+      "deleteAccount": {
+        "title": "Hesabımı nasıl silerim?",
+        "content": "Aşağıdaki Gizlilik ve Veriler bölümüne bakın."
+      }
+    },
+    "creatingVocabularySets": {
+      "title": "Kelime Setleri Oluşturma",
+      "createNew": {
+        "title": "Yeni kelime seti nasıl oluştururum?",
+        "steps": [
+          "Ana ekranda \"+\" düğmesine dokunun",
+          "Setiniz için bir isim girin (ör. \"İspanyol Yemekleri\")",
+          "Kelime çiftleri ekleyin:\n  - Sol sütun: Öğrenme dilinizdeki kelimeler\n  - Sağ sütun: Ana dilinizdeki çeviriler",
+          "İşiniz bittiğinde \"Kaydet\"e dokunun"
+        ]
+      },
+      "wordLimit": {
+        "title": "Bir sete kaç kelime ekleyebilirim?",
+        "content": "Her set en fazla 20 kelime çifti içerebilir. Bu sınır optimum öğrenme ve performansı sağlar."
+      },
+      "aiGeneration": {
+        "title": "Kelime üretmek için yapay zeka kullanabilir miyim?",
+        "intro": "Evet! Set oluştururken \"Yapay Zeka Önerileri\" düğmesine dokunun:",
+        "steps": [
+          "Bir tema girin (ör. \"restoran kelime dağarcığı\", \"seyahat ifadeleri\")",
+          "Kaç kelime istediğinizi seçin (en fazla 20)",
+          "Yapay zeka tarafından oluşturulan önerileri inceleyin",
+          "Eklemek istediğiniz kelimeleri seçin",
+          "Gerektiğinde düzenleyin veya özelleştirin"
+        ]
+      },
+      "bulkImport": {
+        "title": "Toplu kelime içe aktarabilir miyim?",
+        "intro": "Evet! Set oluştururken \"Toplu İçe Aktar\"a dokunun. Format seçenekleri:",
+        "formats": [
+          { "name": "Seçenek 1: Sekme ile ayrılmış", "example": "word[TAB]translation\nhola[TAB]hello\nadiós[TAB]goodbye" },
+          { "name": "Seçenek 2: Tire ile ayrılmış", "example": "word - translation\nhola - hello\nadiós - goodbye" },
+          { "name": "Seçenek 3: Eşittir ile ayrılmış", "example": "word = translation\nhola = hello\nadiós = goodbye" }
+        ]
+      },
+      "editSet": {
+        "title": "Kelime setini nasıl düzenlerim?",
+        "steps": [
+          "Setlerim'e gidin (alt sekme)",
+          "Düzenlemek istediğiniz sete dokunun",
+          "Sağ üstteki düzenle simgesine (kalem) dokunun",
+          "Değişikliklerinizi yapın",
+          "\"Kaydet\"e dokunun"
+        ]
+      },
+      "deleteSet": {
+        "title": "Kelime setini nasıl silerim?",
+        "steps": [
+          "Setlerim'e gidin",
+          "Silmek istediğiniz sete dokunun",
+          "Menü simgesine (üç nokta) dokunun",
+          "\"Seti Sil\"i seçin",
+          "Silmeyi onaylayın"
+        ],
+        "warning": "Not: Bu işlem geri alınamaz!"
+      },
+      "differentLanguages": {
+        "title": "Farklı setler için farklı diller kullanabilir miyim?",
+        "intro": "Evet! Varsayılan olarak setler genel dil tercihlerinizi kullanır, ancak set başına özelleştirebilirsiniz:",
+        "steps": [
+          "Set oluştururken/düzenlerken \"Dil Geçersiz Kılma\"ya dokunun",
+          "Bu belirli set için özel diller seçin",
+          "Bu ayarlar yalnızca bu seti etkiler"
+        ]
+      }
+    },
+    "gameModes": {
+      "title": "Oyun Modları",
+      "available": {
+        "title": "Hangi oyun modları mevcut?",
+        "intro": "Exquizite 4 etkileşimli öğrenme modu sunar:",
+        "modes": [
+          { "bold": "Bilgi Kartları", "text": "Hafızanızı test etmek için klasik çevirme kartları" },
+          { "bold": "Quiz", "text": "Öğrenmeyi pekiştirmek için çoktan seçmeli sorular" },
+          { "bold": "Eşleştirme", "text": "Zamana karşı eşleşen kelime çiftlerini bulun" },
+          { "bold": "Boşluk Doldurma", "text": "Cümleleri doğru kelimelerle tamamlayın" }
+        ]
+      },
+      "howToPlay": {
+        "title": "Oyun modunu nasıl oynarım?",
+        "steps": [
+          "Setlerim veya Ana Sayfa'ya gidin",
+          "Bir kelime setine dokunun",
+          "Menüden bir oyun modu seçin",
+          "Ekrandaki talimatları takip edin",
+          "İlerlemenizi takip etmek için oyunu tamamlayın!"
+        ]
+      },
+      "modeDetails": [
+        {
+          "title": "Bilgi Kartı Modu",
+          "items": [
+            "Kelime ve çeviri arasında geçiş yapmak için karta dokunun",
+            "Gezinmek için \"Önceki\" ve \"Sonraki\" düğmelerini kullanın",
+            "İlerleme çubuğu setteki konumunuzu gösterir",
+            "Seti tamamladığınızda pratik otomatik olarak kaydedilir"
+          ]
+        },
+        {
+          "title": "Quiz Modu",
+          "items": [
+            "4 çoktan seçmeli cevaptan birini seçin (A, B, C, D)",
+            "Doğru olup olmadığını kontrol etmek için bir cevaba dokunun",
+            "Yeşil onay = Doğru!",
+            "Kırmızı X = Tekrar deneyin veya atlayın",
+            "Atlamak, puan almadan sonraki soruya geçer",
+            "Sonunda nihai puanınızı görün"
+          ]
+        },
+        {
+          "title": "Eşleştirme Modu",
+          "items": [
+            "Eşleşen kelime-çeviri çiftlerini bulun",
+            "Eşleşip eşleşmediklerini kontrol etmek için iki karta dokunun",
+            "Tüm çiftleri mümkün olduğunca hızlı eşleştirin",
+            "En iyi sürenizi geçin!"
+          ]
+        },
+        {
+          "title": "Boşluk Doldurma Modu",
+          "items": [
+            "Örnek cümleyi okuyun",
+            "Eksik kelimeyi yazın",
+            "Yardıma ihtiyacınız olursa ipucunu kullanın",
+            "Doğru olup olmadığını kontrol etmek için cevabınızı gönderin"
+          ]
+        }
+      ],
+      "replay": {
+        "title": "Oyun modunu tekrarlayabilir miyim?",
+        "content": "Evet! İstediğiniz kadar herhangi bir sette pratik yapabilirsiniz. \"Son Pratik\" tarihi her oturum tamamladığınızda güncellenir."
+      }
+    },
+    "sharingSets": {
+      "title": "Set Paylaşma",
+      "howToShare": {
+        "title": "Kelime setini nasıl paylaşırım?",
+        "steps": [
+          "Paylaşmak istediğiniz seti açın",
+          "Paylaş simgesine (veya menü > Paylaş) dokunun",
+          "Benzersiz bir paylaşım kodu oluşturulur (ör. ABC123XYZ)",
+          "Kodu mesaj, e-posta veya sosyal medya aracılığıyla paylaşın"
+        ]
+      },
+      "useShared": {
+        "title": "Paylaşılan bir seti nasıl kullanırım?",
+        "steps": [
+          "Ana ekranda arama veya \"Paylaşım Kodu Gir\" seçeneğine dokunun",
+          "Paylaşım kodunu girin (ör. ABC123XYZ)",
+          "Seti önizleyin",
+          "\"Setlerime Kopyala\"ya dokunun",
+          "İsteğe bağlı olarak seti yeniden adlandırın",
+          "Set artık kütüphanenizde!"
+        ]
+      },
+      "viewStats": {
+        "title": "Paylaşılan setimi kimin görüntülediğini veya kopyaladığını görebilir miyim?",
+        "intro": "Evet! Paylaşılan bir seti görüntülerken şunları görebilirsiniz:",
+        "items": [
+          { "bold": "Görüntüleme sayısı", "text": "Kaç kez görüntülendiği" },
+          { "bold": "Kopyalama sayısı", "text": "Kaç kullanıcının kopyaladığı" }
+        ],
+        "note": "Bireysel kullanıcıların isimlerini veya e-postalarını göremezsiniz (gizlilik koruması)."
+      },
+      "stopSharing": {
+        "title": "Bir seti paylaşmayı durdurabilir miyim?",
+        "intro": "Evet! Paylaşımı iptal etmek için:",
+        "steps": [
+          "Paylaşılan seti açın",
+          "Menü simgesine dokunun",
+          "\"Paylaşımı Durdur\" veya \"Paylaşım Kodunu Sil\"i seçin",
+          "Paylaşım kodu artık çalışmayacaktır"
+        ],
+        "note": "Diğer kullanıcıların kütüphanelerindeki mevcut kopyalar kalır (kopyalarının sahibi onlardır)."
+      },
+      "autoUpdate": {
+        "title": "Paylaşılan setler otomatik güncellenir mi?",
+        "content": "Hayır. Birisi paylaşılan setinizi kopyaladığında, o anki anlık görüntüyü alır. Orijinal setinizi daha sonra düzenlerseniz, onların kopyası otomatik olarak güncellenmez."
+      }
+    },
+    "settingsPreferences": {
+      "title": "Ayarlar ve Tercihler",
+      "appLanguage": {
+        "title": "Uygulama dilini (arayüz) nasıl değiştiririm?",
+        "intro": "Exquizite arayüz için 45'ten fazla dili destekler:",
+        "steps": [
+          "Ayarlar'a gidin",
+          "\"Uygulama Dili\"ne dokunun",
+          "Tercih ettiğiniz dili seçin",
+          "Uygulama yeni dille yeniden yüklenecektir"
+        ],
+        "note": "Desteklenen Diller: İngilizce, İspanyolca, Fransızca, Almanca, İtalyanca, Portekizce, Japonca, Korece, Çince, Arapça, İbranice ve 35+ daha fazlası!"
+      },
+      "learningLanguages": {
+        "title": "Öğrenme dillerimi nasıl değiştiririm?",
+        "steps": [
+          "Profil'e gidin",
+          "\"Dil Tercihleri\"ne dokunun",
+          "Öğrenme Dilinizi seçin (çalıştığınız dil)",
+          "Ana Dilinizi seçin (bildiğiniz dil)",
+          "Değişiklikleri kaydedin"
+        ],
+        "note": "Not: Bu yeni setleri etkiler. Mevcut setler, tek tek düzenlemedikçe orijinal dillerini korur."
+      },
+      "darkMode": {
+        "title": "Karanlık Modu nasıl etkinleştiririm?",
+        "steps": [
+          "Ayarlar'a gidin",
+          "\"Karanlık Mod\"u açın/kapatın"
+        ],
+        "note": "Karanlık mod düşük ışık koşullarında gözleri yormaz ve OLED ekranlarda pil tasarrufu sağlayabilir."
+      },
+      "tour": {
+        "title": "İlk Kullanım Turu nedir?",
+        "intro": "Exquizite'i ilk kez kullandığınızda, etkileşimli bir tur sizi temel özellikler boyunca yönlendirir. Turu yeniden başlatmak için:",
+        "steps": [
+          "Ayarlar'a gidin",
+          "\"Turu Yeniden Başlat\"a dokunun",
+          "Ekrandaki talimatları takip edin"
+        ]
+      }
+    },
+    "troubleshooting": {
+      "title": "Sorun Giderme",
+      "syncIssue": {
+        "title": "Setlerim cihazlar arasında senkronize olmuyor",
+        "accountSteps": {
+          "label": "Hesap Kullanıcıları İçin:",
+          "steps": [
+            "Tüm cihazlarda aynı hesaba giriş yaptığınızdan emin olun",
+            "İnternet bağlantınızı kontrol edin",
+            "Çıkış yapıp tekrar giriş yapmayı deneyin",
+            "Setlerim ekranında yenilemek için aşağı çekin"
+          ]
+        },
+        "guestNote": "Misafir Kullanıcılar İçin: Misafir Modu verileri yalnızca yerel olarak saklanır ve senkronize OLMAZ. Senkronizasyonu etkinleştirmek için bir hesap oluşturun."
+      },
+      "crashing": {
+        "title": "Uygulama çöküyor veya donuyor",
+        "intro": "Şu adımları deneyin:",
+        "steps": [
+          "Uygulamayı zorla kapatın ve yeniden açın",
+          "Cihazınızı yeniden başlatın",
+          "App Store/Play Store'da güncellemeleri kontrol edin",
+          "Uygulama önbelleğini temizleyin (Android'de Ayarlar > Uygulamalar > Exquizite > Önbelleği Temizle)",
+          "Uygulamayı yeniden yükleyin (Not: Misafir Modu verileri kaybolacaktır!)"
+        ],
+        "note": "Sorun devam ederse, cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve sorunun açıklamasıyla viacheslav@exquizite.app adresinden bize ulaşın."
+      },
+      "aiNotWorking": {
+        "title": "Yapay zeka önerileri çalışmıyor",
+        "intro": "Yapay zeka özellikleri başarısız olursa:",
+        "steps": [
+          "İnternet bağlantınızı kontrol edin",
+          "Birkaç dakika sonra tekrar deneyin (geçici sunucu sorunu)",
+          "Farklı bir tema/konu kullanın",
+          "Alternatif olarak kelimeleri manuel ekleyin"
+        ]
+      },
+      "sharedSetNotFound": {
+        "title": "Kodla paylaşılan seti bulamıyorum",
+        "intro": "Yaygın sorunlar:",
+        "items": [
+          { "bold": "Kodun süresi dolmuş", "text": "Bazı paylaşım kodlarının son kullanma tarihleri vardır" },
+          { "bold": "Kod silinmiş", "text": "Oluşturucu seti paylaşmayı durdurmuş" },
+          { "bold": "Yazım hatası", "text": "Kodu doğruluğu için tekrar kontrol edin (kodlar büyük/küçük harfe duyarlıdır)" },
+          { "bold": "İnternet bağlantısı", "text": "Çevrimiçi olduğunuzdan emin olun" }
+        ]
+      },
+      "wrongLanguage": {
+        "title": "Uygulama yanlış dilde",
+        "steps": [
+          "Ayarlar'a gidin (dişli simgesini arayın)",
+          "Dil seçeneğini bulun (metin okunamasa bile genellikle üstte bulunur)",
+          "Dilinizi seçin",
+          "Uygulama yeniden yüklenecektir"
+        ]
+      },
+      "lostSets": {
+        "title": "Kelime setlerimi kaybettim (Misafir Modu)",
+        "content": "Maalesef, Misafir Modu verileri yalnızca yerel olarak saklanır. Uygulamayı kaldırdıysanız, uygulama verilerini temizlediyseniz veya cihazınızı sıfırladıysanız, veriler kurtarılamaz.",
+        "recommendation": "Bulut yedekleme ve senkronizasyonu etkinleştirmek için bir hesap oluşturmanızı şiddetle öneriyoruz."
+      },
+      "keyboardIssue": {
+        "title": "Klavye giriş alanını kapatıyor",
+        "intro": "Bu bazı cihazlarda bilinen bir sorundur. Şunları deneyin:",
+        "steps": [
+          "Giriş alanı dışına dokunup yeniden odaklanma",
+          "Cihazınızı yatay moda döndürme",
+          "Ekranı manuel olarak kaydırma",
+          "Harici klavye kullanma (tabletler/masaüstleri)"
+        ],
+        "note": "Bir sonraki güncellemede bir düzeltme üzerinde çalışıyoruz!"
+      }
+    },
+    "privacyData": {
+      "title": "Gizlilik ve Veriler",
+      "isSecure": {
+        "title": "Verilerim güvende mi?",
+        "intro": "Evet! Güvenliği ciddiye alıyoruz:",
+        "items": [
+          "Tüm veriler aktarım sırasında şifrelenir (HTTPS/TLS)",
+          "Şifreler hashlenir ve asla düz metin olarak saklanmaz",
+          "Bulut verileri güvenli Supabase sunucularında saklanır (AWS altyapılı)",
+          "Satır Düzeyinde Güvenlik yalnızca kendi verilerinize erişebilmenizi sağlar"
+        ]
+      },
+      "whatCollected": {
+        "title": "Hangi verileri topluyorsunuz?",
+        "collected": [
+          { "bold": "Hesap kullanıcıları", "text": "E-posta, kullanıcı kimliği, kelime setleri, pratik geçmişi, dil tercihleri" },
+          { "bold": "Misafir kullanıcılar", "text": "Yalnızca yerel olarak saklanan kelime setleri (bulut verisi yok)" },
+          { "bold": "Analizler", "text": "Uygulamayı iyileştirmek için anonim kullanım istatistikleri" }
+        ],
+        "notCollectedIntro": "TOPLAMIYORUZ:",
+        "notCollected": [
+          "Konum verileri",
+          "Kişi listeleri",
+          "Fotoğraflar veya medya (paylaşmayı seçmediğiniz sürece)",
+          "Uygulama dışı gezinme geçmişi"
+        ]
+      },
+      "thirdPartySharing": {
+        "title": "Verilerimi üçüncü taraflarla paylaşıyor musunuz?",
+        "intro": "Hayır, verilerinizi SATMIYORUZ veya KİRALAMIYORUZ. Güvenilir hizmetler kullanıyoruz:",
+        "services": [
+          { "bold": "Supabase", "text": "Bulut veritabanı ve kimlik doğrulama" },
+          { "bold": "OpenAI", "text": "Yapay zeka kelime üretimi (yalnızca tema adları gönderilir, kişisel verileriniz DEĞİL)" },
+          { "bold": "Expo", "text": "Uygulama altyapısı (minimum çökme raporları)" }
+        ]
+      },
+      "downloadData": {
+        "title": "Verilerimi nasıl indiririm?",
+        "intro": "Verilerinizin bir kopyasını talep etmek için:",
+        "steps": [
+          "viacheslav@exquizite.app adresine \"Data Export Request\" konulu e-posta gönderin",
+          "Kayıtlı e-posta adresinizi ekleyin",
+          "7 iş günü içinde tüm kelime setleriniz ve hesap bilgilerinizle bir dosya göndereceğiz"
+        ]
+      },
+      "deleteAccountData": {
+        "title": "Hesabımı ve verilerimi nasıl silerim?",
+        "label": "Kalıcı Silme:",
+        "steps": [
+          "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
+          "Kayıtlı e-posta adresinizi ekleyin",
+          "Kimliğinizi doğrulayacağız ve tüm verileri 30 gün içinde sileceğiz"
+        ],
+        "importantNotes": [
+          "Silme kalıcıdır ve geri alınamaz",
+          "Diğer kullanıcılar tarafından kopyalanan paylaşılan setler kütüphanelerinde kalır (kopyalarının sahibi onlardır)",
+          "Bazı veriler yasal/güvenlik amaçları için saklanabilir (ör. dolandırıcılık önleme)"
+        ],
+        "comingSoon": "Yakında: Uygulama içi hesap silme (Ayarlar > Hesap > Hesabı Sil)"
+      }
+    },
+    "contactUs": {
+      "title": "Bize Ulaşın",
+      "categories": [
+        {
+          "title": "Genel Destek",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "2-3 iş günü içinde"
+        },
+        {
+          "title": "Gizlilik ve Veri Talepleri",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "7 iş günü içinde"
+        },
+        {
+          "title": "Hata Raporları ve Özellik İstekleri",
+          "email": "viacheslav@exquizite.app",
+          "subject": "\"Bug Report\" veya \"Feature Request\"",
+          "includeItems": [
+            "Cihaz modeli ve işletim sistemi sürümü (ör. iPhone 14, iOS 17.2)",
+            "Uygulama sürümü (Ayarlar > Hakkında'da bulunur)",
+            "Sorunu yeniden oluşturma adımları",
+            "Varsa ekran görüntüleri"
+          ]
+        }
+      ]
+    },
+    "supportFaq": {
+      "title": "Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "q": "Exquizite ücretsiz mi?",
+          "a": "Evet! Exquizite reklamsız ve uygulama içi satın alma olmadan tamamen ücretsizdir. Tüm özellikler tüm kullanıcılara açıktır."
+        },
+        {
+          "q": "Exquizite hangi platformlarda mevcut?",
+          "a": "iOS: iPhone ve iPad (iOS 13+), Android: Telefonlar ve tabletler (Android 6.0+), Web: app.exquizite.com (yakında)"
+        },
+        {
+          "q": "Aynı anda birden fazla dil öğrenebilir miyim?",
+          "a": "Evet! Farklı dil çiftleri için setler oluşturabilirsiniz. Genel dil tercihiniz yalnızca bir varsayılandır; her setin kendi dilleri olabilir."
+        },
+        {
+          "q": "Exquizite'i çevrimdışı kullanabilir miyim?",
+          "a": "Misafir Modu: Evet, ilk indirmeden sonra tamamen çevrimdışı. Hesapla: İlk senkronizasyon için internet gerektirir, ardından sınırlı çevrimdışı erişim (yalnızca önbelleklenmiş veriler). Hesap kullanıcıları için senkronizasyonlu tam çevrimdışı mod üzerinde çalışıyoruz!"
+        },
+        {
+          "q": "Exquizite her zaman ücretsiz kalacak mı?",
+          "a": "Evet! Temel misyonumuz dil öğrenimini herkes için erişilebilir kılmaktır. Gelecekte isteğe bağlı premium özellikler sunabiliriz, ancak temel uygulama her zaman ücretsiz kalacaktır."
+        }
+      ]
+    },
+    "learningTips": {
+      "title": "Etkili Öğrenme İçin İpuçları",
+      "tips": [
+        {
+          "title": "Odaklı Setler Oluşturun",
+          "content": "Dev bir \"İspanyolca\" seti yerine \"İspanyol Yemekleri\", \"Seyahat İfadeleri\" gibi temalı setler oluşturun."
+        },
+        {
+          "title": "Düzenli Pratik Yapın",
+          "content": "Tutarlı pratik, son anda çalışmaktan daha iyidir. Her seti haftada en az bir kez gözden geçirin."
+        },
+        {
+          "title": "Birden Fazla Oyun Modu Kullanın",
+          "content": "Her mod öğrenmeyi farklı şekilde pekiştirir - en iyi sonuçlar için aralarında değişiklik yapın!"
+        }
+      ]
+    }
+  }
+}

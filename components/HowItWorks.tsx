@@ -1,12 +1,13 @@
 import React from 'react';
 import { PlusCircle, Gamepad2, TrendingUp, Users } from 'lucide-react';
-import data from '../data.json';
+import { useData } from '../hooks/useData';
 
 const icons = [PlusCircle, Gamepad2, TrendingUp, Users];
-const steps = data.howItWorks.steps.map((step: any, i: number) => ({ icon: icons[i], ...step }));
-
 
 const HowItWorks: React.FC = () => {
+  const data = useData();
+  const steps = data.howItWorks.steps.map((step: any, i: number) => ({ icon: icons[i], ...step }));
+
   return (
     <section id="how-it-works" className="py-12 md:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

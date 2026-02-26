@@ -1,9 +1,9 @@
 import React from 'react';
-import data from '../data.json';
-
-const d = data.screenshotGallery;
+import { useData } from '../hooks/useData';
 
 const ScreenshotGallery: React.FC = () => {
+  const data = useData();
+  const d = data.screenshotGallery;
   const screenshots = d.screenshots;
 
   return (

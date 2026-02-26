@@ -1,10 +1,12 @@
 import React from 'react';
-import data from '../data.json';
-
-const d = data.downloadCTA;
-import { Apple, Globe, ArrowRight } from 'lucide-react';
+import { useData } from '../hooks/useData';
+import { Globe, ArrowRight } from 'lucide-react';
+import AppStoreBadge from './AppStoreBadge';
 
 const DownloadCTA: React.FC = () => {
+  const data = useData();
+  const d = data.downloadCTA;
+
   return (
     <section id="download" className="py-24 bg-white">
        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -21,13 +23,7 @@ const DownloadCTA: React.FC = () => {
              </p>
              
              <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a 
-                href={d.appStoreUrl} 
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary-700 rounded-xl font-bold hover:bg-slate-50 transition-transform hover:-translate-y-1 shadow-lg"
-              >
-                <Apple size={24} />
-                {d.iosButton}
-              </a>
+              <AppStoreBadge url={d.appStoreUrl} height={56} />
               <a
                 href={d.webAppUrl}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-700 text-white border border-primary-500 rounded-xl font-bold hover:bg-primary-800 transition-transform hover:-translate-y-1 shadow-lg group"

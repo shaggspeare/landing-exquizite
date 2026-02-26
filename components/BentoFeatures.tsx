@@ -1,10 +1,11 @@
 import React from 'react';
-import data from '../data.json';
-
-const d = data.bentoFeatures;
+import { useData } from '../hooks/useData';
 import { Layers, Puzzle, CheckCircle, Edit3, Sparkles, Globe2, Share2, Smartphone, LayoutDashboard, Zap } from 'lucide-react';
 
 const BentoFeatures: React.FC = () => {
+  const data = useData();
+  const d = data.bentoFeatures;
+
   return (
     <section id="features" className="py-12 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

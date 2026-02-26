@@ -1,10 +1,11 @@
 import React from 'react';
-import data from '../data.json';
-
-const d = data.whyUs;
+import { useData } from '../hooks/useData';
 import { Zap, Globe, Lock, Code } from 'lucide-react';
 
 const WhyUs: React.FC = () => {
+  const data = useData();
+  const d = data.whyUs;
+
   return (
     <section className="py-12 md:py-24 bg-slate-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

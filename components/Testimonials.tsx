@@ -1,10 +1,11 @@
 import React from 'react';
 import { Quote } from 'lucide-react';
-import data from '../data.json';
-
-const testimonials = data.testimonials.items;
+import { useData } from '../hooks/useData';
 
 const Testimonials: React.FC = () => {
+  const data = useData();
+  const testimonials = data.testimonials.items;
+
   return (
     <section id="testimonials" className="py-12 md:py-24 bg-white border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

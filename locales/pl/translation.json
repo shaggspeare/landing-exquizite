@@ -1,0 +1,966 @@
+{
+  "navbar": {
+    "brandName": "Exquizite",
+    "links": {
+      "features": "Funkcje",
+      "howItWorks": "Jak to dziala",
+      "stories": "Opinie",
+      "pricing": "Cennik",
+      "getApp": "Pobierz aplikacje",
+      "downloadApp": "Pobierz aplikacje"
+    }
+  },
+  "hero": {
+    "badge": "Juz dostepne na iOS i w sieci",
+    "titleLine1": "Opanuj nauke",
+    "titleLine2": "Dzieki inteligentnej praktyce",
+    "subtitle": "Twórz wlasne zestawy slów, graj w wciagajace gry i przyspiesz nauke jezyków dzieki narzedzom opartym na sztucznej inteligencji.",
+    "appStoreButton": "Pobierz z App Store",
+    "webAppButton": "Wypróbuj aplikacje webowa",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "images": {
+      "quiz": { "src": "/images/quiz.PNG", "alt": "Tryb quizu Exquizite" },
+      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Ekran trybów nauki" },
+      "mySets": { "src": "/images/my-sets.PNG", "alt": "Ekran Moje zestawy" }
+    }
+  },
+  "bentoFeatures": {
+    "sectionLabel": "Funkcje i zalety",
+    "sectionTitle": "Wszystko, czego potrzebujesz, by opanowac jezyk",
+    "sectionSubtitle": "Od inteligentnego generowania przez AI po wciagajace tryby gry — Exquizite jest pelen narzedzi, które pomoga Ci uczyc sie szybciej.",
+    "tiles": {
+      "learnYourWay": {
+        "title": "Ucz sie po swojemu",
+        "description": "Wybierz sposród 4 interaktywnych trybów nauki dopasowanych do Twojego stylu uczenia sie.",
+        "modes": ["Fiszki", "Gra w dopasowywanie", "Tryb quizu", "Uzupelnianie luk"]
+      },
+      "aiPowered": {
+        "title": "Napedzane przez AI",
+        "description": "Generuj pary slów natychmiast i otrzymuj inteligentne podpowiedzi.",
+        "image": { "src": "/images/ai-generation.PNG", "alt": "Slowa wygenerowane przez AI" }
+      },
+      "languages": {
+        "title": "40+ jezyków",
+        "description": "Pelna lokalizacja interfejsu i wsparcie dla jezyków ojczystych.",
+        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇷🇺 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+      },
+      "nativeIos": {
+        "title": "Natywna aplikacja iOS",
+        "description": "Pobierz aplikacje i ucz sie w podrózy."
+      },
+      "shareDiscover": {
+        "title": "Udostepniaj i odkrywaj",
+        "description": "Twórz linki do udostepniania zestawów slów lub kopiuj zestawy spolecznosci do swojej kolekcji. Sledz wyswietlenia i zaangazowanie.",
+        "recentShares": "Ostatnio udostepnione",
+        "viewAll": "Zobacz wszystko",
+        "shares": [
+          { "initials": "FR", "name": "Francuski — podstawy", "wordCount": "24 slowa" },
+          { "initials": "ES", "name": "Hiszpanski — kuchnia", "wordCount": "12 slów" }
+        ]
+      },
+      "seamlessSync": {
+        "title": "Plynna synchronizacja",
+        "description": "Zacznij na iPhonie, kontynuuj w sieci. Postepy podazaja za Toba."
+      }
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Jak to dziala",
+    "sectionSubtitle": "Rozpocznij nauke w czterech prostych krokach",
+    "steps": [
+      {
+        "title": "1. Twórz zestawy",
+        "desc": "Buduj listy slownictwa lub uzyj AI do natychmiastowego generowania slów na dowolny temat."
+      },
+      {
+        "title": "2. Wybierz gre",
+        "desc": "Wybierz sposród 4 wciagajacych trybów gry, które sprawia, ze nauka staje sie zabawa."
+      },
+      {
+        "title": "3. Sledz postepy",
+        "desc": "Monitoruj swoja serie, poziom opanowania materialu i historie na swoim panelu."
+      },
+      {
+        "title": "4. Udostepniaj i ucz sie",
+        "desc": "Udostepniaj swoje najlepsze zestawy znajomym lub odkrywaj tresci spolecznosci."
+      }
+    ]
+  },
+  "whyUs": {
+    "sectionTitle": "Dlaczego Exquizite?",
+    "sectionSubtitle": "Stworzyslismy Exquizite, by usunac przeszkody w nauce jezyków. Niezaleznie od tego, czy uczysz sie hobbystycznie, czy jestes poliglota — nasza platforma dostosowuje sie do Ciebie.",
+    "points": [
+      {
+        "title": "Zacznij w kilka sekund",
+        "description": "Wypróbuj tryb goscia natychmiast. Rejestracja nie jest wymagana, dopóki nie chcesz synchronizowac danych."
+      },
+      {
+        "title": "Prawdziwie wielojezyczny",
+        "description": "Interfejs dostepny w wielu jezykach. Ucz sie w swojej strefie komfortu."
+      },
+      {
+        "title": "Prywatnosc przede wszystkim",
+        "description": "Twoje dane sa bezpiecznie przechowywane za posrednictwem Supabase. Zawsze masz pelna kontrole."
+      },
+      {
+        "title": "Nowoczesny i szybki",
+        "description": "Zbudowany z wykorzystaniem nowoczesnych technologii dla plynnego dzialania na kazdej platformie."
+      }
+    ],
+    "image": { "src": "/images/my-sets.PNG", "alt": "Tryb dopasowywania Exquizite" }
+  },
+  "testimonials": {
+    "sectionTitle": "Uwielbiany przez uczacych sie",
+    "items": [
+      {
+        "quote": "Generowanie slów przez AI zaoszczedzilo mi godzin tworzenia list slownictwa na zajecia z hiszpanskiego. Jest niewiarygodnie dokladne.",
+        "author": "Sarah J.",
+        "role": "Studentka jezyków"
+      },
+      {
+        "quote": "Wreszcie aplikacja jezykowa, która dziala tak samo na telefonie i komputerze! Synchronizacja jest bezbledna.",
+        "author": "Michael C.",
+        "role": "Cyfrowy nomada"
+      },
+      {
+        "quote": "Gra w dopasowywanie sprawia, ze nauka staje sie zabawa. Moje dzieci tez ja uwielbiaja! To stalo sie codziennym rodzinnym rytulaem.",
+        "author": "Elena R.",
+        "role": "Rodzic i nauczycielka"
+      }
+    ]
+  },
+  "screenshotGallery": {
+    "sectionTitle": "Poznaj aplikacje",
+    "sectionSubtitle": "Przyjrzyj sie blizej naszym interaktywnym trybom nauki.",
+    "screenshots": [
+      { "src": "/images/ai-generation.PNG", "alt": "Generowanie slów przez AI" },
+      { "src": "/images/added-words.PNG", "alt": "Dodane slowa" },
+      { "src": "/images/learning-modes.PNG", "alt": "Tryby nauki" },
+      { "src": "/images/my-sets.PNG", "alt": "Moje zestawy" },
+      { "src": "/images/match-mode.PNG", "alt": "Gra w dopasowywanie" },
+      { "src": "/images/quiz.PNG", "alt": "Tryb quizu" },
+      { "src": "/images/fill-in-blank.PNG", "alt": "Uzupelnianie luk" }
+    ]
+  },
+  "pricing": {
+    "sectionTitle": "Prosty i przejrzysty cennik",
+    "sectionSubtitle": "Edukacja powinna byc dostepna dla kazdego.",
+    "planName": "Darmowy na zawsze",
+    "planDescription": "Wszystko, czego potrzebujesz, by opanowac jezyk.",
+    "price": "$0",
+    "period": "/miesiac",
+    "features": [
+      "Nieograniczona liczba zestawów slów",
+      "Dostep do wszystkich 4 trybów gry",
+      "Generowanie slów przez AI",
+      "Udostepniaj swoje zestawy",
+      "Synchronizacja miedzy platformami"
+    ],
+    "ctaButton": "Zacznij za darmo"
+  },
+  "faq": {
+    "sectionTitle": "Czesto zadawane pytania",
+    "items": [
+      { "q": "Czy potrzebuje konta, zeby korzystac z Exquizite?", "a": "Nie! Zacznij sie uczyc natychmiast w trybie goscia. Utwórz konto pózniej, by synchronizowac dane miedzy urzadzeniami." },
+      { "q": "Ile jezyków jest obslugiwanych?", "a": "Ponad 40 jezyków zarówno dla tresci edukacyjnych, jak i interfejsu aplikacji." },
+      { "q": "Czy aplikacja dziala offline?", "a": "Tak, aplikacja na iOS obsluguje dostep offline do pobranych zestawów slów." },
+      { "q": "Czy moge uzywac Exquizite na komputerze?", "a": "Oczywiscie! Aplikacja webowa oferuje zoptymalizowane doswiadczenie dla komputerów." },
+      { "q": "Czy moje dane sa bezpieczne?", "a": "Tak, wszystkie dane sa bezpiecznie przechowywane i synchronizowane za posrednictwem Supabase z szyfrowanie standardowym w branzy." },
+      { "q": "Czy moge udostepniac swoje zestawy slów?", "a": "Tak! Wygeneruj link do udostepniania dla dowolnego zestawu. Inni moga go wyswietlic i skopiowac do swojej kolekcji." }
+    ]
+  },
+  "downloadCTA": {
+    "title": "Zacznij sie uczyc juz dzis",
+    "subtitle": "Dolacz do tysiecy uczacych sie, którzy opanowuja nowe jezyki z Exquizite. Pobierz teraz lub wypróbuj w przegladarce.",
+    "iosButton": "Pobierz na iOS",
+    "webButton": "Uruchom aplikacje webowa",
+    "appStoreUrl": "https://apps.apple.com",
+    "webAppUrl": "https://app.exquizite.app/",
+    "disclaimer": "Karta kredytowa nie jest wymagana dla darmowego planu."
+  },
+  "footer": {
+    "brandName": "Exquizite",
+    "brandDescription": "Opanuj jezyki dzieki inteligentnej, interaktywnej praktyce. Stworzone przez uczacych sie, dla uczacych sie.",
+    "columns": {
+      "product": {
+        "title": "Produkt",
+        "links": [
+          { "label": "Funkcje", "href": "#features" },
+          { "label": "Jak to dziala", "href": "#how-it-works" },
+          { "label": "Cennik", "href": "#pricing" },
+          { "label": "Pobierz", "href": "#download" }
+        ]
+      },
+      "support": {
+        "title": "Wsparcie",
+        "links": [
+          { "label": "Pomoc i wsparcie", "to": "/support" },
+          { "label": "Kontakt", "href": "mailto:viacheslav@exquizite.app" },
+          { "label": "Polityka prywatnosci", "to": "/privacy-policy" }
+        ]
+      },
+      "legal": {
+        "title": "Prawne",
+        "links": [
+          { "label": "Regulamin", "href": "#" },
+          { "label": "Polityka cookies", "href": "#" }
+        ]
+      }
+    },
+    "copyright": "© 2025 Exquizite. Opanuj jezyki na swój sposób."
+  },
+  "privacyPolicy": {
+    "title": "Polityka prywatnosci Exquizite",
+    "lastUpdated": "Ostatnia aktualizacja: 7 lutego 2026",
+    "sections": [
+      {
+        "title": "Wprowadzenie",
+        "content": "Witaj w Exquizite — aplikacji do nauki jezyków. Niniejsza Polityka Prywatnosci wyjasnia, w jaki sposób zbieramy, wykorzystujemy, ujawniamy i chronimy Twoje dane podczas korzystania z naszej aplikacji mobilnej i uslug internetowych (lacznie zwanych \"Aplikacja\"). Prosimy o uwazne zapoznanie sie z ta polityka prywatnosci. Jesli nie zgadzasz sie z warunkami niniejszej polityki prywatnosci, prosimy o niekorzystanie z Aplikacji."
+      },
+      {
+        "title": "Informacje, które zbieramy",
+        "subsections": [
+          {
+            "title": "Dane osobowe",
+            "intro": "Gdy tworzysz konto w Exquizite, zbieramy:",
+            "items": [
+              { "bold": "Adres email", "text": "Uzywany do tworzenia konta, uwierzytelniania i komunikacji" },
+              { "bold": "Identyfikator uzytkownika", "text": "Unikalny identyfikator generowany automatycznie do uwierzytelniania i powiazania danych" },
+              { "bold": "Haslo", "text": "Przechowywane bezpiecznie z uzyciem szyfrowania standardowego w branzy (nigdy nie przechowujemy hasel w postaci jawnej)" }
+            ]
+          },
+          {
+            "title": "Tresci tworzone przez uzytkownika",
+            "items": [
+              { "bold": "Zestawy slownictwa", "text": "Pary slów, tlumaczenia, nazwy zestawów i preferencje nauki, które tworzysz" },
+              { "bold": "Preferencje jezykowe", "text": "Wybrane jezyki docelowe i ojczyste do nauki" },
+              { "bold": "Historia cwiczen", "text": "Informacje o tym, kiedy ostatnio cwiczyles z zestawem i o Twoich postepach" },
+              { "bold": "Ustawienia aplikacji", "text": "Preferencje motywu, jezyk interfejsu i inne ustawienia personalizacji" }
+            ]
+          },
+          {
+            "title": "Informacje zbierane automatycznie",
+            "items": [
+              { "bold": "Dane o uzyciu", "text": "Informacje o tym, jak korzystasz z Aplikacji, w tym uzywane tryby gry i funkcje" },
+              { "bold": "Informacje o urzadzeniu", "text": "Typ urzadzenia, system operacyjny i wersja aplikacji do rozwiazywania problemów i zapewnienia kompatybilnosci" },
+              { "bold": "Anonimowe analizy", "text": "Zagregowane, niezidentyfikowane statystyki uzytkowania w celu ulepszenia Aplikacji" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Tryb goscia",
+        "intro": "Jesli korzystasz z Aplikacji bez tworzenia konta (Tryb goscia):",
+        "items": [
+          "Nie jest zbierany zaden adres email ani dane osobowe",
+          "Twoje zestawy slownictwa sa przechowywane wylacznie lokalnie na Twoim urzadzeniu",
+          "Dane nie sa synchronizowane miedzy urzadzeniami",
+          "Dane moga zostac utracone, jesli odinstalujesz Aplikacje lub wyczyścisz dane aplikacji"
+        ]
+      },
+      {
+        "title": "Jak wykorzystujemy Twoje informacje",
+        "intro": "Wykorzystujemy zebrane informacje w celu:",
+        "items": [
+          { "bold": "Swiadczenie uslug", "text": "Umozliwienie tworzenia kont, synchronizacji danych i funkcjonalnosci aplikacji" },
+          { "bold": "Poprawa doswiadczenia uzytkownika", "text": "Personalizacja Twojego doswiadczenia nauki i zapamietywanie Twoich preferencji" },
+          { "bold": "Generowanie tresci AI", "text": "Uzycie API OpenAI do generowania sugestii slownictwa i przykladowych zdan na podstawie podanych tematów" },
+          { "bold": "Utrzymanie bezpieczenstwa", "text": "Uwierzytelnianie uzytkowników i ochrona przed nieautoryzowanym dostepem" },
+          { "bold": "Komunikacja", "text": "Wysylanie waznych aktualizacji dotyczacych Aplikacji (nie wysylamy emaili marketingowych bez Twojej zgody)" },
+          { "bold": "Rozwiazywanie problemów", "text": "Diagnozowanie problemów technicznych i poprawa wydajnosci aplikacji" }
+        ]
+      },
+      {
+        "title": "Przechowywanie i bezpieczenstwo danych",
+        "subsections": [
+          {
+            "title": "Lokalizacja przechowywania",
+            "intro": "Twoje dane sa bezpiecznie przechowywane za pomoca Supabase — uslug bazy danych w chmurze:",
+            "items": [
+              { "bold": "Lokalizacja", "text": "Dane sa hostowane na bezpiecznych serwerach zarzadzanych przez Supabase (zasilanych infrastruktura AWS)" },
+              { "bold": "Szyfrowanie", "text": "Wszystkie dane sa szyfrowane podczas przesylu za pomoca protokolów HTTPS/TLS" },
+              { "bold": "Kontrola dostepu", "text": "Polityki bezpieczenstwa na poziomie wierszy (RLS) zapewniaja, ze masz dostep tylko do wlasnych danych" },
+              { "bold": "Kopie zapasowe", "text": "Regularne automatyczne kopie zapasowe zapobiegajace utracie danych" }
+            ]
+          },
+          {
+            "title": "Srodki bezpieczenstwa",
+            "intro": "Wdrazamy standardowe w branzy srodki bezpieczenstwa, w tym:",
+            "items": [
+              "Bezpieczne uwierzytelnianie za pomoca tokenów JWT",
+              "Hashowanie hasel za pomoca bcrypt lub podobnych algorytmów",
+              "Szyfrowanie HTTPS dla calej transmisji danych",
+              "Rejestrowanie dostepu i monitorowanie podejrzanej aktywnosci"
+            ],
+            "note": "Jednak zadna metoda transmisji przez Internet ani elektronicznego przechowywania nie jest w 100% bezpieczna. Chociaz dokaldamy wszelkich staran, aby chronic Twoje dane, nie mozemy zagwarantowac bezwzglednego bezpieczenstwa."
+          }
+        ]
+      },
+      {
+        "title": "Uslugi stron trzecich",
+        "subsections": [
+          {
+            "title": "Supabase (Baza danych i uwierzytelnianie)",
+            "intro": "Uzywamy Supabase do przechowywania i zarzadzania danymi uzytkowników:",
+            "items": [
+              { "bold": "Cel", "text": "Baza danych w chmurze, uwierzytelnianie uzytkowników i synchronizacja danych" },
+              { "bold": "Udostepniane dane", "text": "Email, ID uzytkownika, zestawy slownictwa, historia cwiczen" }
+            ],
+            "privacyUrl": "https://supabase.com/privacy"
+          },
+          {
+            "title": "API OpenAI (Funkcje oparte na AI)",
+            "intro": "Uzywamy API OpenAI do generowania sugestii slownictwa i przykladowych zdan:",
+            "items": [
+              { "bold": "Cel", "text": "Generowanie tresci edukacyjnych oparte na AI" },
+              { "bold": "Udostepniane dane", "text": "TYLKO tematy lub zagadnienia, które podajesz (np. \"jedzenie\", \"podróze\")" },
+              { "bold": "Wazne", "text": "NIE wysylamy Twoich danych osobowych, emaila, ID uzytkownika ani istniejacych zestawów slownictwa do OpenAI" },
+              { "bold": "Wykorzystanie danych", "text": "OpenAI przetwarza zapytania przejsciowo i nie wykorzystuje Twoich danych do trenowania modeli (zgodnie z nasza umowa API)" }
+            ],
+            "privacyUrl": "https://openai.com/privacy"
+          },
+          {
+            "title": "Expo (Platforma deweloperska)",
+            "intro": "Uzywamy Expo do tworzenia i wdrazania aplikacji:",
+            "items": [
+              { "bold": "Cel", "text": "Infrastruktura aplikacji i aktualizacje" },
+              { "bold": "Udostepniane dane", "text": "Minimalne raporty o bledach i anonimowe statystyki uzytkowania" }
+            ],
+            "privacyUrl": "https://expo.dev/privacy"
+          }
+        ]
+      },
+      {
+        "title": "Udostepnianie i ujawnianie danych",
+        "intro": "NIE sprzedajemy, nie wynajmujemy ani nie wymieniamy Twoich danych osobowych stronom trzecim.",
+        "intro2": "Mozemy udostepnic Twoje informacje tylko w nastepujacych okolicznosciach:",
+        "items": [
+          { "bold": "Za Twoja zgoda", "text": "Gdy wyraznie zdecydujesz sie udostepnic zestawy slownictwa innym uzytkownikom" },
+          { "bold": "Dostawcy uslug", "text": "Zaufanym uslugom stron trzecich (Supabase, OpenAI) opisanym powyzej" },
+          { "bold": "Wymogi prawne", "text": "Jesli jest to wymagane przez prawo, nakaz sadowy lub regulacje rzadowe" },
+          { "bold": "Transfery biznesowe", "text": "W przypadku fuzji, przejecia lub sprzedazy aktywów (zostaniesz powiadomiony)" },
+          { "bold": "Bezpieczenstwo i ochrona", "text": "W celu ochrony praw, wlasnosci lub bezpieczenstwa Exquizite, naszych uzytkowników lub innych osób" }
+        ]
+      },
+      {
+        "title": "Udostepnione zestawy slownictwa",
+        "intro": "Gdy zdecydujesz sie udostepnic zestaw slownictwa:",
+        "items": [
+          "Generowany jest unikalny kod udostepniania",
+          "Kazdy, kto posiada kod udostepniania, moze wyswietlic i skopiowac zestaw",
+          "Twój email i dane osobowe NIE sa dolaczane do udostepnionych zestawów",
+          "Mozesz sprawdzic, ile razy Twój zestaw zostal wyswietlony i skopiowany",
+          "Mozesz przestac udostepniac zestaw w dowolnym momencie, usuwajac kod udostepniania"
+        ]
+      },
+      {
+        "title": "Twoje prawa i wybory",
+        "intro": "Masz nastepujace prawa dotyczace Twoich danych:",
+        "rights": [
+          {
+            "title": "Dostep do danych",
+            "description": "Mozesz przegladac wszystkie swoje zestawy slownictwa i informacje o koncie w Aplikacji"
+          },
+          {
+            "title": "Modyfikacja danych",
+            "description": "Edytuj lub aktualizuj swoje zestawy slownictwa, preferencje jezykowe i ustawienia aplikacji w dowolnym momencie"
+          },
+          {
+            "title": "Usuniecie danych",
+            "description": "Mozesz zazadac calkowitego usuniecia konta i wszystkich powiazanych danych:",
+            "steps": [
+              { "bold": "Usuniecie w aplikacji", "text": "(wkrótce): Przejdz do Ustawienia > Konto > Usun konto" },
+              {
+                "bold": "Prosba przez email",
+                "text": "Skontaktuj sie z nami pod adresem viacheslav@exquizite.app z tematem \"Prosba o usuniecie danych\"",
+                "subItems": [
+                  "Podaj swój zarejestrowany adres email",
+                  "Potwierdzimy Twoja tozsamosc i usuniemy wszystkie dane w ciagu 30 dni",
+                  "Usuniecie jest trwale i nie moze byc cofniete"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Eksport danych",
+            "description": "Aby poprosic o kopie swoich danych, skontaktuj sie z nami pod adresem viacheslav@exquizite.app z tematem \"Prosba o eksport danych\""
+          },
+          {
+            "title": "Tryb goscia",
+            "description": "Jesli korzystales z Trybu goscia, mozesz usunac lokalne dane poprzez:",
+            "items": [
+              "Wyczyszczenie pamieci podrecznej i danych aplikacji w ustawieniach urzadzenia",
+              "Odinstalowanie Aplikacji"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Prywatnosc dzieci",
+        "content": "Exquizite jest przeznaczony dla uzytkowników w wieku 13 lat i starszych. Nie zbieramy swiadomie danych osobowych od dzieci ponizej 13. roku zycia. Jesli jestes rodzicem lub opiekunem i uwazasz, ze Twoje dziecko przekazalo nam dane osobowe, prosimy o kontakt pod adresem viacheslav@exquizite.app — natychmiast usuniemy takie informacje."
+      },
+      {
+        "title": "Miedzynarodowe transfery danych",
+        "content": "Twoje dane moga byc transferowane i przechowywane na serwerach znajdujacych sie poza Twoim krajem zamieszkania, w tym w Stanach Zjednoczonych. Korzystajac z Aplikacji, wyrazasz zgode na transfer danych do krajów, które moga miec inne przepisy o ochronie danych niz Twój kraj."
+      },
+      {
+        "title": "Zmiany w niniejszej polityce prywatnosci",
+        "intro": "Mozemy od czasu do czasu aktualizowac niniejsza Polityke Prywatnosci. Powiadomimy Cie o wszelkich zmianach poprzez:",
+        "items": [
+          "Aktualizacje daty \"Ostatnia aktualizacja\" na poczatku niniejszej polityki",
+          "Wyswietlenie powiadomienia w aplikacji w przypadku istotnych zmian",
+          "Wyslanie powiadomienia e-mail (jesli masz konto)"
+        ],
+        "note": "Dalsze korzystanie z Aplikacji po opublikowaniu zmian stanowi akceptacje zaktualizowanej polityki."
+      },
+      {
+        "title": "Przechowywanie danych",
+        "intro": "Przechowujemy Twoje dane tak dlugo, jak Twoje konto jest aktywne lub jak jest to potrzebne do swiadczenia uslug. Jesli usuniesz konto:",
+        "items": [
+          "Dane osobowe sa usuwane w ciagu 30 dni",
+          "Niektóre dane moga byc przechowywane z przyczyn prawnych lub bezpieczenstwa (np. zapobieganie oszustwom)",
+          "Udostepnione zestawy slownictwa moga pozostac dostepne dla uzytkowników, którzy wczesniej je skopiowali"
+        ]
+      },
+      {
+        "title": "Twoja zgoda",
+        "content": "Korzystajac z Exquizite, wyrazasz zgode na niniejsza Polityke Prywatnosci i akceptujesz jej warunki."
+      },
+      {
+        "title": "Kontakt",
+        "intro": "Jesli masz pytania, watpliwosci lub prosby dotyczace niniejszej Polityki Prywatnosci lub Twoich danych, skontaktuj sie z nami:",
+        "contactInfo": {
+          "email": "viacheslav@exquizite.app",
+          "developer": "Zespól deweloperski Exquizite",
+          "responseTime": "Staramy sie odpowiadac na wszystkie zapytania w ciagu 7 dni roboczych."
+        }
+      }
+    ],
+    "summary": {
+      "title": "Podsumowanie najwazniejszych punktów",
+      "intro": "Dla Twojej wygody, oto krótkie podsumowanie:",
+      "items": [
+        { "label": "Co zbieramy", "value": "Email, tworzone zestawy slownictwa, preferencje jezykowe" },
+        { "label": "Dlaczego zbieramy", "value": "Aby zapewnic funkcje nauki, synchronizacje miedzy urzadzeniami, generowanie tresci AI" },
+        { "label": "Gdzie sa przechowywane", "value": "Serwery chmurowe Supabase (zasilane przez AWS)" },
+        { "label": "Strony trzecie", "value": "Supabase (baza danych), OpenAI (generowanie AI — bez danych osobowych)" },
+        { "label": "Twoje prawa", "value": "Dostep, modyfikacja, usuniecie danych w dowolnym momencie" },
+        { "label": "Kontakt", "value": "viacheslav@exquizite.app" }
+      ],
+      "thankYou": "Dziekujemy za zaufanie Exquizite w Twojej przygodzie z nauka jezyków!"
+    }
+  },
+  "support": {
+    "title": "Wsparcie Exquizite",
+    "subtitle": "Witaj w dziale wsparcia Exquizite! Znajdz odpowiedzi na czeste pytania i uzyskaj pomoc dotyczaca aplikacji.",
+    "contactEmail": "viacheslav@exquizite.app",
+    "lastUpdated": "Ostatnia aktualizacja: 7 lutego 2026",
+    "thankYou": "Dziekujemy za korzystanie z Exquizite! Milej nauki!",
+    "toc": {
+      "title": "Spis tresci",
+      "items": [
+        { "id": "getting-started", "label": "Pierwsze kroki" },
+        { "id": "account-login", "label": "Konto i logowanie" },
+        { "id": "creating-vocabulary-sets", "label": "Tworzenie zestawów slownictwa" },
+        { "id": "game-modes", "label": "Tryby gry" },
+        { "id": "sharing-sets", "label": "Udostepnianie zestawów" },
+        { "id": "settings-preferences", "label": "Ustawienia i preferencje" },
+        { "id": "troubleshooting", "label": "Rozwiazywanie problemów" },
+        { "id": "privacy-data", "label": "Prywatnosc i dane" },
+        { "id": "contact-us", "label": "Kontakt" }
+      ]
+    },
+    "gettingStarted": {
+      "title": "Pierwsze kroki",
+      "whatIs": {
+        "title": "Czym jest Exquizite?",
+        "content": "Exquizite to aplikacja do nauki jezyków, która pomaga opanowac slownictwo poprzez interaktywne gry i fiszki. Twórz wlasne zestawy slów, cwicz w zabawnych trybach gry i sledz swoje postepy."
+      },
+      "needAccount": {
+        "title": "Czy potrzebuje konta?",
+        "intro": "Nie! Mozesz korzystac z Exquizite na dwa sposoby:",
+        "options": [
+          { "bold": "Tryb goscia", "text": "Korzystaj z aplikacji bez rejestracji. Twoje zestawy sa zapisywane tylko lokalnie na urzadzeniu." },
+          { "bold": "Z kontem", "text": "Zarejestruj sie za pomoca emaila, aby synchronizowac zestawy miedzy wszystkimi urzadzeniami (iPhone, iPad, Android, Web)." }
+        ]
+      },
+      "howToStart": {
+        "title": "Jak zaczac?",
+        "steps": [
+          "Pobierz Exquizite z App Store lub Google Play",
+          "Wybierz \"Kontynuuj jako gosc\" lub \"Zarejestruj sie\"",
+          "Wybierz jezyk, którego chcesz sie uczyc (np. hiszpanski) i jezyk ojczysty (np. polski)",
+          "Utwórz swój pierwszy zestaw slownictwa",
+          "Zacznij cwiczec!"
+        ]
+      }
+    },
+    "accountLogin": {
+      "title": "Konto i logowanie",
+      "createAccount": {
+        "title": "Jak utworzyc konto?",
+        "steps": [
+          "Dotknij \"Zarejestruj sie\" na ekranie logowania",
+          "Podaj swój adres email i utwórz haslo",
+          "Dotknij \"Utwórz konto\"",
+          "Zostaniesz zalogowany automatycznie"
+        ]
+      },
+      "forgotPassword": {
+        "title": "Nie pamietam hasla. Jak je zresetowac?",
+        "steps": [
+          "Na ekranie logowania dotknij \"Nie pamietam hasla?\"",
+          "Podaj swój adres email",
+          "Sprawdz skrzynke pocztowa — powinien tam byc link do resetowania hasla",
+          "Kliknij link, aby utworzyc nowe haslo"
+        ]
+      },
+      "guestToAccount": {
+        "title": "Czy moge przejsc z trybu goscia na konto?",
+        "intro": "Obecnie dane z trybu goscia nie moga byc automatycznie przeniesione na konto. Aby zachowac zestawy:",
+        "steps": [
+          "Udostepnij kazdy zestaw, który chcesz zachowac (uzyskaj kod udostepniania)",
+          "Utwórz konto",
+          "Uzyj kodów udostepniania, aby skopiowac zestawy na nowe konto"
+        ],
+        "note": "Pracujemy nad funkcja bezposredniej migracji!"
+      },
+      "logout": {
+        "title": "Jak sie wylogowac?",
+        "steps": [
+          "Przejdz do Profilu (dolna zakladka)",
+          "Przewin w dól i dotknij \"Wyloguj sie\""
+        ]
+      },
+      "deleteAccount": {
+        "title": "Jak usunac konto?",
+        "content": "Zobacz sekcje Prywatnosc i dane ponizej."
+      }
+    },
+    "creatingVocabularySets": {
+      "title": "Tworzenie zestawów slownictwa",
+      "createNew": {
+        "title": "Jak utworzyc nowy zestaw slownictwa?",
+        "steps": [
+          "Dotknij przycisku \"+\" na ekranie glównym",
+          "Podaj nazwe zestawu (np. \"Hiszpanskie jedzenie\")",
+          "Dodaj pary slów:\n  - Lewa kolumna: Slowa w jezyku, którego sie uczysz\n  - Prawa kolumna: Tlumaczenia w jezyku ojczystym",
+          "Dotknij \"Zapisz\" po zakonczeniu"
+        ]
+      },
+      "wordLimit": {
+        "title": "Ile slów moge dodac do zestawu?",
+        "content": "Kazdy zestaw moze zawierac do 20 par slów. Ten limit zapewnia optymalna nauke i wydajnosc."
+      },
+      "aiGeneration": {
+        "title": "Czy moge uzyc AI do generowania slownictwa?",
+        "intro": "Tak! Dotknij przycisku \"Sugestie AI\" podczas tworzenia zestawu:",
+        "steps": [
+          "Podaj temat (np. \"slownictwo restauracyjne\", \"zwroty podróznicze\")",
+          "Wybierz ile slów chcesz (do 20)",
+          "Przejrzyj sugestie wygenerowane przez AI",
+          "Wybierz slowa, które chcesz dodac",
+          "Edytuj lub dostosuj wedlug potrzeb"
+        ]
+      },
+      "bulkImport": {
+        "title": "Czy moge importowac slowa hurtowo?",
+        "intro": "Tak! Dotknij \"Import hurtowy\" podczas tworzenia zestawu. Opcje formatu:",
+        "formats": [
+          { "name": "Opcja 1: Rozdzielone tabulatorem", "example": "slowo[TAB]tlumaczenie\nhola[TAB]czesc\nadiós[TAB]do widzenia" },
+          { "name": "Opcja 2: Rozdzielone myslnikiem", "example": "slowo - tlumaczenie\nhola - czesc\nadiós - do widzenia" },
+          { "name": "Opcja 3: Rozdzielone znakiem równosci", "example": "slowo = tlumaczenie\nhola = czesc\nadiós = do widzenia" }
+        ]
+      },
+      "editSet": {
+        "title": "Jak edytowac zestaw slownictwa?",
+        "steps": [
+          "Przejdz do Moje zestawy (dolna zakladka)",
+          "Dotknij zestawu, który chcesz edytowac",
+          "Dotknij ikony edycji (olówek) w prawym górnym rogu",
+          "Wprowadz zmiany",
+          "Dotknij \"Zapisz\""
+        ]
+      },
+      "deleteSet": {
+        "title": "Jak usunac zestaw slownictwa?",
+        "steps": [
+          "Przejdz do Moje zestawy",
+          "Dotknij zestawu, który chcesz usunac",
+          "Dotknij ikony menu (trzy kropki)",
+          "Wybierz \"Usun zestaw\"",
+          "Potwierdz usuniecie"
+        ],
+        "warning": "Uwaga: Tej operacji nie mozna cofnac!"
+      },
+      "differentLanguages": {
+        "title": "Czy moge uzywac róznych jezyków dla róznych zestawów?",
+        "intro": "Tak! Domyslnie zestawy uzywaja Twoich globalnych preferencji jezykowych, ale mozesz je nadpisac dla kazdego zestawu:",
+        "steps": [
+          "Podczas tworzenia/edycji zestawu dotknij \"Nadpisz jezyk\"",
+          "Wybierz niestandardowe jezyki dla tego konkretnego zestawu",
+          "Te ustawienia dotycza tylko tego jednego zestawu"
+        ]
+      }
+    },
+    "gameModes": {
+      "title": "Tryby gry",
+      "available": {
+        "title": "Jakie tryby gry sa dostepne?",
+        "intro": "Exquizite oferuje 4 interaktywne tryby nauki:",
+        "modes": [
+          { "bold": "Fiszki", "text": "Klasyczne karty do odwracania, testujace pamiec" },
+          { "bold": "Quiz", "text": "Pytania wielokrotnego wyboru utrwalajace nauke" },
+          { "bold": "Dopasowywanie", "text": "Znajdz pasujace pary slów na czas" },
+          { "bold": "Uzupelnianie luk", "text": "Uzupelnij zdania odpowiednimi slowami" }
+        ]
+      },
+      "howToPlay": {
+        "title": "Jak grac w tryb gry?",
+        "steps": [
+          "Przejdz do Moje zestawy lub ekranu glównego",
+          "Dotknij zestawu slownictwa",
+          "Wybierz tryb gry z menu",
+          "Postepuj zgodnie z instrukcjami na ekranie",
+          "Ukonczenie gry pozwala sledzic postepy!"
+        ]
+      },
+      "modeDetails": [
+        {
+          "title": "Tryb fiszek",
+          "items": [
+            "Dotknij karty, aby odwrócic miedzy slowem a tlumaczeniem",
+            "Uzyj przycisków \"Poprzedni\" i \"Nastepny\" do nawigacji",
+            "Pasek postepu pokazuje Twoja pozycje w zestawie",
+            "Cwiczenie jest automatycznie rejestrowane po ukonczeniu zestawu"
+          ]
+        },
+        {
+          "title": "Tryb quizu",
+          "items": [
+            "Wybierz sposród 4 odpowiedzi wielokrotnego wyboru (A, B, C, D)",
+            "Dotknij odpowiedzi, aby sprawdzic, czy jest poprawna",
+            "Zielony ptaszek = Poprawnie!",
+            "Czerwony X = Spróbuj ponownie lub pomin",
+            "Pominiecie przechodzi do nastepnego pytania bez punktacji",
+            "Na koncu zobaczysz swój wynik koncowy"
+          ]
+        },
+        {
+          "title": "Tryb dopasowywania",
+          "items": [
+            "Znajdz pasujace pary slowo-tlumaczenie",
+            "Dotknij dwóch kart, aby sprawdzic, czy pasuja",
+            "Dopasuj wszystkie pary jak najszybciej",
+            "Pobij swój najlepszy czas!"
+          ]
+        },
+        {
+          "title": "Tryb uzupelniania luk",
+          "items": [
+            "Przeczytaj przykladowe zdanie",
+            "Wpisz brakujace slowo",
+            "Uzyj podpowiedzi, jesli potrzebujesz pomocy",
+            "Wyslij odpowiedz, aby sprawdzic, czy jest poprawna"
+          ]
+        }
+      ],
+      "replay": {
+        "title": "Czy moge ponownie grac w tryb gry?",
+        "content": "Tak! Mozesz cwiczec z dowolnym zestawem tyle razy, ile chcesz. Data \"Ostatnio cwiczone\" aktualizuje sie po kazdym zakonczeniu sesji."
+      }
+    },
+    "sharingSets": {
+      "title": "Udostepnianie zestawów",
+      "howToShare": {
+        "title": "Jak udostepnic zestaw slownictwa?",
+        "steps": [
+          "Otwórz zestaw, który chcesz udostepnic",
+          "Dotknij ikony udostepniania (lub menu > Udostepnij)",
+          "Generowany jest unikalny kod udostepniania (np. ABC123XYZ)",
+          "Udostepnij kod przez wiadomosc, email lub media spolecznosciowe"
+        ]
+      },
+      "useShared": {
+        "title": "Jak uzyc udostepnionego zestawu?",
+        "steps": [
+          "Dotknij wyszukiwania na ekranie glównym lub opcji \"Wpisz kod udostepniania\"",
+          "Podaj kod udostepniania (np. ABC123XYZ)",
+          "Podglad zestawu",
+          "Dotknij \"Kopiuj do Moich zestawów\"",
+          "Opcjonalnie zmien nazwe zestawu",
+          "Zestaw jest teraz w Twojej bibliotece!"
+        ]
+      },
+      "viewStats": {
+        "title": "Czy moge zobaczyc, kto wyswietlil lub skopiowal mój udostepniony zestaw?",
+        "intro": "Tak! Przegladajac udostepniony zestaw, mozesz zobaczyc:",
+        "items": [
+          { "bold": "Liczba wyswietlen", "text": "Ile razy zostal wyswietlony" },
+          { "bold": "Liczba kopii", "text": "Ilu uzytkowników go skopiowalo" }
+        ],
+        "note": "Nie mozesz zobaczyc nazw ani emaili poszczególnych uzytkowników (ochrona prywatnosci)."
+      },
+      "stopSharing": {
+        "title": "Czy moge przestac udostepniac zestaw?",
+        "intro": "Tak! Aby wycofac udostepnianie:",
+        "steps": [
+          "Otwórz udostepniony zestaw",
+          "Dotknij ikony menu",
+          "Wybierz \"Przestan udostepniac\" lub \"Usun kod udostepniania\"",
+          "Kod udostepniania przestanie dzialac"
+        ],
+        "note": "Istniejace kopie w bibliotekach innych uzytkowników pozostaja (sa wlascicielami swoich kopii)."
+      },
+      "autoUpdate": {
+        "title": "Czy udostepnione zestawy aktualizuja sie automatycznie?",
+        "content": "Nie. Gdy ktos kopiuje Twój udostepniony zestaw, otrzymuje kopie z danego momentu. Jesli pózniej edytujesz oryginalny zestaw, ich kopia nie aktualizuje sie automatycznie."
+      }
+    },
+    "settingsPreferences": {
+      "title": "Ustawienia i preferencje",
+      "appLanguage": {
+        "title": "Jak zmienic jezyk aplikacji (interfejs)?",
+        "intro": "Exquizite obsluguje ponad 45 jezyków interfejsu:",
+        "steps": [
+          "Przejdz do Ustawien",
+          "Dotknij \"Jezyk aplikacji\"",
+          "Wybierz preferowany jezyk",
+          "Aplikacja przeladuje sie z nowym jezykiem"
+        ],
+        "note": "Obslugiwane jezyki: angielski, hiszpanski, francuski, niemiecki, wloski, portugalski, japonski, koreanski, chinski, arabski, hebrajski i ponad 35 innych!"
+      },
+      "learningLanguages": {
+        "title": "Jak zmienic jezyki nauki?",
+        "steps": [
+          "Przejdz do Profilu",
+          "Dotknij \"Preferencje jezykowe\"",
+          "Wybierz Jezyk nauki (jezyk, którego sie uczysz)",
+          "Wybierz Jezyk ojczysty (jezyk, który znasz)",
+          "Zapisz zmiany"
+        ],
+        "note": "Uwaga: To wplywa na nowe zestawy. Istniejace zestawy zachowuja oryginalne jezyki, chyba ze edytujesz je indywidualnie."
+      },
+      "darkMode": {
+        "title": "Jak wlaczyc tryb ciemny?",
+        "steps": [
+          "Przejdz do Ustawien",
+          "Przelacz \"Tryb ciemny\" wl./wyl."
+        ],
+        "note": "Tryb ciemny jest latwiejszy dla oczu w slabym oswietleniu i moze oszczedzac baterie na ekranach OLED."
+      },
+      "tour": {
+        "title": "Czym jest przewodnik dla nowych uzytkowników?",
+        "intro": "Gdy po raz pierwszy korzystasz z Exquizite, interaktywny przewodnik przeprowadzi Cie przez kluczowe funkcje. Aby ponownie uruchomic przewodnik:",
+        "steps": [
+          "Przejdz do Ustawien",
+          "Dotknij \"Uruchom przewodnik ponownie\"",
+          "Postepuj zgodnie z instrukcjami na ekranie"
+        ]
+      }
+    },
+    "troubleshooting": {
+      "title": "Rozwiazywanie problemów",
+      "syncIssue": {
+        "title": "Moje zestawy nie synchronizuja sie miedzy urzadzeniami",
+        "accountSteps": {
+          "label": "Dla uzytkowników z kontem:",
+          "steps": [
+            "Upewnij sie, ze jestes zalogowany na tym samym koncie na wszystkich urzadzeniach",
+            "Sprawdz polaczenie internetowe",
+            "Spróbuj sie wylogowac i zalogowac ponownie",
+            "Przeciagnij w dól, aby odswiezyc na ekranie Moje zestawy"
+          ]
+        },
+        "guestNote": "Dla uzytkowników gosci: Dane trybu goscia sa przechowywane tylko lokalnie i NIE sa synchronizowane. Utwórz konto, aby wlaczyc synchronizacje."
+      },
+      "crashing": {
+        "title": "Aplikacja sie zawiesza lub blokuje",
+        "intro": "Spróbuj tych kroków:",
+        "steps": [
+          "Wymus zamkniecie aplikacji i otwórz ja ponownie",
+          "Uruchom ponownie urzadzenie",
+          "Sprawdz aktualizacje w App Store/Play Store",
+          "Wyczysc pamiec podreczna aplikacji (Ustawienia > Aplikacje > Exquizite > Wyczysc pamiec podreczna na Androidzie)",
+          "Zainstaluj aplikacje ponownie (Uwaga: dane trybu goscia zostana utracone!)"
+        ],
+        "note": "Jesli problem nie ustepuje, skontaktuj sie z nami pod adresem viacheslav@exquizite.app podajac model urzadzenia, wersje systemu operacyjnego, wersje aplikacji i opis problemu."
+      },
+      "aiNotWorking": {
+        "title": "Sugestie AI nie dzialaja",
+        "intro": "Jesli funkcje oparte na AI nie dzialaja:",
+        "steps": [
+          "Sprawdz polaczenie internetowe",
+          "Spróbuj ponownie za kilka minut (tymczasowy problem serwera)",
+          "Uzyj innego tematu/zagadnienia",
+          "Dodaj slowa recznie jako alternatywe"
+        ]
+      },
+      "sharedSetNotFound": {
+        "title": "Nie moge znalezc udostepnionego zestawu z kodem",
+        "intro": "Czeste problemy:",
+        "items": [
+          { "bold": "Kod wygasl", "text": "Niektóre kody udostepniania maja date waznosci" },
+          { "bold": "Kod usuniety", "text": "Twórca przestal udostepniac zestaw" },
+          { "bold": "Literówka", "text": "Sprawdz dokladnosc kodu (kody rozrózniaja wielkosc liter)" },
+          { "bold": "Polaczenie internetowe", "text": "Upewnij sie, ze jestes online" }
+        ]
+      },
+      "wrongLanguage": {
+        "title": "Aplikacja jest w zlym jezyku",
+        "steps": [
+          "Przejdz do Ustawien (szukaj ikony zebatki)",
+          "Znajdz opcje jezyka (nawet jesli tekst jest nieczytelny, zazwyczaj jest blisko góry)",
+          "Wybierz swój jezyk",
+          "Aplikacja sie przeladuje"
+        ]
+      },
+      "lostSets": {
+        "title": "Stracilem moje zestawy slownictwa (tryb goscia)",
+        "content": "Niestety dane trybu goscia sa przechowywane tylko lokalnie. Jesli odinstalowales aplikacje, wyczysciles dane aplikacji lub zresetowales urzadzenie, danych nie mozna odzyskac.",
+        "recommendation": "Zdecydowanie zalecamy utworzenie konta, aby wlaczyc kopie zapasowa w chmurze i synchronizacje."
+      },
+      "keyboardIssue": {
+        "title": "Klawiatura zaslania pole wprowadzania",
+        "intro": "To znany problem na niektórych urzadzeniach. Spróbuj:",
+        "steps": [
+          "Dotknac poza polem wprowadzania i ponownie je aktywowac",
+          "Obrócic urzadzenie do trybu poziomego",
+          "Recznie przewinac ekran",
+          "Uzyc zewnetrznej klawiatury (tablety/komputery)"
+        ],
+        "note": "Pracujemy nad poprawka w nastepnej aktualizacji!"
+      }
+    },
+    "privacyData": {
+      "title": "Prywatnosc i dane",
+      "isSecure": {
+        "title": "Czy moje dane sa bezpieczne?",
+        "intro": "Tak! Traktujemy bezpieczenstwo bardzo powaznie:",
+        "items": [
+          "Wszystkie dane sa szyfrowane podczas przesylu (HTTPS/TLS)",
+          "Hasla sa hashowane i nigdy nie sa przechowywane w postaci jawnej",
+          "Dane w chmurze sa przechowywane na bezpiecznych serwerach Supabase (zasilanych przez AWS)",
+          "Bezpieczenstwo na poziomie wierszy zapewnia, ze masz dostep tylko do wlasnych danych"
+        ]
+      },
+      "whatCollected": {
+        "title": "Jakie dane zbieracie?",
+        "collected": [
+          { "bold": "Uzytkownicy z kontem", "text": "Email, ID uzytkownika, zestawy slownictwa, historia cwiczen, preferencje jezykowe" },
+          { "bold": "Uzytkownicy goscie", "text": "Zestawy slownictwa przechowywane tylko lokalnie (brak danych w chmurze)" },
+          { "bold": "Analizy", "text": "Anonimowe statystyki uzytkowania w celu ulepszenia aplikacji" }
+        ],
+        "notCollectedIntro": "NIE zbieramy:",
+        "notCollected": [
+          "Danych o lokalizacji",
+          "List kontaktów",
+          "Zdjec ani mediów (chyba ze zdecydujesz sie je udostepnic)",
+          "Historii przegladania poza aplikacja"
+        ]
+      },
+      "thirdPartySharing": {
+        "title": "Czy udostepniacie moje dane stronom trzecim?",
+        "intro": "Nie, NIE sprzedajemy ani nie wynajmujemy Twoich danych. Korzystamy z zaufanych uslug:",
+        "services": [
+          { "bold": "Supabase", "text": "Baza danych w chmurze i uwierzytelnianie" },
+          { "bold": "OpenAI", "text": "Generowanie slownictwa AI (wysylane sa tylko nazwy tematów, NIE Twoje dane osobowe)" },
+          { "bold": "Expo", "text": "Infrastruktura aplikacji (minimalne raporty o bledach)" }
+        ]
+      },
+      "downloadData": {
+        "title": "Jak pobrac moje dane?",
+        "intro": "Aby poprosic o kopie swoich danych:",
+        "steps": [
+          "Wyslij email na viacheslav@exquizite.app z tematem \"Prosba o eksport danych\"",
+          "Podaj swój zarejestrowany adres email",
+          "Wyszyslemy Ci plik ze wszystkimi zestawami slownictwa i informacjami o koncie w ciagu 7 dni roboczych"
+        ]
+      },
+      "deleteAccountData": {
+        "title": "Jak usunac konto i dane?",
+        "label": "Trwale usuniecie:",
+        "steps": [
+          "Wyslij email na viacheslav@exquizite.app z tematem \"Prosba o usuniecie danych\"",
+          "Podaj swój zarejestrowany adres email",
+          "Potwierdzimy Twoja tozsamosc i usuniemy wszystkie dane w ciagu 30 dni"
+        ],
+        "importantNotes": [
+          "Usuniecie jest trwale i nie moze byc cofniete",
+          "Udostepnione zestawy skopiowane przez innych uzytkowników pozostaja w ich bibliotekach (sa wlascicielami swoich kopii)",
+          "Niektóre dane moga byc przechowywane z przyczyn prawnych/bezpieczenstwa (np. zapobieganie oszustwom)"
+        ],
+        "comingSoon": "Wkrótce: Usuwanie konta w aplikacji (Ustawienia > Konto > Usun konto)"
+      }
+    },
+    "contactUs": {
+      "title": "Kontakt",
+      "categories": [
+        {
+          "title": "Wsparcie ogólne",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "W ciagu 2-3 dni roboczych"
+        },
+        {
+          "title": "Prosby dotyczace prywatnosci i danych",
+          "email": "viacheslav@exquizite.app",
+          "responseTime": "W ciagu 7 dni roboczych"
+        },
+        {
+          "title": "Zgloszenia bledów i prosby o funkcje",
+          "email": "viacheslav@exquizite.app",
+          "subject": "\"Zgloszenie bledu\" lub \"Prosba o funkcje\"",
+          "includeItems": [
+            "Model urzadzenia i wersja systemu operacyjnego (np. iPhone 14, iOS 17.2)",
+            "Wersja aplikacji (w Ustawieniach > Informacje)",
+            "Kroki do odtworzenia problemu",
+            "Zrzuty ekranu, jesli dotyczy"
+          ]
+        }
+      ]
+    },
+    "supportFaq": {
+      "title": "Czesto zadawane pytania",
+      "items": [
+        {
+          "q": "Czy Exquizite jest darmowy?",
+          "a": "Tak! Exquizite jest calkowicie darmowy, bez reklam i zakupów w aplikacji. Wszystkie funkcje sa dostepne dla wszystkich uzytkowników."
+        },
+        {
+          "q": "Na jakich platformach dostepny jest Exquizite?",
+          "a": "iOS: iPhone i iPad (iOS 13+), Android: Telefony i tablety (Android 6.0+), Web: app.exquizite.com (wkrótce)"
+        },
+        {
+          "q": "Czy moge uczyc sie wielu jezyków naraz?",
+          "a": "Tak! Mozesz tworzyc zestawy dla róznych par jezykowych. Twoja globalna preferencja jezykowa to tylko ustawienie domyslne; kazdy zestaw moze miec wlasne jezyki."
+        },
+        {
+          "q": "Czy moge uzywac Exquizite offline?",
+          "a": "Tryb goscia: Tak, w pelni offline po poczatkowym pobraniu. Z kontem: Wymaga internetu do poczatkowej synchronizacji, potem ograniczony dostep offline (tylko dane z pamieci podrecznej). Pracujemy nad pelnym trybem offline z synchronizacja dla uzytkowników z kontem!"
+        },
+        {
+          "q": "Czy Exquizite zawsze bedzie darmowy?",
+          "a": "Tak! Nasza glówna misja to uczynienie nauki jezyków dostepna dla kazdego. W przyszlosci mozemy wprowadzic opcjonalne funkcje premium, ale podstawowa aplikacja zawsze pozostanie darmowa."
+        }
+      ]
+    },
+    "learningTips": {
+      "title": "Wskazówki do efektywnej nauki",
+      "tips": [
+        {
+          "title": "Twórz ukierunkowane zestawy",
+          "content": "Zamiast jednego ogromnego zestawu \"Hiszpanski\", twórz zestawy tematyczne, np. \"Hiszpanskie jedzenie\", \"Zwroty podróznicze\" itp."
+        },
+        {
+          "title": "Cwicz regularnie",
+          "content": "Systematyczne cwiczenia sa lepsze niz kucie na pamiec. Powtarzaj kazdy zestaw przynajmniej raz w tygodniu."
+        },
+        {
+          "title": "Korzystaj z róznych trybów gry",
+          "content": "Kazdy tryb utrwala nauke w inny sposób — mieszaj je dla najlepszych rezultatów!"
+        }
+      ]
+    }
+  }
+}
