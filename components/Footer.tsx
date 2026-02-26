@@ -1,4 +1,7 @@
 import React from 'react';
+import data from '../data.json';
+
+const d = data.footer;
 import { Link } from 'react-router-dom';
 import { Twitter, Instagram, Github } from 'lucide-react';
 
@@ -12,10 +15,10 @@ const Footer: React.FC = () => {
               <div className="w-8 h-8 rounded-lg overflow-hidden">
                 <img src="/images/logo.png" alt="Exquizite Logo" className="w-full h-full object-cover" />
               </div>
-              <span className="font-bold text-lg text-slate-900">Exquizite</span>
+              <span className="font-bold text-lg text-slate-900">{d.brandName}</span>
             </div>
             <p className="text-sm text-slate-500 mb-6">
-              Master languages through smart, interactive practice. Built for learners, by learners.
+              {d.brandDescription}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-slate-400 hover:text-slate-600"><Twitter size={20} /></a>
@@ -25,7 +28,7 @@ const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className="font-semibold text-slate-900 mb-4">Product</h3>
+            <h3 className="font-semibold text-slate-900 mb-4">{d.columns.product.title}</h3>
             <ul className="space-y-2 text-sm text-slate-600">
               <li><a href="#features" className="hover:text-primary-600">Features</a></li>
               <li><a href="#how-it-works" className="hover:text-primary-600">How It Works</a></li>
@@ -35,7 +38,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="font-semibold text-slate-900 mb-4">Support</h3>
+            <h3 className="font-semibold text-slate-900 mb-4">{d.columns.support.title}</h3>
             <ul className="space-y-2 text-sm text-slate-600">
               <li><Link to="/support" className="hover:text-primary-600">Help & Support</Link></li>
               <li><a href="mailto:viacheslav@exquizite.app" className="hover:text-primary-600">Contact</a></li>
@@ -44,7 +47,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="font-semibold text-slate-900 mb-4">Legal</h3>
+            <h3 className="font-semibold text-slate-900 mb-4">{d.columns.legal.title}</h3>
             <ul className="space-y-2 text-sm text-slate-600">
               <li><a href="#" className="hover:text-primary-600">Terms of Service</a></li>
               <li><a href="#" className="hover:text-primary-600">Cookie Policy</a></li>
@@ -53,7 +56,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-slate-500">© 2025 Exquizite. Master languages, your way.</p>
+          <p className="text-sm text-slate-500">{d.copyright}</p>
         </div>
       </div>
     </footer>

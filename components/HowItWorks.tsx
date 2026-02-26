@@ -1,36 +1,18 @@
 import React from 'react';
 import { PlusCircle, Gamepad2, TrendingUp, Users } from 'lucide-react';
+import data from '../data.json';
 
-const steps = [
-  {
-    icon: PlusCircle,
-    title: "1. Create Sets",
-    desc: "Build vocabulary lists or use AI to generate words for any topic instantly."
-  },
-  {
-    icon: Gamepad2,
-    title: "2. Choose Game",
-    desc: "Pick from 4 engaging game modes that make learning feel like play."
-  },
-  {
-    icon: TrendingUp,
-    title: "3. Track Progress",
-    desc: "Monitor your streak, mastery levels, and history on your dashboard."
-  },
-  {
-    icon: Users,
-    title: "4. Share & Learn",
-    desc: "Share your best sets with friends or discover community content."
-  }
-];
+const icons = [PlusCircle, Gamepad2, TrendingUp, Users];
+const steps = data.howItWorks.steps.map((step: any, i: number) => ({ icon: icons[i], ...step }));
+
 
 const HowItWorks: React.FC = () => {
   return (
     <section id="how-it-works" className="py-12 md:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 md:mb-16">
-          <h2 className="text-3xl font-extrabold text-slate-900 sm:text-4xl">How It Works</h2>
-          <p className="mt-4 text-xl text-slate-600">Start your learning journey in four simple steps</p>
+          <h2 className="text-3xl font-extrabold text-slate-900 sm:text-4xl">{data.howItWorks.sectionTitle}</h2>
+          <p className="mt-4 text-xl text-slate-600">{data.howItWorks.sectionSubtitle}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

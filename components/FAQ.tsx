@@ -1,20 +1,14 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
+import data from '../data.json';
 
-const faqs = [
-  { q: "Do I need an account to use Exquizite?", a: "No! Start learning immediately with guest mode. Create an account later to sync across devices." },
-  { q: "How many languages are supported?", a: "Over 40 languages for both learning content and app interface." },
-  { q: "Does the app work offline?", a: "Yes, the iOS app supports offline access to your downloaded word sets." },
-  { q: "Can I use Exquizite on my computer?", a: "Absolutely! The web app offers a desktop-optimized experience." },
-  { q: "Is my data secure?", a: "Yes, all data is securely stored and synced via Supabase with industry-standard encryption." },
-  { q: "Can I share my word sets?", a: "Yes! Generate a shareable link for any set. Others can view and copy it to their collection." }
-];
+const faqs = data.faq.items;
 
 const FAQ: React.FC = () => {
   return (
     <section className="py-24 bg-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-center text-slate-900 mb-12">Frequently Asked Questions</h2>
+        <h2 className="text-3xl font-extrabold text-center text-slate-900 mb-12">{data.faq.sectionTitle}</h2>
         
         <div className="space-y-4">
           {faqs.map((faq, i) => (

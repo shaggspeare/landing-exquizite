@@ -1,4 +1,7 @@
 import React from 'react';
+import data from '../data.json';
+
+const d = data.whyUs;
 import { Zap, Globe, Lock, Code } from 'lucide-react';
 
 const WhyUs: React.FC = () => {
@@ -7,9 +10,9 @@ const WhyUs: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-extrabold mb-6">Why Exquizite?</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-6">{d.sectionTitle}</h2>
             <p className="text-slate-400 text-lg mb-8">
-              We built Exquizite to remove the friction from language learning. Whether you are a casual learner or a polyglot, our platform adapts to you.
+              {d.sectionSubtitle}
             </p>
             
             <div className="space-y-8">
@@ -18,8 +21,8 @@ const WhyUs: React.FC = () => {
                   <Zap className="text-yellow-400" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl mb-2">Start in Seconds</h3>
-                  <p className="text-slate-400">Try guest mode instantly. No signup required until you want to sync.</p>
+                  <h3 className="font-bold text-xl mb-2">{d.points[0].title}</h3>
+                  <p className="text-slate-400">{d.points[0].description}</p>
                 </div>
               </div>
 
@@ -28,8 +31,8 @@ const WhyUs: React.FC = () => {
                   <Globe className="text-blue-400" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl mb-2">Truly Multilingual</h3>
-                  <p className="text-slate-400">Interface available in multiple languages. Learn in your comfort zone.</p>
+                  <h3 className="font-bold text-xl mb-2">{d.points[1].title}</h3>
+                  <p className="text-slate-400">{d.points[1].description}</p>
                 </div>
               </div>
 
@@ -38,8 +41,8 @@ const WhyUs: React.FC = () => {
                   <Lock className="text-green-400" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl mb-2">Privacy-First</h3>
-                  <p className="text-slate-400">Your data is securely stored via Supabase. You are always in control.</p>
+                  <h3 className="font-bold text-xl mb-2">{d.points[2].title}</h3>
+                  <p className="text-slate-400">{d.points[2].description}</p>
                 </div>
               </div>
               
@@ -48,8 +51,8 @@ const WhyUs: React.FC = () => {
                   <Code className="text-purple-400" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl mb-2">Modern & Fast</h3>
-                  <p className="text-slate-400">Built with modern technology for smooth performance on every platform.</p>
+                  <h3 className="font-bold text-xl mb-2">{d.points[3].title}</h3>
+                  <p className="text-slate-400">{d.points[3].description}</p>
                 </div>
               </div>
             </div>
@@ -59,8 +62,8 @@ const WhyUs: React.FC = () => {
              <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-purple-600 rounded-3xl opacity-20 blur-2xl"></div>
              <div className="relative rounded-[2rem] border-[6px] md:border-8 border-slate-800 bg-slate-900 overflow-hidden shadow-2xl max-w-[240px] md:max-w-[320px]">
                <img
-                 src="/images/my-sets.PNG"
-                 alt="Exquizite Match Mode"
+                 src={d.image.src}
+                 alt={d.image.alt}
                  className="w-full h-auto block"
                />
              </div>

@@ -1,29 +1,14 @@
 import React from 'react';
 import { Quote } from 'lucide-react';
+import data from '../data.json';
 
-const testimonials = [
-  {
-    quote: "The AI word generation saved me hours creating vocabulary lists for my Spanish class. It's incredibly accurate.",
-    author: "Sarah J.",
-    role: "Language Student"
-  },
-  {
-    quote: "Finally, a language app that works the same on my phone and computer! The sync is flawless.",
-    author: "Michael C.",
-    role: "Digital Nomad"
-  },
-  {
-    quote: "The match game makes studying feel like fun. My kids love it too! It's become a daily family activity.",
-    author: "Elena R.",
-    role: "Parent & Teacher"
-  }
-];
+const testimonials = data.testimonials.items;
 
 const Testimonials: React.FC = () => {
   return (
     <section id="testimonials" className="py-12 md:py-24 bg-white border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-center text-slate-900 mb-8 md:mb-16">Loved by Learners</h2>
+        <h2 className="text-3xl font-extrabold text-center text-slate-900 mb-8 md:mb-16">{data.testimonials.sectionTitle}</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((t, i) => (

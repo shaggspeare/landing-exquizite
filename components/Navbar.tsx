@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import data from '../data.json';
+
+const d = data.navbar;
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
@@ -17,20 +20,20 @@ const Navbar: React.FC = () => {
             <div className="w-10 h-10 rounded-lg overflow-hidden">
               <img src="/images/logo.png" alt="Exquizite Logo" className="w-full h-full object-cover" />
             </div>
-            <span className="font-bold text-xl tracking-tight text-slate-900">Exquizite</span>
+            <span className="font-bold text-xl tracking-tight text-slate-900">{d.brandName}</span>
           </Link>
 
           {!isContentPage && (
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#features" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">Features</a>
-              <a href="#how-it-works" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">How it Works</a>
-              <a href="#testimonials" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">Stories</a>
-              <a href="#pricing" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">Pricing</a>
+              <a href="#features" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">{d.links.features}</a>
+              <a href="#how-it-works" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">{d.links.howItWorks}</a>
+              <a href="#testimonials" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">{d.links.stories}</a>
+              <a href="#pricing" className="text-slate-600 hover:text-primary-600 font-medium transition-colors">{d.links.pricing}</a>
               <a
                 href="#download"
                 className="bg-slate-900 hover:bg-slate-800 text-white px-5 py-2 rounded-full font-medium transition-colors text-sm"
               >
-                Get App
+                {d.links.getApp}
               </a>
             </div>
           )}
@@ -57,35 +60,35 @@ const Navbar: React.FC = () => {
               className="block px-3 py-3 text-base font-medium text-slate-700 hover:text-primary-600 hover:bg-slate-50 rounded-md"
               onClick={() => setIsOpen(false)}
             >
-              Features
+              {d.links.features}
             </a>
-            <a 
-              href="#how-it-works" 
+            <a
+              href="#how-it-works"
               className="block px-3 py-3 text-base font-medium text-slate-700 hover:text-primary-600 hover:bg-slate-50 rounded-md"
               onClick={() => setIsOpen(false)}
             >
-              How it Works
+              {d.links.howItWorks}
             </a>
-            <a 
-              href="#testimonials" 
+            <a
+              href="#testimonials"
               className="block px-3 py-3 text-base font-medium text-slate-700 hover:text-primary-600 hover:bg-slate-50 rounded-md"
               onClick={() => setIsOpen(false)}
             >
-              Stories
+              {d.links.stories}
             </a>
-            <a 
-              href="#pricing" 
+            <a
+              href="#pricing"
               className="block px-3 py-3 text-base font-medium text-slate-700 hover:text-primary-600 hover:bg-slate-50 rounded-md"
               onClick={() => setIsOpen(false)}
             >
-              Pricing
+              {d.links.pricing}
             </a>
-            <a 
-              href="#download" 
+            <a
+              href="#download"
               className="block px-3 py-3 mt-4 text-center text-base font-bold text-white bg-primary-600 hover:bg-primary-700 rounded-lg"
               onClick={() => setIsOpen(false)}
             >
-              Download App
+              {d.links.downloadApp}
             </a>
           </div>
         </div>

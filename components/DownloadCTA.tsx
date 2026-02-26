@@ -1,4 +1,7 @@
 import React from 'react';
+import data from '../data.json';
+
+const d = data.downloadCTA;
 import { Apple, Globe, ArrowRight } from 'lucide-react';
 
 const DownloadCTA: React.FC = () => {
@@ -12,31 +15,31 @@ const DownloadCTA: React.FC = () => {
            <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-indigo-600 opacity-50 blur-3xl"></div>
            
            <div className="relative z-10">
-             <h2 className="text-3xl md:text-5xl font-extrabold mb-6">Start Learning Today</h2>
+             <h2 className="text-3xl md:text-5xl font-extrabold mb-6">{d.title}</h2>
              <p className="text-lg md:text-xl text-primary-100 mb-10 max-w-2xl mx-auto">
-               Join thousands of learners mastering new languages with Exquizite. Download now or try it in your browser.
+               {d.subtitle}
              </p>
              
              <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a 
-                href="https://apps.apple.com" 
+                href={d.appStoreUrl} 
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary-700 rounded-xl font-bold hover:bg-slate-50 transition-transform hover:-translate-y-1 shadow-lg"
               >
                 <Apple size={24} />
-                Download for iOS
+                {d.iosButton}
               </a>
               <a
-                href="https://app.exquizite.app/"
+                href={d.webAppUrl}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-700 text-white border border-primary-500 rounded-xl font-bold hover:bg-primary-800 transition-transform hover:-translate-y-1 shadow-lg group"
               >
                 <Globe size={24} />
-                Launch Web App
+                {d.webButton}
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
             
             <p className="mt-8 text-sm text-primary-200 opacity-80">
-              No credit card required for free tier.
+              {d.disclaimer}
             </p>
            </div>
          </div>

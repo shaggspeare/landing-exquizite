@@ -1,21 +1,16 @@
 import React from 'react';
+import data from '../data.json';
+
+const d = data.screenshotGallery;
 
 const ScreenshotGallery: React.FC = () => {
-  const screenshots = [
-    { src: "/images/ai-generation.PNG", alt: "AI Word Generation" },
-    { src: "/images/added-words.PNG", alt: "Added Words" },
-    { src: "/images/learning-modes.PNG", alt: "Learning Modes" },
-    { src: "/images/my-sets.PNG", alt: "My Sets" },
-    { src: "/images/match-mode.PNG", alt: "Match Game" },
-    { src: "/images/quiz.PNG", alt: "Quiz Mode" },
-    { src: "/images/fill-in-blank.PNG", alt: "Fill in the Blank" },
-  ];
+  const screenshots = d.screenshots;
 
   return (
     <section className="py-12 md:py-24 bg-slate-50 border-y border-slate-200 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 text-center">
-         <h2 className="text-3xl font-extrabold text-slate-900">Experience the App</h2>
-         <p className="mt-4 text-slate-600">Take a closer look at our interactive learning modes.</p>
+         <h2 className="text-3xl font-extrabold text-slate-900">{d.sectionTitle}</h2>
+         <p className="mt-4 text-slate-600">{d.sectionSubtitle}</p>
       </div>
       
       <div className="relative w-full">

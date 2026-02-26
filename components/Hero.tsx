@@ -1,4 +1,7 @@
 import React from 'react';
+import data from '../data.json';
+
+const d = data.hero;
 import { Apple, Globe } from 'lucide-react';
 
 const Hero: React.FC = () => {
@@ -21,35 +24,35 @@ const Hero: React.FC = () => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-primary-500"></span>
               </span>
-              Now available on iOS and Web
+              {d.badge}
             </div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 font-display leading-tight md:leading-tight">
-              <span className="text-slate-900">Master Learning</span>
+              <span className="text-slate-900">{d.titleLine1}</span>
               <br />
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-violet-600">
-                Through Smart Practice
+                {d.titleLine2}
               </span>
             </h1>
 
             <p className="max-w-2xl lg:max-w-none text-base md:text-xl text-slate-600 mb-10 leading-relaxed font-light">
-              Create custom word sets, play engaging games, and accelerate your language learning journey with AI-powered tools.
+              {d.subtitle}
             </p>
 
             <div className="flex flex-col sm:flex-row lg:justify-start justify-center gap-4">
               <a
-                href="https://apps.apple.com"
+                href={d.appStoreUrl}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-slate-900 text-white rounded-xl font-semibold hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
               >
                 <Apple size={24} />
-                Download on App Store
+                {d.appStoreButton}
               </a>
               <a
-                href="https://app.exquizite.app/"
+                href={d.webAppUrl}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-xl font-semibold hover:bg-slate-50 transition-all shadow-sm hover:shadow-md hover:-translate-y-1"
               >
                 <Globe size={24} />
-                Try Web App
+                {d.webAppButton}
               </a>
             </div>
           </div>
@@ -63,8 +66,8 @@ const Hero: React.FC = () => {
                 {/* Notch */}
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 h-6 w-24 bg-slate-900 rounded-b-xl z-20"></div>
                 <img
-                  src="/images/quiz.PNG"
-                  alt="Exquizite App Quiz Mode"
+                  src={d.images.quiz.src}
+                  alt={d.images.quiz.alt}
                   className="w-full h-auto block"
                 />
              </div>
@@ -74,8 +77,8 @@ const Hero: React.FC = () => {
           <div className="absolute left-1/2 -translate-x-[140px] md:-translate-x-[280px] top-12 md:top-20 z-30 w-[160px] md:w-[280px] transition-transform hover:z-40 hover:scale-105 duration-300 -rotate-12">
              <div className="rounded-[2rem] border-[5px] md:border-[6px] border-slate-900 overflow-hidden shadow-2xl bg-slate-900">
                 <img
-                  src="/images/learning-modes.PNG"
-                  alt="Learning Modes Screen"
+                  src={d.images.learningModes.src}
+                  alt={d.images.learningModes.alt}
                   className="w-full h-auto block"
                 />
              </div>
@@ -85,8 +88,8 @@ const Hero: React.FC = () => {
           <div className="absolute left-1/2 translate-x-[-20px] md:translate-x-[0px] top-12 md:top-20 z-30 w-[160px] md:w-[280px] transition-transform hover:z-40 hover:scale-105 duration-300 rotate-12">
              <div className="rounded-[2rem] border-[5px] md:border-[6px] border-slate-900 overflow-hidden shadow-2xl bg-slate-900">
                 <img
-                  src="/images/my-sets.PNG"
-                  alt="My Sets Screen"
+                  src={d.images.mySets.src}
+                  alt={d.images.mySets.alt}
                   className="w-full h-auto block"
                 />
              </div>
