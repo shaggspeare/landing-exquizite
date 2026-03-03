@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
               {d.subtitle}
             </p>
 
-            <div className="flex flex-col sm:flex-row lg:justify-start justify-center gap-4">
+            <div className="flex flex-col sm:flex-row lg:justify-start justify-center items-center gap-4">
               <AppStoreBadge url={d.appStoreUrl} height={56} />
               <a
                 href={d.webAppUrl}
