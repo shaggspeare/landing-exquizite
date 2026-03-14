@@ -196,7 +196,7 @@
         "title": "الدعم",
         "links": [
           { "label": "المساعدة والدعم", "to": "/support" },
-          { "label": "اتصل بنا", "href": "mailto:viacheslav@calleo.app" },
+          { "label": "اتصل بنا", "href": "mailto:viacheslav@exquizite.app" },
           { "label": "سياسة الخصوصية", "to": "/privacy-policy" }
         ]
       },
@@ -373,7 +373,7 @@
               { "bold": "الحذف من التطبيق", "text": "(قريباً): انتقل إلى الإعدادات > الحساب > حذف الحساب" },
               {
                 "bold": "طلب بالبريد الإلكتروني",
-                "text": "تواصل معنا على viacheslav@calleo.app بعنوان \"طلب حذف البيانات\"",
+                "text": "تواصل معنا على viacheslav@exquizite.app بعنوان \"طلب حذف البيانات\"",
                 "subItems": [
                   "اذكر عنوان بريدك الإلكتروني المسجل",
                   "سنتحقق من هويتك ونحذف جميع البيانات خلال 30 يوماً",
@@ -384,7 +384,7 @@
           },
           {
             "title": "تصدير بياناتك",
-            "description": "لطلب نسخة من بياناتك، تواصل معنا على viacheslav@calleo.app بعنوان \"طلب تصدير البيانات\""
+            "description": "لطلب نسخة من بياناتك، تواصل معنا على viacheslav@exquizite.app بعنوان \"طلب تصدير البيانات\""
           },
           {
             "title": "وضع الضيف",
@@ -398,7 +398,7 @@
       },
       {
         "title": "خصوصية الأطفال",
-        "content": "Calleo مخصص للمستخدمين الذين تبلغ أعمارهم 13 عاماً فما فوق. نحن لا نجمع معلومات شخصية من الأطفال دون سن 13 عاماً عن علم. إذا كنت والداً أو وصياً وتعتقد أن طفلك قد زوّدنا بمعلومات شخصية، يرجى التواصل معنا على viacheslav@calleo.app وسنحذف هذه المعلومات فوراً."
+        "content": "Calleo مخصص للمستخدمين الذين تبلغ أعمارهم 13 عاماً فما فوق. نحن لا نجمع معلومات شخصية من الأطفال دون سن 13 عاماً عن علم. إذا كنت والداً أو وصياً وتعتقد أن طفلك قد زوّدنا بمعلومات شخصية، يرجى التواصل معنا على viacheslav@exquizite.app وسنحذف هذه المعلومات فوراً."
       },
       {
         "title": "نقل البيانات الدولي",
@@ -431,7 +431,7 @@
         "title": "اتصل بنا",
         "intro": "إذا كانت لديك أسئلة أو مخاوف أو طلبات بخصوص سياسة الخصوصية هذه أو بياناتك، يرجى التواصل معنا:",
         "contactInfo": {
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "developer": "فريق تطوير Calleo",
           "responseTime": "نهدف للرد على جميع الاستفسارات خلال 7 أيام عمل."
         }
@@ -446,7 +446,7 @@
         { "label": "أين يُخزن", "value": "خوادم Supabase السحابية (مدعومة بـ AWS)" },
         { "label": "أطراف ثالثة", "value": "Supabase (قاعدة البيانات)، OpenAI (توليد الذكاء الاصطناعي - لا يتم إرسال بيانات شخصية)" },
         { "label": "حقوقك", "value": "الوصول إلى بياناتك وتعديلها وحذفها في أي وقت" },
-        { "label": "التواصل", "value": "viacheslav@calleo.app" }
+        { "label": "التواصل", "value": "viacheslav@exquizite.app" }
       ],
       "thankYou": "شكراً لثقتك بـ Calleo في رحلة تعلم اللغات!"
     }
@@ -454,7 +454,7 @@
   "support": {
     "title": "دعم Calleo",
     "subtitle": "مرحباً بك في دعم Calleo! اعثر على إجابات للأسئلة الشائعة واحصل على مساعدة بخصوص التطبيق.",
-    "contactEmail": "viacheslav@calleo.app",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "آخر تحديث: 7 فبراير 2026",
     "thankYou": "شكراً لاستخدام Calleo! تعلماً سعيداً!",
     "toc": {
@@ -785,7 +785,7 @@
           "امسح ذاكرة التخزين المؤقت للتطبيق (الإعدادات > التطبيقات > Calleo > مسح الذاكرة المؤقتة على Android)",
           "أعد تثبيت التطبيق (ملاحظة: ستُفقد بيانات وضع الضيف!)"
         ],
-        "note": "إذا استمرت المشكلة، تواصل معنا على viacheslav@calleo.app مع ذكر طراز الجهاز وإصدار نظام التشغيل وإصدار التطبيق ووصف المشكلة."
+        "note": "إذا استمرت المشكلة، تواصل معنا على viacheslav@exquizite.app مع ذكر طراز الجهاز وإصدار نظام التشغيل وإصدار التطبيق ووصف المشكلة."
       },
       "aiNotWorking": {
         "title": "اقتراحات الذكاء الاصطناعي لا تعمل",
@@ -873,7 +873,7 @@
         "title": "كيف أحمّل بياناتي؟",
         "intro": "لطلب نسخة من بياناتك:",
         "steps": [
-          "أرسل بريداً إلكترونياً إلى viacheslav@calleo.app بعنوان \"Data Export Request\"",
+          "أرسل بريداً إلكترونياً إلى viacheslav@exquizite.app بعنوان \"Data Export Request\"",
           "اذكر عنوان بريدك الإلكتروني المسجل",
           "سنرسل لك ملفاً بجميع مجموعات المفردات ومعلومات الحساب خلال 7 أيام عمل"
         ]
@@ -882,7 +882,7 @@
         "title": "كيف أحذف حسابي وبياناتي؟",
         "label": "حذف دائم:",
         "steps": [
-          "أرسل بريداً إلكترونياً إلى viacheslav@calleo.app بعنوان \"Data Deletion Request\"",
+          "أرسل بريداً إلكترونياً إلى viacheslav@exquizite.app بعنوان \"Data Deletion Request\"",
           "اذكر عنوان بريدك الإلكتروني المسجل",
           "سنتحقق من هويتك ونحذف جميع البيانات خلال 30 يوماً"
         ],
@@ -899,17 +899,17 @@
       "categories": [
         {
           "title": "الدعم العام",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "خلال 2-3 أيام عمل"
         },
         {
           "title": "طلبات الخصوصية والبيانات",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "خلال 7 أيام عمل"
         },
         {
           "title": "تقارير الأخطاء وطلبات الميزات",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "subject": "\"Bug Report\" أو \"Feature Request\"",
           "includeItems": [
             "طراز الجهاز وإصدار نظام التشغيل (مثل iPhone 14, iOS 17.2)",

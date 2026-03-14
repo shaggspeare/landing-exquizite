@@ -196,7 +196,7 @@
         "title": "Supporto",
         "links": [
           { "label": "Aiuto e Supporto", "to": "/support" },
-          { "label": "Contatti", "href": "mailto:viacheslav@calleo.app" },
+          { "label": "Contatti", "href": "mailto:viacheslav@exquizite.app" },
           { "label": "Informativa sulla Privacy", "to": "/privacy-policy" }
         ]
       },
@@ -373,7 +373,7 @@
               { "bold": "Eliminazione nell'App", "text": "(in arrivo): Vai su Impostazioni > Account > Elimina Account" },
               {
                 "bold": "Richiesta via Email",
-                "text": "Contattaci a viacheslav@calleo.app con oggetto \"Richiesta di Cancellazione Dati\"",
+                "text": "Contattaci a viacheslav@exquizite.app con oggetto \"Richiesta di Cancellazione Dati\"",
                 "subItems": [
                   "Includi il tuo indirizzo email registrato",
                   "Confermeremo la tua identità e cancelleremo tutti i dati entro 30 giorni",
@@ -384,7 +384,7 @@
           },
           {
             "title": "Esportare i Tuoi Dati",
-            "description": "Per richiedere una copia dei tuoi dati, contattaci a viacheslav@calleo.app con oggetto \"Richiesta di Esportazione Dati\""
+            "description": "Per richiedere una copia dei tuoi dati, contattaci a viacheslav@exquizite.app con oggetto \"Richiesta di Esportazione Dati\""
           },
           {
             "title": "Modalità Ospite",
@@ -398,7 +398,7 @@
       },
       {
         "title": "Privacy dei Minori",
-        "content": "Calleo è destinato a utenti di età pari o superiore a 13 anni. Non raccogliamo consapevolmente informazioni personali da bambini di età inferiore a 13 anni. Se sei un genitore o tutore e ritieni che tuo figlio ci abbia fornito informazioni personali, contattaci a viacheslav@calleo.app e cancelleremo immediatamente tali informazioni."
+        "content": "Calleo è destinato a utenti di età pari o superiore a 13 anni. Non raccogliamo consapevolmente informazioni personali da bambini di età inferiore a 13 anni. Se sei un genitore o tutore e ritieni che tuo figlio ci abbia fornito informazioni personali, contattaci a viacheslav@exquizite.app e cancelleremo immediatamente tali informazioni."
       },
       {
         "title": "Trasferimenti Internazionali di Dati",
@@ -431,7 +431,7 @@
         "title": "Contattaci",
         "intro": "Se hai domande, dubbi o richieste riguardanti questa Informativa sulla Privacy o i tuoi dati, contattaci:",
         "contactInfo": {
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "developer": "Team di Sviluppo Calleo",
           "responseTime": "Ci impegniamo a rispondere a tutte le richieste entro 7 giorni lavorativi."
         }
@@ -446,7 +446,7 @@
         { "label": "Dove vengono archiviati", "value": "Server cloud Supabase (alimentati da AWS)" },
         { "label": "Terze parti", "value": "Supabase (database), OpenAI (generazione IA - nessun dato personale inviato)" },
         { "label": "I tuoi diritti", "value": "Accedi, modifica, elimina i tuoi dati in qualsiasi momento" },
-        { "label": "Contatti", "value": "viacheslav@calleo.app" }
+        { "label": "Contatti", "value": "viacheslav@exquizite.app" }
       ],
       "thankYou": "Grazie per aver scelto Calleo per il tuo percorso di apprendimento linguistico!"
     }
@@ -454,7 +454,7 @@
   "support": {
     "title": "Supporto Calleo",
     "subtitle": "Benvenuto nel Supporto di Calleo! Trova risposte alle domande più frequenti e ricevi assistenza per l'app.",
-    "contactEmail": "viacheslav@calleo.app",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "Ultimo aggiornamento: 7 febbraio 2026",
     "thankYou": "Grazie per aver scelto Calleo! Buono studio!",
     "toc": {
@@ -785,7 +785,7 @@
           "Svuota la cache dell'app (Impostazioni > App > Calleo > Svuota Cache su Android)",
           "Reinstalla l'app (Nota: i dati della Modalità Ospite andranno persi!)"
         ],
-        "note": "Se il problema persiste, contattaci a viacheslav@calleo.app indicando modello del dispositivo, versione del sistema operativo, versione dell'app e descrizione del problema."
+        "note": "Se il problema persiste, contattaci a viacheslav@exquizite.app indicando modello del dispositivo, versione del sistema operativo, versione dell'app e descrizione del problema."
       },
       "aiNotWorking": {
         "title": "I suggerimenti IA non funzionano",
@@ -873,7 +873,7 @@
         "title": "Come scarico i miei dati?",
         "intro": "Per richiedere una copia dei tuoi dati:",
         "steps": [
-          "Invia un'email a viacheslav@calleo.app con oggetto \"Richiesta di Esportazione Dati\"",
+          "Invia un'email a viacheslav@exquizite.app con oggetto \"Richiesta di Esportazione Dati\"",
           "Includi il tuo indirizzo email registrato",
           "Ti invieremo un file con tutti i tuoi set di vocabolario e le informazioni dell'account entro 7 giorni lavorativi"
         ]
@@ -882,7 +882,7 @@
         "title": "Come elimino il mio account e i miei dati?",
         "label": "Eliminazione Permanente:",
         "steps": [
-          "Invia un'email a viacheslav@calleo.app con oggetto \"Richiesta di Cancellazione Dati\"",
+          "Invia un'email a viacheslav@exquizite.app con oggetto \"Richiesta di Cancellazione Dati\"",
           "Includi il tuo indirizzo email registrato",
           "Confermeremo la tua identità e cancelleremo tutti i dati entro 30 giorni"
         ],
@@ -899,17 +899,17 @@
       "categories": [
         {
           "title": "Supporto Generale",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Entro 2-3 giorni lavorativi"
         },
         {
           "title": "Richieste Privacy e Dati",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Entro 7 giorni lavorativi"
         },
         {
           "title": "Segnalazioni Bug e Richieste di Funzionalità",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "subject": "\"Segnalazione Bug\" o \"Richiesta Funzionalità\"",
           "includeItems": [
             "Modello del dispositivo e versione del sistema operativo (es. iPhone 14, iOS 17.2)",

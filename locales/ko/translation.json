@@ -196,7 +196,7 @@
         "title": "지원",
         "links": [
           { "label": "도움말 및 지원", "to": "/support" },
-          { "label": "문의하기", "href": "mailto:viacheslav@calleo.app" },
+          { "label": "문의하기", "href": "mailto:viacheslav@exquizite.app" },
           { "label": "개인정보 처리방침", "to": "/privacy-policy" }
         ]
       },
@@ -373,7 +373,7 @@
               { "bold": "앱 내 삭제", "text": "(출시 예정): 설정 > 계정 > 계정 삭제로 이동" },
               {
                 "bold": "이메일 요청",
-                "text": "viacheslav@calleo.app으로 \"데이터 삭제 요청\" 제목으로 이메일 발송",
+                "text": "viacheslav@exquizite.app으로 \"데이터 삭제 요청\" 제목으로 이메일 발송",
                 "subItems": [
                   "등록된 이메일 주소를 포함해 주세요",
                   "신원을 확인한 후 30일 이내에 모든 데이터를 삭제합니다",
@@ -384,7 +384,7 @@
           },
           {
             "title": "데이터 내보내기",
-            "description": "데이터 사본을 요청하려면 viacheslav@calleo.app으로 \"데이터 내보내기 요청\" 제목으로 이메일을 보내주세요"
+            "description": "데이터 사본을 요청하려면 viacheslav@exquizite.app으로 \"데이터 내보내기 요청\" 제목으로 이메일을 보내주세요"
           },
           {
             "title": "게스트 모드",
@@ -398,7 +398,7 @@
       },
       {
         "title": "아동 개인정보 보호",
-        "content": "Calleo는 13세 이상의 사용자를 대상으로 합니다. 당사는 13세 미만 아동의 개인 정보를 고의로 수집하지 않습니다. 귀하가 부모 또는 보호자이며 자녀가 당사에 개인 정보를 제공했다고 생각되는 경우, viacheslav@calleo.app으로 연락해 주시면 해당 정보를 즉시 삭제하겠습니다."
+        "content": "Calleo는 13세 이상의 사용자를 대상으로 합니다. 당사는 13세 미만 아동의 개인 정보를 고의로 수집하지 않습니다. 귀하가 부모 또는 보호자이며 자녀가 당사에 개인 정보를 제공했다고 생각되는 경우, viacheslav@exquizite.app으로 연락해 주시면 해당 정보를 즉시 삭제하겠습니다."
       },
       {
         "title": "국제 데이터 전송",
@@ -431,7 +431,7 @@
         "title": "문의하기",
         "intro": "본 개인정보 처리방침 또는 귀하의 데이터에 관한 질문, 우려 사항 또는 요청이 있으시면 연락해 주세요:",
         "contactInfo": {
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "developer": "Calleo 개발팀",
           "responseTime": "모든 문의에 영업일 기준 7일 이내에 답변드리겠습니다."
         }
@@ -446,7 +446,7 @@
         { "label": "저장 위치", "value": "Supabase 클라우드 서버 (AWS 기반)" },
         { "label": "제3자", "value": "Supabase (데이터베이스), OpenAI (AI 생성 - 개인 데이터 전송 없음)" },
         { "label": "귀하의 권리", "value": "언제든지 데이터 접근, 수정, 삭제 가능" },
-        { "label": "연락처", "value": "viacheslav@calleo.app" }
+        { "label": "연락처", "value": "viacheslav@exquizite.app" }
       ],
       "thankYou": "언어 학습 여정에 Calleo를 선택해 주셔서 감사합니다!"
     }
@@ -454,7 +454,7 @@
   "support": {
     "title": "Calleo 지원",
     "subtitle": "Calleo 지원 센터에 오신 것을 환영합니다! 자주 묻는 질문의 답변을 찾고 앱 사용에 대한 도움을 받으세요.",
-    "contactEmail": "viacheslav@calleo.app",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "최종 업데이트: 2026년 2월 7일",
     "thankYou": "Calleo를 사용해 주셔서 감사합니다! 즐거운 학습 되세요!",
     "toc": {
@@ -785,7 +785,7 @@
           "앱 캐시를 지웁니다 (Android: 설정 > 앱 > Calleo > 캐시 지우기)",
           "앱을 재설치합니다 (주의: 게스트 모드 데이터가 손실됩니다!)"
         ],
-        "note": "문제가 지속되면 viacheslav@calleo.app으로 기기 모델, OS 버전, 앱 버전 및 문제 설명을 포함하여 연락해 주세요."
+        "note": "문제가 지속되면 viacheslav@exquizite.app으로 기기 모델, OS 버전, 앱 버전 및 문제 설명을 포함하여 연락해 주세요."
       },
       "aiNotWorking": {
         "title": "AI 제안이 작동하지 않아요",
@@ -873,7 +873,7 @@
         "title": "내 데이터는 어떻게 다운로드하나요?",
         "intro": "데이터 사본을 요청하려면:",
         "steps": [
-          "viacheslav@calleo.app으로 \"데이터 내보내기 요청\" 제목으로 이메일을 보냅니다",
+          "viacheslav@exquizite.app으로 \"데이터 내보내기 요청\" 제목으로 이메일을 보냅니다",
           "등록된 이메일 주소를 포함합니다",
           "영업일 기준 7일 이내에 모든 단어 세트와 계정 정보가 포함된 파일을 보내드립니다"
         ]
@@ -882,7 +882,7 @@
         "title": "계정과 데이터는 어떻게 삭제하나요?",
         "label": "영구 삭제:",
         "steps": [
-          "viacheslav@calleo.app으로 \"데이터 삭제 요청\" 제목으로 이메일을 보냅니다",
+          "viacheslav@exquizite.app으로 \"데이터 삭제 요청\" 제목으로 이메일을 보냅니다",
           "등록된 이메일 주소를 포함합니다",
           "신원을 확인한 후 30일 이내에 모든 데이터를 삭제합니다"
         ],
@@ -899,17 +899,17 @@
       "categories": [
         {
           "title": "일반 지원",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "영업일 기준 2-3일 이내 답변"
         },
         {
           "title": "개인정보 및 데이터 요청",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "영업일 기준 7일 이내 답변"
         },
         {
           "title": "버그 신고 및 기능 요청",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "subject": "\"Bug Report\" 또는 \"Feature Request\"",
           "includeItems": [
             "기기 모델 및 OS 버전 (예: iPhone 14, iOS 17.2)",

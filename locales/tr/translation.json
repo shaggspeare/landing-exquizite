@@ -196,7 +196,7 @@
         "title": "Destek",
         "links": [
           { "label": "Yardım ve Destek", "to": "/support" },
-          { "label": "İletişim", "href": "mailto:viacheslav@calleo.app" },
+          { "label": "İletişim", "href": "mailto:viacheslav@exquizite.app" },
           { "label": "Gizlilik Politikası", "to": "/privacy-policy" }
         ]
       },
@@ -373,7 +373,7 @@
               { "bold": "Uygulama İçi Silme", "text": "(yakında): Ayarlar > Hesap > Hesabı Sil yolunu izleyin" },
               {
                 "bold": "E-posta Talebi",
-                "text": "viacheslav@calleo.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
+                "text": "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
                 "subItems": [
                   "Kayıtlı e-posta adresinizi ekleyin",
                   "Kimliğinizi doğrulayacağız ve tüm verileri 30 gün içinde sileceğiz",
@@ -384,7 +384,7 @@
           },
           {
             "title": "Verilerinizi Dışa Aktarın",
-            "description": "Verilerinizin bir kopyasını talep etmek için viacheslav@calleo.app adresine \"Data Export Request\" konulu e-posta gönderin"
+            "description": "Verilerinizin bir kopyasını talep etmek için viacheslav@exquizite.app adresine \"Data Export Request\" konulu e-posta gönderin"
           },
           {
             "title": "Misafir Modu",
@@ -398,7 +398,7 @@
       },
       {
         "title": "Çocukların Gizliliği",
-        "content": "Calleo 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi sağladığına inanıyorsanız, lütfen viacheslav@calleo.app adresinden bize ulaşın, bu bilgileri derhal sileceğiz."
+        "content": "Calleo 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi sağladığına inanıyorsanız, lütfen viacheslav@exquizite.app adresinden bize ulaşın, bu bilgileri derhal sileceğiz."
       },
       {
         "title": "Uluslararası Veri Transferleri",
@@ -431,7 +431,7 @@
         "title": "Bize Ulaşın",
         "intro": "Bu Gizlilik Politikası veya verilerinizle ilgili sorularınız, endişeleriniz veya talepleriniz varsa lütfen bizimle iletişime geçin:",
         "contactInfo": {
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "developer": "Calleo Geliştirme Ekibi",
           "responseTime": "Tüm sorulara 7 iş günü içinde yanıt vermeyi hedefliyoruz."
         }
@@ -446,7 +446,7 @@
         { "label": "Nerede saklanıyor", "value": "Supabase bulut sunucuları (AWS altyapılı)" },
         { "label": "Üçüncü taraflar", "value": "Supabase (veritabanı), OpenAI (yapay zeka üretimi - kişisel veri gönderilmez)" },
         { "label": "Haklarınız", "value": "Verilerinize istediğiniz zaman erişin, değiştirin, silin" },
-        { "label": "İletişim", "value": "viacheslav@calleo.app" }
+        { "label": "İletişim", "value": "viacheslav@exquizite.app" }
       ],
       "thankYou": "Dil öğrenme yolculuğunuzda Calleo'e güvendiğiniz için teşekkür ederiz!"
     }
@@ -454,7 +454,7 @@
   "support": {
     "title": "Calleo Destek",
     "subtitle": "Calleo Destek'e hoş geldiniz! Sık sorulan soruların yanıtlarını bulun ve uygulama hakkında yardım alın.",
-    "contactEmail": "viacheslav@calleo.app",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "Son güncelleme: 7 Şubat 2026",
     "thankYou": "Calleo'i kullandığınız için teşekkürler! İyi öğrenmeler!",
     "toc": {
@@ -785,7 +785,7 @@
           "Uygulama önbelleğini temizleyin (Android'de Ayarlar > Uygulamalar > Calleo > Önbelleği Temizle)",
           "Uygulamayı yeniden yükleyin (Not: Misafir Modu verileri kaybolacaktır!)"
         ],
-        "note": "Sorun devam ederse, cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve sorunun açıklamasıyla viacheslav@calleo.app adresinden bize ulaşın."
+        "note": "Sorun devam ederse, cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve sorunun açıklamasıyla viacheslav@exquizite.app adresinden bize ulaşın."
       },
       "aiNotWorking": {
         "title": "Yapay zeka önerileri çalışmıyor",
@@ -873,7 +873,7 @@
         "title": "Verilerimi nasıl indiririm?",
         "intro": "Verilerinizin bir kopyasını talep etmek için:",
         "steps": [
-          "viacheslav@calleo.app adresine \"Data Export Request\" konulu e-posta gönderin",
+          "viacheslav@exquizite.app adresine \"Data Export Request\" konulu e-posta gönderin",
           "Kayıtlı e-posta adresinizi ekleyin",
           "7 iş günü içinde tüm kelime setleriniz ve hesap bilgilerinizle bir dosya göndereceğiz"
         ]
@@ -882,7 +882,7 @@
         "title": "Hesabımı ve verilerimi nasıl silerim?",
         "label": "Kalıcı Silme:",
         "steps": [
-          "viacheslav@calleo.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
+          "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
           "Kayıtlı e-posta adresinizi ekleyin",
           "Kimliğinizi doğrulayacağız ve tüm verileri 30 gün içinde sileceğiz"
         ],
@@ -899,17 +899,17 @@
       "categories": [
         {
           "title": "Genel Destek",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "2-3 iş günü içinde"
         },
         {
           "title": "Gizlilik ve Veri Talepleri",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "7 iş günü içinde"
         },
         {
           "title": "Hata Raporları ve Özellik İstekleri",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "subject": "\"Bug Report\" veya \"Feature Request\"",
           "includeItems": [
             "Cihaz modeli ve işletim sistemi sürümü (ör. iPhone 14, iOS 17.2)",

@@ -196,7 +196,7 @@
         "title": "Support",
         "links": [
           { "label": "Aide et Support", "to": "/support" },
-          { "label": "Contact", "href": "mailto:viacheslav@calleo.app" },
+          { "label": "Contact", "href": "mailto:viacheslav@exquizite.app" },
           { "label": "Politique de confidentialité", "to": "/privacy-policy" }
         ]
       },
@@ -373,7 +373,7 @@
               { "bold": "Suppression dans l'app", "text": "(bientôt disponible) : Accédez à Paramètres > Compte > Supprimer le compte" },
               {
                 "bold": "Demande par e-mail",
-                "text": "Contactez-nous à viacheslav@calleo.app avec l'objet « Demande de suppression de données »",
+                "text": "Contactez-nous à viacheslav@exquizite.app avec l'objet « Demande de suppression de données »",
                 "subItems": [
                   "Indiquez votre adresse e-mail enregistrée",
                   "Nous confirmerons votre identité et supprimerons toutes les données sous 30 jours",
@@ -384,7 +384,7 @@
           },
           {
             "title": "Exporter vos données",
-            "description": "Pour demander une copie de vos données, contactez-nous à viacheslav@calleo.app avec l'objet « Demande d'exportation de données »"
+            "description": "Pour demander une copie de vos données, contactez-nous à viacheslav@exquizite.app avec l'objet « Demande d'exportation de données »"
           },
           {
             "title": "Mode invité",
@@ -398,7 +398,7 @@
       },
       {
         "title": "Protection de la vie privée des enfants",
-        "content": "Calleo est destiné aux utilisateurs de 13 ans et plus. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. Si vous êtes parent ou tuteur et pensez que votre enfant nous a fourni des informations personnelles, veuillez nous contacter à viacheslav@calleo.app, et nous supprimerons ces informations immédiatement."
+        "content": "Calleo est destiné aux utilisateurs de 13 ans et plus. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. Si vous êtes parent ou tuteur et pensez que votre enfant nous a fourni des informations personnelles, veuillez nous contacter à viacheslav@exquizite.app, et nous supprimerons ces informations immédiatement."
       },
       {
         "title": "Transferts internationaux de données",
@@ -431,7 +431,7 @@
         "title": "Nous contacter",
         "intro": "Si vous avez des questions, des préoccupations ou des demandes concernant cette Politique de Confidentialité ou vos données, veuillez nous contacter :",
         "contactInfo": {
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "developer": "Équipe de développement Calleo",
           "responseTime": "Nous nous efforçons de répondre à toutes les demandes sous 7 jours ouvrables."
         }
@@ -446,7 +446,7 @@
         { "label": "Où c'est stocké", "value": "Serveurs cloud Supabase (infrastructure AWS)" },
         { "label": "Tiers", "value": "Supabase (base de données), OpenAI (génération IA - aucune donnée personnelle envoyée)" },
         { "label": "Vos droits", "value": "Accéder, modifier, supprimer vos données à tout moment" },
-        { "label": "Contact", "value": "viacheslav@calleo.app" }
+        { "label": "Contact", "value": "viacheslav@exquizite.app" }
       ],
       "thankYou": "Merci de faire confiance à Calleo pour votre parcours d'apprentissage des langues !"
     }
@@ -454,7 +454,7 @@
   "support": {
     "title": "Support Calleo",
     "subtitle": "Bienvenue sur le Support Calleo ! Trouvez des réponses aux questions fréquentes et obtenez de l'aide avec l'app.",
-    "contactEmail": "viacheslav@calleo.app",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "Dernière mise à jour : 7 février 2026",
     "thankYou": "Merci d'utiliser Calleo ! Bon apprentissage !",
     "toc": {
@@ -785,7 +785,7 @@
           "Videz le cache de l'app (Paramètres > Apps > Calleo > Vider le cache sur Android)",
           "Réinstallez l'app (Attention : les données du Mode Invité seront perdues !)"
         ],
-        "note": "Si le problème persiste, contactez-nous à viacheslav@calleo.app en indiquant le modèle d'appareil, la version du système d'exploitation, la version de l'app et une description du problème."
+        "note": "Si le problème persiste, contactez-nous à viacheslav@exquizite.app en indiquant le modèle d'appareil, la version du système d'exploitation, la version de l'app et une description du problème."
       },
       "aiNotWorking": {
         "title": "Les suggestions IA ne fonctionnent pas",
@@ -873,7 +873,7 @@
         "title": "Comment télécharger mes données ?",
         "intro": "Pour demander une copie de vos données :",
         "steps": [
-          "Envoyez un e-mail à viacheslav@calleo.app avec l'objet « Demande d'exportation de données »",
+          "Envoyez un e-mail à viacheslav@exquizite.app avec l'objet « Demande d'exportation de données »",
           "Indiquez votre adresse e-mail enregistrée",
           "Nous vous enverrons un fichier contenant tous vos ensembles de vocabulaire et informations de compte sous 7 jours ouvrables"
         ]
@@ -882,7 +882,7 @@
         "title": "Comment supprimer mon compte et mes données ?",
         "label": "Suppression permanente :",
         "steps": [
-          "Envoyez un e-mail à viacheslav@calleo.app avec l'objet « Demande de suppression de données »",
+          "Envoyez un e-mail à viacheslav@exquizite.app avec l'objet « Demande de suppression de données »",
           "Indiquez votre adresse e-mail enregistrée",
           "Nous confirmerons votre identité et supprimerons toutes les données sous 30 jours"
         ],
@@ -899,17 +899,17 @@
       "categories": [
         {
           "title": "Support général",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Sous 2-3 jours ouvrables"
         },
         {
           "title": "Demandes de confidentialité et de données",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Sous 7 jours ouvrables"
         },
         {
           "title": "Signalements de bugs et demandes de fonctionnalités",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "subject": "« Signalement de bug » ou « Demande de fonctionnalité »",
           "includeItems": [
             "Modèle d'appareil et version du système d'exploitation (ex. iPhone 14, iOS 17.2)",

@@ -196,7 +196,7 @@
         "title": "Support",
         "links": [
           { "label": "Help & Support", "to": "/support" },
-          { "label": "Contact", "href": "mailto:viacheslav@calleo.app" },
+          { "label": "Contact", "href": "mailto:viacheslav@exquizite.app" },
           { "label": "Privacy Policy", "to": "/privacy-policy" }
         ]
       },
@@ -373,7 +373,7 @@
               { "bold": "In-App Deletion", "text": "(coming soon): Navigate to Settings > Account > Delete Account" },
               {
                 "bold": "Email Request",
-                "text": "Contact us at viacheslav@calleo.app with the subject \"Data Deletion Request\"",
+                "text": "Contact us at viacheslav@exquizite.app with the subject \"Data Deletion Request\"",
                 "subItems": [
                   "Include your registered email address",
                   "We will confirm your identity and delete all data within 30 days",
@@ -384,7 +384,7 @@
           },
           {
             "title": "Export Your Data",
-            "description": "To request a copy of your data, contact us at viacheslav@calleo.app with the subject \"Data Export Request\""
+            "description": "To request a copy of your data, contact us at viacheslav@exquizite.app with the subject \"Data Export Request\""
           },
           {
             "title": "Guest Mode",
@@ -398,7 +398,7 @@
       },
       {
         "title": "Children's Privacy",
-        "content": "Calleo is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at viacheslav@calleo.app, and we will delete such information immediately."
+        "content": "Calleo is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at viacheslav@exquizite.app, and we will delete such information immediately."
       },
       {
         "title": "International Data Transfers",
@@ -431,7 +431,7 @@
         "title": "Contact Us",
         "intro": "If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:",
         "contactInfo": {
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "developer": "Calleo Development Team",
           "responseTime": "We aim to respond to all inquiries within 7 business days."
         }
@@ -446,7 +446,7 @@
         { "label": "Where it's stored", "value": "Supabase cloud servers (AWS-powered)" },
         { "label": "Third parties", "value": "Supabase (database), OpenAI (AI generation - no personal data sent)" },
         { "label": "Your rights", "value": "Access, modify, delete your data anytime" },
-        { "label": "Contact", "value": "viacheslav@calleo.app" }
+        { "label": "Contact", "value": "viacheslav@exquizite.app" }
       ],
       "thankYou": "Thank you for trusting Calleo with your language learning journey!"
     }
@@ -454,7 +454,7 @@
   "support": {
     "title": "Calleo Support",
     "subtitle": "Welcome to Calleo Support! Find answers to common questions and get help with the app.",
-    "contactEmail": "viacheslav@calleo.app",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "Last updated: February 7, 2026",
     "thankYou": "Thank you for using Calleo! Happy learning!",
     "toc": {
@@ -785,7 +785,7 @@
           "Clear app cache (Settings > Apps > Calleo > Clear Cache on Android)",
           "Reinstall the app (Note: Guest Mode data will be lost!)"
         ],
-        "note": "If the issue persists, contact us at viacheslav@calleo.app with device model, OS version, app version, and description of the issue."
+        "note": "If the issue persists, contact us at viacheslav@exquizite.app with device model, OS version, app version, and description of the issue."
       },
       "aiNotWorking": {
         "title": "AI suggestions aren't working",
@@ -873,7 +873,7 @@
         "title": "How do I download my data?",
         "intro": "To request a copy of your data:",
         "steps": [
-          "Email viacheslav@calleo.app with subject \"Data Export Request\"",
+          "Email viacheslav@exquizite.app with subject \"Data Export Request\"",
           "Include your registered email address",
           "We'll send you a file with all your vocabulary sets and account info within 7 business days"
         ]
@@ -882,7 +882,7 @@
         "title": "How do I delete my account and data?",
         "label": "Permanent Deletion:",
         "steps": [
-          "Email viacheslav@calleo.app with subject \"Data Deletion Request\"",
+          "Email viacheslav@exquizite.app with subject \"Data Deletion Request\"",
           "Include your registered email address",
           "We'll confirm your identity and delete all data within 30 days"
         ],
@@ -899,17 +899,17 @@
       "categories": [
         {
           "title": "General Support",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Within 2-3 business days"
         },
         {
           "title": "Privacy & Data Requests",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Within 7 business days"
         },
         {
           "title": "Bug Reports & Feature Requests",
-          "email": "viacheslav@calleo.app",
+          "email": "viacheslav@exquizite.app",
           "subject": "\"Bug Report\" or \"Feature Request\"",
           "includeItems": [
             "Device model and OS version (e.g., iPhone 14, iOS 17.2)",
