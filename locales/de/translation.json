@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "brandName": "Exquizite",
+    "brandName": "Calleo",
     "links": {
       "features": "Funktionen",
       "howItWorks": "So funktioniert's",
@@ -17,10 +17,10 @@
     "subtitle": "Erstelle eigene Wortsets, spiele spannende Lernspiele und beschleunige deine Sprachreise mit KI-gestützten Tools.",
     "appStoreButton": "Im App Store laden",
     "webAppButton": "Web-App testen",
-    "appStoreUrl": "https://apps.apple.com/ua/app/exquizite-learn-words-with-ai/id6759112720",
-    "webAppUrl": "https://app.exquizite.app/",
+    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Exquizite App Quiz-Modus" },
+      "quiz": { "src": "/images/quiz.PNG", "alt": "Calleo App Quiz-Modus" },
       "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Lernmodi-Bildschirm" },
       "mySets": { "src": "/images/my-sets.PNG", "alt": "Meine Sets-Bildschirm" }
     }
@@ -28,7 +28,7 @@
   "bentoFeatures": {
     "sectionLabel": "Funktionen & Highlights",
     "sectionTitle": "Alles, was du brauchst, um eine Sprache zu meistern",
-    "sectionSubtitle": "Von intelligenter KI-Generierung bis hin zu spannenden Spielmodi – Exquizite bietet dir alle Werkzeuge, um schneller zu lernen.",
+    "sectionSubtitle": "Von intelligenter KI-Generierung bis hin zu spannenden Spielmodi – Calleo bietet dir alle Werkzeuge, um schneller zu lernen.",
     "tiles": {
       "learnYourWay": {
         "title": "Lerne auf deine Art",
@@ -88,8 +88,8 @@
     ]
   },
   "whyUs": {
-    "sectionTitle": "Warum Exquizite?",
-    "sectionSubtitle": "Wir haben Exquizite entwickelt, um die Hürden beim Sprachenlernen zu beseitigen. Ob Gelegenheitslerner oder Polyglott – unsere Plattform passt sich dir an.",
+    "sectionTitle": "Warum Calleo?",
+    "sectionSubtitle": "Wir haben Calleo entwickelt, um die Hürden beim Sprachenlernen zu beseitigen. Ob Gelegenheitslerner oder Polyglott – unsere Plattform passt sich dir an.",
     "points": [
       {
         "title": "In Sekunden starten",
@@ -108,7 +108,7 @@
         "description": "Mit moderner Technologie für flüssige Performance auf jeder Plattform."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Exquizite Zuordnungsmodus" }
+    "image": { "src": "/images/my-sets.PNG", "alt": "Calleo Zuordnungsmodus" }
   },
   "testimonials": {
     "sectionTitle": "Von Lernenden geliebt",
@@ -162,25 +162,25 @@
   "faq": {
     "sectionTitle": "Häufig gestellte Fragen",
     "items": [
-      { "q": "Brauche ich ein Konto, um Exquizite zu nutzen?", "a": "Nein! Starte sofort mit dem Gastmodus. Erstelle später ein Konto, um geräteübergreifend zu synchronisieren." },
+      { "q": "Brauche ich ein Konto, um Calleo zu nutzen?", "a": "Nein! Starte sofort mit dem Gastmodus. Erstelle später ein Konto, um geräteübergreifend zu synchronisieren." },
       { "q": "Wie viele Sprachen werden unterstützt?", "a": "Über 40 Sprachen für Lerninhalte und die App-Oberfläche." },
       { "q": "Funktioniert die App offline?", "a": "Ja, die iOS-App unterstützt den Offline-Zugriff auf deine heruntergeladenen Wortsets." },
-      { "q": "Kann ich Exquizite auf meinem Computer nutzen?", "a": "Auf jeden Fall! Die Web-App bietet ein für den Desktop optimiertes Erlebnis." },
+      { "q": "Kann ich Calleo auf meinem Computer nutzen?", "a": "Auf jeden Fall! Die Web-App bietet ein für den Desktop optimiertes Erlebnis." },
       { "q": "Sind meine Daten sicher?", "a": "Ja, alle Daten werden sicher gespeichert und über Supabase mit branchenüblicher Verschlüsselung synchronisiert." },
       { "q": "Kann ich meine Wortsets teilen?", "a": "Ja! Erstelle einen teilbaren Link für jedes Set. Andere können es ansehen und in ihre Sammlung kopieren." }
     ]
   },
   "downloadCTA": {
     "title": "Starte heute mit dem Lernen",
-    "subtitle": "Schließe dich Tausenden von Lernenden an, die mit Exquizite neue Sprachen meistern. Jetzt herunterladen oder im Browser ausprobieren.",
+    "subtitle": "Schließe dich Tausenden von Lernenden an, die mit Calleo neue Sprachen meistern. Jetzt herunterladen oder im Browser ausprobieren.",
     "iosButton": "Für iOS herunterladen",
     "webButton": "Web-App starten",
-    "appStoreUrl": "https://apps.apple.com/ua/app/exquizite-learn-words-with-ai/id6759112720",
-    "webAppUrl": "https://app.exquizite.app/",
+    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "webAppUrl": "https://app.calleo.xyz/",
     "disclaimer": "Keine Kreditkarte für den kostenlosen Tarif erforderlich."
   },
   "footer": {
-    "brandName": "Exquizite",
+    "brandName": "Calleo",
     "brandDescription": "Sprachen meistern durch smartes, interaktives Üben. Von Lernenden für Lernende entwickelt.",
     "columns": {
       "product": {
@@ -196,7 +196,7 @@
         "title": "Support",
         "links": [
           { "label": "Hilfe & Support", "to": "/support" },
-          { "label": "Kontakt", "href": "mailto:viacheslav@exquizite.app" },
+          { "label": "Kontakt", "href": "mailto:viacheslav@calleo.app" },
           { "label": "Datenschutzrichtlinie", "to": "/privacy-policy" }
         ]
       },
@@ -208,22 +208,22 @@
         ]
       }
     },
-    "copyright": "© 2025 Exquizite. Sprachen meistern, auf deine Art."
+    "copyright": "© 2025 Calleo. Sprachen meistern, auf deine Art."
   },
   "privacyPolicy": {
-    "title": "Datenschutzrichtlinie für Exquizite",
+    "title": "Datenschutzrichtlinie für Calleo",
     "lastUpdated": "Zuletzt aktualisiert: 7. Februar 2026",
     "sections": [
       {
         "title": "Einleitung",
-        "content": "Willkommen bei Exquizite, einer Anwendung zum Sprachenlernen. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Daten erfassen, verwenden, offenlegen und schützen, wenn Sie unsere mobile Anwendung und Webdienste (zusammen die „App“) nutzen. Bitte lesen Sie diese Datenschutzrichtlinie sorgfältig durch. Wenn Sie mit den Bedingungen dieser Datenschutzrichtlinie nicht einverstanden sind, nutzen Sie die App bitte nicht."
+        "content": "Willkommen bei Calleo, einer Anwendung zum Sprachenlernen. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Daten erfassen, verwenden, offenlegen und schützen, wenn Sie unsere mobile Anwendung und Webdienste (zusammen die „App“) nutzen. Bitte lesen Sie diese Datenschutzrichtlinie sorgfältig durch. Wenn Sie mit den Bedingungen dieser Datenschutzrichtlinie nicht einverstanden sind, nutzen Sie die App bitte nicht."
       },
       {
         "title": "Daten, die wir erfassen",
         "subsections": [
           {
             "title": "Persönliche Daten",
-            "intro": "Wenn Sie ein Konto bei Exquizite erstellen, erfassen wir:",
+            "intro": "Wenn Sie ein Konto bei Calleo erstellen, erfassen wir:",
             "items": [
               { "bold": "E-Mail-Adresse", "text": "Verwendet für Kontoerstellung, Authentifizierung und Kommunikation" },
               { "bold": "Benutzer-ID", "text": "Ein automatisch generierter eindeutiger Identifikator für Authentifizierung und Datenzuordnung" },
@@ -340,7 +340,7 @@
           { "bold": "Dienstanbieter", "text": "Mit vertrauenswürdigen Drittanbieterdiensten (Supabase, OpenAI) wie oben beschrieben" },
           { "bold": "Gesetzliche Anforderungen", "text": "Wenn gesetzlich vorgeschrieben, durch Gerichtsbeschluss oder behördliche Anordnung" },
           { "bold": "Geschäftsübertragungen", "text": "Im Falle einer Fusion, Übernahme oder eines Verkaufs von Vermögenswerten (Sie werden benachrichtigt)" },
-          { "bold": "Sicherheit und Schutz", "text": "Zum Schutz der Rechte, des Eigentums oder der Sicherheit von Exquizite, unseren Nutzern oder anderen" }
+          { "bold": "Sicherheit und Schutz", "text": "Zum Schutz der Rechte, des Eigentums oder der Sicherheit von Calleo, unseren Nutzern oder anderen" }
         ]
       },
       {
@@ -373,7 +373,7 @@
               { "bold": "In-App-Löschung", "text": "(demnächst verfügbar): Navigieren Sie zu Einstellungen > Konto > Konto löschen" },
               {
                 "bold": "Per E-Mail anfragen",
-                "text": "Kontaktieren Sie uns unter viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenlöschung“",
+                "text": "Kontaktieren Sie uns unter viacheslav@calleo.app mit dem Betreff „Antrag auf Datenlöschung“",
                 "subItems": [
                   "Geben Sie Ihre registrierte E-Mail-Adresse an",
                   "Wir bestätigen Ihre Identität und löschen alle Daten innerhalb von 30 Tagen",
@@ -384,7 +384,7 @@
           },
           {
             "title": "Daten exportieren",
-            "description": "Um eine Kopie Ihrer Daten anzufordern, kontaktieren Sie uns unter viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenexport“"
+            "description": "Um eine Kopie Ihrer Daten anzufordern, kontaktieren Sie uns unter viacheslav@calleo.app mit dem Betreff „Antrag auf Datenexport“"
           },
           {
             "title": "Gastmodus",
@@ -398,7 +398,7 @@
       },
       {
         "title": "Datenschutz für Kinder",
-        "content": "Exquizite ist für Nutzer ab 13 Jahren bestimmt. Wir erfassen wissentlich keine persönlichen Daten von Kindern unter 13 Jahren. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und glauben, dass Ihr Kind uns persönliche Daten zur Verfügung gestellt hat, kontaktieren Sie uns bitte unter viacheslav@exquizite.app, und wir werden diese Daten umgehend löschen."
+        "content": "Calleo ist für Nutzer ab 13 Jahren bestimmt. Wir erfassen wissentlich keine persönlichen Daten von Kindern unter 13 Jahren. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und glauben, dass Ihr Kind uns persönliche Daten zur Verfügung gestellt hat, kontaktieren Sie uns bitte unter viacheslav@calleo.app, und wir werden diese Daten umgehend löschen."
       },
       {
         "title": "Internationale Datenübertragungen",
@@ -425,14 +425,14 @@
       },
       {
         "title": "Ihre Zustimmung",
-        "content": "Durch die Nutzung von Exquizite stimmen Sie dieser Datenschutzrichtlinie zu und erklären sich mit ihren Bedingungen einverstanden."
+        "content": "Durch die Nutzung von Calleo stimmen Sie dieser Datenschutzrichtlinie zu und erklären sich mit ihren Bedingungen einverstanden."
       },
       {
         "title": "Kontakt",
         "intro": "Wenn Sie Fragen, Bedenken oder Anfragen bezüglich dieser Datenschutzrichtlinie oder Ihrer Daten haben, kontaktieren Sie uns bitte:",
         "contactInfo": {
-          "email": "viacheslav@exquizite.app",
-          "developer": "Exquizite Entwicklungsteam",
+          "email": "viacheslav@calleo.app",
+          "developer": "Calleo Entwicklungsteam",
           "responseTime": "Wir bemühen uns, alle Anfragen innerhalb von 7 Werktagen zu beantworten."
         }
       }
@@ -446,17 +446,17 @@
         { "label": "Wo es gespeichert wird", "value": "Supabase Cloud-Server (betrieben mit AWS)" },
         { "label": "Drittanbieter", "value": "Supabase (Datenbank), OpenAI (KI-Generierung – keine persönlichen Daten gesendet)" },
         { "label": "Ihre Rechte", "value": "Jederzeit auf Ihre Daten zugreifen, sie ändern oder löschen" },
-        { "label": "Kontakt", "value": "viacheslav@exquizite.app" }
+        { "label": "Kontakt", "value": "viacheslav@calleo.app" }
       ],
-      "thankYou": "Vielen Dank, dass Sie Exquizite auf Ihrer Sprachlernreise vertrauen!"
+      "thankYou": "Vielen Dank, dass Sie Calleo auf Ihrer Sprachlernreise vertrauen!"
     }
   },
   "support": {
-    "title": "Exquizite Support",
-    "subtitle": "Willkommen beim Exquizite Support! Finden Sie Antworten auf häufige Fragen und erhalten Sie Hilfe zur App.",
-    "contactEmail": "viacheslav@exquizite.app",
+    "title": "Calleo Support",
+    "subtitle": "Willkommen beim Calleo Support! Finden Sie Antworten auf häufige Fragen und erhalten Sie Hilfe zur App.",
+    "contactEmail": "viacheslav@calleo.app",
     "lastUpdated": "Zuletzt aktualisiert: 7. Februar 2026",
-    "thankYou": "Vielen Dank, dass Sie Exquizite nutzen! Viel Spaß beim Lernen!",
+    "thankYou": "Vielen Dank, dass Sie Calleo nutzen! Viel Spaß beim Lernen!",
     "toc": {
       "title": "Inhaltsverzeichnis",
       "items": [
@@ -474,12 +474,12 @@
     "gettingStarted": {
       "title": "Erste Schritte",
       "whatIs": {
-        "title": "Was ist Exquizite?",
-        "content": "Exquizite ist eine Sprach-App, die Ihnen hilft, Vokabeln durch interaktive Spiele und Karteikarten zu meistern. Erstellen Sie eigene Wortsets, üben Sie mit unterhaltsamen Spielmodi und verfolgen Sie Ihren Fortschritt."
+        "title": "Was ist Calleo?",
+        "content": "Calleo ist eine Sprach-App, die Ihnen hilft, Vokabeln durch interaktive Spiele und Karteikarten zu meistern. Erstellen Sie eigene Wortsets, üben Sie mit unterhaltsamen Spielmodi und verfolgen Sie Ihren Fortschritt."
       },
       "needAccount": {
         "title": "Brauche ich ein Konto?",
-        "intro": "Nein! Sie können Exquizite auf zwei Arten nutzen:",
+        "intro": "Nein! Sie können Calleo auf zwei Arten nutzen:",
         "options": [
           { "bold": "Gastmodus", "text": "Nutzen Sie die App ohne Registrierung. Ihre Sets werden nur lokal auf Ihrem Gerät gespeichert." },
           { "bold": "Mit Konto", "text": "Registrieren Sie sich mit E-Mail, um Ihre Sets auf allen Geräten zu synchronisieren (iPhone, iPad, Android, Web)." }
@@ -488,7 +488,7 @@
       "howToStart": {
         "title": "Wie fange ich an?",
         "steps": [
-          "Laden Sie Exquizite aus dem App Store oder Google Play herunter",
+          "Laden Sie Calleo aus dem App Store oder Google Play herunter",
           "Wählen Sie „Als Gast fortfahren“ oder „Registrieren“",
           "Wählen Sie Ihre Lernsprache (z.B. Spanisch) und Muttersprache (z.B. Deutsch)",
           "Erstellen Sie Ihr erstes Vokabelset",
@@ -608,7 +608,7 @@
       "title": "Spielmodi",
       "available": {
         "title": "Welche Spielmodi sind verfügbar?",
-        "intro": "Exquizite bietet 4 interaktive Lernmodi:",
+        "intro": "Calleo bietet 4 interaktive Lernmodi:",
         "modes": [
           { "bold": "Karteikarten", "text": "Klassische Wendekarten zum Testen Ihres Gedächtnisses" },
           { "bold": "Quiz", "text": "Multiple-Choice-Fragen zur Festigung des Gelernten" },
@@ -722,7 +722,7 @@
       "title": "Einstellungen & Präferenzen",
       "appLanguage": {
         "title": "Wie ändere ich die App-Sprache (Benutzeroberfläche)?",
-        "intro": "Exquizite unterstützt über 45 Sprachen für die Benutzeroberfläche:",
+        "intro": "Calleo unterstützt über 45 Sprachen für die Benutzeroberfläche:",
         "steps": [
           "Gehen Sie zu Einstellungen",
           "Tippen Sie auf „App-Sprache“",
@@ -752,7 +752,7 @@
       },
       "tour": {
         "title": "Was ist die Einführungstour?",
-        "intro": "Bei der ersten Nutzung von Exquizite führt Sie eine interaktive Tour durch die wichtigsten Funktionen. So starten Sie die Tour erneut:",
+        "intro": "Bei der ersten Nutzung von Calleo führt Sie eine interaktive Tour durch die wichtigsten Funktionen. So starten Sie die Tour erneut:",
         "steps": [
           "Gehen Sie zu Einstellungen",
           "Tippen Sie auf „Tour neu starten“",
@@ -782,10 +782,10 @@
           "Erzwingen Sie das Schließen der App und öffnen Sie sie erneut",
           "Starten Sie Ihr Gerät neu",
           "Suchen Sie nach Updates im App Store/Play Store",
-          "Leeren Sie den App-Cache (Einstellungen > Apps > Exquizite > Cache leeren auf Android)",
+          "Leeren Sie den App-Cache (Einstellungen > Apps > Calleo > Cache leeren auf Android)",
           "Installieren Sie die App neu (Hinweis: Gastmodus-Daten gehen verloren!)"
         ],
-        "note": "Falls das Problem weiterbesteht, kontaktieren Sie uns unter viacheslav@exquizite.app mit Gerätemodell, Betriebssystemversion, App-Version und Beschreibung des Problems."
+        "note": "Falls das Problem weiterbesteht, kontaktieren Sie uns unter viacheslav@calleo.app mit Gerätemodell, Betriebssystemversion, App-Version und Beschreibung des Problems."
       },
       "aiNotWorking": {
         "title": "KI-Vorschläge funktionieren nicht",
@@ -873,7 +873,7 @@
         "title": "Wie lade ich meine Daten herunter?",
         "intro": "So fordern Sie eine Kopie Ihrer Daten an:",
         "steps": [
-          "Senden Sie eine E-Mail an viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenexport“",
+          "Senden Sie eine E-Mail an viacheslav@calleo.app mit dem Betreff „Antrag auf Datenexport“",
           "Geben Sie Ihre registrierte E-Mail-Adresse an",
           "Wir senden Ihnen innerhalb von 7 Werktagen eine Datei mit all Ihren Vokabelsets und Kontoinformationen"
         ]
@@ -882,7 +882,7 @@
         "title": "Wie lösche ich mein Konto und meine Daten?",
         "label": "Dauerhafte Löschung:",
         "steps": [
-          "Senden Sie eine E-Mail an viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenlöschung“",
+          "Senden Sie eine E-Mail an viacheslav@calleo.app mit dem Betreff „Antrag auf Datenlöschung“",
           "Geben Sie Ihre registrierte E-Mail-Adresse an",
           "Wir bestätigen Ihre Identität und löschen alle Daten innerhalb von 30 Tagen"
         ],
@@ -899,17 +899,17 @@
       "categories": [
         {
           "title": "Allgemeiner Support",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "responseTime": "Innerhalb von 2-3 Werktagen"
         },
         {
           "title": "Datenschutz- & Datenanfragen",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "responseTime": "Innerhalb von 7 Werktagen"
         },
         {
           "title": "Fehlermeldungen & Feature-Wünsche",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "subject": "„Fehlermeldung“ oder „Feature-Wunsch“",
           "includeItems": [
             "Gerätemodell und Betriebssystemversion (z.B. iPhone 14, iOS 17.2)",
@@ -924,23 +924,23 @@
       "title": "Häufig gestellte Fragen",
       "items": [
         {
-          "q": "Ist Exquizite kostenlos?",
-          "a": "Ja! Exquizite ist komplett kostenlos, ohne Werbung oder In-App-Käufe. Alle Funktionen stehen allen Nutzern zur Verfügung."
+          "q": "Ist Calleo kostenlos?",
+          "a": "Ja! Calleo ist komplett kostenlos, ohne Werbung oder In-App-Käufe. Alle Funktionen stehen allen Nutzern zur Verfügung."
         },
         {
-          "q": "Auf welchen Plattformen ist Exquizite verfügbar?",
-          "a": "iOS: iPhone und iPad (iOS 13+), Android: Smartphones und Tablets (Android 6.0+), Web: app.exquizite.com (demnächst)"
+          "q": "Auf welchen Plattformen ist Calleo verfügbar?",
+          "a": "iOS: iPhone und iPad (iOS 13+), Android: Smartphones und Tablets (Android 6.0+), Web: app.calleo.com (demnächst)"
         },
         {
           "q": "Kann ich mehrere Sprachen gleichzeitig lernen?",
           "a": "Ja! Sie können Sets für verschiedene Sprachpaare erstellen. Ihre globale Spracheinstellung ist nur ein Standard; jedes Set kann eigene Sprachen haben."
         },
         {
-          "q": "Kann ich Exquizite offline nutzen?",
+          "q": "Kann ich Calleo offline nutzen?",
           "a": "Gastmodus: Ja, vollständig offline nach dem ersten Download. Mit Konto: Internet für die erste Synchronisierung erforderlich, danach eingeschränkter Offline-Zugriff (nur zwischengespeicherte Daten). Wir arbeiten an einem vollständigen Offline-Modus mit Synchronisierung für Kontonutzer!"
         },
         {
-          "q": "Wird Exquizite immer kostenlos bleiben?",
+          "q": "Wird Calleo immer kostenlos bleiben?",
           "a": "Ja! Unser Kernziel ist es, Sprachenlernen für alle zugänglich zu machen. Wir werden möglicherweise in Zukunft optionale Premium-Funktionen einführen, aber die Kern-App wird immer kostenlos bleiben."
         }
       ]

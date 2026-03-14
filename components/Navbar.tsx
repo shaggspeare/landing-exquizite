@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16 items-center">
           <Link to={prefix || '/'} className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
             <div className="w-10 h-10 rounded-lg overflow-hidden">
-              <img src="/images/logo.png" alt="Exquizite Logo" className="w-full h-full object-cover" />
+              <img src="/images/calleo-logo.png" alt="Calleo Logo" className="w-full h-full object-cover" />
             </div>
             <span className="font-bold text-xl tracking-tight text-slate-900">{d.brandName}</span>
           </Link>

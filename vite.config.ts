@@ -16,17 +16,17 @@ export default defineConfig(({ mode }) => {
           minify: true,
           inject: {
             data: {
-              title: 'Exquizite - Master Languages Through Smart, Interactive Practice',
+              title: 'Calleo - Master Languages Through Smart, Interactive Practice',
               description: 'Create custom word sets, play engaging games, and accelerate your language learning journey. 40+ languages, 4 game modes, AI-powered tools. Available on iOS and web.',
               keywords: 'language learning, vocabulary app, flashcards, language games, AI language learning, learn languages, iOS app, web app, multilingual, vocabulary builder',
-              ogTitle: 'Exquizite - Master Any Language, Your Way',
+              ogTitle: 'Calleo - Master Any Language, Your Way',
               ogDescription: 'Learn languages with AI-powered flashcards, games, and smart practice tools. 40+ languages supported. Start free on iOS or web.',
-              ogImage: 'https://app.exquizite.app/images/og-image.png',
-              ogUrl: 'https://app.exquizite.app/',
+              ogImage: 'https://app.calleo.xyz/images/og-image.png',
+              ogUrl: 'https://app.calleo.xyz/',
               twitterCard: 'summary_large_image',
-              twitterTitle: 'Exquizite - Master Languages Through Smart Practice',
+              twitterTitle: 'Calleo - Master Languages Through Smart Practice',
               twitterDescription: 'AI-powered language learning with flashcards, games, and 40+ languages. Free on iOS and web.',
-              twitterImage: 'https://app.exquizite.app/images/twitter-card.png',
+              twitterImage: 'https://app.calleo.xyz/images/twitter-card.png',
             }
           }
         })

@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "brandName": "Exquizite",
+    "brandName": "Calleo",
     "links": {
       "features": "功能特色",
       "howItWorks": "使用方法",
@@ -17,10 +17,10 @@
     "subtitle": "创建自定义词汇集、畅玩趣味游戏，借助 AI 工具加速你的语言学习之旅。",
     "appStoreButton": "在 App Store 下载",
     "webAppButton": "试用网页版",
-    "appStoreUrl": "https://apps.apple.com/ua/app/exquizite-learn-words-with-ai/id6759112720",
-    "webAppUrl": "https://app.exquizite.app/",
+    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Exquizite 应用测验模式" },
+      "quiz": { "src": "/images/quiz.PNG", "alt": "Calleo 应用测验模式" },
       "learningModes": { "src": "/images/learning-modes.PNG", "alt": "学习模式界面" },
       "mySets": { "src": "/images/my-sets.PNG", "alt": "我的词汇集界面" }
     }
@@ -28,7 +28,7 @@
   "bentoFeatures": {
     "sectionLabel": "功能与亮点",
     "sectionTitle": "掌握一门语言所需的一切",
-    "sectionSubtitle": "从智能 AI 生成到趣味游戏模式，Exquizite 集合了助你快速学习的全部工具。",
+    "sectionSubtitle": "从智能 AI 生成到趣味游戏模式，Calleo 集合了助你快速学习的全部工具。",
     "tiles": {
       "learnYourWay": {
         "title": "按你的方式学习",
@@ -88,8 +88,8 @@
     ]
   },
   "whyUs": {
-    "sectionTitle": "为什么选择 Exquizite？",
-    "sectionSubtitle": "我们创建 Exquizite 是为了消除语言学习中的障碍。无论你是休闲学习者还是多语言达人，我们的平台都能适应你的需求。",
+    "sectionTitle": "为什么选择 Calleo？",
+    "sectionSubtitle": "我们创建 Calleo 是为了消除语言学习中的障碍。无论你是休闲学习者还是多语言达人，我们的平台都能适应你的需求。",
     "points": [
       {
         "title": "秒速开始",
@@ -108,7 +108,7 @@
         "description": "采用现代技术打造，在每个平台上都能流畅运行。"
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Exquizite 配对模式" }
+    "image": { "src": "/images/my-sets.PNG", "alt": "Calleo 配对模式" }
   },
   "testimonials": {
     "sectionTitle": "深受学习者喜爱",
@@ -162,25 +162,25 @@
   "faq": {
     "sectionTitle": "常见问题",
     "items": [
-      { "q": "使用 Exquizite 需要注册账户吗？", "a": "不需要！使用访客模式即可立即开始学习。稍后可创建账户以在多设备间同步。" },
+      { "q": "使用 Calleo 需要注册账户吗？", "a": "不需要！使用访客模式即可立即开始学习。稍后可创建账户以在多设备间同步。" },
       { "q": "支持多少种语言？", "a": "超过 40 种语言，涵盖学习内容和应用界面。" },
       { "q": "应用可以离线使用吗？", "a": "可以，iOS 应用支持离线访问已下载的词汇集。" },
-      { "q": "我可以在电脑上使用 Exquizite 吗？", "a": "当然可以！网页版提供专为桌面端优化的体验。" },
+      { "q": "我可以在电脑上使用 Calleo 吗？", "a": "当然可以！网页版提供专为桌面端优化的体验。" },
       { "q": "我的数据安全吗？", "a": "是的，所有数据都通过 Supabase 安全存储和同步，采用行业标准加密技术。" },
       { "q": "我可以分享词汇集吗？", "a": "可以！为任意词汇集生成分享链接。其他人可以查看并复制到自己的收藏中。" }
     ]
   },
   "downloadCTA": {
     "title": "今天就开始学习",
-    "subtitle": "加入数千名使用 Exquizite 掌握新语言的学习者。立即下载或在浏览器中体验。",
+    "subtitle": "加入数千名使用 Calleo 掌握新语言的学习者。立即下载或在浏览器中体验。",
     "iosButton": "下载 iOS 版",
     "webButton": "打开网页版",
-    "appStoreUrl": "https://apps.apple.com/ua/app/exquizite-learn-words-with-ai/id6759112720",
-    "webAppUrl": "https://app.exquizite.app/",
+    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "webAppUrl": "https://app.calleo.xyz/",
     "disclaimer": "免费版无需信用卡。"
   },
   "footer": {
-    "brandName": "Exquizite",
+    "brandName": "Calleo",
     "brandDescription": "通过智能互动练习掌握语言。由学习者为学习者打造。",
     "columns": {
       "product": {
@@ -196,7 +196,7 @@
         "title": "支持",
         "links": [
           { "label": "帮助与支持", "to": "/support" },
-          { "label": "联系我们", "href": "mailto:viacheslav@exquizite.app" },
+          { "label": "联系我们", "href": "mailto:viacheslav@calleo.app" },
           { "label": "隐私政策", "to": "/privacy-policy" }
         ]
       },
@@ -208,22 +208,22 @@
         ]
       }
     },
-    "copyright": "\u00a9 2025 Exquizite. 用你的方式掌握语言。"
+    "copyright": "\u00a9 2025 Calleo. 用你的方式掌握语言。"
   },
   "privacyPolicy": {
-    "title": "Exquizite 隐私政策",
+    "title": "Calleo 隐私政策",
     "lastUpdated": "最后更新：2026年2月7日",
     "sections": [
       {
         "title": "引言",
-        "content": "欢迎使用 Exquizite，一款语言学习应用。本隐私政策说明了我们在您使用我们的移动应用和网络服务（统称为\"应用\"）时，如何收集、使用、披露和保护您的信息。请仔细阅读本隐私政策。如果您不同意本隐私政策的条款，请不要使用本应用。"
+        "content": "欢迎使用 Calleo，一款语言学习应用。本隐私政策说明了我们在您使用我们的移动应用和网络服务（统称为\"应用\"）时，如何收集、使用、披露和保护您的信息。请仔细阅读本隐私政策。如果您不同意本隐私政策的条款，请不要使用本应用。"
       },
       {
         "title": "我们收集的信息",
         "subsections": [
           {
             "title": "个人信息",
-            "intro": "当您在 Exquizite 创建账户时，我们会收集：",
+            "intro": "当您在 Calleo 创建账户时，我们会收集：",
             "items": [
               { "bold": "电子邮箱地址", "text": "用于账户创建、身份验证和通信" },
               { "bold": "用户 ID", "text": "自动生成的唯一标识符，用于身份验证和数据关联" },
@@ -340,7 +340,7 @@
           { "bold": "服务提供商", "text": "与上述可信的第三方服务（Supabase、OpenAI）共享" },
           { "bold": "法律要求", "text": "如法律、法院命令或政府法规要求" },
           { "bold": "业务转让", "text": "在合并、收购或资产出售的情况下（您将收到通知）" },
-          { "bold": "安全保障", "text": "为保护 Exquizite、我们用户或他人的权利、财产或安全" }
+          { "bold": "安全保障", "text": "为保护 Calleo、我们用户或他人的权利、财产或安全" }
         ]
       },
       {
@@ -373,7 +373,7 @@
               { "bold": "应用内删除", "text": "（即将推出）：前往设置 > 账户 > 删除账户" },
               {
                 "bold": "通过邮件请求",
-                "text": "发送邮件至 viacheslav@exquizite.app，主题为\"数据删除请求\"",
+                "text": "发送邮件至 viacheslav@calleo.app，主题为\"数据删除请求\"",
                 "subItems": [
                   "请附上您的注册邮箱地址",
                   "我们将验证您的身份并在 30 天内删除所有数据",
@@ -384,7 +384,7 @@
           },
           {
             "title": "导出您的数据",
-            "description": "如需获取您的数据副本，请发送邮件至 viacheslav@exquizite.app，主题为\"数据导出请求\""
+            "description": "如需获取您的数据副本，请发送邮件至 viacheslav@calleo.app，主题为\"数据导出请求\""
           },
           {
             "title": "访客模式",
@@ -398,7 +398,7 @@
       },
       {
         "title": "儿童隐私",
-        "content": "Exquizite 面向 13 岁及以上的用户。我们不会故意收集 13 岁以下儿童的个人信息。如果您是家长或监护人，并认为您的孩子向我们提供了个人信息，请联系 viacheslav@exquizite.app，我们将立即删除该信息。"
+        "content": "Calleo 面向 13 岁及以上的用户。我们不会故意收集 13 岁以下儿童的个人信息。如果您是家长或监护人，并认为您的孩子向我们提供了个人信息，请联系 viacheslav@calleo.app，我们将立即删除该信息。"
       },
       {
         "title": "国际数据传输",
@@ -425,14 +425,14 @@
       },
       {
         "title": "您的同意",
-        "content": "使用 Exquizite 即表示您同意本隐私政策并接受其条款。"
+        "content": "使用 Calleo 即表示您同意本隐私政策并接受其条款。"
       },
       {
         "title": "联系我们",
         "intro": "如果您对本隐私政策或您的数据有任何疑问、关切或请求，请联系我们：",
         "contactInfo": {
-          "email": "viacheslav@exquizite.app",
-          "developer": "Exquizite 开发团队",
+          "email": "viacheslav@calleo.app",
+          "developer": "Calleo 开发团队",
           "responseTime": "我们将在 7 个工作日内回复所有咨询。"
         }
       }
@@ -446,17 +446,17 @@
         { "label": "数据存储位置", "value": "Supabase 云服务器（基于 AWS）" },
         { "label": "第三方", "value": "Supabase（数据库）、OpenAI（AI 生成 - 不发送个人数据）" },
         { "label": "您的权利", "value": "随时访问、修改、删除您的数据" },
-        { "label": "联系方式", "value": "viacheslav@exquizite.app" }
+        { "label": "联系方式", "value": "viacheslav@calleo.app" }
       ],
-      "thankYou": "感谢您信任 Exquizite，陪伴您的语言学习之旅！"
+      "thankYou": "感谢您信任 Calleo，陪伴您的语言学习之旅！"
     }
   },
   "support": {
-    "title": "Exquizite 支持",
-    "subtitle": "欢迎来到 Exquizite 支持中心！在这里查找常见问题的答案并获取应用帮助。",
-    "contactEmail": "viacheslav@exquizite.app",
+    "title": "Calleo 支持",
+    "subtitle": "欢迎来到 Calleo 支持中心！在这里查找常见问题的答案并获取应用帮助。",
+    "contactEmail": "viacheslav@calleo.app",
     "lastUpdated": "最后更新：2026年2月7日",
-    "thankYou": "感谢使用 Exquizite！祝学习愉快！",
+    "thankYou": "感谢使用 Calleo！祝学习愉快！",
     "toc": {
       "title": "目录",
       "items": [
@@ -474,12 +474,12 @@
     "gettingStarted": {
       "title": "快速入门",
       "whatIs": {
-        "title": "什么是 Exquizite？",
-        "content": "Exquizite 是一款语言学习应用，通过互动游戏和闪卡帮助您掌握词汇。创建自定义词汇集，使用趣味游戏模式练习，并追踪您的进度。"
+        "title": "什么是 Calleo？",
+        "content": "Calleo 是一款语言学习应用，通过互动游戏和闪卡帮助您掌握词汇。创建自定义词汇集，使用趣味游戏模式练习，并追踪您的进度。"
       },
       "needAccount": {
         "title": "我需要注册账户吗？",
-        "intro": "不需要！您可以通过两种方式使用 Exquizite：",
+        "intro": "不需要！您可以通过两种方式使用 Calleo：",
         "options": [
           { "bold": "访客模式", "text": "无需注册即可使用应用。您的词汇集仅保存在设备本地。" },
           { "bold": "注册账户", "text": "使用电子邮箱注册，在所有设备上同步词汇集（iPhone、iPad、Android、网页）。" }
@@ -488,7 +488,7 @@
       "howToStart": {
         "title": "如何开始？",
         "steps": [
-          "从 App Store 或 Google Play 下载 Exquizite",
+          "从 App Store 或 Google Play 下载 Calleo",
           "选择\"以访客身份继续\"或\"注册\"",
           "选择您的学习语言（如西班牙语）和母语（如中文）",
           "创建您的第一个词汇集",
@@ -608,7 +608,7 @@
       "title": "游戏模式",
       "available": {
         "title": "有哪些游戏模式？",
-        "intro": "Exquizite 提供 4 种互动学习模式：",
+        "intro": "Calleo 提供 4 种互动学习模式：",
         "modes": [
           { "bold": "闪卡", "text": "经典翻转卡片，测试您的记忆力" },
           { "bold": "测验", "text": "选择题巩固学习成果" },
@@ -722,7 +722,7 @@
       "title": "设置与偏好",
       "appLanguage": {
         "title": "如何更改应用语言（界面）？",
-        "intro": "Exquizite 支持 45 种以上的界面语言：",
+        "intro": "Calleo 支持 45 种以上的界面语言：",
         "steps": [
           "进入设置",
           "点击\"应用语言\"",
@@ -752,7 +752,7 @@
       },
       "tour": {
         "title": "什么是新手引导？",
-        "intro": "首次使用 Exquizite 时，互动引导会带您了解主要功能。要重新开始引导：",
+        "intro": "首次使用 Calleo 时，互动引导会带您了解主要功能。要重新开始引导：",
         "steps": [
           "进入设置",
           "点击\"重新开始引导\"",
@@ -782,10 +782,10 @@
           "强制关闭应用并重新打开",
           "重启设备",
           "在 App Store/Play Store 中检查更新",
-          "清除应用缓存（Android：设置 > 应用 > Exquizite > 清除缓存）",
+          "清除应用缓存（Android：设置 > 应用 > Calleo > 清除缓存）",
           "重新安装应用（注意：访客模式数据将丢失！）"
         ],
-        "note": "如果问题仍然存在，请发送邮件至 viacheslav@exquizite.app，附上设备型号、系统版本、应用版本和问题描述。"
+        "note": "如果问题仍然存在，请发送邮件至 viacheslav@calleo.app，附上设备型号、系统版本、应用版本和问题描述。"
       },
       "aiNotWorking": {
         "title": "AI 建议功能无法使用",
@@ -873,7 +873,7 @@
         "title": "如何下载我的数据？",
         "intro": "要请求您的数据副本：",
         "steps": [
-          "发送邮件至 viacheslav@exquizite.app，主题为\"数据导出请求\"",
+          "发送邮件至 viacheslav@calleo.app，主题为\"数据导出请求\"",
           "附上您的注册邮箱地址",
           "我们将在 7 个工作日内向您发送包含所有词汇集和账户信息的文件"
         ]
@@ -882,7 +882,7 @@
         "title": "如何删除账户和数据？",
         "label": "永久删除：",
         "steps": [
-          "发送邮件至 viacheslav@exquizite.app，主题为\"数据删除请求\"",
+          "发送邮件至 viacheslav@calleo.app，主题为\"数据删除请求\"",
           "附上您的注册邮箱地址",
           "我们将验证您的身份并在 30 天内删除所有数据"
         ],
@@ -899,17 +899,17 @@
       "categories": [
         {
           "title": "常规支持",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "responseTime": "2-3 个工作日内回复"
         },
         {
           "title": "隐私与数据请求",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "responseTime": "7 个工作日内回复"
         },
         {
           "title": "Bug 报告与功能建议",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "subject": "\"Bug Report\" 或 \"Feature Request\"",
           "includeItems": [
             "设备型号和系统版本（例如 iPhone 14, iOS 17.2）",
@@ -924,23 +924,23 @@
       "title": "常见问题",
       "items": [
         {
-          "q": "Exquizite 是免费的吗？",
-          "a": "是的！Exquizite 完全免费，没有广告和应用内购买。所有功能对所有用户开放。"
+          "q": "Calleo 是免费的吗？",
+          "a": "是的！Calleo 完全免费，没有广告和应用内购买。所有功能对所有用户开放。"
         },
         {
-          "q": "Exquizite 支持哪些平台？",
-          "a": "iOS：iPhone 和 iPad（iOS 13+），Android：手机和平板（Android 6.0+），网页版：app.exquizite.com（即将推出）"
+          "q": "Calleo 支持哪些平台？",
+          "a": "iOS：iPhone 和 iPad（iOS 13+），Android：手机和平板（Android 6.0+），网页版：app.calleo.com（即将推出）"
         },
         {
           "q": "可以同时学习多种语言吗？",
           "a": "可以！您可以为不同语言对创建词汇集。全局语言偏好只是默认设置，每个词汇集都可以有自己的语言。"
         },
         {
-          "q": "Exquizite 可以离线使用吗？",
+          "q": "Calleo 可以离线使用吗？",
           "a": "访客模式：可以，初始下载后完全离线使用。注册账户：初次同步需要网络，之后提供有限的离线访问（仅缓存数据）。我们正在为注册用户开发完整的离线同步模式！"
         },
         {
-          "q": "Exquizite 会一直免费吗？",
+          "q": "Calleo 会一直免费吗？",
           "a": "会的！我们的核心使命是让语言学习人人可及。未来我们可能会推出可选的高级功能，但核心应用将始终免费。"
         }
       ]

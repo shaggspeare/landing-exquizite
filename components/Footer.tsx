@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg overflow-hidden">
-                <img src="/images/logo.png" alt="Exquizite Logo" className="w-full h-full object-cover" />
+                <img src="/images/calleo-logo.png" alt="Calleo Logo" className="w-full h-full object-cover" />
               </div>
               <span className="font-bold text-lg text-slate-900">{d.brandName}</span>
             </div>

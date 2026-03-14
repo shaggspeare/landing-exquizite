@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "brandName": "Exquizite",
+    "brandName": "Calleo",
     "links": {
       "features": "Özellikler",
       "howItWorks": "Nasıl Çalışır",
@@ -17,10 +17,10 @@
     "subtitle": "Özel kelime setleri oluşturun, eğlenceli oyunlar oynayın ve yapay zeka destekli araçlarla dil öğrenme yolculuğunuzu hızlandırın.",
     "appStoreButton": "App Store'dan İndir",
     "webAppButton": "Web Uygulamasını Dene",
-    "appStoreUrl": "https://apps.apple.com/ua/app/exquizite-learn-words-with-ai/id6759112720",
-    "webAppUrl": "https://app.exquizite.app/",
+    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Exquizite Uygulama Quiz Modu" },
+      "quiz": { "src": "/images/quiz.PNG", "alt": "Calleo Uygulama Quiz Modu" },
       "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Öğrenme Modları Ekranı" },
       "mySets": { "src": "/images/my-sets.PNG", "alt": "Setlerim Ekranı" }
     }
@@ -28,7 +28,7 @@
   "bentoFeatures": {
     "sectionLabel": "Özellikler ve Öne Çıkanlar",
     "sectionTitle": "Bir dili öğrenmek için ihtiyacınız olan her şey",
-    "sectionSubtitle": "Akıllı yapay zeka üretiminden eğlenceli oyun modlarına kadar, Exquizite daha hızlı öğrenmenize yardımcı olacak araçlarla dolu.",
+    "sectionSubtitle": "Akıllı yapay zeka üretiminden eğlenceli oyun modlarına kadar, Calleo daha hızlı öğrenmenize yardımcı olacak araçlarla dolu.",
     "tiles": {
       "learnYourWay": {
         "title": "Kendi Tarzınızda Öğrenin",
@@ -88,8 +88,8 @@
     ]
   },
   "whyUs": {
-    "sectionTitle": "Neden Exquizite?",
-    "sectionSubtitle": "Exquizite'i dil öğrenimindeki engelleri kaldırmak için geliştirdik. İster sıradan bir öğrenci ister çok dilli olun, platformumuz size uyum sağlar.",
+    "sectionTitle": "Neden Calleo?",
+    "sectionSubtitle": "Calleo'i dil öğrenimindeki engelleri kaldırmak için geliştirdik. İster sıradan bir öğrenci ister çok dilli olun, platformumuz size uyum sağlar.",
     "points": [
       {
         "title": "Saniyeler İçinde Başlayın",
@@ -108,7 +108,7 @@
         "description": "Her platformda akıcı performans için modern teknolojiyle geliştirildi."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Exquizite Eşleştirme Modu" }
+    "image": { "src": "/images/my-sets.PNG", "alt": "Calleo Eşleştirme Modu" }
   },
   "testimonials": {
     "sectionTitle": "Öğrenenler Tarafından Seviliyor",
@@ -162,25 +162,25 @@
   "faq": {
     "sectionTitle": "Sıkça Sorulan Sorular",
     "items": [
-      { "q": "Exquizite'i kullanmak için hesap gerekli mi?", "a": "Hayır! Misafir moduyla hemen öğrenmeye başlayın. Cihazlar arası senkronize etmek istediğinizde hesap oluşturun." },
+      { "q": "Calleo'i kullanmak için hesap gerekli mi?", "a": "Hayır! Misafir moduyla hemen öğrenmeye başlayın. Cihazlar arası senkronize etmek istediğinizde hesap oluşturun." },
       { "q": "Kaç dil destekleniyor?", "a": "Hem öğrenme içeriği hem de uygulama arayüzü için 40'tan fazla dil." },
       { "q": "Uygulama çevrimdışı çalışır mı?", "a": "Evet, iOS uygulaması indirilen kelime setlerine çevrimdışı erişimi destekler." },
-      { "q": "Exquizite'i bilgisayarımda kullanabilir miyim?", "a": "Kesinlikle! Web uygulaması masaüstü için optimize edilmiş bir deneyim sunar." },
+      { "q": "Calleo'i bilgisayarımda kullanabilir miyim?", "a": "Kesinlikle! Web uygulaması masaüstü için optimize edilmiş bir deneyim sunar." },
       { "q": "Verilerim güvende mi?", "a": "Evet, tüm veriler endüstri standardı şifreleme ile Supabase üzerinden güvenle saklanır ve senkronize edilir." },
       { "q": "Kelime setlerimi paylaşabilir miyim?", "a": "Evet! Herhangi bir set için paylaşılabilir bağlantı oluşturun. Diğerleri görüntüleyebilir ve koleksiyonlarına kopyalayabilir." }
     ]
   },
   "downloadCTA": {
     "title": "Bugün Öğrenmeye Başlayın",
-    "subtitle": "Exquizite ile yeni diller öğrenen binlerce kişiye katılın. Hemen indirin veya tarayıcınızda deneyin.",
+    "subtitle": "Calleo ile yeni diller öğrenen binlerce kişiye katılın. Hemen indirin veya tarayıcınızda deneyin.",
     "iosButton": "iOS için İndir",
     "webButton": "Web Uygulamasını Aç",
-    "appStoreUrl": "https://apps.apple.com/ua/app/exquizite-learn-words-with-ai/id6759112720",
-    "webAppUrl": "https://app.exquizite.app/",
+    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "webAppUrl": "https://app.calleo.xyz/",
     "disclaimer": "Ücretsiz plan için kredi kartı gerekmez."
   },
   "footer": {
-    "brandName": "Exquizite",
+    "brandName": "Calleo",
     "brandDescription": "Akıllı ve etkileşimli pratikle dilleri öğrenin. Öğrenenler tarafından, öğrenenler için yapıldı.",
     "columns": {
       "product": {
@@ -196,7 +196,7 @@
         "title": "Destek",
         "links": [
           { "label": "Yardım ve Destek", "to": "/support" },
-          { "label": "İletişim", "href": "mailto:viacheslav@exquizite.app" },
+          { "label": "İletişim", "href": "mailto:viacheslav@calleo.app" },
           { "label": "Gizlilik Politikası", "to": "/privacy-policy" }
         ]
       },
@@ -208,22 +208,22 @@
         ]
       }
     },
-    "copyright": "© 2025 Exquizite. Dilleri kendi tarzınızda öğrenin."
+    "copyright": "© 2025 Calleo. Dilleri kendi tarzınızda öğrenin."
   },
   "privacyPolicy": {
-    "title": "Exquizite Gizlilik Politikası",
+    "title": "Calleo Gizlilik Politikası",
     "lastUpdated": "Son Güncelleme: 7 Şubat 2026",
     "sections": [
       {
         "title": "Giriş",
-        "content": "Exquizite'e hoş geldiniz, bir dil öğrenme uygulaması. Bu Gizlilik Politikası, mobil uygulamamızı ve web hizmetlerimizi (toplu olarak \"Uygulama\") kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, açıkladığımızı ve koruduğumuzu açıklar. Lütfen bu gizlilik politikasını dikkatlice okuyun. Bu gizlilik politikasının şartlarını kabul etmiyorsanız, lütfen Uygulamaya erişmeyin."
+        "content": "Calleo'e hoş geldiniz, bir dil öğrenme uygulaması. Bu Gizlilik Politikası, mobil uygulamamızı ve web hizmetlerimizi (toplu olarak \"Uygulama\") kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, açıkladığımızı ve koruduğumuzu açıklar. Lütfen bu gizlilik politikasını dikkatlice okuyun. Bu gizlilik politikasının şartlarını kabul etmiyorsanız, lütfen Uygulamaya erişmeyin."
       },
       {
         "title": "Topladığımız Bilgiler",
         "subsections": [
           {
             "title": "Kişisel Bilgiler",
-            "intro": "Exquizite'de hesap oluşturduğunuzda şunları toplarız:",
+            "intro": "Calleo'de hesap oluşturduğunuzda şunları toplarız:",
             "items": [
               { "bold": "E-posta Adresi", "text": "Hesap oluşturma, kimlik doğrulama ve iletişim için kullanılır" },
               { "bold": "Kullanıcı Kimliği", "text": "Kimlik doğrulama ve veri ilişkilendirme için otomatik olarak oluşturulan benzersiz tanımlayıcı" },
@@ -340,7 +340,7 @@
           { "bold": "Hizmet Sağlayıcılar", "text": "Yukarıda açıklanan güvenilir üçüncü taraf hizmetleriyle (Supabase, OpenAI)" },
           { "bold": "Yasal Gereklilikler", "text": "Kanun, mahkeme kararı veya hükümet düzenlemesi gerektiriyorsa" },
           { "bold": "İş Transferleri", "text": "Birleşme, devralma veya varlık satışı durumunda (bilgilendirileceksiniz)" },
-          { "bold": "Güvenlik ve Emniyet", "text": "Exquizite'in, kullanıcılarımızın veya başkalarının haklarını, mülkiyetini veya güvenliğini korumak için" }
+          { "bold": "Güvenlik ve Emniyet", "text": "Calleo'in, kullanıcılarımızın veya başkalarının haklarını, mülkiyetini veya güvenliğini korumak için" }
         ]
       },
       {
@@ -373,7 +373,7 @@
               { "bold": "Uygulama İçi Silme", "text": "(yakında): Ayarlar > Hesap > Hesabı Sil yolunu izleyin" },
               {
                 "bold": "E-posta Talebi",
-                "text": "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
+                "text": "viacheslav@calleo.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
                 "subItems": [
                   "Kayıtlı e-posta adresinizi ekleyin",
                   "Kimliğinizi doğrulayacağız ve tüm verileri 30 gün içinde sileceğiz",
@@ -384,7 +384,7 @@
           },
           {
             "title": "Verilerinizi Dışa Aktarın",
-            "description": "Verilerinizin bir kopyasını talep etmek için viacheslav@exquizite.app adresine \"Data Export Request\" konulu e-posta gönderin"
+            "description": "Verilerinizin bir kopyasını talep etmek için viacheslav@calleo.app adresine \"Data Export Request\" konulu e-posta gönderin"
           },
           {
             "title": "Misafir Modu",
@@ -398,7 +398,7 @@
       },
       {
         "title": "Çocukların Gizliliği",
-        "content": "Exquizite 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi sağladığına inanıyorsanız, lütfen viacheslav@exquizite.app adresinden bize ulaşın, bu bilgileri derhal sileceğiz."
+        "content": "Calleo 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi sağladığına inanıyorsanız, lütfen viacheslav@calleo.app adresinden bize ulaşın, bu bilgileri derhal sileceğiz."
       },
       {
         "title": "Uluslararası Veri Transferleri",
@@ -425,14 +425,14 @@
       },
       {
         "title": "Onayınız",
-        "content": "Exquizite'i kullanarak, bu Gizlilik Politikasına onay vermiş ve şartlarını kabul etmiş olursunuz."
+        "content": "Calleo'i kullanarak, bu Gizlilik Politikasına onay vermiş ve şartlarını kabul etmiş olursunuz."
       },
       {
         "title": "Bize Ulaşın",
         "intro": "Bu Gizlilik Politikası veya verilerinizle ilgili sorularınız, endişeleriniz veya talepleriniz varsa lütfen bizimle iletişime geçin:",
         "contactInfo": {
-          "email": "viacheslav@exquizite.app",
-          "developer": "Exquizite Geliştirme Ekibi",
+          "email": "viacheslav@calleo.app",
+          "developer": "Calleo Geliştirme Ekibi",
           "responseTime": "Tüm sorulara 7 iş günü içinde yanıt vermeyi hedefliyoruz."
         }
       }
@@ -446,17 +446,17 @@
         { "label": "Nerede saklanıyor", "value": "Supabase bulut sunucuları (AWS altyapılı)" },
         { "label": "Üçüncü taraflar", "value": "Supabase (veritabanı), OpenAI (yapay zeka üretimi - kişisel veri gönderilmez)" },
         { "label": "Haklarınız", "value": "Verilerinize istediğiniz zaman erişin, değiştirin, silin" },
-        { "label": "İletişim", "value": "viacheslav@exquizite.app" }
+        { "label": "İletişim", "value": "viacheslav@calleo.app" }
       ],
-      "thankYou": "Dil öğrenme yolculuğunuzda Exquizite'e güvendiğiniz için teşekkür ederiz!"
+      "thankYou": "Dil öğrenme yolculuğunuzda Calleo'e güvendiğiniz için teşekkür ederiz!"
     }
   },
   "support": {
-    "title": "Exquizite Destek",
-    "subtitle": "Exquizite Destek'e hoş geldiniz! Sık sorulan soruların yanıtlarını bulun ve uygulama hakkında yardım alın.",
-    "contactEmail": "viacheslav@exquizite.app",
+    "title": "Calleo Destek",
+    "subtitle": "Calleo Destek'e hoş geldiniz! Sık sorulan soruların yanıtlarını bulun ve uygulama hakkında yardım alın.",
+    "contactEmail": "viacheslav@calleo.app",
     "lastUpdated": "Son güncelleme: 7 Şubat 2026",
-    "thankYou": "Exquizite'i kullandığınız için teşekkürler! İyi öğrenmeler!",
+    "thankYou": "Calleo'i kullandığınız için teşekkürler! İyi öğrenmeler!",
     "toc": {
       "title": "İçindekiler",
       "items": [
@@ -474,12 +474,12 @@
     "gettingStarted": {
       "title": "Başlarken",
       "whatIs": {
-        "title": "Exquizite nedir?",
-        "content": "Exquizite, etkileşimli oyunlar ve bilgi kartları aracılığıyla kelime dağarcığınızı geliştirmenize yardımcı olan bir dil öğrenme uygulamasıdır. Özel kelime setleri oluşturun, eğlenceli oyun modlarıyla pratik yapın ve ilerlemenizi takip edin."
+        "title": "Calleo nedir?",
+        "content": "Calleo, etkileşimli oyunlar ve bilgi kartları aracılığıyla kelime dağarcığınızı geliştirmenize yardımcı olan bir dil öğrenme uygulamasıdır. Özel kelime setleri oluşturun, eğlenceli oyun modlarıyla pratik yapın ve ilerlemenizi takip edin."
       },
       "needAccount": {
         "title": "Hesaba ihtiyacım var mı?",
-        "intro": "Hayır! Exquizite'i iki şekilde kullanabilirsiniz:",
+        "intro": "Hayır! Calleo'i iki şekilde kullanabilirsiniz:",
         "options": [
           { "bold": "Misafir Modu", "text": "Kayıt olmadan uygulamayı kullanın. Setleriniz yalnızca cihazınızda yerel olarak kaydedilir." },
           { "bold": "Hesapla", "text": "Setlerinizi tüm cihazlarınızda senkronize etmek için e-posta ile kaydolun (iPhone, iPad, Android, Web)." }
@@ -488,7 +488,7 @@
       "howToStart": {
         "title": "Nasıl başlarım?",
         "steps": [
-          "Exquizite'i App Store veya Google Play'den indirin",
+          "Calleo'i App Store veya Google Play'den indirin",
           "\"Misafir Olarak Devam Et\" veya \"Kaydol\" seçeneğini belirleyin",
           "Öğrenme dilinizi (ör. İspanyolca) ve ana dilinizi (ör. Türkçe) seçin",
           "İlk kelime setinizi oluşturun",
@@ -608,7 +608,7 @@
       "title": "Oyun Modları",
       "available": {
         "title": "Hangi oyun modları mevcut?",
-        "intro": "Exquizite 4 etkileşimli öğrenme modu sunar:",
+        "intro": "Calleo 4 etkileşimli öğrenme modu sunar:",
         "modes": [
           { "bold": "Bilgi Kartları", "text": "Hafızanızı test etmek için klasik çevirme kartları" },
           { "bold": "Quiz", "text": "Öğrenmeyi pekiştirmek için çoktan seçmeli sorular" },
@@ -722,7 +722,7 @@
       "title": "Ayarlar ve Tercihler",
       "appLanguage": {
         "title": "Uygulama dilini (arayüz) nasıl değiştiririm?",
-        "intro": "Exquizite arayüz için 45'ten fazla dili destekler:",
+        "intro": "Calleo arayüz için 45'ten fazla dili destekler:",
         "steps": [
           "Ayarlar'a gidin",
           "\"Uygulama Dili\"ne dokunun",
@@ -752,7 +752,7 @@
       },
       "tour": {
         "title": "İlk Kullanım Turu nedir?",
-        "intro": "Exquizite'i ilk kez kullandığınızda, etkileşimli bir tur sizi temel özellikler boyunca yönlendirir. Turu yeniden başlatmak için:",
+        "intro": "Calleo'i ilk kez kullandığınızda, etkileşimli bir tur sizi temel özellikler boyunca yönlendirir. Turu yeniden başlatmak için:",
         "steps": [
           "Ayarlar'a gidin",
           "\"Turu Yeniden Başlat\"a dokunun",
@@ -782,10 +782,10 @@
           "Uygulamayı zorla kapatın ve yeniden açın",
           "Cihazınızı yeniden başlatın",
           "App Store/Play Store'da güncellemeleri kontrol edin",
-          "Uygulama önbelleğini temizleyin (Android'de Ayarlar > Uygulamalar > Exquizite > Önbelleği Temizle)",
+          "Uygulama önbelleğini temizleyin (Android'de Ayarlar > Uygulamalar > Calleo > Önbelleği Temizle)",
           "Uygulamayı yeniden yükleyin (Not: Misafir Modu verileri kaybolacaktır!)"
         ],
-        "note": "Sorun devam ederse, cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve sorunun açıklamasıyla viacheslav@exquizite.app adresinden bize ulaşın."
+        "note": "Sorun devam ederse, cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve sorunun açıklamasıyla viacheslav@calleo.app adresinden bize ulaşın."
       },
       "aiNotWorking": {
         "title": "Yapay zeka önerileri çalışmıyor",
@@ -873,7 +873,7 @@
         "title": "Verilerimi nasıl indiririm?",
         "intro": "Verilerinizin bir kopyasını talep etmek için:",
         "steps": [
-          "viacheslav@exquizite.app adresine \"Data Export Request\" konulu e-posta gönderin",
+          "viacheslav@calleo.app adresine \"Data Export Request\" konulu e-posta gönderin",
           "Kayıtlı e-posta adresinizi ekleyin",
           "7 iş günü içinde tüm kelime setleriniz ve hesap bilgilerinizle bir dosya göndereceğiz"
         ]
@@ -882,7 +882,7 @@
         "title": "Hesabımı ve verilerimi nasıl silerim?",
         "label": "Kalıcı Silme:",
         "steps": [
-          "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
+          "viacheslav@calleo.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
           "Kayıtlı e-posta adresinizi ekleyin",
           "Kimliğinizi doğrulayacağız ve tüm verileri 30 gün içinde sileceğiz"
         ],
@@ -899,17 +899,17 @@
       "categories": [
         {
           "title": "Genel Destek",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "responseTime": "2-3 iş günü içinde"
         },
         {
           "title": "Gizlilik ve Veri Talepleri",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "responseTime": "7 iş günü içinde"
         },
         {
           "title": "Hata Raporları ve Özellik İstekleri",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "subject": "\"Bug Report\" veya \"Feature Request\"",
           "includeItems": [
             "Cihaz modeli ve işletim sistemi sürümü (ör. iPhone 14, iOS 17.2)",
@@ -924,23 +924,23 @@
       "title": "Sıkça Sorulan Sorular",
       "items": [
         {
-          "q": "Exquizite ücretsiz mi?",
-          "a": "Evet! Exquizite reklamsız ve uygulama içi satın alma olmadan tamamen ücretsizdir. Tüm özellikler tüm kullanıcılara açıktır."
+          "q": "Calleo ücretsiz mi?",
+          "a": "Evet! Calleo reklamsız ve uygulama içi satın alma olmadan tamamen ücretsizdir. Tüm özellikler tüm kullanıcılara açıktır."
         },
         {
-          "q": "Exquizite hangi platformlarda mevcut?",
-          "a": "iOS: iPhone ve iPad (iOS 13+), Android: Telefonlar ve tabletler (Android 6.0+), Web: app.exquizite.com (yakında)"
+          "q": "Calleo hangi platformlarda mevcut?",
+          "a": "iOS: iPhone ve iPad (iOS 13+), Android: Telefonlar ve tabletler (Android 6.0+), Web: app.calleo.com (yakında)"
         },
         {
           "q": "Aynı anda birden fazla dil öğrenebilir miyim?",
           "a": "Evet! Farklı dil çiftleri için setler oluşturabilirsiniz. Genel dil tercihiniz yalnızca bir varsayılandır; her setin kendi dilleri olabilir."
         },
         {
-          "q": "Exquizite'i çevrimdışı kullanabilir miyim?",
+          "q": "Calleo'i çevrimdışı kullanabilir miyim?",
           "a": "Misafir Modu: Evet, ilk indirmeden sonra tamamen çevrimdışı. Hesapla: İlk senkronizasyon için internet gerektirir, ardından sınırlı çevrimdışı erişim (yalnızca önbelleklenmiş veriler). Hesap kullanıcıları için senkronizasyonlu tam çevrimdışı mod üzerinde çalışıyoruz!"
         },
         {
-          "q": "Exquizite her zaman ücretsiz kalacak mı?",
+          "q": "Calleo her zaman ücretsiz kalacak mı?",
           "a": "Evet! Temel misyonumuz dil öğrenimini herkes için erişilebilir kılmaktır. Gelecekte isteğe bağlı premium özellikler sunabiliriz, ancak temel uygulama her zaman ücretsiz kalacaktır."
         }
       ]

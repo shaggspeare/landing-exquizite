@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "brandName": "Exquizite",
+    "brandName": "Calleo",
     "links": {
       "features": "Fitur",
       "howItWorks": "Cara Kerja",
@@ -17,10 +17,10 @@
     "subtitle": "Buat set kata khusus, mainkan permainan yang menarik, dan percepat perjalanan belajar bahasamu dengan alat bertenaga AI.",
     "appStoreButton": "Unduh di App Store",
     "webAppButton": "Coba Aplikasi Web",
-    "appStoreUrl": "https://apps.apple.com/ua/app/exquizite-learn-words-with-ai/id6759112720",
-    "webAppUrl": "https://app.exquizite.app/",
+    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Mode Kuis Aplikasi Exquizite" },
+      "quiz": { "src": "/images/quiz.PNG", "alt": "Mode Kuis Aplikasi Calleo" },
       "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Layar Mode Pembelajaran" },
       "mySets": { "src": "/images/my-sets.PNG", "alt": "Layar Set Saya" }
     }
@@ -28,7 +28,7 @@
   "bentoFeatures": {
     "sectionLabel": "Fitur dan Keunggulan",
     "sectionTitle": "Semua yang kamu butuhkan untuk menguasai bahasa",
-    "sectionSubtitle": "Dari pembuatan cerdas dengan AI hingga mode permainan yang seru, Exquizite dilengkapi dengan alat untuk membantumu belajar lebih cepat.",
+    "sectionSubtitle": "Dari pembuatan cerdas dengan AI hingga mode permainan yang seru, Calleo dilengkapi dengan alat untuk membantumu belajar lebih cepat.",
     "tiles": {
       "learnYourWay": {
         "title": "Belajar Sesuai Gayamu",
@@ -88,8 +88,8 @@
     ]
   },
   "whyUs": {
-    "sectionTitle": "Mengapa Exquizite?",
-    "sectionSubtitle": "Kami membangun Exquizite untuk menghilangkan hambatan dalam belajar bahasa. Baik kamu pelajar kasual atau poliglot, platform kami menyesuaikan denganmu.",
+    "sectionTitle": "Mengapa Calleo?",
+    "sectionSubtitle": "Kami membangun Calleo untuk menghilangkan hambatan dalam belajar bahasa. Baik kamu pelajar kasual atau poliglot, platform kami menyesuaikan denganmu.",
     "points": [
       {
         "title": "Mulai dalam Hitungan Detik",
@@ -108,7 +108,7 @@
         "description": "Dibangun dengan teknologi modern untuk performa mulus di setiap platform."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Mode Cocokkan Exquizite" }
+    "image": { "src": "/images/my-sets.PNG", "alt": "Mode Cocokkan Calleo" }
   },
   "testimonials": {
     "sectionTitle": "Dicintai oleh Para Pelajar",
@@ -162,25 +162,25 @@
   "faq": {
     "sectionTitle": "Pertanyaan yang Sering Diajukan",
     "items": [
-      { "q": "Apakah saya perlu akun untuk menggunakan Exquizite?", "a": "Tidak! Mulai belajar langsung dengan mode tamu. Buat akun nanti untuk sinkronisasi antar perangkat." },
+      { "q": "Apakah saya perlu akun untuk menggunakan Calleo?", "a": "Tidak! Mulai belajar langsung dengan mode tamu. Buat akun nanti untuk sinkronisasi antar perangkat." },
       { "q": "Berapa banyak bahasa yang didukung?", "a": "Lebih dari 40 bahasa untuk konten pembelajaran dan antarmuka aplikasi." },
       { "q": "Apakah aplikasinya bisa dipakai offline?", "a": "Ya, aplikasi iOS mendukung akses offline untuk set kata yang sudah diunduh." },
-      { "q": "Bisakah saya menggunakan Exquizite di komputer?", "a": "Tentu saja! Aplikasi web menyediakan pengalaman yang dioptimalkan untuk desktop." },
+      { "q": "Bisakah saya menggunakan Calleo di komputer?", "a": "Tentu saja! Aplikasi web menyediakan pengalaman yang dioptimalkan untuk desktop." },
       { "q": "Apakah data saya aman?", "a": "Ya, semua data disimpan dan disinkronkan dengan aman melalui Supabase dengan enkripsi standar industri." },
       { "q": "Bisakah saya membagikan set kata saya?", "a": "Ya! Buat tautan yang bisa dibagikan untuk set apa pun. Orang lain bisa melihat dan menyalinnya ke koleksi mereka." }
     ]
   },
   "downloadCTA": {
     "title": "Mulai Belajar Hari Ini",
-    "subtitle": "Bergabunglah dengan ribuan pelajar yang menguasai bahasa baru dengan Exquizite. Unduh sekarang atau coba di browsermu.",
+    "subtitle": "Bergabunglah dengan ribuan pelajar yang menguasai bahasa baru dengan Calleo. Unduh sekarang atau coba di browsermu.",
     "iosButton": "Unduh untuk iOS",
     "webButton": "Buka Aplikasi Web",
-    "appStoreUrl": "https://apps.apple.com/ua/app/exquizite-learn-words-with-ai/id6759112720",
-    "webAppUrl": "https://app.exquizite.app/",
+    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "webAppUrl": "https://app.calleo.xyz/",
     "disclaimer": "Tidak perlu kartu kredit untuk paket gratis."
   },
   "footer": {
-    "brandName": "Exquizite",
+    "brandName": "Calleo",
     "brandDescription": "Kuasai bahasa melalui latihan cerdas dan interaktif. Dibuat untuk pelajar, oleh pelajar.",
     "columns": {
       "product": {
@@ -196,7 +196,7 @@
         "title": "Dukungan",
         "links": [
           { "label": "Bantuan & Dukungan", "to": "/support" },
-          { "label": "Kontak", "href": "mailto:viacheslav@exquizite.app" },
+          { "label": "Kontak", "href": "mailto:viacheslav@calleo.app" },
           { "label": "Kebijakan Privasi", "to": "/privacy-policy" }
         ]
       },
@@ -208,22 +208,22 @@
         ]
       }
     },
-    "copyright": "© 2025 Exquizite. Kuasai bahasa, dengan caramu."
+    "copyright": "© 2025 Calleo. Kuasai bahasa, dengan caramu."
   },
   "privacyPolicy": {
-    "title": "Kebijakan Privasi Exquizite",
+    "title": "Kebijakan Privasi Calleo",
     "lastUpdated": "Terakhir Diperbarui: 7 Februari 2026",
     "sections": [
       {
         "title": "Pendahuluan",
-        "content": "Selamat datang di Exquizite, aplikasi pembelajaran bahasa. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, mengungkapkan, dan melindungi informasimu saat menggunakan aplikasi seluler dan layanan web kami (secara kolektif disebut \"Aplikasi\"). Silakan baca kebijakan privasi ini dengan saksama. Jika kamu tidak setuju dengan ketentuan kebijakan privasi ini, mohon jangan mengakses Aplikasi."
+        "content": "Selamat datang di Calleo, aplikasi pembelajaran bahasa. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, mengungkapkan, dan melindungi informasimu saat menggunakan aplikasi seluler dan layanan web kami (secara kolektif disebut \"Aplikasi\"). Silakan baca kebijakan privasi ini dengan saksama. Jika kamu tidak setuju dengan ketentuan kebijakan privasi ini, mohon jangan mengakses Aplikasi."
       },
       {
         "title": "Informasi yang Kami Kumpulkan",
         "subsections": [
           {
             "title": "Informasi Pribadi",
-            "intro": "Saat membuat akun di Exquizite, kami mengumpulkan:",
+            "intro": "Saat membuat akun di Calleo, kami mengumpulkan:",
             "items": [
               { "bold": "Alamat Email", "text": "Digunakan untuk pembuatan akun, autentikasi, dan komunikasi" },
               { "bold": "ID Pengguna", "text": "Pengenal unik yang dibuat secara otomatis untuk autentikasi dan asosiasi data" },
@@ -340,7 +340,7 @@
           { "bold": "Penyedia Layanan", "text": "Dengan layanan pihak ketiga terpercaya (Supabase, OpenAI) seperti yang dijelaskan di atas" },
           { "bold": "Persyaratan Hukum", "text": "Jika diwajibkan oleh hukum, perintah pengadilan, atau peraturan pemerintah" },
           { "bold": "Transfer Bisnis", "text": "Dalam hal merger, akuisisi, atau penjualan aset (kamu akan diberitahu)" },
-          { "bold": "Keselamatan dan Keamanan", "text": "Untuk melindungi hak, properti, atau keselamatan Exquizite, pengguna kami, atau pihak lain" }
+          { "bold": "Keselamatan dan Keamanan", "text": "Untuk melindungi hak, properti, atau keselamatan Calleo, pengguna kami, atau pihak lain" }
         ]
       },
       {
@@ -373,7 +373,7 @@
               { "bold": "Penghapusan di Aplikasi", "text": "(segera hadir): Navigasi ke Pengaturan > Akun > Hapus Akun" },
               {
                 "bold": "Permintaan melalui Email",
-                "text": "Hubungi kami di viacheslav@exquizite.app dengan subjek \"Data Deletion Request\"",
+                "text": "Hubungi kami di viacheslav@calleo.app dengan subjek \"Data Deletion Request\"",
                 "subItems": [
                   "Sertakan alamat email terdaftarmu",
                   "Kami akan memverifikasi identitasmu dan menghapus semua data dalam 30 hari",
@@ -384,7 +384,7 @@
           },
           {
             "title": "Mengekspor Datamu",
-            "description": "Untuk meminta salinan datamu, hubungi kami di viacheslav@exquizite.app dengan subjek \"Data Export Request\""
+            "description": "Untuk meminta salinan datamu, hubungi kami di viacheslav@calleo.app dengan subjek \"Data Export Request\""
           },
           {
             "title": "Mode Tamu",
@@ -398,7 +398,7 @@
       },
       {
         "title": "Privasi Anak-anak",
-        "content": "Exquizite ditujukan untuk pengguna berusia 13 tahun ke atas. Kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun. Jika kamu adalah orang tua atau wali dan percaya bahwa anakmu telah memberikan informasi pribadi kepada kami, silakan hubungi kami di viacheslav@exquizite.app, dan kami akan menghapus informasi tersebut segera."
+        "content": "Calleo ditujukan untuk pengguna berusia 13 tahun ke atas. Kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun. Jika kamu adalah orang tua atau wali dan percaya bahwa anakmu telah memberikan informasi pribadi kepada kami, silakan hubungi kami di viacheslav@calleo.app, dan kami akan menghapus informasi tersebut segera."
       },
       {
         "title": "Transfer Data Internasional",
@@ -425,14 +425,14 @@
       },
       {
         "title": "Persetujuanmu",
-        "content": "Dengan menggunakan Exquizite, kamu menyetujui Kebijakan Privasi ini dan menyetujui ketentuannya."
+        "content": "Dengan menggunakan Calleo, kamu menyetujui Kebijakan Privasi ini dan menyetujui ketentuannya."
       },
       {
         "title": "Hubungi Kami",
         "intro": "Jika kamu memiliki pertanyaan, kekhawatiran, atau permintaan mengenai Kebijakan Privasi ini atau datamu, silakan hubungi kami:",
         "contactInfo": {
-          "email": "viacheslav@exquizite.app",
-          "developer": "Tim Pengembangan Exquizite",
+          "email": "viacheslav@calleo.app",
+          "developer": "Tim Pengembangan Calleo",
           "responseTime": "Kami bertujuan merespons semua pertanyaan dalam 7 hari kerja."
         }
       }
@@ -446,17 +446,17 @@
         { "label": "Di mana disimpan", "value": "Server cloud Supabase (didukung AWS)" },
         { "label": "Pihak ketiga", "value": "Supabase (database), OpenAI (pembuatan AI - tidak ada data pribadi yang dikirim)" },
         { "label": "Hakmu", "value": "Akses, ubah, hapus datamu kapan saja" },
-        { "label": "Kontak", "value": "viacheslav@exquizite.app" }
+        { "label": "Kontak", "value": "viacheslav@calleo.app" }
       ],
-      "thankYou": "Terima kasih telah mempercayakan perjalanan belajar bahasamu kepada Exquizite!"
+      "thankYou": "Terima kasih telah mempercayakan perjalanan belajar bahasamu kepada Calleo!"
     }
   },
   "support": {
-    "title": "Dukungan Exquizite",
-    "subtitle": "Selamat datang di Dukungan Exquizite! Temukan jawaban untuk pertanyaan umum dan dapatkan bantuan tentang aplikasi.",
-    "contactEmail": "viacheslav@exquizite.app",
+    "title": "Dukungan Calleo",
+    "subtitle": "Selamat datang di Dukungan Calleo! Temukan jawaban untuk pertanyaan umum dan dapatkan bantuan tentang aplikasi.",
+    "contactEmail": "viacheslav@calleo.app",
     "lastUpdated": "Terakhir diperbarui: 7 Februari 2026",
-    "thankYou": "Terima kasih sudah menggunakan Exquizite! Selamat belajar!",
+    "thankYou": "Terima kasih sudah menggunakan Calleo! Selamat belajar!",
     "toc": {
       "title": "Daftar Isi",
       "items": [
@@ -474,12 +474,12 @@
     "gettingStarted": {
       "title": "Memulai",
       "whatIs": {
-        "title": "Apa itu Exquizite?",
-        "content": "Exquizite adalah aplikasi pembelajaran bahasa yang membantumu menguasai kosakata melalui permainan interaktif dan kartu flash. Buat set kata khusus, berlatih dengan mode permainan yang menyenangkan, dan lacak progresmu."
+        "title": "Apa itu Calleo?",
+        "content": "Calleo adalah aplikasi pembelajaran bahasa yang membantumu menguasai kosakata melalui permainan interaktif dan kartu flash. Buat set kata khusus, berlatih dengan mode permainan yang menyenangkan, dan lacak progresmu."
       },
       "needAccount": {
         "title": "Apakah saya perlu akun?",
-        "intro": "Tidak! Kamu bisa menggunakan Exquizite dengan dua cara:",
+        "intro": "Tidak! Kamu bisa menggunakan Calleo dengan dua cara:",
         "options": [
           { "bold": "Mode Tamu", "text": "Gunakan aplikasi tanpa mendaftar. Set-mu disimpan secara lokal di perangkatmu saja." },
           { "bold": "Dengan Akun", "text": "Daftar dengan email untuk menyinkronkan set-mu di semua perangkat (iPhone, iPad, Android, Web)." }
@@ -488,7 +488,7 @@
       "howToStart": {
         "title": "Bagaimana cara memulai?",
         "steps": [
-          "Unduh Exquizite dari App Store atau Google Play",
+          "Unduh Calleo dari App Store atau Google Play",
           "Pilih \"Lanjutkan sebagai Tamu\" atau \"Daftar\"",
           "Pilih bahasa yang ingin dipelajari (misalnya Spanyol) dan bahasa ibu (misalnya Indonesia)",
           "Buat set kosakata pertamamu",
@@ -608,7 +608,7 @@
       "title": "Mode Permainan",
       "available": {
         "title": "Mode permainan apa saja yang tersedia?",
-        "intro": "Exquizite menawarkan 4 mode pembelajaran interaktif:",
+        "intro": "Calleo menawarkan 4 mode pembelajaran interaktif:",
         "modes": [
           { "bold": "Kartu Flash", "text": "Kartu balik klasik untuk menguji ingatanmu" },
           { "bold": "Kuis", "text": "Pertanyaan pilihan ganda untuk memperkuat pembelajaran" },
@@ -722,7 +722,7 @@
       "title": "Pengaturan & Preferensi",
       "appLanguage": {
         "title": "Bagaimana cara mengubah bahasa aplikasi (antarmuka)?",
-        "intro": "Exquizite mendukung 45+ bahasa untuk antarmuka:",
+        "intro": "Calleo mendukung 45+ bahasa untuk antarmuka:",
         "steps": [
           "Buka Pengaturan",
           "Ketuk \"Bahasa Aplikasi\"",
@@ -752,7 +752,7 @@
       },
       "tour": {
         "title": "Apa itu Tur Pertama Kali?",
-        "intro": "Saat pertama kali menggunakan Exquizite, tur interaktif akan memandumu melalui fitur utama. Untuk memulai ulang tur:",
+        "intro": "Saat pertama kali menggunakan Calleo, tur interaktif akan memandumu melalui fitur utama. Untuk memulai ulang tur:",
         "steps": [
           "Buka Pengaturan",
           "Ketuk \"Mulai Ulang Tur\"",
@@ -782,10 +782,10 @@
           "Paksa tutup aplikasi dan buka kembali",
           "Mulai ulang perangkatmu",
           "Periksa pembaruan di App Store/Play Store",
-          "Bersihkan cache aplikasi (Pengaturan > Aplikasi > Exquizite > Bersihkan Cache di Android)",
+          "Bersihkan cache aplikasi (Pengaturan > Aplikasi > Calleo > Bersihkan Cache di Android)",
           "Instal ulang aplikasi (Catatan: Data Mode Tamu akan hilang!)"
         ],
-        "note": "Jika masalah berlanjut, hubungi kami di viacheslav@exquizite.app dengan model perangkat, versi OS, versi aplikasi, dan deskripsi masalah."
+        "note": "Jika masalah berlanjut, hubungi kami di viacheslav@calleo.app dengan model perangkat, versi OS, versi aplikasi, dan deskripsi masalah."
       },
       "aiNotWorking": {
         "title": "Saran AI tidak berfungsi",
@@ -873,7 +873,7 @@
         "title": "Bagaimana cara mengunduh data saya?",
         "intro": "Untuk meminta salinan datamu:",
         "steps": [
-          "Email viacheslav@exquizite.app dengan subjek \"Data Export Request\"",
+          "Email viacheslav@calleo.app dengan subjek \"Data Export Request\"",
           "Sertakan alamat email terdaftarmu",
           "Kami akan mengirim file berisi semua set kosakata dan info akunmu dalam 7 hari kerja"
         ]
@@ -882,7 +882,7 @@
         "title": "Bagaimana cara menghapus akun dan data saya?",
         "label": "Penghapusan Permanen:",
         "steps": [
-          "Email viacheslav@exquizite.app dengan subjek \"Data Deletion Request\"",
+          "Email viacheslav@calleo.app dengan subjek \"Data Deletion Request\"",
           "Sertakan alamat email terdaftarmu",
           "Kami akan memverifikasi identitasmu dan menghapus semua data dalam 30 hari"
         ],
@@ -899,17 +899,17 @@
       "categories": [
         {
           "title": "Dukungan Umum",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "responseTime": "Dalam 2-3 hari kerja"
         },
         {
           "title": "Permintaan Privasi & Data",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "responseTime": "Dalam 7 hari kerja"
         },
         {
           "title": "Laporan Bug & Permintaan Fitur",
-          "email": "viacheslav@exquizite.app",
+          "email": "viacheslav@calleo.app",
           "subject": "\"Bug Report\" atau \"Feature Request\"",
           "includeItems": [
             "Model perangkat dan versi OS (misalnya iPhone 14, iOS 17.2)",
@@ -924,23 +924,23 @@
       "title": "Pertanyaan yang Sering Diajukan",
       "items": [
         {
-          "q": "Apakah Exquizite gratis?",
-          "a": "Ya! Exquizite sepenuhnya gratis tanpa iklan atau pembelian dalam aplikasi. Semua fitur tersedia untuk semua pengguna."
+          "q": "Apakah Calleo gratis?",
+          "a": "Ya! Calleo sepenuhnya gratis tanpa iklan atau pembelian dalam aplikasi. Semua fitur tersedia untuk semua pengguna."
         },
         {
-          "q": "Di platform apa saja Exquizite tersedia?",
-          "a": "iOS: iPhone dan iPad (iOS 13+), Android: Ponsel dan tablet (Android 6.0+), Web: app.exquizite.com (segera hadir)"
+          "q": "Di platform apa saja Calleo tersedia?",
+          "a": "iOS: iPhone dan iPad (iOS 13+), Android: Ponsel dan tablet (Android 6.0+), Web: app.calleo.com (segera hadir)"
         },
         {
           "q": "Bisakah saya belajar beberapa bahasa sekaligus?",
           "a": "Ya! Kamu bisa membuat set untuk pasangan bahasa yang berbeda. Preferensi bahasa globalmu hanya default; setiap set bisa memiliki bahasanya sendiri."
         },
         {
-          "q": "Bisakah saya menggunakan Exquizite secara offline?",
+          "q": "Bisakah saya menggunakan Calleo secara offline?",
           "a": "Mode Tamu: Ya, sepenuhnya offline setelah unduhan awal. Dengan Akun: Memerlukan internet untuk sinkronisasi awal, kemudian akses offline terbatas (hanya data yang di-cache). Kami sedang mengerjakan mode offline penuh dengan sinkronisasi untuk pengguna akun!"
         },
         {
-          "q": "Apakah Exquizite akan selalu gratis?",
+          "q": "Apakah Calleo akan selalu gratis?",
           "a": "Ya! Misi utama kami adalah membuat pembelajaran bahasa bisa diakses semua orang. Kami mungkin memperkenalkan fitur premium opsional di masa depan, tapi aplikasi inti akan selalu gratis."
         }
       ]
