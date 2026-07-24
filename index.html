@@ -26,6 +26,23 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://calleo.xyz/" />
 
+    <!-- Language alternates -->
+    <link rel="alternate" hreflang="en" href="https://calleo.xyz/" />
+    <link rel="alternate" hreflang="de" href="https://calleo.xyz/de" />
+    <link rel="alternate" hreflang="es" href="https://calleo.xyz/es" />
+    <link rel="alternate" hreflang="fr" href="https://calleo.xyz/fr" />
+    <link rel="alternate" hreflang="it" href="https://calleo.xyz/it" />
+    <link rel="alternate" hreflang="pl" href="https://calleo.xyz/pl" />
+    <link rel="alternate" hreflang="uk" href="https://calleo.xyz/uk" />
+    <link rel="alternate" hreflang="ru" href="https://calleo.xyz/ru" />
+    <link rel="alternate" hreflang="zh" href="https://calleo.xyz/zh" />
+    <link rel="alternate" hreflang="ko" href="https://calleo.xyz/ko" />
+    <link rel="alternate" hreflang="ar" href="https://calleo.xyz/ar" />
+    <link rel="alternate" hreflang="pt" href="https://calleo.xyz/pt" />
+    <link rel="alternate" hreflang="tr" href="https://calleo.xyz/tr" />
+    <link rel="alternate" hreflang="id" href="https://calleo.xyz/id" />
+    <link rel="alternate" hreflang="x-default" href="https://calleo.xyz/" />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://calleo.xyz/" />
@@ -104,58 +121,66 @@
     }
     </script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Rubik', 'sans-serif'],
-              display: ['"Dela Gothic One"', 'sans-serif'],
-              mono: ['"JetBrains Mono"', 'monospace'],
-            },
-            colors: {
-              ink: '#0A0A0A',
-              paper: '#FFFFFF',
-              cream: '#F6F5F1',
-              accent: {
-                DEFAULT: '#FF3D0D',
-                hover: '#ff5a30',
-              },
-            },
-            borderRadius: {
-              card: '24px',
-              button: '15px',
-            },
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need an account to use Calleo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No! Start learning immediately with guest mode. Create an account later to sync across devices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many languages are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Over 40 languages for both learning content and app interface localization."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the app work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the iOS app supports offline access to your downloaded word sets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use Calleo on my computer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely! The web app offers a desktop-optimized experience at app.calleo.xyz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my data secure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all data is securely stored and synced via Supabase with industry-standard security practices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I share my word sets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Generate a shareable link for any set. Others can view and import it into their own account."
           }
         }
-      }
+      ]
+    }
     </script>
-    <style>
-      html { scroll-behavior: smooth; }
-      body { -webkit-font-smoothing: antialiased; }
-      /* Hide scrollbar for gallery */
-      .no-scrollbar::-webkit-scrollbar {
-        display: none;
-      }
-      .no-scrollbar {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+  </head>
   <body class="bg-paper text-ink antialiased">
     <div id="root"></div>
   <script type="module" src="/index.tsx"></script>

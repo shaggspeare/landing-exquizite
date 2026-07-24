@@ -1,7 +1,9 @@
 import React from 'react';
 import { useData } from '../hooks/useData';
+import { useSeo } from '../hooks/useSeo';
 
 const PrivacyPolicy: React.FC = () => {
+  useSeo('privacy-policy');
   const data = useData();
   const d = data.privacyPolicy;
 

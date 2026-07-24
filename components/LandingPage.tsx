@@ -8,8 +8,10 @@ import Testimonials from './Testimonials';
 import Pricing from './Pricing';
 import FAQ from './FAQ';
 import DownloadCTA from './DownloadCTA';
+import { useSeo } from '../hooks/useSeo';
 
 const LandingPage: React.FC = () => {
+  useSeo('home');
   return (
     <main>
       <Hero />

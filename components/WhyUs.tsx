@@ -41,6 +41,10 @@ const WhyUs: React.FC = () => {
                <img
                  src={d.image.src}
                  alt={d.image.alt}
+                 width={1290}
+                 height={2796}
+                 loading="lazy"
+                 decoding="async"
                  className="w-full h-auto block"
                />
              </div>

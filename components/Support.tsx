@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { useLanguagePrefix } from '../hooks/useLanguagePrefix';
+import { useSeo } from '../hooks/useSeo';
 
 const Support: React.FC = () => {
+  useSeo('support');
   const data = useData();
   const d = data.support;
   const prefix = useLanguagePrefix();

@@ -1,0 +1,35 @@
+# Calleo
+
+> Calleo is a language-learning app for creating custom vocabulary word sets and practicing them through interactive games. It supports 40+ languages, generates word pairs with AI, and syncs progress across iOS and web.
+
+Calleo is free to use (Free Forever plan). It is available as a native iOS app and a web app, with data synced across both via Supabase.
+
+## Product
+
+- [Homepage](https://calleo.xyz/): overview, features, pricing, FAQ
+- [Web App](https://app.calleo.xyz/): use Calleo directly in the browser, no install required
+- [iOS App](https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720): native app on the App Store
+
+## Key features
+
+- AI-powered word generation: instantly generate vocabulary word pairs and translations for any topic
+- 4 interactive learning modes: Flashcards, Match Game, Quiz Mode, Fill in the Blank
+- Word Tinder: swipe-based quick review of known/unknown words
+- Custom word sets: create, edit, and organize vocabulary lists manually or via AI
+- Share & Discover: generate shareable links to word sets and browse community sets
+- 40+ languages supported, with full interface localization
+- Cross-platform sync between iOS and web (guest mode available, no account required to start)
+- Privacy-first: user data is stored securely via Supabase
+
+## Pricing
+
+Calleo is free forever. The free plan includes unlimited word sets, all 4 game modes, AI word generation, sharing, and cross-platform sync. No credit card required.
+
+## Support & policies
+
+- [Support / Help Center](https://calleo.xyz/support): getting started, account management, creating sets, game modes, sharing, settings, troubleshooting
+- [Privacy Policy](https://calleo.xyz/privacy-policy): what data is collected, third-party sharing, data deletion
+
+## Localization
+
+The marketing site is available in 14 languages (English, German, Spanish, French, Italian, Polish, Ukrainian, Russian, Chinese, Korean, Arabic, Portuguese, Turkish, Indonesian) at `/`, `/de`, `/es`, `/fr`, `/it`, `/pl`, `/uk`, `/ru`, `/zh`, `/ko`, `/ar`, `/pt`, `/tr`, `/id` respectively (English has no path prefix).

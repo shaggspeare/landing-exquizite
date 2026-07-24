@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   return (
     <section className="relative pt-32 pb-16 lg:pt-48 lg:pb-28 overflow-hidden bg-paper">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-[1.2fr,1fr] gap-8 lg:gap-20 items-center">
+        <div className="grid lg:grid-cols-[1.2fr_1fr] gap-8 lg:gap-20 items-center">
 
           {/* Left Side - Text Content */}
           <div className="text-center lg:text-left">
@@ -50,6 +50,10 @@ const Hero: React.FC = () => {
                 <img
                   src={d.images.dashboard.src}
                   alt={d.images.dashboard.alt}
+                  width={1290}
+                  height={2796}
+                  loading="eager"
+                  fetchPriority="high"
                   className="w-full h-auto block"
                 />
              </div>
@@ -61,6 +65,10 @@ const Hero: React.FC = () => {
                 <img
                   src={d.images.gameModes.src}
                   alt={d.images.gameModes.alt}
+                  width={1290}
+                  height={2796}
+                  loading="eager"
+                  fetchPriority="high"
                   className="w-full h-auto block"
                 />
              </div>

@@ -25,6 +25,10 @@ const ScreenshotGallery: React.FC = () => {
                  <img
                     src={shot.src}
                     alt={shot.alt}
+                    width={1290}
+                    height={2796}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-auto"
                  />
                </div>

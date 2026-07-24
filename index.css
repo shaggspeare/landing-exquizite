@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Rubik', sans-serif;
+  --font-display: 'Dela Gothic One', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-ink: #0A0A0A;
+  --color-paper: #FFFFFF;
+  --color-cream: #F6F5F1;
+  --color-accent: #FF3D0D;
+  --color-accent-hover: #ff5a30;
+
+  --radius-card: 24px;
+  --radius-button: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbar for gallery */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

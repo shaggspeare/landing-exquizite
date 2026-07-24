@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16 items-center">
           <Link to={prefix || '/'} className="flex-shrink-0 flex items-center gap-2.5 cursor-pointer">
             <div className="w-8 h-8 rounded-lg overflow-hidden">
-              <img src="/images/calleo-icon.png" alt="Calleo Logo" className="w-full h-full object-cover" />
+              <img src="/images/calleo-icon.png" alt="Calleo Logo" width={128} height={128} loading="eager" className="w-full h-full object-cover" />
             </div>
             <span className="font-display text-lg tracking-tight text-ink">{d.brandName}</span>
           </Link>

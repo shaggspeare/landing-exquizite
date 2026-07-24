@@ -57,6 +57,9 @@ i18n
       id: { translation: id },
     },
     fallbackLng: 'en',
+    supportedLngs: languageCodes,
+    nonExplicitSupportedLngs: true,
+    load: 'languageOnly',
     initImmediate: false,
     interpolation: {
       escapeValue: false,
@@ -64,6 +67,7 @@ i18n
     detection: {
       order: ['path', 'localStorage', 'navigator'],
       lookupFromPathIndex: 0,
+      convertDetectedLanguage: (lng: string) => lng.split('-')[0],
     },
   });
 
