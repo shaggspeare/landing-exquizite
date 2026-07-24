@@ -60,7 +60,7 @@ const PrivacyPolicy: React.FC = () => {
             {sub.note && <p className="text-slate-600 mt-3 italic">{sub.note}</p>}
             {sub.privacyUrl && (
               <p className="text-slate-600 mt-2">
-                <a href={sub.privacyUrl} target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline">
+                <a href={sub.privacyUrl} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
                   {sub.privacyUrl}
                 </a>
               </p>
@@ -91,7 +91,7 @@ const PrivacyPolicy: React.FC = () => {
 
         {section.contactInfo && (
           <div className="mt-4 text-slate-600 space-y-2">
-            <p><strong>Email</strong>: <a href={`mailto:${section.contactInfo.email}`} className="text-primary-600 hover:underline">{section.contactInfo.email}</a></p>
+            <p><strong>Email</strong>: <a href={`mailto:${section.contactInfo.email}`} className="text-accent hover:underline">{section.contactInfo.email}</a></p>
             <p><strong>Developer</strong>: {section.contactInfo.developer}</p>
             <p><strong>Response Time</strong>: {section.contactInfo.responseTime}</p>
           </div>

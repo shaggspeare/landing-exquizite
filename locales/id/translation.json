@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Mode Kuis Aplikasi Calleo" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Layar Mode Pembelajaran" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "Layar Set Saya" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "Dasbor" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "Mode Pembelajaran" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Mode Kuis Aplikasi Calleo" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "Bertenaga AI",
         "description": "Buat pasangan kata secara instan dan dapatkan petunjuk cerdas.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "Kata yang Dihasilkan AI" }
+        "image": { "src": "/images/ai-generation.png", "alt": "Kata yang Dihasilkan AI" }
       },
       "languages": {
         "title": "40+ Bahasa",
@@ -108,7 +108,7 @@
         "description": "Dibangun dengan teknologi modern untuk performa mulus di setiap platform."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Mode Cocokkan Calleo" }
+    "image": { "src": "/images/added-words.png", "alt": "Kata yang Ditambahkan" }
   },
   "testimonials": {
     "sectionTitle": "Dicintai oleh Para Pelajar",
@@ -134,13 +134,14 @@
     "sectionTitle": "Jelajahi Aplikasinya",
     "sectionSubtitle": "Lihat lebih dekat mode pembelajaran interaktif kami.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "Pembuatan Kata dengan AI" },
-      { "src": "/images/added-words.PNG", "alt": "Kata yang Ditambahkan" },
-      { "src": "/images/learning-modes.PNG", "alt": "Mode Pembelajaran" },
-      { "src": "/images/my-sets.PNG", "alt": "Set Saya" },
-      { "src": "/images/match-mode.PNG", "alt": "Permainan Cocokkan" },
-      { "src": "/images/quiz.PNG", "alt": "Mode Kuis" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "Isi Bagian Kosong" }
+      { "src": "/images/ai-generation.png", "alt": "Pembuatan Kata dengan AI" },
+      { "src": "/images/added-words.png", "alt": "Kata yang Ditambahkan" },
+      { "src": "/images/learning-modes.png", "alt": "Mode Pembelajaran" },
+      { "src": "/images/my-sets.png", "alt": "Set Saya" },
+      { "src": "/images/dashboard.png", "alt": "Dasbor" },
+      { "src": "/images/create-set.png", "alt": "Buat set" },
+      { "src": "/images/quiz.png", "alt": "Mode Kuis" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Modalità Quiz di Calleo" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Schermata Modalità di Apprendimento" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "Schermata I Miei Set" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "Dashboard" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "Modalità di Apprendimento" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Modalità Quiz di Calleo" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "Basato sull'IA",
         "description": "Genera coppie di parole istantaneamente e ricevi suggerimenti intelligenti.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "Parole Generate dall'IA" }
+        "image": { "src": "/images/ai-generation.png", "alt": "Parole Generate dall'IA" }
       },
       "languages": {
         "title": "40+ Lingue",
@@ -108,7 +108,7 @@
         "description": "Costruito con tecnologia moderna per prestazioni fluide su ogni piattaforma."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Modalità Abbinamento Calleo" }
+    "image": { "src": "/images/added-words.png", "alt": "Parole Aggiunte" }
   },
   "testimonials": {
     "sectionTitle": "Amato dagli Studenti",
@@ -134,13 +134,14 @@
     "sectionTitle": "Scopri l'App",
     "sectionSubtitle": "Dai un'occhiata più da vicino alle nostre modalità di apprendimento interattive.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "Generazione Parole con IA" },
-      { "src": "/images/added-words.PNG", "alt": "Parole Aggiunte" },
-      { "src": "/images/learning-modes.PNG", "alt": "Modalità di Apprendimento" },
-      { "src": "/images/my-sets.PNG", "alt": "I Miei Set" },
-      { "src": "/images/match-mode.PNG", "alt": "Gioco Abbinamento" },
-      { "src": "/images/quiz.PNG", "alt": "Modalità Quiz" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "Completa gli Spazi" }
+      { "src": "/images/ai-generation.png", "alt": "Generazione Parole con IA" },
+      { "src": "/images/added-words.png", "alt": "Parole Aggiunte" },
+      { "src": "/images/learning-modes.png", "alt": "Modalità di Apprendimento" },
+      { "src": "/images/my-sets.png", "alt": "I Miei Set" },
+      { "src": "/images/dashboard.png", "alt": "Dashboard" },
+      { "src": "/images/create-set.png", "alt": "Crea set" },
+      { "src": "/images/quiz.png", "alt": "Modalità Quiz" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

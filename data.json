@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Calleo App Quiz Mode" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Learning Modes Screen" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "My Sets Screen" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "Dashboard" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "Learning Modes" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Calleo App Quiz Mode" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "AI-Powered",
         "description": "Generate word pairs instantly and get smart hints.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "AI Generated Words" }
+        "image": { "src": "/images/ai-generation.png", "alt": "AI Generated Words" }
       },
       "languages": {
         "title": "40+ Languages",
@@ -108,7 +108,7 @@
         "description": "Built with modern technology for smooth performance on every platform."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Calleo Match Mode" }
+    "image": { "src": "/images/added-words.png", "alt": "Added Words" }
   },
   "testimonials": {
     "sectionTitle": "Loved by Learners",
@@ -134,13 +134,14 @@
     "sectionTitle": "Experience the App",
     "sectionSubtitle": "Take a closer look at our interactive learning modes.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "AI Word Generation" },
-      { "src": "/images/added-words.PNG", "alt": "Added Words" },
-      { "src": "/images/learning-modes.PNG", "alt": "Learning Modes" },
-      { "src": "/images/my-sets.PNG", "alt": "My Sets" },
-      { "src": "/images/match-mode.PNG", "alt": "Match Game" },
-      { "src": "/images/quiz.PNG", "alt": "Quiz Mode" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "Fill in the Blank" }
+      { "src": "/images/ai-generation.png", "alt": "AI Word Generation" },
+      { "src": "/images/added-words.png", "alt": "Added Words" },
+      { "src": "/images/learning-modes.png", "alt": "Learning Modes" },
+      { "src": "/images/my-sets.png", "alt": "My Sets" },
+      { "src": "/images/dashboard.png", "alt": "Dashboard" },
+      { "src": "/images/create-set.png", "alt": "Create a Set" },
+      { "src": "/images/quiz.png", "alt": "Quiz Mode" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

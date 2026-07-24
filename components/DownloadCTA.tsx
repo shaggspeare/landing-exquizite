@@ -8,33 +8,28 @@ const DownloadCTA: React.FC = () => {
   const d = data.downloadCTA;
 
   return (
-    <section id="download" className="py-24 bg-white">
+    <section id="download" className="py-20 md:py-28 bg-paper">
        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-         <div className="bg-primary-600 rounded-3xl p-8 md:p-16 text-center text-white relative overflow-hidden shadow-2xl">
-           
-           {/* Decorative circles */}
-           <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 rounded-full bg-primary-500 opacity-50 blur-3xl"></div>
-           <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-indigo-600 opacity-50 blur-3xl"></div>
-           
+         <div className="bg-accent rounded-card p-8 md:p-16 text-center text-white relative overflow-hidden">
            <div className="relative z-10">
-             <h2 className="text-3xl md:text-5xl font-extrabold mb-6">{d.title}</h2>
-             <p className="text-lg md:text-xl text-primary-100 mb-10 max-w-2xl mx-auto">
+             <h2 className="font-display text-3xl md:text-5xl tracking-[-0.02em] mb-6">{d.title}</h2>
+             <p className="text-lg md:text-xl text-white/85 mb-10 max-w-2xl mx-auto">
                {d.subtitle}
              </p>
-             
+
              <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <AppStoreBadge url={d.appStoreUrl} height={56} />
+              <AppStoreBadge url={d.appStoreUrl} height={54} />
               <a
                 href={d.webAppUrl}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-700 text-white border border-primary-500 rounded-xl font-bold hover:bg-primary-800 transition-transform hover:-translate-y-1 shadow-lg group"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-ink text-white rounded-full font-bold hover:bg-ink/85 transition-colors group"
               >
-                <Globe size={24} />
+                <Globe size={20} />
                 {d.webButton}
-                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
-            
-            <p className="mt-8 text-sm text-primary-200 opacity-80">
+
+            <p className="mt-8 text-sm text-white/70">
               {d.disclaimer}
             </p>
            </div>

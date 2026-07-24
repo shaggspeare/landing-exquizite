@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "وضع الاختبار في تطبيق Calleo" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "شاشة أوضاع التعلم" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "شاشة مجموعاتي" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "لوحة التحكم" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "أوضاع التعلم" },
+      "quiz": { "src": "/images/quiz.png", "alt": "وضع الاختبار في تطبيق Calleo" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "مدعوم بالذكاء الاصطناعي",
         "description": "أنشئ أزواج الكلمات فوراً واحصل على تلميحات ذكية.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "كلمات مولّدة بالذكاء الاصطناعي" }
+        "image": { "src": "/images/ai-generation.png", "alt": "كلمات مولّدة بالذكاء الاصطناعي" }
       },
       "languages": {
         "title": "أكثر من 40 لغة",
@@ -108,7 +108,7 @@
         "description": "مبني بتقنية حديثة لأداء سلس على كل منصة."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "وضع المطابقة في Calleo" }
+    "image": { "src": "/images/added-words.png", "alt": "الكلمات المضافة" }
   },
   "testimonials": {
     "sectionTitle": "محبوب من المتعلمين",
@@ -134,13 +134,14 @@
     "sectionTitle": "استكشف التطبيق",
     "sectionSubtitle": "ألقِ نظرة أقرب على أوضاع التعلم التفاعلية.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "توليد الكلمات بالذكاء الاصطناعي" },
-      { "src": "/images/added-words.PNG", "alt": "الكلمات المضافة" },
-      { "src": "/images/learning-modes.PNG", "alt": "أوضاع التعلم" },
-      { "src": "/images/my-sets.PNG", "alt": "مجموعاتي" },
-      { "src": "/images/match-mode.PNG", "alt": "لعبة المطابقة" },
-      { "src": "/images/quiz.PNG", "alt": "وضع الاختبار" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "ملء الفراغات" }
+      { "src": "/images/ai-generation.png", "alt": "توليد الكلمات بالذكاء الاصطناعي" },
+      { "src": "/images/added-words.png", "alt": "الكلمات المضافة" },
+      { "src": "/images/learning-modes.png", "alt": "أوضاع التعلم" },
+      { "src": "/images/my-sets.png", "alt": "مجموعاتي" },
+      { "src": "/images/dashboard.png", "alt": "لوحة التحكم" },
+      { "src": "/images/create-set.png", "alt": "إنشاء مجموعة" },
+      { "src": "/images/quiz.png", "alt": "وضع الاختبار" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

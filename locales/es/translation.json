@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Modo Quiz de Calleo" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Pantalla de modos de aprendizaje" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "Pantalla Mis Sets" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "Panel principal" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "Modos de aprendizaje" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Modo Quiz de Calleo" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "Impulsado por IA",
         "description": "Genera pares de palabras al instante y obtén pistas inteligentes.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "Palabras generadas por IA" }
+        "image": { "src": "/images/ai-generation.png", "alt": "Palabras generadas por IA" }
       },
       "languages": {
         "title": "Más de 40 idiomas",
@@ -108,7 +108,7 @@
         "description": "Desarrollado con tecnología moderna para un rendimiento fluido en cada plataforma."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Modo Emparejar de Calleo" }
+    "image": { "src": "/images/added-words.png", "alt": "Palabras añadidas" }
   },
   "testimonials": {
     "sectionTitle": "Amado por los estudiantes",
@@ -134,13 +134,14 @@
     "sectionTitle": "Descubre la App",
     "sectionSubtitle": "Echa un vistazo más de cerca a nuestros modos de aprendizaje interactivos.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "Generación de palabras con IA" },
-      { "src": "/images/added-words.PNG", "alt": "Palabras añadidas" },
-      { "src": "/images/learning-modes.PNG", "alt": "Modos de aprendizaje" },
-      { "src": "/images/my-sets.PNG", "alt": "Mis Sets" },
-      { "src": "/images/match-mode.PNG", "alt": "Juego de emparejar" },
-      { "src": "/images/quiz.PNG", "alt": "Modo Quiz" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "Completar espacios" }
+      { "src": "/images/ai-generation.png", "alt": "Generación de palabras con IA" },
+      { "src": "/images/added-words.png", "alt": "Palabras añadidas" },
+      { "src": "/images/learning-modes.png", "alt": "Modos de aprendizaje" },
+      { "src": "/images/my-sets.png", "alt": "Mis Sets" },
+      { "src": "/images/dashboard.png", "alt": "Panel principal" },
+      { "src": "/images/create-set.png", "alt": "Crear set" },
+      { "src": "/images/quiz.png", "alt": "Modo Quiz" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

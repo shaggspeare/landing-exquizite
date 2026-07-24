@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Calleo 应用测验模式" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "学习模式界面" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "我的词汇集界面" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "仪表盘" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "学习模式" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Calleo 应用测验模式" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "AI 驱动",
         "description": "即时生成词汇对，获取智能提示。",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "AI 生成的词汇" }
+        "image": { "src": "/images/ai-generation.png", "alt": "AI 生成的词汇" }
       },
       "languages": {
         "title": "40+ 种语言",
@@ -108,7 +108,7 @@
         "description": "采用现代技术打造，在每个平台上都能流畅运行。"
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Calleo 配对模式" }
+    "image": { "src": "/images/added-words.png", "alt": "已添加的词汇" }
   },
   "testimonials": {
     "sectionTitle": "深受学习者喜爱",
@@ -134,13 +134,14 @@
     "sectionTitle": "体验应用",
     "sectionSubtitle": "近距离了解我们的互动学习模式。",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "AI 词汇生成" },
-      { "src": "/images/added-words.PNG", "alt": "已添加的词汇" },
-      { "src": "/images/learning-modes.PNG", "alt": "学习模式" },
-      { "src": "/images/my-sets.PNG", "alt": "我的词汇集" },
-      { "src": "/images/match-mode.PNG", "alt": "配对游戏" },
-      { "src": "/images/quiz.PNG", "alt": "测验模式" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "填空" }
+      { "src": "/images/ai-generation.png", "alt": "AI 词汇生成" },
+      { "src": "/images/added-words.png", "alt": "已添加的词汇" },
+      { "src": "/images/learning-modes.png", "alt": "学习模式" },
+      { "src": "/images/my-sets.png", "alt": "我的词汇集" },
+      { "src": "/images/dashboard.png", "alt": "仪表盘" },
+      { "src": "/images/create-set.png", "alt": "创建词组" },
+      { "src": "/images/quiz.png", "alt": "测验模式" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Calleo App Quiz-Modus" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Lernmodi-Bildschirm" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "Meine Sets-Bildschirm" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "Dashboard" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "Lernmodi" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Calleo App Quiz-Modus" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "KI-gestützt",
         "description": "Generiere Wortpaare sofort und erhalte intelligente Hinweise.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "KI-generierte Wörter" }
+        "image": { "src": "/images/ai-generation.png", "alt": "KI-generierte Wörter" }
       },
       "languages": {
         "title": "40+ Sprachen",
@@ -108,7 +108,7 @@
         "description": "Mit moderner Technologie für flüssige Performance auf jeder Plattform."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Calleo Zuordnungsmodus" }
+    "image": { "src": "/images/added-words.png", "alt": "Hinzugefügte Wörter" }
   },
   "testimonials": {
     "sectionTitle": "Von Lernenden geliebt",
@@ -134,13 +134,14 @@
     "sectionTitle": "Erlebe die App",
     "sectionSubtitle": "Wirf einen genaueren Blick auf unsere interaktiven Lernmodi.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "KI-Wortgenerierung" },
-      { "src": "/images/added-words.PNG", "alt": "Hinzugefügte Wörter" },
-      { "src": "/images/learning-modes.PNG", "alt": "Lernmodi" },
-      { "src": "/images/my-sets.PNG", "alt": "Meine Sets" },
-      { "src": "/images/match-mode.PNG", "alt": "Zuordnungsspiel" },
-      { "src": "/images/quiz.PNG", "alt": "Quiz-Modus" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "Lückentext" }
+      { "src": "/images/ai-generation.png", "alt": "KI-Wortgenerierung" },
+      { "src": "/images/added-words.png", "alt": "Hinzugefügte Wörter" },
+      { "src": "/images/learning-modes.png", "alt": "Lernmodi" },
+      { "src": "/images/my-sets.png", "alt": "Meine Sets" },
+      { "src": "/images/dashboard.png", "alt": "Dashboard" },
+      { "src": "/images/create-set.png", "alt": "Set erstellen" },
+      { "src": "/images/quiz.png", "alt": "Quiz-Modus" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

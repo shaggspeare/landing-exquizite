@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Calleo Uygulama Quiz Modu" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Öğrenme Modları Ekranı" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "Setlerim Ekranı" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "Kontrol paneli" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "Öğrenme Modları" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Calleo Uygulama Quiz Modu" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "Yapay Zeka Destekli",
         "description": "Anında kelime çiftleri oluşturun ve akıllı ipuçları alın.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "Yapay Zeka ile Üretilen Kelimeler" }
+        "image": { "src": "/images/ai-generation.png", "alt": "Yapay Zeka ile Üretilen Kelimeler" }
       },
       "languages": {
         "title": "40'tan Fazla Dil",
@@ -108,7 +108,7 @@
         "description": "Her platformda akıcı performans için modern teknolojiyle geliştirildi."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Calleo Eşleştirme Modu" }
+    "image": { "src": "/images/added-words.png", "alt": "Eklenen Kelimeler" }
   },
   "testimonials": {
     "sectionTitle": "Öğrenenler Tarafından Seviliyor",
@@ -134,13 +134,14 @@
     "sectionTitle": "Uygulamayı Keşfedin",
     "sectionSubtitle": "Etkileşimli öğrenme modlarımıza yakından bakın.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "Yapay Zeka Kelime Üretimi" },
-      { "src": "/images/added-words.PNG", "alt": "Eklenen Kelimeler" },
-      { "src": "/images/learning-modes.PNG", "alt": "Öğrenme Modları" },
-      { "src": "/images/my-sets.PNG", "alt": "Setlerim" },
-      { "src": "/images/match-mode.PNG", "alt": "Eşleştirme Oyunu" },
-      { "src": "/images/quiz.PNG", "alt": "Quiz Modu" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "Boşluk Doldurma" }
+      { "src": "/images/ai-generation.png", "alt": "Yapay Zeka Kelime Üretimi" },
+      { "src": "/images/added-words.png", "alt": "Eklenen Kelimeler" },
+      { "src": "/images/learning-modes.png", "alt": "Öğrenme Modları" },
+      { "src": "/images/my-sets.png", "alt": "Setlerim" },
+      { "src": "/images/dashboard.png", "alt": "Kontrol paneli" },
+      { "src": "/images/create-set.png", "alt": "Set oluşturma" },
+      { "src": "/images/quiz.png", "alt": "Quiz Modu" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

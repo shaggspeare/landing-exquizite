@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Calleo 앱 퀴즈 모드" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "학습 모드 화면" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "내 세트 화면" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "대시보드" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "학습 모드" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Calleo 앱 퀴즈 모드" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "AI 기반",
         "description": "단어 쌍을 즉시 생성하고 스마트한 힌트를 받으세요.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "AI 생성 단어" }
+        "image": { "src": "/images/ai-generation.png", "alt": "AI 생성 단어" }
       },
       "languages": {
         "title": "40개 이상의 언어",
@@ -108,7 +108,7 @@
         "description": "모든 플랫폼에서 부드러운 성능을 위해 최신 기술로 구축되었습니다."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Calleo 매칭 모드" }
+    "image": { "src": "/images/added-words.png", "alt": "추가된 단어" }
   },
   "testimonials": {
     "sectionTitle": "학습자들의 사랑을 받고 있습니다",
@@ -134,13 +134,14 @@
     "sectionTitle": "앱 체험하기",
     "sectionSubtitle": "인터랙티브 학습 모드를 자세히 살펴보세요.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "AI 단어 생성" },
-      { "src": "/images/added-words.PNG", "alt": "추가된 단어" },
-      { "src": "/images/learning-modes.PNG", "alt": "학습 모드" },
-      { "src": "/images/my-sets.PNG", "alt": "내 세트" },
-      { "src": "/images/match-mode.PNG", "alt": "매칭 게임" },
-      { "src": "/images/quiz.PNG", "alt": "퀴즈 모드" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "빈칸 채우기" }
+      { "src": "/images/ai-generation.png", "alt": "AI 단어 생성" },
+      { "src": "/images/added-words.png", "alt": "추가된 단어" },
+      { "src": "/images/learning-modes.png", "alt": "학습 모드" },
+      { "src": "/images/my-sets.png", "alt": "내 세트" },
+      { "src": "/images/dashboard.png", "alt": "대시보드" },
+      { "src": "/images/create-set.png", "alt": "세트 만들기" },
+      { "src": "/images/quiz.png", "alt": "퀴즈 모드" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

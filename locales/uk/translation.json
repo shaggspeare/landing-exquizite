@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Режим вікторини Calleo" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Екран режимів навчання" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "Екран Мої набори" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "Панель керування" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "Режими навчання" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Режим вікторини Calleo" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "На основі ШІ",
         "description": "Генеруй пари слів миттєво та отримуй розумні підказки.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "Слова згенеровані ШІ" }
+        "image": { "src": "/images/ai-generation.png", "alt": "Слова згенеровані ШІ" }
       },
       "languages": {
         "title": "40+ мов",
@@ -108,7 +108,7 @@
         "description": "Створений з використанням сучасних технологій для плавної роботи на будь-якій платформі."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Режим зіставлення Calleo" }
+    "image": { "src": "/images/added-words.png", "alt": "Додані слова" }
   },
   "testimonials": {
     "sectionTitle": "Улюблений серед учнів",
@@ -134,13 +134,14 @@
     "sectionTitle": "Відчуйте застосунок",
     "sectionSubtitle": "Погляньте ближче на наші інтерактивні режими навчання.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "Генерація слів ШІ" },
-      { "src": "/images/added-words.PNG", "alt": "Додані слова" },
-      { "src": "/images/learning-modes.PNG", "alt": "Режими навчання" },
-      { "src": "/images/my-sets.PNG", "alt": "Мої набори" },
-      { "src": "/images/match-mode.PNG", "alt": "Гра на зіставлення" },
-      { "src": "/images/quiz.PNG", "alt": "Режим вікторини" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "Заповнення пропусків" }
+      { "src": "/images/ai-generation.png", "alt": "Генерація слів ШІ" },
+      { "src": "/images/added-words.png", "alt": "Додані слова" },
+      { "src": "/images/learning-modes.png", "alt": "Режими навчання" },
+      { "src": "/images/my-sets.png", "alt": "Мої набори" },
+      { "src": "/images/dashboard.png", "alt": "Панель керування" },
+      { "src": "/images/create-set.png", "alt": "Створення набору" },
+      { "src": "/images/quiz.png", "alt": "Режим вікторини" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

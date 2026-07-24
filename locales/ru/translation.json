@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Режим викторины Calleo" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Экран режимов обучения" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "Экран моих наборов" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "Панель управления" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "Режимы обучения" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Режим викторины Calleo" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "На базе ИИ",
         "description": "Мгновенно генерируйте пары слов и получайте умные подсказки.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "Слова, сгенерированные ИИ" }
+        "image": { "src": "/images/ai-generation.png", "alt": "Слова, сгенерированные ИИ" }
       },
       "languages": {
         "title": "40+ языков",
@@ -108,7 +108,7 @@
         "description": "Создан на современных технологиях для плавной работы на любой платформе."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Режим совпадений Calleo" }
+    "image": { "src": "/images/added-words.png", "alt": "Добавленные слова" }
   },
   "testimonials": {
     "sectionTitle": "Любим учениками",
@@ -134,13 +134,14 @@
     "sectionTitle": "Познакомьтесь с приложением",
     "sectionSubtitle": "Рассмотрите поближе наши интерактивные режимы обучения.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "Генерация слов с ИИ" },
-      { "src": "/images/added-words.PNG", "alt": "Добавленные слова" },
-      { "src": "/images/learning-modes.PNG", "alt": "Режимы обучения" },
-      { "src": "/images/my-sets.PNG", "alt": "Мои наборы" },
-      { "src": "/images/match-mode.PNG", "alt": "Игра на совпадение" },
-      { "src": "/images/quiz.PNG", "alt": "Режим викторины" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "Заполни пробел" }
+      { "src": "/images/ai-generation.png", "alt": "Генерация слов с ИИ" },
+      { "src": "/images/added-words.png", "alt": "Добавленные слова" },
+      { "src": "/images/learning-modes.png", "alt": "Режимы обучения" },
+      { "src": "/images/my-sets.png", "alt": "Мои наборы" },
+      { "src": "/images/dashboard.png", "alt": "Панель управления" },
+      { "src": "/images/create-set.png", "alt": "Создание набора" },
+      { "src": "/images/quiz.png", "alt": "Режим викторины" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

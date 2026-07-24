@@ -20,9 +20,9 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "quiz": { "src": "/images/quiz.PNG", "alt": "Tryb quizu Calleo" },
-      "learningModes": { "src": "/images/learning-modes.PNG", "alt": "Ekran trybów nauki" },
-      "mySets": { "src": "/images/my-sets.PNG", "alt": "Ekran Moje zestawy" }
+      "dashboard": { "src": "/images/dashboard.png", "alt": "Panel główny" },
+      "gameModes": { "src": "/images/learning-modes.png", "alt": "Tryby nauki" },
+      "quiz": { "src": "/images/quiz.png", "alt": "Tryb quizu Calleo" }
     }
   },
   "bentoFeatures": {
@@ -38,7 +38,7 @@
       "aiPowered": {
         "title": "Napedzane przez AI",
         "description": "Generuj pary slów natychmiast i otrzymuj inteligentne podpowiedzi.",
-        "image": { "src": "/images/ai-generation.PNG", "alt": "Slowa wygenerowane przez AI" }
+        "image": { "src": "/images/ai-generation.png", "alt": "Slowa wygenerowane przez AI" }
       },
       "languages": {
         "title": "40+ jezyków",
@@ -108,7 +108,7 @@
         "description": "Zbudowany z wykorzystaniem nowoczesnych technologii dla plynnego dzialania na kazdej platformie."
       }
     ],
-    "image": { "src": "/images/my-sets.PNG", "alt": "Tryb dopasowywania Calleo" }
+    "image": { "src": "/images/added-words.png", "alt": "Dodane slowa" }
   },
   "testimonials": {
     "sectionTitle": "Uwielbiany przez uczacych sie",
@@ -134,13 +134,14 @@
     "sectionTitle": "Poznaj aplikacje",
     "sectionSubtitle": "Przyjrzyj sie blizej naszym interaktywnym trybom nauki.",
     "screenshots": [
-      { "src": "/images/ai-generation.PNG", "alt": "Generowanie slów przez AI" },
-      { "src": "/images/added-words.PNG", "alt": "Dodane slowa" },
-      { "src": "/images/learning-modes.PNG", "alt": "Tryby nauki" },
-      { "src": "/images/my-sets.PNG", "alt": "Moje zestawy" },
-      { "src": "/images/match-mode.PNG", "alt": "Gra w dopasowywanie" },
-      { "src": "/images/quiz.PNG", "alt": "Tryb quizu" },
-      { "src": "/images/fill-in-blank.PNG", "alt": "Uzupelnianie luk" }
+      { "src": "/images/ai-generation.png", "alt": "Generowanie slów przez AI" },
+      { "src": "/images/added-words.png", "alt": "Dodane slowa" },
+      { "src": "/images/learning-modes.png", "alt": "Tryby nauki" },
+      { "src": "/images/my-sets.png", "alt": "Moje zestawy" },
+      { "src": "/images/dashboard.png", "alt": "Panel główny" },
+      { "src": "/images/create-set.png", "alt": "Tworzenie zestawu" },
+      { "src": "/images/quiz.png", "alt": "Tryb quizu" },
+      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
     ]
   },
   "pricing": {

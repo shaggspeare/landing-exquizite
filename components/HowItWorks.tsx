@@ -9,25 +9,26 @@ const HowItWorks: React.FC = () => {
   const steps = data.howItWorks.steps.map((step: any, i: number) => ({ icon: icons[i], ...step }));
 
   return (
-    <section id="how-it-works" className="py-12 md:py-24 bg-slate-50">
+    <section id="how-it-works" className="py-20 md:py-28 bg-paper">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-8 md:mb-16">
-          <h2 className="text-3xl font-extrabold text-slate-900 sm:text-4xl">{data.howItWorks.sectionTitle}</h2>
-          <p className="mt-4 text-xl text-slate-600">{data.howItWorks.sectionSubtitle}</p>
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="font-display text-3xl sm:text-4xl tracking-[-0.02em] text-ink">{data.howItWorks.sectionTitle}</h2>
+          <p className="mt-4 text-lg text-ink/60">{data.howItWorks.sectionSubtitle}</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {steps.map((step, idx) => (
-            <div key={idx} className="relative group">
-              <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-slate-100 h-full">
-                <div className="w-14 h-14 bg-primary-100 rounded-2xl flex items-center justify-center text-primary-600 mb-6 group-hover:scale-110 transition-transform">
-                  <step.icon size={28} />
+            <div key={idx} className="relative">
+              <div className="bg-cream rounded-card p-8 border-[1.5px] border-ink/12 h-full">
+                <div className="font-mono text-xs font-bold text-accent mb-4">0{idx + 1}</div>
+                <div className="w-12 h-12 rounded-full border-[1.5px] border-ink/20 flex items-center justify-center text-ink mb-5">
+                  <step.icon size={22} />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{step.title}</h3>
-                <p className="text-slate-600 leading-relaxed">{step.desc}</p>
+                <h3 className="text-lg font-extrabold text-ink mb-2 tracking-[-0.01em]">{step.title}</h3>
+                <p className="text-ink/60 text-sm leading-relaxed">{step.desc}</p>
               </div>
               {idx < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-1/2 -right-4 w-8 border-t-2 border-slate-300 border-dashed z-10"></div>
+                <div className="hidden lg:block absolute top-1/2 -right-3.5 w-7 border-t-[1.5px] border-ink/15 z-10"></div>
               )}
             </div>
           ))}

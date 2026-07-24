@@ -50,8 +50,8 @@
     <meta name="apple-mobile-web-app-title" content="Calleo" />
 
     <!-- Theme Color -->
-    <meta name="theme-color" content="#2563eb" />
-    <meta name="msapplication-TileColor" content="#2563eb" />
+    <meta name="theme-color" content="#0A0A0A" />
+    <meta name="msapplication-TileColor" content="#0A0A0A" />
 
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -90,7 +90,7 @@
         "@type": "Organization",
         "name": "Calleo"
       },
-      "screenshot": "https://calleo.xyz/images/quiz.PNG",
+      "screenshot": "https://calleo.xyz/images/quiz.png",
       "featureList": [
         "AI-Powered Word Generation",
         "4 Interactive Learning Modes",
@@ -105,41 +105,36 @@
     </script>
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <script>
       tailwind.config = {
         theme: {
           extend: {
             fontFamily: {
-              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              sans: ['Rubik', 'sans-serif'],
+              display: ['"Dela Gothic One"', 'sans-serif'],
+              mono: ['"JetBrains Mono"', 'monospace'],
             },
             colors: {
-              primary: {
-                50: '#eff6ff',
-                100: '#dbeafe',
-                200: '#bfdbfe',
-                300: '#93c5fd',
-                400: '#60a5fa',
-                500: '#3b82f6',
-                600: '#2563eb',
-                700: '#1d4ed8',
-                800: '#1e40af',
-                900: '#1e3a8a',
-              }
-            }
+              ink: '#0A0A0A',
+              paper: '#FFFFFF',
+              cream: '#F6F5F1',
+              accent: {
+                DEFAULT: '#FF3D0D',
+                hover: '#ff5a30',
+              },
+            },
+            borderRadius: {
+              card: '24px',
+              button: '15px',
+            },
           }
         }
       }
     </script>
     <style>
       html { scroll-behavior: smooth; }
-      .bento-card {
-        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-      }
-      .bento-card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-      }
+      body { -webkit-font-smoothing: antialiased; }
       /* Hide scrollbar for gallery */
       .no-scrollbar::-webkit-scrollbar {
         display: none;
@@ -161,7 +156,7 @@
 </script>
 <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-slate-50 text-slate-900 antialiased">
+  <body class="bg-paper text-ink antialiased">
     <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>

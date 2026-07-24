@@ -41,7 +41,7 @@ const Support: React.FC = () => {
             <h2 className="text-xl font-bold text-slate-900 mb-4">{d.toc.title}</h2>
             <ol className="list-decimal pl-6 space-y-2 text-slate-600">
               {d.toc.items.map((item: any, i: number) => (
-                <li key={i}><a href={`#${item.id}`} className="text-primary-600 hover:underline">{item.label}</a></li>
+                <li key={i}><a href={`#${item.id}`} className="text-accent hover:underline">{item.label}</a></li>
               ))}
             </ol>
           </div>
@@ -239,7 +239,7 @@ const Support: React.FC = () => {
               {d.privacyData.isSecure.items.map((item: string, i: number) => <li key={i}>{item}</li>)}
             </ul>
             <p className="text-slate-600 mb-6">
-              <Link to={`${prefix}/privacy-policy`} className="text-primary-600 hover:underline">Privacy Policy</Link>
+              <Link to={`${prefix}/privacy-policy`} className="text-accent hover:underline">Privacy Policy</Link>
             </p>
 
             <h3 className="text-xl font-semibold text-slate-900 mb-3">{d.privacyData.whatCollected.title}</h3>
@@ -274,7 +274,7 @@ const Support: React.FC = () => {
                 <div key={i} className="bg-slate-50 rounded-lg p-6">
                   <h3 className="text-xl font-semibold text-slate-900 mb-3">{cat.title}</h3>
                   <p className="text-slate-600 mb-2">
-                    <strong>Email</strong>: <a href={`mailto:${cat.email}`} className="text-primary-600 hover:underline">{cat.email}</a>
+                    <strong>Email</strong>: <a href={`mailto:${cat.email}`} className="text-accent hover:underline">{cat.email}</a>
                   </p>
                   <p className="text-slate-600">{cat.responseTime}</p>
                   {cat.subject && <p className="text-slate-600 mt-2"><strong>Subject</strong>: {cat.subject}</p>}
@@ -302,7 +302,7 @@ const Support: React.FC = () => {
           </section>
 
           {/* Tips for Learning */}
-          <section className="bg-primary-50 rounded-xl p-6 mb-8">
+          <section className="bg-cream rounded-xl p-6 mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">{d.learningTips.title}</h2>
             <div className="space-y-4 text-slate-600">
               {d.learningTips.tips.map((tip: any, i: number) => (
