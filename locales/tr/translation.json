@@ -258,6 +258,18 @@
       {
         "q": "Kelime setlerimi paylaşabilir miyim?",
         "a": "Evet! Herhangi bir set için paylaşılabilir bağlantı oluşturun. Diğerleri görüntüleyebilir ve koleksiyonlarına kopyalayabilir."
+      },
+      {
+        "q": "Calleo hangi oyun modlarını sunuyor?",
+        "a": "Altı: Bilgi Kartları, Eşleştirme, Quiz, Boşluk Doldurma, Dinleme ve Yazma. Dinleme modu tanımanız için bir kelime çalar; Yazma modu kelimeyi hafızandan yazmanı ister."
+      },
+      {
+        "q": "Wordwall'dan kelime listeleri içe aktarabilir miyim?",
+        "a": "Evet! Mevcut Wordwall setlerinizi doğrudan Calleo'ya aktarın ve hemen pratik yapmaya başlayın."
+      },
+      {
+        "q": "CEFR Öğrenme yolu nedir?",
+        "a": "Öğren, A1'den C2'ye tüm altı CEFR seviyesini kapsayan rehberli bir müfredattır. Bir sonraki seti otomatik olarak açmak için her quiz'i geçin."
       }
     ]
   },

@@ -64,5 +64,20 @@ export function useSeo(page: SeoPage) {
       setAttr(`link[hreflang="${code}"]`, 'href', localeUrl(code, page));
     });
     setAttr('link[hreflang="x-default"]', 'href', localeUrl('en', page));
+
+    if (page === 'home') {
+      const faqSchema = document.getElementById('faq-jsonld');
+      if (faqSchema) {
+        faqSchema.textContent = JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: data.faq.items.map((item: { q: string; a: string }) => ({
+            '@type': 'Question',
+            name: item.q,
+            acceptedAnswer: { '@type': 'Answer', text: item.a },
+          })),
+        });
+      }
+    }
   }, [page, lang, data]);
 }

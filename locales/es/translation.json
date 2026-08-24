@@ -258,6 +258,18 @@
       {
         "q": "¿Puedo compartir mis sets de palabras?",
         "a": "¡Sí! Genera un enlace compartible para cualquier set. Otros pueden verlo y copiarlo a su colección."
+      },
+      {
+        "q": "¿Qué modos de juego ofrece Calleo?",
+        "a": "Seis: Tarjetas, Emparejar, Quiz, Completar espacios, Escuchar y Escribir. Escuchar reproduce una palabra para que la identifiques; Escribir te pide escribir la palabra de memoria."
+      },
+      {
+        "q": "¿Puedo importar listas de palabras desde Wordwall?",
+        "a": "¡Sí! Importa tus sets de Wordwall directamente a Calleo y empieza a practicar de inmediato."
+      },
+      {
+        "q": "¿Qué es la ruta de aprendizaje del MCER?",
+        "a": "Aprender es un currículo guiado que abarca los seis niveles del MCER, de A1 a C2. Aprueba cada cuestionario para desbloquear automáticamente el siguiente set."
       }
     ]
   },

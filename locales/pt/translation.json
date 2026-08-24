@@ -258,6 +258,18 @@
       {
         "q": "Posso compartilhar meus conjuntos de palavras?",
         "a": "Sim! Gere um link compartilhável para qualquer conjunto. Outros podem visualizar e copiar para suas coleções."
+      },
+      {
+        "q": "Quais modos de jogo o Calleo oferece?",
+        "a": "Seis: Flashcards, Jogo da Memória, Quiz, Preencher Lacunas, Escuta e Escrita. Escuta reproduz uma palavra para você identificar; Escrita pede que você digite a palavra de memória."
+      },
+      {
+        "q": "Posso importar listas de palavras do Wordwall?",
+        "a": "Sim! Importe seus sets do Wordwall diretamente para o Calleo e comece a praticar na hora."
+      },
+      {
+        "q": "O que é o caminho de aprendizado do CEFR?",
+        "a": "Aprender é um currículo guiado que abrange os seis níveis do CEFR, de A1 a C2. Passe em cada quiz para desbloquear automaticamente o próximo set."
       }
     ]
   },

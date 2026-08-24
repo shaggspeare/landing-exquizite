@@ -258,6 +258,18 @@
       {
         "q": "Czy moge udostepniac swoje zestawy slów?",
         "a": "Tak! Wygeneruj link do udostepniania dla dowolnego zestawu. Inni moga go wyswietlic i skopiowac do swojej kolekcji."
+      },
+      {
+        "q": "Jakie tryby gry oferuje Calleo?",
+        "a": "Sześć: Fiszki, Dopasowywanie, Quiz, Uzupełnianie luk, Słuchanie i Pisanie. Tryb Słuchanie odtwarza słowo, które musisz rozpoznać; tryb Pisanie wymaga wpisania słowa z pamięci."
+      },
+      {
+        "q": "Czy mogę importować listy słów z Wordwall?",
+        "a": "Tak! Zaimportuj swoje zestawy z Wordwall bezpośrednio do Calleo i od razu zacznij ćwiczyć."
+      },
+      {
+        "q": "Czym jest ścieżka nauki CEFR?",
+        "a": "Nauka to prowadzony program obejmujący wszystkie sześć poziomów CEFR, od A1 do C2. Zdaj każdy quiz, aby automatycznie odblokować kolejny zestaw."
       }
     ]
   },

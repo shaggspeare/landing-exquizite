@@ -258,6 +258,18 @@
       {
         "q": "Posso condividere i miei set di parole?",
         "a": "Sì! Genera un link condivisibile per qualsiasi set. Gli altri possono visualizzarlo e copiarlo nella propria collezione."
+      },
+      {
+        "q": "Quali modalità di gioco offre Calleo?",
+        "a": "Sei: Flashcard, Abbinamento, Quiz, Completa gli Spazi, Ascolto e Scrittura. Ascolto riproduce una parola da identificare; Scrittura richiede di digitarla a memoria."
+      },
+      {
+        "q": "Posso importare liste di parole da Wordwall?",
+        "a": "Sì! Importa i tuoi set Wordwall direttamente in Calleo e inizia subito a esercitarti."
+      },
+      {
+        "q": "Cos'è il percorso di apprendimento CEFR?",
+        "a": "Percorso è un curriculum guidato che copre tutti e sei i livelli del QCER, da A1 a C2. Supera ogni quiz per sbloccare automaticamente il set successivo."
       }
     ]
   },

@@ -258,6 +258,18 @@
       {
         "q": "Kann ich meine Wortsets teilen?",
         "a": "Ja! Erstelle einen teilbaren Link für jedes Set. Andere können es ansehen und in ihre Sammlung kopieren."
+      },
+      {
+        "q": "Welche Spielmodi bietet Calleo?",
+        "a": "Sechs: Karteikarten, Zuordnung, Quiz, Lückentext, Hören und Schreiben. Beim Hören wird ein Wort vorgespielt, das du erkennen musst; beim Schreiben tippst du das Wort aus dem Gedächtnis."
+      },
+      {
+        "q": "Kann ich Wortlisten aus Wordwall importieren?",
+        "a": "Ja! Importiere deine bestehenden Wordwall-Sets direkt in Calleo und leg sofort los."
+      },
+      {
+        "q": "Was ist der CEFR-Lernpfad?",
+        "a": "Lernpfad ist ein geführtes Curriculum über alle sechs GER-Stufen, A1 bis C2. Bestehe jedes Quiz, um automatisch das nächste Set freizuschalten."
       }
     ]
   },

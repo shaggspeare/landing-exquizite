@@ -258,6 +258,18 @@
       {
         "q": "Puis-je partager mes ensembles de mots ?",
         "a": "Oui ! Générez un lien partageable pour n'importe quel set. D'autres peuvent le consulter et le copier dans leur collection."
+      },
+      {
+        "q": "Quels modes de jeu propose Calleo ?",
+        "a": "Six : Cartes mémoire, Association, Quiz, Texte à trous, Écoute et Écriture. Le mode Écoute joue un mot que vous devez identifier ; le mode Écriture vous demande de le taper de mémoire."
+      },
+      {
+        "q": "Puis-je importer des listes de mots depuis Wordwall ?",
+        "a": "Oui ! Importez vos sets Wordwall directement dans Calleo et commencez à pratiquer tout de suite."
+      },
+      {
+        "q": "Qu'est-ce que le parcours d'apprentissage CECR ?",
+        "a": "Apprendre est un programme guidé couvrant les six niveaux du CECR, de A1 à C2. Réussissez chaque quiz pour débloquer automatiquement le set suivant."
       }
     ]
   },

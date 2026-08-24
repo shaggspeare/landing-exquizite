@@ -2,7 +2,7 @@
 
 > Calleo is a language-learning app for creating custom vocabulary word sets and practicing them through interactive games. It supports 40+ languages, generates word pairs with AI, and syncs progress across iOS and web.
 
-Calleo is free to use (Free Forever plan). It is available as a native iOS app and a web app, with data synced across both via Supabase.
+Calleo is free to use today, with a free plan that will always remain available. It is available as a native iOS app and a web app, with data synced across both via Supabase.
 
 ## Product
 
@@ -13,7 +13,10 @@ Calleo is free to use (Free Forever plan). It is available as a native iOS app a
 ## Key features
 
 - AI-powered word generation: instantly generate vocabulary word pairs and translations for any topic
-- 4 interactive learning modes: Flashcards, Match Game, Quiz Mode, Fill in the Blank
+- Quick Generate: turn a single topic (e.g. "restaurant," "travel") into a ready-to-use vocabulary set instantly, with AI skipping words you already have
+- Wordwall Import: import existing word sets directly from Wordwall
+- 6 interactive learning modes: Flashcards, Match Game, Quiz Mode, Fill in the Blank, Listening, Writing
+- Learn (CEFR Path): a guided, auto-progressing curriculum spanning all six CEFR levels (A1 through C2), unlocking the next focused set as you pass each quiz
 - Word Tinder: swipe-based quick review of known/unknown words
 - Custom word sets: create, edit, and organize vocabulary lists manually or via AI
 - Share & Discover: generate shareable links to word sets and browse community sets
@@ -23,7 +26,7 @@ Calleo is free to use (Free Forever plan). It is available as a native iOS app a
 
 ## Pricing
 
-Calleo is free forever. The free plan includes unlimited word sets, all 4 game modes, AI word generation, sharing, and cross-platform sync. No credit card required.
+Calleo is free to use, with no ads. The free plan includes unlimited word sets, all 6 game modes, AI word generation, sharing, and cross-platform sync. No credit card required. Optional premium features are planned for learners who want more.
 
 ## Support & policies
 

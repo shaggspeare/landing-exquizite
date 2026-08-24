@@ -19,10 +19,7 @@ const Navbar: React.FC = () => {
   const isContentPage = location.pathname.includes('/privacy-policy') || location.pathname.includes('/support');
   const currentLang = supportedLanguages.find((l) => l.code === i18n.language) || supportedLanguages[0];
 
-  const switchLanguage = (code: string) => {
-    i18n.changeLanguage(code);
-    setLangOpen(false);
-
+  const getLangPath = (code: string) => {
     const pathParts = location.pathname.split('/').filter(Boolean);
     const langCodes = supportedLanguages.map((l) => l.code);
     if (pathParts.length > 0 && langCodes.includes(pathParts[0])) {
@@ -30,7 +27,13 @@ const Navbar: React.FC = () => {
     }
     const newPrefix = code === 'en' ? '' : `/${code}`;
     const remainingPath = pathParts.length > 0 ? `/${pathParts.join('/')}` : '';
-    navigate(`${newPrefix}${remainingPath}` || '/');
+    return `${newPrefix}${remainingPath}` || '/';
+  };
+
+  const switchLanguage = (code: string) => {
+    i18n.changeLanguage(code);
+    setLangOpen(false);
+    navigate(getLangPath(code));
   };
 
   return (
@@ -71,25 +74,30 @@ const Navbar: React.FC = () => {
                 <span className="sm:hidden">{currentLang.flag}</span>
               </button>
 
-              {langOpen && (
-                <>
-                  <div className="fixed inset-0 z-40" onClick={() => setLangOpen(false)} />
-                  <div className="absolute right-0 top-full mt-2 w-56 bg-paper rounded-2xl shadow-lg border border-ink/10 py-2 z-50 max-h-80 overflow-y-auto">
-                    {supportedLanguages.map((lang) => (
-                      <button
-                        key={lang.code}
-                        onClick={() => switchLanguage(lang.code)}
-                        className={`w-full text-left px-4 py-2 text-sm hover:bg-cream flex items-center gap-3 ${
-                          i18n.language === lang.code ? 'text-accent font-semibold' : 'text-ink/70'
-                        }`}
-                      >
-                        <span className="text-base">{lang.flag}</span>
-                        <span>{lang.nativeName}</span>
-                      </button>
-                    ))}
-                  </div>
-                </>
-              )}
+              {langOpen && <div className="fixed inset-0 z-40" onClick={() => setLangOpen(false)} />}
+              {/* Rendered unconditionally (just hidden when closed) so every language URL is a real, crawlable <a href>. */}
+              <div
+                className={`absolute right-0 top-full mt-2 w-56 bg-paper rounded-2xl shadow-lg border border-ink/10 py-2 z-50 max-h-80 overflow-y-auto ${
+                  langOpen ? '' : 'hidden'
+                }`}
+              >
+                {supportedLanguages.map((lang) => (
+                  <Link
+                    key={lang.code}
+                    to={getLangPath(lang.code)}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      switchLanguage(lang.code);
+                    }}
+                    className={`w-full text-left px-4 py-2 text-sm hover:bg-cream flex items-center gap-3 ${
+                      i18n.language === lang.code ? 'text-accent font-semibold' : 'text-ink/70'
+                    }`}
+                  >
+                    <span className="text-base">{lang.flag}</span>
+                    <span>{lang.nativeName}</span>
+                  </Link>
+                ))}
+              </div>
             </div>
 
             {!isContentPage && (

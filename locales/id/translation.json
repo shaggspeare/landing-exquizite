@@ -258,6 +258,18 @@
       {
         "q": "Bisakah saya membagikan set kata saya?",
         "a": "Ya! Buat tautan yang bisa dibagikan untuk set apa pun. Orang lain bisa melihat dan menyalinnya ke koleksi mereka."
+      },
+      {
+        "q": "Mode permainan apa saja yang ditawarkan Calleo?",
+        "a": "Enam: Kartu Flash, Cocokkan, Kuis, Isi Bagian Kosong, Mendengarkan, dan Menulis. Mode Mendengarkan memutar kata untuk kamu kenali; mode Menulis memintamu mengetik kata dari ingatan."
+      },
+      {
+        "q": "Bisakah saya mengimpor daftar kata dari Wordwall?",
+        "a": "Ya! Impor set Wordwall yang sudah ada langsung ke Calleo dan mulai berlatih saat itu juga."
+      },
+      {
+        "q": "Apa itu jalur belajar CEFR?",
+        "a": "Belajar adalah kurikulum terpandu yang mencakup keenam level CEFR, dari A1 hingga C2. Lulus setiap kuis untuk otomatis membuka set berikutnya."
       }
     ]
   },

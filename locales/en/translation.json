@@ -258,6 +258,18 @@
       {
         "q": "Can I share my word sets?",
         "a": "Yes! Generate a shareable link for any set. Others can view and copy it to their collection."
+      },
+      {
+        "q": "What game modes does Calleo offer?",
+        "a": "Six: Flashcards, Match, Quiz, Fill in the Blank, Listening, and Writing. Listening plays a word aloud for you to identify; Writing has you type the word from memory."
+      },
+      {
+        "q": "Can I import word lists from Wordwall?",
+        "a": "Yes! Import your existing Wordwall sets directly into Calleo and start practicing right away."
+      },
+      {
+        "q": "What is the CEFR Learn path?",
+        "a": "Learn is a guided curriculum spanning all six CEFR levels, A1 through C2. Pass each quiz to automatically unlock the next focused set."
       }
     ]
   },
