@@ -20,10 +20,37 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "dashboard": { "src": "/images/dashboard.png", "alt": "Kontrol paneli" },
-      "gameModes": { "src": "/images/learning-modes.png", "alt": "Öğrenme Modları" },
-      "quiz": { "src": "/images/quiz.png", "alt": "Calleo Uygulama Quiz Modu" }
+      "dashboard": {
+        "src": "/images/dashboard.png",
+        "alt": "Kontrol paneli"
+      },
+      "gameModes": {
+        "src": "/images/learning-modes.png",
+        "alt": "Öğrenme Modları"
+      },
+      "quiz": {
+        "src": "/images/quiz.png",
+        "alt": "Calleo Uygulama Quiz Modu"
+      }
     }
+  },
+  "whatsNew": {
+    "sectionLabel": "Son Güncelleme",
+    "sectionTitle": "Calleo'da Yenilikler",
+    "items": [
+      {
+        "title": "Dinle. Yaz. İki yeni pratik yolu.",
+        "description": "Kartlar, quizler ve eşleştirmenin ötesinde, Calleo artık seni gerçek konuşmaların yaptığı gibi test ediyor. Dinleme modu kelimeyi sesli olarak çalar ve sen onu tanımlarsın; bu, sadece gözlerini değil kulağını da eğitir. Yazma modu bunu tersine çevirir: çeviriyi görürsün ve kelimeyi hafızandan yazarsın, çoktan seçmeli tahmin yerine gerçek hatırlama becerisi kazandırır."
+      },
+      {
+        "title": "Bir seti dakikalar içinde değil, saniyeler içinde oluştur",
+        "description": "Kelime listelerini yazmak sıkıcı kısım, o yüzden atla. Hızlı Oluştur ile \"restoran\" veya \"seyahat\" gibi bir konu yaz, yapay zeka anında kullanıma hazır bir kelime seti oluştursun. Zaten devam eden bir setin mi var? Tek dokunuşla ilgili daha fazla kelime üret, Calleo zaten sahip olduklarını otomatik olarak atlar. Kendi listeni mi getirmek istiyorsun? Doğrudan Wordwall'dan içe aktar ve hemen pratik yapmaya başla."
+      },
+      {
+        "title": "Öğren: ilk kelimelerinden akıcılığa rehberli bir yol",
+        "description": "Sırada ne çalışacağından emin değil misin? Öğren, A1'den C2'ye tüm altı CEFR seviyesini kapsayan yapılandırılmış bir müfredattır — başlangıçta selamlaşmalar ve sayılar, ilerleyen aşamalarda iş, seyahat ve soyut konular. Her adım senin için özel oluşturulmuş odaklı bir settir. Quiz'i geç, bir sonraki setin otomatik olarak açılsın — baskı yok, tekrar denemek için ceza yok."
+      }
+    ]
   },
   "bentoFeatures": {
     "sectionLabel": "Özellikler ve Öne Çıkanlar",
@@ -32,13 +59,23 @@
     "tiles": {
       "learnYourWay": {
         "title": "Kendi Tarzınızda Öğrenin",
-        "description": "Benzersiz öğrenme tarzınıza uygun 4 etkileşimli öğrenme modundan birini seçin.",
-        "modes": ["Bilgi Kartları", "Eşleştirme Oyunu", "Quiz Modu", "Boşluk Doldurma"]
+        "description": "Benzersiz öğrenme tarzınıza uygun 6 etkileşimli öğrenme modundan birini seçin.",
+        "modes": [
+          "Bilgi Kartları",
+          "Eşleştirme Oyunu",
+          "Quiz Modu",
+          "Boşluk Doldurma",
+          "Dinleme",
+          "Yazma"
+        ]
       },
       "aiPowered": {
         "title": "Yapay Zeka Destekli",
         "description": "Anında kelime çiftleri oluşturun ve akıllı ipuçları alın.",
-        "image": { "src": "/images/ai-generation.png", "alt": "Yapay Zeka ile Üretilen Kelimeler" }
+        "image": {
+          "src": "/images/ai-generation.png",
+          "alt": "Yapay Zeka ile Üretilen Kelimeler"
+        }
       },
       "languages": {
         "title": "40'tan Fazla Dil",
@@ -55,8 +92,16 @@
         "recentShares": "Son Paylaşımlar",
         "viewAll": "Tümünü Gör",
         "shares": [
-          { "initials": "FR", "name": "Temel Fransızca", "wordCount": "24 kelime" },
-          { "initials": "ES", "name": "İspanyol Mutfağı", "wordCount": "12 kelime" }
+          {
+            "initials": "FR",
+            "name": "Temel Fransızca",
+            "wordCount": "24 kelime"
+          },
+          {
+            "initials": "ES",
+            "name": "İspanyol Mutfağı",
+            "wordCount": "12 kelime"
+          }
         ]
       },
       "seamlessSync": {
@@ -75,7 +120,7 @@
       },
       {
         "title": "2. Oyun Seçin",
-        "desc": "Öğrenmeyi eğlenceye dönüştüren 4 çekici oyun modundan birini seçin."
+        "desc": "Öğrenmeyi eğlenceye dönüştüren 6 çekici oyun modundan birini seçin."
       },
       {
         "title": "3. İlerlemeyi Takip Edin",
@@ -108,7 +153,10 @@
         "description": "Her platformda akıcı performans için modern teknolojiyle geliştirildi."
       }
     ],
-    "image": { "src": "/images/added-words.png", "alt": "Eklenen Kelimeler" }
+    "image": {
+      "src": "/images/added-words.png",
+      "alt": "Eklenen Kelimeler"
+    }
   },
   "testimonials": {
     "sectionTitle": "Öğrenenler Tarafından Seviliyor",
@@ -134,26 +182,50 @@
     "sectionTitle": "Uygulamayı Keşfedin",
     "sectionSubtitle": "Etkileşimli öğrenme modlarımıza yakından bakın.",
     "screenshots": [
-      { "src": "/images/ai-generation.png", "alt": "Yapay Zeka Kelime Üretimi" },
-      { "src": "/images/added-words.png", "alt": "Eklenen Kelimeler" },
-      { "src": "/images/learning-modes.png", "alt": "Öğrenme Modları" },
-      { "src": "/images/my-sets.png", "alt": "Setlerim" },
-      { "src": "/images/dashboard.png", "alt": "Kontrol paneli" },
-      { "src": "/images/create-set.png", "alt": "Set oluşturma" },
-      { "src": "/images/quiz.png", "alt": "Quiz Modu" },
-      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
+      {
+        "src": "/images/ai-generation.png",
+        "alt": "Yapay Zeka Kelime Üretimi"
+      },
+      {
+        "src": "/images/added-words.png",
+        "alt": "Eklenen Kelimeler"
+      },
+      {
+        "src": "/images/learning-modes.png",
+        "alt": "Öğrenme Modları"
+      },
+      {
+        "src": "/images/my-sets.png",
+        "alt": "Setlerim"
+      },
+      {
+        "src": "/images/dashboard.png",
+        "alt": "Kontrol paneli"
+      },
+      {
+        "src": "/images/create-set.png",
+        "alt": "Set oluşturma"
+      },
+      {
+        "src": "/images/quiz.png",
+        "alt": "Quiz Modu"
+      },
+      {
+        "src": "/images/word-tinder.png",
+        "alt": "Word Tinder"
+      }
     ]
   },
   "pricing": {
     "sectionTitle": "Basit ve Şeffaf Fiyatlandırma",
     "sectionSubtitle": "Eğitim herkes için erişilebilir olmalıdır.",
-    "planName": "Sonsuza Kadar Ücretsiz",
+    "planName": "Ücretsiz",
     "planDescription": "Bir dili öğrenmek için ihtiyacınız olan her şey.",
     "price": "$0",
     "period": "/ay",
     "features": [
       "Sınırsız kelime seti",
-      "Tüm 4 oyun moduna erişim",
+      "Tüm 6 oyun moduna erişim",
       "Yapay zeka kelime üretimi",
       "Setlerinizi paylaşın",
       "Platformlar arası senkronizasyon"
@@ -163,12 +235,30 @@
   "faq": {
     "sectionTitle": "Sıkça Sorulan Sorular",
     "items": [
-      { "q": "Calleo'i kullanmak için hesap gerekli mi?", "a": "Hayır! Misafir moduyla hemen öğrenmeye başlayın. Cihazlar arası senkronize etmek istediğinizde hesap oluşturun." },
-      { "q": "Kaç dil destekleniyor?", "a": "Hem öğrenme içeriği hem de uygulama arayüzü için 40'tan fazla dil." },
-      { "q": "Uygulama çevrimdışı çalışır mı?", "a": "Evet, iOS uygulaması indirilen kelime setlerine çevrimdışı erişimi destekler." },
-      { "q": "Calleo'i bilgisayarımda kullanabilir miyim?", "a": "Kesinlikle! Web uygulaması masaüstü için optimize edilmiş bir deneyim sunar." },
-      { "q": "Verilerim güvende mi?", "a": "Evet, tüm veriler endüstri standardı şifreleme ile Supabase üzerinden güvenle saklanır ve senkronize edilir." },
-      { "q": "Kelime setlerimi paylaşabilir miyim?", "a": "Evet! Herhangi bir set için paylaşılabilir bağlantı oluşturun. Diğerleri görüntüleyebilir ve koleksiyonlarına kopyalayabilir." }
+      {
+        "q": "Calleo'i kullanmak için hesap gerekli mi?",
+        "a": "Hayır! Misafir moduyla hemen öğrenmeye başlayın. Cihazlar arası senkronize etmek istediğinizde hesap oluşturun."
+      },
+      {
+        "q": "Kaç dil destekleniyor?",
+        "a": "Hem öğrenme içeriği hem de uygulama arayüzü için 40'tan fazla dil."
+      },
+      {
+        "q": "Uygulama çevrimdışı çalışır mı?",
+        "a": "Evet, iOS uygulaması indirilen kelime setlerine çevrimdışı erişimi destekler."
+      },
+      {
+        "q": "Calleo'i bilgisayarımda kullanabilir miyim?",
+        "a": "Kesinlikle! Web uygulaması masaüstü için optimize edilmiş bir deneyim sunar."
+      },
+      {
+        "q": "Verilerim güvende mi?",
+        "a": "Evet, tüm veriler endüstri standardı şifreleme ile Supabase üzerinden güvenle saklanır ve senkronize edilir."
+      },
+      {
+        "q": "Kelime setlerimi paylaşabilir miyim?",
+        "a": "Evet! Herhangi bir set için paylaşılabilir bağlantı oluşturun. Diğerleri görüntüleyebilir ve koleksiyonlarına kopyalayabilir."
+      }
     ]
   },
   "downloadCTA": {
@@ -187,25 +277,52 @@
       "product": {
         "title": "Ürün",
         "links": [
-          { "label": "Özellikler", "href": "#features" },
-          { "label": "Nasıl Çalışır", "href": "#how-it-works" },
-          { "label": "Fiyatlandırma", "href": "#pricing" },
-          { "label": "İndir", "href": "#download" }
+          {
+            "label": "Özellikler",
+            "href": "#features"
+          },
+          {
+            "label": "Nasıl Çalışır",
+            "href": "#how-it-works"
+          },
+          {
+            "label": "Fiyatlandırma",
+            "href": "#pricing"
+          },
+          {
+            "label": "İndir",
+            "href": "#download"
+          }
         ]
       },
       "support": {
         "title": "Destek",
         "links": [
-          { "label": "Yardım ve Destek", "to": "/support" },
-          { "label": "İletişim", "href": "mailto:viacheslav@exquizite.app" },
-          { "label": "Gizlilik Politikası", "to": "/privacy-policy" }
+          {
+            "label": "Yardım ve Destek",
+            "to": "/support"
+          },
+          {
+            "label": "İletişim",
+            "href": "mailto:viacheslav@exquizite.app"
+          },
+          {
+            "label": "Gizlilik Politikası",
+            "to": "/privacy-policy"
+          }
         ]
       },
       "legal": {
         "title": "Yasal",
         "links": [
-          { "label": "Hizmet Şartları", "href": "#" },
-          { "label": "Çerez Politikası", "href": "#" }
+          {
+            "label": "Hizmet Şartları",
+            "href": "#"
+          },
+          {
+            "label": "Çerez Politikası",
+            "href": "#"
+          }
         ]
       }
     },
@@ -226,26 +343,56 @@
             "title": "Kişisel Bilgiler",
             "intro": "Calleo'de hesap oluşturduğunuzda şunları toplarız:",
             "items": [
-              { "bold": "E-posta Adresi", "text": "Hesap oluşturma, kimlik doğrulama ve iletişim için kullanılır" },
-              { "bold": "Kullanıcı Kimliği", "text": "Kimlik doğrulama ve veri ilişkilendirme için otomatik olarak oluşturulan benzersiz tanımlayıcı" },
-              { "bold": "Şifre", "text": "Endüstri standardı şifreleme kullanılarak güvenli şekilde saklanır (şifreleri düz metin olarak asla saklamayız)" }
+              {
+                "bold": "E-posta Adresi",
+                "text": "Hesap oluşturma, kimlik doğrulama ve iletişim için kullanılır"
+              },
+              {
+                "bold": "Kullanıcı Kimliği",
+                "text": "Kimlik doğrulama ve veri ilişkilendirme için otomatik olarak oluşturulan benzersiz tanımlayıcı"
+              },
+              {
+                "bold": "Şifre",
+                "text": "Endüstri standardı şifreleme kullanılarak güvenli şekilde saklanır (şifreleri düz metin olarak asla saklamayız)"
+              }
             ]
           },
           {
             "title": "Kullanıcı Tarafından Oluşturulan İçerik",
             "items": [
-              { "bold": "Kelime Setleri", "text": "Oluşturduğunuz kelime çiftleri, çeviriler, set isimleri ve öğrenme tercihleri" },
-              { "bold": "Dil Tercihleri", "text": "Öğrenme için seçtiğiniz hedef ve ana diller" },
-              { "bold": "Pratik Geçmişi", "text": "Bir seti en son ne zaman çalıştığınız ve ilerlemeniz hakkında bilgi" },
-              { "bold": "Uygulama Ayarları", "text": "Tema tercihleri, arayüz dili ve diğer kişiselleştirme ayarları" }
+              {
+                "bold": "Kelime Setleri",
+                "text": "Oluşturduğunuz kelime çiftleri, çeviriler, set isimleri ve öğrenme tercihleri"
+              },
+              {
+                "bold": "Dil Tercihleri",
+                "text": "Öğrenme için seçtiğiniz hedef ve ana diller"
+              },
+              {
+                "bold": "Pratik Geçmişi",
+                "text": "Bir seti en son ne zaman çalıştığınız ve ilerlemeniz hakkında bilgi"
+              },
+              {
+                "bold": "Uygulama Ayarları",
+                "text": "Tema tercihleri, arayüz dili ve diğer kişiselleştirme ayarları"
+              }
             ]
           },
           {
             "title": "Otomatik Toplanan Bilgiler",
             "items": [
-              { "bold": "Kullanım Verileri", "text": "Oynanan oyun modları ve kullanılan özellikler dahil Uygulamayla nasıl etkileşim kurduğunuz hakkında bilgi" },
-              { "bold": "Cihaz Bilgileri", "text": "Sorun giderme ve uyumluluk için cihaz türü, işletim sistemi ve uygulama sürümü" },
-              { "bold": "Anonim Analizler", "text": "Uygulamayı iyileştirmek için toplu, kişisel olarak tanımlanamayan kullanım istatistikleri" }
+              {
+                "bold": "Kullanım Verileri",
+                "text": "Oynanan oyun modları ve kullanılan özellikler dahil Uygulamayla nasıl etkileşim kurduğunuz hakkında bilgi"
+              },
+              {
+                "bold": "Cihaz Bilgileri",
+                "text": "Sorun giderme ve uyumluluk için cihaz türü, işletim sistemi ve uygulama sürümü"
+              },
+              {
+                "bold": "Anonim Analizler",
+                "text": "Uygulamayı iyileştirmek için toplu, kişisel olarak tanımlanamayan kullanım istatistikleri"
+              }
             ]
           }
         ]
@@ -264,12 +411,30 @@
         "title": "Bilgilerinizi Nasıl Kullanıyoruz",
         "intro": "Topladığımız bilgileri şu amaçlarla kullanıyoruz:",
         "items": [
-          { "bold": "Hizmet Sağlama", "text": "Hesap oluşturma, veri senkronizasyonu ve uygulama işlevselliğini etkinleştirme" },
-          { "bold": "Kullanıcı Deneyimini İyileştirme", "text": "Öğrenme deneyiminizi kişiselleştirme ve tercihlerinizi hatırlama" },
-          { "bold": "Yapay Zeka İçerik Üretimi", "text": "Sağladığınız temalara göre kelime önerileri ve örnek cümleler üretmek için OpenAI API'sini kullanma" },
-          { "bold": "Güvenliği Sağlama", "text": "Kullanıcıları doğrulama ve yetkisiz erişime karşı koruma" },
-          { "bold": "İletişim", "text": "Uygulama hakkında önemli güncellemeler gönderme (onayınız olmadan pazarlama e-postaları göndermiyoruz)" },
-          { "bold": "Sorun Giderme", "text": "Teknik sorunları teşhis etme ve uygulama performansını iyileştirme" }
+          {
+            "bold": "Hizmet Sağlama",
+            "text": "Hesap oluşturma, veri senkronizasyonu ve uygulama işlevselliğini etkinleştirme"
+          },
+          {
+            "bold": "Kullanıcı Deneyimini İyileştirme",
+            "text": "Öğrenme deneyiminizi kişiselleştirme ve tercihlerinizi hatırlama"
+          },
+          {
+            "bold": "Yapay Zeka İçerik Üretimi",
+            "text": "Sağladığınız temalara göre kelime önerileri ve örnek cümleler üretmek için OpenAI API'sini kullanma"
+          },
+          {
+            "bold": "Güvenliği Sağlama",
+            "text": "Kullanıcıları doğrulama ve yetkisiz erişime karşı koruma"
+          },
+          {
+            "bold": "İletişim",
+            "text": "Uygulama hakkında önemli güncellemeler gönderme (onayınız olmadan pazarlama e-postaları göndermiyoruz)"
+          },
+          {
+            "bold": "Sorun Giderme",
+            "text": "Teknik sorunları teşhis etme ve uygulama performansını iyileştirme"
+          }
         ]
       },
       {
@@ -279,10 +444,22 @@
             "title": "Depolama Konumu",
             "intro": "Verileriniz bulut tabanlı bir veritabanı hizmeti olan Supabase kullanılarak güvenli bir şekilde saklanır:",
             "items": [
-              { "bold": "Konum", "text": "Veriler Supabase tarafından yönetilen güvenli sunucularda barındırılır (AWS altyapısıyla desteklenir)" },
-              { "bold": "Şifreleme", "text": "Tüm veriler HTTPS/TLS protokolleri kullanılarak aktarım sırasında şifrelenir" },
-              { "bold": "Erişim Kontrolü", "text": "Satır Düzeyinde Güvenlik (RLS) politikaları yalnızca kendi verilerinize erişebilmenizi sağlar" },
-              { "bold": "Yedeklemeler", "text": "Veri kaybını önlemek için düzenli otomatik yedeklemeler" }
+              {
+                "bold": "Konum",
+                "text": "Veriler Supabase tarafından yönetilen güvenli sunucularda barındırılır (AWS altyapısıyla desteklenir)"
+              },
+              {
+                "bold": "Şifreleme",
+                "text": "Tüm veriler HTTPS/TLS protokolleri kullanılarak aktarım sırasında şifrelenir"
+              },
+              {
+                "bold": "Erişim Kontrolü",
+                "text": "Satır Düzeyinde Güvenlik (RLS) politikaları yalnızca kendi verilerinize erişebilmenizi sağlar"
+              },
+              {
+                "bold": "Yedeklemeler",
+                "text": "Veri kaybını önlemek için düzenli otomatik yedeklemeler"
+              }
             ]
           },
           {
@@ -305,8 +482,14 @@
             "title": "Supabase (Veritabanı ve Kimlik Doğrulama)",
             "intro": "Kullanıcı verilerini depolamak ve yönetmek için Supabase kullanıyoruz:",
             "items": [
-              { "bold": "Amaç", "text": "Bulut veritabanı, kullanıcı kimlik doğrulama ve veri senkronizasyonu" },
-              { "bold": "Paylaşılan Veriler", "text": "E-posta, kullanıcı kimliği, kelime setleri, pratik geçmişi" }
+              {
+                "bold": "Amaç",
+                "text": "Bulut veritabanı, kullanıcı kimlik doğrulama ve veri senkronizasyonu"
+              },
+              {
+                "bold": "Paylaşılan Veriler",
+                "text": "E-posta, kullanıcı kimliği, kelime setleri, pratik geçmişi"
+              }
             ],
             "privacyUrl": "https://supabase.com/privacy"
           },
@@ -314,10 +497,22 @@
             "title": "OpenAI API (Yapay Zeka Özellikleri)",
             "intro": "Kelime önerileri ve örnek cümleler üretmek için OpenAI API'sini kullanıyoruz:",
             "items": [
-              { "bold": "Amaç", "text": "Öğrenme materyalleri için yapay zeka destekli içerik üretimi" },
-              { "bold": "Paylaşılan Veriler", "text": "YALNIZCA talep ettiğiniz temalar veya konular (ör. \"yemek\", \"seyahat\")" },
-              { "bold": "Önemli", "text": "Kişisel bilgilerinizi, e-postanızı, kullanıcı kimliğinizi veya mevcut kelime setlerinizi OpenAI'ye GÖNDERMİYORUZ" },
-              { "bold": "Veri Kullanımı", "text": "OpenAI istekleri geçici olarak işler ve verilerinizi model eğitimi için kullanmaz (API anlaşmamıza göre)" }
+              {
+                "bold": "Amaç",
+                "text": "Öğrenme materyalleri için yapay zeka destekli içerik üretimi"
+              },
+              {
+                "bold": "Paylaşılan Veriler",
+                "text": "YALNIZCA talep ettiğiniz temalar veya konular (ör. \"yemek\", \"seyahat\")"
+              },
+              {
+                "bold": "Önemli",
+                "text": "Kişisel bilgilerinizi, e-postanızı, kullanıcı kimliğinizi veya mevcut kelime setlerinizi OpenAI'ye GÖNDERMİYORUZ"
+              },
+              {
+                "bold": "Veri Kullanımı",
+                "text": "OpenAI istekleri geçici olarak işler ve verilerinizi model eğitimi için kullanmaz (API anlaşmamıza göre)"
+              }
             ],
             "privacyUrl": "https://openai.com/privacy"
           },
@@ -325,8 +520,14 @@
             "title": "Expo (Geliştirme Platformu)",
             "intro": "Uygulama geliştirme ve dağıtım için Expo kullanıyoruz:",
             "items": [
-              { "bold": "Amaç", "text": "Uygulama altyapısı ve güncellemeler" },
-              { "bold": "Paylaşılan Veriler", "text": "Minimum çökme raporları ve anonim kullanım istatistikleri" }
+              {
+                "bold": "Amaç",
+                "text": "Uygulama altyapısı ve güncellemeler"
+              },
+              {
+                "bold": "Paylaşılan Veriler",
+                "text": "Minimum çökme raporları ve anonim kullanım istatistikleri"
+              }
             ],
             "privacyUrl": "https://expo.dev/privacy"
           }
@@ -337,11 +538,26 @@
         "intro": "Kişisel bilgilerinizi üçüncü taraflara SATMIYORUZ, KİRALAMIYORUZ veya TAKAS ETMİYORUZ.",
         "intro2": "Bilgilerinizi yalnızca aşağıdaki durumlarda paylaşabiliriz:",
         "items": [
-          { "bold": "Onayınızla", "text": "Kelime setlerini diğer kullanıcılarla açıkça paylaşmayı seçtiğinizde" },
-          { "bold": "Hizmet Sağlayıcılar", "text": "Yukarıda açıklanan güvenilir üçüncü taraf hizmetleriyle (Supabase, OpenAI)" },
-          { "bold": "Yasal Gereklilikler", "text": "Kanun, mahkeme kararı veya hükümet düzenlemesi gerektiriyorsa" },
-          { "bold": "İş Transferleri", "text": "Birleşme, devralma veya varlık satışı durumunda (bilgilendirileceksiniz)" },
-          { "bold": "Güvenlik ve Emniyet", "text": "Calleo'in, kullanıcılarımızın veya başkalarının haklarını, mülkiyetini veya güvenliğini korumak için" }
+          {
+            "bold": "Onayınızla",
+            "text": "Kelime setlerini diğer kullanıcılarla açıkça paylaşmayı seçtiğinizde"
+          },
+          {
+            "bold": "Hizmet Sağlayıcılar",
+            "text": "Yukarıda açıklanan güvenilir üçüncü taraf hizmetleriyle (Supabase, OpenAI)"
+          },
+          {
+            "bold": "Yasal Gereklilikler",
+            "text": "Kanun, mahkeme kararı veya hükümet düzenlemesi gerektiriyorsa"
+          },
+          {
+            "bold": "İş Transferleri",
+            "text": "Birleşme, devralma veya varlık satışı durumunda (bilgilendirileceksiniz)"
+          },
+          {
+            "bold": "Güvenlik ve Emniyet",
+            "text": "Calleo'in, kullanıcılarımızın veya başkalarının haklarını, mülkiyetini veya güvenliğini korumak için"
+          }
         ]
       },
       {
@@ -371,7 +587,10 @@
             "title": "Verilerinizi Silin",
             "description": "Hesabınızın ve ilişkili tüm verilerin tamamen silinmesini talep edebilirsiniz:",
             "steps": [
-              { "bold": "Uygulama İçi Silme", "text": "(yakında): Ayarlar > Hesap > Hesabı Sil yolunu izleyin" },
+              {
+                "bold": "Uygulama İçi Silme",
+                "text": "(yakında): Ayarlar > Hesap > Hesabı Sil yolunu izleyin"
+              },
               {
                 "bold": "E-posta Talebi",
                 "text": "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
@@ -442,12 +661,30 @@
       "title": "Önemli Noktaların Özeti",
       "intro": "Kolaylığınız için hızlı bir özet:",
       "items": [
-        { "label": "Ne topluyoruz", "value": "E-posta, oluşturduğunuz kelime setleri, dil tercihleri" },
-        { "label": "Neden topluyoruz", "value": "Öğrenme özellikleri sağlamak, cihazlar arası senkronize etmek, yapay zeka içeriği üretmek" },
-        { "label": "Nerede saklanıyor", "value": "Supabase bulut sunucuları (AWS altyapılı)" },
-        { "label": "Üçüncü taraflar", "value": "Supabase (veritabanı), OpenAI (yapay zeka üretimi - kişisel veri gönderilmez)" },
-        { "label": "Haklarınız", "value": "Verilerinize istediğiniz zaman erişin, değiştirin, silin" },
-        { "label": "İletişim", "value": "viacheslav@exquizite.app" }
+        {
+          "label": "Ne topluyoruz",
+          "value": "E-posta, oluşturduğunuz kelime setleri, dil tercihleri"
+        },
+        {
+          "label": "Neden topluyoruz",
+          "value": "Öğrenme özellikleri sağlamak, cihazlar arası senkronize etmek, yapay zeka içeriği üretmek"
+        },
+        {
+          "label": "Nerede saklanıyor",
+          "value": "Supabase bulut sunucuları (AWS altyapılı)"
+        },
+        {
+          "label": "Üçüncü taraflar",
+          "value": "Supabase (veritabanı), OpenAI (yapay zeka üretimi - kişisel veri gönderilmez)"
+        },
+        {
+          "label": "Haklarınız",
+          "value": "Verilerinize istediğiniz zaman erişin, değiştirin, silin"
+        },
+        {
+          "label": "İletişim",
+          "value": "viacheslav@exquizite.app"
+        }
       ],
       "thankYou": "Dil öğrenme yolculuğunuzda Calleo'e güvendiğiniz için teşekkür ederiz!"
     }
@@ -461,15 +698,42 @@
     "toc": {
       "title": "İçindekiler",
       "items": [
-        { "id": "getting-started", "label": "Başlarken" },
-        { "id": "account-login", "label": "Hesap ve Giriş" },
-        { "id": "creating-vocabulary-sets", "label": "Kelime Setleri Oluşturma" },
-        { "id": "game-modes", "label": "Oyun Modları" },
-        { "id": "sharing-sets", "label": "Set Paylaşma" },
-        { "id": "settings-preferences", "label": "Ayarlar ve Tercihler" },
-        { "id": "troubleshooting", "label": "Sorun Giderme" },
-        { "id": "privacy-data", "label": "Gizlilik ve Veriler" },
-        { "id": "contact-us", "label": "Bize Ulaşın" }
+        {
+          "id": "getting-started",
+          "label": "Başlarken"
+        },
+        {
+          "id": "account-login",
+          "label": "Hesap ve Giriş"
+        },
+        {
+          "id": "creating-vocabulary-sets",
+          "label": "Kelime Setleri Oluşturma"
+        },
+        {
+          "id": "game-modes",
+          "label": "Oyun Modları"
+        },
+        {
+          "id": "sharing-sets",
+          "label": "Set Paylaşma"
+        },
+        {
+          "id": "settings-preferences",
+          "label": "Ayarlar ve Tercihler"
+        },
+        {
+          "id": "troubleshooting",
+          "label": "Sorun Giderme"
+        },
+        {
+          "id": "privacy-data",
+          "label": "Gizlilik ve Veriler"
+        },
+        {
+          "id": "contact-us",
+          "label": "Bize Ulaşın"
+        }
       ]
     },
     "gettingStarted": {
@@ -482,8 +746,14 @@
         "title": "Hesaba ihtiyacım var mı?",
         "intro": "Hayır! Calleo'i iki şekilde kullanabilirsiniz:",
         "options": [
-          { "bold": "Misafir Modu", "text": "Kayıt olmadan uygulamayı kullanın. Setleriniz yalnızca cihazınızda yerel olarak kaydedilir." },
-          { "bold": "Hesapla", "text": "Setlerinizi tüm cihazlarınızda senkronize etmek için e-posta ile kaydolun (iPhone, iPad, Android, Web)." }
+          {
+            "bold": "Misafir Modu",
+            "text": "Kayıt olmadan uygulamayı kullanın. Setleriniz yalnızca cihazınızda yerel olarak kaydedilir."
+          },
+          {
+            "bold": "Hesapla",
+            "text": "Setlerinizi tüm cihazlarınızda senkronize etmek için e-posta ile kaydolun (iPhone, iPad, Android, Web)."
+          }
         ]
       },
       "howToStart": {
@@ -569,9 +839,18 @@
         "title": "Toplu kelime içe aktarabilir miyim?",
         "intro": "Evet! Set oluştururken \"Toplu İçe Aktar\"a dokunun. Format seçenekleri:",
         "formats": [
-          { "name": "Seçenek 1: Sekme ile ayrılmış", "example": "word[TAB]translation\nhola[TAB]hello\nadiós[TAB]goodbye" },
-          { "name": "Seçenek 2: Tire ile ayrılmış", "example": "word - translation\nhola - hello\nadiós - goodbye" },
-          { "name": "Seçenek 3: Eşittir ile ayrılmış", "example": "word = translation\nhola = hello\nadiós = goodbye" }
+          {
+            "name": "Seçenek 1: Sekme ile ayrılmış",
+            "example": "word[TAB]translation\nhola[TAB]hello\nadiós[TAB]goodbye"
+          },
+          {
+            "name": "Seçenek 2: Tire ile ayrılmış",
+            "example": "word - translation\nhola - hello\nadiós - goodbye"
+          },
+          {
+            "name": "Seçenek 3: Eşittir ile ayrılmış",
+            "example": "word = translation\nhola = hello\nadiós = goodbye"
+          }
         ]
       },
       "editSet": {
@@ -611,10 +890,22 @@
         "title": "Hangi oyun modları mevcut?",
         "intro": "Calleo 4 etkileşimli öğrenme modu sunar:",
         "modes": [
-          { "bold": "Bilgi Kartları", "text": "Hafızanızı test etmek için klasik çevirme kartları" },
-          { "bold": "Quiz", "text": "Öğrenmeyi pekiştirmek için çoktan seçmeli sorular" },
-          { "bold": "Eşleştirme", "text": "Zamana karşı eşleşen kelime çiftlerini bulun" },
-          { "bold": "Boşluk Doldurma", "text": "Cümleleri doğru kelimelerle tamamlayın" }
+          {
+            "bold": "Bilgi Kartları",
+            "text": "Hafızanızı test etmek için klasik çevirme kartları"
+          },
+          {
+            "bold": "Quiz",
+            "text": "Öğrenmeyi pekiştirmek için çoktan seçmeli sorular"
+          },
+          {
+            "bold": "Eşleştirme",
+            "text": "Zamana karşı eşleşen kelime çiftlerini bulun"
+          },
+          {
+            "bold": "Boşluk Doldurma",
+            "text": "Cümleleri doğru kelimelerle tamamlayın"
+          }
         ]
       },
       "howToPlay": {
@@ -698,8 +989,14 @@
         "title": "Paylaşılan setimi kimin görüntülediğini veya kopyaladığını görebilir miyim?",
         "intro": "Evet! Paylaşılan bir seti görüntülerken şunları görebilirsiniz:",
         "items": [
-          { "bold": "Görüntüleme sayısı", "text": "Kaç kez görüntülendiği" },
-          { "bold": "Kopyalama sayısı", "text": "Kaç kullanıcının kopyaladığı" }
+          {
+            "bold": "Görüntüleme sayısı",
+            "text": "Kaç kez görüntülendiği"
+          },
+          {
+            "bold": "Kopyalama sayısı",
+            "text": "Kaç kullanıcının kopyaladığı"
+          }
         ],
         "note": "Bireysel kullanıcıların isimlerini veya e-postalarını göremezsiniz (gizlilik koruması)."
       },
@@ -802,10 +1099,22 @@
         "title": "Kodla paylaşılan seti bulamıyorum",
         "intro": "Yaygın sorunlar:",
         "items": [
-          { "bold": "Kodun süresi dolmuş", "text": "Bazı paylaşım kodlarının son kullanma tarihleri vardır" },
-          { "bold": "Kod silinmiş", "text": "Oluşturucu seti paylaşmayı durdurmuş" },
-          { "bold": "Yazım hatası", "text": "Kodu doğruluğu için tekrar kontrol edin (kodlar büyük/küçük harfe duyarlıdır)" },
-          { "bold": "İnternet bağlantısı", "text": "Çevrimiçi olduğunuzdan emin olun" }
+          {
+            "bold": "Kodun süresi dolmuş",
+            "text": "Bazı paylaşım kodlarının son kullanma tarihleri vardır"
+          },
+          {
+            "bold": "Kod silinmiş",
+            "text": "Oluşturucu seti paylaşmayı durdurmuş"
+          },
+          {
+            "bold": "Yazım hatası",
+            "text": "Kodu doğruluğu için tekrar kontrol edin (kodlar büyük/küçük harfe duyarlıdır)"
+          },
+          {
+            "bold": "İnternet bağlantısı",
+            "text": "Çevrimiçi olduğunuzdan emin olun"
+          }
         ]
       },
       "wrongLanguage": {
@@ -849,9 +1158,18 @@
       "whatCollected": {
         "title": "Hangi verileri topluyorsunuz?",
         "collected": [
-          { "bold": "Hesap kullanıcıları", "text": "E-posta, kullanıcı kimliği, kelime setleri, pratik geçmişi, dil tercihleri" },
-          { "bold": "Misafir kullanıcılar", "text": "Yalnızca yerel olarak saklanan kelime setleri (bulut verisi yok)" },
-          { "bold": "Analizler", "text": "Uygulamayı iyileştirmek için anonim kullanım istatistikleri" }
+          {
+            "bold": "Hesap kullanıcıları",
+            "text": "E-posta, kullanıcı kimliği, kelime setleri, pratik geçmişi, dil tercihleri"
+          },
+          {
+            "bold": "Misafir kullanıcılar",
+            "text": "Yalnızca yerel olarak saklanan kelime setleri (bulut verisi yok)"
+          },
+          {
+            "bold": "Analizler",
+            "text": "Uygulamayı iyileştirmek için anonim kullanım istatistikleri"
+          }
         ],
         "notCollectedIntro": "TOPLAMIYORUZ:",
         "notCollected": [
@@ -865,9 +1183,18 @@
         "title": "Verilerimi üçüncü taraflarla paylaşıyor musunuz?",
         "intro": "Hayır, verilerinizi SATMIYORUZ veya KİRALAMIYORUZ. Güvenilir hizmetler kullanıyoruz:",
         "services": [
-          { "bold": "Supabase", "text": "Bulut veritabanı ve kimlik doğrulama" },
-          { "bold": "OpenAI", "text": "Yapay zeka kelime üretimi (yalnızca tema adları gönderilir, kişisel verileriniz DEĞİL)" },
-          { "bold": "Expo", "text": "Uygulama altyapısı (minimum çökme raporları)" }
+          {
+            "bold": "Supabase",
+            "text": "Bulut veritabanı ve kimlik doğrulama"
+          },
+          {
+            "bold": "OpenAI",
+            "text": "Yapay zeka kelime üretimi (yalnızca tema adları gönderilir, kişisel verileriniz DEĞİL)"
+          },
+          {
+            "bold": "Expo",
+            "text": "Uygulama altyapısı (minimum çökme raporları)"
+          }
         ]
       },
       "downloadData": {
@@ -926,7 +1253,7 @@
       "items": [
         {
           "q": "Calleo ücretsiz mi?",
-          "a": "Evet! Calleo reklamsız ve uygulama içi satın alma olmadan tamamen ücretsizdir. Tüm özellikler tüm kullanıcılara açıktır."
+          "a": "Evet! Calleo reklamsız ve ücretsiz kullanılabilir. Daha fazlasını isteyen kullanıcılar için yakında isteğe bağlı premium özellikler sunacağız."
         },
         {
           "q": "Calleo hangi platformlarda mevcut?",
@@ -942,7 +1269,7 @@
         },
         {
           "q": "Calleo her zaman ücretsiz kalacak mı?",
-          "a": "Evet! Temel misyonumuz dil öğrenimini herkes için erişilebilir kılmaktır. Gelecekte isteğe bağlı premium özellikler sunabiliriz, ancak temel uygulama her zaman ücretsiz kalacaktır."
+          "a": "Calleo, herkesin öğrenmeye başlayabilmesi için her zaman ücretsiz bir plan sunacak. Ekstra araçlar isteyen kullanıcılar için isteğe bağlı premium özellikler sunuyoruz, ancak temel deneyime erişiminiz asla kısıtlanmayacak."
         }
       ]
     },

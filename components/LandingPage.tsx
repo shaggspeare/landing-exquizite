@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from './Hero';
+import WhatsNew from './WhatsNew';
 import BentoFeatures from './BentoFeatures';
 import ScreenshotGallery from './ScreenshotGallery';
 import HowItWorks from './HowItWorks';
@@ -15,6 +16,7 @@ const LandingPage: React.FC = () => {
   return (
     <main>
       <Hero />
+      <WhatsNew />
       <BentoFeatures />
       <WhyUs />
       <ScreenshotGallery />

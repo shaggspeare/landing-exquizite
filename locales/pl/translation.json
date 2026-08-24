@@ -20,10 +20,37 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "dashboard": { "src": "/images/dashboard.png", "alt": "Panel główny" },
-      "gameModes": { "src": "/images/learning-modes.png", "alt": "Tryby nauki" },
-      "quiz": { "src": "/images/quiz.png", "alt": "Tryb quizu Calleo" }
+      "dashboard": {
+        "src": "/images/dashboard.png",
+        "alt": "Panel główny"
+      },
+      "gameModes": {
+        "src": "/images/learning-modes.png",
+        "alt": "Tryby nauki"
+      },
+      "quiz": {
+        "src": "/images/quiz.png",
+        "alt": "Tryb quizu Calleo"
+      }
     }
+  },
+  "whatsNew": {
+    "sectionLabel": "Najnowsza aktualizacja",
+    "sectionTitle": "Nowości w Calleo",
+    "items": [
+      {
+        "title": "Słuchaj. Pisz. Dwa nowe sposoby ćwiczenia.",
+        "description": "Oprócz fiszek, quizów i dopasowywania, Calleo teraz sprawdza cię tak, jak robi to prawdziwa rozmowa. Tryb Słuchanie odtwarza słowo na głos, a ty je rozpoznajesz — trenując słuch, a nie tylko wzrok. Tryb Pisanie odwraca sytuację: widzisz tłumaczenie i wpisujesz słowo z pamięci, budując prawdziwe zapamiętywanie zamiast zgadywania z wielu opcji."
+      },
+      {
+        "title": "Twórz zestaw w sekundy, nie minuty",
+        "description": "Wpisywanie list słów to nudna część, więc ją pomiń. Dzięki Szybkiemu generowaniu wystarczy wpisać temat, np. „restauracja\" lub „podróże\", a AI natychmiast zbuduje gotowy zestaw słówek. Masz już zestaw? Wygeneruj więcej powiązanych słów jednym dotknięciem, a Calleo automatycznie pominie to, co już masz. Wolisz przynieść własną listę? Zaimportuj ją bezpośrednio z Wordwall i od razu zacznij ćwiczyć."
+      },
+      {
+        "title": "Nauka: prowadzona ścieżka od pierwszych słów do biegłości",
+        "description": "Nie wiesz, czego uczyć się dalej? Nauka to uporządkowany program obejmujący wszystkie sześć poziomów CEFR, od A1 do C2 — zaczynając od powitań i liczb, a kończąc na pracy, podróżach i tematach abstrakcyjnych. Każdy krok to skupiony zestaw wygenerowany specjalnie dla ciebie. Zdaj quiz, a kolejny zestaw odblokuje się automatycznie — bez presji i bez kary za ponowne próby."
+      }
+    ]
   },
   "bentoFeatures": {
     "sectionLabel": "Funkcje i zalety",
@@ -32,13 +59,23 @@
     "tiles": {
       "learnYourWay": {
         "title": "Ucz sie po swojemu",
-        "description": "Wybierz sposród 4 interaktywnych trybów nauki dopasowanych do Twojego stylu uczenia sie.",
-        "modes": ["Fiszki", "Gra w dopasowywanie", "Tryb quizu", "Uzupelnianie luk"]
+        "description": "Wybierz spośród 6 interaktywnych trybów nauki dopasowanych do Twojego stylu uczenia się.",
+        "modes": [
+          "Fiszki",
+          "Gra w dopasowywanie",
+          "Tryb quizu",
+          "Uzupelnianie luk",
+          "Słuchanie",
+          "Pisanie"
+        ]
       },
       "aiPowered": {
         "title": "Napedzane przez AI",
         "description": "Generuj pary slów natychmiast i otrzymuj inteligentne podpowiedzi.",
-        "image": { "src": "/images/ai-generation.png", "alt": "Slowa wygenerowane przez AI" }
+        "image": {
+          "src": "/images/ai-generation.png",
+          "alt": "Slowa wygenerowane przez AI"
+        }
       },
       "languages": {
         "title": "40+ jezyków",
@@ -55,8 +92,16 @@
         "recentShares": "Ostatnio udostepnione",
         "viewAll": "Zobacz wszystko",
         "shares": [
-          { "initials": "FR", "name": "Francuski — podstawy", "wordCount": "24 slowa" },
-          { "initials": "ES", "name": "Hiszpanski — kuchnia", "wordCount": "12 slów" }
+          {
+            "initials": "FR",
+            "name": "Francuski — podstawy",
+            "wordCount": "24 slowa"
+          },
+          {
+            "initials": "ES",
+            "name": "Hiszpanski — kuchnia",
+            "wordCount": "12 slów"
+          }
         ]
       },
       "seamlessSync": {
@@ -75,7 +120,7 @@
       },
       {
         "title": "2. Wybierz gre",
-        "desc": "Wybierz sposród 4 wciagajacych trybów gry, które sprawia, ze nauka staje sie zabawa."
+        "desc": "Wybierz sposród 6 wciagajacych trybów gry, które sprawia, ze nauka staje sie zabawa."
       },
       {
         "title": "3. Sledz postepy",
@@ -108,7 +153,10 @@
         "description": "Zbudowany z wykorzystaniem nowoczesnych technologii dla plynnego dzialania na kazdej platformie."
       }
     ],
-    "image": { "src": "/images/added-words.png", "alt": "Dodane slowa" }
+    "image": {
+      "src": "/images/added-words.png",
+      "alt": "Dodane slowa"
+    }
   },
   "testimonials": {
     "sectionTitle": "Uwielbiany przez uczacych sie",
@@ -134,26 +182,50 @@
     "sectionTitle": "Poznaj aplikacje",
     "sectionSubtitle": "Przyjrzyj sie blizej naszym interaktywnym trybom nauki.",
     "screenshots": [
-      { "src": "/images/ai-generation.png", "alt": "Generowanie slów przez AI" },
-      { "src": "/images/added-words.png", "alt": "Dodane slowa" },
-      { "src": "/images/learning-modes.png", "alt": "Tryby nauki" },
-      { "src": "/images/my-sets.png", "alt": "Moje zestawy" },
-      { "src": "/images/dashboard.png", "alt": "Panel główny" },
-      { "src": "/images/create-set.png", "alt": "Tworzenie zestawu" },
-      { "src": "/images/quiz.png", "alt": "Tryb quizu" },
-      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
+      {
+        "src": "/images/ai-generation.png",
+        "alt": "Generowanie slów przez AI"
+      },
+      {
+        "src": "/images/added-words.png",
+        "alt": "Dodane slowa"
+      },
+      {
+        "src": "/images/learning-modes.png",
+        "alt": "Tryby nauki"
+      },
+      {
+        "src": "/images/my-sets.png",
+        "alt": "Moje zestawy"
+      },
+      {
+        "src": "/images/dashboard.png",
+        "alt": "Panel główny"
+      },
+      {
+        "src": "/images/create-set.png",
+        "alt": "Tworzenie zestawu"
+      },
+      {
+        "src": "/images/quiz.png",
+        "alt": "Tryb quizu"
+      },
+      {
+        "src": "/images/word-tinder.png",
+        "alt": "Word Tinder"
+      }
     ]
   },
   "pricing": {
     "sectionTitle": "Prosty i przejrzysty cennik",
     "sectionSubtitle": "Edukacja powinna byc dostepna dla kazdego.",
-    "planName": "Darmowy na zawsze",
+    "planName": "Darmowy",
     "planDescription": "Wszystko, czego potrzebujesz, by opanowac jezyk.",
     "price": "$0",
     "period": "/miesiac",
     "features": [
       "Nieograniczona liczba zestawów slów",
-      "Dostep do wszystkich 4 trybów gry",
+      "Dostep do wszystkich 6 trybów gry",
       "Generowanie slów przez AI",
       "Udostepniaj swoje zestawy",
       "Synchronizacja miedzy platformami"
@@ -163,12 +235,30 @@
   "faq": {
     "sectionTitle": "Czesto zadawane pytania",
     "items": [
-      { "q": "Czy potrzebuje konta, zeby korzystac z Calleo?", "a": "Nie! Zacznij sie uczyc natychmiast w trybie goscia. Utwórz konto pózniej, by synchronizowac dane miedzy urzadzeniami." },
-      { "q": "Ile jezyków jest obslugiwanych?", "a": "Ponad 40 jezyków zarówno dla tresci edukacyjnych, jak i interfejsu aplikacji." },
-      { "q": "Czy aplikacja dziala offline?", "a": "Tak, aplikacja na iOS obsluguje dostep offline do pobranych zestawów slów." },
-      { "q": "Czy moge uzywac Calleo na komputerze?", "a": "Oczywiscie! Aplikacja webowa oferuje zoptymalizowane doswiadczenie dla komputerów." },
-      { "q": "Czy moje dane sa bezpieczne?", "a": "Tak, wszystkie dane sa bezpiecznie przechowywane i synchronizowane za posrednictwem Supabase z szyfrowanie standardowym w branzy." },
-      { "q": "Czy moge udostepniac swoje zestawy slów?", "a": "Tak! Wygeneruj link do udostepniania dla dowolnego zestawu. Inni moga go wyswietlic i skopiowac do swojej kolekcji." }
+      {
+        "q": "Czy potrzebuje konta, zeby korzystac z Calleo?",
+        "a": "Nie! Zacznij sie uczyc natychmiast w trybie goscia. Utwórz konto pózniej, by synchronizowac dane miedzy urzadzeniami."
+      },
+      {
+        "q": "Ile jezyków jest obslugiwanych?",
+        "a": "Ponad 40 jezyków zarówno dla tresci edukacyjnych, jak i interfejsu aplikacji."
+      },
+      {
+        "q": "Czy aplikacja dziala offline?",
+        "a": "Tak, aplikacja na iOS obsluguje dostep offline do pobranych zestawów slów."
+      },
+      {
+        "q": "Czy moge uzywac Calleo na komputerze?",
+        "a": "Oczywiscie! Aplikacja webowa oferuje zoptymalizowane doswiadczenie dla komputerów."
+      },
+      {
+        "q": "Czy moje dane sa bezpieczne?",
+        "a": "Tak, wszystkie dane sa bezpiecznie przechowywane i synchronizowane za posrednictwem Supabase z szyfrowanie standardowym w branzy."
+      },
+      {
+        "q": "Czy moge udostepniac swoje zestawy slów?",
+        "a": "Tak! Wygeneruj link do udostepniania dla dowolnego zestawu. Inni moga go wyswietlic i skopiowac do swojej kolekcji."
+      }
     ]
   },
   "downloadCTA": {
@@ -187,25 +277,52 @@
       "product": {
         "title": "Produkt",
         "links": [
-          { "label": "Funkcje", "href": "#features" },
-          { "label": "Jak to dziala", "href": "#how-it-works" },
-          { "label": "Cennik", "href": "#pricing" },
-          { "label": "Pobierz", "href": "#download" }
+          {
+            "label": "Funkcje",
+            "href": "#features"
+          },
+          {
+            "label": "Jak to dziala",
+            "href": "#how-it-works"
+          },
+          {
+            "label": "Cennik",
+            "href": "#pricing"
+          },
+          {
+            "label": "Pobierz",
+            "href": "#download"
+          }
         ]
       },
       "support": {
         "title": "Wsparcie",
         "links": [
-          { "label": "Pomoc i wsparcie", "to": "/support" },
-          { "label": "Kontakt", "href": "mailto:viacheslav@exquizite.app" },
-          { "label": "Polityka prywatnosci", "to": "/privacy-policy" }
+          {
+            "label": "Pomoc i wsparcie",
+            "to": "/support"
+          },
+          {
+            "label": "Kontakt",
+            "href": "mailto:viacheslav@exquizite.app"
+          },
+          {
+            "label": "Polityka prywatnosci",
+            "to": "/privacy-policy"
+          }
         ]
       },
       "legal": {
         "title": "Prawne",
         "links": [
-          { "label": "Regulamin", "href": "#" },
-          { "label": "Polityka cookies", "href": "#" }
+          {
+            "label": "Regulamin",
+            "href": "#"
+          },
+          {
+            "label": "Polityka cookies",
+            "href": "#"
+          }
         ]
       }
     },
@@ -226,26 +343,56 @@
             "title": "Dane osobowe",
             "intro": "Gdy tworzysz konto w Calleo, zbieramy:",
             "items": [
-              { "bold": "Adres email", "text": "Uzywany do tworzenia konta, uwierzytelniania i komunikacji" },
-              { "bold": "Identyfikator uzytkownika", "text": "Unikalny identyfikator generowany automatycznie do uwierzytelniania i powiazania danych" },
-              { "bold": "Haslo", "text": "Przechowywane bezpiecznie z uzyciem szyfrowania standardowego w branzy (nigdy nie przechowujemy hasel w postaci jawnej)" }
+              {
+                "bold": "Adres email",
+                "text": "Uzywany do tworzenia konta, uwierzytelniania i komunikacji"
+              },
+              {
+                "bold": "Identyfikator uzytkownika",
+                "text": "Unikalny identyfikator generowany automatycznie do uwierzytelniania i powiazania danych"
+              },
+              {
+                "bold": "Haslo",
+                "text": "Przechowywane bezpiecznie z uzyciem szyfrowania standardowego w branzy (nigdy nie przechowujemy hasel w postaci jawnej)"
+              }
             ]
           },
           {
             "title": "Tresci tworzone przez uzytkownika",
             "items": [
-              { "bold": "Zestawy slownictwa", "text": "Pary slów, tlumaczenia, nazwy zestawów i preferencje nauki, które tworzysz" },
-              { "bold": "Preferencje jezykowe", "text": "Wybrane jezyki docelowe i ojczyste do nauki" },
-              { "bold": "Historia cwiczen", "text": "Informacje o tym, kiedy ostatnio cwiczyles z zestawem i o Twoich postepach" },
-              { "bold": "Ustawienia aplikacji", "text": "Preferencje motywu, jezyk interfejsu i inne ustawienia personalizacji" }
+              {
+                "bold": "Zestawy slownictwa",
+                "text": "Pary slów, tlumaczenia, nazwy zestawów i preferencje nauki, które tworzysz"
+              },
+              {
+                "bold": "Preferencje jezykowe",
+                "text": "Wybrane jezyki docelowe i ojczyste do nauki"
+              },
+              {
+                "bold": "Historia cwiczen",
+                "text": "Informacje o tym, kiedy ostatnio cwiczyles z zestawem i o Twoich postepach"
+              },
+              {
+                "bold": "Ustawienia aplikacji",
+                "text": "Preferencje motywu, jezyk interfejsu i inne ustawienia personalizacji"
+              }
             ]
           },
           {
             "title": "Informacje zbierane automatycznie",
             "items": [
-              { "bold": "Dane o uzyciu", "text": "Informacje o tym, jak korzystasz z Aplikacji, w tym uzywane tryby gry i funkcje" },
-              { "bold": "Informacje o urzadzeniu", "text": "Typ urzadzenia, system operacyjny i wersja aplikacji do rozwiazywania problemów i zapewnienia kompatybilnosci" },
-              { "bold": "Anonimowe analizy", "text": "Zagregowane, niezidentyfikowane statystyki uzytkowania w celu ulepszenia Aplikacji" }
+              {
+                "bold": "Dane o uzyciu",
+                "text": "Informacje o tym, jak korzystasz z Aplikacji, w tym uzywane tryby gry i funkcje"
+              },
+              {
+                "bold": "Informacje o urzadzeniu",
+                "text": "Typ urzadzenia, system operacyjny i wersja aplikacji do rozwiazywania problemów i zapewnienia kompatybilnosci"
+              },
+              {
+                "bold": "Anonimowe analizy",
+                "text": "Zagregowane, niezidentyfikowane statystyki uzytkowania w celu ulepszenia Aplikacji"
+              }
             ]
           }
         ]
@@ -264,12 +411,30 @@
         "title": "Jak wykorzystujemy Twoje informacje",
         "intro": "Wykorzystujemy zebrane informacje w celu:",
         "items": [
-          { "bold": "Swiadczenie uslug", "text": "Umozliwienie tworzenia kont, synchronizacji danych i funkcjonalnosci aplikacji" },
-          { "bold": "Poprawa doswiadczenia uzytkownika", "text": "Personalizacja Twojego doswiadczenia nauki i zapamietywanie Twoich preferencji" },
-          { "bold": "Generowanie tresci AI", "text": "Uzycie API OpenAI do generowania sugestii slownictwa i przykladowych zdan na podstawie podanych tematów" },
-          { "bold": "Utrzymanie bezpieczenstwa", "text": "Uwierzytelnianie uzytkowników i ochrona przed nieautoryzowanym dostepem" },
-          { "bold": "Komunikacja", "text": "Wysylanie waznych aktualizacji dotyczacych Aplikacji (nie wysylamy emaili marketingowych bez Twojej zgody)" },
-          { "bold": "Rozwiazywanie problemów", "text": "Diagnozowanie problemów technicznych i poprawa wydajnosci aplikacji" }
+          {
+            "bold": "Swiadczenie uslug",
+            "text": "Umozliwienie tworzenia kont, synchronizacji danych i funkcjonalnosci aplikacji"
+          },
+          {
+            "bold": "Poprawa doswiadczenia uzytkownika",
+            "text": "Personalizacja Twojego doswiadczenia nauki i zapamietywanie Twoich preferencji"
+          },
+          {
+            "bold": "Generowanie tresci AI",
+            "text": "Uzycie API OpenAI do generowania sugestii slownictwa i przykladowych zdan na podstawie podanych tematów"
+          },
+          {
+            "bold": "Utrzymanie bezpieczenstwa",
+            "text": "Uwierzytelnianie uzytkowników i ochrona przed nieautoryzowanym dostepem"
+          },
+          {
+            "bold": "Komunikacja",
+            "text": "Wysylanie waznych aktualizacji dotyczacych Aplikacji (nie wysylamy emaili marketingowych bez Twojej zgody)"
+          },
+          {
+            "bold": "Rozwiazywanie problemów",
+            "text": "Diagnozowanie problemów technicznych i poprawa wydajnosci aplikacji"
+          }
         ]
       },
       {
@@ -279,10 +444,22 @@
             "title": "Lokalizacja przechowywania",
             "intro": "Twoje dane sa bezpiecznie przechowywane za pomoca Supabase — uslug bazy danych w chmurze:",
             "items": [
-              { "bold": "Lokalizacja", "text": "Dane sa hostowane na bezpiecznych serwerach zarzadzanych przez Supabase (zasilanych infrastruktura AWS)" },
-              { "bold": "Szyfrowanie", "text": "Wszystkie dane sa szyfrowane podczas przesylu za pomoca protokolów HTTPS/TLS" },
-              { "bold": "Kontrola dostepu", "text": "Polityki bezpieczenstwa na poziomie wierszy (RLS) zapewniaja, ze masz dostep tylko do wlasnych danych" },
-              { "bold": "Kopie zapasowe", "text": "Regularne automatyczne kopie zapasowe zapobiegajace utracie danych" }
+              {
+                "bold": "Lokalizacja",
+                "text": "Dane sa hostowane na bezpiecznych serwerach zarzadzanych przez Supabase (zasilanych infrastruktura AWS)"
+              },
+              {
+                "bold": "Szyfrowanie",
+                "text": "Wszystkie dane sa szyfrowane podczas przesylu za pomoca protokolów HTTPS/TLS"
+              },
+              {
+                "bold": "Kontrola dostepu",
+                "text": "Polityki bezpieczenstwa na poziomie wierszy (RLS) zapewniaja, ze masz dostep tylko do wlasnych danych"
+              },
+              {
+                "bold": "Kopie zapasowe",
+                "text": "Regularne automatyczne kopie zapasowe zapobiegajace utracie danych"
+              }
             ]
           },
           {
@@ -305,8 +482,14 @@
             "title": "Supabase (Baza danych i uwierzytelnianie)",
             "intro": "Uzywamy Supabase do przechowywania i zarzadzania danymi uzytkowników:",
             "items": [
-              { "bold": "Cel", "text": "Baza danych w chmurze, uwierzytelnianie uzytkowników i synchronizacja danych" },
-              { "bold": "Udostepniane dane", "text": "Email, ID uzytkownika, zestawy slownictwa, historia cwiczen" }
+              {
+                "bold": "Cel",
+                "text": "Baza danych w chmurze, uwierzytelnianie uzytkowników i synchronizacja danych"
+              },
+              {
+                "bold": "Udostepniane dane",
+                "text": "Email, ID uzytkownika, zestawy slownictwa, historia cwiczen"
+              }
             ],
             "privacyUrl": "https://supabase.com/privacy"
           },
@@ -314,10 +497,22 @@
             "title": "API OpenAI (Funkcje oparte na AI)",
             "intro": "Uzywamy API OpenAI do generowania sugestii slownictwa i przykladowych zdan:",
             "items": [
-              { "bold": "Cel", "text": "Generowanie tresci edukacyjnych oparte na AI" },
-              { "bold": "Udostepniane dane", "text": "TYLKO tematy lub zagadnienia, które podajesz (np. \"jedzenie\", \"podróze\")" },
-              { "bold": "Wazne", "text": "NIE wysylamy Twoich danych osobowych, emaila, ID uzytkownika ani istniejacych zestawów slownictwa do OpenAI" },
-              { "bold": "Wykorzystanie danych", "text": "OpenAI przetwarza zapytania przejsciowo i nie wykorzystuje Twoich danych do trenowania modeli (zgodnie z nasza umowa API)" }
+              {
+                "bold": "Cel",
+                "text": "Generowanie tresci edukacyjnych oparte na AI"
+              },
+              {
+                "bold": "Udostepniane dane",
+                "text": "TYLKO tematy lub zagadnienia, które podajesz (np. \"jedzenie\", \"podróze\")"
+              },
+              {
+                "bold": "Wazne",
+                "text": "NIE wysylamy Twoich danych osobowych, emaila, ID uzytkownika ani istniejacych zestawów slownictwa do OpenAI"
+              },
+              {
+                "bold": "Wykorzystanie danych",
+                "text": "OpenAI przetwarza zapytania przejsciowo i nie wykorzystuje Twoich danych do trenowania modeli (zgodnie z nasza umowa API)"
+              }
             ],
             "privacyUrl": "https://openai.com/privacy"
           },
@@ -325,8 +520,14 @@
             "title": "Expo (Platforma deweloperska)",
             "intro": "Uzywamy Expo do tworzenia i wdrazania aplikacji:",
             "items": [
-              { "bold": "Cel", "text": "Infrastruktura aplikacji i aktualizacje" },
-              { "bold": "Udostepniane dane", "text": "Minimalne raporty o bledach i anonimowe statystyki uzytkowania" }
+              {
+                "bold": "Cel",
+                "text": "Infrastruktura aplikacji i aktualizacje"
+              },
+              {
+                "bold": "Udostepniane dane",
+                "text": "Minimalne raporty o bledach i anonimowe statystyki uzytkowania"
+              }
             ],
             "privacyUrl": "https://expo.dev/privacy"
           }
@@ -337,11 +538,26 @@
         "intro": "NIE sprzedajemy, nie wynajmujemy ani nie wymieniamy Twoich danych osobowych stronom trzecim.",
         "intro2": "Mozemy udostepnic Twoje informacje tylko w nastepujacych okolicznosciach:",
         "items": [
-          { "bold": "Za Twoja zgoda", "text": "Gdy wyraznie zdecydujesz sie udostepnic zestawy slownictwa innym uzytkownikom" },
-          { "bold": "Dostawcy uslug", "text": "Zaufanym uslugom stron trzecich (Supabase, OpenAI) opisanym powyzej" },
-          { "bold": "Wymogi prawne", "text": "Jesli jest to wymagane przez prawo, nakaz sadowy lub regulacje rzadowe" },
-          { "bold": "Transfery biznesowe", "text": "W przypadku fuzji, przejecia lub sprzedazy aktywów (zostaniesz powiadomiony)" },
-          { "bold": "Bezpieczenstwo i ochrona", "text": "W celu ochrony praw, wlasnosci lub bezpieczenstwa Calleo, naszych uzytkowników lub innych osób" }
+          {
+            "bold": "Za Twoja zgoda",
+            "text": "Gdy wyraznie zdecydujesz sie udostepnic zestawy slownictwa innym uzytkownikom"
+          },
+          {
+            "bold": "Dostawcy uslug",
+            "text": "Zaufanym uslugom stron trzecich (Supabase, OpenAI) opisanym powyzej"
+          },
+          {
+            "bold": "Wymogi prawne",
+            "text": "Jesli jest to wymagane przez prawo, nakaz sadowy lub regulacje rzadowe"
+          },
+          {
+            "bold": "Transfery biznesowe",
+            "text": "W przypadku fuzji, przejecia lub sprzedazy aktywów (zostaniesz powiadomiony)"
+          },
+          {
+            "bold": "Bezpieczenstwo i ochrona",
+            "text": "W celu ochrony praw, wlasnosci lub bezpieczenstwa Calleo, naszych uzytkowników lub innych osób"
+          }
         ]
       },
       {
@@ -371,7 +587,10 @@
             "title": "Usuniecie danych",
             "description": "Mozesz zazadac calkowitego usuniecia konta i wszystkich powiazanych danych:",
             "steps": [
-              { "bold": "Usuniecie w aplikacji", "text": "(wkrótce): Przejdz do Ustawienia > Konto > Usun konto" },
+              {
+                "bold": "Usuniecie w aplikacji",
+                "text": "(wkrótce): Przejdz do Ustawienia > Konto > Usun konto"
+              },
               {
                 "bold": "Prosba przez email",
                 "text": "Skontaktuj sie z nami pod adresem viacheslav@exquizite.app z tematem \"Prosba o usuniecie danych\"",
@@ -442,12 +661,30 @@
       "title": "Podsumowanie najwazniejszych punktów",
       "intro": "Dla Twojej wygody, oto krótkie podsumowanie:",
       "items": [
-        { "label": "Co zbieramy", "value": "Email, tworzone zestawy slownictwa, preferencje jezykowe" },
-        { "label": "Dlaczego zbieramy", "value": "Aby zapewnic funkcje nauki, synchronizacje miedzy urzadzeniami, generowanie tresci AI" },
-        { "label": "Gdzie sa przechowywane", "value": "Serwery chmurowe Supabase (zasilane przez AWS)" },
-        { "label": "Strony trzecie", "value": "Supabase (baza danych), OpenAI (generowanie AI — bez danych osobowych)" },
-        { "label": "Twoje prawa", "value": "Dostep, modyfikacja, usuniecie danych w dowolnym momencie" },
-        { "label": "Kontakt", "value": "viacheslav@exquizite.app" }
+        {
+          "label": "Co zbieramy",
+          "value": "Email, tworzone zestawy slownictwa, preferencje jezykowe"
+        },
+        {
+          "label": "Dlaczego zbieramy",
+          "value": "Aby zapewnic funkcje nauki, synchronizacje miedzy urzadzeniami, generowanie tresci AI"
+        },
+        {
+          "label": "Gdzie sa przechowywane",
+          "value": "Serwery chmurowe Supabase (zasilane przez AWS)"
+        },
+        {
+          "label": "Strony trzecie",
+          "value": "Supabase (baza danych), OpenAI (generowanie AI — bez danych osobowych)"
+        },
+        {
+          "label": "Twoje prawa",
+          "value": "Dostep, modyfikacja, usuniecie danych w dowolnym momencie"
+        },
+        {
+          "label": "Kontakt",
+          "value": "viacheslav@exquizite.app"
+        }
       ],
       "thankYou": "Dziekujemy za zaufanie Calleo w Twojej przygodzie z nauka jezyków!"
     }
@@ -461,15 +698,42 @@
     "toc": {
       "title": "Spis tresci",
       "items": [
-        { "id": "getting-started", "label": "Pierwsze kroki" },
-        { "id": "account-login", "label": "Konto i logowanie" },
-        { "id": "creating-vocabulary-sets", "label": "Tworzenie zestawów slownictwa" },
-        { "id": "game-modes", "label": "Tryby gry" },
-        { "id": "sharing-sets", "label": "Udostepnianie zestawów" },
-        { "id": "settings-preferences", "label": "Ustawienia i preferencje" },
-        { "id": "troubleshooting", "label": "Rozwiazywanie problemów" },
-        { "id": "privacy-data", "label": "Prywatnosc i dane" },
-        { "id": "contact-us", "label": "Kontakt" }
+        {
+          "id": "getting-started",
+          "label": "Pierwsze kroki"
+        },
+        {
+          "id": "account-login",
+          "label": "Konto i logowanie"
+        },
+        {
+          "id": "creating-vocabulary-sets",
+          "label": "Tworzenie zestawów slownictwa"
+        },
+        {
+          "id": "game-modes",
+          "label": "Tryby gry"
+        },
+        {
+          "id": "sharing-sets",
+          "label": "Udostepnianie zestawów"
+        },
+        {
+          "id": "settings-preferences",
+          "label": "Ustawienia i preferencje"
+        },
+        {
+          "id": "troubleshooting",
+          "label": "Rozwiazywanie problemów"
+        },
+        {
+          "id": "privacy-data",
+          "label": "Prywatnosc i dane"
+        },
+        {
+          "id": "contact-us",
+          "label": "Kontakt"
+        }
       ]
     },
     "gettingStarted": {
@@ -482,8 +746,14 @@
         "title": "Czy potrzebuje konta?",
         "intro": "Nie! Mozesz korzystac z Calleo na dwa sposoby:",
         "options": [
-          { "bold": "Tryb goscia", "text": "Korzystaj z aplikacji bez rejestracji. Twoje zestawy sa zapisywane tylko lokalnie na urzadzeniu." },
-          { "bold": "Z kontem", "text": "Zarejestruj sie za pomoca emaila, aby synchronizowac zestawy miedzy wszystkimi urzadzeniami (iPhone, iPad, Android, Web)." }
+          {
+            "bold": "Tryb goscia",
+            "text": "Korzystaj z aplikacji bez rejestracji. Twoje zestawy sa zapisywane tylko lokalnie na urzadzeniu."
+          },
+          {
+            "bold": "Z kontem",
+            "text": "Zarejestruj sie za pomoca emaila, aby synchronizowac zestawy miedzy wszystkimi urzadzeniami (iPhone, iPad, Android, Web)."
+          }
         ]
       },
       "howToStart": {
@@ -569,9 +839,18 @@
         "title": "Czy moge importowac slowa hurtowo?",
         "intro": "Tak! Dotknij \"Import hurtowy\" podczas tworzenia zestawu. Opcje formatu:",
         "formats": [
-          { "name": "Opcja 1: Rozdzielone tabulatorem", "example": "slowo[TAB]tlumaczenie\nhola[TAB]czesc\nadiós[TAB]do widzenia" },
-          { "name": "Opcja 2: Rozdzielone myslnikiem", "example": "slowo - tlumaczenie\nhola - czesc\nadiós - do widzenia" },
-          { "name": "Opcja 3: Rozdzielone znakiem równosci", "example": "slowo = tlumaczenie\nhola = czesc\nadiós = do widzenia" }
+          {
+            "name": "Opcja 1: Rozdzielone tabulatorem",
+            "example": "slowo[TAB]tlumaczenie\nhola[TAB]czesc\nadiós[TAB]do widzenia"
+          },
+          {
+            "name": "Opcja 2: Rozdzielone myslnikiem",
+            "example": "slowo - tlumaczenie\nhola - czesc\nadiós - do widzenia"
+          },
+          {
+            "name": "Opcja 3: Rozdzielone znakiem równosci",
+            "example": "slowo = tlumaczenie\nhola = czesc\nadiós = do widzenia"
+          }
         ]
       },
       "editSet": {
@@ -611,10 +890,22 @@
         "title": "Jakie tryby gry sa dostepne?",
         "intro": "Calleo oferuje 4 interaktywne tryby nauki:",
         "modes": [
-          { "bold": "Fiszki", "text": "Klasyczne karty do odwracania, testujace pamiec" },
-          { "bold": "Quiz", "text": "Pytania wielokrotnego wyboru utrwalajace nauke" },
-          { "bold": "Dopasowywanie", "text": "Znajdz pasujace pary slów na czas" },
-          { "bold": "Uzupelnianie luk", "text": "Uzupelnij zdania odpowiednimi slowami" }
+          {
+            "bold": "Fiszki",
+            "text": "Klasyczne karty do odwracania, testujace pamiec"
+          },
+          {
+            "bold": "Quiz",
+            "text": "Pytania wielokrotnego wyboru utrwalajace nauke"
+          },
+          {
+            "bold": "Dopasowywanie",
+            "text": "Znajdz pasujace pary slów na czas"
+          },
+          {
+            "bold": "Uzupelnianie luk",
+            "text": "Uzupelnij zdania odpowiednimi slowami"
+          }
         ]
       },
       "howToPlay": {
@@ -698,8 +989,14 @@
         "title": "Czy moge zobaczyc, kto wyswietlil lub skopiowal mój udostepniony zestaw?",
         "intro": "Tak! Przegladajac udostepniony zestaw, mozesz zobaczyc:",
         "items": [
-          { "bold": "Liczba wyswietlen", "text": "Ile razy zostal wyswietlony" },
-          { "bold": "Liczba kopii", "text": "Ilu uzytkowników go skopiowalo" }
+          {
+            "bold": "Liczba wyswietlen",
+            "text": "Ile razy zostal wyswietlony"
+          },
+          {
+            "bold": "Liczba kopii",
+            "text": "Ilu uzytkowników go skopiowalo"
+          }
         ],
         "note": "Nie mozesz zobaczyc nazw ani emaili poszczególnych uzytkowników (ochrona prywatnosci)."
       },
@@ -802,10 +1099,22 @@
         "title": "Nie moge znalezc udostepnionego zestawu z kodem",
         "intro": "Czeste problemy:",
         "items": [
-          { "bold": "Kod wygasl", "text": "Niektóre kody udostepniania maja date waznosci" },
-          { "bold": "Kod usuniety", "text": "Twórca przestal udostepniac zestaw" },
-          { "bold": "Literówka", "text": "Sprawdz dokladnosc kodu (kody rozrózniaja wielkosc liter)" },
-          { "bold": "Polaczenie internetowe", "text": "Upewnij sie, ze jestes online" }
+          {
+            "bold": "Kod wygasl",
+            "text": "Niektóre kody udostepniania maja date waznosci"
+          },
+          {
+            "bold": "Kod usuniety",
+            "text": "Twórca przestal udostepniac zestaw"
+          },
+          {
+            "bold": "Literówka",
+            "text": "Sprawdz dokladnosc kodu (kody rozrózniaja wielkosc liter)"
+          },
+          {
+            "bold": "Polaczenie internetowe",
+            "text": "Upewnij sie, ze jestes online"
+          }
         ]
       },
       "wrongLanguage": {
@@ -849,9 +1158,18 @@
       "whatCollected": {
         "title": "Jakie dane zbieracie?",
         "collected": [
-          { "bold": "Uzytkownicy z kontem", "text": "Email, ID uzytkownika, zestawy slownictwa, historia cwiczen, preferencje jezykowe" },
-          { "bold": "Uzytkownicy goscie", "text": "Zestawy slownictwa przechowywane tylko lokalnie (brak danych w chmurze)" },
-          { "bold": "Analizy", "text": "Anonimowe statystyki uzytkowania w celu ulepszenia aplikacji" }
+          {
+            "bold": "Uzytkownicy z kontem",
+            "text": "Email, ID uzytkownika, zestawy slownictwa, historia cwiczen, preferencje jezykowe"
+          },
+          {
+            "bold": "Uzytkownicy goscie",
+            "text": "Zestawy slownictwa przechowywane tylko lokalnie (brak danych w chmurze)"
+          },
+          {
+            "bold": "Analizy",
+            "text": "Anonimowe statystyki uzytkowania w celu ulepszenia aplikacji"
+          }
         ],
         "notCollectedIntro": "NIE zbieramy:",
         "notCollected": [
@@ -865,9 +1183,18 @@
         "title": "Czy udostepniacie moje dane stronom trzecim?",
         "intro": "Nie, NIE sprzedajemy ani nie wynajmujemy Twoich danych. Korzystamy z zaufanych uslug:",
         "services": [
-          { "bold": "Supabase", "text": "Baza danych w chmurze i uwierzytelnianie" },
-          { "bold": "OpenAI", "text": "Generowanie slownictwa AI (wysylane sa tylko nazwy tematów, NIE Twoje dane osobowe)" },
-          { "bold": "Expo", "text": "Infrastruktura aplikacji (minimalne raporty o bledach)" }
+          {
+            "bold": "Supabase",
+            "text": "Baza danych w chmurze i uwierzytelnianie"
+          },
+          {
+            "bold": "OpenAI",
+            "text": "Generowanie slownictwa AI (wysylane sa tylko nazwy tematów, NIE Twoje dane osobowe)"
+          },
+          {
+            "bold": "Expo",
+            "text": "Infrastruktura aplikacji (minimalne raporty o bledach)"
+          }
         ]
       },
       "downloadData": {
@@ -926,7 +1253,7 @@
       "items": [
         {
           "q": "Czy Calleo jest darmowy?",
-          "a": "Tak! Calleo jest calkowicie darmowy, bez reklam i zakupów w aplikacji. Wszystkie funkcje sa dostepne dla wszystkich uzytkowników."
+          "a": "Tak! Calleo jest darmowe w użyciu, bez reklam. Wkrótce wprowadzimy opcjonalne funkcje premium dla osób, które chcą więcej."
         },
         {
           "q": "Na jakich platformach dostepny jest Calleo?",
@@ -942,7 +1269,7 @@
         },
         {
           "q": "Czy Calleo zawsze bedzie darmowy?",
-          "a": "Tak! Nasza glówna misja to uczynienie nauki jezyków dostepna dla kazdego. W przyszlosci mozemy wprowadzic opcjonalne funkcje premium, ale podstawowa aplikacja zawsze pozostanie darmowa."
+          "a": "Calleo zawsze będzie oferować darmowy plan, aby każdy mógł zacząć naukę. Wprowadzamy opcjonalne funkcje premium dla osób, które chcą dodatkowych narzędzi, ale nigdy nie stracisz dostępu do podstawowego doświadczenia."
         }
       ]
     },

@@ -20,10 +20,37 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "dashboard": { "src": "/images/dashboard.png", "alt": "仪表盘" },
-      "gameModes": { "src": "/images/learning-modes.png", "alt": "学习模式" },
-      "quiz": { "src": "/images/quiz.png", "alt": "Calleo 应用测验模式" }
+      "dashboard": {
+        "src": "/images/dashboard.png",
+        "alt": "仪表盘"
+      },
+      "gameModes": {
+        "src": "/images/learning-modes.png",
+        "alt": "学习模式"
+      },
+      "quiz": {
+        "src": "/images/quiz.png",
+        "alt": "Calleo 应用测验模式"
+      }
     }
+  },
+  "whatsNew": {
+    "sectionLabel": "最新更新",
+    "sectionTitle": "Calleo 新功能",
+    "items": [
+      {
+        "title": "听力与写作，两种全新练习方式。",
+        "description": "除了闪卡、测验和配对，Calleo 现在会像真实对话一样考验你。听力模式会读出单词，让你辨认出来——训练的是耳朵，而不仅仅是眼睛。写作模式则反过来：你看到释义，凭记忆输入单词，培养真正的记忆能力，而不是靠选择题猜测。"
+      },
+      {
+        "title": "几秒钟，而不是几分钟，就能创建一个词汇集",
+        "description": "手动输入单词列表是最枯燥的部分，所以跳过它吧。使用快速生成，只需输入一个主题，比如\"餐厅\"或\"旅行\"，AI 就能立即生成一个可直接使用的词汇集。已经有一个词汇集了？一键生成更多相关单词，Calleo 会自动跳过你已有的内容。想用自己的列表？直接从 Wordwall 导入，马上开始练习。"
+      },
+      {
+        "title": "学习路径：从入门词汇到流利掌握的引导式课程",
+        "description": "不知道接下来该学什么？学习路径是一套涵盖全部六个欧标（CEFR）等级的结构化课程，从 A1 到 C2——开始是问候语和数字，后面逐步过渡到工作、旅行和抽象话题。每一步都是专为你生成的重点词汇集。通过测验后，下一个词汇集会自动解锁，没有压力，重试也不会受罚。"
+      }
+    ]
   },
   "bentoFeatures": {
     "sectionLabel": "功能与亮点",
@@ -32,13 +59,23 @@
     "tiles": {
       "learnYourWay": {
         "title": "按你的方式学习",
-        "description": "从 4 种互动学习模式中选择，找到最适合你的学习风格。",
-        "modes": ["闪卡", "配对游戏", "测验模式", "填空"]
+        "description": "从 6 种互动学习模式中选择，找到最适合你的学习风格。",
+        "modes": [
+          "闪卡",
+          "配对游戏",
+          "测验模式",
+          "填空",
+          "听力",
+          "写作"
+        ]
       },
       "aiPowered": {
         "title": "AI 驱动",
         "description": "即时生成词汇对，获取智能提示。",
-        "image": { "src": "/images/ai-generation.png", "alt": "AI 生成的词汇" }
+        "image": {
+          "src": "/images/ai-generation.png",
+          "alt": "AI 生成的词汇"
+        }
       },
       "languages": {
         "title": "40+ 种语言",
@@ -55,8 +92,16 @@
         "recentShares": "最近分享",
         "viewAll": "查看全部",
         "shares": [
-          { "initials": "FR", "name": "法语基础", "wordCount": "24 个词" },
-          { "initials": "ES", "name": "西班牙语厨房词汇", "wordCount": "12 个词" }
+          {
+            "initials": "FR",
+            "name": "法语基础",
+            "wordCount": "24 个词"
+          },
+          {
+            "initials": "ES",
+            "name": "西班牙语厨房词汇",
+            "wordCount": "12 个词"
+          }
         ]
       },
       "seamlessSync": {
@@ -75,7 +120,7 @@
       },
       {
         "title": "2. 选择游戏",
-        "desc": "从 4 种趣味游戏模式中选择，让学习变得像玩耍一样轻松。"
+        "desc": "从 6 种趣味游戏模式中选择，让学习变得像玩耍一样轻松。"
       },
       {
         "title": "3. 追踪进度",
@@ -108,7 +153,10 @@
         "description": "采用现代技术打造，在每个平台上都能流畅运行。"
       }
     ],
-    "image": { "src": "/images/added-words.png", "alt": "已添加的词汇" }
+    "image": {
+      "src": "/images/added-words.png",
+      "alt": "已添加的词汇"
+    }
   },
   "testimonials": {
     "sectionTitle": "深受学习者喜爱",
@@ -134,26 +182,50 @@
     "sectionTitle": "体验应用",
     "sectionSubtitle": "近距离了解我们的互动学习模式。",
     "screenshots": [
-      { "src": "/images/ai-generation.png", "alt": "AI 词汇生成" },
-      { "src": "/images/added-words.png", "alt": "已添加的词汇" },
-      { "src": "/images/learning-modes.png", "alt": "学习模式" },
-      { "src": "/images/my-sets.png", "alt": "我的词汇集" },
-      { "src": "/images/dashboard.png", "alt": "仪表盘" },
-      { "src": "/images/create-set.png", "alt": "创建词组" },
-      { "src": "/images/quiz.png", "alt": "测验模式" },
-      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
+      {
+        "src": "/images/ai-generation.png",
+        "alt": "AI 词汇生成"
+      },
+      {
+        "src": "/images/added-words.png",
+        "alt": "已添加的词汇"
+      },
+      {
+        "src": "/images/learning-modes.png",
+        "alt": "学习模式"
+      },
+      {
+        "src": "/images/my-sets.png",
+        "alt": "我的词汇集"
+      },
+      {
+        "src": "/images/dashboard.png",
+        "alt": "仪表盘"
+      },
+      {
+        "src": "/images/create-set.png",
+        "alt": "创建词组"
+      },
+      {
+        "src": "/images/quiz.png",
+        "alt": "测验模式"
+      },
+      {
+        "src": "/images/word-tinder.png",
+        "alt": "Word Tinder"
+      }
     ]
   },
   "pricing": {
     "sectionTitle": "简单透明的价格",
     "sectionSubtitle": "教育应该人人可及。",
-    "planName": "永久免费",
+    "planName": "免费",
     "planDescription": "掌握一门语言所需的一切。",
     "price": "$0",
     "period": "/月",
     "features": [
       "无限词汇集",
-      "使用全部 4 种游戏模式",
+      "使用全部 6 种游戏模式",
       "AI 词汇生成",
       "分享你的词汇集",
       "跨平台同步"
@@ -163,12 +235,30 @@
   "faq": {
     "sectionTitle": "常见问题",
     "items": [
-      { "q": "使用 Calleo 需要注册账户吗？", "a": "不需要！使用访客模式即可立即开始学习。稍后可创建账户以在多设备间同步。" },
-      { "q": "支持多少种语言？", "a": "超过 40 种语言，涵盖学习内容和应用界面。" },
-      { "q": "应用可以离线使用吗？", "a": "可以，iOS 应用支持离线访问已下载的词汇集。" },
-      { "q": "我可以在电脑上使用 Calleo 吗？", "a": "当然可以！网页版提供专为桌面端优化的体验。" },
-      { "q": "我的数据安全吗？", "a": "是的，所有数据都通过 Supabase 安全存储和同步，采用行业标准加密技术。" },
-      { "q": "我可以分享词汇集吗？", "a": "可以！为任意词汇集生成分享链接。其他人可以查看并复制到自己的收藏中。" }
+      {
+        "q": "使用 Calleo 需要注册账户吗？",
+        "a": "不需要！使用访客模式即可立即开始学习。稍后可创建账户以在多设备间同步。"
+      },
+      {
+        "q": "支持多少种语言？",
+        "a": "超过 40 种语言，涵盖学习内容和应用界面。"
+      },
+      {
+        "q": "应用可以离线使用吗？",
+        "a": "可以，iOS 应用支持离线访问已下载的词汇集。"
+      },
+      {
+        "q": "我可以在电脑上使用 Calleo 吗？",
+        "a": "当然可以！网页版提供专为桌面端优化的体验。"
+      },
+      {
+        "q": "我的数据安全吗？",
+        "a": "是的，所有数据都通过 Supabase 安全存储和同步，采用行业标准加密技术。"
+      },
+      {
+        "q": "我可以分享词汇集吗？",
+        "a": "可以！为任意词汇集生成分享链接。其他人可以查看并复制到自己的收藏中。"
+      }
     ]
   },
   "downloadCTA": {
@@ -187,29 +277,56 @@
       "product": {
         "title": "产品",
         "links": [
-          { "label": "功能特色", "href": "#features" },
-          { "label": "使用方法", "href": "#how-it-works" },
-          { "label": "价格", "href": "#pricing" },
-          { "label": "下载", "href": "#download" }
+          {
+            "label": "功能特色",
+            "href": "#features"
+          },
+          {
+            "label": "使用方法",
+            "href": "#how-it-works"
+          },
+          {
+            "label": "价格",
+            "href": "#pricing"
+          },
+          {
+            "label": "下载",
+            "href": "#download"
+          }
         ]
       },
       "support": {
         "title": "支持",
         "links": [
-          { "label": "帮助与支持", "to": "/support" },
-          { "label": "联系我们", "href": "mailto:viacheslav@exquizite.app" },
-          { "label": "隐私政策", "to": "/privacy-policy" }
+          {
+            "label": "帮助与支持",
+            "to": "/support"
+          },
+          {
+            "label": "联系我们",
+            "href": "mailto:viacheslav@exquizite.app"
+          },
+          {
+            "label": "隐私政策",
+            "to": "/privacy-policy"
+          }
         ]
       },
       "legal": {
         "title": "法律信息",
         "links": [
-          { "label": "服务条款", "href": "#" },
-          { "label": "Cookie 政策", "href": "#" }
+          {
+            "label": "服务条款",
+            "href": "#"
+          },
+          {
+            "label": "Cookie 政策",
+            "href": "#"
+          }
         ]
       }
     },
-    "copyright": "\u00a9 2025 Calleo. 用你的方式掌握语言。"
+    "copyright": "© 2025 Calleo. 用你的方式掌握语言。"
   },
   "privacyPolicy": {
     "title": "Calleo 隐私政策",
@@ -226,26 +343,56 @@
             "title": "个人信息",
             "intro": "当您在 Calleo 创建账户时，我们会收集：",
             "items": [
-              { "bold": "电子邮箱地址", "text": "用于账户创建、身份验证和通信" },
-              { "bold": "用户 ID", "text": "自动生成的唯一标识符，用于身份验证和数据关联" },
-              { "bold": "密码", "text": "使用行业标准加密安全存储（我们绝不以明文形式存储密码）" }
+              {
+                "bold": "电子邮箱地址",
+                "text": "用于账户创建、身份验证和通信"
+              },
+              {
+                "bold": "用户 ID",
+                "text": "自动生成的唯一标识符，用于身份验证和数据关联"
+              },
+              {
+                "bold": "密码",
+                "text": "使用行业标准加密安全存储（我们绝不以明文形式存储密码）"
+              }
             ]
           },
           {
             "title": "用户生成内容",
             "items": [
-              { "bold": "词汇集", "text": "您创建的词汇对、翻译、集合名称和学习偏好" },
-              { "bold": "语言偏好", "text": "您选择的目标语言和母语" },
-              { "bold": "练习历史", "text": "您上次练习词汇集的时间和进度信息" },
-              { "bold": "应用设置", "text": "主题偏好、界面语言和其他自定义设置" }
+              {
+                "bold": "词汇集",
+                "text": "您创建的词汇对、翻译、集合名称和学习偏好"
+              },
+              {
+                "bold": "语言偏好",
+                "text": "您选择的目标语言和母语"
+              },
+              {
+                "bold": "练习历史",
+                "text": "您上次练习词汇集的时间和进度信息"
+              },
+              {
+                "bold": "应用设置",
+                "text": "主题偏好、界面语言和其他自定义设置"
+              }
             ]
           },
           {
             "title": "自动收集的信息",
             "items": [
-              { "bold": "使用数据", "text": "您与应用的交互信息，包括使用的游戏模式和功能" },
-              { "bold": "设备信息", "text": "设备类型、操作系统和应用版本，用于故障排除和兼容性" },
-              { "bold": "匿名分析", "text": "汇总的、非个人身份识别的使用统计数据，用于改进应用" }
+              {
+                "bold": "使用数据",
+                "text": "您与应用的交互信息，包括使用的游戏模式和功能"
+              },
+              {
+                "bold": "设备信息",
+                "text": "设备类型、操作系统和应用版本，用于故障排除和兼容性"
+              },
+              {
+                "bold": "匿名分析",
+                "text": "汇总的、非个人身份识别的使用统计数据，用于改进应用"
+              }
             ]
           }
         ]
@@ -264,12 +411,30 @@
         "title": "我们如何使用您的信息",
         "intro": "我们使用收集的信息用于：",
         "items": [
-          { "bold": "提供服务", "text": "实现账户创建、数据同步和应用功能" },
-          { "bold": "改善用户体验", "text": "个性化您的学习体验并记住您的偏好" },
-          { "bold": "生成 AI 内容", "text": "使用 OpenAI 的 API 根据您提供的主题生成词汇建议和例句" },
-          { "bold": "维护安全", "text": "验证用户身份并防止未授权访问" },
-          { "bold": "通信", "text": "发送有关应用的重要更新（未经您同意，我们不会发送营销邮件）" },
-          { "bold": "故障排除", "text": "诊断技术问题并提升应用性能" }
+          {
+            "bold": "提供服务",
+            "text": "实现账户创建、数据同步和应用功能"
+          },
+          {
+            "bold": "改善用户体验",
+            "text": "个性化您的学习体验并记住您的偏好"
+          },
+          {
+            "bold": "生成 AI 内容",
+            "text": "使用 OpenAI 的 API 根据您提供的主题生成词汇建议和例句"
+          },
+          {
+            "bold": "维护安全",
+            "text": "验证用户身份并防止未授权访问"
+          },
+          {
+            "bold": "通信",
+            "text": "发送有关应用的重要更新（未经您同意，我们不会发送营销邮件）"
+          },
+          {
+            "bold": "故障排除",
+            "text": "诊断技术问题并提升应用性能"
+          }
         ]
       },
       {
@@ -279,10 +444,22 @@
             "title": "存储位置",
             "intro": "您的数据通过 Supabase（一个云数据库服务）安全存储：",
             "items": [
-              { "bold": "位置", "text": "数据托管在 Supabase 管理的安全服务器上（基于 AWS 基础设施）" },
-              { "bold": "加密", "text": "所有数据在传输过程中使用 HTTPS/TLS 协议加密" },
-              { "bold": "访问控制", "text": "行级安全（RLS）策略确保您只能访问自己的数据" },
-              { "bold": "备份", "text": "定期自动备份以防止数据丢失" }
+              {
+                "bold": "位置",
+                "text": "数据托管在 Supabase 管理的安全服务器上（基于 AWS 基础设施）"
+              },
+              {
+                "bold": "加密",
+                "text": "所有数据在传输过程中使用 HTTPS/TLS 协议加密"
+              },
+              {
+                "bold": "访问控制",
+                "text": "行级安全（RLS）策略确保您只能访问自己的数据"
+              },
+              {
+                "bold": "备份",
+                "text": "定期自动备份以防止数据丢失"
+              }
             ]
           },
           {
@@ -305,8 +482,14 @@
             "title": "Supabase（数据库和身份验证）",
             "intro": "我们使用 Supabase 来存储和管理用户数据：",
             "items": [
-              { "bold": "用途", "text": "云数据库、用户身份验证和数据同步" },
-              { "bold": "共享的数据", "text": "电子邮箱、用户 ID、词汇集、练习历史" }
+              {
+                "bold": "用途",
+                "text": "云数据库、用户身份验证和数据同步"
+              },
+              {
+                "bold": "共享的数据",
+                "text": "电子邮箱、用户 ID、词汇集、练习历史"
+              }
             ],
             "privacyUrl": "https://supabase.com/privacy"
           },
@@ -314,10 +497,22 @@
             "title": "OpenAI API（AI 驱动功能）",
             "intro": "我们使用 OpenAI 的 API 生成词汇建议和例句：",
             "items": [
-              { "bold": "用途", "text": "AI 驱动的学习内容生成" },
-              { "bold": "共享的数据", "text": "仅限您请求的主题或话题（例如\"食物\"、\"旅行\"）" },
-              { "bold": "重要说明", "text": "我们不会向 OpenAI 发送您的个人信息、电子邮箱、用户 ID 或现有词汇集" },
-              { "bold": "数据使用", "text": "OpenAI 临时处理请求，不会将您的数据用于模型训练（根据我们的 API 协议）" }
+              {
+                "bold": "用途",
+                "text": "AI 驱动的学习内容生成"
+              },
+              {
+                "bold": "共享的数据",
+                "text": "仅限您请求的主题或话题（例如\"食物\"、\"旅行\"）"
+              },
+              {
+                "bold": "重要说明",
+                "text": "我们不会向 OpenAI 发送您的个人信息、电子邮箱、用户 ID 或现有词汇集"
+              },
+              {
+                "bold": "数据使用",
+                "text": "OpenAI 临时处理请求，不会将您的数据用于模型训练（根据我们的 API 协议）"
+              }
             ],
             "privacyUrl": "https://openai.com/privacy"
           },
@@ -325,8 +520,14 @@
             "title": "Expo（开发平台）",
             "intro": "我们使用 Expo 进行应用开发和部署：",
             "items": [
-              { "bold": "用途", "text": "应用基础设施和更新" },
-              { "bold": "共享的数据", "text": "最少量的崩溃报告和匿名使用统计" }
+              {
+                "bold": "用途",
+                "text": "应用基础设施和更新"
+              },
+              {
+                "bold": "共享的数据",
+                "text": "最少量的崩溃报告和匿名使用统计"
+              }
             ],
             "privacyUrl": "https://expo.dev/privacy"
           }
@@ -337,11 +538,26 @@
         "intro": "我们不会向第三方出售、出租或交易您的个人信息。",
         "intro2": "我们仅在以下情况下可能共享您的信息：",
         "items": [
-          { "bold": "经您同意", "text": "当您明确选择与其他用户分享词汇集时" },
-          { "bold": "服务提供商", "text": "与上述可信的第三方服务（Supabase、OpenAI）共享" },
-          { "bold": "法律要求", "text": "如法律、法院命令或政府法规要求" },
-          { "bold": "业务转让", "text": "在合并、收购或资产出售的情况下（您将收到通知）" },
-          { "bold": "安全保障", "text": "为保护 Calleo、我们用户或他人的权利、财产或安全" }
+          {
+            "bold": "经您同意",
+            "text": "当您明确选择与其他用户分享词汇集时"
+          },
+          {
+            "bold": "服务提供商",
+            "text": "与上述可信的第三方服务（Supabase、OpenAI）共享"
+          },
+          {
+            "bold": "法律要求",
+            "text": "如法律、法院命令或政府法规要求"
+          },
+          {
+            "bold": "业务转让",
+            "text": "在合并、收购或资产出售的情况下（您将收到通知）"
+          },
+          {
+            "bold": "安全保障",
+            "text": "为保护 Calleo、我们用户或他人的权利、财产或安全"
+          }
         ]
       },
       {
@@ -371,7 +587,10 @@
             "title": "删除您的数据",
             "description": "您可以请求完全删除您的账户和所有相关数据：",
             "steps": [
-              { "bold": "应用内删除", "text": "（即将推出）：前往设置 > 账户 > 删除账户" },
+              {
+                "bold": "应用内删除",
+                "text": "（即将推出）：前往设置 > 账户 > 删除账户"
+              },
               {
                 "bold": "通过邮件请求",
                 "text": "发送邮件至 viacheslav@exquizite.app，主题为\"数据删除请求\"",
@@ -442,12 +661,30 @@
       "title": "要点摘要",
       "intro": "为方便您阅读，以下是简要概述：",
       "items": [
-        { "label": "我们收集什么", "value": "电子邮箱、您创建的词汇集、语言偏好" },
-        { "label": "为什么收集", "value": "提供学习功能、跨设备同步、生成 AI 内容" },
-        { "label": "数据存储位置", "value": "Supabase 云服务器（基于 AWS）" },
-        { "label": "第三方", "value": "Supabase（数据库）、OpenAI（AI 生成 - 不发送个人数据）" },
-        { "label": "您的权利", "value": "随时访问、修改、删除您的数据" },
-        { "label": "联系方式", "value": "viacheslav@exquizite.app" }
+        {
+          "label": "我们收集什么",
+          "value": "电子邮箱、您创建的词汇集、语言偏好"
+        },
+        {
+          "label": "为什么收集",
+          "value": "提供学习功能、跨设备同步、生成 AI 内容"
+        },
+        {
+          "label": "数据存储位置",
+          "value": "Supabase 云服务器（基于 AWS）"
+        },
+        {
+          "label": "第三方",
+          "value": "Supabase（数据库）、OpenAI（AI 生成 - 不发送个人数据）"
+        },
+        {
+          "label": "您的权利",
+          "value": "随时访问、修改、删除您的数据"
+        },
+        {
+          "label": "联系方式",
+          "value": "viacheslav@exquizite.app"
+        }
       ],
       "thankYou": "感谢您信任 Calleo，陪伴您的语言学习之旅！"
     }
@@ -461,15 +698,42 @@
     "toc": {
       "title": "目录",
       "items": [
-        { "id": "getting-started", "label": "快速入门" },
-        { "id": "account-login", "label": "账户与登录" },
-        { "id": "creating-vocabulary-sets", "label": "创建词汇集" },
-        { "id": "game-modes", "label": "游戏模式" },
-        { "id": "sharing-sets", "label": "分享词汇集" },
-        { "id": "settings-preferences", "label": "设置与偏好" },
-        { "id": "troubleshooting", "label": "故障排除" },
-        { "id": "privacy-data", "label": "隐私与数据" },
-        { "id": "contact-us", "label": "联系我们" }
+        {
+          "id": "getting-started",
+          "label": "快速入门"
+        },
+        {
+          "id": "account-login",
+          "label": "账户与登录"
+        },
+        {
+          "id": "creating-vocabulary-sets",
+          "label": "创建词汇集"
+        },
+        {
+          "id": "game-modes",
+          "label": "游戏模式"
+        },
+        {
+          "id": "sharing-sets",
+          "label": "分享词汇集"
+        },
+        {
+          "id": "settings-preferences",
+          "label": "设置与偏好"
+        },
+        {
+          "id": "troubleshooting",
+          "label": "故障排除"
+        },
+        {
+          "id": "privacy-data",
+          "label": "隐私与数据"
+        },
+        {
+          "id": "contact-us",
+          "label": "联系我们"
+        }
       ]
     },
     "gettingStarted": {
@@ -482,8 +746,14 @@
         "title": "我需要注册账户吗？",
         "intro": "不需要！您可以通过两种方式使用 Calleo：",
         "options": [
-          { "bold": "访客模式", "text": "无需注册即可使用应用。您的词汇集仅保存在设备本地。" },
-          { "bold": "注册账户", "text": "使用电子邮箱注册，在所有设备上同步词汇集（iPhone、iPad、Android、网页）。" }
+          {
+            "bold": "访客模式",
+            "text": "无需注册即可使用应用。您的词汇集仅保存在设备本地。"
+          },
+          {
+            "bold": "注册账户",
+            "text": "使用电子邮箱注册，在所有设备上同步词汇集（iPhone、iPad、Android、网页）。"
+          }
         ]
       },
       "howToStart": {
@@ -569,9 +839,18 @@
         "title": "可以批量导入词汇吗？",
         "intro": "可以！创建词汇集时点击\"批量导入\"。支持的格式：",
         "formats": [
-          { "name": "选项 1：制表符分隔", "example": "单词[TAB]翻译\nhola[TAB]你好\nadiós[TAB]再见" },
-          { "name": "选项 2：连字符分隔", "example": "单词 - 翻译\nhola - 你好\nadiós - 再见" },
-          { "name": "选项 3：等号分隔", "example": "单词 = 翻译\nhola = 你好\nadiós = 再见" }
+          {
+            "name": "选项 1：制表符分隔",
+            "example": "单词[TAB]翻译\nhola[TAB]你好\nadiós[TAB]再见"
+          },
+          {
+            "name": "选项 2：连字符分隔",
+            "example": "单词 - 翻译\nhola - 你好\nadiós - 再见"
+          },
+          {
+            "name": "选项 3：等号分隔",
+            "example": "单词 = 翻译\nhola = 你好\nadiós = 再见"
+          }
         ]
       },
       "editSet": {
@@ -611,10 +890,22 @@
         "title": "有哪些游戏模式？",
         "intro": "Calleo 提供 4 种互动学习模式：",
         "modes": [
-          { "bold": "闪卡", "text": "经典翻转卡片，测试您的记忆力" },
-          { "bold": "测验", "text": "选择题巩固学习成果" },
-          { "bold": "配对", "text": "在限时内找到匹配的词汇对" },
-          { "bold": "填空", "text": "用正确的单词完成句子" }
+          {
+            "bold": "闪卡",
+            "text": "经典翻转卡片，测试您的记忆力"
+          },
+          {
+            "bold": "测验",
+            "text": "选择题巩固学习成果"
+          },
+          {
+            "bold": "配对",
+            "text": "在限时内找到匹配的词汇对"
+          },
+          {
+            "bold": "填空",
+            "text": "用正确的单词完成句子"
+          }
         ]
       },
       "howToPlay": {
@@ -698,8 +989,14 @@
         "title": "能看到谁查看或复制了我分享的词汇集吗？",
         "intro": "可以！查看已分享的词汇集时，您可以看到：",
         "items": [
-          { "bold": "查看次数", "text": "词汇集被查看了多少次" },
-          { "bold": "复制次数", "text": "有多少用户复制了它" }
+          {
+            "bold": "查看次数",
+            "text": "词汇集被查看了多少次"
+          },
+          {
+            "bold": "复制次数",
+            "text": "有多少用户复制了它"
+          }
         ],
         "note": "您无法看到单个用户的姓名或邮箱（隐私保护）。"
       },
@@ -802,10 +1099,22 @@
         "title": "无法通过代码找到分享的词汇集",
         "intro": "常见问题：",
         "items": [
-          { "bold": "代码已过期", "text": "部分分享代码有有效期限" },
-          { "bold": "代码已删除", "text": "创建者已停止分享该词汇集" },
-          { "bold": "输入错误", "text": "请仔细检查代码（代码区分大小写）" },
-          { "bold": "网络连接", "text": "确保您已联网" }
+          {
+            "bold": "代码已过期",
+            "text": "部分分享代码有有效期限"
+          },
+          {
+            "bold": "代码已删除",
+            "text": "创建者已停止分享该词汇集"
+          },
+          {
+            "bold": "输入错误",
+            "text": "请仔细检查代码（代码区分大小写）"
+          },
+          {
+            "bold": "网络连接",
+            "text": "确保您已联网"
+          }
         ]
       },
       "wrongLanguage": {
@@ -849,9 +1158,18 @@
       "whatCollected": {
         "title": "你们收集哪些数据？",
         "collected": [
-          { "bold": "注册用户", "text": "电子邮箱、用户 ID、词汇集、练习历史、语言偏好" },
-          { "bold": "访客用户", "text": "词汇集仅存储在本地（无云端数据）" },
-          { "bold": "分析数据", "text": "匿名使用统计数据，用于改进应用" }
+          {
+            "bold": "注册用户",
+            "text": "电子邮箱、用户 ID、词汇集、练习历史、语言偏好"
+          },
+          {
+            "bold": "访客用户",
+            "text": "词汇集仅存储在本地（无云端数据）"
+          },
+          {
+            "bold": "分析数据",
+            "text": "匿名使用统计数据，用于改进应用"
+          }
         ],
         "notCollectedIntro": "我们不收集：",
         "notCollected": [
@@ -865,9 +1183,18 @@
         "title": "你们会把我的数据分享给第三方吗？",
         "intro": "不会，我们不会出售或出租您的数据。我们使用可信赖的服务：",
         "services": [
-          { "bold": "Supabase", "text": "云数据库和身份验证" },
-          { "bold": "OpenAI", "text": "AI 词汇生成（仅发送主题名称，不发送您的个人数据）" },
-          { "bold": "Expo", "text": "应用基础设施（最少量的崩溃报告）" }
+          {
+            "bold": "Supabase",
+            "text": "云数据库和身份验证"
+          },
+          {
+            "bold": "OpenAI",
+            "text": "AI 词汇生成（仅发送主题名称，不发送您的个人数据）"
+          },
+          {
+            "bold": "Expo",
+            "text": "应用基础设施（最少量的崩溃报告）"
+          }
         ]
       },
       "downloadData": {
@@ -926,7 +1253,7 @@
       "items": [
         {
           "q": "Calleo 是免费的吗？",
-          "a": "是的！Calleo 完全免费，没有广告和应用内购买。所有功能对所有用户开放。"
+          "a": "是的！Calleo 免费使用，没有广告。我们即将为想要更多功能的学习者推出可选的高级功能。"
         },
         {
           "q": "Calleo 支持哪些平台？",
@@ -942,7 +1269,7 @@
         },
         {
           "q": "Calleo 会一直免费吗？",
-          "a": "会的！我们的核心使命是让语言学习人人可及。未来我们可能会推出可选的高级功能，但核心应用将始终免费。"
+          "a": "Calleo 将始终提供免费版，让任何人都能开始学习。我们正在为需要更多工具的学习者推出可选的高级功能，但核心功能永远不会被锁定。"
         }
       ]
     },

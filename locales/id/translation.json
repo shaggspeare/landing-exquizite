@@ -20,10 +20,37 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "dashboard": { "src": "/images/dashboard.png", "alt": "Dasbor" },
-      "gameModes": { "src": "/images/learning-modes.png", "alt": "Mode Pembelajaran" },
-      "quiz": { "src": "/images/quiz.png", "alt": "Mode Kuis Aplikasi Calleo" }
+      "dashboard": {
+        "src": "/images/dashboard.png",
+        "alt": "Dasbor"
+      },
+      "gameModes": {
+        "src": "/images/learning-modes.png",
+        "alt": "Mode Pembelajaran"
+      },
+      "quiz": {
+        "src": "/images/quiz.png",
+        "alt": "Mode Kuis Aplikasi Calleo"
+      }
     }
+  },
+  "whatsNew": {
+    "sectionLabel": "Pembaruan Terbaru",
+    "sectionTitle": "Baru di Calleo",
+    "items": [
+      {
+        "title": "Dengarkan. Tulis. Dua cara baru berlatih.",
+        "description": "Selain kartu flash, kuis, dan pencocokan, Calleo kini mengujimu seperti percakapan nyata. Mode Mendengarkan memutar kata secara lisan dan kamu mengenalinya, melatih telingamu, bukan hanya matamu. Mode Menulis membaliknya: kamu melihat terjemahan dan mengetik kata dari ingatan, membangun daya ingat sungguhan alih-alih menebak pilihan ganda."
+      },
+      {
+        "title": "Buat set dalam hitungan detik, bukan menit",
+        "description": "Mengetik daftar kata adalah bagian yang membosankan, jadi lewati saja. Dengan Buat Cepat, cukup ketik topik seperti \"restoran\" atau \"perjalanan\" dan AI langsung membuat set kosakata siap pakai. Sudah punya set yang sedang dikerjakan? Hasilkan lebih banyak kata terkait dengan satu ketukan, dan Calleo otomatis melewati kata yang sudah kamu punya. Lebih suka membawa daftarmu sendiri? Impor langsung dari Wordwall dan mulai berlatih saat itu juga."
+      },
+      {
+        "title": "Belajar: jalur terpandu dari kata pertamamu hingga fasih",
+        "description": "Bingung mau belajar apa selanjutnya? Belajar adalah kurikulum terstruktur yang mencakup keenam level CEFR, dari A1 hingga C2, dimulai dengan salam dan angka lalu berkembang ke pekerjaan, perjalanan, dan topik abstrak. Setiap langkah adalah set terfokus yang dibuat khusus untukmu. Lulus kuisnya, dan set berikutnya otomatis terbuka, tanpa tekanan dan tanpa hukuman jika mencoba lagi."
+      }
+    ]
   },
   "bentoFeatures": {
     "sectionLabel": "Fitur dan Keunggulan",
@@ -32,13 +59,23 @@
     "tiles": {
       "learnYourWay": {
         "title": "Belajar Sesuai Gayamu",
-        "description": "Pilih dari 4 mode pembelajaran interaktif yang cocok dengan gaya belajar unikmu.",
-        "modes": ["Kartu Flash", "Permainan Cocokkan", "Mode Kuis", "Isi Bagian Kosong"]
+        "description": "Pilih dari 6 mode pembelajaran interaktif yang cocok dengan gaya belajarmu.",
+        "modes": [
+          "Kartu Flash",
+          "Permainan Cocokkan",
+          "Mode Kuis",
+          "Isi Bagian Kosong",
+          "Mendengarkan",
+          "Menulis"
+        ]
       },
       "aiPowered": {
         "title": "Bertenaga AI",
         "description": "Buat pasangan kata secara instan dan dapatkan petunjuk cerdas.",
-        "image": { "src": "/images/ai-generation.png", "alt": "Kata yang Dihasilkan AI" }
+        "image": {
+          "src": "/images/ai-generation.png",
+          "alt": "Kata yang Dihasilkan AI"
+        }
       },
       "languages": {
         "title": "40+ Bahasa",
@@ -55,8 +92,16 @@
         "recentShares": "Bagikan Terbaru",
         "viewAll": "Lihat Semua",
         "shares": [
-          { "initials": "FR", "name": "Dasar Prancis", "wordCount": "24 kata" },
-          { "initials": "ES", "name": "Dapur Spanyol", "wordCount": "12 kata" }
+          {
+            "initials": "FR",
+            "name": "Dasar Prancis",
+            "wordCount": "24 kata"
+          },
+          {
+            "initials": "ES",
+            "name": "Dapur Spanyol",
+            "wordCount": "12 kata"
+          }
         ]
       },
       "seamlessSync": {
@@ -75,7 +120,7 @@
       },
       {
         "title": "2. Pilih Permainan",
-        "desc": "Pilih dari 4 mode permainan seru yang membuat belajar terasa seperti bermain."
+        "desc": "Pilih dari 6 mode permainan seru yang membuat belajar terasa seperti bermain."
       },
       {
         "title": "3. Lacak Progres",
@@ -108,7 +153,10 @@
         "description": "Dibangun dengan teknologi modern untuk performa mulus di setiap platform."
       }
     ],
-    "image": { "src": "/images/added-words.png", "alt": "Kata yang Ditambahkan" }
+    "image": {
+      "src": "/images/added-words.png",
+      "alt": "Kata yang Ditambahkan"
+    }
   },
   "testimonials": {
     "sectionTitle": "Dicintai oleh Para Pelajar",
@@ -134,26 +182,50 @@
     "sectionTitle": "Jelajahi Aplikasinya",
     "sectionSubtitle": "Lihat lebih dekat mode pembelajaran interaktif kami.",
     "screenshots": [
-      { "src": "/images/ai-generation.png", "alt": "Pembuatan Kata dengan AI" },
-      { "src": "/images/added-words.png", "alt": "Kata yang Ditambahkan" },
-      { "src": "/images/learning-modes.png", "alt": "Mode Pembelajaran" },
-      { "src": "/images/my-sets.png", "alt": "Set Saya" },
-      { "src": "/images/dashboard.png", "alt": "Dasbor" },
-      { "src": "/images/create-set.png", "alt": "Buat set" },
-      { "src": "/images/quiz.png", "alt": "Mode Kuis" },
-      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
+      {
+        "src": "/images/ai-generation.png",
+        "alt": "Pembuatan Kata dengan AI"
+      },
+      {
+        "src": "/images/added-words.png",
+        "alt": "Kata yang Ditambahkan"
+      },
+      {
+        "src": "/images/learning-modes.png",
+        "alt": "Mode Pembelajaran"
+      },
+      {
+        "src": "/images/my-sets.png",
+        "alt": "Set Saya"
+      },
+      {
+        "src": "/images/dashboard.png",
+        "alt": "Dasbor"
+      },
+      {
+        "src": "/images/create-set.png",
+        "alt": "Buat set"
+      },
+      {
+        "src": "/images/quiz.png",
+        "alt": "Mode Kuis"
+      },
+      {
+        "src": "/images/word-tinder.png",
+        "alt": "Word Tinder"
+      }
     ]
   },
   "pricing": {
     "sectionTitle": "Harga Sederhana dan Transparan",
     "sectionSubtitle": "Pendidikan harus bisa diakses semua orang.",
-    "planName": "Gratis Selamanya",
+    "planName": "Gratis",
     "planDescription": "Semua yang kamu butuhkan untuk menguasai bahasa.",
     "price": "$0",
     "period": "/bulan",
     "features": [
       "Set kata tanpa batas",
-      "Akses semua 4 mode permainan",
+      "Akses semua 6 mode permainan",
       "Pembuatan kata dengan AI",
       "Bagikan set-mu",
       "Sinkronisasi lintas platform"
@@ -163,12 +235,30 @@
   "faq": {
     "sectionTitle": "Pertanyaan yang Sering Diajukan",
     "items": [
-      { "q": "Apakah saya perlu akun untuk menggunakan Calleo?", "a": "Tidak! Mulai belajar langsung dengan mode tamu. Buat akun nanti untuk sinkronisasi antar perangkat." },
-      { "q": "Berapa banyak bahasa yang didukung?", "a": "Lebih dari 40 bahasa untuk konten pembelajaran dan antarmuka aplikasi." },
-      { "q": "Apakah aplikasinya bisa dipakai offline?", "a": "Ya, aplikasi iOS mendukung akses offline untuk set kata yang sudah diunduh." },
-      { "q": "Bisakah saya menggunakan Calleo di komputer?", "a": "Tentu saja! Aplikasi web menyediakan pengalaman yang dioptimalkan untuk desktop." },
-      { "q": "Apakah data saya aman?", "a": "Ya, semua data disimpan dan disinkronkan dengan aman melalui Supabase dengan enkripsi standar industri." },
-      { "q": "Bisakah saya membagikan set kata saya?", "a": "Ya! Buat tautan yang bisa dibagikan untuk set apa pun. Orang lain bisa melihat dan menyalinnya ke koleksi mereka." }
+      {
+        "q": "Apakah saya perlu akun untuk menggunakan Calleo?",
+        "a": "Tidak! Mulai belajar langsung dengan mode tamu. Buat akun nanti untuk sinkronisasi antar perangkat."
+      },
+      {
+        "q": "Berapa banyak bahasa yang didukung?",
+        "a": "Lebih dari 40 bahasa untuk konten pembelajaran dan antarmuka aplikasi."
+      },
+      {
+        "q": "Apakah aplikasinya bisa dipakai offline?",
+        "a": "Ya, aplikasi iOS mendukung akses offline untuk set kata yang sudah diunduh."
+      },
+      {
+        "q": "Bisakah saya menggunakan Calleo di komputer?",
+        "a": "Tentu saja! Aplikasi web menyediakan pengalaman yang dioptimalkan untuk desktop."
+      },
+      {
+        "q": "Apakah data saya aman?",
+        "a": "Ya, semua data disimpan dan disinkronkan dengan aman melalui Supabase dengan enkripsi standar industri."
+      },
+      {
+        "q": "Bisakah saya membagikan set kata saya?",
+        "a": "Ya! Buat tautan yang bisa dibagikan untuk set apa pun. Orang lain bisa melihat dan menyalinnya ke koleksi mereka."
+      }
     ]
   },
   "downloadCTA": {
@@ -187,25 +277,52 @@
       "product": {
         "title": "Produk",
         "links": [
-          { "label": "Fitur", "href": "#features" },
-          { "label": "Cara Kerja", "href": "#how-it-works" },
-          { "label": "Harga", "href": "#pricing" },
-          { "label": "Unduh", "href": "#download" }
+          {
+            "label": "Fitur",
+            "href": "#features"
+          },
+          {
+            "label": "Cara Kerja",
+            "href": "#how-it-works"
+          },
+          {
+            "label": "Harga",
+            "href": "#pricing"
+          },
+          {
+            "label": "Unduh",
+            "href": "#download"
+          }
         ]
       },
       "support": {
         "title": "Dukungan",
         "links": [
-          { "label": "Bantuan & Dukungan", "to": "/support" },
-          { "label": "Kontak", "href": "mailto:viacheslav@exquizite.app" },
-          { "label": "Kebijakan Privasi", "to": "/privacy-policy" }
+          {
+            "label": "Bantuan & Dukungan",
+            "to": "/support"
+          },
+          {
+            "label": "Kontak",
+            "href": "mailto:viacheslav@exquizite.app"
+          },
+          {
+            "label": "Kebijakan Privasi",
+            "to": "/privacy-policy"
+          }
         ]
       },
       "legal": {
         "title": "Hukum",
         "links": [
-          { "label": "Ketentuan Layanan", "href": "#" },
-          { "label": "Kebijakan Cookie", "href": "#" }
+          {
+            "label": "Ketentuan Layanan",
+            "href": "#"
+          },
+          {
+            "label": "Kebijakan Cookie",
+            "href": "#"
+          }
         ]
       }
     },
@@ -226,26 +343,56 @@
             "title": "Informasi Pribadi",
             "intro": "Saat membuat akun di Calleo, kami mengumpulkan:",
             "items": [
-              { "bold": "Alamat Email", "text": "Digunakan untuk pembuatan akun, autentikasi, dan komunikasi" },
-              { "bold": "ID Pengguna", "text": "Pengenal unik yang dibuat secara otomatis untuk autentikasi dan asosiasi data" },
-              { "bold": "Kata Sandi", "text": "Disimpan dengan aman menggunakan enkripsi standar industri (kami tidak pernah menyimpan kata sandi dalam teks biasa)" }
+              {
+                "bold": "Alamat Email",
+                "text": "Digunakan untuk pembuatan akun, autentikasi, dan komunikasi"
+              },
+              {
+                "bold": "ID Pengguna",
+                "text": "Pengenal unik yang dibuat secara otomatis untuk autentikasi dan asosiasi data"
+              },
+              {
+                "bold": "Kata Sandi",
+                "text": "Disimpan dengan aman menggunakan enkripsi standar industri (kami tidak pernah menyimpan kata sandi dalam teks biasa)"
+              }
             ]
           },
           {
             "title": "Konten Buatan Pengguna",
             "items": [
-              { "bold": "Set Kosakata", "text": "Pasangan kata, terjemahan, nama set, dan preferensi pembelajaran yang kamu buat" },
-              { "bold": "Preferensi Bahasa", "text": "Bahasa target dan bahasa ibu yang kamu pilih untuk belajar" },
-              { "bold": "Riwayat Latihan", "text": "Informasi tentang kapan terakhir kamu berlatih dan progresmu" },
-              { "bold": "Pengaturan Aplikasi", "text": "Preferensi tema, bahasa antarmuka, dan pengaturan kustomisasi lainnya" }
+              {
+                "bold": "Set Kosakata",
+                "text": "Pasangan kata, terjemahan, nama set, dan preferensi pembelajaran yang kamu buat"
+              },
+              {
+                "bold": "Preferensi Bahasa",
+                "text": "Bahasa target dan bahasa ibu yang kamu pilih untuk belajar"
+              },
+              {
+                "bold": "Riwayat Latihan",
+                "text": "Informasi tentang kapan terakhir kamu berlatih dan progresmu"
+              },
+              {
+                "bold": "Pengaturan Aplikasi",
+                "text": "Preferensi tema, bahasa antarmuka, dan pengaturan kustomisasi lainnya"
+              }
             ]
           },
           {
             "title": "Informasi yang Dikumpulkan Secara Otomatis",
             "items": [
-              { "bold": "Data Penggunaan", "text": "Informasi tentang bagaimana kamu berinteraksi dengan Aplikasi, termasuk mode permainan yang dimainkan dan fitur yang digunakan" },
-              { "bold": "Informasi Perangkat", "text": "Jenis perangkat, sistem operasi, dan versi aplikasi untuk pemecahan masalah dan kompatibilitas" },
-              { "bold": "Analitik Anonim", "text": "Statistik penggunaan agregat yang tidak dapat diidentifikasi secara personal untuk meningkatkan Aplikasi" }
+              {
+                "bold": "Data Penggunaan",
+                "text": "Informasi tentang bagaimana kamu berinteraksi dengan Aplikasi, termasuk mode permainan yang dimainkan dan fitur yang digunakan"
+              },
+              {
+                "bold": "Informasi Perangkat",
+                "text": "Jenis perangkat, sistem operasi, dan versi aplikasi untuk pemecahan masalah dan kompatibilitas"
+              },
+              {
+                "bold": "Analitik Anonim",
+                "text": "Statistik penggunaan agregat yang tidak dapat diidentifikasi secara personal untuk meningkatkan Aplikasi"
+              }
             ]
           }
         ]
@@ -264,12 +411,30 @@
         "title": "Bagaimana Kami Menggunakan Informasimu",
         "intro": "Kami menggunakan informasi yang kami kumpulkan untuk:",
         "items": [
-          { "bold": "Menyediakan Layanan", "text": "Memungkinkan pembuatan akun, sinkronisasi data, dan fungsionalitas aplikasi" },
-          { "bold": "Meningkatkan Pengalaman Pengguna", "text": "Mempersonalisasi pengalaman belajarmu dan mengingat preferensimu" },
-          { "bold": "Menghasilkan Konten AI", "text": "Menggunakan API OpenAI untuk menghasilkan saran kosakata dan contoh kalimat berdasarkan tema yang kamu berikan" },
-          { "bold": "Menjaga Keamanan", "text": "Mengautentikasi pengguna dan melindungi dari akses tidak sah" },
-          { "bold": "Berkomunikasi", "text": "Mengirim pembaruan penting tentang Aplikasi (kami tidak mengirim email pemasaran tanpa persetujuanmu)" },
-          { "bold": "Pemecahan Masalah", "text": "Mendiagnosis masalah teknis dan meningkatkan performa aplikasi" }
+          {
+            "bold": "Menyediakan Layanan",
+            "text": "Memungkinkan pembuatan akun, sinkronisasi data, dan fungsionalitas aplikasi"
+          },
+          {
+            "bold": "Meningkatkan Pengalaman Pengguna",
+            "text": "Mempersonalisasi pengalaman belajarmu dan mengingat preferensimu"
+          },
+          {
+            "bold": "Menghasilkan Konten AI",
+            "text": "Menggunakan API OpenAI untuk menghasilkan saran kosakata dan contoh kalimat berdasarkan tema yang kamu berikan"
+          },
+          {
+            "bold": "Menjaga Keamanan",
+            "text": "Mengautentikasi pengguna dan melindungi dari akses tidak sah"
+          },
+          {
+            "bold": "Berkomunikasi",
+            "text": "Mengirim pembaruan penting tentang Aplikasi (kami tidak mengirim email pemasaran tanpa persetujuanmu)"
+          },
+          {
+            "bold": "Pemecahan Masalah",
+            "text": "Mendiagnosis masalah teknis dan meningkatkan performa aplikasi"
+          }
         ]
       },
       {
@@ -279,10 +444,22 @@
             "title": "Lokasi Penyimpanan",
             "intro": "Datamu disimpan dengan aman menggunakan Supabase, layanan database berbasis cloud:",
             "items": [
-              { "bold": "Lokasi", "text": "Data dihosting di server aman yang dikelola oleh Supabase (didukung infrastruktur AWS)" },
-              { "bold": "Enkripsi", "text": "Semua data dienkripsi saat transit menggunakan protokol HTTPS/TLS" },
-              { "bold": "Kontrol Akses", "text": "Kebijakan Keamanan Tingkat Baris (RLS) memastikan kamu hanya bisa mengakses datamu sendiri" },
-              { "bold": "Cadangan", "text": "Cadangan otomatis rutin untuk mencegah kehilangan data" }
+              {
+                "bold": "Lokasi",
+                "text": "Data dihosting di server aman yang dikelola oleh Supabase (didukung infrastruktur AWS)"
+              },
+              {
+                "bold": "Enkripsi",
+                "text": "Semua data dienkripsi saat transit menggunakan protokol HTTPS/TLS"
+              },
+              {
+                "bold": "Kontrol Akses",
+                "text": "Kebijakan Keamanan Tingkat Baris (RLS) memastikan kamu hanya bisa mengakses datamu sendiri"
+              },
+              {
+                "bold": "Cadangan",
+                "text": "Cadangan otomatis rutin untuk mencegah kehilangan data"
+              }
             ]
           },
           {
@@ -305,8 +482,14 @@
             "title": "Supabase (Database dan Autentikasi)",
             "intro": "Kami menggunakan Supabase untuk menyimpan dan mengelola data pengguna:",
             "items": [
-              { "bold": "Tujuan", "text": "Database cloud, autentikasi pengguna, dan sinkronisasi data" },
-              { "bold": "Data yang Dibagikan", "text": "Email, ID pengguna, set kosakata, riwayat latihan" }
+              {
+                "bold": "Tujuan",
+                "text": "Database cloud, autentikasi pengguna, dan sinkronisasi data"
+              },
+              {
+                "bold": "Data yang Dibagikan",
+                "text": "Email, ID pengguna, set kosakata, riwayat latihan"
+              }
             ],
             "privacyUrl": "https://supabase.com/privacy"
           },
@@ -314,10 +497,22 @@
             "title": "OpenAI API (Fitur Bertenaga AI)",
             "intro": "Kami menggunakan API OpenAI untuk menghasilkan saran kosakata dan contoh kalimat:",
             "items": [
-              { "bold": "Tujuan", "text": "Pembuatan konten bertenaga AI untuk materi pembelajaran" },
-              { "bold": "Data yang Dibagikan", "text": "HANYA tema atau topik yang kamu minta (misalnya \"makanan\", \"perjalanan\")" },
-              { "bold": "Penting", "text": "Kami TIDAK mengirim informasi pribadimu, email, ID pengguna, atau set kosakata yang ada ke OpenAI" },
-              { "bold": "Penggunaan Data", "text": "OpenAI memproses permintaan secara sementara dan tidak menggunakan datamu untuk pelatihan model (sesuai perjanjian API kami)" }
+              {
+                "bold": "Tujuan",
+                "text": "Pembuatan konten bertenaga AI untuk materi pembelajaran"
+              },
+              {
+                "bold": "Data yang Dibagikan",
+                "text": "HANYA tema atau topik yang kamu minta (misalnya \"makanan\", \"perjalanan\")"
+              },
+              {
+                "bold": "Penting",
+                "text": "Kami TIDAK mengirim informasi pribadimu, email, ID pengguna, atau set kosakata yang ada ke OpenAI"
+              },
+              {
+                "bold": "Penggunaan Data",
+                "text": "OpenAI memproses permintaan secara sementara dan tidak menggunakan datamu untuk pelatihan model (sesuai perjanjian API kami)"
+              }
             ],
             "privacyUrl": "https://openai.com/privacy"
           },
@@ -325,8 +520,14 @@
             "title": "Expo (Platform Pengembangan)",
             "intro": "Kami menggunakan Expo untuk pengembangan dan deployment aplikasi:",
             "items": [
-              { "bold": "Tujuan", "text": "Infrastruktur aplikasi dan pembaruan" },
-              { "bold": "Data yang Dibagikan", "text": "Laporan crash minimal dan statistik penggunaan anonim" }
+              {
+                "bold": "Tujuan",
+                "text": "Infrastruktur aplikasi dan pembaruan"
+              },
+              {
+                "bold": "Data yang Dibagikan",
+                "text": "Laporan crash minimal dan statistik penggunaan anonim"
+              }
             ],
             "privacyUrl": "https://expo.dev/privacy"
           }
@@ -337,11 +538,26 @@
         "intro": "Kami TIDAK menjual, menyewakan, atau memperdagangkan informasi pribadimu kepada pihak ketiga.",
         "intro2": "Kami mungkin membagikan informasimu hanya dalam keadaan berikut:",
         "items": [
-          { "bold": "Dengan Persetujuanmu", "text": "Saat kamu secara eksplisit memilih untuk membagikan set kosakata dengan pengguna lain" },
-          { "bold": "Penyedia Layanan", "text": "Dengan layanan pihak ketiga terpercaya (Supabase, OpenAI) seperti yang dijelaskan di atas" },
-          { "bold": "Persyaratan Hukum", "text": "Jika diwajibkan oleh hukum, perintah pengadilan, atau peraturan pemerintah" },
-          { "bold": "Transfer Bisnis", "text": "Dalam hal merger, akuisisi, atau penjualan aset (kamu akan diberitahu)" },
-          { "bold": "Keselamatan dan Keamanan", "text": "Untuk melindungi hak, properti, atau keselamatan Calleo, pengguna kami, atau pihak lain" }
+          {
+            "bold": "Dengan Persetujuanmu",
+            "text": "Saat kamu secara eksplisit memilih untuk membagikan set kosakata dengan pengguna lain"
+          },
+          {
+            "bold": "Penyedia Layanan",
+            "text": "Dengan layanan pihak ketiga terpercaya (Supabase, OpenAI) seperti yang dijelaskan di atas"
+          },
+          {
+            "bold": "Persyaratan Hukum",
+            "text": "Jika diwajibkan oleh hukum, perintah pengadilan, atau peraturan pemerintah"
+          },
+          {
+            "bold": "Transfer Bisnis",
+            "text": "Dalam hal merger, akuisisi, atau penjualan aset (kamu akan diberitahu)"
+          },
+          {
+            "bold": "Keselamatan dan Keamanan",
+            "text": "Untuk melindungi hak, properti, atau keselamatan Calleo, pengguna kami, atau pihak lain"
+          }
         ]
       },
       {
@@ -371,7 +587,10 @@
             "title": "Menghapus Datamu",
             "description": "Kamu bisa meminta penghapusan lengkap akun dan semua data terkait:",
             "steps": [
-              { "bold": "Penghapusan di Aplikasi", "text": "(segera hadir): Navigasi ke Pengaturan > Akun > Hapus Akun" },
+              {
+                "bold": "Penghapusan di Aplikasi",
+                "text": "(segera hadir): Navigasi ke Pengaturan > Akun > Hapus Akun"
+              },
               {
                 "bold": "Permintaan melalui Email",
                 "text": "Hubungi kami di viacheslav@exquizite.app dengan subjek \"Data Deletion Request\"",
@@ -442,12 +661,30 @@
       "title": "Ringkasan Poin Penting",
       "intro": "Untuk kemudahanmu, berikut ringkasan singkat:",
       "items": [
-        { "label": "Yang kami kumpulkan", "value": "Email, set kosakata yang kamu buat, preferensi bahasa" },
-        { "label": "Mengapa kami mengumpulkan", "value": "Untuk menyediakan fitur pembelajaran, sinkronisasi antar perangkat, menghasilkan konten AI" },
-        { "label": "Di mana disimpan", "value": "Server cloud Supabase (didukung AWS)" },
-        { "label": "Pihak ketiga", "value": "Supabase (database), OpenAI (pembuatan AI - tidak ada data pribadi yang dikirim)" },
-        { "label": "Hakmu", "value": "Akses, ubah, hapus datamu kapan saja" },
-        { "label": "Kontak", "value": "viacheslav@exquizite.app" }
+        {
+          "label": "Yang kami kumpulkan",
+          "value": "Email, set kosakata yang kamu buat, preferensi bahasa"
+        },
+        {
+          "label": "Mengapa kami mengumpulkan",
+          "value": "Untuk menyediakan fitur pembelajaran, sinkronisasi antar perangkat, menghasilkan konten AI"
+        },
+        {
+          "label": "Di mana disimpan",
+          "value": "Server cloud Supabase (didukung AWS)"
+        },
+        {
+          "label": "Pihak ketiga",
+          "value": "Supabase (database), OpenAI (pembuatan AI - tidak ada data pribadi yang dikirim)"
+        },
+        {
+          "label": "Hakmu",
+          "value": "Akses, ubah, hapus datamu kapan saja"
+        },
+        {
+          "label": "Kontak",
+          "value": "viacheslav@exquizite.app"
+        }
       ],
       "thankYou": "Terima kasih telah mempercayakan perjalanan belajar bahasamu kepada Calleo!"
     }
@@ -461,15 +698,42 @@
     "toc": {
       "title": "Daftar Isi",
       "items": [
-        { "id": "getting-started", "label": "Memulai" },
-        { "id": "account-login", "label": "Akun & Login" },
-        { "id": "creating-vocabulary-sets", "label": "Membuat Set Kosakata" },
-        { "id": "game-modes", "label": "Mode Permainan" },
-        { "id": "sharing-sets", "label": "Berbagi Set" },
-        { "id": "settings-preferences", "label": "Pengaturan & Preferensi" },
-        { "id": "troubleshooting", "label": "Pemecahan Masalah" },
-        { "id": "privacy-data", "label": "Privasi & Data" },
-        { "id": "contact-us", "label": "Hubungi Kami" }
+        {
+          "id": "getting-started",
+          "label": "Memulai"
+        },
+        {
+          "id": "account-login",
+          "label": "Akun & Login"
+        },
+        {
+          "id": "creating-vocabulary-sets",
+          "label": "Membuat Set Kosakata"
+        },
+        {
+          "id": "game-modes",
+          "label": "Mode Permainan"
+        },
+        {
+          "id": "sharing-sets",
+          "label": "Berbagi Set"
+        },
+        {
+          "id": "settings-preferences",
+          "label": "Pengaturan & Preferensi"
+        },
+        {
+          "id": "troubleshooting",
+          "label": "Pemecahan Masalah"
+        },
+        {
+          "id": "privacy-data",
+          "label": "Privasi & Data"
+        },
+        {
+          "id": "contact-us",
+          "label": "Hubungi Kami"
+        }
       ]
     },
     "gettingStarted": {
@@ -482,8 +746,14 @@
         "title": "Apakah saya perlu akun?",
         "intro": "Tidak! Kamu bisa menggunakan Calleo dengan dua cara:",
         "options": [
-          { "bold": "Mode Tamu", "text": "Gunakan aplikasi tanpa mendaftar. Set-mu disimpan secara lokal di perangkatmu saja." },
-          { "bold": "Dengan Akun", "text": "Daftar dengan email untuk menyinkronkan set-mu di semua perangkat (iPhone, iPad, Android, Web)." }
+          {
+            "bold": "Mode Tamu",
+            "text": "Gunakan aplikasi tanpa mendaftar. Set-mu disimpan secara lokal di perangkatmu saja."
+          },
+          {
+            "bold": "Dengan Akun",
+            "text": "Daftar dengan email untuk menyinkronkan set-mu di semua perangkat (iPhone, iPad, Android, Web)."
+          }
         ]
       },
       "howToStart": {
@@ -569,9 +839,18 @@
         "title": "Bisakah saya mengimpor kata secara massal?",
         "intro": "Ya! Ketuk \"Impor Massal\" saat membuat set. Pilihan format:",
         "formats": [
-          { "name": "Opsi 1: Dipisah tab", "example": "word[TAB]translation\nhola[TAB]hello\nadiós[TAB]goodbye" },
-          { "name": "Opsi 2: Dipisah tanda hubung", "example": "word - translation\nhola - hello\nadiós - goodbye" },
-          { "name": "Opsi 3: Dipisah tanda sama dengan", "example": "word = translation\nhola = hello\nadiós = goodbye" }
+          {
+            "name": "Opsi 1: Dipisah tab",
+            "example": "word[TAB]translation\nhola[TAB]hello\nadiós[TAB]goodbye"
+          },
+          {
+            "name": "Opsi 2: Dipisah tanda hubung",
+            "example": "word - translation\nhola - hello\nadiós - goodbye"
+          },
+          {
+            "name": "Opsi 3: Dipisah tanda sama dengan",
+            "example": "word = translation\nhola = hello\nadiós = goodbye"
+          }
         ]
       },
       "editSet": {
@@ -611,10 +890,22 @@
         "title": "Mode permainan apa saja yang tersedia?",
         "intro": "Calleo menawarkan 4 mode pembelajaran interaktif:",
         "modes": [
-          { "bold": "Kartu Flash", "text": "Kartu balik klasik untuk menguji ingatanmu" },
-          { "bold": "Kuis", "text": "Pertanyaan pilihan ganda untuk memperkuat pembelajaran" },
-          { "bold": "Cocokkan", "text": "Temukan pasangan kata yang cocok melawan waktu" },
-          { "bold": "Isi Bagian Kosong", "text": "Lengkapi kalimat dengan kata yang benar" }
+          {
+            "bold": "Kartu Flash",
+            "text": "Kartu balik klasik untuk menguji ingatanmu"
+          },
+          {
+            "bold": "Kuis",
+            "text": "Pertanyaan pilihan ganda untuk memperkuat pembelajaran"
+          },
+          {
+            "bold": "Cocokkan",
+            "text": "Temukan pasangan kata yang cocok melawan waktu"
+          },
+          {
+            "bold": "Isi Bagian Kosong",
+            "text": "Lengkapi kalimat dengan kata yang benar"
+          }
         ]
       },
       "howToPlay": {
@@ -698,8 +989,14 @@
         "title": "Bisakah saya melihat siapa yang melihat atau menyalin set saya yang dibagikan?",
         "intro": "Ya! Saat melihat set yang dibagikan, kamu bisa melihat:",
         "items": [
-          { "bold": "Jumlah tayangan", "text": "Berapa kali dilihat" },
-          { "bold": "Jumlah salinan", "text": "Berapa pengguna yang menyalin" }
+          {
+            "bold": "Jumlah tayangan",
+            "text": "Berapa kali dilihat"
+          },
+          {
+            "bold": "Jumlah salinan",
+            "text": "Berapa pengguna yang menyalin"
+          }
         ],
         "note": "Kamu tidak bisa melihat nama atau email pengguna individu (perlindungan privasi)."
       },
@@ -802,10 +1099,22 @@
         "title": "Saya tidak bisa menemukan set yang dibagikan dengan kode tersebut",
         "intro": "Masalah umum:",
         "items": [
-          { "bold": "Kode kedaluwarsa", "text": "Beberapa kode berbagi memiliki tanggal kedaluwarsa" },
-          { "bold": "Kode dihapus", "text": "Pembuat menghentikan berbagi set" },
-          { "bold": "Salah ketik", "text": "Periksa kembali kode dengan teliti (kode peka huruf besar/kecil)" },
-          { "bold": "Koneksi internet", "text": "Pastikan kamu terhubung ke internet" }
+          {
+            "bold": "Kode kedaluwarsa",
+            "text": "Beberapa kode berbagi memiliki tanggal kedaluwarsa"
+          },
+          {
+            "bold": "Kode dihapus",
+            "text": "Pembuat menghentikan berbagi set"
+          },
+          {
+            "bold": "Salah ketik",
+            "text": "Periksa kembali kode dengan teliti (kode peka huruf besar/kecil)"
+          },
+          {
+            "bold": "Koneksi internet",
+            "text": "Pastikan kamu terhubung ke internet"
+          }
         ]
       },
       "wrongLanguage": {
@@ -849,9 +1158,18 @@
       "whatCollected": {
         "title": "Data apa yang kalian kumpulkan?",
         "collected": [
-          { "bold": "Pengguna akun", "text": "Email, ID pengguna, set kosakata, riwayat latihan, preferensi bahasa" },
-          { "bold": "Pengguna tamu", "text": "Set kosakata disimpan secara lokal saja (tidak ada data cloud)" },
-          { "bold": "Analitik", "text": "Statistik penggunaan anonim untuk meningkatkan aplikasi" }
+          {
+            "bold": "Pengguna akun",
+            "text": "Email, ID pengguna, set kosakata, riwayat latihan, preferensi bahasa"
+          },
+          {
+            "bold": "Pengguna tamu",
+            "text": "Set kosakata disimpan secara lokal saja (tidak ada data cloud)"
+          },
+          {
+            "bold": "Analitik",
+            "text": "Statistik penggunaan anonim untuk meningkatkan aplikasi"
+          }
         ],
         "notCollectedIntro": "Kami TIDAK mengumpulkan:",
         "notCollected": [
@@ -865,9 +1183,18 @@
         "title": "Apakah kalian membagikan data saya ke pihak ketiga?",
         "intro": "Tidak, kami TIDAK menjual atau menyewakan datamu. Kami menggunakan layanan terpercaya:",
         "services": [
-          { "bold": "Supabase", "text": "Database cloud dan autentikasi" },
-          { "bold": "OpenAI", "text": "Pembuatan kosakata AI (hanya nama tema yang dikirim, BUKAN data pribadimu)" },
-          { "bold": "Expo", "text": "Infrastruktur aplikasi (laporan crash minimal)" }
+          {
+            "bold": "Supabase",
+            "text": "Database cloud dan autentikasi"
+          },
+          {
+            "bold": "OpenAI",
+            "text": "Pembuatan kosakata AI (hanya nama tema yang dikirim, BUKAN data pribadimu)"
+          },
+          {
+            "bold": "Expo",
+            "text": "Infrastruktur aplikasi (laporan crash minimal)"
+          }
         ]
       },
       "downloadData": {
@@ -926,7 +1253,7 @@
       "items": [
         {
           "q": "Apakah Calleo gratis?",
-          "a": "Ya! Calleo sepenuhnya gratis tanpa iklan atau pembelian dalam aplikasi. Semua fitur tersedia untuk semua pengguna."
+          "a": "Ya! Calleo gratis digunakan, tanpa iklan. Kami akan segera memperkenalkan fitur premium opsional untuk pembelajar yang menginginkan lebih."
         },
         {
           "q": "Di platform apa saja Calleo tersedia?",
@@ -942,7 +1269,7 @@
         },
         {
           "q": "Apakah Calleo akan selalu gratis?",
-          "a": "Ya! Misi utama kami adalah membuat pembelajaran bahasa bisa diakses semua orang. Kami mungkin memperkenalkan fitur premium opsional di masa depan, tapi aplikasi inti akan selalu gratis."
+          "a": "Calleo akan selalu menawarkan paket gratis agar semua orang bisa mulai belajar. Kami memperkenalkan fitur premium opsional bagi pembelajar yang ingin alat tambahan, tapi kamu tidak akan pernah kehilangan akses ke pengalaman inti."
         }
       ]
     },

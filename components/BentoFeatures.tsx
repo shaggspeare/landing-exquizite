@@ -1,6 +1,6 @@
 import React from 'react';
 import { useData } from '../hooks/useData';
-import { Layers, Puzzle, CheckCircle, Edit3, Sparkles, Globe2, Share2, Smartphone, LayoutDashboard, Zap } from 'lucide-react';
+import { Layers, Puzzle, CheckCircle, Edit3, Sparkles, Globe2, Share2, Smartphone, LayoutDashboard, Zap, Headphones, PenLine } from 'lucide-react';
 
 const BentoFeatures: React.FC = () => {
   const data = useData();
@@ -50,6 +50,14 @@ const BentoFeatures: React.FC = () => {
                 <div className="bg-paper p-4 rounded-button border-[1.5px] border-ink/10 flex items-center gap-3">
                   <Edit3 size={18} className="text-accent" />
                   <span className="font-semibold text-ink text-sm">{d.tiles.learnYourWay.modes[3]}</span>
+                </div>
+                <div className="bg-paper p-4 rounded-button border-[1.5px] border-ink/10 flex items-center gap-3">
+                  <Headphones size={18} className="text-accent" />
+                  <span className="font-semibold text-ink text-sm">{d.tiles.learnYourWay.modes[4]}</span>
+                </div>
+                <div className="bg-paper p-4 rounded-button border-[1.5px] border-ink/10 flex items-center gap-3">
+                  <PenLine size={18} className="text-accent" />
+                  <span className="font-semibold text-ink text-sm">{d.tiles.learnYourWay.modes[5]}</span>
                 </div>
               </div>
             </div>

@@ -20,10 +20,37 @@
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
-      "dashboard": { "src": "/images/dashboard.png", "alt": "Painel" },
-      "gameModes": { "src": "/images/learning-modes.png", "alt": "Modos de Aprendizado" },
-      "quiz": { "src": "/images/quiz.png", "alt": "Modo Quiz do Calleo" }
+      "dashboard": {
+        "src": "/images/dashboard.png",
+        "alt": "Painel"
+      },
+      "gameModes": {
+        "src": "/images/learning-modes.png",
+        "alt": "Modos de Aprendizado"
+      },
+      "quiz": {
+        "src": "/images/quiz.png",
+        "alt": "Modo Quiz do Calleo"
+      }
     }
+  },
+  "whatsNew": {
+    "sectionLabel": "Última atualização",
+    "sectionTitle": "Novidades no Calleo",
+    "items": [
+      {
+        "title": "Ouça. Escreva. Duas novas formas de praticar.",
+        "description": "Além de flashcards, quizzes e jogos de memória, o Calleo agora testa você como uma conversa real faria. O modo Escuta reproduz a palavra em voz alta e você a identifica, treinando seu ouvido, não só seus olhos. O modo Escrita inverte tudo: você vê a tradução e digita a palavra de memória, criando memorização real em vez de adivinhação de múltipla escolha."
+      },
+      {
+        "title": "Crie um set em segundos, não minutos",
+        "description": "Digitar listas de palavras é a parte chata, então pule essa etapa. Com o Geração Rápida, basta digitar um tema como \"restaurante\" ou \"viagem\" e a IA cria instantaneamente um set de vocabulário pronto para usar. Já tem um set em andamento? Gere mais palavras relacionadas com um toque, e o Calleo pula automaticamente o que você já tem. Prefere trazer sua própria lista? Importe diretamente do Wordwall e comece a praticar na hora."
+      },
+      {
+        "title": "Aprender: um caminho guiado das primeiras palavras até a fluência",
+        "description": "Não sabe o que estudar a seguir? Aprender é um currículo estruturado que abrange os seis níveis do CEFR, de A1 a C2, começando com saudações e números e avançando para trabalho, viagens e temas abstratos. Cada etapa é um set focado, gerado só para você. Passe no quiz e o próximo set é desbloqueado automaticamente, sem pressão nem penalidade por tentar de novo."
+      }
+    ]
   },
   "bentoFeatures": {
     "sectionLabel": "Recursos e Destaques",
@@ -32,13 +59,23 @@
     "tiles": {
       "learnYourWay": {
         "title": "Aprenda do Seu Jeito",
-        "description": "Escolha entre 4 modos de aprendizado interativos que combinam com seu estilo único.",
-        "modes": ["Flashcards", "Jogo da Memória", "Modo Quiz", "Preencher Lacunas"]
+        "description": "Escolha entre 6 modos de aprendizado interativos que combinam com seu estilo único.",
+        "modes": [
+          "Flashcards",
+          "Jogo da Memória",
+          "Modo Quiz",
+          "Preencher Lacunas",
+          "Escuta",
+          "Escrita"
+        ]
       },
       "aiPowered": {
         "title": "Powered by IA",
         "description": "Gere pares de palavras instantaneamente e receba dicas inteligentes.",
-        "image": { "src": "/images/ai-generation.png", "alt": "Palavras Geradas por IA" }
+        "image": {
+          "src": "/images/ai-generation.png",
+          "alt": "Palavras Geradas por IA"
+        }
       },
       "languages": {
         "title": "Mais de 40 Idiomas",
@@ -55,8 +92,16 @@
         "recentShares": "Compartilhamentos Recentes",
         "viewAll": "Ver Todos",
         "shares": [
-          { "initials": "FR", "name": "Francês Básico", "wordCount": "24 palavras" },
-          { "initials": "ES", "name": "Cozinha Espanhola", "wordCount": "12 palavras" }
+          {
+            "initials": "FR",
+            "name": "Francês Básico",
+            "wordCount": "24 palavras"
+          },
+          {
+            "initials": "ES",
+            "name": "Cozinha Espanhola",
+            "wordCount": "12 palavras"
+          }
         ]
       },
       "seamlessSync": {
@@ -75,7 +120,7 @@
       },
       {
         "title": "2. Escolha o Jogo",
-        "desc": "Escolha entre 4 modos de jogo envolventes que tornam o aprendizado divertido."
+        "desc": "Escolha entre 6 modos de jogo envolventes que tornam o aprendizado divertido."
       },
       {
         "title": "3. Acompanhe o Progresso",
@@ -108,7 +153,10 @@
         "description": "Construído com tecnologia moderna para desempenho suave em todas as plataformas."
       }
     ],
-    "image": { "src": "/images/added-words.png", "alt": "Palavras Adicionadas" }
+    "image": {
+      "src": "/images/added-words.png",
+      "alt": "Palavras Adicionadas"
+    }
   },
   "testimonials": {
     "sectionTitle": "Amado pelos Estudantes",
@@ -134,26 +182,50 @@
     "sectionTitle": "Conheça o App",
     "sectionSubtitle": "Veja de perto nossos modos de aprendizado interativos.",
     "screenshots": [
-      { "src": "/images/ai-generation.png", "alt": "Geração de Palavras por IA" },
-      { "src": "/images/added-words.png", "alt": "Palavras Adicionadas" },
-      { "src": "/images/learning-modes.png", "alt": "Modos de Aprendizado" },
-      { "src": "/images/my-sets.png", "alt": "Meus Conjuntos" },
-      { "src": "/images/dashboard.png", "alt": "Painel" },
-      { "src": "/images/create-set.png", "alt": "Criar conjunto" },
-      { "src": "/images/quiz.png", "alt": "Modo Quiz" },
-      { "src": "/images/word-tinder.png", "alt": "Word Tinder" }
+      {
+        "src": "/images/ai-generation.png",
+        "alt": "Geração de Palavras por IA"
+      },
+      {
+        "src": "/images/added-words.png",
+        "alt": "Palavras Adicionadas"
+      },
+      {
+        "src": "/images/learning-modes.png",
+        "alt": "Modos de Aprendizado"
+      },
+      {
+        "src": "/images/my-sets.png",
+        "alt": "Meus Conjuntos"
+      },
+      {
+        "src": "/images/dashboard.png",
+        "alt": "Painel"
+      },
+      {
+        "src": "/images/create-set.png",
+        "alt": "Criar conjunto"
+      },
+      {
+        "src": "/images/quiz.png",
+        "alt": "Modo Quiz"
+      },
+      {
+        "src": "/images/word-tinder.png",
+        "alt": "Word Tinder"
+      }
     ]
   },
   "pricing": {
     "sectionTitle": "Preços Simples e Transparentes",
     "sectionSubtitle": "Educação deve ser acessível para todos.",
-    "planName": "Grátis para Sempre",
+    "planName": "Grátis",
     "planDescription": "Tudo o que você precisa para dominar um idioma.",
     "price": "$0",
     "period": "/mês",
     "features": [
       "Conjuntos de palavras ilimitados",
-      "Acesso a todos os 4 modos de jogo",
+      "Acesso a todos os 6 modos de jogo",
       "Geração de palavras com IA",
       "Compartilhe seus conjuntos",
       "Sincronização entre plataformas"
@@ -163,12 +235,30 @@
   "faq": {
     "sectionTitle": "Perguntas Frequentes",
     "items": [
-      { "q": "Preciso de uma conta para usar o Calleo?", "a": "Não! Comece a aprender imediatamente com o modo visitante. Crie uma conta depois para sincronizar entre dispositivos." },
-      { "q": "Quantos idiomas são suportados?", "a": "Mais de 40 idiomas tanto para conteúdo de aprendizado quanto para a interface do app." },
-      { "q": "O app funciona offline?", "a": "Sim, o app iOS permite acesso offline aos conjuntos de palavras baixados." },
-      { "q": "Posso usar o Calleo no computador?", "a": "Com certeza! O app web oferece uma experiência otimizada para desktop." },
-      { "q": "Meus dados estão seguros?", "a": "Sim, todos os dados são armazenados e sincronizados com segurança via Supabase com criptografia padrão da indústria." },
-      { "q": "Posso compartilhar meus conjuntos de palavras?", "a": "Sim! Gere um link compartilhável para qualquer conjunto. Outros podem visualizar e copiar para suas coleções." }
+      {
+        "q": "Preciso de uma conta para usar o Calleo?",
+        "a": "Não! Comece a aprender imediatamente com o modo visitante. Crie uma conta depois para sincronizar entre dispositivos."
+      },
+      {
+        "q": "Quantos idiomas são suportados?",
+        "a": "Mais de 40 idiomas tanto para conteúdo de aprendizado quanto para a interface do app."
+      },
+      {
+        "q": "O app funciona offline?",
+        "a": "Sim, o app iOS permite acesso offline aos conjuntos de palavras baixados."
+      },
+      {
+        "q": "Posso usar o Calleo no computador?",
+        "a": "Com certeza! O app web oferece uma experiência otimizada para desktop."
+      },
+      {
+        "q": "Meus dados estão seguros?",
+        "a": "Sim, todos os dados são armazenados e sincronizados com segurança via Supabase com criptografia padrão da indústria."
+      },
+      {
+        "q": "Posso compartilhar meus conjuntos de palavras?",
+        "a": "Sim! Gere um link compartilhável para qualquer conjunto. Outros podem visualizar e copiar para suas coleções."
+      }
     ]
   },
   "downloadCTA": {
@@ -187,25 +277,52 @@
       "product": {
         "title": "Produto",
         "links": [
-          { "label": "Recursos", "href": "#features" },
-          { "label": "Como Funciona", "href": "#how-it-works" },
-          { "label": "Preços", "href": "#pricing" },
-          { "label": "Download", "href": "#download" }
+          {
+            "label": "Recursos",
+            "href": "#features"
+          },
+          {
+            "label": "Como Funciona",
+            "href": "#how-it-works"
+          },
+          {
+            "label": "Preços",
+            "href": "#pricing"
+          },
+          {
+            "label": "Download",
+            "href": "#download"
+          }
         ]
       },
       "support": {
         "title": "Suporte",
         "links": [
-          { "label": "Ajuda e Suporte", "to": "/support" },
-          { "label": "Contato", "href": "mailto:viacheslav@exquizite.app" },
-          { "label": "Política de Privacidade", "to": "/privacy-policy" }
+          {
+            "label": "Ajuda e Suporte",
+            "to": "/support"
+          },
+          {
+            "label": "Contato",
+            "href": "mailto:viacheslav@exquizite.app"
+          },
+          {
+            "label": "Política de Privacidade",
+            "to": "/privacy-policy"
+          }
         ]
       },
       "legal": {
         "title": "Legal",
         "links": [
-          { "label": "Termos de Serviço", "href": "#" },
-          { "label": "Política de Cookies", "href": "#" }
+          {
+            "label": "Termos de Serviço",
+            "href": "#"
+          },
+          {
+            "label": "Política de Cookies",
+            "href": "#"
+          }
         ]
       }
     },
@@ -226,26 +343,56 @@
             "title": "Informações Pessoais",
             "intro": "Ao criar uma conta no Calleo, coletamos:",
             "items": [
-              { "bold": "Endereço de E-mail", "text": "Usado para criação de conta, autenticação e comunicação" },
-              { "bold": "ID do Usuário", "text": "Um identificador único gerado automaticamente para autenticação e associação de dados" },
-              { "bold": "Senha", "text": "Armazenada com segurança usando criptografia padrão da indústria (nunca armazenamos senhas em texto simples)" }
+              {
+                "bold": "Endereço de E-mail",
+                "text": "Usado para criação de conta, autenticação e comunicação"
+              },
+              {
+                "bold": "ID do Usuário",
+                "text": "Um identificador único gerado automaticamente para autenticação e associação de dados"
+              },
+              {
+                "bold": "Senha",
+                "text": "Armazenada com segurança usando criptografia padrão da indústria (nunca armazenamos senhas em texto simples)"
+              }
             ]
           },
           {
             "title": "Conteúdo Gerado pelo Usuário",
             "items": [
-              { "bold": "Conjuntos de Vocabulário", "text": "Pares de palavras, traduções, nomes de conjuntos e preferências de aprendizado que você cria" },
-              { "bold": "Preferências de Idioma", "text": "Seus idiomas alvo e nativo escolhidos para aprendizado" },
-              { "bold": "Histórico de Prática", "text": "Informações sobre quando você praticou um conjunto pela última vez e seu progresso" },
-              { "bold": "Configurações do App", "text": "Preferências de tema, idioma da interface e outras configurações de personalização" }
+              {
+                "bold": "Conjuntos de Vocabulário",
+                "text": "Pares de palavras, traduções, nomes de conjuntos e preferências de aprendizado que você cria"
+              },
+              {
+                "bold": "Preferências de Idioma",
+                "text": "Seus idiomas alvo e nativo escolhidos para aprendizado"
+              },
+              {
+                "bold": "Histórico de Prática",
+                "text": "Informações sobre quando você praticou um conjunto pela última vez e seu progresso"
+              },
+              {
+                "bold": "Configurações do App",
+                "text": "Preferências de tema, idioma da interface e outras configurações de personalização"
+              }
             ]
           },
           {
             "title": "Informações Coletadas Automaticamente",
             "items": [
-              { "bold": "Dados de Uso", "text": "Informações sobre como você interage com o App, incluindo modos de jogo utilizados e recursos usados" },
-              { "bold": "Informações do Dispositivo", "text": "Tipo de dispositivo, sistema operacional e versão do app para solução de problemas e compatibilidade" },
-              { "bold": "Análises Anônimas", "text": "Estatísticas de uso agregadas e não identificáveis para melhorar o App" }
+              {
+                "bold": "Dados de Uso",
+                "text": "Informações sobre como você interage com o App, incluindo modos de jogo utilizados e recursos usados"
+              },
+              {
+                "bold": "Informações do Dispositivo",
+                "text": "Tipo de dispositivo, sistema operacional e versão do app para solução de problemas e compatibilidade"
+              },
+              {
+                "bold": "Análises Anônimas",
+                "text": "Estatísticas de uso agregadas e não identificáveis para melhorar o App"
+              }
             ]
           }
         ]
@@ -264,12 +411,30 @@
         "title": "Como Usamos Suas Informações",
         "intro": "Usamos as informações que coletamos para:",
         "items": [
-          { "bold": "Fornecer Serviços", "text": "Permitir criação de contas, sincronização de dados e funcionalidade do app" },
-          { "bold": "Melhorar a Experiência", "text": "Personalizar sua experiência de aprendizado e lembrar suas preferências" },
-          { "bold": "Gerar Conteúdo com IA", "text": "Usar a API da OpenAI para gerar sugestões de vocabulário e frases de exemplo com base nos temas que você fornece" },
-          { "bold": "Manter a Segurança", "text": "Autenticar usuários e proteger contra acesso não autorizado" },
-          { "bold": "Comunicar", "text": "Enviar atualizações importantes sobre o App (não enviamos e-mails de marketing sem seu consentimento)" },
-          { "bold": "Solucionar Problemas", "text": "Diagnosticar problemas técnicos e melhorar o desempenho do app" }
+          {
+            "bold": "Fornecer Serviços",
+            "text": "Permitir criação de contas, sincronização de dados e funcionalidade do app"
+          },
+          {
+            "bold": "Melhorar a Experiência",
+            "text": "Personalizar sua experiência de aprendizado e lembrar suas preferências"
+          },
+          {
+            "bold": "Gerar Conteúdo com IA",
+            "text": "Usar a API da OpenAI para gerar sugestões de vocabulário e frases de exemplo com base nos temas que você fornece"
+          },
+          {
+            "bold": "Manter a Segurança",
+            "text": "Autenticar usuários e proteger contra acesso não autorizado"
+          },
+          {
+            "bold": "Comunicar",
+            "text": "Enviar atualizações importantes sobre o App (não enviamos e-mails de marketing sem seu consentimento)"
+          },
+          {
+            "bold": "Solucionar Problemas",
+            "text": "Diagnosticar problemas técnicos e melhorar o desempenho do app"
+          }
         ]
       },
       {
@@ -279,10 +444,22 @@
             "title": "Local de Armazenamento",
             "intro": "Seus dados são armazenados com segurança usando Supabase, um serviço de banco de dados em nuvem:",
             "items": [
-              { "bold": "Localização", "text": "Os dados são hospedados em servidores seguros gerenciados pelo Supabase (infraestrutura AWS)" },
-              { "bold": "Criptografia", "text": "Todos os dados são criptografados em trânsito usando protocolos HTTPS/TLS" },
-              { "bold": "Controle de Acesso", "text": "Políticas de Segurança em Nível de Linha (RLS) garantem que você só acesse seus próprios dados" },
-              { "bold": "Backups", "text": "Backups automáticos regulares para prevenir perda de dados" }
+              {
+                "bold": "Localização",
+                "text": "Os dados são hospedados em servidores seguros gerenciados pelo Supabase (infraestrutura AWS)"
+              },
+              {
+                "bold": "Criptografia",
+                "text": "Todos os dados são criptografados em trânsito usando protocolos HTTPS/TLS"
+              },
+              {
+                "bold": "Controle de Acesso",
+                "text": "Políticas de Segurança em Nível de Linha (RLS) garantem que você só acesse seus próprios dados"
+              },
+              {
+                "bold": "Backups",
+                "text": "Backups automáticos regulares para prevenir perda de dados"
+              }
             ]
           },
           {
@@ -305,8 +482,14 @@
             "title": "Supabase (Banco de Dados e Autenticação)",
             "intro": "Usamos o Supabase para armazenar e gerenciar dados dos usuários:",
             "items": [
-              { "bold": "Finalidade", "text": "Banco de dados em nuvem, autenticação de usuários e sincronização de dados" },
-              { "bold": "Dados Compartilhados", "text": "E-mail, ID do usuário, conjuntos de vocabulário, histórico de prática" }
+              {
+                "bold": "Finalidade",
+                "text": "Banco de dados em nuvem, autenticação de usuários e sincronização de dados"
+              },
+              {
+                "bold": "Dados Compartilhados",
+                "text": "E-mail, ID do usuário, conjuntos de vocabulário, histórico de prática"
+              }
             ],
             "privacyUrl": "https://supabase.com/privacy"
           },
@@ -314,10 +497,22 @@
             "title": "OpenAI API (Recursos de IA)",
             "intro": "Usamos a API da OpenAI para gerar sugestões de vocabulário e frases de exemplo:",
             "items": [
-              { "bold": "Finalidade", "text": "Geração de conteúdo com IA para materiais de aprendizado" },
-              { "bold": "Dados Compartilhados", "text": "APENAS os temas ou tópicos que você solicita (ex: \"comida\", \"viagem\")" },
-              { "bold": "Importante", "text": "NÃO enviamos suas informações pessoais, e-mail, ID de usuário ou conjuntos de vocabulário existentes para a OpenAI" },
-              { "bold": "Uso dos Dados", "text": "A OpenAI processa as solicitações de forma transitória e não usa seus dados para treinamento de modelos (conforme nosso contrato de API)" }
+              {
+                "bold": "Finalidade",
+                "text": "Geração de conteúdo com IA para materiais de aprendizado"
+              },
+              {
+                "bold": "Dados Compartilhados",
+                "text": "APENAS os temas ou tópicos que você solicita (ex: \"comida\", \"viagem\")"
+              },
+              {
+                "bold": "Importante",
+                "text": "NÃO enviamos suas informações pessoais, e-mail, ID de usuário ou conjuntos de vocabulário existentes para a OpenAI"
+              },
+              {
+                "bold": "Uso dos Dados",
+                "text": "A OpenAI processa as solicitações de forma transitória e não usa seus dados para treinamento de modelos (conforme nosso contrato de API)"
+              }
             ],
             "privacyUrl": "https://openai.com/privacy"
           },
@@ -325,8 +520,14 @@
             "title": "Expo (Plataforma de Desenvolvimento)",
             "intro": "Usamos o Expo para desenvolvimento e implantação do app:",
             "items": [
-              { "bold": "Finalidade", "text": "Infraestrutura e atualizações do app" },
-              { "bold": "Dados Compartilhados", "text": "Relatórios mínimos de falhas e estatísticas de uso anônimas" }
+              {
+                "bold": "Finalidade",
+                "text": "Infraestrutura e atualizações do app"
+              },
+              {
+                "bold": "Dados Compartilhados",
+                "text": "Relatórios mínimos de falhas e estatísticas de uso anônimas"
+              }
             ],
             "privacyUrl": "https://expo.dev/privacy"
           }
@@ -337,11 +538,26 @@
         "intro": "NÃO vendemos, alugamos ou negociamos suas informações pessoais com terceiros.",
         "intro2": "Podemos compartilhar suas informações apenas nas seguintes circunstâncias:",
         "items": [
-          { "bold": "Com Seu Consentimento", "text": "Quando você escolhe explicitamente compartilhar conjuntos de vocabulário com outros usuários" },
-          { "bold": "Prestadores de Serviço", "text": "Com serviços terceirizados de confiança (Supabase, OpenAI) conforme descrito acima" },
-          { "bold": "Exigências Legais", "text": "Se exigido por lei, ordem judicial ou regulamentação governamental" },
-          { "bold": "Transferências Comerciais", "text": "Em caso de fusão, aquisição ou venda de ativos (você será notificado)" },
-          { "bold": "Segurança e Proteção", "text": "Para proteger os direitos, propriedade ou segurança do Calleo, nossos usuários ou outros" }
+          {
+            "bold": "Com Seu Consentimento",
+            "text": "Quando você escolhe explicitamente compartilhar conjuntos de vocabulário com outros usuários"
+          },
+          {
+            "bold": "Prestadores de Serviço",
+            "text": "Com serviços terceirizados de confiança (Supabase, OpenAI) conforme descrito acima"
+          },
+          {
+            "bold": "Exigências Legais",
+            "text": "Se exigido por lei, ordem judicial ou regulamentação governamental"
+          },
+          {
+            "bold": "Transferências Comerciais",
+            "text": "Em caso de fusão, aquisição ou venda de ativos (você será notificado)"
+          },
+          {
+            "bold": "Segurança e Proteção",
+            "text": "Para proteger os direitos, propriedade ou segurança do Calleo, nossos usuários ou outros"
+          }
         ]
       },
       {
@@ -371,7 +587,10 @@
             "title": "Excluir Seus Dados",
             "description": "Você pode solicitar a exclusão completa da sua conta e de todos os dados associados:",
             "steps": [
-              { "bold": "Exclusão no App", "text": "(em breve): Navegue até Configurações > Conta > Excluir Conta" },
+              {
+                "bold": "Exclusão no App",
+                "text": "(em breve): Navegue até Configurações > Conta > Excluir Conta"
+              },
               {
                 "bold": "Solicitação por E-mail",
                 "text": "Entre em contato conosco em viacheslav@exquizite.app com o assunto \"Data Deletion Request\"",
@@ -442,12 +661,30 @@
       "title": "Resumo dos Pontos Principais",
       "intro": "Para sua conveniência, aqui está um resumo rápido:",
       "items": [
-        { "label": "O que coletamos", "value": "E-mail, conjuntos de vocabulário que você cria, preferências de idioma" },
-        { "label": "Por que coletamos", "value": "Para fornecer recursos de aprendizado, sincronizar entre dispositivos, gerar conteúdo com IA" },
-        { "label": "Onde é armazenado", "value": "Servidores Supabase em nuvem (infraestrutura AWS)" },
-        { "label": "Terceiros", "value": "Supabase (banco de dados), OpenAI (geração com IA - nenhum dado pessoal enviado)" },
-        { "label": "Seus direitos", "value": "Acessar, modificar, excluir seus dados a qualquer momento" },
-        { "label": "Contato", "value": "viacheslav@exquizite.app" }
+        {
+          "label": "O que coletamos",
+          "value": "E-mail, conjuntos de vocabulário que você cria, preferências de idioma"
+        },
+        {
+          "label": "Por que coletamos",
+          "value": "Para fornecer recursos de aprendizado, sincronizar entre dispositivos, gerar conteúdo com IA"
+        },
+        {
+          "label": "Onde é armazenado",
+          "value": "Servidores Supabase em nuvem (infraestrutura AWS)"
+        },
+        {
+          "label": "Terceiros",
+          "value": "Supabase (banco de dados), OpenAI (geração com IA - nenhum dado pessoal enviado)"
+        },
+        {
+          "label": "Seus direitos",
+          "value": "Acessar, modificar, excluir seus dados a qualquer momento"
+        },
+        {
+          "label": "Contato",
+          "value": "viacheslav@exquizite.app"
+        }
       ],
       "thankYou": "Obrigado por confiar no Calleo para sua jornada de aprendizado de idiomas!"
     }
@@ -461,15 +698,42 @@
     "toc": {
       "title": "Índice",
       "items": [
-        { "id": "getting-started", "label": "Primeiros Passos" },
-        { "id": "account-login", "label": "Conta e Login" },
-        { "id": "creating-vocabulary-sets", "label": "Criando Conjuntos de Vocabulário" },
-        { "id": "game-modes", "label": "Modos de Jogo" },
-        { "id": "sharing-sets", "label": "Compartilhando Conjuntos" },
-        { "id": "settings-preferences", "label": "Configurações e Preferências" },
-        { "id": "troubleshooting", "label": "Solução de Problemas" },
-        { "id": "privacy-data", "label": "Privacidade e Dados" },
-        { "id": "contact-us", "label": "Fale Conosco" }
+        {
+          "id": "getting-started",
+          "label": "Primeiros Passos"
+        },
+        {
+          "id": "account-login",
+          "label": "Conta e Login"
+        },
+        {
+          "id": "creating-vocabulary-sets",
+          "label": "Criando Conjuntos de Vocabulário"
+        },
+        {
+          "id": "game-modes",
+          "label": "Modos de Jogo"
+        },
+        {
+          "id": "sharing-sets",
+          "label": "Compartilhando Conjuntos"
+        },
+        {
+          "id": "settings-preferences",
+          "label": "Configurações e Preferências"
+        },
+        {
+          "id": "troubleshooting",
+          "label": "Solução de Problemas"
+        },
+        {
+          "id": "privacy-data",
+          "label": "Privacidade e Dados"
+        },
+        {
+          "id": "contact-us",
+          "label": "Fale Conosco"
+        }
       ]
     },
     "gettingStarted": {
@@ -482,8 +746,14 @@
         "title": "Preciso de uma conta?",
         "intro": "Não! Você pode usar o Calleo de duas formas:",
         "options": [
-          { "bold": "Modo Visitante", "text": "Use o app sem se cadastrar. Seus conjuntos são salvos apenas localmente no seu dispositivo." },
-          { "bold": "Com Conta", "text": "Cadastre-se com e-mail para sincronizar seus conjuntos em todos os dispositivos (iPhone, iPad, Android, Web)." }
+          {
+            "bold": "Modo Visitante",
+            "text": "Use o app sem se cadastrar. Seus conjuntos são salvos apenas localmente no seu dispositivo."
+          },
+          {
+            "bold": "Com Conta",
+            "text": "Cadastre-se com e-mail para sincronizar seus conjuntos em todos os dispositivos (iPhone, iPad, Android, Web)."
+          }
         ]
       },
       "howToStart": {
@@ -569,9 +839,18 @@
         "title": "Posso importar palavras em massa?",
         "intro": "Sim! Toque em \"Importar em Massa\" ao criar um conjunto. Opções de formato:",
         "formats": [
-          { "name": "Opção 1: Separado por tab", "example": "word[TAB]translation\nhola[TAB]hello\nadiós[TAB]goodbye" },
-          { "name": "Opção 2: Separado por hífen", "example": "word - translation\nhola - hello\nadiós - goodbye" },
-          { "name": "Opção 3: Separado por igual", "example": "word = translation\nhola = hello\nadiós = goodbye" }
+          {
+            "name": "Opção 1: Separado por tab",
+            "example": "word[TAB]translation\nhola[TAB]hello\nadiós[TAB]goodbye"
+          },
+          {
+            "name": "Opção 2: Separado por hífen",
+            "example": "word - translation\nhola - hello\nadiós - goodbye"
+          },
+          {
+            "name": "Opção 3: Separado por igual",
+            "example": "word = translation\nhola = hello\nadiós = goodbye"
+          }
         ]
       },
       "editSet": {
@@ -611,10 +890,22 @@
         "title": "Quais modos de jogo estão disponíveis?",
         "intro": "O Calleo oferece 4 modos de aprendizado interativos:",
         "modes": [
-          { "bold": "Flashcards", "text": "Cartões clássicos de virar para testar sua memória" },
-          { "bold": "Quiz", "text": "Perguntas de múltipla escolha para reforçar o aprendizado" },
-          { "bold": "Combinar", "text": "Encontre pares de palavras correspondentes contra o relógio" },
-          { "bold": "Preencher Lacunas", "text": "Complete frases com as palavras corretas" }
+          {
+            "bold": "Flashcards",
+            "text": "Cartões clássicos de virar para testar sua memória"
+          },
+          {
+            "bold": "Quiz",
+            "text": "Perguntas de múltipla escolha para reforçar o aprendizado"
+          },
+          {
+            "bold": "Combinar",
+            "text": "Encontre pares de palavras correspondentes contra o relógio"
+          },
+          {
+            "bold": "Preencher Lacunas",
+            "text": "Complete frases com as palavras corretas"
+          }
         ]
       },
       "howToPlay": {
@@ -698,8 +989,14 @@
         "title": "Posso ver quem visualizou ou copiou meu conjunto compartilhado?",
         "intro": "Sim! Ao visualizar um conjunto compartilhado, você pode ver:",
         "items": [
-          { "bold": "Contagem de visualizações", "text": "Quantas vezes foi visualizado" },
-          { "bold": "Contagem de cópias", "text": "Quantos usuários copiaram" }
+          {
+            "bold": "Contagem de visualizações",
+            "text": "Quantas vezes foi visualizado"
+          },
+          {
+            "bold": "Contagem de cópias",
+            "text": "Quantos usuários copiaram"
+          }
         ],
         "note": "Você não pode ver nomes ou e-mails de usuários individuais (proteção de privacidade)."
       },
@@ -802,10 +1099,22 @@
         "title": "Não consigo encontrar um conjunto compartilhado com o código",
         "intro": "Problemas comuns:",
         "items": [
-          { "bold": "Código expirado", "text": "Alguns códigos de compartilhamento têm data de validade" },
-          { "bold": "Código excluído", "text": "O criador parou de compartilhar o conjunto" },
-          { "bold": "Erro de digitação", "text": "Verifique o código com atenção (códigos diferenciam maiúsculas e minúsculas)" },
-          { "bold": "Conexão com internet", "text": "Certifique-se de estar online" }
+          {
+            "bold": "Código expirado",
+            "text": "Alguns códigos de compartilhamento têm data de validade"
+          },
+          {
+            "bold": "Código excluído",
+            "text": "O criador parou de compartilhar o conjunto"
+          },
+          {
+            "bold": "Erro de digitação",
+            "text": "Verifique o código com atenção (códigos diferenciam maiúsculas e minúsculas)"
+          },
+          {
+            "bold": "Conexão com internet",
+            "text": "Certifique-se de estar online"
+          }
         ]
       },
       "wrongLanguage": {
@@ -849,9 +1158,18 @@
       "whatCollected": {
         "title": "Quais dados vocês coletam?",
         "collected": [
-          { "bold": "Usuários com conta", "text": "E-mail, ID do usuário, conjuntos de vocabulário, histórico de prática, preferências de idioma" },
-          { "bold": "Usuários visitantes", "text": "Conjuntos de vocabulário armazenados apenas localmente (sem dados em nuvem)" },
-          { "bold": "Análises", "text": "Estatísticas de uso anônimas para melhorar o app" }
+          {
+            "bold": "Usuários com conta",
+            "text": "E-mail, ID do usuário, conjuntos de vocabulário, histórico de prática, preferências de idioma"
+          },
+          {
+            "bold": "Usuários visitantes",
+            "text": "Conjuntos de vocabulário armazenados apenas localmente (sem dados em nuvem)"
+          },
+          {
+            "bold": "Análises",
+            "text": "Estatísticas de uso anônimas para melhorar o app"
+          }
         ],
         "notCollectedIntro": "NÃO coletamos:",
         "notCollected": [
@@ -865,9 +1183,18 @@
         "title": "Vocês compartilham meus dados com terceiros?",
         "intro": "Não, NÃO vendemos nem alugamos seus dados. Usamos serviços confiáveis:",
         "services": [
-          { "bold": "Supabase", "text": "Banco de dados em nuvem e autenticação" },
-          { "bold": "OpenAI", "text": "Geração de vocabulário com IA (apenas nomes de temas são enviados, NÃO seus dados pessoais)" },
-          { "bold": "Expo", "text": "Infraestrutura do app (relatórios mínimos de falhas)" }
+          {
+            "bold": "Supabase",
+            "text": "Banco de dados em nuvem e autenticação"
+          },
+          {
+            "bold": "OpenAI",
+            "text": "Geração de vocabulário com IA (apenas nomes de temas são enviados, NÃO seus dados pessoais)"
+          },
+          {
+            "bold": "Expo",
+            "text": "Infraestrutura do app (relatórios mínimos de falhas)"
+          }
         ]
       },
       "downloadData": {
@@ -926,7 +1253,7 @@
       "items": [
         {
           "q": "O Calleo é gratuito?",
-          "a": "Sim! O Calleo é completamente gratuito, sem anúncios ou compras no app. Todos os recursos estão disponíveis para todos os usuários."
+          "a": "Sim! O Calleo é gratuito, sem anúncios. Em breve traremos recursos premium opcionais para quem quiser mais."
         },
         {
           "q": "Em quais plataformas o Calleo está disponível?",
@@ -942,7 +1269,7 @@
         },
         {
           "q": "O Calleo será sempre gratuito?",
-          "a": "Sim! Nossa missão principal é tornar o aprendizado de idiomas acessível a todos. Podemos introduzir recursos premium opcionais no futuro, mas o app principal será sempre gratuito."
+          "a": "O Calleo sempre oferecerá um plano gratuito para que qualquer pessoa possa começar a aprender. Estamos introduzindo recursos premium opcionais para quem quiser ferramentas extras, mas você nunca perderá acesso à experiência principal."
         }
       ]
     },
