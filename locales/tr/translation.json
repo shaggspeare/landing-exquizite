@@ -12,9 +12,10 @@
   },
   "hero": {
     "badge": "Artık iOS ve Web'de mevcut",
-    "titleLine1": "Öğrenmeyi Ustalaştır",
-    "titleLine2": "Akıllı Pratikle",
-    "subtitle": "Özel kelime setleri oluşturun, eğlenceli oyunlar oynayın ve yapay zeka destekli araçlarla dil öğrenme yolculuğunuzu hızlandırın.",
+    "titleLine1": "Gerçekten ihtiyaç duyduğunuz",
+    "titleLine2": "kelimeleri öğrenin",
+    "subtitle": "Öğrenmek istediğiniz kelimeleri ekleyin; çeviriyi, okunuşu ve örnek cümleleri yapay zekâ tamamlasın. Sonra 6 oyun modunda, 40'tan fazla dilde pratik yapın.",
+    "freeNote": "Ücretsiz. Reklam yok. Abonelik yok.",
     "appStoreButton": "App Store'dan İndir",
     "webAppButton": "Web Uygulamasını Dene",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",

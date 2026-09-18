@@ -12,9 +12,10 @@
   },
   "hero": {
     "badge": "Ya disponible en iOS y Web",
-    "titleLine1": "Domina el aprendizaje",
-    "titleLine2": "con práctica inteligente",
-    "subtitle": "Crea conjuntos de palabras personalizados, juega juegos interactivos y acelera tu aprendizaje de idiomas con herramientas impulsadas por IA.",
+    "titleLine1": "Aprende las palabras",
+    "titleLine2": "que de verdad necesitas",
+    "subtitle": "Añade las palabras que quieras aprender y la IA completa la traducción, la transcripción y las frases de ejemplo. Practícalas en 6 modos de juego y más de 40 idiomas.",
+    "freeNote": "Gratis. Sin anuncios. Sin suscripciones.",
     "appStoreButton": "Descargar en App Store",
     "webAppButton": "Probar App Web",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",

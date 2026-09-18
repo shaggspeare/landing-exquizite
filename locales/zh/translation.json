@@ -12,9 +12,10 @@
   },
   "hero": {
     "badge": "现已登陆 iOS 和网页版",
-    "titleLine1": "掌握学习",
-    "titleLine2": "通过智能练习",
-    "subtitle": "创建自定义词汇集、畅玩趣味游戏，借助 AI 工具加速你的语言学习之旅。",
+    "titleLine1": "学你真正",
+    "titleLine2": "需要的单词",
+    "subtitle": "把你想学的单词加进来，AI 自动补上翻译、音标和例句。然后用 6 种游戏模式练习，支持 40 多种语言。",
+    "freeNote": "完全免费。无广告，无订阅。",
     "appStoreButton": "在 App Store 下载",
     "webAppButton": "试用网页版",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",

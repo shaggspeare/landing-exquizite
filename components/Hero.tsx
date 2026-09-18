@@ -39,6 +39,8 @@ const Hero: React.FC = () => {
                 {d.webAppButton}
               </a>
             </div>
+
+            <p className="mt-5 text-sm font-semibold text-ink/45">{d.freeNote}</p>
           </div>
 
           {/* Right Side - 2 Overlapping Screens */}

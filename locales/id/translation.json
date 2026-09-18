@@ -12,9 +12,10 @@
   },
   "hero": {
     "badge": "Tersedia sekarang di iOS dan Web",
-    "titleLine1": "Kuasai Pembelajaran",
-    "titleLine2": "Melalui Latihan Cerdas",
-    "subtitle": "Buat set kata khusus, mainkan permainan yang menarik, dan percepat perjalanan belajar bahasamu dengan alat bertenaga AI.",
+    "titleLine1": "Pelajari kata-kata",
+    "titleLine2": "yang benar-benar kamu butuhkan",
+    "subtitle": "Tambahkan kata yang ingin kamu pelajari, lalu AI melengkapi terjemahan, transkripsi, dan contoh kalimat. Latih di 6 mode permainan, dalam 40+ bahasa.",
+    "freeNote": "Gratis. Tanpa iklan. Tanpa langganan.",
     "appStoreButton": "Unduh di App Store",
     "webAppButton": "Coba Aplikasi Web",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",

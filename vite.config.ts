@@ -14,24 +14,8 @@ export default defineConfig(({ mode }) => {
       plugins: [
         react(),
         tailwindcss(),
-        createHtmlPlugin({
-          minify: true,
-          inject: {
-            data: {
-              title: 'Calleo - Master Languages Through Smart, Interactive Practice',
-              description: 'Create custom word sets, play engaging games, and accelerate your language learning journey. 40+ languages, 6 game modes including Listening and Writing, AI-powered Quick Generate, Wordwall import, and a guided CEFR learning path. Available on iOS and web.',
-              keywords: 'language learning, vocabulary app, flashcards, language games, AI language learning, learn languages, iOS app, web app, multilingual, vocabulary builder, listening practice, writing practice, CEFR levels, Wordwall import',
-              ogTitle: 'Calleo - Master Any Language, Your Way',
-              ogDescription: 'Learn languages with AI-powered flashcards, games, and smart practice tools. 40+ languages, 6 game modes, and a guided CEFR path. Start free on iOS or web.',
-              ogImage: 'https://calleo.xyz/images/og-image.png',
-              ogUrl: 'https://calleo.xyz/',
-              twitterCard: 'summary_large_image',
-              twitterTitle: 'Calleo - Master Languages Through Smart Practice',
-              twitterDescription: 'AI-powered language learning with 6 game modes, Quick Generate, Wordwall import, and a guided CEFR path across 40+ languages. Free on iOS and web.',
-              twitterImage: 'https://calleo.xyz/images/twitter-card.png',
-            }
-          }
-        })
+        // index.html has no <%= %> placeholders; this is here purely to minify it.
+        createHtmlPlugin({ minify: true })
       ],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
