@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "Tableau de bord"
+        "alt": "Tableau de bord Calleo avec la série d'entraînement et les ensembles de mots"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "Modes d'apprentissage"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "Mode Quiz de l'app Calleo"
+        "alt": "Choix d'un mode d'entraînement pour un ensemble dans Calleo"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "Générez des paires de mots instantanément et obtenez des indices intelligents.",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "Mots générés par l'IA"
+          "alt": "L'IA génère des paires de mots pour un thème"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "Mots ajoutés"
+      "alt": "Un ensemble de mots avec les traductions ajoutées par l'IA"
     }
   },
   "screenshotGallery": {

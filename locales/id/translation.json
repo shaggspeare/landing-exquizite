@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "Dasbor"
+        "alt": "Dasbor Calleo dengan rentetan latihan dan set kata"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "Mode Pembelajaran"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "Mode Kuis Aplikasi Calleo"
+        "alt": "Memilih mode latihan untuk sebuah set kata di Calleo"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "Buat pasangan kata secara instan dan dapatkan petunjuk cerdas.",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "Kata yang Dihasilkan AI"
+          "alt": "AI membuat pasangan kata untuk sebuah topik"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "Kata yang Ditambahkan"
+      "alt": "Set kata dengan terjemahan yang dilengkapi AI"
     }
   },
   "screenshotGallery": {

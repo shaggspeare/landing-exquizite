@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "Dashboard"
+        "alt": "Calleo dashboard with practice streak and word sets"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "Learning Modes"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "Calleo App Quiz Mode"
+        "alt": "Choosing a practice mode for a word set in Calleo"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "Generate word pairs instantly and get smart hints.",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "AI Generated Words"
+          "alt": "AI generating word pairs for a topic"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "Added Words"
+      "alt": "A word set with AI-added translations"
     }
   },
   "screenshotGallery": {

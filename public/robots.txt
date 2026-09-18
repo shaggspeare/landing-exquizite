@@ -1,4 +1,4 @@
-# Calleo — https://calleo.xyz
+# Calleo — https://www.calleo.xyz
 # Open access for search and AI/LLM crawlers.
 
 User-agent: *
@@ -41,4 +41,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://calleo.xyz/sitemap.xml
+Sitemap: https://www.calleo.xyz/sitemap.xml

@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "Painel"
+        "alt": "Painel do Calleo com a sequência de prática e os conjuntos de palavras"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "Modos de Aprendizado"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "Modo Quiz do Calleo"
+        "alt": "Escolhendo um modo de prática para um conjunto no Calleo"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "Gere pares de palavras instantaneamente e receba dicas inteligentes.",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "Palavras Geradas por IA"
+          "alt": "A IA gerando pares de palavras para um tema"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "Palavras Adicionadas"
+      "alt": "Um conjunto de palavras com traduções adicionadas pela IA"
     }
   },
   "screenshotGallery": {

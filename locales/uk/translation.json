@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "Панель керування"
+        "alt": "Панель Calleo із серією занять і наборами слів"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "Режими навчання"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "Режим вікторини Calleo"
+        "alt": "Вибір режиму практики для набору слів у Calleo"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "Генеруй пари слів миттєво та отримуй розумні підказки.",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "Слова згенеровані ШІ"
+          "alt": "ШІ створює пари слів для теми"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "Додані слова"
+      "alt": "Набір слів із перекладами, доданими ШІ"
     }
   },
   "screenshotGallery": {

@@ -14,6 +14,8 @@ const AppStoreBadge: React.FC<AppStoreBadgeProps> = ({ url, className = '', heig
       <img
         src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
         alt="Download on the App Store"
+        width={width}
+        height={height}
         style={{ height, width }}
         className="hover:opacity-80 transition-opacity"
       />

@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "Панель управления"
+        "alt": "Панель Calleo с серией занятий и наборами слов"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "Режимы обучения"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "Режим викторины Calleo"
+        "alt": "Выбор режима практики для набора слов в Calleo"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "Мгновенно генерируйте пары слов и получайте умные подсказки.",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "Слова, сгенерированные ИИ"
+          "alt": "ИИ создаёт пары слов для темы"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "Добавленные слова"
+      "alt": "Набор слов с переводами, добавленными ИИ"
     }
   },
   "screenshotGallery": {

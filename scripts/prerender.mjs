@@ -10,7 +10,8 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 const distDir = path.join(root, 'dist');
-const SITE_URL = 'https://calleo.xyz';
+// The apex domain 307-redirects to www, so www is the canonical host.
+const SITE_URL = 'https://www.calleo.xyz';
 
 const ROUTE_SUFFIX = {
   home: '',
@@ -38,6 +39,9 @@ function setAttr(html, selector, attr, value) {
 
 async function main() {
   const template = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8');
+  const appJsonLdTemplate = template.match(
+    /<script type="application\/ld\+json" id="app-jsonld">([\s\S]*?)<\/script>/
+  )[1];
 
   const vite = await createServer({
     root,
@@ -51,7 +55,7 @@ async function main() {
   });
 
   const { render } = await vite.ssrLoadModule('/entry-server.tsx');
-  const { languageCodes } = await vite.ssrLoadModule('/i18n.ts');
+  const { languageCodes, ogLocale } = await vite.ssrLoadModule('/i18n.ts');
 
   let count = 0;
 
@@ -84,7 +88,16 @@ async function main() {
       html = setAttr(html, 'meta[name="twitter:url"]', 'content', canonicalUrl);
       html = setAttr(html, 'meta[property="og:title"]', 'content', title);
       html = setAttr(html, 'meta[name="twitter:title"]', 'content', title);
-      html = setAttr(html, 'meta[property="og:locale"]', 'content', lang);
+      const ogLocaleBlock = [
+        `<meta property="og:locale" content="${ogLocale(lang)}"/>`,
+        ...languageCodes
+          .filter((code) => code !== lang)
+          .map((code) => `<meta property="og:locale:alternate" content="${ogLocale(code)}"/>`),
+      ].join('');
+      html = html.replace(
+        /<meta property="og:locale"[^>]*>(\s*<meta property="og:locale:alternate"[^>]*>)*/,
+        ogLocaleBlock
+      );
       if (description) {
         html = setAttr(html, 'meta[name="description"]', 'content', description);
         html = setAttr(html, 'meta[property="og:description"]', 'content', description);
@@ -94,6 +107,15 @@ async function main() {
         html = setAttr(html, `link[hreflang="${code}"]`, 'href', `${SITE_URL}${localeUrlPath(code, page)}`);
       }
       html = setAttr(html, 'link[hreflang="x-default"]', 'href', `${SITE_URL}${localeUrlPath('en', page)}`);
+
+      const appJsonLd = JSON.parse(appJsonLdTemplate);
+      appJsonLd.url = canonicalUrl;
+      appJsonLd.description = bundle.hero.subtitle;
+      appJsonLd.inLanguage = lang;
+      html = html.replace(
+        /(<script type="application\/ld\+json" id="app-jsonld">)[\s\S]*?(<\/script>)/,
+        `$1${JSON.stringify(appJsonLd)}$2`
+      );
 
       if (page === 'home') {
         const faqJsonLd = JSON.stringify({
@@ -118,8 +140,35 @@ async function main() {
     }
   }
 
+  const today = new Date().toISOString().slice(0, 10);
+  const urls = [];
+  for (const page of Object.keys(ROUTE_SUFFIX)) {
+    for (const lang of languageCodes) {
+      const alternates = [
+        ...languageCodes.map(
+          (code) => `    <xhtml:link rel="alternate" hreflang="${code}" href="${SITE_URL}${localeUrlPath(code, page)}"/>`
+        ),
+        `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}${localeUrlPath('en', page)}"/>`,
+      ].join('\n');
+      urls.push(
+        [
+          '  <url>',
+          `    <loc>${SITE_URL}${localeUrlPath(lang, page)}</loc>`,
+          `    <lastmod>${today}</lastmod>`,
+          `    <priority>${page === 'home' ? (lang === 'en' ? '1.0' : '0.8') : '0.5'}</priority>`,
+          alternates,
+          '  </url>',
+        ].join('\n')
+      );
+    }
+  }
+  fs.writeFileSync(
+    path.join(distDir, 'sitemap.xml'),
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`
+  );
+
   await vite.close();
-  console.log(`Prerendered ${count} pages.`);
+  console.log(`Prerendered ${count} pages and a sitemap with ${urls.length} URLs.`);
 }
 
 main().catch((err) => {

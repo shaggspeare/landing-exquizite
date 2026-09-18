@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "Dashboard"
+        "alt": "Calleo-Dashboard mit Lernserie und Wortsets"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "Lernmodi"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "Calleo App Quiz-Modus"
+        "alt": "Übungsmodus für ein Wortset in Calleo auswählen"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "Generiere Wortpaare sofort und erhalte intelligente Hinweise.",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "KI-generierte Wörter"
+          "alt": "KI erzeugt Wortpaare zu einem Thema"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "Hinzugefügte Wörter"
+      "alt": "Ein Wortset mit von der KI ergänzten Übersetzungen"
     }
   },
   "screenshotGallery": {

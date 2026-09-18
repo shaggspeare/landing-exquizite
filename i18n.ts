@@ -18,23 +18,27 @@ import tr from './locales/tr/translation.json';
 import id from './locales/id/translation.json';
 
 export const supportedLanguages = [
-  { code: 'en', name: 'English', nativeName: 'English', flag: '🇬🇧' },
-  { code: 'de', name: 'German', nativeName: 'Deutsch', flag: '🇩🇪' },
-  { code: 'es', name: 'Spanish', nativeName: 'Español', flag: '🇪🇸' },
-  { code: 'fr', name: 'French', nativeName: 'Français', flag: '🇫🇷' },
-  { code: 'it', name: 'Italian', nativeName: 'Italiano', flag: '🇮🇹' },
-  { code: 'pl', name: 'Polish', nativeName: 'Polski', flag: '🇵🇱' },
-  { code: 'uk', name: 'Ukrainian', nativeName: 'Українська', flag: '🇺🇦' },
-  { code: 'ru', name: 'Russian', nativeName: 'Русский', flag: '' },
-  { code: 'zh', name: 'Chinese', nativeName: '中文', flag: '🇨🇳' },
-  { code: 'ko', name: 'Korean', nativeName: '한국어', flag: '🇰🇷' },
-  { code: 'ar', name: 'Arabic', nativeName: 'العربية', flag: '🇸🇦' },
-  { code: 'pt', name: 'Portuguese', nativeName: 'Português', flag: '🇵🇹' },
-  { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', flag: '🇹🇷' },
-  { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', flag: '🇮🇩' },
+  { code: 'en', name: 'English', nativeName: 'English', flag: '🇬🇧', ogLocale: 'en_US' },
+  { code: 'de', name: 'German', nativeName: 'Deutsch', flag: '🇩🇪', ogLocale: 'de_DE' },
+  { code: 'es', name: 'Spanish', nativeName: 'Español', flag: '🇪🇸', ogLocale: 'es_ES' },
+  { code: 'fr', name: 'French', nativeName: 'Français', flag: '🇫🇷', ogLocale: 'fr_FR' },
+  { code: 'it', name: 'Italian', nativeName: 'Italiano', flag: '🇮🇹', ogLocale: 'it_IT' },
+  { code: 'pl', name: 'Polish', nativeName: 'Polski', flag: '🇵🇱', ogLocale: 'pl_PL' },
+  { code: 'uk', name: 'Ukrainian', nativeName: 'Українська', flag: '🇺🇦', ogLocale: 'uk_UA' },
+  { code: 'ru', name: 'Russian', nativeName: 'Русский', flag: '', ogLocale: 'ru_RU' },
+  { code: 'zh', name: 'Chinese', nativeName: '中文', flag: '🇨🇳', ogLocale: 'zh_CN' },
+  { code: 'ko', name: 'Korean', nativeName: '한국어', flag: '🇰🇷', ogLocale: 'ko_KR' },
+  { code: 'ar', name: 'Arabic', nativeName: 'العربية', flag: '🇸🇦', ogLocale: 'ar_AR' },
+  { code: 'pt', name: 'Portuguese', nativeName: 'Português', flag: '🇵🇹', ogLocale: 'pt_PT' },
+  { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', flag: '🇹🇷', ogLocale: 'tr_TR' },
+  { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', flag: '🇮🇩', ogLocale: 'id_ID' },
 ];
 
 export const languageCodes = supportedLanguages.map((l) => l.code);
+
+/** Facebook-style locale per language, for og:locale / og:locale:alternate. */
+export const ogLocale = (code: string) =>
+  supportedLanguages.find((l) => l.code === code)?.ogLocale ?? 'en_US';
 
 i18n
   .use(LanguageDetector)

@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "仪表盘"
+        "alt": "Calleo 主面板，显示连续练习天数和词汇集"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "学习模式"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "Calleo 应用测验模式"
+        "alt": "在 Calleo 中为词汇集选择练习模式"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "即时生成词汇对，获取智能提示。",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "AI 生成的词汇"
+          "alt": "AI 正在为某个主题生成单词对"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "已添加的词汇"
+      "alt": "由 AI 补齐翻译的词汇集"
     }
   },
   "screenshotGallery": {

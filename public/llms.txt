@@ -6,7 +6,7 @@ Calleo is completely free: no ads, no subscriptions and no in-app purchases. It 
 
 ## Product
 
-- [Homepage](https://calleo.xyz/): overview, features, FAQ
+- [Homepage](https://www.calleo.xyz/): overview, features, FAQ
 - [Web App](https://app.calleo.xyz/): use Calleo directly in the browser, no install required
 - [iOS App](https://apps.apple.com/app/id6759112720): native app on the App Store
 
@@ -30,10 +30,10 @@ Calleo is free. There are no ads, no subscriptions, no in-app purchases and no p
 
 ## Support & policies
 
-- [Support / Help Center](https://calleo.xyz/support): getting started, account management, creating sets, game modes, sharing, settings, troubleshooting
-- [Privacy Policy](https://calleo.xyz/privacy-policy): what data is collected, third-party sharing, data deletion
-- [Terms of Service](https://calleo.xyz/terms): what the terms cover, AI-generated content, liability
-- [Cookie Policy](https://calleo.xyz/cookies): the one browser preference and the analytics cookies this site sets
+- [Support / Help Center](https://www.calleo.xyz/support): getting started, account management, creating sets, game modes, sharing, settings, troubleshooting
+- [Privacy Policy](https://www.calleo.xyz/privacy-policy): what data is collected, third-party sharing, data deletion
+- [Terms of Service](https://www.calleo.xyz/terms): what the terms cover, AI-generated content, liability
+- [Cookie Policy](https://www.calleo.xyz/cookies): the one browser preference and the analytics cookies this site sets
 - Contact: support@calleo.xyz
 
 ## Localization

@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "대시보드"
+        "alt": "연속 학습 기록과 단어 세트가 보이는 Calleo 대시보드"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "학습 모드"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "Calleo 앱 퀴즈 모드"
+        "alt": "Calleo에서 단어 세트의 연습 모드를 고르는 화면"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "단어 쌍을 즉시 생성하고 스마트한 힌트를 받으세요.",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "AI 생성 단어"
+          "alt": "AI가 주제에 맞는 단어 쌍을 생성하는 화면"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "추가된 단어"
+      "alt": "AI가 번역을 채운 단어 세트"
     }
   },
   "screenshotGallery": {

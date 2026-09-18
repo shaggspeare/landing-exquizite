@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/prerender.mjs",
-    "preview": "vite preview"
+    "build": "vite build && node scripts/prerender.mjs && node scripts/check-build.mjs",
+    "preview": "vite preview",
+    "check": "node scripts/check-build.mjs"
   },
   "dependencies": {
     "i18next": "^25.8.13",

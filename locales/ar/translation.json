@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "لوحة التحكم"
+        "alt": "لوحة Calleo مع سلسلة التدريب ومجموعات الكلمات"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "أوضاع التعلم"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "وضع الاختبار في تطبيق Calleo"
+        "alt": "اختيار نمط تدريب لمجموعة كلمات في Calleo"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "أنشئ أزواج الكلمات فوراً واحصل على تلميحات ذكية.",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "كلمات مولّدة بالذكاء الاصطناعي"
+          "alt": "الذكاء الاصطناعي يولّد أزواج كلمات لموضوع ما"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "الكلمات المضافة"
+      "alt": "مجموعة كلمات أضاف الذكاء الاصطناعي ترجماتها"
     }
   },
   "screenshotGallery": {

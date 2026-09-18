@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useData } from './useData';
-import { languageCodes } from '../i18n';
+import { languageCodes, ogLocale } from '../i18n';
 
 export type SeoPage = 'home' | 'privacy-policy' | 'support' | 'terms' | 'cookies';
 
@@ -13,7 +13,8 @@ const ROUTE_SUFFIX: Record<SeoPage, string> = {
   cookies: '/cookies',
 };
 
-const SITE_URL = 'https://calleo.xyz';
+// The apex domain 307-redirects to www, so www is the canonical host.
+const SITE_URL = 'https://www.calleo.xyz';
 
 function localeUrl(lang: string, page: SeoPage) {
   const prefix = lang === 'en' ? '' : `/${lang}`;
@@ -61,7 +62,9 @@ export function useSeo(page: SeoPage) {
     setAttr('meta[name="twitter:url"]', 'content', canonicalUrl);
     setAttr('meta[property="og:title"]', 'content', title);
     setAttr('meta[name="twitter:title"]', 'content', title);
-    setAttr('meta[property="og:locale"]', 'content', lang);
+    setAttr('meta[property="og:locale"]', 'content', ogLocale(lang));
+    // og:locale:alternate is a full block; the prerendered HTML has the correct
+    // one per locale and crawlers read that, so client navigation leaves it be.
 
     languageCodes.forEach((code) => {
       setAttr(`link[hreflang="${code}"]`, 'href', localeUrl(code, page));

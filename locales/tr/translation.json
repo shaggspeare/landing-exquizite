@@ -22,15 +22,11 @@
     "images": {
       "dashboard": {
         "src": "/images/dashboard.png",
-        "alt": "Kontrol paneli"
+        "alt": "Pratik serisi ve kelime setlerini gösteren Calleo panosu"
       },
       "gameModes": {
         "src": "/images/learning-modes.png",
-        "alt": "Öğrenme Modları"
-      },
-      "quiz": {
-        "src": "/images/quiz.png",
-        "alt": "Calleo Uygulama Quiz Modu"
+        "alt": "Calleo'da bir kelime seti için pratik modu seçme"
       }
     }
   },
@@ -74,7 +70,7 @@
         "description": "Anında kelime çiftleri oluşturun ve akıllı ipuçları alın.",
         "image": {
           "src": "/images/ai-generation.png",
-          "alt": "Yapay Zeka ile Üretilen Kelimeler"
+          "alt": "Yapay zekâ bir konu için kelime çiftleri üretiyor"
         }
       },
       "languages": {
@@ -153,7 +149,7 @@
     ],
     "image": {
       "src": "/images/added-words.png",
-      "alt": "Eklenen Kelimeler"
+      "alt": "Çevirileri yapay zekâ tarafından eklenmiş bir kelime seti"
     }
   },
   "screenshotGallery": {
