@@ -4,8 +4,7 @@
     "links": {
       "features": "Fitur",
       "howItWorks": "Cara Kerja",
-      "stories": "Cerita",
-      "pricing": "Harga",
+      "pricing": "Gratis",
       "getApp": "Dapatkan Aplikasi",
       "downloadApp": "Unduh Aplikasi"
     }
@@ -88,20 +87,18 @@
         "description": "Dapatkan aplikasinya untuk belajar di mana saja."
       },
       "shareDiscover": {
-        "title": "Bagikan dan Temukan",
-        "description": "Buat tautan yang bisa dibagikan untuk set katamu atau salin set komunitas ke koleksimu. Lacak tayangan dan interaksi.",
-        "recentShares": "Bagikan Terbaru",
-        "viewAll": "Lihat Semua",
-        "shares": [
+        "title": "Bagikan set kamu",
+        "description": "Ubah set apa pun menjadi kode berbagi. Teman memasukkan kodenya, melihat setnya, dan menyalinnya ke koleksi mereka sendiri — dan kamu bisa melihat berapa kali set itu dilihat dan disalin.",
+        "codeLabel": "Kode berbagi",
+        "code": "ABC123XYZ",
+        "stats": [
           {
-            "initials": "FR",
-            "name": "Dasar Prancis",
-            "wordCount": "24 kata"
+            "label": "Dilihat",
+            "value": "48"
           },
           {
-            "initials": "ES",
-            "name": "Dapur Spanyol",
-            "wordCount": "12 kata"
+            "label": "Disalin",
+            "value": "12"
           }
         ]
       },
@@ -128,8 +125,8 @@
         "desc": "Pantau streak, level penguasaan, dan riwayatmu di dasbor."
       },
       {
-        "title": "4. Bagikan dan Belajar",
-        "desc": "Bagikan set terbaikmu dengan teman atau temukan konten komunitas."
+        "title": "4. Bagikan set",
+        "desc": "Kirim kode berbagi sebuah set ke teman. Mereka menyalinnya ke koleksi sendiri, dan kamu melihat jumlah dilihat dan disalin."
       }
     ]
   },
@@ -147,7 +144,7 @@
       },
       {
         "title": "Privasi Diutamakan",
-        "description": "Datamu disimpan dengan aman melalui Supabase. Kamu selalu memegang kendali."
+        "description": "Mode tamu tidak perlu akun. Dengan akun, kami hanya menyimpan email kamu dan set yang kamu buat. Kata yang kamu minta dibuat dikirim ke OpenAI untuk terjemahan dan contoh."
       },
       {
         "title": "Modern dan Cepat",
@@ -158,26 +155,6 @@
       "src": "/images/added-words.png",
       "alt": "Kata yang Ditambahkan"
     }
-  },
-  "testimonials": {
-    "sectionTitle": "Dicintai oleh Para Pelajar",
-    "items": [
-      {
-        "quote": "Pembuatan kata dengan AI menghemat berjam-jam waktu saya dalam membuat daftar kosakata untuk kelas bahasa Spanyol saya. Sangat akurat.",
-        "author": "Sarah J.",
-        "role": "Mahasiswa Bahasa"
-      },
-      {
-        "quote": "Akhirnya, aplikasi bahasa yang bekerja sama baiknya di ponsel dan komputer! Sinkronisasinya sempurna.",
-        "author": "Michael C.",
-        "role": "Nomad Digital"
-      },
-      {
-        "quote": "Permainan cocokkan membuat belajar terasa menyenangkan. Anak-anak saya juga suka! Ini sudah menjadi aktivitas keluarga harian.",
-        "author": "Elena R.",
-        "role": "Orang Tua & Guru"
-      }
-    ]
   },
   "screenshotGallery": {
     "sectionTitle": "Jelajahi Aplikasinya",
@@ -218,20 +195,19 @@
     ]
   },
   "pricing": {
-    "sectionTitle": "Harga Sederhana dan Transparan",
-    "sectionSubtitle": "Pendidikan harus bisa diakses semua orang.",
-    "planName": "Gratis",
-    "planDescription": "Semua yang kamu butuhkan untuk menguasai bahasa.",
-    "price": "$0",
-    "period": "/bulan",
+    "sectionTitle": "Gratis, sungguhan",
+    "sectionSubtitle": "Tanpa iklan. Tanpa langganan. Tanpa pembelian dalam aplikasi.",
+    "planName": "Semuanya sudah termasuk",
+    "planDescription": "Semua fitur di bawah terbuka untuk siapa saja. Tidak ada paket berbayar untuk ditingkatkan.",
     "features": [
       "Set kata tanpa batas",
-      "Akses semua 6 mode permainan",
-      "Pembuatan kata dengan AI",
-      "Bagikan set-mu",
-      "Sinkronisasi lintas platform"
+      "Keenam mode latihan",
+      "Terjemahan, transkripsi, dan contoh dari AI",
+      "Jalur CEFR, A1 sampai C2",
+      "Kode berbagi untuk set kamu",
+      "Sinkronisasi antara iOS dan web"
     ],
-    "ctaButton": "Mulai Gratis"
+    "ctaButton": "Mulai"
   },
   "faq": {
     "sectionTitle": "Pertanyaan yang Sering Diajukan",
@@ -254,7 +230,7 @@
       },
       {
         "q": "Apakah data saya aman?",
-        "a": "Ya, semua data disimpan dan disinkronkan dengan aman melalui Supabase dengan enkripsi standar industri."
+        "a": "Set kamu disimpan di basis data cloud kami, dan setiap akun hanya bisa membaca datanya sendiri. Kata dan topik yang kamu kirim ke AI diteruskan ke OpenAI untuk terjemahan, transkripsi, dan contoh; email dan data akun kamu tidak. Di mode tamu, tidak ada yang keluar dari perangkat selain permintaan AI itu."
       },
       {
         "q": "Bisakah saya membagikan set kata saya?",
@@ -276,12 +252,12 @@
   },
   "downloadCTA": {
     "title": "Mulai Belajar Hari Ini",
-    "subtitle": "Bergabunglah dengan ribuan pelajar yang menguasai bahasa baru dengan Calleo. Unduh sekarang atau coba di browsermu.",
+    "subtitle": "Set pertama kamu selesai dalam waktu kurang dari satu menit. Unduh aplikasinya atau buka di browser.",
     "iosButton": "Unduh untuk iOS",
     "webButton": "Buka Aplikasi Web",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "disclaimer": "Tidak perlu kartu kredit untuk paket gratis."
+    "disclaimer": "Gratis. Tanpa iklan. Tanpa langganan."
   },
   "footer": {
     "brandName": "Calleo",
@@ -434,7 +410,7 @@
           },
           {
             "bold": "Menghasilkan Konten AI",
-            "text": "Menggunakan API OpenAI untuk menghasilkan saran kosakata dan contoh kalimat berdasarkan tema yang kamu berikan"
+            "text": "Memakai API OpenAI untuk menerjemahkan kata yang kamu tambahkan serta membuat transkripsi, saran kosakata, dan contoh kalimat"
           },
           {
             "bold": "Menjaga Keamanan",
@@ -516,11 +492,11 @@
               },
               {
                 "bold": "Data yang Dibagikan",
-                "text": "HANYA tema atau topik yang kamu minta (misalnya \"makanan\", \"perjalanan\")"
+                "text": "Kata dan topik yang kamu mintakan terjemahan, transkripsi, atau contohnya"
               },
               {
                 "bold": "Penting",
-                "text": "Kami TIDAK mengirim informasi pribadimu, email, ID pengguna, atau set kosakata yang ada ke OpenAI"
+                "text": "Kami TIDAK mengirim alamat email, ID pengguna, atau data akun kamu ke OpenAI"
               },
               {
                 "bold": "Penggunaan Data",
@@ -688,7 +664,7 @@
         },
         {
           "label": "Pihak ketiga",
-          "value": "Supabase (database), OpenAI (pembuatan AI - tidak ada data pribadi yang dikirim)"
+          "value": "Supabase (basis data), OpenAI (terjemahan dan contoh — email dan data akun tidak dikirim)"
         },
         {
           "label": "Hakmu",
@@ -765,14 +741,14 @@
           },
           {
             "bold": "Dengan Akun",
-            "text": "Daftar dengan email untuk menyinkronkan set-mu di semua perangkat (iPhone, iPad, Android, Web)."
+            "text": "Daftar dengan email untuk menyinkronkan set kamu antara aplikasi iOS dan aplikasi web."
           }
         ]
       },
       "howToStart": {
         "title": "Bagaimana cara memulai?",
         "steps": [
-          "Unduh Calleo dari App Store atau Google Play",
+          "Unduh Calleo di App Store, atau buka aplikasi web di app.calleo.xyz",
           "Pilih \"Lanjutkan sebagai Tamu\" atau \"Daftar\"",
           "Pilih bahasa yang ingin dipelajari (misalnya Spanyol) dan bahasa ibu (misalnya Indonesia)",
           "Buat set kosakata pertamamu",
@@ -901,7 +877,7 @@
       "title": "Mode Permainan",
       "available": {
         "title": "Mode permainan apa saja yang tersedia?",
-        "intro": "Calleo menawarkan 4 mode pembelajaran interaktif:",
+        "intro": "Calleo punya 6 mode belajar interaktif:",
         "modes": [
           {
             "bold": "Kartu Flash",
@@ -918,6 +894,14 @@
           {
             "bold": "Isi Bagian Kosong",
             "text": "Lengkapi kalimat dengan kata yang benar"
+          },
+          {
+            "bold": "Menyimak",
+            "text": "Dengar kata dibacakan lalu kenali kata itu"
+          },
+          {
+            "bold": "Menulis",
+            "text": "Lihat terjemahannya dan tulis katanya dari ingatan"
           }
         ]
       },
@@ -1033,14 +1017,14 @@
       "title": "Pengaturan & Preferensi",
       "appLanguage": {
         "title": "Bagaimana cara mengubah bahasa aplikasi (antarmuka)?",
-        "intro": "Calleo mendukung 45+ bahasa untuk antarmuka:",
+        "intro": "Calleo mendukung 40+ bahasa untuk antarmuka:",
         "steps": [
           "Buka Pengaturan",
           "Ketuk \"Bahasa Aplikasi\"",
           "Pilih bahasa yang diinginkan",
           "Aplikasi akan dimuat ulang dengan bahasa baru"
         ],
-        "note": "Bahasa yang Didukung: Inggris, Spanyol, Prancis, Jerman, Italia, Portugis, Jepang, Korea, Cina, Arab, Ibrani, dan 35+ lainnya!"
+        "note": "Bahasa yang didukung: Inggris, Spanyol, Prancis, Jerman, Italia, Portugis, Jepang, Korea, Mandarin, Arab, Ibrani, dan 30+ lainnya!"
       },
       "learningLanguages": {
         "title": "Bagaimana cara mengubah bahasa pembelajaran saya?",
@@ -1092,8 +1076,8 @@
         "steps": [
           "Paksa tutup aplikasi dan buka kembali",
           "Mulai ulang perangkatmu",
-          "Periksa pembaruan di App Store/Play Store",
-          "Bersihkan cache aplikasi (Pengaturan > Aplikasi > Calleo > Bersihkan Cache di Android)",
+          "Cek pembaruan di App Store",
+          "Kalau kamu memakai aplikasi web, muat ulang halaman dengan hard refresh",
           "Instal ulang aplikasi (Catatan: Data Mode Tamu akan hilang!)"
         ],
         "note": "Jika masalah berlanjut, hubungi kami di viacheslav@exquizite.app dengan model perangkat, versi OS, versi aplikasi, dan deskripsi masalah."
@@ -1202,7 +1186,7 @@
           },
           {
             "bold": "OpenAI",
-            "text": "Pembuatan kosakata AI (hanya nama tema yang dikirim, BUKAN data pribadimu)"
+            "text": "Terjemahan, transkripsi, dan contoh dari AI (kata dan topik yang kamu kirim, BUKAN email atau data akun kamu)"
           },
           {
             "bold": "Expo",
@@ -1266,11 +1250,11 @@
       "items": [
         {
           "q": "Apakah Calleo gratis?",
-          "a": "Ya! Calleo gratis digunakan, tanpa iklan. Kami akan segera memperkenalkan fitur premium opsional untuk pembelajar yang menginginkan lebih."
+          "a": "Ya. Calleo sepenuhnya gratis: tanpa iklan, tanpa langganan, tanpa pembelian dalam aplikasi."
         },
         {
           "q": "Di platform apa saja Calleo tersedia?",
-          "a": "iOS: iPhone dan iPad (iOS 13+), Android: Ponsel dan tablet (Android 6.0+), Web: app.calleo.com (segera hadir)"
+          "a": "iOS: iPhone dan iPad (iOS 13+). Web: app.calleo.xyz di browser modern mana pun. Aplikasi Android belum ada."
         },
         {
           "q": "Bisakah saya belajar beberapa bahasa sekaligus?",
@@ -1282,7 +1266,7 @@
         },
         {
           "q": "Apakah Calleo akan selalu gratis?",
-          "a": "Calleo akan selalu menawarkan paket gratis agar semua orang bisa mulai belajar. Kami memperkenalkan fitur premium opsional bagi pembelajar yang ingin alat tambahan, tapi kamu tidak akan pernah kehilangan akses ke pengalaman inti."
+          "a": "Calleo gratis dan tidak ada paket berbayar: tanpa iklan, tanpa langganan, tanpa pembelian dalam aplikasi. Tidak ada fitur yang dikunci di balik pembayaran."
         }
       ]
     },

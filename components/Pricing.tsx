@@ -18,10 +18,6 @@ const Pricing: React.FC = () => {
           <div className="p-8 sm:p-10 text-center">
             <h3 className="text-2xl font-extrabold text-ink tracking-[-0.01em]">{d.planName}</h3>
             <p className="mt-4 text-ink/60">{d.planDescription}</p>
-            <div className="mt-8 flex items-baseline justify-center">
-              <span className="font-display text-5xl tracking-[-0.02em] text-ink">{d.price}</span>
-              <span className="ml-2 text-lg text-ink/50">{d.period}</span>
-            </div>
           </div>
           <div className="px-8 pb-8 sm:px-10 sm:pb-10 pt-8 bg-cream border-t border-ink/10">
             <ul className="space-y-4 mb-8">

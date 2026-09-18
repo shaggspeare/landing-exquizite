@@ -2,11 +2,11 @@
 
 > Calleo is a language-learning app for creating custom vocabulary word sets and practicing them through interactive games. It supports 40+ languages, generates word pairs with AI, and syncs progress across iOS and web.
 
-Calleo is free to use today, with a free plan that will always remain available. It is available as a native iOS app and a web app, with data synced across both via Supabase.
+Calleo is completely free: no ads, no subscriptions and no in-app purchases. It is available as a native iOS app and a web app; with an account, sets and progress sync across both.
 
 ## Product
 
-- [Homepage](https://calleo.xyz/): overview, features, pricing, FAQ
+- [Homepage](https://calleo.xyz/): overview, features, FAQ
 - [Web App](https://app.calleo.xyz/): use Calleo directly in the browser, no install required
 - [iOS App](https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720): native app on the App Store
 
@@ -19,14 +19,14 @@ Calleo is free to use today, with a free plan that will always remain available.
 - Learn (CEFR Path): a guided, auto-progressing curriculum spanning all six CEFR levels (A1 through C2), unlocking the next focused set as you pass each quiz
 - Word Tinder: swipe-based quick review of known/unknown words
 - Custom word sets: create, edit, and organize vocabulary lists manually or via AI
-- Share & Discover: generate shareable links to word sets and browse community sets
+- Sharing: turn any set into a share code; anyone with the code can preview the set and copy it into their own collection, and the owner sees view and copy counts (there is no public discovery feed)
 - 40+ languages supported, with full interface localization
 - Cross-platform sync between iOS and web (guest mode available, no account required to start)
-- Privacy-first: user data is stored securely via Supabase
+- Privacy: guest mode needs no account and keeps sets on the device; with an account, Calleo stores your email and the sets you create. Words and topics sent to the AI go to OpenAI for translations, transcriptions and examples; email and account data do not
 
 ## Pricing
 
-Calleo is free to use, with no ads. The free plan includes unlimited word sets, all 6 game modes, AI word generation, sharing, and cross-platform sync. No credit card required. Optional premium features are planned for learners who want more.
+Calleo is free. There are no ads, no subscriptions, no in-app purchases and no paid tier. Unlimited word sets, all 6 game modes, AI generation, sharing and cross-platform sync are available to everyone.
 
 ## Support & policies
 

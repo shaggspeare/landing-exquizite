@@ -4,8 +4,7 @@
     "links": {
       "features": "Funktionen",
       "howItWorks": "So funktioniert's",
-      "stories": "Erfahrungen",
-      "pricing": "Preise",
+      "pricing": "Kostenlos",
       "getApp": "App holen",
       "downloadApp": "App herunterladen"
     }
@@ -88,20 +87,18 @@
         "description": "Hol dir die App und lerne unterwegs."
       },
       "shareDiscover": {
-        "title": "Teilen & Entdecken",
-        "description": "Erstelle teilbare Links zu deinen Wortsets oder kopiere Community-Sets in deine Sammlung. Verfolge Aufrufe und Engagement.",
-        "recentShares": "Kürzlich geteilt",
-        "viewAll": "Alle anzeigen",
-        "shares": [
+        "title": "Sets teilen",
+        "description": "Mach aus jedem Set einen Freigabe-Code. Freunde geben ihn ein, sehen sich das Set an und kopieren es in ihre eigene Sammlung – und du siehst, wie oft es aufgerufen und kopiert wurde.",
+        "codeLabel": "Freigabe-Code",
+        "code": "ABC123XYZ",
+        "stats": [
           {
-            "initials": "FR",
-            "name": "Französisch Grundlagen",
-            "wordCount": "24 Wörter"
+            "label": "Aufrufe",
+            "value": "48"
           },
           {
-            "initials": "ES",
-            "name": "Spanisch Küche",
-            "wordCount": "12 Wörter"
+            "label": "Kopien",
+            "value": "12"
           }
         ]
       },
@@ -128,8 +125,8 @@
         "desc": "Behalte deine Lernsträhne, Fortschrittsstufen und Verlauf im Dashboard im Blick."
       },
       {
-        "title": "4. Teilen & Lernen",
-        "desc": "Teile deine besten Sets mit Freunden oder entdecke Inhalte der Community."
+        "title": "4. Set teilen",
+        "desc": "Schick Freunden den Freigabe-Code für ein Set. Sie kopieren es in ihre Sammlung, und du siehst Aufrufe und Kopien."
       }
     ]
   },
@@ -147,7 +144,7 @@
       },
       {
         "title": "Datenschutz zuerst",
-        "description": "Deine Daten werden sicher über Supabase gespeichert. Du behältst stets die Kontrolle."
+        "description": "Der Gastmodus braucht kein Konto. Mit Konto speichern wir nur deine E-Mail-Adresse und deine Sets. Wörter, die du generieren lässt, gehen an OpenAI für Übersetzungen und Beispiele."
       },
       {
         "title": "Modern & Schnell",
@@ -158,26 +155,6 @@
       "src": "/images/added-words.png",
       "alt": "Hinzugefügte Wörter"
     }
-  },
-  "testimonials": {
-    "sectionTitle": "Von Lernenden geliebt",
-    "items": [
-      {
-        "quote": "Die KI-Wortgenerierung hat mir stundenlange Arbeit beim Erstellen von Vokabellisten für meinen Spanischkurs erspart. Unglaublich genau.",
-        "author": "Sarah J.",
-        "role": "Sprachstudentin"
-      },
-      {
-        "quote": "Endlich eine Sprach-App, die auf meinem Handy und Computer gleich gut funktioniert! Die Synchronisierung ist einwandfrei.",
-        "author": "Michael C.",
-        "role": "Digitaler Nomade"
-      },
-      {
-        "quote": "Das Zuordnungsspiel macht das Lernen zum Vergnügen. Meine Kinder lieben es auch! Es ist zu einer täglichen Familienaktivität geworden.",
-        "author": "Elena R.",
-        "role": "Elternteil & Lehrerin"
-      }
-    ]
   },
   "screenshotGallery": {
     "sectionTitle": "Erlebe die App",
@@ -218,20 +195,19 @@
     ]
   },
   "pricing": {
-    "sectionTitle": "Einfache, transparente Preise",
-    "sectionSubtitle": "Bildung sollte für alle zugänglich sein.",
-    "planName": "Kostenlos",
-    "planDescription": "Alles, was du brauchst, um eine Sprache zu meistern.",
-    "price": "$0",
-    "period": "/Monat",
+    "sectionTitle": "Wirklich kostenlos",
+    "sectionSubtitle": "Keine Werbung. Keine Abos. Keine In-App-Käufe.",
+    "planName": "Alles ist dabei",
+    "planDescription": "Jede Funktion unten steht allen offen. Es gibt keinen Bezahltarif, auf den du upgraden könntest.",
     "features": [
-      "Unbegrenzte Wortsets",
-      "Zugriff auf alle 6 Spielmodi",
-      "KI-Wortgenerierung",
-      "Sets teilen",
-      "Plattformübergreifende Synchronisierung"
+      "Unbegrenzt viele Wortsets",
+      "Alle 6 Übungsmodi",
+      "KI-Übersetzungen, Lautschrift und Beispiele",
+      "Der CEFR-Lernpfad, A1 bis C2",
+      "Freigabe-Codes für deine Sets",
+      "Synchronisierung zwischen iOS und Web"
     ],
-    "ctaButton": "Kostenlos loslegen"
+    "ctaButton": "Los geht's"
   },
   "faq": {
     "sectionTitle": "Häufig gestellte Fragen",
@@ -254,7 +230,7 @@
       },
       {
         "q": "Sind meine Daten sicher?",
-        "a": "Ja, alle Daten werden sicher gespeichert und über Supabase mit branchenüblicher Verschlüsselung synchronisiert."
+        "a": "Deine Sets liegen in unserer Cloud-Datenbank, und jedes Konto kann nur seine eigenen Daten lesen. Wörter und Themen, die du an die KI schickst, gehen an OpenAI für Übersetzungen, Lautschrift und Beispiele – deine E-Mail-Adresse und Kontodaten nicht. Im Gastmodus verlässt außer diesen KI-Anfragen nichts dein Gerät."
       },
       {
         "q": "Kann ich meine Wortsets teilen?",
@@ -276,12 +252,12 @@
   },
   "downloadCTA": {
     "title": "Starte heute mit dem Lernen",
-    "subtitle": "Schließe dich Tausenden von Lernenden an, die mit Calleo neue Sprachen meistern. Jetzt herunterladen oder im Browser ausprobieren.",
+    "subtitle": "Dein erstes Set steht in unter einer Minute. Lade die App herunter oder öffne sie im Browser.",
     "iosButton": "Für iOS herunterladen",
     "webButton": "Web-App starten",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "disclaimer": "Keine Kreditkarte für den kostenlosen Tarif erforderlich."
+    "disclaimer": "Kostenlos. Keine Werbung. Keine Abos."
   },
   "footer": {
     "brandName": "Calleo",
@@ -434,7 +410,7 @@
           },
           {
             "bold": "KI-Inhalte generieren",
-            "text": "OpenAIs API zu nutzen, um Vokabelvorschläge und Beispielsätze basierend auf Ihren Themen zu generieren"
+            "text": "Die OpenAI-API nutzen, um die von dir eingetragenen Wörter zu übersetzen und Lautschrift, Wortvorschläge und Beispielsätze zu erzeugen"
           },
           {
             "bold": "Sicherheit gewährleisten",
@@ -516,11 +492,11 @@
               },
               {
                 "bold": "Geteilte Daten",
-                "text": "NUR die von Ihnen angeforderten Themen (z.B. „Essen“, „Reisen“)"
+                "text": "Die Wörter und Themen, für die du Übersetzung, Lautschrift oder Beispiele anforderst"
               },
               {
                 "bold": "Wichtig",
-                "text": "Wir senden KEINE persönlichen Daten, E-Mail-Adressen, Benutzer-IDs oder bestehende Vokabelsets an OpenAI"
+                "text": "Wir senden deine E-Mail-Adresse, Nutzer-ID und Kontodaten NICHT an OpenAI"
               },
               {
                 "bold": "Datennutzung",
@@ -688,7 +664,7 @@
         },
         {
           "label": "Drittanbieter",
-          "value": "Supabase (Datenbank), OpenAI (KI-Generierung – keine persönlichen Daten gesendet)"
+          "value": "Supabase (Datenbank), OpenAI (Übersetzungen und Beispiele – keine E-Mail- oder Kontodaten)"
         },
         {
           "label": "Ihre Rechte",
@@ -765,14 +741,14 @@
           },
           {
             "bold": "Mit Konto",
-            "text": "Registrieren Sie sich mit E-Mail, um Ihre Sets auf allen Geräten zu synchronisieren (iPhone, iPad, Android, Web)."
+            "text": "Melde dich mit deiner E-Mail-Adresse an, um deine Sets zwischen der iOS-App und der Web-App zu synchronisieren."
           }
         ]
       },
       "howToStart": {
         "title": "Wie fange ich an?",
         "steps": [
-          "Laden Sie Calleo aus dem App Store oder Google Play herunter",
+          "Lade Calleo im App Store herunter oder öffne die Web-App unter app.calleo.xyz",
           "Wählen Sie „Als Gast fortfahren“ oder „Registrieren“",
           "Wählen Sie Ihre Lernsprache (z.B. Spanisch) und Muttersprache (z.B. Deutsch)",
           "Erstellen Sie Ihr erstes Vokabelset",
@@ -901,7 +877,7 @@
       "title": "Spielmodi",
       "available": {
         "title": "Welche Spielmodi sind verfügbar?",
-        "intro": "Calleo bietet 4 interaktive Lernmodi:",
+        "intro": "Calleo bietet 6 interaktive Lernmodi:",
         "modes": [
           {
             "bold": "Karteikarten",
@@ -918,6 +894,14 @@
           {
             "bold": "Lückentext",
             "text": "Vervollständigen Sie Sätze mit den richtigen Wörtern"
+          },
+          {
+            "bold": "Hören",
+            "text": "Du hörst das Wort und erkennst es"
+          },
+          {
+            "bold": "Schreiben",
+            "text": "Du siehst die Übersetzung und tippst das Wort aus dem Gedächtnis"
           }
         ]
       },
@@ -1033,14 +1017,14 @@
       "title": "Einstellungen & Präferenzen",
       "appLanguage": {
         "title": "Wie ändere ich die App-Sprache (Benutzeroberfläche)?",
-        "intro": "Calleo unterstützt über 45 Sprachen für die Benutzeroberfläche:",
+        "intro": "Calleo unterstützt über 40 Sprachen für die Oberfläche:",
         "steps": [
           "Gehen Sie zu Einstellungen",
           "Tippen Sie auf „App-Sprache“",
           "Wählen Sie Ihre bevorzugte Sprache",
           "Die App wird mit der neuen Sprache neu geladen"
         ],
-        "note": "Unterstützte Sprachen: Englisch, Spanisch, Französisch, Deutsch, Italienisch, Portugiesisch, Japanisch, Koreanisch, Chinesisch, Arabisch, Hebräisch und über 35 weitere!"
+        "note": "Unterstützte Sprachen: Englisch, Spanisch, Französisch, Deutsch, Italienisch, Portugiesisch, Japanisch, Koreanisch, Chinesisch, Arabisch, Hebräisch und über 30 weitere!"
       },
       "learningLanguages": {
         "title": "Wie ändere ich meine Lernsprachen?",
@@ -1092,8 +1076,8 @@
         "steps": [
           "Erzwingen Sie das Schließen der App und öffnen Sie sie erneut",
           "Starten Sie Ihr Gerät neu",
-          "Suchen Sie nach Updates im App Store/Play Store",
-          "Leeren Sie den App-Cache (Einstellungen > Apps > Calleo > Cache leeren auf Android)",
+          "Prüfe im App Store, ob es Updates gibt",
+          "Wenn du die Web-App nutzt, lade die Seite mit einem harten Reload neu",
           "Installieren Sie die App neu (Hinweis: Gastmodus-Daten gehen verloren!)"
         ],
         "note": "Falls das Problem weiterbesteht, kontaktieren Sie uns unter viacheslav@exquizite.app mit Gerätemodell, Betriebssystemversion, App-Version und Beschreibung des Problems."
@@ -1202,7 +1186,7 @@
           },
           {
             "bold": "OpenAI",
-            "text": "KI-Vokabelgenerierung (nur Themennamen werden gesendet, NICHT Ihre persönlichen Daten)"
+            "text": "KI-Übersetzungen, Lautschrift und Beispiele (die Wörter und Themen, die du sendest, NICHT deine E-Mail-Adresse oder Kontodaten)"
           },
           {
             "bold": "Expo",
@@ -1266,11 +1250,11 @@
       "items": [
         {
           "q": "Ist Calleo kostenlos?",
-          "a": "Ja! Calleo ist kostenlos nutzbar, ohne Werbung. Wir führen bald optionale Premium-Funktionen für Lernende ein, die mehr wollen."
+          "a": "Ja. Calleo ist komplett kostenlos: keine Werbung, keine Abos, keine In-App-Käufe."
         },
         {
           "q": "Auf welchen Plattformen ist Calleo verfügbar?",
-          "a": "iOS: iPhone und iPad (iOS 13+), Android: Smartphones und Tablets (Android 6.0+), Web: app.calleo.com (demnächst)"
+          "a": "iOS: iPhone und iPad (iOS 13+). Web: app.calleo.xyz in jedem modernen Browser. Eine Android-App gibt es noch nicht."
         },
         {
           "q": "Kann ich mehrere Sprachen gleichzeitig lernen?",
@@ -1282,7 +1266,7 @@
         },
         {
           "q": "Wird Calleo immer kostenlos bleiben?",
-          "a": "Calleo wird immer einen kostenlosen Plan anbieten, damit jeder mit dem Lernen beginnen kann. Wir führen optionale Premium-Funktionen für Lernende ein, die zusätzliche Tools möchten, aber du wirst nie vom Kernerlebnis ausgeschlossen."
+          "a": "Calleo ist kostenlos und es gibt keinen Bezahltarif: keine Werbung, keine Abos, keine In-App-Käufe. Nichts in der App ist hinter einer Zahlung eingeschlossen."
         }
       ]
     },

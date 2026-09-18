@@ -122,27 +122,19 @@ const BentoFeatures: React.FC = () => {
                <p className="text-ink/60 text-sm mb-4">{d.tiles.shareDiscover.description}</p>
              </div>
              <div className="flex-1 w-full bg-cream rounded-button p-4 border-[1.5px] border-ink/10">
-                <div className="flex items-center justify-between text-xs text-ink/40 mb-2 font-mono">
-                  <span>{d.tiles.shareDiscover.recentShares}</span>
-                  <span>{d.tiles.shareDiscover.viewAll}</span>
+                <div className="text-xs text-ink/40 mb-2 font-mono">{d.tiles.shareDiscover.codeLabel}</div>
+                <div className="flex items-center gap-3 bg-paper p-2 rounded-lg border-[1.5px] border-ink/8 mb-2">
+                  <div className="w-8 h-8 rounded-full bg-cream flex items-center justify-center text-ink"><Share2 size={14} /></div>
+                  <p className="flex-1 min-w-0 font-mono font-semibold text-ink text-sm truncate">{d.tiles.shareDiscover.code}</p>
+                  <Zap size={14} className="text-accent" />
                 </div>
                 <div className="space-y-2">
-                  <div className="flex items-center gap-3 bg-paper p-2 rounded-lg border-[1.5px] border-ink/8">
-                    <div className="w-8 h-8 rounded-full bg-cream flex items-center justify-center text-[10px] font-bold text-ink">FR</div>
-                    <div className="flex-1 min-w-0">
-                      <p className="font-medium text-ink text-sm truncate">{d.tiles.shareDiscover.shares[0].name}</p>
-                      <p className="text-xs text-ink/40">{d.tiles.shareDiscover.shares[0].wordCount}</p>
+                  {d.tiles.shareDiscover.stats.map((stat: { label: string; value: string }, i: number) => (
+                    <div key={i} className="flex items-center justify-between bg-paper px-3 py-2 rounded-lg border-[1.5px] border-ink/8">
+                      <span className="text-sm text-ink/60">{stat.label}</span>
+                      <span className="font-mono font-bold text-ink text-sm">{stat.value}</span>
                     </div>
-                    <Zap size={14} className="text-accent" />
-                  </div>
-                  <div className="flex items-center gap-3 bg-paper p-2 rounded-lg border-[1.5px] border-ink/8">
-                    <div className="w-8 h-8 rounded-full bg-cream flex items-center justify-center text-[10px] font-bold text-ink">ES</div>
-                    <div className="flex-1 min-w-0">
-                      <p className="font-medium text-ink text-sm truncate">{d.tiles.shareDiscover.shares[1].name}</p>
-                      <p className="text-xs text-ink/40">{d.tiles.shareDiscover.shares[1].wordCount}</p>
-                    </div>
-                    <Zap size={14} className="text-accent" />
-                  </div>
+                  ))}
                 </div>
              </div>
           </div>

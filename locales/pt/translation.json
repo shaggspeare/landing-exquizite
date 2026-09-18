@@ -4,8 +4,7 @@
     "links": {
       "features": "Recursos",
       "howItWorks": "Como Funciona",
-      "stories": "Depoimentos",
-      "pricing": "Preços",
+      "pricing": "Grátis",
       "getApp": "Baixar App",
       "downloadApp": "Baixar App"
     }
@@ -13,9 +12,9 @@
   "hero": {
     "badge": "Disponível agora no iOS e na Web",
     "titleLine1": "Aprenda as palavras",
-    "titleLine2": "de que precisa mesmo",
+    "titleLine2": "de que você realmente precisa",
     "subtitle": "Adicione as palavras que quer aprender e a IA completa a tradução, a transcrição e as frases de exemplo. Depois pratique em 6 modos de jogo, em mais de 40 idiomas.",
-    "freeNote": "Grátis. Sem anúncios. Sem subscrições.",
+    "freeNote": "Grátis. Sem anúncios. Sem assinaturas.",
     "appStoreButton": "Baixar na App Store",
     "webAppButton": "Experimentar na Web",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
@@ -88,20 +87,18 @@
         "description": "Baixe o app para aprender em qualquer lugar."
       },
       "shareDiscover": {
-        "title": "Compartilhe e Descubra",
-        "description": "Crie links compartilháveis para seus conjuntos de palavras ou copie conjuntos da comunidade para sua coleção. Acompanhe visualizações e engajamento.",
-        "recentShares": "Compartilhamentos Recentes",
-        "viewAll": "Ver Todos",
-        "shares": [
+        "title": "Compartilhe seus conjuntos",
+        "description": "Transforme qualquer conjunto em um código de compartilhamento. Seus amigos digitam o código, veem o conjunto e copiam para a coleção deles — e você vê quantas vezes ele foi visto e copiado.",
+        "codeLabel": "Código de compartilhamento",
+        "code": "ABC123XYZ",
+        "stats": [
           {
-            "initials": "FR",
-            "name": "Francês Básico",
-            "wordCount": "24 palavras"
+            "label": "Visualizações",
+            "value": "48"
           },
           {
-            "initials": "ES",
-            "name": "Cozinha Espanhola",
-            "wordCount": "12 palavras"
+            "label": "Cópias",
+            "value": "12"
           }
         ]
       },
@@ -128,8 +125,8 @@
         "desc": "Monitore sua sequência, níveis de domínio e histórico no seu painel."
       },
       {
-        "title": "4. Compartilhe e Aprenda",
-        "desc": "Compartilhe seus melhores conjuntos com amigos ou descubra conteúdo da comunidade."
+        "title": "4. Compartilhe um conjunto",
+        "desc": "Envie a um amigo o código de um conjunto. Ele copia para a coleção dele e você vê as visualizações e as cópias."
       }
     ]
   },
@@ -147,7 +144,7 @@
       },
       {
         "title": "Privacidade em Primeiro Lugar",
-        "description": "Seus dados são armazenados com segurança via Supabase. Você está sempre no controle."
+        "description": "O modo visitante não precisa de conta. Com conta, guardamos apenas seu e-mail e os conjuntos que você cria. As palavras que você gera são enviadas à OpenAI para tradução e exemplos."
       },
       {
         "title": "Moderno e Rápido",
@@ -158,26 +155,6 @@
       "src": "/images/added-words.png",
       "alt": "Palavras Adicionadas"
     }
-  },
-  "testimonials": {
-    "sectionTitle": "Amado pelos Estudantes",
-    "items": [
-      {
-        "quote": "A geração de palavras por IA me economizou horas criando listas de vocabulário para minha aula de espanhol. É incrivelmente preciso.",
-        "author": "Sarah J.",
-        "role": "Estudante de Idiomas"
-      },
-      {
-        "quote": "Finalmente, um app de idiomas que funciona igual no celular e no computador! A sincronização é impecável.",
-        "author": "Michael C.",
-        "role": "Nômade Digital"
-      },
-      {
-        "quote": "O jogo da memória torna o estudo divertido. Meus filhos também adoram! Virou uma atividade familiar diária.",
-        "author": "Elena R.",
-        "role": "Mãe e Professora"
-      }
-    ]
   },
   "screenshotGallery": {
     "sectionTitle": "Conheça o App",
@@ -218,20 +195,19 @@
     ]
   },
   "pricing": {
-    "sectionTitle": "Preços Simples e Transparentes",
-    "sectionSubtitle": "Educação deve ser acessível para todos.",
-    "planName": "Grátis",
-    "planDescription": "Tudo o que você precisa para dominar um idioma.",
-    "price": "$0",
-    "period": "/mês",
+    "sectionTitle": "Grátis de verdade",
+    "sectionSubtitle": "Sem anúncios. Sem assinaturas. Sem compras no app.",
+    "planName": "Tudo está incluído",
+    "planDescription": "Todos os recursos abaixo estão abertos a qualquer pessoa. Não existe plano pago para o qual migrar.",
     "features": [
       "Conjuntos de palavras ilimitados",
-      "Acesso a todos os 6 modos de jogo",
-      "Geração de palavras com IA",
-      "Compartilhe seus conjuntos",
-      "Sincronização entre plataformas"
+      "Todos os 6 modos de prática",
+      "Traduções, transcrições e exemplos com IA",
+      "A trilha CEFR, de A1 a C2",
+      "Códigos de compartilhamento para seus conjuntos",
+      "Sincronização entre iOS e web"
     ],
-    "ctaButton": "Comece Grátis"
+    "ctaButton": "Começar"
   },
   "faq": {
     "sectionTitle": "Perguntas Frequentes",
@@ -254,7 +230,7 @@
       },
       {
         "q": "Meus dados estão seguros?",
-        "a": "Sim, todos os dados são armazenados e sincronizados com segurança via Supabase com criptografia padrão da indústria."
+        "a": "Seus conjuntos ficam no nosso banco de dados em nuvem, e cada conta só consegue ler os próprios dados. As palavras e temas que você envia para a IA vão para a OpenAI gerar traduções, transcrições e exemplos; seu e-mail e os dados da conta, não. No modo visitante nada sai do seu aparelho além dessas requisições."
       },
       {
         "q": "Posso compartilhar meus conjuntos de palavras?",
@@ -276,12 +252,12 @@
   },
   "downloadCTA": {
     "title": "Comece a Aprender Hoje",
-    "subtitle": "Junte-se a milhares de estudantes dominando novos idiomas com o Calleo. Baixe agora ou experimente no navegador.",
+    "subtitle": "Seu primeiro conjunto leva menos de um minuto. Baixe o app ou abra no navegador.",
     "iosButton": "Baixar para iOS",
     "webButton": "Abrir App Web",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "disclaimer": "Não é necessário cartão de crédito para o plano gratuito."
+    "disclaimer": "Grátis. Sem anúncios. Sem assinaturas."
   },
   "footer": {
     "brandName": "Calleo",
@@ -434,7 +410,7 @@
           },
           {
             "bold": "Gerar Conteúdo com IA",
-            "text": "Usar a API da OpenAI para gerar sugestões de vocabulário e frases de exemplo com base nos temas que você fornece"
+            "text": "Usar a API da OpenAI para traduzir as palavras que você adiciona e gerar transcrições, sugestões de vocabulário e frases de exemplo"
           },
           {
             "bold": "Manter a Segurança",
@@ -516,11 +492,11 @@
               },
               {
                 "bold": "Dados Compartilhados",
-                "text": "APENAS os temas ou tópicos que você solicita (ex: \"comida\", \"viagem\")"
+                "text": "As palavras e temas para os quais você pede tradução, transcrição ou exemplos"
               },
               {
                 "bold": "Importante",
-                "text": "NÃO enviamos suas informações pessoais, e-mail, ID de usuário ou conjuntos de vocabulário existentes para a OpenAI"
+                "text": "NÃO enviamos seu e-mail, seu ID de usuário ou os dados da sua conta para a OpenAI"
               },
               {
                 "bold": "Uso dos Dados",
@@ -688,7 +664,7 @@
         },
         {
           "label": "Terceiros",
-          "value": "Supabase (banco de dados), OpenAI (geração com IA - nenhum dado pessoal enviado)"
+          "value": "Supabase (banco de dados), OpenAI (traduções e exemplos — nenhum e-mail ou dado de conta enviado)"
         },
         {
           "label": "Seus direitos",
@@ -765,14 +741,14 @@
           },
           {
             "bold": "Com Conta",
-            "text": "Cadastre-se com e-mail para sincronizar seus conjuntos em todos os dispositivos (iPhone, iPad, Android, Web)."
+            "text": "Cadastre-se com e-mail para sincronizar seus conjuntos entre o app de iOS e o app web."
           }
         ]
       },
       "howToStart": {
         "title": "Como começo?",
         "steps": [
-          "Baixe o Calleo na App Store ou Google Play",
+          "Baixe o Calleo na App Store ou abra o app web em app.calleo.xyz",
           "Escolha \"Continuar como Visitante\" ou \"Cadastrar\"",
           "Selecione seu idioma de aprendizado (ex: espanhol) e idioma nativo (ex: português)",
           "Crie seu primeiro conjunto de vocabulário",
@@ -901,7 +877,7 @@
       "title": "Modos de Jogo",
       "available": {
         "title": "Quais modos de jogo estão disponíveis?",
-        "intro": "O Calleo oferece 4 modos de aprendizado interativos:",
+        "intro": "O Calleo oferece 6 modos de aprendizado interativos:",
         "modes": [
           {
             "bold": "Flashcards",
@@ -918,6 +894,14 @@
           {
             "bold": "Preencher Lacunas",
             "text": "Complete frases com as palavras corretas"
+          },
+          {
+            "bold": "Escuta",
+            "text": "Você ouve a palavra em voz alta e a identifica"
+          },
+          {
+            "bold": "Escrita",
+            "text": "Você vê a tradução e digita a palavra de memória"
           }
         ]
       },
@@ -1033,14 +1017,14 @@
       "title": "Configurações e Preferências",
       "appLanguage": {
         "title": "Como mudo o idioma do app (interface)?",
-        "intro": "O Calleo suporta mais de 45 idiomas para a interface:",
+        "intro": "O Calleo oferece mais de 40 idiomas de interface:",
         "steps": [
           "Vá para Configurações",
           "Toque em \"Idioma do App\"",
           "Selecione seu idioma preferido",
           "O app será recarregado com o novo idioma"
         ],
-        "note": "Idiomas Suportados: Inglês, Espanhol, Francês, Alemão, Italiano, Português, Japonês, Coreano, Chinês, Árabe, Hebraico e mais de 35 outros!"
+        "note": "Idiomas disponíveis: inglês, espanhol, francês, alemão, italiano, português, japonês, coreano, chinês, árabe, hebraico e mais de 30 outros!"
       },
       "learningLanguages": {
         "title": "Como mudo meus idiomas de aprendizado?",
@@ -1092,8 +1076,8 @@
         "steps": [
           "Force o fechamento do app e reabra",
           "Reinicie seu dispositivo",
-          "Verifique atualizações na App Store/Play Store",
-          "Limpe o cache do app (Configurações > Apps > Calleo > Limpar Cache no Android)",
+          "Verifique se há atualizações na App Store",
+          "Se você usa o app web, recarregue a página com atualização forçada",
           "Reinstale o app (Atenção: Dados do Modo Visitante serão perdidos!)"
         ],
         "note": "Se o problema persistir, entre em contato conosco em viacheslav@exquizite.app informando modelo do dispositivo, versão do SO, versão do app e descrição do problema."
@@ -1202,7 +1186,7 @@
           },
           {
             "bold": "OpenAI",
-            "text": "Geração de vocabulário com IA (apenas nomes de temas são enviados, NÃO seus dados pessoais)"
+            "text": "Traduções, transcrições e exemplos com IA (as palavras e temas que você envia, NÃO seu e-mail ou dados da conta)"
           },
           {
             "bold": "Expo",
@@ -1266,11 +1250,11 @@
       "items": [
         {
           "q": "O Calleo é gratuito?",
-          "a": "Sim! O Calleo é gratuito, sem anúncios. Em breve traremos recursos premium opcionais para quem quiser mais."
+          "a": "Sim. O Calleo é totalmente grátis: sem anúncios, sem assinaturas e sem compras no app."
         },
         {
           "q": "Em quais plataformas o Calleo está disponível?",
-          "a": "iOS: iPhone e iPad (iOS 13+), Android: Smartphones e tablets (Android 6.0+), Web: app.calleo.com (em breve)"
+          "a": "iOS: iPhone e iPad (iOS 13+). Web: app.calleo.xyz em qualquer navegador moderno. Ainda não existe app para Android."
         },
         {
           "q": "Posso aprender vários idiomas ao mesmo tempo?",
@@ -1282,7 +1266,7 @@
         },
         {
           "q": "O Calleo será sempre gratuito?",
-          "a": "O Calleo sempre oferecerá um plano gratuito para que qualquer pessoa possa começar a aprender. Estamos introduzindo recursos premium opcionais para quem quiser ferramentas extras, mas você nunca perderá acesso à experiência principal."
+          "a": "O Calleo é grátis e não há plano pago: sem anúncios, sem assinaturas e sem compras no app. Nada no aplicativo fica travado atrás de um pagamento."
         }
       ]
     },

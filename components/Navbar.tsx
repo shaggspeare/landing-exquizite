@@ -52,7 +52,6 @@ const Navbar: React.FC = () => {
               <div className="hidden md:flex items-center gap-8">
                 <a href="#features" className="text-ink/60 hover:text-ink font-medium transition-colors text-sm">{d.links.features}</a>
                 <a href="#how-it-works" className="text-ink/60 hover:text-ink font-medium transition-colors text-sm">{d.links.howItWorks}</a>
-                <a href="#testimonials" className="text-ink/60 hover:text-ink font-medium transition-colors text-sm">{d.links.stories}</a>
                 <a href="#pricing" className="text-ink/60 hover:text-ink font-medium transition-colors text-sm">{d.links.pricing}</a>
                 <a
                   href="#download"
@@ -131,13 +130,6 @@ const Navbar: React.FC = () => {
               onClick={() => setIsOpen(false)}
             >
               {d.links.howItWorks}
-            </a>
-            <a
-              href="#testimonials"
-              className="block px-3 py-3 text-base font-medium text-ink/70 hover:text-ink hover:bg-cream rounded-xl"
-              onClick={() => setIsOpen(false)}
-            >
-              {d.links.stories}
             </a>
             <a
               href="#pricing"

@@ -4,8 +4,7 @@
     "links": {
       "features": "Funciones",
       "howItWorks": "Cómo funciona",
-      "stories": "Testimonios",
-      "pricing": "Precios",
+      "pricing": "Gratis",
       "getApp": "Obtener App",
       "downloadApp": "Descargar App"
     }
@@ -88,20 +87,18 @@
         "description": "Descarga la app y aprende donde quieras."
       },
       "shareDiscover": {
-        "title": "Comparte y Descubre",
-        "description": "Crea enlaces compartibles a tus conjuntos de palabras o copia sets de la comunidad a tu colección. Rastrea vistas e interacciones.",
-        "recentShares": "Compartidos recientemente",
-        "viewAll": "Ver todos",
-        "shares": [
+        "title": "Comparte tus conjuntos",
+        "description": "Convierte cualquier conjunto en un código para compartir. Tus amigos lo introducen, ven el conjunto y lo copian a su colección, y tú ves cuántas veces se ha visto y copiado.",
+        "codeLabel": "Código para compartir",
+        "code": "ABC123XYZ",
+        "stats": [
           {
-            "initials": "FR",
-            "name": "Francés Básico",
-            "wordCount": "24 palabras"
+            "label": "Vistas",
+            "value": "48"
           },
           {
-            "initials": "ES",
-            "name": "Español Cocina",
-            "wordCount": "12 palabras"
+            "label": "Copias",
+            "value": "12"
           }
         ]
       },
@@ -128,8 +125,8 @@
         "desc": "Monitorea tu racha, niveles de dominio e historial en tu panel de control."
       },
       {
-        "title": "4. Comparte y aprende",
-        "desc": "Comparte tus mejores sets con amigos o descubre contenido de la comunidad."
+        "title": "4. Comparte un conjunto",
+        "desc": "Envía a un amigo el código de cualquier conjunto. Lo copia a su colección y tú ves las vistas y las copias."
       }
     ]
   },
@@ -147,7 +144,7 @@
       },
       {
         "title": "Privacidad ante todo",
-        "description": "Tus datos se almacenan de forma segura a través de Supabase. Siempre tienes el control."
+        "description": "El modo invitado no necesita cuenta. Con cuenta solo guardamos tu correo y los conjuntos que creas. Las palabras que generas se envían a OpenAI para traducirlas y crear ejemplos."
       },
       {
         "title": "Moderno y Rápido",
@@ -158,26 +155,6 @@
       "src": "/images/added-words.png",
       "alt": "Palabras añadidas"
     }
-  },
-  "testimonials": {
-    "sectionTitle": "Amado por los estudiantes",
-    "items": [
-      {
-        "quote": "La generación de palabras con IA me ahorró horas creando listas de vocabulario para mi clase de español. Es increíblemente precisa.",
-        "author": "Sarah J.",
-        "role": "Estudiante de idiomas"
-      },
-      {
-        "quote": "¡Por fin una app de idiomas que funciona igual en mi teléfono y en mi computadora! La sincronización es impecable.",
-        "author": "Michael C.",
-        "role": "Nómada digital"
-      },
-      {
-        "quote": "El juego de emparejar hace que estudiar sea divertido. ¡A mis hijos también les encanta! Se ha convertido en una actividad familiar diaria.",
-        "author": "Elena R.",
-        "role": "Madre y profesora"
-      }
-    ]
   },
   "screenshotGallery": {
     "sectionTitle": "Descubre la App",
@@ -218,20 +195,19 @@
     ]
   },
   "pricing": {
-    "sectionTitle": "Precios simples y transparentes",
-    "sectionSubtitle": "La educación debería ser accesible para todos.",
-    "planName": "Gratis",
-    "planDescription": "Todo lo que necesitas para dominar un idioma.",
-    "price": "$0",
-    "period": "/mes",
+    "sectionTitle": "Gratis, de verdad",
+    "sectionSubtitle": "Sin anuncios. Sin suscripciones. Sin compras dentro de la app.",
+    "planName": "Todo está incluido",
+    "planDescription": "Todas las funciones de abajo están disponibles para cualquiera. No hay ningún plan de pago al que subir.",
     "features": [
-      "Sets de palabras ilimitados",
-      "Acceso a los 6 modos de juego",
-      "Generación de palabras con IA",
-      "Comparte tus sets",
-      "Sincronización multiplataforma"
+      "Conjuntos de palabras ilimitados",
+      "Los 6 modos de práctica",
+      "Traducciones, transcripciones y ejemplos con IA",
+      "La ruta CEFR, de A1 a C2",
+      "Códigos para compartir tus conjuntos",
+      "Sincronización entre iOS y web"
     ],
-    "ctaButton": "Empieza gratis"
+    "ctaButton": "Empezar"
   },
   "faq": {
     "sectionTitle": "Preguntas frecuentes",
@@ -254,7 +230,7 @@
       },
       {
         "q": "¿Están seguros mis datos?",
-        "a": "Sí, todos los datos se almacenan y sincronizan de forma segura a través de Supabase con cifrado estándar de la industria."
+        "a": "Tus conjuntos se guardan en nuestra base de datos en la nube y cada cuenta solo puede leer sus propios datos. Las palabras y temas que envías a la IA van a OpenAI para generar traducciones, transcripciones y ejemplos; tu correo y los datos de tu cuenta, no. En modo invitado nada sale de tu dispositivo salvo esas peticiones a la IA."
       },
       {
         "q": "¿Puedo compartir mis sets de palabras?",
@@ -276,12 +252,12 @@
   },
   "downloadCTA": {
     "title": "Empieza a aprender hoy",
-    "subtitle": "Únete a miles de estudiantes que dominan nuevos idiomas con Calleo. Descárgala ahora o pruébala en tu navegador.",
+    "subtitle": "Tu primer conjunto se crea en menos de un minuto. Descarga la app o ábrela en tu navegador.",
     "iosButton": "Descargar para iOS",
     "webButton": "Abrir App Web",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "disclaimer": "No se requiere tarjeta de crédito para el plan gratuito."
+    "disclaimer": "Gratis. Sin anuncios. Sin suscripciones."
   },
   "footer": {
     "brandName": "Calleo",
@@ -434,7 +410,7 @@
           },
           {
             "bold": "Generar contenido con IA",
-            "text": "Usar la API de OpenAI para generar sugerencias de vocabulario y oraciones de ejemplo basadas en los temas que proporcionas"
+            "text": "Usar la API de OpenAI para traducir las palabras que añades y generar transcripciones, sugerencias de vocabulario y frases de ejemplo"
           },
           {
             "bold": "Mantener la seguridad",
@@ -516,11 +492,11 @@
               },
               {
                 "bold": "Datos compartidos",
-                "text": "SOLO los temas que solicitas (ej. \"comida\", \"viajes\")"
+                "text": "Las palabras y temas para los que pides traducción, transcripción o ejemplos"
               },
               {
                 "bold": "Importante",
-                "text": "NO enviamos tu información personal, correo electrónico, ID de usuario ni sets de vocabulario existentes a OpenAI"
+                "text": "NO enviamos tu correo, tu ID de usuario ni los datos de tu cuenta a OpenAI"
               },
               {
                 "bold": "Uso de datos",
@@ -688,7 +664,7 @@
         },
         {
           "label": "Terceros",
-          "value": "Supabase (base de datos), OpenAI (generación con IA - no se envían datos personales)"
+          "value": "Supabase (base de datos), OpenAI (traducciones y ejemplos: no se envía el correo ni los datos de la cuenta)"
         },
         {
           "label": "Tus derechos",
@@ -765,14 +741,14 @@
           },
           {
             "bold": "Con cuenta",
-            "text": "Regístrate con correo electrónico para sincronizar tus sets en todos tus dispositivos (iPhone, iPad, Android, Web)."
+            "text": "Regístrate con tu correo para sincronizar tus conjuntos entre la app de iOS y la app web."
           }
         ]
       },
       "howToStart": {
         "title": "¿Cómo empiezo?",
         "steps": [
-          "Descarga Calleo desde el App Store o Google Play",
+          "Descarga Calleo en la App Store o abre la app web en app.calleo.xyz",
           "Elige \"Continuar como invitado\" o \"Registrarse\"",
           "Selecciona tu idioma de aprendizaje (ej. español) e idioma nativo (ej. inglés)",
           "Crea tu primer set de vocabulario",
@@ -901,7 +877,7 @@
       "title": "Modos de juego",
       "available": {
         "title": "¿Qué modos de juego están disponibles?",
-        "intro": "Calleo ofrece 4 modos de aprendizaje interactivos:",
+        "intro": "Calleo ofrece 6 modos de aprendizaje interactivos:",
         "modes": [
           {
             "bold": "Tarjetas",
@@ -918,6 +894,14 @@
           {
             "bold": "Completar espacios",
             "text": "Completa oraciones con las palabras correctas"
+          },
+          {
+            "bold": "Escucha",
+            "text": "Oyes la palabra en voz alta y la identificas"
+          },
+          {
+            "bold": "Escritura",
+            "text": "Ves la traducción y escribes la palabra de memoria"
           }
         ]
       },
@@ -1033,14 +1017,14 @@
       "title": "Configuración y preferencias",
       "appLanguage": {
         "title": "¿Cómo cambio el idioma de la app (interfaz)?",
-        "intro": "Calleo soporta más de 45 idiomas para la interfaz:",
+        "intro": "Calleo admite más de 40 idiomas en la interfaz:",
         "steps": [
           "Ve a Configuración",
           "Toca \"Idioma de la app\"",
           "Selecciona tu idioma preferido",
           "La app se recargará con el nuevo idioma"
         ],
-        "note": "Idiomas soportados: inglés, español, francés, alemán, italiano, portugués, japonés, coreano, chino, árabe, hebreo, ¡y más de 35 más!"
+        "note": "Idiomas admitidos: inglés, español, francés, alemán, italiano, portugués, japonés, coreano, chino, árabe, hebreo y más de 30 más."
       },
       "learningLanguages": {
         "title": "¿Cómo cambio mis idiomas de aprendizaje?",
@@ -1092,8 +1076,8 @@
         "steps": [
           "Fuerza el cierre de la app y vuelve a abrirla",
           "Reinicia tu dispositivo",
-          "Busca actualizaciones en el App Store/Play Store",
-          "Borra la caché de la app (Configuración > Apps > Calleo > Borrar caché en Android)",
+          "Busca actualizaciones en la App Store",
+          "Si usas la app web, recarga la página forzando la actualización",
           "Reinstala la app (Nota: ¡Los datos del Modo Invitado se perderán!)"
         ],
         "note": "Si el problema persiste, contáctanos en viacheslav@exquizite.app con el modelo de dispositivo, versión del sistema operativo, versión de la app y descripción del problema."
@@ -1202,7 +1186,7 @@
           },
           {
             "bold": "OpenAI",
-            "text": "Generación de vocabulario con IA (solo se envían nombres de temas, NO tus datos personales)"
+            "text": "Traducciones, transcripciones y ejemplos con IA (las palabras y temas que envías, NO tu correo ni los datos de tu cuenta)"
           },
           {
             "bold": "Expo",
@@ -1266,11 +1250,11 @@
       "items": [
         {
           "q": "¿Es Calleo gratis?",
-          "a": "¡Sí! Calleo es gratis, sin anuncios. Pronto introduciremos funciones premium opcionales para quienes quieran más."
+          "a": "Sí. Calleo es completamente gratis: sin anuncios, sin suscripciones y sin compras dentro de la app."
         },
         {
           "q": "¿En qué plataformas está disponible Calleo?",
-          "a": "iOS: iPhone y iPad (iOS 13+), Android: Teléfonos y tablets (Android 6.0+), Web: app.calleo.com (próximamente)"
+          "a": "iOS: iPhone y iPad (iOS 13+). Web: app.calleo.xyz en cualquier navegador moderno. Todavía no hay app de Android."
         },
         {
           "q": "¿Puedo aprender varios idiomas a la vez?",
@@ -1282,7 +1266,7 @@
         },
         {
           "q": "¿Calleo será siempre gratis?",
-          "a": "Calleo siempre ofrecerá un plan gratuito para que cualquiera pueda empezar a aprender. Introduciremos funciones premium opcionales para quienes quieran herramientas adicionales, pero nunca perderás acceso a la experiencia principal."
+          "a": "Calleo es gratis y no existe ningún plan de pago: sin anuncios, sin suscripciones y sin compras dentro de la app. Nada de la aplicación está bloqueado tras un pago."
         }
       ]
     },

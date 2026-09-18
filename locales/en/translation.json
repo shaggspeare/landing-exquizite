@@ -4,8 +4,7 @@
     "links": {
       "features": "Features",
       "howItWorks": "How it Works",
-      "stories": "Stories",
-      "pricing": "Pricing",
+      "pricing": "Free",
       "getApp": "Get App",
       "downloadApp": "Download App"
     }
@@ -88,20 +87,18 @@
         "description": "Get and app to learn on the go."
       },
       "shareDiscover": {
-        "title": "Share & Discover",
-        "description": "Create shareable links to your word sets or copy community sets to your collection. Track views and engagement.",
-        "recentShares": "Recent Shares",
-        "viewAll": "View All",
-        "shares": [
+        "title": "Share Your Sets",
+        "description": "Turn any set into a share code. Friends enter it, preview the set and copy it into their own collection — and you can see how many times it was viewed and copied.",
+        "codeLabel": "Share code",
+        "code": "ABC123XYZ",
+        "stats": [
           {
-            "initials": "FR",
-            "name": "French Basics",
-            "wordCount": "24 words"
+            "label": "Views",
+            "value": "48"
           },
           {
-            "initials": "ES",
-            "name": "Spanish Kitchen",
-            "wordCount": "12 words"
+            "label": "Copies",
+            "value": "12"
           }
         ]
       },
@@ -128,8 +125,8 @@
         "desc": "Monitor your streak, mastery levels, and history on your dashboard."
       },
       {
-        "title": "4. Share & Learn",
-        "desc": "Share your best sets with friends or discover community content."
+        "title": "4. Share a Set",
+        "desc": "Send a friend the share code for any set. They copy it into their own collection, and you see the view and copy counts."
       }
     ]
   },
@@ -147,7 +144,7 @@
       },
       {
         "title": "Privacy-First",
-        "description": "Your data is securely stored via Supabase. You are always in control."
+        "description": "Guest mode needs no account. With an account we store only your email and the sets you create. Words you ask AI about are sent to OpenAI for translations and examples."
       },
       {
         "title": "Modern & Fast",
@@ -158,26 +155,6 @@
       "src": "/images/added-words.png",
       "alt": "Added Words"
     }
-  },
-  "testimonials": {
-    "sectionTitle": "Loved by Learners",
-    "items": [
-      {
-        "quote": "The AI word generation saved me hours creating vocabulary lists for my Spanish class. It's incredibly accurate.",
-        "author": "Sarah J.",
-        "role": "Language Student"
-      },
-      {
-        "quote": "Finally, a language app that works the same on my phone and computer! The sync is flawless.",
-        "author": "Michael C.",
-        "role": "Digital Nomad"
-      },
-      {
-        "quote": "The match game makes studying feel like fun. My kids love it too! It's become a daily family activity.",
-        "author": "Elena R.",
-        "role": "Parent & Teacher"
-      }
-    ]
   },
   "screenshotGallery": {
     "sectionTitle": "Experience the App",
@@ -218,20 +195,19 @@
     ]
   },
   "pricing": {
-    "sectionTitle": "Simple, Transparent Pricing",
-    "sectionSubtitle": "Education should be accessible to everyone.",
-    "planName": "Free",
-    "planDescription": "Everything you need to master a language.",
-    "price": "$0",
-    "period": "/month",
+    "sectionTitle": "Free, really",
+    "sectionSubtitle": "No ads. No subscriptions. No in-app purchases.",
+    "planName": "Everything is included",
+    "planDescription": "Every feature below is open to everyone. There is no paid tier to upgrade to.",
     "features": [
       "Unlimited word sets",
-      "Access all 6 game modes",
-      "AI word generation",
-      "Share your sets",
-      "Cross-platform sync"
+      "All 6 practice modes",
+      "AI translations, transcriptions and examples",
+      "The CEFR Learn path, A1 to C2",
+      "Share codes for your sets",
+      "Sync between iOS and web"
     ],
-    "ctaButton": "Get Started for Free"
+    "ctaButton": "Get started"
   },
   "faq": {
     "sectionTitle": "Frequently Asked Questions",
@@ -254,7 +230,7 @@
       },
       {
         "q": "Is my data secure?",
-        "a": "Yes, all data is securely stored and synced via Supabase with industry-standard encryption."
+        "a": "Your sets live in our cloud database, and each account can only read its own data. Words and topics you send to the AI go to OpenAI to produce translations, transcriptions and examples; your email and account data do not. In guest mode nothing leaves your device except those AI requests."
       },
       {
         "q": "Can I share my word sets?",
@@ -276,12 +252,12 @@
   },
   "downloadCTA": {
     "title": "Start Learning Today",
-    "subtitle": "Join thousands of learners mastering new languages with Calleo. Download now or try it in your browser.",
+    "subtitle": "Your first set takes under a minute. Download the app or open it in your browser.",
     "iosButton": "Download for iOS",
     "webButton": "Launch Web App",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "disclaimer": "No credit card required for free tier."
+    "disclaimer": "Free. No ads. No subscriptions."
   },
   "footer": {
     "brandName": "Calleo",
@@ -434,7 +410,7 @@
           },
           {
             "bold": "Generate AI Content",
-            "text": "Use OpenAI's API to generate vocabulary suggestions and example sentences based on themes you provide"
+            "text": "Use OpenAI's API to translate the words you add and to generate transcriptions, vocabulary suggestions and example sentences"
           },
           {
             "bold": "Maintain Security",
@@ -516,11 +492,11 @@
               },
               {
                 "bold": "Data Shared",
-                "text": "ONLY the themes or topics you request (e.g., \"food\", \"travel\")"
+                "text": "The words and topics you ask us to translate, transcribe or build examples for"
               },
               {
                 "bold": "Important",
-                "text": "We do NOT send your personal information, email, user ID, or existing vocabulary sets to OpenAI"
+                "text": "We do NOT send your email address, user ID or account data to OpenAI"
               },
               {
                 "bold": "Data Usage",
@@ -688,7 +664,7 @@
         },
         {
           "label": "Third parties",
-          "value": "Supabase (database), OpenAI (AI generation - no personal data sent)"
+          "value": "Supabase (database), OpenAI (translations and examples — no email or account data sent)"
         },
         {
           "label": "Your rights",
@@ -765,14 +741,14 @@
           },
           {
             "bold": "With Account",
-            "text": "Sign up with email to sync your sets across all devices (iPhone, iPad, Android, Web)."
+            "text": "Sign up with email to sync your sets between the iOS app and the web app."
           }
         ]
       },
       "howToStart": {
         "title": "How do I get started?",
         "steps": [
-          "Download Calleo from the App Store or Google Play",
+          "Download Calleo from the App Store, or open the web app at app.calleo.xyz",
           "Choose \"Continue as Guest\" or \"Sign Up\"",
           "Select your learning language (e.g., Spanish) and native language (e.g., English)",
           "Create your first vocabulary set",
@@ -901,7 +877,7 @@
       "title": "Game Modes",
       "available": {
         "title": "What game modes are available?",
-        "intro": "Calleo offers 4 interactive learning modes:",
+        "intro": "Calleo offers 6 interactive learning modes:",
         "modes": [
           {
             "bold": "Flashcards",
@@ -918,6 +894,14 @@
           {
             "bold": "Fill in the Blank",
             "text": "Complete sentences with the correct words"
+          },
+          {
+            "bold": "Listening",
+            "text": "Hear the word read aloud and identify it"
+          },
+          {
+            "bold": "Writing",
+            "text": "See the translation and type the word from memory"
           }
         ]
       },
@@ -1033,14 +1017,14 @@
       "title": "Settings & Preferences",
       "appLanguage": {
         "title": "How do I change the app language (UI)?",
-        "intro": "Calleo supports 45+ languages for the interface:",
+        "intro": "Calleo supports 40+ languages for the interface:",
         "steps": [
           "Go to Settings",
           "Tap \"App Language\"",
           "Select your preferred language",
           "The app will reload with the new language"
         ],
-        "note": "Supported Languages: English, Spanish, French, German, Italian, Portuguese, Japanese, Korean, Chinese, Arabic, Hebrew, and 35+ more!"
+        "note": "Supported Languages: English, Spanish, French, German, Italian, Portuguese, Japanese, Korean, Chinese, Arabic, Hebrew, and 30+ more!"
       },
       "learningLanguages": {
         "title": "How do I change my learning languages?",
@@ -1092,8 +1076,8 @@
         "steps": [
           "Force close the app and reopen it",
           "Restart your device",
-          "Check for updates in the App Store/Play Store",
-          "Clear app cache (Settings > Apps > Calleo > Clear Cache on Android)",
+          "Check for updates in the App Store",
+          "If you use the web app, reload the page with a hard refresh",
           "Reinstall the app (Note: Guest Mode data will be lost!)"
         ],
         "note": "If the issue persists, contact us at viacheslav@exquizite.app with device model, OS version, app version, and description of the issue."
@@ -1202,7 +1186,7 @@
           },
           {
             "bold": "OpenAI",
-            "text": "AI vocabulary generation (only theme names are sent, NOT your personal data)"
+            "text": "AI translations, transcriptions and examples (the words and topics you send, NOT your email or account data)"
           },
           {
             "bold": "Expo",
@@ -1266,11 +1250,11 @@
       "items": [
         {
           "q": "Is Calleo free?",
-          "a": "Yes! Calleo is free to use, with no ads. We're introducing optional premium features soon for learners who want more."
+          "a": "Yes. Calleo is completely free: no ads, no subscriptions, no in-app purchases."
         },
         {
           "q": "What platforms is Calleo available on?",
-          "a": "iOS: iPhone and iPad (iOS 13+), Android: Phones and tablets (Android 6.0+), Web: app.calleo.com (coming soon)"
+          "a": "iOS: iPhone and iPad (iOS 13+). Web: app.calleo.xyz in any modern browser. There is no Android app yet."
         },
         {
           "q": "Can I learn multiple languages at once?",
@@ -1282,7 +1266,7 @@
         },
         {
           "q": "Will Calleo always be free?",
-          "a": "Calleo will always offer a free plan so anyone can start learning. We're introducing optional premium features for learners who want extra tools, but you'll never be locked out of the core experience."
+          "a": "Calleo is free and there is no paid tier: no ads, no subscriptions and no in-app purchases. Nothing in the app is locked behind a payment."
         }
       ]
     },

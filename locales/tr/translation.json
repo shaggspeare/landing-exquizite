@@ -4,8 +4,7 @@
     "links": {
       "features": "Özellikler",
       "howItWorks": "Nasıl Çalışır",
-      "stories": "Hikayeler",
-      "pricing": "Fiyatlandırma",
+      "pricing": "Ücretsiz",
       "getApp": "Uygulamayı İndir",
       "downloadApp": "Uygulamayı İndir"
     }
@@ -88,20 +87,18 @@
         "description": "Hareket halindeyken öğrenmek için uygulamayı edinin."
       },
       "shareDiscover": {
-        "title": "Paylaş ve Keşfet",
-        "description": "Kelime setleriniz için paylaşılabilir bağlantılar oluşturun veya topluluk setlerini koleksiyonunuza kopyalayın. Görüntülemeleri ve etkileşimi takip edin.",
-        "recentShares": "Son Paylaşımlar",
-        "viewAll": "Tümünü Gör",
-        "shares": [
+        "title": "Setlerinizi paylaşın",
+        "description": "Herhangi bir seti paylaşım koduna dönüştürün. Arkadaşlarınız kodu girer, seti görür ve kendi koleksiyonuna kopyalar; siz de kaç kez görüntülendiğini ve kopyalandığını görürsünüz.",
+        "codeLabel": "Paylaşım kodu",
+        "code": "ABC123XYZ",
+        "stats": [
           {
-            "initials": "FR",
-            "name": "Temel Fransızca",
-            "wordCount": "24 kelime"
+            "label": "Görüntüleme",
+            "value": "48"
           },
           {
-            "initials": "ES",
-            "name": "İspanyol Mutfağı",
-            "wordCount": "12 kelime"
+            "label": "Kopyalama",
+            "value": "12"
           }
         ]
       },
@@ -128,8 +125,8 @@
         "desc": "Seriinizi, ustalık seviyelerinizi ve geçmişinizi kontrol panelinizden izleyin."
       },
       {
-        "title": "4. Paylaşın ve Öğrenin",
-        "desc": "En iyi setlerinizi arkadaşlarınızla paylaşın veya topluluk içeriğini keşfedin."
+        "title": "4. Bir set paylaşın",
+        "desc": "Bir arkadaşınıza setin paylaşım kodunu gönderin. Kendi koleksiyonuna kopyalar, siz de görüntüleme ve kopyalama sayısını görürsünüz."
       }
     ]
   },
@@ -147,7 +144,7 @@
       },
       {
         "title": "Gizlilik Öncelikli",
-        "description": "Verileriniz Supabase üzerinden güvenle saklanır. Kontrol her zaman sizdedir."
+        "description": "Misafir modu hesap gerektirmez. Hesap açtığınızda yalnızca e-postanızı ve oluşturduğunuz setleri saklarız. Ürettiğiniz kelimeler çeviri ve örnekler için OpenAI'ye gönderilir."
       },
       {
         "title": "Modern ve Hızlı",
@@ -158,26 +155,6 @@
       "src": "/images/added-words.png",
       "alt": "Eklenen Kelimeler"
     }
-  },
-  "testimonials": {
-    "sectionTitle": "Öğrenenler Tarafından Seviliyor",
-    "items": [
-      {
-        "quote": "Yapay zeka kelime üretimi, İspanyolca dersim için kelime listeleri oluştururken saatlerce zaman kazandırdı. İnanılmaz derecede doğru.",
-        "author": "Sarah J.",
-        "role": "Dil Öğrencisi"
-      },
-      {
-        "quote": "Sonunda, telefonumda ve bilgisayarımda aynı şekilde çalışan bir dil uygulaması! Senkronizasyon kusursuz.",
-        "author": "Michael C.",
-        "role": "Dijital Göçebe"
-      },
-      {
-        "quote": "Eşleştirme oyunu çalışmayı eğlenceli hale getiriyor. Çocuklarım da bayılıyor! Günlük bir aile aktivitesi haline geldi.",
-        "author": "Elena R.",
-        "role": "Ebeveyn ve Öğretmen"
-      }
-    ]
   },
   "screenshotGallery": {
     "sectionTitle": "Uygulamayı Keşfedin",
@@ -218,20 +195,19 @@
     ]
   },
   "pricing": {
-    "sectionTitle": "Basit ve Şeffaf Fiyatlandırma",
-    "sectionSubtitle": "Eğitim herkes için erişilebilir olmalıdır.",
-    "planName": "Ücretsiz",
-    "planDescription": "Bir dili öğrenmek için ihtiyacınız olan her şey.",
-    "price": "$0",
-    "period": "/ay",
+    "sectionTitle": "Gerçekten ücretsiz",
+    "sectionSubtitle": "Reklam yok. Abonelik yok. Uygulama içi satın alma yok.",
+    "planName": "Her şey dahil",
+    "planDescription": "Aşağıdaki tüm özellikler herkese açık. Geçilecek ücretli bir plan yok.",
     "features": [
       "Sınırsız kelime seti",
-      "Tüm 6 oyun moduna erişim",
-      "Yapay zeka kelime üretimi",
-      "Setlerinizi paylaşın",
-      "Platformlar arası senkronizasyon"
+      "6 pratik modunun tamamı",
+      "Yapay zekâ ile çeviri, okunuş ve örnekler",
+      "A1'den C2'ye CEFR öğrenme yolu",
+      "Setleriniz için paylaşım kodları",
+      "iOS ve web arasında senkronizasyon"
     ],
-    "ctaButton": "Ücretsiz Başlayın"
+    "ctaButton": "Başla"
   },
   "faq": {
     "sectionTitle": "Sıkça Sorulan Sorular",
@@ -254,7 +230,7 @@
       },
       {
         "q": "Verilerim güvende mi?",
-        "a": "Evet, tüm veriler endüstri standardı şifreleme ile Supabase üzerinden güvenle saklanır ve senkronize edilir."
+        "a": "Setleriniz bulut veritabanımızda saklanır ve her hesap yalnızca kendi verisini okuyabilir. Yapay zekâya gönderdiğiniz kelimeler ve konular çeviri, okunuş ve örnekler için OpenAI'ye iletilir; e-postanız ve hesap verileriniz iletilmez. Misafir modunda bu isteklerin dışında cihazınızdan hiçbir şey çıkmaz."
       },
       {
         "q": "Kelime setlerimi paylaşabilir miyim?",
@@ -276,12 +252,12 @@
   },
   "downloadCTA": {
     "title": "Bugün Öğrenmeye Başlayın",
-    "subtitle": "Calleo ile yeni diller öğrenen binlerce kişiye katılın. Hemen indirin veya tarayıcınızda deneyin.",
+    "subtitle": "İlk setiniz bir dakikadan kısa sürer. Uygulamayı indirin ya da tarayıcınızda açın.",
     "iosButton": "iOS için İndir",
     "webButton": "Web Uygulamasını Aç",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "disclaimer": "Ücretsiz plan için kredi kartı gerekmez."
+    "disclaimer": "Ücretsiz. Reklam yok. Abonelik yok."
   },
   "footer": {
     "brandName": "Calleo",
@@ -434,7 +410,7 @@
           },
           {
             "bold": "Yapay Zeka İçerik Üretimi",
-            "text": "Sağladığınız temalara göre kelime önerileri ve örnek cümleler üretmek için OpenAI API'sini kullanma"
+            "text": "Eklediğiniz kelimeleri çevirmek ve okunuş, kelime önerileri ve örnek cümleler üretmek için OpenAI API'sini kullanmak"
           },
           {
             "bold": "Güvenliği Sağlama",
@@ -516,11 +492,11 @@
               },
               {
                 "bold": "Paylaşılan Veriler",
-                "text": "YALNIZCA talep ettiğiniz temalar veya konular (ör. \"yemek\", \"seyahat\")"
+                "text": "Çeviri, okunuş veya örnek istediğiniz kelimeler ve konular"
               },
               {
                 "bold": "Önemli",
-                "text": "Kişisel bilgilerinizi, e-postanızı, kullanıcı kimliğinizi veya mevcut kelime setlerinizi OpenAI'ye GÖNDERMİYORUZ"
+                "text": "E-posta adresinizi, kullanıcı kimliğinizi veya hesap verilerinizi OpenAI'ye GÖNDERMİYORUZ"
               },
               {
                 "bold": "Veri Kullanımı",
@@ -688,7 +664,7 @@
         },
         {
           "label": "Üçüncü taraflar",
-          "value": "Supabase (veritabanı), OpenAI (yapay zeka üretimi - kişisel veri gönderilmez)"
+          "value": "Supabase (veritabanı), OpenAI (çeviri ve örnekler — e-posta veya hesap verisi gönderilmez)"
         },
         {
           "label": "Haklarınız",
@@ -765,14 +741,14 @@
           },
           {
             "bold": "Hesapla",
-            "text": "Setlerinizi tüm cihazlarınızda senkronize etmek için e-posta ile kaydolun (iPhone, iPad, Android, Web)."
+            "text": "Setlerinizi iOS uygulaması ile web uygulaması arasında eşitlemek için e-postayla kaydolun."
           }
         ]
       },
       "howToStart": {
         "title": "Nasıl başlarım?",
         "steps": [
-          "Calleo'i App Store veya Google Play'den indirin",
+          "Calleo'yu App Store'dan indirin ya da web uygulamasını app.calleo.xyz adresinden açın",
           "\"Misafir Olarak Devam Et\" veya \"Kaydol\" seçeneğini belirleyin",
           "Öğrenme dilinizi (ör. İspanyolca) ve ana dilinizi (ör. Türkçe) seçin",
           "İlk kelime setinizi oluşturun",
@@ -901,7 +877,7 @@
       "title": "Oyun Modları",
       "available": {
         "title": "Hangi oyun modları mevcut?",
-        "intro": "Calleo 4 etkileşimli öğrenme modu sunar:",
+        "intro": "Calleo 6 etkileşimli öğrenme modu sunar:",
         "modes": [
           {
             "bold": "Bilgi Kartları",
@@ -918,6 +894,14 @@
           {
             "bold": "Boşluk Doldurma",
             "text": "Cümleleri doğru kelimelerle tamamlayın"
+          },
+          {
+            "bold": "Dinleme",
+            "text": "Kelimeyi sesli duyar ve tanırsınız"
+          },
+          {
+            "bold": "Yazma",
+            "text": "Çeviriyi görür ve kelimeyi akıldan yazarsınız"
           }
         ]
       },
@@ -1033,14 +1017,14 @@
       "title": "Ayarlar ve Tercihler",
       "appLanguage": {
         "title": "Uygulama dilini (arayüz) nasıl değiştiririm?",
-        "intro": "Calleo arayüz için 45'ten fazla dili destekler:",
+        "intro": "Calleo arayüzde 40'tan fazla dili destekler:",
         "steps": [
           "Ayarlar'a gidin",
           "\"Uygulama Dili\"ne dokunun",
           "Tercih ettiğiniz dili seçin",
           "Uygulama yeni dille yeniden yüklenecektir"
         ],
-        "note": "Desteklenen Diller: İngilizce, İspanyolca, Fransızca, Almanca, İtalyanca, Portekizce, Japonca, Korece, Çince, Arapça, İbranice ve 35+ daha fazlası!"
+        "note": "Desteklenen diller: İngilizce, İspanyolca, Fransızca, Almanca, İtalyanca, Portekizce, Japonca, Korece, Çince, Arapça, İbranice ve 30'dan fazlası!"
       },
       "learningLanguages": {
         "title": "Öğrenme dillerimi nasıl değiştiririm?",
@@ -1092,8 +1076,8 @@
         "steps": [
           "Uygulamayı zorla kapatın ve yeniden açın",
           "Cihazınızı yeniden başlatın",
-          "App Store/Play Store'da güncellemeleri kontrol edin",
-          "Uygulama önbelleğini temizleyin (Android'de Ayarlar > Uygulamalar > Calleo > Önbelleği Temizle)",
+          "App Store'da güncelleme olup olmadığına bakın",
+          "Web uygulamasını kullanıyorsanız sayfayı zorla yenileyin",
           "Uygulamayı yeniden yükleyin (Not: Misafir Modu verileri kaybolacaktır!)"
         ],
         "note": "Sorun devam ederse, cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve sorunun açıklamasıyla viacheslav@exquizite.app adresinden bize ulaşın."
@@ -1202,7 +1186,7 @@
           },
           {
             "bold": "OpenAI",
-            "text": "Yapay zeka kelime üretimi (yalnızca tema adları gönderilir, kişisel verileriniz DEĞİL)"
+            "text": "Yapay zekâ ile çeviri, okunuş ve örnekler (gönderdiğiniz kelimeler ve konular; e-postanız veya hesap verileriniz DEĞİL)"
           },
           {
             "bold": "Expo",
@@ -1266,11 +1250,11 @@
       "items": [
         {
           "q": "Calleo ücretsiz mi?",
-          "a": "Evet! Calleo reklamsız ve ücretsiz kullanılabilir. Daha fazlasını isteyen kullanıcılar için yakında isteğe bağlı premium özellikler sunacağız."
+          "a": "Evet. Calleo tamamen ücretsizdir: reklam yok, abonelik yok, uygulama içi satın alma yok."
         },
         {
           "q": "Calleo hangi platformlarda mevcut?",
-          "a": "iOS: iPhone ve iPad (iOS 13+), Android: Telefonlar ve tabletler (Android 6.0+), Web: app.calleo.com (yakında)"
+          "a": "iOS: iPhone ve iPad (iOS 13+). Web: herhangi bir modern tarayıcıda app.calleo.xyz. Henüz Android uygulaması yok."
         },
         {
           "q": "Aynı anda birden fazla dil öğrenebilir miyim?",
@@ -1282,7 +1266,7 @@
         },
         {
           "q": "Calleo her zaman ücretsiz kalacak mı?",
-          "a": "Calleo, herkesin öğrenmeye başlayabilmesi için her zaman ücretsiz bir plan sunacak. Ekstra araçlar isteyen kullanıcılar için isteğe bağlı premium özellikler sunuyoruz, ancak temel deneyime erişiminiz asla kısıtlanmayacak."
+          "a": "Calleo ücretsizdir ve ücretli bir plan yoktur: reklam yok, abonelik yok, uygulama içi satın alma yok. Uygulamada ödeme arkasına kilitlenmiş hiçbir şey yok."
         }
       ]
     },

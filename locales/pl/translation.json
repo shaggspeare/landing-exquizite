@@ -4,8 +4,7 @@
     "links": {
       "features": "Funkcje",
       "howItWorks": "Jak to dziala",
-      "stories": "Opinie",
-      "pricing": "Cennik",
+      "pricing": "Bezpłatnie",
       "getApp": "Pobierz aplikacje",
       "downloadApp": "Pobierz aplikacje"
     }
@@ -88,20 +87,18 @@
         "description": "Pobierz aplikacje i ucz sie w podrózy."
       },
       "shareDiscover": {
-        "title": "Udostepniaj i odkrywaj",
-        "description": "Twórz linki do udostepniania zestawów slów lub kopiuj zestawy spolecznosci do swojej kolekcji. Sledz wyswietlenia i zaangazowanie.",
-        "recentShares": "Ostatnio udostepnione",
-        "viewAll": "Zobacz wszystko",
-        "shares": [
+        "title": "Udostępniaj swoje zestawy",
+        "description": "Zamień dowolny zestaw w kod do udostępniania. Znajomi wpisują go, podglądają zestaw i kopiują go do własnej kolekcji, a Ty widzisz, ile razy został wyświetlony i skopiowany.",
+        "codeLabel": "Kod do udostępniania",
+        "code": "ABC123XYZ",
+        "stats": [
           {
-            "initials": "FR",
-            "name": "Francuski — podstawy",
-            "wordCount": "24 slowa"
+            "label": "Wyświetlenia",
+            "value": "48"
           },
           {
-            "initials": "ES",
-            "name": "Hiszpanski — kuchnia",
-            "wordCount": "12 slów"
+            "label": "Kopie",
+            "value": "12"
           }
         ]
       },
@@ -128,8 +125,8 @@
         "desc": "Monitoruj swoja serie, poziom opanowania materialu i historie na swoim panelu."
       },
       {
-        "title": "4. Udostepniaj i ucz sie",
-        "desc": "Udostepniaj swoje najlepsze zestawy znajomym lub odkrywaj tresci spolecznosci."
+        "title": "4. Udostępnij zestaw",
+        "desc": "Wyślij znajomemu kod zestawu. Skopiuje go do swojej kolekcji, a Ty zobaczysz liczbę wyświetleń i kopii."
       }
     ]
   },
@@ -147,7 +144,7 @@
       },
       {
         "title": "Prywatnosc przede wszystkim",
-        "description": "Twoje dane sa bezpiecznie przechowywane za posrednictwem Supabase. Zawsze masz pelna kontrole."
+        "description": "Tryb gościa nie wymaga konta. Przy koncie przechowujemy tylko Twój e-mail i utworzone zestawy. Słowa, które generujesz, trafiają do OpenAI po tłumaczenia i przykłady."
       },
       {
         "title": "Nowoczesny i szybki",
@@ -158,26 +155,6 @@
       "src": "/images/added-words.png",
       "alt": "Dodane slowa"
     }
-  },
-  "testimonials": {
-    "sectionTitle": "Uwielbiany przez uczacych sie",
-    "items": [
-      {
-        "quote": "Generowanie slów przez AI zaoszczedzilo mi godzin tworzenia list slownictwa na zajecia z hiszpanskiego. Jest niewiarygodnie dokladne.",
-        "author": "Sarah J.",
-        "role": "Studentka jezyków"
-      },
-      {
-        "quote": "Wreszcie aplikacja jezykowa, która dziala tak samo na telefonie i komputerze! Synchronizacja jest bezbledna.",
-        "author": "Michael C.",
-        "role": "Cyfrowy nomada"
-      },
-      {
-        "quote": "Gra w dopasowywanie sprawia, ze nauka staje sie zabawa. Moje dzieci tez ja uwielbiaja! To stalo sie codziennym rodzinnym rytulaem.",
-        "author": "Elena R.",
-        "role": "Rodzic i nauczycielka"
-      }
-    ]
   },
   "screenshotGallery": {
     "sectionTitle": "Poznaj aplikacje",
@@ -218,20 +195,19 @@
     ]
   },
   "pricing": {
-    "sectionTitle": "Prosty i przejrzysty cennik",
-    "sectionSubtitle": "Edukacja powinna byc dostepna dla kazdego.",
-    "planName": "Darmowy",
-    "planDescription": "Wszystko, czego potrzebujesz, by opanowac jezyk.",
-    "price": "$0",
-    "period": "/miesiac",
+    "sectionTitle": "Naprawdę bezpłatnie",
+    "sectionSubtitle": "Bez reklam. Bez subskrypcji. Bez zakupów w aplikacji.",
+    "planName": "Wszystko jest w środku",
+    "planDescription": "Każda funkcja poniżej jest dostępna dla wszystkich. Nie ma płatnego planu, na który można przejść.",
     "features": [
-      "Nieograniczona liczba zestawów slów",
-      "Dostep do wszystkich 6 trybów gry",
-      "Generowanie slów przez AI",
-      "Udostepniaj swoje zestawy",
-      "Synchronizacja miedzy platformami"
+      "Nieograniczona liczba zestawów słów",
+      "Wszystkie 6 trybów ćwiczeń",
+      "Tłumaczenia, transkrypcje i przykłady od AI",
+      "Ścieżka CEFR, od A1 do C2",
+      "Kody do udostępniania zestawów",
+      "Synchronizacja między iOS i siecią"
     ],
-    "ctaButton": "Zacznij za darmo"
+    "ctaButton": "Zacznij"
   },
   "faq": {
     "sectionTitle": "Czesto zadawane pytania",
@@ -254,7 +230,7 @@
       },
       {
         "q": "Czy moje dane sa bezpieczne?",
-        "a": "Tak, wszystkie dane sa bezpiecznie przechowywane i synchronizowane za posrednictwem Supabase z szyfrowanie standardowym w branzy."
+        "a": "Twoje zestawy są przechowywane w naszej bazie w chmurze, a każde konto może czytać tylko własne dane. Słowa i tematy wysyłane do AI trafiają do OpenAI po tłumaczenia, transkrypcje i przykłady; Twój e-mail i dane konta nie. W trybie gościa nic nie opuszcza urządzenia poza tymi zapytaniami."
       },
       {
         "q": "Czy moge udostepniac swoje zestawy slów?",
@@ -276,12 +252,12 @@
   },
   "downloadCTA": {
     "title": "Zacznij sie uczyc juz dzis",
-    "subtitle": "Dolacz do tysiecy uczacych sie, którzy opanowuja nowe jezyki z Calleo. Pobierz teraz lub wypróbuj w przegladarce.",
+    "subtitle": "Pierwszy zestaw powstaje w mniej niż minutę. Pobierz aplikację lub otwórz ją w przeglądarce.",
     "iosButton": "Pobierz na iOS",
     "webButton": "Uruchom aplikacje webowa",
     "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "disclaimer": "Karta kredytowa nie jest wymagana dla darmowego planu."
+    "disclaimer": "Bezpłatnie. Bez reklam. Bez subskrypcji."
   },
   "footer": {
     "brandName": "Calleo",
@@ -434,7 +410,7 @@
           },
           {
             "bold": "Generowanie tresci AI",
-            "text": "Uzycie API OpenAI do generowania sugestii slownictwa i przykladowych zdan na podstawie podanych tematów"
+            "text": "Korzystać z API OpenAI, aby tłumaczyć dodane słowa i generować transkrypcje, propozycje słówek oraz przykładowe zdania"
           },
           {
             "bold": "Utrzymanie bezpieczenstwa",
@@ -516,11 +492,11 @@
               },
               {
                 "bold": "Udostepniane dane",
-                "text": "TYLKO tematy lub zagadnienia, które podajesz (np. \"jedzenie\", \"podróze\")"
+                "text": "Słowa i tematy, dla których prosisz o tłumaczenie, transkrypcję lub przykłady"
               },
               {
                 "bold": "Wazne",
-                "text": "NIE wysylamy Twoich danych osobowych, emaila, ID uzytkownika ani istniejacych zestawów slownictwa do OpenAI"
+                "text": "NIE wysyłamy do OpenAI Twojego adresu e-mail, identyfikatora użytkownika ani danych konta"
               },
               {
                 "bold": "Wykorzystanie danych",
@@ -688,7 +664,7 @@
         },
         {
           "label": "Strony trzecie",
-          "value": "Supabase (baza danych), OpenAI (generowanie AI — bez danych osobowych)"
+          "value": "Supabase (baza danych), OpenAI (tłumaczenia i przykłady – bez e-maila i danych konta)"
         },
         {
           "label": "Twoje prawa",
@@ -765,14 +741,14 @@
           },
           {
             "bold": "Z kontem",
-            "text": "Zarejestruj sie za pomoca emaila, aby synchronizowac zestawy miedzy wszystkimi urzadzeniami (iPhone, iPad, Android, Web)."
+            "text": "Zarejestruj się e-mailem, aby synchronizować zestawy między aplikacją na iOS a wersją internetową."
           }
         ]
       },
       "howToStart": {
         "title": "Jak zaczac?",
         "steps": [
-          "Pobierz Calleo z App Store lub Google Play",
+          "Pobierz Calleo z App Store albo otwórz aplikację internetową na app.calleo.xyz",
           "Wybierz \"Kontynuuj jako gosc\" lub \"Zarejestruj sie\"",
           "Wybierz jezyk, którego chcesz sie uczyc (np. hiszpanski) i jezyk ojczysty (np. polski)",
           "Utwórz swój pierwszy zestaw slownictwa",
@@ -901,7 +877,7 @@
       "title": "Tryby gry",
       "available": {
         "title": "Jakie tryby gry sa dostepne?",
-        "intro": "Calleo oferuje 4 interaktywne tryby nauki:",
+        "intro": "Calleo oferuje 6 interaktywnych trybów nauki:",
         "modes": [
           {
             "bold": "Fiszki",
@@ -918,6 +894,14 @@
           {
             "bold": "Uzupelnianie luk",
             "text": "Uzupelnij zdania odpowiednimi slowami"
+          },
+          {
+            "bold": "Słuchanie",
+            "text": "Słyszysz wypowiedziane słowo i je rozpoznajesz"
+          },
+          {
+            "bold": "Pisanie",
+            "text": "Widzisz tłumaczenie i wpisujesz słowo z pamięci"
           }
         ]
       },
@@ -1033,14 +1017,14 @@
       "title": "Ustawienia i preferencje",
       "appLanguage": {
         "title": "Jak zmienic jezyk aplikacji (interfejs)?",
-        "intro": "Calleo obsluguje ponad 45 jezyków interfejsu:",
+        "intro": "Calleo obsługuje ponad 40 języków interfejsu:",
         "steps": [
           "Przejdz do Ustawien",
           "Dotknij \"Jezyk aplikacji\"",
           "Wybierz preferowany jezyk",
           "Aplikacja przeladuje sie z nowym jezykiem"
         ],
-        "note": "Obslugiwane jezyki: angielski, hiszpanski, francuski, niemiecki, wloski, portugalski, japonski, koreanski, chinski, arabski, hebrajski i ponad 35 innych!"
+        "note": "Obsługiwane języki: angielski, hiszpański, francuski, niemiecki, włoski, portugalski, japoński, koreański, chiński, arabski, hebrajski i ponad 30 innych!"
       },
       "learningLanguages": {
         "title": "Jak zmienic jezyki nauki?",
@@ -1092,8 +1076,8 @@
         "steps": [
           "Wymus zamkniecie aplikacji i otwórz ja ponownie",
           "Uruchom ponownie urzadzenie",
-          "Sprawdz aktualizacje w App Store/Play Store",
-          "Wyczysc pamiec podreczna aplikacji (Ustawienia > Aplikacje > Calleo > Wyczysc pamiec podreczna na Androidzie)",
+          "Sprawdź aktualizacje w App Store",
+          "Jeśli korzystasz z wersji internetowej, odśwież stronę wymuszonym przeładowaniem",
           "Zainstaluj aplikacje ponownie (Uwaga: dane trybu goscia zostana utracone!)"
         ],
         "note": "Jesli problem nie ustepuje, skontaktuj sie z nami pod adresem viacheslav@exquizite.app podajac model urzadzenia, wersje systemu operacyjnego, wersje aplikacji i opis problemu."
@@ -1202,7 +1186,7 @@
           },
           {
             "bold": "OpenAI",
-            "text": "Generowanie slownictwa AI (wysylane sa tylko nazwy tematów, NIE Twoje dane osobowe)"
+            "text": "Tłumaczenia, transkrypcje i przykłady od AI (przesyłane słowa i tematy, a NIE Twój e-mail ani dane konta)"
           },
           {
             "bold": "Expo",
@@ -1266,11 +1250,11 @@
       "items": [
         {
           "q": "Czy Calleo jest darmowy?",
-          "a": "Tak! Calleo jest darmowe w użyciu, bez reklam. Wkrótce wprowadzimy opcjonalne funkcje premium dla osób, które chcą więcej."
+          "a": "Tak. Calleo jest całkowicie bezpłatne: bez reklam, bez subskrypcji, bez zakupów w aplikacji."
         },
         {
           "q": "Na jakich platformach dostepny jest Calleo?",
-          "a": "iOS: iPhone i iPad (iOS 13+), Android: Telefony i tablety (Android 6.0+), Web: app.calleo.com (wkrótce)"
+          "a": "iOS: iPhone i iPad (iOS 13+). Sieć: app.calleo.xyz w każdej nowoczesnej przeglądarce. Aplikacji na Androida jeszcze nie ma."
         },
         {
           "q": "Czy moge uczyc sie wielu jezyków naraz?",
@@ -1282,7 +1266,7 @@
         },
         {
           "q": "Czy Calleo zawsze bedzie darmowy?",
-          "a": "Calleo zawsze będzie oferować darmowy plan, aby każdy mógł zacząć naukę. Wprowadzamy opcjonalne funkcje premium dla osób, które chcą dodatkowych narzędzi, ale nigdy nie stracisz dostępu do podstawowego doświadczenia."
+          "a": "Calleo jest bezpłatne i nie ma żadnego planu płatnego: bez reklam, bez subskrypcji, bez zakupów w aplikacji. Nic w aplikacji nie jest zablokowane za opłatą."
         }
       ]
     },
