@@ -281,7 +281,7 @@
           },
           {
             "label": "Contato",
-            "href": "mailto:support@calleo.xyz"
+            "href": "mailto:viacheslav@exquizite.app"
           },
           {
             "label": "Política de Privacidade",
@@ -570,7 +570,7 @@
               },
               {
                 "bold": "Solicitação por E-mail",
-                "text": "Entre em contato conosco em support@calleo.xyz com o assunto \"Data Deletion Request\"",
+                "text": "Entre em contato conosco em viacheslav@exquizite.app com o assunto \"Data Deletion Request\"",
                 "subItems": [
                   "Inclua seu endereço de e-mail cadastrado",
                   "Confirmaremos sua identidade e excluiremos todos os dados em até 30 dias",
@@ -581,7 +581,7 @@
           },
           {
             "title": "Exportar Seus Dados",
-            "description": "Para solicitar uma cópia dos seus dados, entre em contato conosco em support@calleo.xyz com o assunto \"Data Export Request\""
+            "description": "Para solicitar uma cópia dos seus dados, entre em contato conosco em viacheslav@exquizite.app com o assunto \"Data Export Request\""
           },
           {
             "title": "Modo Visitante",
@@ -595,7 +595,7 @@
       },
       {
         "title": "Privacidade de Crianças",
-        "content": "O Calleo é destinado a usuários com 13 anos ou mais. Não coletamos intencionalmente informações pessoais de crianças menores de 13 anos. Se você é pai/mãe ou responsável e acredita que seu filho nos forneceu informações pessoais, entre em contato conosco em support@calleo.xyz e excluiremos essas informações imediatamente."
+        "content": "O Calleo é destinado a usuários com 13 anos ou mais. Não coletamos intencionalmente informações pessoais de crianças menores de 13 anos. Se você é pai/mãe ou responsável e acredita que seu filho nos forneceu informações pessoais, entre em contato conosco em viacheslav@exquizite.app e excluiremos essas informações imediatamente."
       },
       {
         "title": "Transferências Internacionais de Dados",
@@ -628,7 +628,7 @@
         "title": "Fale Conosco",
         "intro": "Se você tiver perguntas, preocupações ou solicitações sobre esta Política de Privacidade ou seus dados, entre em contato conosco:",
         "contactInfo": {
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "developer": "Equipe de Desenvolvimento Calleo",
           "responseTime": "Nosso objetivo é responder a todas as consultas em até 7 dias úteis."
         }
@@ -660,7 +660,7 @@
         },
         {
           "label": "Contato",
-          "value": "support@calleo.xyz"
+          "value": "viacheslav@exquizite.app"
         }
       ],
       "thankYou": "Obrigado por confiar no Calleo para sua jornada de aprendizado de idiomas!"
@@ -669,7 +669,7 @@
   "support": {
     "title": "Suporte Calleo",
     "subtitle": "Bem-vindo ao Suporte Calleo! Encontre respostas para perguntas comuns e obtenha ajuda com o app.",
-    "contactEmail": "support@calleo.xyz",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "Última atualização: 7 de fevereiro de 2026",
     "thankYou": "Obrigado por usar o Calleo! Bons estudos!",
     "toc": {
@@ -1068,7 +1068,7 @@
           "Se você usa o app web, recarregue a página com atualização forçada",
           "Reinstale o app (Atenção: Dados do Modo Visitante serão perdidos!)"
         ],
-        "note": "Se o problema persistir, entre em contato conosco em support@calleo.xyz informando modelo do dispositivo, versão do SO, versão do app e descrição do problema."
+        "note": "Se o problema persistir, entre em contato conosco em viacheslav@exquizite.app informando modelo do dispositivo, versão do SO, versão do app e descrição do problema."
       },
       "aiNotWorking": {
         "title": "Sugestões de IA não estão funcionando",
@@ -1186,7 +1186,7 @@
         "title": "Como baixo meus dados?",
         "intro": "Para solicitar uma cópia dos seus dados:",
         "steps": [
-          "Envie e-mail para support@calleo.xyz com assunto \"Data Export Request\"",
+          "Envie e-mail para viacheslav@exquizite.app com assunto \"Data Export Request\"",
           "Inclua seu endereço de e-mail cadastrado",
           "Enviaremos um arquivo com todos os seus conjuntos de vocabulário e informações da conta em até 7 dias úteis"
         ]
@@ -1195,7 +1195,7 @@
         "title": "Como excluo minha conta e dados?",
         "label": "Exclusão Permanente:",
         "steps": [
-          "Envie e-mail para support@calleo.xyz com assunto \"Data Deletion Request\"",
+          "Envie e-mail para viacheslav@exquizite.app com assunto \"Data Deletion Request\"",
           "Inclua seu endereço de e-mail cadastrado",
           "Confirmaremos sua identidade e excluiremos todos os dados em até 30 dias"
         ],
@@ -1212,17 +1212,17 @@
       "categories": [
         {
           "title": "Suporte Geral",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Em até 2-3 dias úteis"
         },
         {
           "title": "Solicitações de Privacidade e Dados",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Em até 7 dias úteis"
         },
         {
           "title": "Relatórios de Bugs e Solicitações de Recursos",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "subject": "\"Bug Report\" ou \"Feature Request\"",
           "includeItems": [
             "Modelo do dispositivo e versão do SO (ex: iPhone 14, iOS 17.2)",
@@ -1313,7 +1313,7 @@
       },
       {
         "title": "Como parar e como falar com a gente",
-        "content": "Você pode parar de usar o Calleo quando quiser e pedir que apaguemos sua conta e todo o conteúdo dela — a Política de Privacidade explica como. Podemos suspender uma conta que descumpra estes termos. Dúvidas sobre esta página: support@calleo.xyz."
+        "content": "Você pode parar de usar o Calleo quando quiser e pedir que apaguemos sua conta e todo o conteúdo dela — a Política de Privacidade explica como. Podemos suspender uma conta que descumpra estes termos. Dúvidas sobre esta página: viacheslav@exquizite.app."
       }
     ]
   },
@@ -1343,7 +1343,7 @@
       },
       {
         "title": "Como desativar e como falar com a gente",
-        "content": "Você pode bloquear ou apagar cookies nas configurações do navegador, ou usar um bloqueador de conteúdo: o site funciona bem sem eles e o único prejuízo é a nossa contagem de visitas. O Google também publica uma extensão para desativar o Analytics em tools.google.com/dlpage/gaoptout. O app do Calleo para iOS não usa cookies; o que ele guarda está descrito na Política de Privacidade. Dúvidas: support@calleo.xyz."
+        "content": "Você pode bloquear ou apagar cookies nas configurações do navegador, ou usar um bloqueador de conteúdo: o site funciona bem sem eles e o único prejuízo é a nossa contagem de visitas. O Google também publica uma extensão para desativar o Analytics em tools.google.com/dlpage/gaoptout. O app do Calleo para iOS não usa cookies; o que ele guarda está descrito na Política de Privacidade. Dúvidas: viacheslav@exquizite.app."
       }
     ]
   }

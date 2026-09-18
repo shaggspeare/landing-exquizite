@@ -281,7 +281,7 @@
           },
           {
             "label": "联系我们",
-            "href": "mailto:support@calleo.xyz"
+            "href": "mailto:viacheslav@exquizite.app"
           },
           {
             "label": "隐私政策",
@@ -570,7 +570,7 @@
               },
               {
                 "bold": "通过邮件请求",
-                "text": "发送邮件至 support@calleo.xyz，主题为\"数据删除请求\"",
+                "text": "发送邮件至 viacheslav@exquizite.app，主题为\"数据删除请求\"",
                 "subItems": [
                   "请附上您的注册邮箱地址",
                   "我们将验证您的身份并在 30 天内删除所有数据",
@@ -581,7 +581,7 @@
           },
           {
             "title": "导出您的数据",
-            "description": "如需获取您的数据副本，请发送邮件至 support@calleo.xyz，主题为\"数据导出请求\""
+            "description": "如需获取您的数据副本，请发送邮件至 viacheslav@exquizite.app，主题为\"数据导出请求\""
           },
           {
             "title": "访客模式",
@@ -595,7 +595,7 @@
       },
       {
         "title": "儿童隐私",
-        "content": "Calleo 面向 13 岁及以上的用户。我们不会故意收集 13 岁以下儿童的个人信息。如果您是家长或监护人，并认为您的孩子向我们提供了个人信息，请联系 support@calleo.xyz，我们将立即删除该信息。"
+        "content": "Calleo 面向 13 岁及以上的用户。我们不会故意收集 13 岁以下儿童的个人信息。如果您是家长或监护人，并认为您的孩子向我们提供了个人信息，请联系 viacheslav@exquizite.app，我们将立即删除该信息。"
       },
       {
         "title": "国际数据传输",
@@ -628,7 +628,7 @@
         "title": "联系我们",
         "intro": "如果您对本隐私政策或您的数据有任何疑问、关切或请求，请联系我们：",
         "contactInfo": {
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "developer": "Calleo 开发团队",
           "responseTime": "我们将在 7 个工作日内回复所有咨询。"
         }
@@ -660,7 +660,7 @@
         },
         {
           "label": "联系方式",
-          "value": "support@calleo.xyz"
+          "value": "viacheslav@exquizite.app"
         }
       ],
       "thankYou": "感谢您信任 Calleo，陪伴您的语言学习之旅！"
@@ -669,7 +669,7 @@
   "support": {
     "title": "Calleo 支持",
     "subtitle": "欢迎来到 Calleo 支持中心！在这里查找常见问题的答案并获取应用帮助。",
-    "contactEmail": "support@calleo.xyz",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "最后更新：2026年2月7日",
     "thankYou": "感谢使用 Calleo！祝学习愉快！",
     "toc": {
@@ -1068,7 +1068,7 @@
           "如果使用网页版，请强制刷新页面",
           "重新安装应用（注意：访客模式数据将丢失！）"
         ],
-        "note": "如果问题仍然存在，请发送邮件至 support@calleo.xyz，附上设备型号、系统版本、应用版本和问题描述。"
+        "note": "如果问题仍然存在，请发送邮件至 viacheslav@exquizite.app，附上设备型号、系统版本、应用版本和问题描述。"
       },
       "aiNotWorking": {
         "title": "AI 建议功能无法使用",
@@ -1186,7 +1186,7 @@
         "title": "如何下载我的数据？",
         "intro": "要请求您的数据副本：",
         "steps": [
-          "发送邮件至 support@calleo.xyz，主题为\"数据导出请求\"",
+          "发送邮件至 viacheslav@exquizite.app，主题为\"数据导出请求\"",
           "附上您的注册邮箱地址",
           "我们将在 7 个工作日内向您发送包含所有词汇集和账户信息的文件"
         ]
@@ -1195,7 +1195,7 @@
         "title": "如何删除账户和数据？",
         "label": "永久删除：",
         "steps": [
-          "发送邮件至 support@calleo.xyz，主题为\"数据删除请求\"",
+          "发送邮件至 viacheslav@exquizite.app，主题为\"数据删除请求\"",
           "附上您的注册邮箱地址",
           "我们将验证您的身份并在 30 天内删除所有数据"
         ],
@@ -1212,17 +1212,17 @@
       "categories": [
         {
           "title": "常规支持",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "2-3 个工作日内回复"
         },
         {
           "title": "隐私与数据请求",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "7 个工作日内回复"
         },
         {
           "title": "Bug 报告与功能建议",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "subject": "\"Bug Report\" 或 \"Feature Request\"",
           "includeItems": [
             "设备型号和系统版本（例如 iPhone 14, iOS 17.2）",
@@ -1313,7 +1313,7 @@
       },
       {
         "title": "停止使用与联系方式",
-        "content": "你可以随时停止使用 Calleo，也可以要求我们删除你的账户及其中的全部内容——具体做法见隐私政策。对于违反本条款的账户，我们可能暂停其使用。关于本页的问题请联系：support@calleo.xyz。"
+        "content": "你可以随时停止使用 Calleo，也可以要求我们删除你的账户及其中的全部内容——具体做法见隐私政策。对于违反本条款的账户，我们可能暂停其使用。关于本页的问题请联系：viacheslav@exquizite.app。"
       }
     ]
   },
@@ -1343,7 +1343,7 @@
       },
       {
         "title": "如何关闭与联系方式",
-        "content": "你可以在浏览器设置中屏蔽或删除 Cookie，也可以使用内容拦截器：网站没有它们也能正常工作，唯一失去的是我们的访问统计。Google 也在 tools.google.com/dlpage/gaoptout 提供 Analytics 的停用插件。Calleo 的 iOS 应用本身不使用 Cookie，它保存的内容见隐私政策。有问题请联系：support@calleo.xyz。"
+        "content": "你可以在浏览器设置中屏蔽或删除 Cookie，也可以使用内容拦截器：网站没有它们也能正常工作，唯一失去的是我们的访问统计。Google 也在 tools.google.com/dlpage/gaoptout 提供 Analytics 的停用插件。Calleo 的 iOS 应用本身不使用 Cookie，它保存的内容见隐私政策。有问题请联系：viacheslav@exquizite.app。"
       }
     ]
   }

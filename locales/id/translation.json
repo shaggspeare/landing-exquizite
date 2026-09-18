@@ -281,7 +281,7 @@
           },
           {
             "label": "Kontak",
-            "href": "mailto:support@calleo.xyz"
+            "href": "mailto:viacheslav@exquizite.app"
           },
           {
             "label": "Kebijakan Privasi",
@@ -570,7 +570,7 @@
               },
               {
                 "bold": "Permintaan melalui Email",
-                "text": "Hubungi kami di support@calleo.xyz dengan subjek \"Data Deletion Request\"",
+                "text": "Hubungi kami di viacheslav@exquizite.app dengan subjek \"Data Deletion Request\"",
                 "subItems": [
                   "Sertakan alamat email terdaftarmu",
                   "Kami akan memverifikasi identitasmu dan menghapus semua data dalam 30 hari",
@@ -581,7 +581,7 @@
           },
           {
             "title": "Mengekspor Datamu",
-            "description": "Untuk meminta salinan datamu, hubungi kami di support@calleo.xyz dengan subjek \"Data Export Request\""
+            "description": "Untuk meminta salinan datamu, hubungi kami di viacheslav@exquizite.app dengan subjek \"Data Export Request\""
           },
           {
             "title": "Mode Tamu",
@@ -595,7 +595,7 @@
       },
       {
         "title": "Privasi Anak-anak",
-        "content": "Calleo ditujukan untuk pengguna berusia 13 tahun ke atas. Kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun. Jika kamu adalah orang tua atau wali dan percaya bahwa anakmu telah memberikan informasi pribadi kepada kami, silakan hubungi kami di support@calleo.xyz, dan kami akan menghapus informasi tersebut segera."
+        "content": "Calleo ditujukan untuk pengguna berusia 13 tahun ke atas. Kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun. Jika kamu adalah orang tua atau wali dan percaya bahwa anakmu telah memberikan informasi pribadi kepada kami, silakan hubungi kami di viacheslav@exquizite.app, dan kami akan menghapus informasi tersebut segera."
       },
       {
         "title": "Transfer Data Internasional",
@@ -628,7 +628,7 @@
         "title": "Hubungi Kami",
         "intro": "Jika kamu memiliki pertanyaan, kekhawatiran, atau permintaan mengenai Kebijakan Privasi ini atau datamu, silakan hubungi kami:",
         "contactInfo": {
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "developer": "Tim Pengembangan Calleo",
           "responseTime": "Kami bertujuan merespons semua pertanyaan dalam 7 hari kerja."
         }
@@ -660,7 +660,7 @@
         },
         {
           "label": "Kontak",
-          "value": "support@calleo.xyz"
+          "value": "viacheslav@exquizite.app"
         }
       ],
       "thankYou": "Terima kasih telah mempercayakan perjalanan belajar bahasamu kepada Calleo!"
@@ -669,7 +669,7 @@
   "support": {
     "title": "Dukungan Calleo",
     "subtitle": "Selamat datang di Dukungan Calleo! Temukan jawaban untuk pertanyaan umum dan dapatkan bantuan tentang aplikasi.",
-    "contactEmail": "support@calleo.xyz",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "Terakhir diperbarui: 7 Februari 2026",
     "thankYou": "Terima kasih sudah menggunakan Calleo! Selamat belajar!",
     "toc": {
@@ -1068,7 +1068,7 @@
           "Kalau kamu memakai aplikasi web, muat ulang halaman dengan hard refresh",
           "Instal ulang aplikasi (Catatan: Data Mode Tamu akan hilang!)"
         ],
-        "note": "Jika masalah berlanjut, hubungi kami di support@calleo.xyz dengan model perangkat, versi OS, versi aplikasi, dan deskripsi masalah."
+        "note": "Jika masalah berlanjut, hubungi kami di viacheslav@exquizite.app dengan model perangkat, versi OS, versi aplikasi, dan deskripsi masalah."
       },
       "aiNotWorking": {
         "title": "Saran AI tidak berfungsi",
@@ -1186,7 +1186,7 @@
         "title": "Bagaimana cara mengunduh data saya?",
         "intro": "Untuk meminta salinan datamu:",
         "steps": [
-          "Email support@calleo.xyz dengan subjek \"Data Export Request\"",
+          "Email viacheslav@exquizite.app dengan subjek \"Data Export Request\"",
           "Sertakan alamat email terdaftarmu",
           "Kami akan mengirim file berisi semua set kosakata dan info akunmu dalam 7 hari kerja"
         ]
@@ -1195,7 +1195,7 @@
         "title": "Bagaimana cara menghapus akun dan data saya?",
         "label": "Penghapusan Permanen:",
         "steps": [
-          "Email support@calleo.xyz dengan subjek \"Data Deletion Request\"",
+          "Email viacheslav@exquizite.app dengan subjek \"Data Deletion Request\"",
           "Sertakan alamat email terdaftarmu",
           "Kami akan memverifikasi identitasmu dan menghapus semua data dalam 30 hari"
         ],
@@ -1212,17 +1212,17 @@
       "categories": [
         {
           "title": "Dukungan Umum",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Dalam 2-3 hari kerja"
         },
         {
           "title": "Permintaan Privasi & Data",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Dalam 7 hari kerja"
         },
         {
           "title": "Laporan Bug & Permintaan Fitur",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "subject": "\"Bug Report\" atau \"Feature Request\"",
           "includeItems": [
             "Model perangkat dan versi OS (misalnya iPhone 14, iOS 17.2)",
@@ -1313,7 +1313,7 @@
       },
       {
         "title": "Berhenti memakai dan cara menghubungi kami",
-        "content": "Kamu bisa berhenti memakai Calleo kapan saja, dan bisa meminta kami menghapus akun beserta seluruh isinya — Kebijakan Privasi menjelaskan caranya. Kami dapat menangguhkan akun yang melanggar ketentuan ini. Pertanyaan soal halaman ini: support@calleo.xyz."
+        "content": "Kamu bisa berhenti memakai Calleo kapan saja, dan bisa meminta kami menghapus akun beserta seluruh isinya — Kebijakan Privasi menjelaskan caranya. Kami dapat menangguhkan akun yang melanggar ketentuan ini. Pertanyaan soal halaman ini: viacheslav@exquizite.app."
       }
     ]
   },
@@ -1343,7 +1343,7 @@
       },
       {
         "title": "Cara mematikannya dan cara menghubungi kami",
-        "content": "Kamu bisa memblokir atau menghapus cookie di pengaturan browser, atau memakai pemblokir konten: situs tetap berjalan normal tanpa cookie, dan yang hilang hanya hitungan kunjungan kami. Google juga menyediakan add-on penonaktifan Analytics di tools.google.com/dlpage/gaoptout. Aplikasi Calleo untuk iOS sendiri tidak memakai cookie; apa yang disimpannya dijelaskan di Kebijakan Privasi. Pertanyaan: support@calleo.xyz."
+        "content": "Kamu bisa memblokir atau menghapus cookie di pengaturan browser, atau memakai pemblokir konten: situs tetap berjalan normal tanpa cookie, dan yang hilang hanya hitungan kunjungan kami. Google juga menyediakan add-on penonaktifan Analytics di tools.google.com/dlpage/gaoptout. Aplikasi Calleo untuk iOS sendiri tidak memakai cookie; apa yang disimpannya dijelaskan di Kebijakan Privasi. Pertanyaan: viacheslav@exquizite.app."
       }
     ]
   }

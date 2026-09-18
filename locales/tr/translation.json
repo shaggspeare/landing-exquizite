@@ -281,7 +281,7 @@
           },
           {
             "label": "İletişim",
-            "href": "mailto:support@calleo.xyz"
+            "href": "mailto:viacheslav@exquizite.app"
           },
           {
             "label": "Gizlilik Politikası",
@@ -570,7 +570,7 @@
               },
               {
                 "bold": "E-posta Talebi",
-                "text": "support@calleo.xyz adresine \"Data Deletion Request\" konulu e-posta gönderin",
+                "text": "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
                 "subItems": [
                   "Kayıtlı e-posta adresinizi ekleyin",
                   "Kimliğinizi doğrulayacağız ve tüm verileri 30 gün içinde sileceğiz",
@@ -581,7 +581,7 @@
           },
           {
             "title": "Verilerinizi Dışa Aktarın",
-            "description": "Verilerinizin bir kopyasını talep etmek için support@calleo.xyz adresine \"Data Export Request\" konulu e-posta gönderin"
+            "description": "Verilerinizin bir kopyasını talep etmek için viacheslav@exquizite.app adresine \"Data Export Request\" konulu e-posta gönderin"
           },
           {
             "title": "Misafir Modu",
@@ -595,7 +595,7 @@
       },
       {
         "title": "Çocukların Gizliliği",
-        "content": "Calleo 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi sağladığına inanıyorsanız, lütfen support@calleo.xyz adresinden bize ulaşın, bu bilgileri derhal sileceğiz."
+        "content": "Calleo 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi sağladığına inanıyorsanız, lütfen viacheslav@exquizite.app adresinden bize ulaşın, bu bilgileri derhal sileceğiz."
       },
       {
         "title": "Uluslararası Veri Transferleri",
@@ -628,7 +628,7 @@
         "title": "Bize Ulaşın",
         "intro": "Bu Gizlilik Politikası veya verilerinizle ilgili sorularınız, endişeleriniz veya talepleriniz varsa lütfen bizimle iletişime geçin:",
         "contactInfo": {
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "developer": "Calleo Geliştirme Ekibi",
           "responseTime": "Tüm sorulara 7 iş günü içinde yanıt vermeyi hedefliyoruz."
         }
@@ -660,7 +660,7 @@
         },
         {
           "label": "İletişim",
-          "value": "support@calleo.xyz"
+          "value": "viacheslav@exquizite.app"
         }
       ],
       "thankYou": "Dil öğrenme yolculuğunuzda Calleo'e güvendiğiniz için teşekkür ederiz!"
@@ -669,7 +669,7 @@
   "support": {
     "title": "Calleo Destek",
     "subtitle": "Calleo Destek'e hoş geldiniz! Sık sorulan soruların yanıtlarını bulun ve uygulama hakkında yardım alın.",
-    "contactEmail": "support@calleo.xyz",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "Son güncelleme: 7 Şubat 2026",
     "thankYou": "Calleo'i kullandığınız için teşekkürler! İyi öğrenmeler!",
     "toc": {
@@ -1068,7 +1068,7 @@
           "Web uygulamasını kullanıyorsanız sayfayı zorla yenileyin",
           "Uygulamayı yeniden yükleyin (Not: Misafir Modu verileri kaybolacaktır!)"
         ],
-        "note": "Sorun devam ederse, cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve sorunun açıklamasıyla support@calleo.xyz adresinden bize ulaşın."
+        "note": "Sorun devam ederse, cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve sorunun açıklamasıyla viacheslav@exquizite.app adresinden bize ulaşın."
       },
       "aiNotWorking": {
         "title": "Yapay zeka önerileri çalışmıyor",
@@ -1186,7 +1186,7 @@
         "title": "Verilerimi nasıl indiririm?",
         "intro": "Verilerinizin bir kopyasını talep etmek için:",
         "steps": [
-          "support@calleo.xyz adresine \"Data Export Request\" konulu e-posta gönderin",
+          "viacheslav@exquizite.app adresine \"Data Export Request\" konulu e-posta gönderin",
           "Kayıtlı e-posta adresinizi ekleyin",
           "7 iş günü içinde tüm kelime setleriniz ve hesap bilgilerinizle bir dosya göndereceğiz"
         ]
@@ -1195,7 +1195,7 @@
         "title": "Hesabımı ve verilerimi nasıl silerim?",
         "label": "Kalıcı Silme:",
         "steps": [
-          "support@calleo.xyz adresine \"Data Deletion Request\" konulu e-posta gönderin",
+          "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
           "Kayıtlı e-posta adresinizi ekleyin",
           "Kimliğinizi doğrulayacağız ve tüm verileri 30 gün içinde sileceğiz"
         ],
@@ -1212,17 +1212,17 @@
       "categories": [
         {
           "title": "Genel Destek",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "2-3 iş günü içinde"
         },
         {
           "title": "Gizlilik ve Veri Talepleri",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "7 iş günü içinde"
         },
         {
           "title": "Hata Raporları ve Özellik İstekleri",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "subject": "\"Bug Report\" veya \"Feature Request\"",
           "includeItems": [
             "Cihaz modeli ve işletim sistemi sürümü (ör. iPhone 14, iOS 17.2)",
@@ -1313,7 +1313,7 @@
       },
       {
         "title": "Bırakmak ve bize ulaşmak",
-        "content": "Calleo'yu istediğiniz zaman kullanmayı bırakabilir, hesabınızın ve içindeki her şeyin silinmesini isteyebilirsiniz; nasıl yapılacağını Gizlilik Politikası açıklıyor. Bu şartları ihlal eden bir hesabı askıya alabiliriz. Bu sayfayla ilgili sorular: support@calleo.xyz."
+        "content": "Calleo'yu istediğiniz zaman kullanmayı bırakabilir, hesabınızın ve içindeki her şeyin silinmesini isteyebilirsiniz; nasıl yapılacağını Gizlilik Politikası açıklıyor. Bu şartları ihlal eden bir hesabı askıya alabiliriz. Bu sayfayla ilgili sorular: viacheslav@exquizite.app."
       }
     ]
   },
@@ -1343,7 +1343,7 @@
       },
       {
         "title": "Nasıl kapatılır ve bize nasıl ulaşırsınız",
-        "content": "Çerezleri tarayıcı ayarlarınızdan engelleyebilir ya da silebilirsiniz, bir içerik engelleyici de kullanabilirsiniz: site onlar olmadan da sorunsuz çalışır, kaybedilen tek şey ziyaret sayımızdır. Google ayrıca tools.google.com/dlpage/gaoptout adresinde Analytics için devre dışı bırakma eklentisi sunuyor. Calleo'nun iOS uygulaması çerez kullanmaz; neleri sakladığı Gizlilik Politikası'nda yazıyor. Sorular: support@calleo.xyz."
+        "content": "Çerezleri tarayıcı ayarlarınızdan engelleyebilir ya da silebilirsiniz, bir içerik engelleyici de kullanabilirsiniz: site onlar olmadan da sorunsuz çalışır, kaybedilen tek şey ziyaret sayımızdır. Google ayrıca tools.google.com/dlpage/gaoptout adresinde Analytics için devre dışı bırakma eklentisi sunuyor. Calleo'nun iOS uygulaması çerez kullanmaz; neleri sakladığı Gizlilik Politikası'nda yazıyor. Sorular: viacheslav@exquizite.app."
       }
     ]
   }

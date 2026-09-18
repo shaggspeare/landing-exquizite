@@ -9,7 +9,9 @@ import { fileURLToPath } from 'node:url';
 const distDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'dist');
 const HOST = 'https://www.calleo.xyz';
 const LANGS = ['en', 'de', 'es', 'fr', 'it', 'pl', 'uk', 'ru', 'zh', 'ko', 'ar', 'pt', 'tr', 'id'];
-const BANNED = ['exquizite', 'Word Tinder', 'thousands of learners', 'free tier', 'href="#"'];
+// "exquizite" is not banned: the contact mailbox is still the old-brand address
+// on purpose, until a Calleo one exists. See README.
+const BANNED = ['Word Tinder', 'thousands of learners', 'free tier', 'href="#"'];
 
 const errors = [];
 const check = (ok, msg) => { if (!ok) errors.push(msg); };

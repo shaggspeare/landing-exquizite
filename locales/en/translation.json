@@ -281,7 +281,7 @@
           },
           {
             "label": "Contact",
-            "href": "mailto:support@calleo.xyz"
+            "href": "mailto:viacheslav@exquizite.app"
           },
           {
             "label": "Privacy Policy",
@@ -570,7 +570,7 @@
               },
               {
                 "bold": "Email Request",
-                "text": "Contact us at support@calleo.xyz with the subject \"Data Deletion Request\"",
+                "text": "Contact us at viacheslav@exquizite.app with the subject \"Data Deletion Request\"",
                 "subItems": [
                   "Include your registered email address",
                   "We will confirm your identity and delete all data within 30 days",
@@ -581,7 +581,7 @@
           },
           {
             "title": "Export Your Data",
-            "description": "To request a copy of your data, contact us at support@calleo.xyz with the subject \"Data Export Request\""
+            "description": "To request a copy of your data, contact us at viacheslav@exquizite.app with the subject \"Data Export Request\""
           },
           {
             "title": "Guest Mode",
@@ -595,7 +595,7 @@
       },
       {
         "title": "Children's Privacy",
-        "content": "Calleo is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at support@calleo.xyz, and we will delete such information immediately."
+        "content": "Calleo is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at viacheslav@exquizite.app, and we will delete such information immediately."
       },
       {
         "title": "International Data Transfers",
@@ -628,7 +628,7 @@
         "title": "Contact Us",
         "intro": "If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:",
         "contactInfo": {
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "developer": "Calleo Development Team",
           "responseTime": "We aim to respond to all inquiries within 7 business days."
         }
@@ -660,7 +660,7 @@
         },
         {
           "label": "Contact",
-          "value": "support@calleo.xyz"
+          "value": "viacheslav@exquizite.app"
         }
       ],
       "thankYou": "Thank you for trusting Calleo with your language learning journey!"
@@ -669,7 +669,7 @@
   "support": {
     "title": "Calleo Support",
     "subtitle": "Welcome to Calleo Support! Find answers to common questions and get help with the app.",
-    "contactEmail": "support@calleo.xyz",
+    "contactEmail": "viacheslav@exquizite.app",
     "lastUpdated": "Last updated: February 7, 2026",
     "thankYou": "Thank you for using Calleo! Happy learning!",
     "toc": {
@@ -1068,7 +1068,7 @@
           "If you use the web app, reload the page with a hard refresh",
           "Reinstall the app (Note: Guest Mode data will be lost!)"
         ],
-        "note": "If the issue persists, contact us at support@calleo.xyz with device model, OS version, app version, and description of the issue."
+        "note": "If the issue persists, contact us at viacheslav@exquizite.app with device model, OS version, app version, and description of the issue."
       },
       "aiNotWorking": {
         "title": "AI suggestions aren't working",
@@ -1186,7 +1186,7 @@
         "title": "How do I download my data?",
         "intro": "To request a copy of your data:",
         "steps": [
-          "Email support@calleo.xyz with subject \"Data Export Request\"",
+          "Email viacheslav@exquizite.app with subject \"Data Export Request\"",
           "Include your registered email address",
           "We'll send you a file with all your vocabulary sets and account info within 7 business days"
         ]
@@ -1195,7 +1195,7 @@
         "title": "How do I delete my account and data?",
         "label": "Permanent Deletion:",
         "steps": [
-          "Email support@calleo.xyz with subject \"Data Deletion Request\"",
+          "Email viacheslav@exquizite.app with subject \"Data Deletion Request\"",
           "Include your registered email address",
           "We'll confirm your identity and delete all data within 30 days"
         ],
@@ -1212,17 +1212,17 @@
       "categories": [
         {
           "title": "General Support",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Within 2-3 business days"
         },
         {
           "title": "Privacy & Data Requests",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "responseTime": "Within 7 business days"
         },
         {
           "title": "Bug Reports & Feature Requests",
-          "email": "support@calleo.xyz",
+          "email": "viacheslav@exquizite.app",
           "subject": "\"Bug Report\" or \"Feature Request\"",
           "includeItems": [
             "Device model and OS version (e.g., iPhone 14, iOS 17.2)",
@@ -1313,7 +1313,7 @@
       },
       {
         "title": "Stopping, and how to reach us",
-        "content": "You can stop using Calleo whenever you like, and you can ask us to delete your account and everything in it — the Privacy Policy explains how. We may suspend an account that breaks these terms. Questions about this page: support@calleo.xyz."
+        "content": "You can stop using Calleo whenever you like, and you can ask us to delete your account and everything in it — the Privacy Policy explains how. We may suspend an account that breaks these terms. Questions about this page: viacheslav@exquizite.app."
       }
     ]
   },
@@ -1343,7 +1343,7 @@
       },
       {
         "title": "Turning it off, and how to reach us",
-        "content": "You can block or delete cookies in your browser settings or use a content blocker: the site works fine without them and the only thing lost is our visit count. Google also publishes an opt-out add-on for Analytics at tools.google.com/dlpage/gaoptout. The Calleo iOS app itself uses no cookies; what it stores is described in the Privacy Policy. Questions: support@calleo.xyz."
+        "content": "You can block or delete cookies in your browser settings or use a content blocker: the site works fine without them and the only thing lost is our visit count. Google also publishes an opt-out add-on for Analytics at tools.google.com/dlpage/gaoptout. The Calleo iOS app itself uses no cookies; what it stores is described in the Privacy Policy. Questions: viacheslav@exquizite.app."
       }
     ]
   }

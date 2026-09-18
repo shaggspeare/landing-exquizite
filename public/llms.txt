@@ -34,7 +34,7 @@ Calleo is free. There are no ads, no subscriptions, no in-app purchases and no p
 - [Privacy Policy](https://www.calleo.xyz/privacy-policy): what data is collected, third-party sharing, data deletion
 - [Terms of Service](https://www.calleo.xyz/terms): what the terms cover, AI-generated content, liability
 - [Cookie Policy](https://www.calleo.xyz/cookies): the one browser preference and the analytics cookies this site sets
-- Contact: support@calleo.xyz
+- Contact: viacheslav@exquizite.app
 
 ## Localization
 
