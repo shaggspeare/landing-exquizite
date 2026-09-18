@@ -1,7 +1,7 @@
 {
   "name": "Calleo",
   "short_name": "Calleo",
-  "description": "Master languages through smart, interactive practice",
+  "description": "Build vocabulary sets from the words you actually need, then practice them in 6 game modes. Free, no ads.",
   "icons": [
     {
       "src": "/favicon-192x192.png",
@@ -14,7 +14,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#2563eb",
+  "theme_color": "#0A0A0A",
   "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "/"
