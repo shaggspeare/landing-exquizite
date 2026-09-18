@@ -17,7 +17,7 @@
     "freeNote": "完全免费。无广告，无订阅。",
     "appStoreButton": "在 App Store 下载",
     "webAppButton": "试用网页版",
-    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
       "dashboard": {
@@ -161,14 +161,6 @@
     "sectionSubtitle": "近距离了解我们的互动学习模式。",
     "screenshots": [
       {
-        "src": "/images/ai-generation.png",
-        "alt": "AI 词汇生成"
-      },
-      {
-        "src": "/images/added-words.png",
-        "alt": "已添加的词汇"
-      },
-      {
         "src": "/images/learning-modes.png",
         "alt": "学习模式"
       },
@@ -189,8 +181,8 @@
         "alt": "测验模式"
       },
       {
-        "src": "/images/word-tinder.png",
-        "alt": "Word Tinder"
+        "src": "/images/word-practice.png",
+        "alt": "单词练习"
       }
     ]
   },
@@ -255,7 +247,7 @@
     "subtitle": "创建第一个词汇集不到一分钟。下载应用，或直接在浏览器中打开。",
     "iosButton": "下载 iOS 版",
     "webButton": "打开网页版",
-    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "disclaimer": "完全免费。无广告，无订阅。"
   },
@@ -293,7 +285,7 @@
           },
           {
             "label": "联系我们",
-            "href": "mailto:viacheslav@exquizite.app"
+            "href": "mailto:support@calleo.xyz"
           },
           {
             "label": "隐私政策",
@@ -306,16 +298,16 @@
         "links": [
           {
             "label": "服务条款",
-            "href": "#"
+            "to": "/terms"
           },
           {
             "label": "Cookie 政策",
-            "href": "#"
+            "to": "/cookies"
           }
         ]
       }
     },
-    "copyright": "© 2025 Calleo. 用你的方式掌握语言。"
+    "copyright": "© {{year}} Calleo. 用你的方式掌握语言。"
   },
   "privacyPolicy": {
     "title": "Calleo 隐私政策",
@@ -582,7 +574,7 @@
               },
               {
                 "bold": "通过邮件请求",
-                "text": "发送邮件至 viacheslav@exquizite.app，主题为\"数据删除请求\"",
+                "text": "发送邮件至 support@calleo.xyz，主题为\"数据删除请求\"",
                 "subItems": [
                   "请附上您的注册邮箱地址",
                   "我们将验证您的身份并在 30 天内删除所有数据",
@@ -593,7 +585,7 @@
           },
           {
             "title": "导出您的数据",
-            "description": "如需获取您的数据副本，请发送邮件至 viacheslav@exquizite.app，主题为\"数据导出请求\""
+            "description": "如需获取您的数据副本，请发送邮件至 support@calleo.xyz，主题为\"数据导出请求\""
           },
           {
             "title": "访客模式",
@@ -607,7 +599,7 @@
       },
       {
         "title": "儿童隐私",
-        "content": "Calleo 面向 13 岁及以上的用户。我们不会故意收集 13 岁以下儿童的个人信息。如果您是家长或监护人，并认为您的孩子向我们提供了个人信息，请联系 viacheslav@exquizite.app，我们将立即删除该信息。"
+        "content": "Calleo 面向 13 岁及以上的用户。我们不会故意收集 13 岁以下儿童的个人信息。如果您是家长或监护人，并认为您的孩子向我们提供了个人信息，请联系 support@calleo.xyz，我们将立即删除该信息。"
       },
       {
         "title": "国际数据传输",
@@ -640,7 +632,7 @@
         "title": "联系我们",
         "intro": "如果您对本隐私政策或您的数据有任何疑问、关切或请求，请联系我们：",
         "contactInfo": {
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "developer": "Calleo 开发团队",
           "responseTime": "我们将在 7 个工作日内回复所有咨询。"
         }
@@ -672,7 +664,7 @@
         },
         {
           "label": "联系方式",
-          "value": "viacheslav@exquizite.app"
+          "value": "support@calleo.xyz"
         }
       ],
       "thankYou": "感谢您信任 Calleo，陪伴您的语言学习之旅！"
@@ -681,7 +673,7 @@
   "support": {
     "title": "Calleo 支持",
     "subtitle": "欢迎来到 Calleo 支持中心！在这里查找常见问题的答案并获取应用帮助。",
-    "contactEmail": "viacheslav@exquizite.app",
+    "contactEmail": "support@calleo.xyz",
     "lastUpdated": "最后更新：2026年2月7日",
     "thankYou": "感谢使用 Calleo！祝学习愉快！",
     "toc": {
@@ -1080,7 +1072,7 @@
           "如果使用网页版，请强制刷新页面",
           "重新安装应用（注意：访客模式数据将丢失！）"
         ],
-        "note": "如果问题仍然存在，请发送邮件至 viacheslav@exquizite.app，附上设备型号、系统版本、应用版本和问题描述。"
+        "note": "如果问题仍然存在，请发送邮件至 support@calleo.xyz，附上设备型号、系统版本、应用版本和问题描述。"
       },
       "aiNotWorking": {
         "title": "AI 建议功能无法使用",
@@ -1198,7 +1190,7 @@
         "title": "如何下载我的数据？",
         "intro": "要请求您的数据副本：",
         "steps": [
-          "发送邮件至 viacheslav@exquizite.app，主题为\"数据导出请求\"",
+          "发送邮件至 support@calleo.xyz，主题为\"数据导出请求\"",
           "附上您的注册邮箱地址",
           "我们将在 7 个工作日内向您发送包含所有词汇集和账户信息的文件"
         ]
@@ -1207,7 +1199,7 @@
         "title": "如何删除账户和数据？",
         "label": "永久删除：",
         "steps": [
-          "发送邮件至 viacheslav@exquizite.app，主题为\"数据删除请求\"",
+          "发送邮件至 support@calleo.xyz，主题为\"数据删除请求\"",
           "附上您的注册邮箱地址",
           "我们将验证您的身份并在 30 天内删除所有数据"
         ],
@@ -1224,17 +1216,17 @@
       "categories": [
         {
           "title": "常规支持",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "responseTime": "2-3 个工作日内回复"
         },
         {
           "title": "隐私与数据请求",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "responseTime": "7 个工作日内回复"
         },
         {
           "title": "Bug 报告与功能建议",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "subject": "\"Bug Report\" 或 \"Feature Request\"",
           "includeItems": [
             "设备型号和系统版本（例如 iPhone 14, iOS 17.2）",
@@ -1287,5 +1279,76 @@
         }
       ]
     }
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新：2026年9月18日",
+    "sections": [
+      {
+        "title": "这些条款适用于什么",
+        "content": "Calleo 是一位独立开发者制作的词汇学习应用。本条款适用于 iOS 应用、app.calleo.xyz 上的网页应用以及本网站。使用 Calleo 即表示你接受这些条款。如果你不同意，请不要使用本应用。"
+      },
+      {
+        "title": "Calleo 是免费的",
+        "content": "使用 Calleo 不花一分钱。没有广告、没有订阅、没有应用内购买，因此没有需要收费、取消或退款的内容。如果这一点将来有变化，你已有的一切仍可继续使用，并且本页会先行说明。"
+      },
+      {
+        "title": "你的账户和你的词汇集",
+        "content": "你可以在访客模式下使用 Calleo，无需账户，此时词汇集只保存在你的设备上。如果你创建账户，请妥善保管密码；若怀疑他人知道密码，请告知我们。你创建的词汇集归你所有：我们保存它们，用于向你展示并在你的设备之间同步，你可以随时修改或删除。其中的内容由你负责。"
+      },
+      {
+        "title": "不得做的事",
+        "intro": "请不要：",
+        "items": [
+          "上传违法、仇恨性或侵犯他人权利的内容",
+          "试图访问他人的账户、词汇集或数据",
+          "将 AI 功能用于语言学习之外的用途",
+          "转售 Calleo、更换其品牌或将其包装成你自己的服务",
+          "攻击、超载服务或绕过其技术限制"
+        ]
+      },
+      {
+        "title": "AI 生成的内容",
+        "content": "翻译、音标和例句由 AI 模型生成，通常不错，偶尔出错。重要内容请对照词典或请教老师核实：我们无法保证生成内容准确，你需自行判断后使用。"
+      },
+      {
+        "title": "可用性、变更与责任",
+        "content": "Calleo 按现状提供，不附带任何保证。功能可能变更或下线，服务也可能因维护或我们无法控制的原因暂时不可用，因此请自行备份你不能承受丢失的内容。在法律允许的范围内，我们不对数据丢失、学习进度丢失或间接损失承担责任。本页内容不影响你所在地消费者法律赋予你的权利。我们可能更新本条款；届时本页顶部的日期会随之变更。"
+      },
+      {
+        "title": "停止使用与联系方式",
+        "content": "你可以随时停止使用 Calleo，也可以要求我们删除你的账户及其中的全部内容——具体做法见隐私政策。对于违反本条款的账户，我们可能暂停其使用。关于本页的问题请联系：support@calleo.xyz。"
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookie 政策",
+    "lastUpdated": "最后更新：2026年9月18日",
+    "sections": [
+      {
+        "title": "简短版本",
+        "content": "本网站不使用广告类 Cookie，也不会跨站追踪你。它只记住你选择的语言，并用 Google Analytics 统计访问量。"
+      },
+      {
+        "title": "本网站保存什么",
+        "intro": "只有两项：",
+        "items": [
+          "语言偏好——保存在浏览器的本地存储中，而不是 Cookie 里，这样网站会以你选择的语言打开。它不会离开你的浏览器。",
+          "Google Analytics——设置 _ga 和 _ga_* Cookie，用于统计访问量并区分新访客与回访者。其中只有一个随机标识符，不含你的姓名或邮箱。"
+        ]
+      },
+      {
+        "title": "本网站不做什么",
+        "items": [
+          "没有广告、再营销或社交媒体 Cookie",
+          "不出售也不共享分析数据",
+          "阅读本站任何页面都不需要 Cookie"
+        ]
+      },
+      {
+        "title": "如何关闭与联系方式",
+        "content": "你可以在浏览器设置中屏蔽或删除 Cookie，也可以使用内容拦截器：网站没有它们也能正常工作，唯一失去的是我们的访问统计。Google 也在 tools.google.com/dlpage/gaoptout 提供 Analytics 的停用插件。Calleo 的 iOS 应用本身不使用 Cookie，它保存的内容见隐私政策。有问题请联系：support@calleo.xyz。"
+      }
+    ]
   }
 }

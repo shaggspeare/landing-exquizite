@@ -8,6 +8,17 @@ const Footer: React.FC = () => {
   const d = data.footer;
   const prefix = useLanguagePrefix();
 
+  // links carry either `to` (an in-app route, language-prefixed) or `href`
+  const renderLink = (link: { label: string; to?: string; href?: string }, i: number) => (
+    <li key={i}>
+      {link.to ? (
+        <Link to={`${prefix}${link.to}`} className="hover:text-accent transition-colors">{link.label}</Link>
+      ) : (
+        <a href={link.href} className="hover:text-accent transition-colors">{link.label}</a>
+      )}
+    </li>
+  );
+
   return (
     <footer className="bg-paper border-t border-ink/10 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -25,39 +36,29 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-[11px] font-extrabold tracking-[0.15em] uppercase text-ink/40 mb-4">{d.columns.product.title}</h3>
             <ul className="space-y-2.5 text-sm text-ink/60">
-              {d.columns.product.links.map((link: any, i: number) => (
-                <li key={i}><a href={link.href} className="hover:text-accent transition-colors">{link.label}</a></li>
-              ))}
+              {d.columns.product.links.map(renderLink)}
             </ul>
           </div>
 
           <div>
             <h3 className="text-[11px] font-extrabold tracking-[0.15em] uppercase text-ink/40 mb-4">{d.columns.support.title}</h3>
             <ul className="space-y-2.5 text-sm text-ink/60">
-              {d.columns.support.links.map((link: any, i: number) => (
-                <li key={i}>
-                  {link.to ? (
-                    <Link to={`${prefix}${link.to}`} className="hover:text-accent transition-colors">{link.label}</Link>
-                  ) : (
-                    <a href={link.href} className="hover:text-accent transition-colors">{link.label}</a>
-                  )}
-                </li>
-              ))}
+              {d.columns.support.links.map(renderLink)}
             </ul>
           </div>
 
           <div>
             <h3 className="text-[11px] font-extrabold tracking-[0.15em] uppercase text-ink/40 mb-4">{d.columns.legal.title}</h3>
             <ul className="space-y-2.5 text-sm text-ink/60">
-              {d.columns.legal.links.map((link: any, i: number) => (
-                <li key={i}><a href={link.href} className="hover:text-accent transition-colors">{link.label}</a></li>
-              ))}
+              {d.columns.legal.links.map(renderLink)}
             </ul>
           </div>
         </div>
 
         <div className="pt-8 border-t border-ink/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-ink/40">{d.copyright}</p>
+          <p className="text-sm text-ink/40">
+            {d.copyright.replace('{{year}}', String(new Date().getFullYear()))}
+          </p>
         </div>
       </div>
     </footer>

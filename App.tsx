@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import LandingPage from './components/LandingPage';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Support from './components/Support';
+import LegalPage from './components/LegalPage';
 import ScrollToTop from './components/ScrollToTop';
 
 function LanguageWrapper({ children }: { children: React.ReactNode }) {
@@ -43,11 +44,15 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/terms" element={<LegalPage page="terms" />} />
+        <Route path="/cookies" element={<LegalPage page="cookies" />} />
 
         {/* Localized routes */}
         <Route path="/:lang" element={<LanguageWrapper><LandingPage /></LanguageWrapper>} />
         <Route path="/:lang/privacy-policy" element={<LanguageWrapper><PrivacyPolicy /></LanguageWrapper>} />
         <Route path="/:lang/support" element={<LanguageWrapper><Support /></LanguageWrapper>} />
+        <Route path="/:lang/terms" element={<LanguageWrapper><LegalPage page="terms" /></LanguageWrapper>} />
+        <Route path="/:lang/cookies" element={<LanguageWrapper><LegalPage page="cookies" /></LanguageWrapper>} />
       </Routes>
       <Footer />
     </div>

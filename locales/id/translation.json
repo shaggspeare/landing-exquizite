@@ -17,7 +17,7 @@
     "freeNote": "Gratis. Tanpa iklan. Tanpa langganan.",
     "appStoreButton": "Unduh di App Store",
     "webAppButton": "Coba Aplikasi Web",
-    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
       "dashboard": {
@@ -161,14 +161,6 @@
     "sectionSubtitle": "Lihat lebih dekat mode pembelajaran interaktif kami.",
     "screenshots": [
       {
-        "src": "/images/ai-generation.png",
-        "alt": "Pembuatan Kata dengan AI"
-      },
-      {
-        "src": "/images/added-words.png",
-        "alt": "Kata yang Ditambahkan"
-      },
-      {
         "src": "/images/learning-modes.png",
         "alt": "Mode Pembelajaran"
       },
@@ -189,8 +181,8 @@
         "alt": "Mode Kuis"
       },
       {
-        "src": "/images/word-tinder.png",
-        "alt": "Word Tinder"
+        "src": "/images/word-practice.png",
+        "alt": "Latihan kata"
       }
     ]
   },
@@ -255,7 +247,7 @@
     "subtitle": "Set pertama kamu selesai dalam waktu kurang dari satu menit. Unduh aplikasinya atau buka di browser.",
     "iosButton": "Unduh untuk iOS",
     "webButton": "Buka Aplikasi Web",
-    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "disclaimer": "Gratis. Tanpa iklan. Tanpa langganan."
   },
@@ -293,7 +285,7 @@
           },
           {
             "label": "Kontak",
-            "href": "mailto:viacheslav@exquizite.app"
+            "href": "mailto:support@calleo.xyz"
           },
           {
             "label": "Kebijakan Privasi",
@@ -306,16 +298,16 @@
         "links": [
           {
             "label": "Ketentuan Layanan",
-            "href": "#"
+            "to": "/terms"
           },
           {
             "label": "Kebijakan Cookie",
-            "href": "#"
+            "to": "/cookies"
           }
         ]
       }
     },
-    "copyright": "© 2025 Calleo. Kuasai bahasa, dengan caramu."
+    "copyright": "© {{year}} Calleo. Kuasai bahasa, dengan caramu."
   },
   "privacyPolicy": {
     "title": "Kebijakan Privasi Calleo",
@@ -582,7 +574,7 @@
               },
               {
                 "bold": "Permintaan melalui Email",
-                "text": "Hubungi kami di viacheslav@exquizite.app dengan subjek \"Data Deletion Request\"",
+                "text": "Hubungi kami di support@calleo.xyz dengan subjek \"Data Deletion Request\"",
                 "subItems": [
                   "Sertakan alamat email terdaftarmu",
                   "Kami akan memverifikasi identitasmu dan menghapus semua data dalam 30 hari",
@@ -593,7 +585,7 @@
           },
           {
             "title": "Mengekspor Datamu",
-            "description": "Untuk meminta salinan datamu, hubungi kami di viacheslav@exquizite.app dengan subjek \"Data Export Request\""
+            "description": "Untuk meminta salinan datamu, hubungi kami di support@calleo.xyz dengan subjek \"Data Export Request\""
           },
           {
             "title": "Mode Tamu",
@@ -607,7 +599,7 @@
       },
       {
         "title": "Privasi Anak-anak",
-        "content": "Calleo ditujukan untuk pengguna berusia 13 tahun ke atas. Kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun. Jika kamu adalah orang tua atau wali dan percaya bahwa anakmu telah memberikan informasi pribadi kepada kami, silakan hubungi kami di viacheslav@exquizite.app, dan kami akan menghapus informasi tersebut segera."
+        "content": "Calleo ditujukan untuk pengguna berusia 13 tahun ke atas. Kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun. Jika kamu adalah orang tua atau wali dan percaya bahwa anakmu telah memberikan informasi pribadi kepada kami, silakan hubungi kami di support@calleo.xyz, dan kami akan menghapus informasi tersebut segera."
       },
       {
         "title": "Transfer Data Internasional",
@@ -640,7 +632,7 @@
         "title": "Hubungi Kami",
         "intro": "Jika kamu memiliki pertanyaan, kekhawatiran, atau permintaan mengenai Kebijakan Privasi ini atau datamu, silakan hubungi kami:",
         "contactInfo": {
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "developer": "Tim Pengembangan Calleo",
           "responseTime": "Kami bertujuan merespons semua pertanyaan dalam 7 hari kerja."
         }
@@ -672,7 +664,7 @@
         },
         {
           "label": "Kontak",
-          "value": "viacheslav@exquizite.app"
+          "value": "support@calleo.xyz"
         }
       ],
       "thankYou": "Terima kasih telah mempercayakan perjalanan belajar bahasamu kepada Calleo!"
@@ -681,7 +673,7 @@
   "support": {
     "title": "Dukungan Calleo",
     "subtitle": "Selamat datang di Dukungan Calleo! Temukan jawaban untuk pertanyaan umum dan dapatkan bantuan tentang aplikasi.",
-    "contactEmail": "viacheslav@exquizite.app",
+    "contactEmail": "support@calleo.xyz",
     "lastUpdated": "Terakhir diperbarui: 7 Februari 2026",
     "thankYou": "Terima kasih sudah menggunakan Calleo! Selamat belajar!",
     "toc": {
@@ -1080,7 +1072,7 @@
           "Kalau kamu memakai aplikasi web, muat ulang halaman dengan hard refresh",
           "Instal ulang aplikasi (Catatan: Data Mode Tamu akan hilang!)"
         ],
-        "note": "Jika masalah berlanjut, hubungi kami di viacheslav@exquizite.app dengan model perangkat, versi OS, versi aplikasi, dan deskripsi masalah."
+        "note": "Jika masalah berlanjut, hubungi kami di support@calleo.xyz dengan model perangkat, versi OS, versi aplikasi, dan deskripsi masalah."
       },
       "aiNotWorking": {
         "title": "Saran AI tidak berfungsi",
@@ -1198,7 +1190,7 @@
         "title": "Bagaimana cara mengunduh data saya?",
         "intro": "Untuk meminta salinan datamu:",
         "steps": [
-          "Email viacheslav@exquizite.app dengan subjek \"Data Export Request\"",
+          "Email support@calleo.xyz dengan subjek \"Data Export Request\"",
           "Sertakan alamat email terdaftarmu",
           "Kami akan mengirim file berisi semua set kosakata dan info akunmu dalam 7 hari kerja"
         ]
@@ -1207,7 +1199,7 @@
         "title": "Bagaimana cara menghapus akun dan data saya?",
         "label": "Penghapusan Permanen:",
         "steps": [
-          "Email viacheslav@exquizite.app dengan subjek \"Data Deletion Request\"",
+          "Email support@calleo.xyz dengan subjek \"Data Deletion Request\"",
           "Sertakan alamat email terdaftarmu",
           "Kami akan memverifikasi identitasmu dan menghapus semua data dalam 30 hari"
         ],
@@ -1224,17 +1216,17 @@
       "categories": [
         {
           "title": "Dukungan Umum",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "responseTime": "Dalam 2-3 hari kerja"
         },
         {
           "title": "Permintaan Privasi & Data",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "responseTime": "Dalam 7 hari kerja"
         },
         {
           "title": "Laporan Bug & Permintaan Fitur",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "subject": "\"Bug Report\" atau \"Feature Request\"",
           "includeItems": [
             "Model perangkat dan versi OS (misalnya iPhone 14, iOS 17.2)",
@@ -1287,5 +1279,76 @@
         }
       ]
     }
+  },
+  "terms": {
+    "title": "Ketentuan Layanan",
+    "lastUpdated": "Terakhir diperbarui: 18 September 2026",
+    "sections": [
+      {
+        "title": "Apa yang dicakup ketentuan ini",
+        "content": "Calleo adalah aplikasi belajar kosakata yang dibuat oleh pengembang independen. Ketentuan ini berlaku untuk aplikasi iOS, aplikasi web di app.calleo.xyz, dan situs ini. Dengan memakai Calleo, kamu menyetujuinya. Kalau tidak setuju, mohon jangan memakai aplikasinya."
+      },
+      {
+        "title": "Calleo gratis",
+        "content": "Memakai Calleo tidak memerlukan biaya. Tidak ada iklan, langganan, atau pembelian dalam aplikasi, jadi tidak ada yang perlu ditagih, dibatalkan, atau dikembalikan. Kalau suatu hari hal ini berubah, semua yang sudah kamu miliki tetap bisa dipakai dan halaman ini akan memberitahukannya lebih dulu."
+      },
+      {
+        "title": "Akun dan set kamu",
+        "content": "Kamu bisa memakai Calleo dalam mode tamu tanpa akun; set kamu lalu hanya tersimpan di perangkat. Kalau membuat akun, simpan kata sandi untuk dirimu sendiri dan beri tahu kami jika kamu merasa orang lain mengetahuinya. Set kata yang kamu buat adalah milikmu: kami menyimpannya untuk menampilkannya kembali dan menyinkronkannya antar perangkatmu, dan kamu bisa mengubah atau menghapusnya kapan saja. Isinya adalah tanggung jawabmu."
+      },
+      {
+        "title": "Yang tidak boleh dilakukan",
+        "intro": "Mohon jangan:",
+        "items": [
+          "Mengunggah konten yang melanggar hukum, penuh kebencian, atau melanggar hak orang lain",
+          "Mencoba mengakses akun, set, atau data orang lain",
+          "Memakai fitur AI untuk hal selain belajar bahasa",
+          "Menjual ulang, mengganti merek, atau mengemas ulang Calleo sebagai layananmu sendiri",
+          "Menyerang, membebani, atau mengakali batas teknis layanan"
+        ]
+      },
+      {
+        "title": "Konten buatan AI",
+        "content": "Terjemahan, transkripsi, dan contoh kalimat dibuat oleh model AI. Biasanya bagus, kadang salah. Periksa hal yang penting di kamus atau tanyakan ke guru: kami tidak menjamin ketepatan konten buatan AI, dan kamu memakainya dengan pertimbangan sendiri."
+      },
+      {
+        "title": "Ketersediaan, perubahan, dan tanggung jawab",
+        "content": "Calleo disediakan apa adanya, tanpa jaminan. Fitur bisa berubah atau dihentikan, dan layanan bisa tidak tersedia karena pemeliharaan atau hal di luar kendali kami, jadi simpan salinan sendiri untuk apa pun yang tidak boleh hilang. Sejauh diizinkan hukum, kami tidak bertanggung jawab atas kehilangan data, kehilangan kemajuan belajar, atau kerugian tidak langsung. Tidak ada di sini yang menghapus hakmu berdasarkan hukum perlindungan konsumen di tempatmu. Kami dapat memperbarui ketentuan ini; saat itu terjadi, tanggal di bagian atas halaman ini berubah."
+      },
+      {
+        "title": "Berhenti memakai dan cara menghubungi kami",
+        "content": "Kamu bisa berhenti memakai Calleo kapan saja, dan bisa meminta kami menghapus akun beserta seluruh isinya — Kebijakan Privasi menjelaskan caranya. Kami dapat menangguhkan akun yang melanggar ketentuan ini. Pertanyaan soal halaman ini: support@calleo.xyz."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Kebijakan Cookie",
+    "lastUpdated": "Terakhir diperbarui: 18 September 2026",
+    "sections": [
+      {
+        "title": "Versi singkat",
+        "content": "Situs ini tidak memakai cookie untuk iklan dan tidak melacak kamu di situs lain. Situs ini mengingat bahasa yang kamu pilih dan menghitung kunjungan dengan Google Analytics."
+      },
+      {
+        "title": "Apa yang disimpan situs ini",
+        "intro": "Dua hal, itu saja:",
+        "items": [
+          "Preferensi bahasa — disimpan di local storage browser, bukan di cookie, supaya situs terbuka dalam bahasa pilihanmu. Data ini tidak pernah keluar dari browsermu.",
+          "Google Analytics — memasang cookie _ga dan _ga_* untuk menghitung kunjungan dan membedakan pengunjung baru dari yang kembali. Isinya pengenal acak, bukan nama atau email kamu."
+        ]
+      },
+      {
+        "title": "Apa yang tidak dilakukan situs ini",
+        "items": [
+          "Tidak ada cookie iklan, retargeting, atau media sosial",
+          "Tidak ada penjualan atau pembagian data analitik",
+          "Tidak ada cookie yang diperlukan untuk membaca halaman mana pun di sini"
+        ]
+      },
+      {
+        "title": "Cara mematikannya dan cara menghubungi kami",
+        "content": "Kamu bisa memblokir atau menghapus cookie di pengaturan browser, atau memakai pemblokir konten: situs tetap berjalan normal tanpa cookie, dan yang hilang hanya hitungan kunjungan kami. Google juga menyediakan add-on penonaktifan Analytics di tools.google.com/dlpage/gaoptout. Aplikasi Calleo untuk iOS sendiri tidak memakai cookie; apa yang disimpannya dijelaskan di Kebijakan Privasi. Pertanyaan: support@calleo.xyz."
+      }
+    ]
   }
 }

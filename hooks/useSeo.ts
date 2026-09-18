@@ -3,12 +3,14 @@ import { useTranslation } from 'react-i18next';
 import { useData } from './useData';
 import { languageCodes } from '../i18n';
 
-export type SeoPage = 'home' | 'privacy-policy' | 'support';
+export type SeoPage = 'home' | 'privacy-policy' | 'support' | 'terms' | 'cookies';
 
 const ROUTE_SUFFIX: Record<SeoPage, string> = {
   home: '',
   'privacy-policy': '/privacy-policy',
   support: '/support',
+  terms: '/terms',
+  cookies: '/cookies',
 };
 
 const SITE_URL = 'https://calleo.xyz';
@@ -39,10 +41,11 @@ export function useSeo(page: SeoPage) {
     if (page === 'home') {
       title = `${data.hero.titleLine1} ${data.hero.titleLine2} · Calleo`;
       description = data.hero.subtitle;
-    } else if (page === 'privacy-policy') {
-      title = `${data.privacyPolicy.title} · Calleo`;
-    } else {
+    } else if (page === 'support') {
       title = data.support.title;
+    } else {
+      const key = page === 'privacy-policy' ? 'privacyPolicy' : page;
+      title = `${data[key].title} · Calleo`;
     }
 
     document.title = title;

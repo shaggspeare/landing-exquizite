@@ -17,7 +17,7 @@
     "freeNote": "Ücretsiz. Reklam yok. Abonelik yok.",
     "appStoreButton": "App Store'dan İndir",
     "webAppButton": "Web Uygulamasını Dene",
-    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
       "dashboard": {
@@ -161,14 +161,6 @@
     "sectionSubtitle": "Etkileşimli öğrenme modlarımıza yakından bakın.",
     "screenshots": [
       {
-        "src": "/images/ai-generation.png",
-        "alt": "Yapay Zeka Kelime Üretimi"
-      },
-      {
-        "src": "/images/added-words.png",
-        "alt": "Eklenen Kelimeler"
-      },
-      {
         "src": "/images/learning-modes.png",
         "alt": "Öğrenme Modları"
       },
@@ -189,8 +181,8 @@
         "alt": "Quiz Modu"
       },
       {
-        "src": "/images/word-tinder.png",
-        "alt": "Word Tinder"
+        "src": "/images/word-practice.png",
+        "alt": "Kelime pratiği"
       }
     ]
   },
@@ -255,7 +247,7 @@
     "subtitle": "İlk setiniz bir dakikadan kısa sürer. Uygulamayı indirin ya da tarayıcınızda açın.",
     "iosButton": "iOS için İndir",
     "webButton": "Web Uygulamasını Aç",
-    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "disclaimer": "Ücretsiz. Reklam yok. Abonelik yok."
   },
@@ -293,7 +285,7 @@
           },
           {
             "label": "İletişim",
-            "href": "mailto:viacheslav@exquizite.app"
+            "href": "mailto:support@calleo.xyz"
           },
           {
             "label": "Gizlilik Politikası",
@@ -306,16 +298,16 @@
         "links": [
           {
             "label": "Hizmet Şartları",
-            "href": "#"
+            "to": "/terms"
           },
           {
             "label": "Çerez Politikası",
-            "href": "#"
+            "to": "/cookies"
           }
         ]
       }
     },
-    "copyright": "© 2025 Calleo. Dilleri kendi tarzınızda öğrenin."
+    "copyright": "© {{year}} Calleo. Dilleri kendi tarzınızda öğrenin."
   },
   "privacyPolicy": {
     "title": "Calleo Gizlilik Politikası",
@@ -582,7 +574,7 @@
               },
               {
                 "bold": "E-posta Talebi",
-                "text": "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
+                "text": "support@calleo.xyz adresine \"Data Deletion Request\" konulu e-posta gönderin",
                 "subItems": [
                   "Kayıtlı e-posta adresinizi ekleyin",
                   "Kimliğinizi doğrulayacağız ve tüm verileri 30 gün içinde sileceğiz",
@@ -593,7 +585,7 @@
           },
           {
             "title": "Verilerinizi Dışa Aktarın",
-            "description": "Verilerinizin bir kopyasını talep etmek için viacheslav@exquizite.app adresine \"Data Export Request\" konulu e-posta gönderin"
+            "description": "Verilerinizin bir kopyasını talep etmek için support@calleo.xyz adresine \"Data Export Request\" konulu e-posta gönderin"
           },
           {
             "title": "Misafir Modu",
@@ -607,7 +599,7 @@
       },
       {
         "title": "Çocukların Gizliliği",
-        "content": "Calleo 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi sağladığına inanıyorsanız, lütfen viacheslav@exquizite.app adresinden bize ulaşın, bu bilgileri derhal sileceğiz."
+        "content": "Calleo 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşından küçük çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir ebeveyn veya vasi iseniz ve çocuğunuzun bize kişisel bilgi sağladığına inanıyorsanız, lütfen support@calleo.xyz adresinden bize ulaşın, bu bilgileri derhal sileceğiz."
       },
       {
         "title": "Uluslararası Veri Transferleri",
@@ -640,7 +632,7 @@
         "title": "Bize Ulaşın",
         "intro": "Bu Gizlilik Politikası veya verilerinizle ilgili sorularınız, endişeleriniz veya talepleriniz varsa lütfen bizimle iletişime geçin:",
         "contactInfo": {
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "developer": "Calleo Geliştirme Ekibi",
           "responseTime": "Tüm sorulara 7 iş günü içinde yanıt vermeyi hedefliyoruz."
         }
@@ -672,7 +664,7 @@
         },
         {
           "label": "İletişim",
-          "value": "viacheslav@exquizite.app"
+          "value": "support@calleo.xyz"
         }
       ],
       "thankYou": "Dil öğrenme yolculuğunuzda Calleo'e güvendiğiniz için teşekkür ederiz!"
@@ -681,7 +673,7 @@
   "support": {
     "title": "Calleo Destek",
     "subtitle": "Calleo Destek'e hoş geldiniz! Sık sorulan soruların yanıtlarını bulun ve uygulama hakkında yardım alın.",
-    "contactEmail": "viacheslav@exquizite.app",
+    "contactEmail": "support@calleo.xyz",
     "lastUpdated": "Son güncelleme: 7 Şubat 2026",
     "thankYou": "Calleo'i kullandığınız için teşekkürler! İyi öğrenmeler!",
     "toc": {
@@ -1080,7 +1072,7 @@
           "Web uygulamasını kullanıyorsanız sayfayı zorla yenileyin",
           "Uygulamayı yeniden yükleyin (Not: Misafir Modu verileri kaybolacaktır!)"
         ],
-        "note": "Sorun devam ederse, cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve sorunun açıklamasıyla viacheslav@exquizite.app adresinden bize ulaşın."
+        "note": "Sorun devam ederse, cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve sorunun açıklamasıyla support@calleo.xyz adresinden bize ulaşın."
       },
       "aiNotWorking": {
         "title": "Yapay zeka önerileri çalışmıyor",
@@ -1198,7 +1190,7 @@
         "title": "Verilerimi nasıl indiririm?",
         "intro": "Verilerinizin bir kopyasını talep etmek için:",
         "steps": [
-          "viacheslav@exquizite.app adresine \"Data Export Request\" konulu e-posta gönderin",
+          "support@calleo.xyz adresine \"Data Export Request\" konulu e-posta gönderin",
           "Kayıtlı e-posta adresinizi ekleyin",
           "7 iş günü içinde tüm kelime setleriniz ve hesap bilgilerinizle bir dosya göndereceğiz"
         ]
@@ -1207,7 +1199,7 @@
         "title": "Hesabımı ve verilerimi nasıl silerim?",
         "label": "Kalıcı Silme:",
         "steps": [
-          "viacheslav@exquizite.app adresine \"Data Deletion Request\" konulu e-posta gönderin",
+          "support@calleo.xyz adresine \"Data Deletion Request\" konulu e-posta gönderin",
           "Kayıtlı e-posta adresinizi ekleyin",
           "Kimliğinizi doğrulayacağız ve tüm verileri 30 gün içinde sileceğiz"
         ],
@@ -1224,17 +1216,17 @@
       "categories": [
         {
           "title": "Genel Destek",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "responseTime": "2-3 iş günü içinde"
         },
         {
           "title": "Gizlilik ve Veri Talepleri",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "responseTime": "7 iş günü içinde"
         },
         {
           "title": "Hata Raporları ve Özellik İstekleri",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "subject": "\"Bug Report\" veya \"Feature Request\"",
           "includeItems": [
             "Cihaz modeli ve işletim sistemi sürümü (ör. iPhone 14, iOS 17.2)",
@@ -1287,5 +1279,76 @@
         }
       ]
     }
+  },
+  "terms": {
+    "title": "Hizmet Şartları",
+    "lastUpdated": "Son güncelleme: 18 Eylül 2026",
+    "sections": [
+      {
+        "title": "Bu şartlar neyi kapsar",
+        "content": "Calleo, bağımsız bir geliştirici tarafından yapılan bir kelime öğrenme uygulamasıdır. Bu şartlar iOS uygulaması, app.calleo.xyz adresindeki web uygulaması ve bu web sitesi için geçerlidir. Calleo'yu kullanarak şartları kabul etmiş olursunuz. Kabul etmiyorsanız lütfen uygulamayı kullanmayın."
+      },
+      {
+        "title": "Calleo ücretsizdir",
+        "content": "Calleo'yu kullanmak hiçbir şeye mal olmaz. Reklam, abonelik ya da uygulama içi satın alma yok; dolayısıyla faturalandırılacak, iptal edilecek veya iade edilecek bir şey de yok. Bu bir gün değişirse, elinizdeki her şey kullanılabilir kalır ve bu sayfa önce haber verir."
+      },
+      {
+        "title": "Hesabınız ve setleriniz",
+        "content": "Calleo'yu hesap açmadan, misafir modunda kullanabilirsiniz; o durumda setleriniz cihazınızda kalır. Hesap açarsanız şifrenizi kendinize saklayın ve başkasının bildiğini düşünüyorsanız bize yazın. Oluşturduğunuz kelime setleri sizindir: onları size geri göstermek ve cihazlarınız arasında eşitlemek için saklıyoruz, dilediğiniz zaman düzenleyip silebilirsiniz. İçeriğinden siz sorumlusunuz."
+      },
+      {
+        "title": "Yapılmaması gerekenler",
+        "intro": "Lütfen şunları yapmayın:",
+        "items": [
+          "Yasa dışı, nefret içeren ya da başkalarının haklarını ihlal eden içerik yüklemek",
+          "Başkalarının hesaplarına, setlerine veya verilerine erişmeye çalışmak",
+          "Yapay zekâ özelliklerini dil öğrenme dışında bir şey için kullanmak",
+          "Calleo'yu yeniden satmak, markasını değiştirmek veya kendi hizmetiniz gibi sunmak",
+          "Hizmete saldırmak, aşırı yük bindirmek ya da teknik sınırlarını aşmak"
+        ]
+      },
+      {
+        "title": "Yapay zekâ ile üretilen içerik",
+        "content": "Çeviriler, okunuşlar ve örnek cümleler bir yapay zekâ modeli tarafından üretilir. Genellikle iyidir, bazen yanlıştır. Önemli olan her şeyi bir sözlükten ya da bir öğretmenden doğrulayın: üretilen içeriğin doğruluğunu garanti edemeyiz, kullanım kararı sizindir."
+      },
+      {
+        "title": "Erişilebilirlik, değişiklikler ve sorumluluk",
+        "content": "Calleo olduğu gibi, garantisiz sunulur. Özellikler değişebilir veya kaldırılabilir; hizmet bakım nedeniyle ya da kontrolümüz dışındaki sebeplerle erişilemez olabilir, bu yüzden kaybetmeyi göze alamayacağınız şeylerin kendi kopyanızı tutun. Yasanın izin verdiği ölçüde veri kaybı, ilerleme kaybı veya dolaylı zararlardan sorumlu değiliz. Buradaki hiçbir madde, bulunduğunuz ülkenin tüketici hukukunun size verdiği hakları ortadan kaldırmaz. Bu şartları güncelleyebiliriz; güncellediğimizde sayfanın başındaki tarih değişir."
+      },
+      {
+        "title": "Bırakmak ve bize ulaşmak",
+        "content": "Calleo'yu istediğiniz zaman kullanmayı bırakabilir, hesabınızın ve içindeki her şeyin silinmesini isteyebilirsiniz; nasıl yapılacağını Gizlilik Politikası açıklıyor. Bu şartları ihlal eden bir hesabı askıya alabiliriz. Bu sayfayla ilgili sorular: support@calleo.xyz."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Çerez Politikası",
+    "lastUpdated": "Son güncelleme: 18 Eylül 2026",
+    "sections": [
+      {
+        "title": "Kısa hâli",
+        "content": "Bu web sitesi reklam amaçlı çerez kullanmaz ve sizi başka sitelerde izlemez. Yalnızca seçtiğiniz dili hatırlar ve Google Analytics ile ziyaretleri sayar."
+      },
+      {
+        "title": "Bu sitenin sakladıkları",
+        "intro": "İki şey, hepsi bu:",
+        "items": [
+          "Dil tercihi — çerezde değil, tarayıcınızın yerel deposunda tutulur; böylece site seçtiğiniz dilde açılır. Tarayıcınızdan hiç çıkmaz.",
+          "Google Analytics — ziyaretleri saymak ve geri gelen ziyaretçiyi yeni ziyaretçiden ayırmak için _ga ve _ga_* çerezlerini kurar. İçlerinde rastgele bir kimlik vardır; adınız ya da e-postanız yoktur."
+        ]
+      },
+      {
+        "title": "Bu sitenin yapmadıkları",
+        "items": [
+          "Reklam, yeniden hedefleme veya sosyal medya çerezi yok",
+          "Analitik verilerinin satışı veya paylaşımı yok",
+          "Buradaki hiçbir sayfayı okumak için çerez gerekmiyor"
+        ]
+      },
+      {
+        "title": "Nasıl kapatılır ve bize nasıl ulaşırsınız",
+        "content": "Çerezleri tarayıcı ayarlarınızdan engelleyebilir ya da silebilirsiniz, bir içerik engelleyici de kullanabilirsiniz: site onlar olmadan da sorunsuz çalışır, kaybedilen tek şey ziyaret sayımızdır. Google ayrıca tools.google.com/dlpage/gaoptout adresinde Analytics için devre dışı bırakma eklentisi sunuyor. Calleo'nun iOS uygulaması çerez kullanmaz; neleri sakladığı Gizlilik Politikası'nda yazıyor. Sorular: support@calleo.xyz."
+      }
+    ]
   }
 }

@@ -8,7 +8,7 @@ Calleo is completely free: no ads, no subscriptions and no in-app purchases. It 
 
 - [Homepage](https://calleo.xyz/): overview, features, FAQ
 - [Web App](https://app.calleo.xyz/): use Calleo directly in the browser, no install required
-- [iOS App](https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720): native app on the App Store
+- [iOS App](https://apps.apple.com/app/id6759112720): native app on the App Store
 
 ## Key features
 
@@ -17,7 +17,7 @@ Calleo is completely free: no ads, no subscriptions and no in-app purchases. It 
 - Wordwall Import: import existing word sets directly from Wordwall
 - 6 interactive learning modes: Flashcards, Match Game, Quiz Mode, Fill in the Blank, Listening, Writing
 - Learn (CEFR Path): a guided, auto-progressing curriculum spanning all six CEFR levels (A1 through C2), unlocking the next focused set as you pass each quiz
-- Word Tinder: swipe-based quick review of known/unknown words
+- Word Practice: swipe-based quick review of known/unknown words
 - Custom word sets: create, edit, and organize vocabulary lists manually or via AI
 - Sharing: turn any set into a share code; anyone with the code can preview the set and copy it into their own collection, and the owner sees view and copy counts (there is no public discovery feed)
 - 40+ languages supported, with full interface localization
@@ -32,6 +32,9 @@ Calleo is free. There are no ads, no subscriptions, no in-app purchases and no p
 
 - [Support / Help Center](https://calleo.xyz/support): getting started, account management, creating sets, game modes, sharing, settings, troubleshooting
 - [Privacy Policy](https://calleo.xyz/privacy-policy): what data is collected, third-party sharing, data deletion
+- [Terms of Service](https://calleo.xyz/terms): what the terms cover, AI-generated content, liability
+- [Cookie Policy](https://calleo.xyz/cookies): the one browser preference and the analytics cookies this site sets
+- Contact: support@calleo.xyz
 
 ## Localization
 

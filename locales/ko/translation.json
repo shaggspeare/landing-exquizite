@@ -17,7 +17,7 @@
     "freeNote": "무료입니다. 광고도, 구독도 없습니다.",
     "appStoreButton": "App Store에서 다운로드",
     "webAppButton": "웹 앱 사용해보기",
-    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
       "dashboard": {
@@ -161,14 +161,6 @@
     "sectionSubtitle": "인터랙티브 학습 모드를 자세히 살펴보세요.",
     "screenshots": [
       {
-        "src": "/images/ai-generation.png",
-        "alt": "AI 단어 생성"
-      },
-      {
-        "src": "/images/added-words.png",
-        "alt": "추가된 단어"
-      },
-      {
         "src": "/images/learning-modes.png",
         "alt": "학습 모드"
       },
@@ -189,8 +181,8 @@
         "alt": "퀴즈 모드"
       },
       {
-        "src": "/images/word-tinder.png",
-        "alt": "Word Tinder"
+        "src": "/images/word-practice.png",
+        "alt": "단어 연습"
       }
     ]
   },
@@ -255,7 +247,7 @@
     "subtitle": "첫 세트는 1분이면 만듭니다. 앱을 다운로드하거나 브라우저에서 바로 여세요.",
     "iosButton": "iOS용 다운로드",
     "webButton": "웹 앱 열기",
-    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "disclaimer": "무료입니다. 광고도, 구독도 없습니다."
   },
@@ -293,7 +285,7 @@
           },
           {
             "label": "문의하기",
-            "href": "mailto:viacheslav@exquizite.app"
+            "href": "mailto:support@calleo.xyz"
           },
           {
             "label": "개인정보 처리방침",
@@ -306,16 +298,16 @@
         "links": [
           {
             "label": "이용약관",
-            "href": "#"
+            "to": "/terms"
           },
           {
             "label": "쿠키 정책",
-            "href": "#"
+            "to": "/cookies"
           }
         ]
       }
     },
-    "copyright": "© 2025 Calleo. 나만의 방식으로 언어를 마스터하세요."
+    "copyright": "© {{year}} Calleo. 나만의 방식으로 언어를 마스터하세요."
   },
   "privacyPolicy": {
     "title": "Calleo 개인정보 처리방침",
@@ -582,7 +574,7 @@
               },
               {
                 "bold": "이메일 요청",
-                "text": "viacheslav@exquizite.app으로 \"데이터 삭제 요청\" 제목으로 이메일 발송",
+                "text": "support@calleo.xyz으로 \"데이터 삭제 요청\" 제목으로 이메일 발송",
                 "subItems": [
                   "등록된 이메일 주소를 포함해 주세요",
                   "신원을 확인한 후 30일 이내에 모든 데이터를 삭제합니다",
@@ -593,7 +585,7 @@
           },
           {
             "title": "데이터 내보내기",
-            "description": "데이터 사본을 요청하려면 viacheslav@exquizite.app으로 \"데이터 내보내기 요청\" 제목으로 이메일을 보내주세요"
+            "description": "데이터 사본을 요청하려면 support@calleo.xyz으로 \"데이터 내보내기 요청\" 제목으로 이메일을 보내주세요"
           },
           {
             "title": "게스트 모드",
@@ -607,7 +599,7 @@
       },
       {
         "title": "아동 개인정보 보호",
-        "content": "Calleo는 13세 이상의 사용자를 대상으로 합니다. 당사는 13세 미만 아동의 개인 정보를 고의로 수집하지 않습니다. 귀하가 부모 또는 보호자이며 자녀가 당사에 개인 정보를 제공했다고 생각되는 경우, viacheslav@exquizite.app으로 연락해 주시면 해당 정보를 즉시 삭제하겠습니다."
+        "content": "Calleo는 13세 이상의 사용자를 대상으로 합니다. 당사는 13세 미만 아동의 개인 정보를 고의로 수집하지 않습니다. 귀하가 부모 또는 보호자이며 자녀가 당사에 개인 정보를 제공했다고 생각되는 경우, support@calleo.xyz으로 연락해 주시면 해당 정보를 즉시 삭제하겠습니다."
       },
       {
         "title": "국제 데이터 전송",
@@ -640,7 +632,7 @@
         "title": "문의하기",
         "intro": "본 개인정보 처리방침 또는 귀하의 데이터에 관한 질문, 우려 사항 또는 요청이 있으시면 연락해 주세요:",
         "contactInfo": {
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "developer": "Calleo 개발팀",
           "responseTime": "모든 문의에 영업일 기준 7일 이내에 답변드리겠습니다."
         }
@@ -672,7 +664,7 @@
         },
         {
           "label": "연락처",
-          "value": "viacheslav@exquizite.app"
+          "value": "support@calleo.xyz"
         }
       ],
       "thankYou": "언어 학습 여정에 Calleo를 선택해 주셔서 감사합니다!"
@@ -681,7 +673,7 @@
   "support": {
     "title": "Calleo 지원",
     "subtitle": "Calleo 지원 센터에 오신 것을 환영합니다! 자주 묻는 질문의 답변을 찾고 앱 사용에 대한 도움을 받으세요.",
-    "contactEmail": "viacheslav@exquizite.app",
+    "contactEmail": "support@calleo.xyz",
     "lastUpdated": "최종 업데이트: 2026년 2월 7일",
     "thankYou": "Calleo를 사용해 주셔서 감사합니다! 즐거운 학습 되세요!",
     "toc": {
@@ -1080,7 +1072,7 @@
           "웹 앱을 쓰신다면 강력 새로 고침으로 페이지를 다시 불러오세요",
           "앱을 재설치합니다 (주의: 게스트 모드 데이터가 손실됩니다!)"
         ],
-        "note": "문제가 지속되면 viacheslav@exquizite.app으로 기기 모델, OS 버전, 앱 버전 및 문제 설명을 포함하여 연락해 주세요."
+        "note": "문제가 지속되면 support@calleo.xyz으로 기기 모델, OS 버전, 앱 버전 및 문제 설명을 포함하여 연락해 주세요."
       },
       "aiNotWorking": {
         "title": "AI 제안이 작동하지 않아요",
@@ -1198,7 +1190,7 @@
         "title": "내 데이터는 어떻게 다운로드하나요?",
         "intro": "데이터 사본을 요청하려면:",
         "steps": [
-          "viacheslav@exquizite.app으로 \"데이터 내보내기 요청\" 제목으로 이메일을 보냅니다",
+          "support@calleo.xyz으로 \"데이터 내보내기 요청\" 제목으로 이메일을 보냅니다",
           "등록된 이메일 주소를 포함합니다",
           "영업일 기준 7일 이내에 모든 단어 세트와 계정 정보가 포함된 파일을 보내드립니다"
         ]
@@ -1207,7 +1199,7 @@
         "title": "계정과 데이터는 어떻게 삭제하나요?",
         "label": "영구 삭제:",
         "steps": [
-          "viacheslav@exquizite.app으로 \"데이터 삭제 요청\" 제목으로 이메일을 보냅니다",
+          "support@calleo.xyz으로 \"데이터 삭제 요청\" 제목으로 이메일을 보냅니다",
           "등록된 이메일 주소를 포함합니다",
           "신원을 확인한 후 30일 이내에 모든 데이터를 삭제합니다"
         ],
@@ -1224,17 +1216,17 @@
       "categories": [
         {
           "title": "일반 지원",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "responseTime": "영업일 기준 2-3일 이내 답변"
         },
         {
           "title": "개인정보 및 데이터 요청",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "responseTime": "영업일 기준 7일 이내 답변"
         },
         {
           "title": "버그 신고 및 기능 요청",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "subject": "\"Bug Report\" 또는 \"Feature Request\"",
           "includeItems": [
             "기기 모델 및 OS 버전 (예: iPhone 14, iOS 17.2)",
@@ -1287,5 +1279,76 @@
         }
       ]
     }
+  },
+  "terms": {
+    "title": "이용약관",
+    "lastUpdated": "최종 업데이트: 2026년 9월 18일",
+    "sections": [
+      {
+        "title": "이 약관이 적용되는 범위",
+        "content": "Calleo는 독립 개발자가 만든 어휘 학습 앱입니다. 이 약관은 iOS 앱, app.calleo.xyz의 웹 앱, 그리고 이 웹사이트에 적용됩니다. Calleo를 사용하면 약관에 동의하는 것으로 봅니다. 동의하지 않으신다면 앱을 사용하지 말아 주세요."
+      },
+      {
+        "title": "Calleo는 무료입니다",
+        "content": "Calleo 사용에는 비용이 들지 않습니다. 광고도, 구독도, 인앱 결제도 없으므로 청구·해지·환불할 것도 없습니다. 혹시 이 점이 바뀌더라도 이미 가지고 계신 것은 그대로 사용할 수 있으며, 이 페이지에서 먼저 알립니다."
+      },
+      {
+        "title": "계정과 세트",
+        "content": "계정 없이 게스트 모드로 Calleo를 쓸 수 있고, 그때 세트는 기기에만 남습니다. 계정을 만들면 비밀번호는 본인만 알고 있어야 하며, 다른 사람이 알게 된 것 같으면 알려 주세요. 직접 만든 단어 세트는 사용자의 것입니다. 저희는 그것을 다시 보여 주고 기기 간에 동기화하기 위해 저장하며, 언제든 수정하거나 삭제할 수 있습니다. 그 내용에 대한 책임은 사용자에게 있습니다."
+      },
+      {
+        "title": "하지 말아야 할 일",
+        "intro": "다음은 하지 말아 주세요:",
+        "items": [
+          "불법이거나 혐오를 담았거나 타인의 권리를 침해하는 내용 업로드",
+          "다른 사용자의 계정, 세트, 데이터에 접근하려는 시도",
+          "언어 학습 외의 목적으로 AI 기능 사용",
+          "Calleo를 재판매하거나 브랜드를 바꿔 자신의 서비스처럼 제공",
+          "서비스를 공격·과부하시키거나 기술적 제한을 우회"
+        ]
+      },
+      {
+        "title": "AI가 만든 콘텐츠",
+        "content": "번역, 발음 기호, 예문은 AI 모델이 만듭니다. 대체로 괜찮지만 틀릴 때도 있습니다. 중요한 내용은 사전이나 선생님을 통해 확인해 주세요. 생성된 콘텐츠의 정확성은 보장하지 않으며, 판단은 사용자의 몫입니다."
+      },
+      {
+        "title": "이용 가능성, 변경, 책임",
+        "content": "Calleo는 있는 그대로 제공되며 어떠한 보증도 하지 않습니다. 기능은 바뀌거나 중단될 수 있고, 점검이나 통제 밖의 사유로 서비스가 중단될 수 있으니 잃으면 안 되는 자료는 따로 보관해 주세요. 법이 허용하는 범위에서 데이터 손실, 학습 기록 손실, 간접 손해에 대해 책임지지 않습니다. 이 페이지의 내용이 거주 국가의 소비자 법이 보장하는 권리를 없애지는 않습니다. 약관은 변경될 수 있으며, 그때 페이지 상단의 날짜가 바뀝니다."
+      },
+      {
+        "title": "이용 중단과 문의",
+        "content": "언제든 Calleo 사용을 중단할 수 있고, 계정과 그 안의 모든 내용을 삭제해 달라고 요청할 수 있습니다. 방법은 개인정보 처리방침에 있습니다. 약관을 위반한 계정은 정지될 수 있습니다. 이 페이지에 대한 문의: support@calleo.xyz."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "쿠키 정책",
+    "lastUpdated": "최종 업데이트: 2026년 9월 18일",
+    "sections": [
+      {
+        "title": "짧게 요약하면",
+        "content": "이 웹사이트는 광고용 쿠키를 쓰지 않고 다른 사이트에서 사용자를 추적하지도 않습니다. 선택한 언어를 기억하고, Google Analytics로 방문 수를 셉니다."
+      },
+      {
+        "title": "이 사이트가 저장하는 것",
+        "intro": "두 가지, 그게 전부입니다:",
+        "items": [
+          "언어 설정 — 쿠키가 아니라 브라우저의 로컬 스토리지에 저장되어, 사이트가 선택한 언어로 열립니다. 브라우저를 벗어나지 않습니다.",
+          "Google Analytics — 방문 수를 세고 재방문자와 신규 방문자를 구분하기 위해 _ga 및 _ga_* 쿠키를 설정합니다. 무작위 식별자만 들어 있고 이름이나 이메일은 없습니다."
+        ]
+      },
+      {
+        "title": "이 사이트가 하지 않는 것",
+        "items": [
+          "광고, 리타게팅, 소셜 미디어 쿠키 없음",
+          "분석 데이터 판매나 제공 없음",
+          "여기 어떤 페이지를 읽든 쿠키가 필요하지 않음"
+        ]
+      },
+      {
+        "title": "끄는 방법과 문의",
+        "content": "브라우저 설정에서 쿠키를 차단하거나 삭제해도, 콘텐츠 차단기를 써도 사이트는 잘 작동합니다. 사라지는 것은 방문 수 집계뿐입니다. Google도 tools.google.com/dlpage/gaoptout 에서 Analytics 차단 부가 기능을 제공합니다. Calleo iOS 앱 자체는 쿠키를 쓰지 않으며, 앱이 저장하는 내용은 개인정보 처리방침에 있습니다. 문의: support@calleo.xyz."
+      }
+    ]
   }
 }

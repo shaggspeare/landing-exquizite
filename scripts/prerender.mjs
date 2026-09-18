@@ -12,7 +12,13 @@ const root = path.resolve(__dirname, '..');
 const distDir = path.join(root, 'dist');
 const SITE_URL = 'https://calleo.xyz';
 
-const ROUTE_SUFFIX = { home: '', 'privacy-policy': '/privacy-policy', support: '/support' };
+const ROUTE_SUFFIX = {
+  home: '',
+  'privacy-policy': '/privacy-policy',
+  support: '/support',
+  terms: '/terms',
+  cookies: '/cookies',
+};
 
 function localeUrlPath(lang, page) {
   const prefix = lang === 'en' ? '' : `/${lang}`;
@@ -61,10 +67,10 @@ async function main() {
       if (page === 'home') {
         title = `${bundle.hero.titleLine1} ${bundle.hero.titleLine2} · Calleo`;
         description = bundle.hero.subtitle;
-      } else if (page === 'privacy-policy') {
-        title = `${bundle.privacyPolicy.title} · Calleo`;
-      } else {
+      } else if (page === 'support') {
         title = bundle.support.title;
+      } else {
+        title = `${bundle[page === 'privacy-policy' ? 'privacyPolicy' : page].title} · Calleo`;
       }
 
       const canonicalUrl = `${SITE_URL}${urlPath}`;

@@ -16,7 +16,9 @@ const Navbar: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const isContentPage = location.pathname.includes('/privacy-policy') || location.pathname.includes('/support');
+  const isContentPage = ['/privacy-policy', '/support', '/terms', '/cookies'].some((p) =>
+    location.pathname.includes(p)
+  );
   const currentLang = supportedLanguages.find((l) => l.code === i18n.language) || supportedLanguages[0];
 
   const getLangPath = (code: string) => {

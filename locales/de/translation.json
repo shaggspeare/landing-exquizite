@@ -17,7 +17,7 @@
     "freeNote": "Kostenlos. Keine Werbung. Keine Abos.",
     "appStoreButton": "Im App Store laden",
     "webAppButton": "Web-App testen",
-    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "images": {
       "dashboard": {
@@ -161,14 +161,6 @@
     "sectionSubtitle": "Wirf einen genaueren Blick auf unsere interaktiven Lernmodi.",
     "screenshots": [
       {
-        "src": "/images/ai-generation.png",
-        "alt": "KI-Wortgenerierung"
-      },
-      {
-        "src": "/images/added-words.png",
-        "alt": "Hinzugefügte Wörter"
-      },
-      {
         "src": "/images/learning-modes.png",
         "alt": "Lernmodi"
       },
@@ -189,8 +181,8 @@
         "alt": "Quiz-Modus"
       },
       {
-        "src": "/images/word-tinder.png",
-        "alt": "Word Tinder"
+        "src": "/images/word-practice.png",
+        "alt": "Wort-Training"
       }
     ]
   },
@@ -255,7 +247,7 @@
     "subtitle": "Dein erstes Set steht in unter einer Minute. Lade die App herunter oder öffne sie im Browser.",
     "iosButton": "Für iOS herunterladen",
     "webButton": "Web-App starten",
-    "appStoreUrl": "https://apps.apple.com/ua/app/calleo-learn-words-with-ai/id6759112720",
+    "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
     "disclaimer": "Kostenlos. Keine Werbung. Keine Abos."
   },
@@ -293,7 +285,7 @@
           },
           {
             "label": "Kontakt",
-            "href": "mailto:viacheslav@exquizite.app"
+            "href": "mailto:support@calleo.xyz"
           },
           {
             "label": "Datenschutzrichtlinie",
@@ -306,16 +298,16 @@
         "links": [
           {
             "label": "Nutzungsbedingungen",
-            "href": "#"
+            "to": "/terms"
           },
           {
             "label": "Cookie-Richtlinie",
-            "href": "#"
+            "to": "/cookies"
           }
         ]
       }
     },
-    "copyright": "© 2025 Calleo. Sprachen meistern, auf deine Art."
+    "copyright": "© {{year}} Calleo. Sprachen meistern, auf deine Art."
   },
   "privacyPolicy": {
     "title": "Datenschutzrichtlinie für Calleo",
@@ -582,7 +574,7 @@
               },
               {
                 "bold": "Per E-Mail anfragen",
-                "text": "Kontaktieren Sie uns unter viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenlöschung“",
+                "text": "Kontaktieren Sie uns unter support@calleo.xyz mit dem Betreff „Antrag auf Datenlöschung“",
                 "subItems": [
                   "Geben Sie Ihre registrierte E-Mail-Adresse an",
                   "Wir bestätigen Ihre Identität und löschen alle Daten innerhalb von 30 Tagen",
@@ -593,7 +585,7 @@
           },
           {
             "title": "Daten exportieren",
-            "description": "Um eine Kopie Ihrer Daten anzufordern, kontaktieren Sie uns unter viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenexport“"
+            "description": "Um eine Kopie Ihrer Daten anzufordern, kontaktieren Sie uns unter support@calleo.xyz mit dem Betreff „Antrag auf Datenexport“"
           },
           {
             "title": "Gastmodus",
@@ -607,7 +599,7 @@
       },
       {
         "title": "Datenschutz für Kinder",
-        "content": "Calleo ist für Nutzer ab 13 Jahren bestimmt. Wir erfassen wissentlich keine persönlichen Daten von Kindern unter 13 Jahren. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und glauben, dass Ihr Kind uns persönliche Daten zur Verfügung gestellt hat, kontaktieren Sie uns bitte unter viacheslav@exquizite.app, und wir werden diese Daten umgehend löschen."
+        "content": "Calleo ist für Nutzer ab 13 Jahren bestimmt. Wir erfassen wissentlich keine persönlichen Daten von Kindern unter 13 Jahren. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und glauben, dass Ihr Kind uns persönliche Daten zur Verfügung gestellt hat, kontaktieren Sie uns bitte unter support@calleo.xyz, und wir werden diese Daten umgehend löschen."
       },
       {
         "title": "Internationale Datenübertragungen",
@@ -640,7 +632,7 @@
         "title": "Kontakt",
         "intro": "Wenn Sie Fragen, Bedenken oder Anfragen bezüglich dieser Datenschutzrichtlinie oder Ihrer Daten haben, kontaktieren Sie uns bitte:",
         "contactInfo": {
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "developer": "Calleo Entwicklungsteam",
           "responseTime": "Wir bemühen uns, alle Anfragen innerhalb von 7 Werktagen zu beantworten."
         }
@@ -672,7 +664,7 @@
         },
         {
           "label": "Kontakt",
-          "value": "viacheslav@exquizite.app"
+          "value": "support@calleo.xyz"
         }
       ],
       "thankYou": "Vielen Dank, dass Sie Calleo auf Ihrer Sprachlernreise vertrauen!"
@@ -681,7 +673,7 @@
   "support": {
     "title": "Calleo Support",
     "subtitle": "Willkommen beim Calleo Support! Finden Sie Antworten auf häufige Fragen und erhalten Sie Hilfe zur App.",
-    "contactEmail": "viacheslav@exquizite.app",
+    "contactEmail": "support@calleo.xyz",
     "lastUpdated": "Zuletzt aktualisiert: 7. Februar 2026",
     "thankYou": "Vielen Dank, dass Sie Calleo nutzen! Viel Spaß beim Lernen!",
     "toc": {
@@ -1080,7 +1072,7 @@
           "Wenn du die Web-App nutzt, lade die Seite mit einem harten Reload neu",
           "Installieren Sie die App neu (Hinweis: Gastmodus-Daten gehen verloren!)"
         ],
-        "note": "Falls das Problem weiterbesteht, kontaktieren Sie uns unter viacheslav@exquizite.app mit Gerätemodell, Betriebssystemversion, App-Version und Beschreibung des Problems."
+        "note": "Falls das Problem weiterbesteht, kontaktieren Sie uns unter support@calleo.xyz mit Gerätemodell, Betriebssystemversion, App-Version und Beschreibung des Problems."
       },
       "aiNotWorking": {
         "title": "KI-Vorschläge funktionieren nicht",
@@ -1198,7 +1190,7 @@
         "title": "Wie lade ich meine Daten herunter?",
         "intro": "So fordern Sie eine Kopie Ihrer Daten an:",
         "steps": [
-          "Senden Sie eine E-Mail an viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenexport“",
+          "Senden Sie eine E-Mail an support@calleo.xyz mit dem Betreff „Antrag auf Datenexport“",
           "Geben Sie Ihre registrierte E-Mail-Adresse an",
           "Wir senden Ihnen innerhalb von 7 Werktagen eine Datei mit all Ihren Vokabelsets und Kontoinformationen"
         ]
@@ -1207,7 +1199,7 @@
         "title": "Wie lösche ich mein Konto und meine Daten?",
         "label": "Dauerhafte Löschung:",
         "steps": [
-          "Senden Sie eine E-Mail an viacheslav@exquizite.app mit dem Betreff „Antrag auf Datenlöschung“",
+          "Senden Sie eine E-Mail an support@calleo.xyz mit dem Betreff „Antrag auf Datenlöschung“",
           "Geben Sie Ihre registrierte E-Mail-Adresse an",
           "Wir bestätigen Ihre Identität und löschen alle Daten innerhalb von 30 Tagen"
         ],
@@ -1224,17 +1216,17 @@
       "categories": [
         {
           "title": "Allgemeiner Support",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "responseTime": "Innerhalb von 2-3 Werktagen"
         },
         {
           "title": "Datenschutz- & Datenanfragen",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "responseTime": "Innerhalb von 7 Werktagen"
         },
         {
           "title": "Fehlermeldungen & Feature-Wünsche",
-          "email": "viacheslav@exquizite.app",
+          "email": "support@calleo.xyz",
           "subject": "„Fehlermeldung“ oder „Feature-Wunsch“",
           "includeItems": [
             "Gerätemodell und Betriebssystemversion (z.B. iPhone 14, iOS 17.2)",
@@ -1287,5 +1279,76 @@
         }
       ]
     }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 18. September 2026",
+    "sections": [
+      {
+        "title": "Worum es in diesen Bedingungen geht",
+        "content": "Calleo ist eine Vokabel-Lern-App von einem unabhängigen Entwickler. Diese Bedingungen gelten für die iOS-App, die Web-App unter app.calleo.xyz und diese Website. Mit der Nutzung von Calleo stimmst du ihnen zu. Wenn du nicht zustimmst, nutze die App bitte nicht."
+      },
+      {
+        "title": "Calleo ist kostenlos",
+        "content": "Die Nutzung von Calleo kostet nichts. Es gibt keine Werbung, keine Abos und keine In-App-Käufe, also auch nichts abzurechnen, zu kündigen oder zurückzuerstatten. Sollte sich das je ändern, bleibt dir alles erhalten, was du bereits hast, und auf dieser Seite steht es zuerst."
+      },
+      {
+        "title": "Dein Konto und deine Sets",
+        "content": "Du kannst Calleo im Gastmodus ohne Konto nutzen; dann bleiben deine Sets auf deinem Gerät. Wenn du ein Konto anlegst, behalte dein Passwort für dich und sag uns, wenn du vermutest, dass jemand anderes es kennt. Die Wortsets, die du erstellst, gehören dir: wir speichern sie, um sie dir wieder anzuzeigen und zwischen deinen Geräten zu synchronisieren, und du kannst sie jederzeit ändern oder löschen. Für die Inhalte darin bist du verantwortlich."
+      },
+      {
+        "title": "Was nicht erlaubt ist",
+        "intro": "Bitte nicht:",
+        "items": [
+          "Inhalte hochladen, die rechtswidrig oder hasserfüllt sind oder Rechte anderer verletzen",
+          "Versuchen, auf Konten, Sets oder Daten anderer Personen zuzugreifen",
+          "Die KI-Funktionen für etwas anderes als Sprachenlernen verwenden",
+          "Calleo weiterverkaufen, umbenennen oder als eigenen Dienst ausgeben",
+          "Den Dienst angreifen, überlasten oder seine technischen Grenzen umgehen"
+        ]
+      },
+      {
+        "title": "KI-generierte Inhalte",
+        "content": "Übersetzungen, Lautschrift und Beispielsätze werden von einem KI-Modell erzeugt. Meist sind sie gut, manchmal falsch. Prüfe alles, worauf es ankommt, im Wörterbuch oder mit einer Lehrkraft: Wir können die Richtigkeit generierter Inhalte nicht garantieren, und du nutzt sie nach eigenem Ermessen."
+      },
+      {
+        "title": "Verfügbarkeit, Änderungen und Haftung",
+        "content": "Calleo wird so bereitgestellt, wie es ist, ohne Garantien. Funktionen können sich ändern oder eingestellt werden, und der Dienst kann wegen Wartung oder aus Gründen außerhalb unseres Einflusses nicht erreichbar sein – sichere daher selbst, was du nicht verlieren darfst. Soweit das Gesetz es zulässt, haften wir nicht für verlorene Daten, verlorenen Lernfortschritt oder indirekte Schäden. Deine Rechte aus dem Verbraucherrecht deines Landes bleiben unberührt. Wir können diese Bedingungen aktualisieren; dann ändert sich das Datum oben auf dieser Seite."
+      },
+      {
+        "title": "Beenden und Kontakt",
+        "content": "Du kannst Calleo jederzeit nicht mehr nutzen und uns bitten, dein Konto samt Inhalten zu löschen – wie das geht, steht in der Datenschutzerklärung. Konten, die gegen diese Bedingungen verstoßen, können wir sperren. Fragen zu dieser Seite: support@calleo.xyz."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookie-Richtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: 18. September 2026",
+    "sections": [
+      {
+        "title": "Die Kurzfassung",
+        "content": "Diese Website nutzt keine Cookies für Werbung und verfolgt dich nicht über andere Websites hinweg. Sie merkt sich die von dir gewählte Sprache und zählt Besuche mit Google Analytics."
+      },
+      {
+        "title": "Was diese Website speichert",
+        "intro": "Zwei Dinge, mehr nicht:",
+        "items": [
+          "Spracheinstellung – liegt im Local Storage deines Browsers, nicht in einem Cookie, damit die Seite in der von dir gewählten Sprache öffnet. Sie verlässt deinen Browser nie.",
+          "Google Analytics – setzt die Cookies _ga und _ga_*, um Besuche zu zählen und wiederkehrende von neuen Besuchen zu unterscheiden. Sie enthalten eine Zufallskennung, nicht deinen Namen oder deine E-Mail-Adresse."
+        ]
+      },
+      {
+        "title": "Was diese Website nicht tut",
+        "items": [
+          "Keine Cookies für Werbung, Retargeting oder soziale Netzwerke",
+          "Kein Verkauf und keine Weitergabe der Analysedaten",
+          "Kein Cookie nötig, um hier irgendeine Seite zu lesen"
+        ]
+      },
+      {
+        "title": "Abschalten und Kontakt",
+        "content": "Du kannst Cookies in den Browsereinstellungen blockieren oder löschen oder einen Content-Blocker nutzen: Die Seite funktioniert auch ohne sie, verloren geht nur unsere Besuchszählung. Google bietet außerdem ein Opt-out-Add-on für Analytics unter tools.google.com/dlpage/gaoptout an. Die Calleo-App für iOS selbst nutzt keine Cookies; was sie speichert, steht in der Datenschutzerklärung. Fragen: support@calleo.xyz."
+      }
+    ]
   }
 }
