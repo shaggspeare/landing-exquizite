@@ -61,18 +61,34 @@ const Hero: React.FC = () => {
              </div>
           </div>
 
-          {/* Game Modes Screen (Front, offset down) */}
+          {/* Game Modes Screen (Front, offset down) — a looping demo clip once
+              /videos/demo.mp4 exists, otherwise the screenshot on its own. */}
           <div className="absolute left-1/2 translate-x-[-10px] md:translate-x-[10px] top-20 md:top-32 z-30 w-[170px] md:w-[260px]">
              <div className="rounded-[2.5rem] border-[6px] md:border-8 border-ink overflow-hidden bg-ink shadow-xl">
-                <img
-                  src={d.images.gameModes.src}
-                  alt={d.images.gameModes.alt}
-                  width={1290}
-                  height={2796}
-                  loading="eager"
-                  fetchPriority="high"
-                  className="w-full h-auto block"
-                />
+                {__HAS_HERO_VIDEO__ ? (
+                  <video
+                    src="/videos/demo.mp4"
+                    poster={d.images.gameModes.src}
+                    aria-label={d.images.gameModes.alt}
+                    width={1290}
+                    height={2796}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-auto block"
+                  />
+                ) : (
+                  <img
+                    src={d.images.gameModes.src}
+                    alt={d.images.gameModes.alt}
+                    width={1290}
+                    height={2796}
+                    loading="eager"
+                    fetchPriority="high"
+                    className="w-full h-auto block"
+                  />
+                )}
              </div>
           </div>
 
