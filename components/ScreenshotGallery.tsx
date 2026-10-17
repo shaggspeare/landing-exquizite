@@ -1,40 +1,73 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useData } from '../hooks/useData';
+import { Icon, Phone, SectionHead, pad, vars } from './ui';
+
+// Order matches screenshotGallery.screenshots in the locale files.
+const SHOTS = ['sets', 'practice', 'flashcard', 'quiz', 'fill-blank', 'learn-path', 'quick-generate', 'ai-suggestions', 'set-details', 'words'];
 
 const ScreenshotGallery: React.FC = () => {
-  const data = useData();
-  const d = data.screenshotGallery;
-  const screenshots = d.screenshots;
+  const d = useData().screenshotGallery;
+  const [slide, setSlide] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const hover = useRef(false);
+
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) setPaused(true);
+  }, []);
+
+  useEffect(() => {
+    if (paused || focused) return;
+    const timer = setInterval(() => { if (!hover.current) setSlide((s) => s + 1); }, 4200);
+    return () => clearInterval(timer);
+  }, [paused, focused]);
+
+  const idx = ((slide % SHOTS.length) + SHOTS.length) % SHOTS.length;
 
   return (
-    <section className="py-20 md:py-28 bg-cream border-y border-ink/10 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 text-center">
-         <h2 className="font-display text-3xl sm:text-4xl tracking-[-0.02em] text-ink">{d.sectionTitle}</h2>
-         <p className="mt-4 text-lg text-ink/60">{d.sectionSubtitle}</p>
+    <section id="app" className="sec dark">
+      <div className="wrap">
+        <SectionHead n={5} label={d.sectionLabel} title={d.sectionTitle} lead={d.sectionSubtitle} />
       </div>
-
-      <div className="relative w-full">
-        {/* Gradients to fade edges */}
-        <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-cream to-transparent z-10 pointer-events-none"></div>
-        <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-cream to-transparent z-10 pointer-events-none"></div>
-
-        <div className="flex overflow-x-auto gap-8 pb-8 px-8 no-scrollbar snap-x snap-mandatory">
-          {screenshots.map((shot, idx) => (
-            <div key={idx} className="flex-shrink-0 snap-center first:pl-20 last:pr-20">
-               <div className="rounded-[2rem] border-[6px] md:border-8 border-ink overflow-hidden shadow-xl bg-ink w-[220px] md:w-[280px]">
-                 <img
-                    src={shot.src}
-                    alt={shot.alt}
-                    width={1290}
-                    height={2796}
-                    loading="lazy"
-                    decoding="async"
-                    className="w-full h-auto"
-                 />
-               </div>
-               <p className="text-center mt-6 font-semibold text-ink/70 text-sm">{shot.alt}</p>
+      <div
+        className="car"
+        role="region"
+        aria-roledescription={d.roledescription}
+        aria-label={d.carouselLabel}
+        onMouseEnter={() => { hover.current = true; }}
+        onMouseLeave={() => { hover.current = false; }}
+        onFocus={() => setFocused(true)}
+        onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setFocused(false); }}
+      >
+        <div className="car-stage">
+          <div className="car-floor" />
+          <div className="car-tilt">
+            <div className="car-ring" style={{ transform: `translateZ(calc(var(--R) * -1)) rotateY(${slide * -36}deg)` }}>
+              {SHOTS.map((shot, k) => (
+                <div key={shot} className="car-item" style={vars({ '--k': k })}>
+                  <Phone src={`/images/screens/${shot}.webp`} alt={d.screenshots[k].alt} edges={10} />
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+        </div>
+        <div className="wrap car-ctl">
+          <div className="car-nav">
+            <button type="button" className="car-btn" aria-label={d.prev} onClick={() => setSlide((s) => s - 1)}>
+              <Icon name="arrowLeft" />
+            </button>
+            <div className="car-cap" aria-live={paused || focused ? 'polite' : 'off'} aria-atomic="true">
+              <span className="lbl">{pad(idx + 1)} / {SHOTS.length}</span>
+              <b>{d.screenshots[idx].name}</b>
+            </div>
+            <button type="button" className="car-btn" aria-label={d.next} onClick={() => setSlide((s) => s + 1)}>
+              <Icon name="arrowRight" />
+            </button>
+          </div>
+          <button type="button" className="car-play" aria-label={paused ? d.playLabel : d.pauseLabel} onClick={() => setPaused(!paused)}>
+            <Icon name={paused ? 'play' : 'pause'} className="ic icf" />
+            <span>{paused ? d.play : d.pause}</span>
+          </button>
         </div>
       </div>
     </section>

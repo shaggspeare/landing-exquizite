@@ -25,6 +25,6 @@ View your app in AI Studio: https://ai.studio/apps/drive/1ErQTTnHc6zRmqBf7PZHMMk
   mailbox, in all 14 locales (footer contact, support page, privacy policy,
   terms, cookie policy). Once a Calleo mailbox exists, replace it in
   `locales/*/translation.json`.
-- `/videos/demo.mp4` does not exist. The hero renders a looping muted video in
-  place of the second screenshot as soon as that file is committed; until then
-  the screenshot is shown and no request is made. See `vite.config.ts`.
+- `/videos/demo.mp4` does not exist. The hero's centre phone plays it as a
+  looping muted video as soon as that file is committed; until then the
+  screenshot is shown and no request is made. See `vite.config.ts`.

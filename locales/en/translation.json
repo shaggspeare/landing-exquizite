@@ -3,10 +3,11 @@
     "brandName": "Calleo",
     "links": {
       "features": "Features",
-      "howItWorks": "How it Works",
+      "howItWorks": "How it works",
       "pricing": "Free",
-      "getApp": "Get App",
-      "downloadApp": "Download App"
+      "getApp": "Get the app",
+      "downloadApp": "Download the app",
+      "faq": "FAQ"
     }
   },
   "hero": {
@@ -15,23 +16,22 @@
     "titleLine2": "you actually need",
     "subtitle": "Add the words you want to learn — AI fills in the translations, transcriptions and example sentences. Practice them in 6 game modes, across 40+ languages.",
     "freeNote": "Free. No ads. No subscriptions.",
-    "appStoreButton": "Download on App Store",
     "webAppButton": "Try Web App",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "images": {
-      "dashboard": {
-        "src": "/images/dashboard.png",
-        "alt": "Calleo dashboard with practice streak and word sets"
-      },
-      "gameModes": {
-        "src": "/images/learning-modes.png",
-        "alt": "Choosing a practice mode for a word set in Calleo"
-      }
+    "tagline": "AI vocabulary trainer for your own words",
+    "titleOutline": "actually",
+    "titleAccent": "need",
+    "appStoreSmall": "Download on the",
+    "stageLabel": "Calleo on iPhone: your word sets, the practice screen and a quiz, surrounded by word cards",
+    "cards": {
+      "flashcard": "Flashcard",
+      "translate": "Translate",
+      "addWords": "Add 17 words"
     }
   },
   "whatsNew": {
-    "sectionLabel": "Latest Update",
+    "sectionLabel": "Latest update",
     "sectionTitle": "New in Calleo",
     "items": [
       {
@@ -40,50 +40,63 @@
       },
       {
         "title": "Build a set in seconds, not minutes",
-        "description": "Typing out word lists is the boring part, so skip it. With Quick Generate, just type a topic like \"restaurant\" or \"travel\" and AI builds a ready-to-use vocabulary set instantly. Already have a set going? Generate more related words with one tap, and Calleo automatically skips anything you already have. Prefer your own list? Import directly from Wordwall and start practicing right away."
+        "description": "Typing out word lists is the boring part, so skip it. With Quick Generate, type a topic like “restaurant” or “travel”, scan a photo of a menu, sign or page, or paste in an article, lyrics or a chat, and AI builds a ready-to-use vocabulary set. Already have a set going? Generate more related words with one tap, and Calleo automatically skips anything you already have."
       },
       {
         "title": "Learn: a guided path from your first words to fluency",
-        "description": "Not sure what to study next? Learn is a structured curriculum spanning all six CEFR levels, A1 through C2, starting with greetings and numbers and building up to work, travel, and abstract topics. Each step is a focused set generated just for you. Pass the quiz and your next set unlocks automatically, no pressure, no penalty for retrying."
+        "description": "Not sure what to study next? Learn is a structured curriculum spanning all six CEFR levels, A1 through C2, starting with greetings and numbers and building up to work, travel, and abstract topics. Each step is a focused set generated just for you. Finish a Full run (all six practice modes back to back, with missed words coming back in the next one) and your next set unlocks."
       }
-    ]
+    ],
+    "quickGenerate": {
+      "newTopic": "New topic",
+      "newTopicHint": "Type any subject",
+      "fromSet": "From a set",
+      "fromSetHint": "More words for one of your sets",
+      "scan": "Scan photo",
+      "scanHint": "Menus, signs, pages, books",
+      "paste": "Paste text",
+      "pasteHint": "Articles, lyrics, chats"
+    }
   },
   "bentoFeatures": {
-    "sectionLabel": "Features & Highlights",
+    "sectionLabel": "Features & highlights",
     "sectionTitle": "Everything you need to master a language",
     "sectionSubtitle": "From smart AI generation to engaging game modes, Calleo is packed with tools to help you learn faster.",
     "tiles": {
       "learnYourWay": {
-        "title": "Learn Your Way",
+        "title": "Learn your way",
         "description": "Choose from 6 interactive learning modes that match your unique learning style.",
         "modes": [
-          "Flash Cards",
-          "Match Game",
-          "Quiz Mode",
-          "Fill Blanks",
+          "Flashcards",
+          "Match",
+          "Quiz",
+          "Fill in the Blank",
           "Listening",
           "Writing"
+        ],
+        "label": "6 modes",
+        "hints": [
+          "Flip to reveal",
+          "Connect the pairs",
+          "Multiple choice",
+          "Complete the sentence",
+          "Hear it, pick it",
+          "Type it from memory"
         ]
       },
       "aiPowered": {
         "title": "AI-Powered",
         "description": "Generate word pairs instantly and get smart hints.",
-        "image": {
-          "src": "/images/ai-generation.png",
-          "alt": "AI generating word pairs for a topic"
-        }
-      },
-      "languages": {
-        "title": "40+ Languages",
-        "description": "Full interface localization and native language support.",
-        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+        "label": "AI",
+        "chip": "AI Suggestions"
       },
       "nativeIos": {
         "title": "Native iOS",
-        "description": "Get the app and learn on the go."
+        "description": "Get the app and learn on the go.",
+        "label": "iPhone"
       },
       "shareDiscover": {
-        "title": "Share Your Sets",
+        "title": "Share your sets",
         "description": "Turn any set into a share code. Friends enter it, preview the set and copy it into their own collection — and you can see how many times it was viewed and copied.",
         "codeLabel": "Share code",
         "code": "ABC123XYZ",
@@ -96,94 +109,120 @@
             "label": "Copies",
             "value": "12"
           }
-        ]
+        ],
+        "label": "Share codes"
       },
       "seamlessSync": {
-        "title": "Seamless Sync",
-        "description": "Start on iPhone, continue on Web. Progress follows you."
+        "title": "Seamless sync",
+        "description": "Start on iPhone, continue on Web. Progress follows you.",
+        "label": "Sync"
       }
     }
   },
   "howItWorks": {
-    "sectionTitle": "How It Works",
-    "sectionSubtitle": "Start your learning journey in four simple steps",
+    "sectionTitle": "How it works",
+    "sectionSubtitle": "Start your learning journey in four simple steps.",
     "steps": [
       {
-        "title": "1. Create Sets",
+        "title": "Create sets",
         "desc": "Build vocabulary lists or use AI to generate words for any topic instantly."
       },
       {
-        "title": "2. Choose Game",
+        "title": "Choose a game",
         "desc": "Pick from 6 engaging game modes that make learning feel like play."
       },
       {
-        "title": "3. Track Progress",
+        "title": "Track progress",
         "desc": "Monitor your streak, mastery levels, and history on your dashboard."
       },
       {
-        "title": "4. Share a Set",
+        "title": "Share a set",
         "desc": "Send a friend the share code for any set. They copy it into their own collection, and you see the view and copy counts."
       }
-    ]
+    ],
+    "sectionLabel": "How it works"
   },
   "whyUs": {
     "sectionTitle": "Why Calleo?",
     "sectionSubtitle": "We built Calleo to remove the friction from language learning. Whether you are a casual learner or a polyglot, our platform adapts to you.",
     "points": [
       {
-        "title": "Start in Seconds",
+        "title": "Start in seconds",
         "description": "Try guest mode instantly. No signup required until you want to sync."
       },
       {
-        "title": "Truly Multilingual",
+        "title": "Truly multilingual",
         "description": "Interface available in multiple languages. Learn in your comfort zone."
       },
       {
-        "title": "Privacy-First",
+        "title": "Privacy-first",
         "description": "Guest mode needs no account. With an account we store only your email and the sets you create. Words you ask AI about are sent to OpenAI for translations and examples."
       },
       {
-        "title": "Modern & Fast",
+        "title": "Modern & fast",
         "description": "Built with modern technology for smooth performance on every platform."
       }
     ],
-    "image": {
-      "src": "/images/added-words.png",
-      "alt": "A word set with AI-added translations"
-    }
+    "sectionLabel": "Why Calleo",
+    "cardLabel": "Added by AI"
   },
   "screenshotGallery": {
-    "sectionTitle": "Experience the App",
+    "sectionTitle": "Experience the app",
     "sectionSubtitle": "Take a closer look at our interactive learning modes.",
     "screenshots": [
       {
-        "src": "/images/learning-modes.png",
-        "alt": "Learning Modes"
+        "name": "Your sets",
+        "alt": "Your sets: a grid of word sets with a Continue card"
       },
       {
-        "src": "/images/my-sets.png",
-        "alt": "My Sets"
+        "name": "Practice",
+        "alt": "Practice screen: a Full run of all 6 modes, or pick one"
       },
       {
-        "src": "/images/dashboard.png",
-        "alt": "Dashboard"
+        "name": "Flashcard",
+        "alt": "Flashcard showing the Spanish word viaje with its pronunciation"
       },
       {
-        "src": "/images/create-set.png",
-        "alt": "Create a Set"
+        "name": "Quiz",
+        "alt": "Quiz asking for the translation of leche"
       },
       {
-        "src": "/images/quiz.png",
-        "alt": "Quiz Mode"
+        "name": "Fill in the Blank",
+        "alt": "Fill in the Blank: Bebo ___ hecho con hojas secas"
       },
       {
-        "src": "/images/word-practice.png",
-        "alt": "Word Practice"
+        "name": "Learn path",
+        "alt": "Learn path at level A2: Directions and Places"
+      },
+      {
+        "name": "Quick Generate",
+        "alt": "Quick Generate: new topic, from a set, scan a photo or paste text"
+      },
+      {
+        "name": "AI suggestions",
+        "alt": "AI word suggestions for the theme Animales"
+      },
+      {
+        "name": "Set details",
+        "alt": "The food set: Spanish words with English translations"
+      },
+      {
+        "name": "Words",
+        "alt": "Words: a dictionary of 397 words and 17 that need practice"
       }
-    ]
+    ],
+    "sectionLabel": "Inside the app",
+    "carouselLabel": "App screens",
+    "roledescription": "carousel",
+    "prev": "Previous screen",
+    "next": "Next screen",
+    "play": "Play",
+    "pause": "Pause",
+    "playLabel": "Play automatic rotation",
+    "pauseLabel": "Pause automatic rotation"
   },
   "pricing": {
-    "sectionTitle": "Free, really",
+    "sectionTitle": "Free,",
     "sectionSubtitle": "No ads. No subscriptions. No in-app purchases.",
     "planName": "Everything is included",
     "planDescription": "Every feature below is open to everyone. There is no paid tier to upgrade to.",
@@ -195,10 +234,13 @@
       "Share codes for your sets",
       "Sync between iOS and web"
     ],
-    "ctaButton": "Get started"
+    "ctaButton": "Get started",
+    "sectionLabel": "Pricing",
+    "sectionTitleAccent": "really.",
+    "planLabel": "One plan"
   },
   "faq": {
-    "sectionTitle": "Frequently Asked Questions",
+    "sectionTitle": "Frequently asked questions",
     "items": [
       {
         "q": "Do I need an account to use Calleo?",
@@ -234,14 +276,14 @@
       },
       {
         "q": "What is the CEFR Learn path?",
-        "a": "Learn is a guided curriculum spanning all six CEFR levels, A1 through C2. Pass each quiz to automatically unlock the next focused set."
+        "a": "Learn is a guided curriculum spanning all six CEFR levels, A1 through C2. Finish a Full run of all six practice modes to unlock the next focused set."
       }
-    ]
+    ],
+    "sectionLabel": "FAQ"
   },
   "downloadCTA": {
-    "title": "Start Learning Today",
+    "title": "Start learning today",
     "subtitle": "Your first set takes under a minute. Download the app or open it in your browser.",
-    "iosButton": "Download for iOS",
     "webButton": "Launch Web App",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
@@ -259,7 +301,7 @@
             "href": "#features"
           },
           {
-            "label": "How It Works",
+            "label": "How it works",
             "href": "#how-it-works"
           },
           {
@@ -1346,5 +1388,32 @@
         "content": "You can block or delete cookies in your browser settings or use a content blocker: the site works fine without them and the only thing lost is our visit count. Google also publishes an opt-out add-on for Analytics at tools.google.com/dlpage/gaoptout. The Calleo iOS app itself uses no cookies; what it stores is described in the Privacy Policy. Questions: viacheslav@exquizite.app."
       }
     ]
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "primaryNav": "Primary",
+    "mobileNav": "Mobile",
+    "footerNav": "Footer",
+    "menu": "Menu",
+    "language": "Language"
+  },
+  "tapes": {
+    "label": "Practice modes and features",
+    "features": [
+      "40+ languages",
+      "AI translations",
+      "Transcriptions",
+      "Example sentences",
+      "CEFR A1–C2",
+      "No ads"
+    ]
+  },
+  "languages": {
+    "sectionLabel": "Languages",
+    "sectionTitle": "40+ languages.",
+    "sectionSubtitle": "Full interface localization and native language support. Learn in your comfort zone.",
+    "cubesLabel": "Letter cubes turning to spell hello in English, French, Polish and Ukrainian",
+    "phoneAlt": "The Calleo home screen with its interface in Ukrainian",
+    "phoneCaption": "The whole app, in Ukrainian"
   }
 }

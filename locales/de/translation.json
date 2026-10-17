@@ -6,7 +6,8 @@
       "howItWorks": "So funktioniert's",
       "pricing": "Kostenlos",
       "getApp": "App holen",
-      "downloadApp": "App herunterladen"
+      "downloadApp": "App herunterladen",
+      "faq": "FAQ"
     }
   },
   "hero": {
@@ -15,19 +16,18 @@
     "titleLine2": "die du wirklich brauchst",
     "subtitle": "Trage die Wörter ein, die du lernen willst – die KI ergänzt Übersetzung, Lautschrift und Beispielsätze. Üben kannst du sie in 6 Spielmodi, in über 40 Sprachen.",
     "freeNote": "Kostenlos. Keine Werbung. Keine Abos.",
-    "appStoreButton": "Im App Store laden",
     "webAppButton": "Web-App testen",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "images": {
-      "dashboard": {
-        "src": "/images/dashboard.png",
-        "alt": "Calleo-Dashboard mit Lernserie und Wortsets"
-      },
-      "gameModes": {
-        "src": "/images/learning-modes.png",
-        "alt": "Übungsmodus für ein Wortset in Calleo auswählen"
-      }
+    "tagline": "KI-Vokabeltrainer für deine eigenen Wörter",
+    "titleOutline": "wirklich",
+    "titleAccent": "brauchst",
+    "appStoreSmall": "Laden im",
+    "stageLabel": "Calleo auf dem iPhone: deine Wortsets, der Übungsbildschirm und ein Quiz, umgeben von Wortkarten",
+    "cards": {
+      "flashcard": "Karteikarte",
+      "translate": "Übersetzen",
+      "addWords": "17 Wörter hinzufügen"
     }
   },
   "whatsNew": {
@@ -40,13 +40,23 @@
       },
       {
         "title": "Ein Set in Sekunden erstellen, nicht Minuten",
-        "description": "Wortlisten abzutippen ist der langweilige Teil – also überspring ihn. Mit Quick Generate gibst du einfach ein Thema wie „Restaurant\" oder „Reisen\" ein, und die KI erstellt sofort ein einsatzbereites Vokabelset. Hast du schon ein Set? Erzeuge mit einem Tap weitere passende Wörter, Calleo überspringt automatisch alles, was du schon hast. Lieber deine eigene Liste? Importiere sie direkt aus Wordwall und leg sofort los."
+        "description": "Wortlisten abzutippen ist der langweilige Teil – also überspring ihn. Mit Quick Generate gibst du ein Thema wie „Restaurant“ oder „Reisen“ ein, scannst ein Foto von einer Speisekarte, einem Schild oder einer Seite oder fügst einen Artikel, einen Songtext oder einen Chat ein – und die KI erstellt ein einsatzbereites Vokabelset. Hast du schon ein Set? Erzeuge mit einem Tap weitere passende Wörter, Calleo überspringt automatisch alles, was du schon hast."
       },
       {
         "title": "Lernpfad: geführt von den ersten Wörtern bis zur Fließfähigkeit",
-        "description": "Nicht sicher, was du als Nächstes lernen sollst? Lernpfad ist ein strukturiertes Curriculum über alle sechs GER-Stufen, A1 bis C2 – von Begrüßungen und Zahlen am Anfang bis zu Arbeit, Reisen und abstrakten Themen später. Jeder Schritt ist ein Set, das genau für dich erstellt wurde. Bestehst du das Quiz, schaltet sich dein nächstes Set automatisch frei – ohne Druck, ohne Strafe fürs Wiederholen."
+        "description": "Nicht sicher, was du als Nächstes lernen sollst? Lernpfad ist ein strukturiertes Curriculum über alle sechs GER-Stufen, A1 bis C2 – von Begrüßungen und Zahlen am Anfang bis zu Arbeit, Reisen und abstrakten Themen später. Jeder Schritt ist ein Set, das genau für dich erstellt wurde. Schließ einen Komplettdurchlauf ab (alle sechs Übungsmodi nacheinander, verpasste Wörter kommen im nächsten Modus wieder), und dein nächstes Set wird freigeschaltet."
       }
-    ]
+    ],
+    "quickGenerate": {
+      "newTopic": "Neues Thema",
+      "newTopicHint": "Gib ein beliebiges Thema ein",
+      "fromSet": "Aus einem Set",
+      "fromSetHint": "Mehr Wörter für eines deiner Sets",
+      "scan": "Foto scannen",
+      "scanHint": "Speisekarten, Schilder, Seiten, Bücher",
+      "paste": "Text einfügen",
+      "pasteHint": "Artikel, Songtexte, Chats"
+    }
   },
   "bentoFeatures": {
     "sectionLabel": "Funktionen & Highlights",
@@ -58,29 +68,32 @@
         "description": "Wähle aus 6 interaktiven Lernmodi, die zu deinem individuellen Lernstil passen.",
         "modes": [
           "Karteikarten",
-          "Zuordnungsspiel",
-          "Quiz-Modus",
+          "Zuordnen",
+          "Quiz",
           "Lückentext",
           "Hören",
           "Schreiben"
+        ],
+        "label": "6 Modi",
+        "hints": [
+          "Umdrehen zum Aufdecken",
+          "Paare verbinden",
+          "Multiple Choice",
+          "Satz vervollständigen",
+          "Hören und wählen",
+          "Aus dem Gedächtnis tippen"
         ]
       },
       "aiPowered": {
         "title": "KI-gestützt",
         "description": "Generiere Wortpaare sofort und erhalte intelligente Hinweise.",
-        "image": {
-          "src": "/images/ai-generation.png",
-          "alt": "KI erzeugt Wortpaare zu einem Thema"
-        }
-      },
-      "languages": {
-        "title": "40+ Sprachen",
-        "description": "Vollständige Lokalisierung der Benutzeroberfläche und native Sprachunterstützung.",
-        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+        "label": "KI",
+        "chip": "KI-Vorschläge"
       },
       "nativeIos": {
         "title": "Native iOS",
-        "description": "Hol dir die App und lerne unterwegs."
+        "description": "Hol dir die App und lerne unterwegs.",
+        "label": "iPhone"
       },
       "shareDiscover": {
         "title": "Sets teilen",
@@ -96,35 +109,38 @@
             "label": "Kopien",
             "value": "12"
           }
-        ]
+        ],
+        "label": "Freigabe-Codes"
       },
       "seamlessSync": {
         "title": "Nahtlose Synchronisierung",
-        "description": "Starte auf dem iPhone, mach am Computer weiter. Dein Fortschritt folgt dir."
+        "description": "Starte auf dem iPhone, mach am Computer weiter. Dein Fortschritt folgt dir.",
+        "label": "Sync"
       }
     }
   },
   "howItWorks": {
     "sectionTitle": "So funktioniert's",
-    "sectionSubtitle": "Starte deine Lernreise in vier einfachen Schritten",
+    "sectionSubtitle": "Starte deine Lernreise in vier einfachen Schritten.",
     "steps": [
       {
-        "title": "1. Sets erstellen",
+        "title": "Sets erstellen",
         "desc": "Erstelle Vokabellisten oder nutze die KI, um sofort Wörter zu jedem Thema zu generieren."
       },
       {
-        "title": "2. Spiel wählen",
+        "title": "Spiel wählen",
         "desc": "Wähle aus 6 spannenden Spielmodi, die Lernen wie Spielen anfühlen lassen."
       },
       {
-        "title": "3. Fortschritt verfolgen",
+        "title": "Fortschritt verfolgen",
         "desc": "Behalte deine Lernsträhne, Fortschrittsstufen und Verlauf im Dashboard im Blick."
       },
       {
-        "title": "4. Set teilen",
+        "title": "Set teilen",
         "desc": "Schick Freunden den Freigabe-Code für ein Set. Sie kopieren es in ihre Sammlung, und du siehst Aufrufe und Kopien."
       }
-    ]
+    ],
+    "sectionLabel": "So funktioniert's"
   },
   "whyUs": {
     "sectionTitle": "Warum Calleo?",
@@ -143,47 +159,70 @@
         "description": "Der Gastmodus braucht kein Konto. Mit Konto speichern wir nur deine E-Mail-Adresse und deine Sets. Wörter, die du generieren lässt, gehen an OpenAI für Übersetzungen und Beispiele."
       },
       {
-        "title": "Modern & Schnell",
+        "title": "Modern & schnell",
         "description": "Mit moderner Technologie für flüssige Performance auf jeder Plattform."
       }
     ],
-    "image": {
-      "src": "/images/added-words.png",
-      "alt": "Ein Wortset mit von der KI ergänzten Übersetzungen"
-    }
+    "sectionLabel": "Warum Calleo",
+    "cardLabel": "Von der KI ergänzt"
   },
   "screenshotGallery": {
     "sectionTitle": "Erlebe die App",
     "sectionSubtitle": "Wirf einen genaueren Blick auf unsere interaktiven Lernmodi.",
     "screenshots": [
       {
-        "src": "/images/learning-modes.png",
-        "alt": "Lernmodi"
+        "name": "Deine Sets",
+        "alt": "Deine Sets: ein Raster aus Wortsets mit einer Weiter-Karte"
       },
       {
-        "src": "/images/my-sets.png",
-        "alt": "Meine Sets"
+        "name": "Üben",
+        "alt": "Übungsbildschirm: ein Komplettdurchlauf aller 6 Modi oder ein einzelner Modus nach Wahl"
       },
       {
-        "src": "/images/dashboard.png",
-        "alt": "Dashboard"
+        "name": "Karteikarte",
+        "alt": "Karteikarte mit dem spanischen Wort viaje und seiner Aussprache"
       },
       {
-        "src": "/images/create-set.png",
-        "alt": "Set erstellen"
+        "name": "Quiz",
+        "alt": "Quiz, das nach der Übersetzung von leche fragt"
       },
       {
-        "src": "/images/quiz.png",
-        "alt": "Quiz-Modus"
+        "name": "Lückentext",
+        "alt": "Lückentext: Bebo ___ hecho con hojas secas"
       },
       {
-        "src": "/images/word-practice.png",
-        "alt": "Wort-Training"
+        "name": "Lernpfad",
+        "alt": "Lernpfad auf Niveau A2: Wegbeschreibungen und Orte"
+      },
+      {
+        "name": "Quick Generate",
+        "alt": "Quick Generate: neues Thema, aus einem Set, Foto scannen oder Text einfügen"
+      },
+      {
+        "name": "KI-Vorschläge",
+        "alt": "KI-Wortvorschläge zum Thema Animales"
+      },
+      {
+        "name": "Set-Details",
+        "alt": "Das Set food: spanische Wörter mit englischen Übersetzungen"
+      },
+      {
+        "name": "Wörter",
+        "alt": "Wörter: ein Wörterbuch mit 397 Wörtern und 17, die noch Übung brauchen"
       }
-    ]
+    ],
+    "sectionLabel": "Ein Blick in die App",
+    "carouselLabel": "App-Bildschirme",
+    "roledescription": "Karussell",
+    "prev": "Vorheriger Bildschirm",
+    "next": "Nächster Bildschirm",
+    "play": "Abspielen",
+    "pause": "Pausieren",
+    "playLabel": "Automatischen Wechsel starten",
+    "pauseLabel": "Automatischen Wechsel pausieren"
   },
   "pricing": {
-    "sectionTitle": "Wirklich kostenlos",
+    "sectionTitle": "Kostenlos,",
     "sectionSubtitle": "Keine Werbung. Keine Abos. Keine In-App-Käufe.",
     "planName": "Alles ist dabei",
     "planDescription": "Jede Funktion unten steht allen offen. Es gibt keinen Bezahltarif, auf den du upgraden könntest.",
@@ -195,7 +234,10 @@
       "Freigabe-Codes für deine Sets",
       "Synchronisierung zwischen iOS und Web"
     ],
-    "ctaButton": "Los geht's"
+    "ctaButton": "Los geht's",
+    "sectionLabel": "Preise",
+    "sectionTitleAccent": "wirklich.",
+    "planLabel": "Ein Tarif"
   },
   "faq": {
     "sectionTitle": "Häufig gestellte Fragen",
@@ -234,14 +276,14 @@
       },
       {
         "q": "Was ist der CEFR-Lernpfad?",
-        "a": "Lernpfad ist ein geführtes Curriculum über alle sechs GER-Stufen, A1 bis C2. Bestehe jedes Quiz, um automatisch das nächste Set freizuschalten."
+        "a": "Lernpfad ist ein geführtes Curriculum über alle sechs GER-Stufen, A1 bis C2. Schließ einen Komplettdurchlauf aller sechs Übungsmodi ab, um das nächste Set freizuschalten."
       }
-    ]
+    ],
+    "sectionLabel": "FAQ"
   },
   "downloadCTA": {
     "title": "Starte heute mit dem Lernen",
     "subtitle": "Dein erstes Set steht in unter einer Minute. Lade die App herunter oder öffne sie im Browser.",
-    "iosButton": "Für iOS herunterladen",
     "webButton": "Web-App starten",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
@@ -1346,5 +1388,32 @@
         "content": "Du kannst Cookies in den Browsereinstellungen blockieren oder löschen oder einen Content-Blocker nutzen: Die Seite funktioniert auch ohne sie, verloren geht nur unsere Besuchszählung. Google bietet außerdem ein Opt-out-Add-on für Analytics unter tools.google.com/dlpage/gaoptout an. Die Calleo-App für iOS selbst nutzt keine Cookies; was sie speichert, steht in der Datenschutzerklärung. Fragen: viacheslav@exquizite.app."
       }
     ]
+  },
+  "a11y": {
+    "skip": "Zum Inhalt springen",
+    "primaryNav": "Hauptnavigation",
+    "mobileNav": "Mobile Navigation",
+    "footerNav": "Fußzeile",
+    "menu": "Menü",
+    "language": "Sprache"
+  },
+  "tapes": {
+    "label": "Übungsmodi und Funktionen",
+    "features": [
+      "40+ Sprachen",
+      "KI-Übersetzungen",
+      "Lautschrift",
+      "Beispielsätze",
+      "GER A1–C2",
+      "Keine Werbung"
+    ]
+  },
+  "languages": {
+    "sectionLabel": "Sprachen",
+    "sectionTitle": "40+ Sprachen.",
+    "sectionSubtitle": "Vollständige Lokalisierung der Benutzeroberfläche und native Sprachunterstützung. Lerne in deiner Komfortzone.",
+    "cubesLabel": "Buchstabenwürfel, die sich drehen und „Hallo“ auf Englisch, Französisch, Polnisch und Ukrainisch buchstabieren",
+    "phoneAlt": "Der Startbildschirm von Calleo mit ukrainischer Benutzeroberfläche",
+    "phoneCaption": "Die ganze App, auf Ukrainisch"
   }
 }

@@ -6,7 +6,8 @@
       "howItWorks": "Comment ça marche",
       "pricing": "Gratuit",
       "getApp": "Obtenir l'app",
-      "downloadApp": "Télécharger l'app"
+      "downloadApp": "Télécharger l'app",
+      "faq": "FAQ"
     }
   },
   "hero": {
@@ -15,19 +16,18 @@
     "titleLine2": "dont vous avez vraiment besoin",
     "subtitle": "Ajoutez les mots que vous voulez apprendre : l'IA complète la traduction, la transcription et les phrases d'exemple. Entraînez-vous ensuite dans 6 modes de jeu, en plus de 40 langues.",
     "freeNote": "Gratuit. Sans publicité. Sans abonnement.",
-    "appStoreButton": "Télécharger sur l'App Store",
     "webAppButton": "Essayer l'App Web",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "images": {
-      "dashboard": {
-        "src": "/images/dashboard.png",
-        "alt": "Tableau de bord Calleo avec la série d'entraînement et les ensembles de mots"
-      },
-      "gameModes": {
-        "src": "/images/learning-modes.png",
-        "alt": "Choix d'un mode d'entraînement pour un ensemble dans Calleo"
-      }
+    "tagline": "Coach de vocabulaire IA pour vos propres mots",
+    "titleOutline": "vraiment",
+    "titleAccent": "besoin",
+    "appStoreSmall": "Télécharger dans l'",
+    "stageLabel": "Calleo sur iPhone : vos ensembles de mots, l'écran d'entraînement et un quiz, entourés de cartes de mots",
+    "cards": {
+      "flashcard": "Carte mémoire",
+      "translate": "Traduire",
+      "addWords": "Ajouter 17 mots"
     }
   },
   "whatsNew": {
@@ -40,16 +40,26 @@
       },
       {
         "title": "Créez un set en quelques secondes, pas en minutes",
-        "description": "Taper des listes de mots est la partie ennuyeuse, alors passez-la. Avec Génération Rapide, tapez simplement un sujet comme « restaurant » ou « voyage » et l'IA crée instantanément un set de vocabulaire prêt à l'emploi. Vous avez déjà un set en cours ? Générez plus de mots liés en un tap, et Calleo ignore automatiquement ce que vous avez déjà. Vous préférez apporter votre propre liste ? Importez-la directement depuis Wordwall et commencez à pratiquer tout de suite."
+        "description": "Taper des listes de mots est la partie ennuyeuse, alors passez-la. Avec Génération Rapide, tapez un sujet comme « restaurant » ou « voyage », scannez la photo d'un menu, d'un panneau ou d'une page, ou collez un article, des paroles de chanson ou une conversation, et l'IA crée un set de vocabulaire prêt à l'emploi. Vous avez déjà un set en cours ? Générez plus de mots liés en un tap, et Calleo ignore automatiquement ce que vous avez déjà."
       },
       {
         "title": "Apprendre : un parcours guidé de vos premiers mots à la fluidité",
-        "description": "Vous ne savez pas quoi étudier ensuite ? Apprendre est un programme structuré couvrant les six niveaux du CECR, de A1 à C2, en commençant par les salutations et les nombres puis en allant vers le travail, les voyages et les sujets abstraits. Chaque étape est un set ciblé généré rien que pour vous. Réussissez le quiz et votre set suivant se débloque automatiquement, sans pression ni pénalité en cas d'échec."
+        "description": "Vous ne savez pas quoi étudier ensuite ? Apprendre est un programme structuré couvrant les six niveaux du CECR, de A1 à C2, en commençant par les salutations et les nombres puis en allant vers le travail, les voyages et les sujets abstraits. Chaque étape est un set ciblé généré rien que pour vous. Terminez un parcours complet (les six modes d'entraînement à la suite, les mots ratés revenant dans le mode suivant) et votre set suivant se débloque."
       }
-    ]
+    ],
+    "quickGenerate": {
+      "newTopic": "Nouveau thème",
+      "newTopicHint": "Tapez n'importe quel sujet",
+      "fromSet": "À partir d'un set",
+      "fromSetHint": "Plus de mots pour l'un de vos sets",
+      "scan": "Scanner une photo",
+      "scanHint": "Menus, panneaux, pages, livres",
+      "paste": "Coller du texte",
+      "pasteHint": "Articles, paroles, conversations"
+    }
   },
   "bentoFeatures": {
-    "sectionLabel": "Fonctionnalités et Points forts",
+    "sectionLabel": "Fonctionnalités et points forts",
     "sectionTitle": "Tout ce qu'il faut pour maîtriser une langue",
     "sectionSubtitle": "De la génération intelligente par IA aux modes de jeu captivants, Calleo regorge d'outils pour vous aider à apprendre plus vite.",
     "tiles": {
@@ -58,29 +68,32 @@
         "description": "Choisissez parmi 6 modes d'apprentissage interactifs adaptés à votre style unique.",
         "modes": [
           "Cartes mémoire",
-          "Jeu d'association",
-          "Mode Quiz",
+          "Association",
+          "Quiz",
           "Texte à trous",
           "Écoute",
           "Écriture"
+        ],
+        "label": "6 modes",
+        "hints": [
+          "Retourner pour révéler",
+          "Relier les paires",
+          "Choix multiple",
+          "Compléter la phrase",
+          "Écouter et choisir",
+          "Taper de mémoire"
         ]
       },
       "aiPowered": {
         "title": "Propulsé par l'IA",
         "description": "Générez des paires de mots instantanément et obtenez des indices intelligents.",
-        "image": {
-          "src": "/images/ai-generation.png",
-          "alt": "L'IA génère des paires de mots pour un thème"
-        }
-      },
-      "languages": {
-        "title": "Plus de 40 langues",
-        "description": "Localisation complète de l'interface et support natif des langues.",
-        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+        "label": "IA",
+        "chip": "Suggestions IA"
       },
       "nativeIos": {
         "title": "iOS natif",
-        "description": "Téléchargez l'app et apprenez en déplacement."
+        "description": "Téléchargez l'app et apprenez en déplacement.",
+        "label": "iPhone"
       },
       "shareDiscover": {
         "title": "Partagez vos ensembles",
@@ -96,35 +109,38 @@
             "label": "Copies",
             "value": "12"
           }
-        ]
+        ],
+        "label": "Codes de partage"
       },
       "seamlessSync": {
         "title": "Synchronisation fluide",
-        "description": "Commencez sur iPhone, continuez sur le Web. Votre progression vous suit."
+        "description": "Commencez sur iPhone, continuez sur le Web. Votre progression vous suit.",
+        "label": "Synchro"
       }
     }
   },
   "howItWorks": {
     "sectionTitle": "Comment ça marche",
-    "sectionSubtitle": "Commencez votre parcours d'apprentissage en quatre étapes simples",
+    "sectionSubtitle": "Commencez votre parcours d'apprentissage en quatre étapes simples.",
     "steps": [
       {
-        "title": "1. Créez des sets",
+        "title": "Créez des sets",
         "desc": "Construisez des listes de vocabulaire ou utilisez l'IA pour générer des mots sur n'importe quel sujet instantanément."
       },
       {
-        "title": "2. Choisissez un jeu",
+        "title": "Choisissez un jeu",
         "desc": "Choisissez parmi 6 modes de jeu captivants qui rendent l'apprentissage ludique."
       },
       {
-        "title": "3. Suivez vos progrès",
+        "title": "Suivez vos progrès",
         "desc": "Surveillez votre série, vos niveaux de maîtrise et votre historique sur votre tableau de bord."
       },
       {
-        "title": "4. Partagez un ensemble",
+        "title": "Partagez un ensemble",
         "desc": "Envoyez à un ami le code de partage d'un ensemble. Il le copie dans sa collection et vous voyez le nombre de vues et de copies."
       }
-    ]
+    ],
+    "sectionLabel": "Comment ça marche"
   },
   "whyUs": {
     "sectionTitle": "Pourquoi Calleo ?",
@@ -143,47 +159,70 @@
         "description": "Le mode invité ne demande aucun compte. Avec un compte, nous ne stockons que votre e-mail et vos ensembles. Les mots que vous générez sont envoyés à OpenAI pour la traduction et les exemples."
       },
       {
-        "title": "Moderne et Rapide",
+        "title": "Moderne et rapide",
         "description": "Conçu avec des technologies modernes pour des performances fluides sur chaque plateforme."
       }
     ],
-    "image": {
-      "src": "/images/added-words.png",
-      "alt": "Un ensemble de mots avec les traductions ajoutées par l'IA"
-    }
+    "sectionLabel": "Pourquoi Calleo",
+    "cardLabel": "Ajouté par l'IA"
   },
   "screenshotGallery": {
-    "sectionTitle": "Découvrez l'App",
+    "sectionTitle": "Découvrez l'app",
     "sectionSubtitle": "Regardez de plus près nos modes d'apprentissage interactifs.",
     "screenshots": [
       {
-        "src": "/images/learning-modes.png",
-        "alt": "Modes d'apprentissage"
+        "name": "Vos sets",
+        "alt": "Vos sets : une grille de sets de mots avec une carte Continuer"
       },
       {
-        "src": "/images/my-sets.png",
-        "alt": "Mes Sets"
+        "name": "Entraînement",
+        "alt": "Écran d'entraînement : un parcours complet des 6 modes, ou choisissez-en un"
       },
       {
-        "src": "/images/dashboard.png",
-        "alt": "Tableau de bord"
+        "name": "Carte mémoire",
+        "alt": "Carte mémoire affichant le mot espagnol viaje avec sa prononciation"
       },
       {
-        "src": "/images/create-set.png",
-        "alt": "Créer un set"
+        "name": "Quiz",
+        "alt": "Quiz demandant la traduction de leche"
       },
       {
-        "src": "/images/quiz.png",
-        "alt": "Mode Quiz"
+        "name": "Texte à trous",
+        "alt": "Texte à trous : Bebo ___ hecho con hojas secas"
       },
       {
-        "src": "/images/word-practice.png",
-        "alt": "Entraînement de mots"
+        "name": "Apprendre",
+        "alt": "Parcours Apprendre au niveau A2 : Directions et lieux"
+      },
+      {
+        "name": "Génération Rapide",
+        "alt": "Génération Rapide : nouveau thème, à partir d'un set, scanner une photo ou coller du texte"
+      },
+      {
+        "name": "Suggestions IA",
+        "alt": "Suggestions de mots par l'IA pour le thème Animales"
+      },
+      {
+        "name": "Détail du set",
+        "alt": "Le set food : des mots espagnols avec leurs traductions en anglais"
+      },
+      {
+        "name": "Mots",
+        "alt": "Mots : un dictionnaire de 397 mots, dont 17 à revoir"
       }
-    ]
+    ],
+    "sectionLabel": "Dans l'app",
+    "carouselLabel": "Écrans de l'app",
+    "roledescription": "carrousel",
+    "prev": "Écran précédent",
+    "next": "Écran suivant",
+    "play": "Lecture",
+    "pause": "Pause",
+    "playLabel": "Lancer la rotation automatique",
+    "pauseLabel": "Mettre en pause la rotation automatique"
   },
   "pricing": {
-    "sectionTitle": "Gratuit, vraiment",
+    "sectionTitle": "Gratuit,",
     "sectionSubtitle": "Sans publicité. Sans abonnement. Sans achat intégré.",
     "planName": "Tout est inclus",
     "planDescription": "Toutes les fonctionnalités ci-dessous sont accessibles à tout le monde. Il n'y a aucune offre payante vers laquelle passer.",
@@ -195,7 +234,10 @@
       "Codes de partage pour vos ensembles",
       "Synchronisation entre iOS et web"
     ],
-    "ctaButton": "Commencer"
+    "ctaButton": "Commencer",
+    "sectionLabel": "Tarifs",
+    "sectionTitleAccent": "vraiment.",
+    "planLabel": "Une seule offre"
   },
   "faq": {
     "sectionTitle": "Questions fréquentes",
@@ -234,14 +276,14 @@
       },
       {
         "q": "Qu'est-ce que le parcours d'apprentissage CECR ?",
-        "a": "Apprendre est un programme guidé couvrant les six niveaux du CECR, de A1 à C2. Réussissez chaque quiz pour débloquer automatiquement le set suivant."
+        "a": "Apprendre est un programme guidé couvrant les six niveaux du CECR, de A1 à C2. Terminez un parcours complet des six modes d'entraînement pour débloquer le set ciblé suivant."
       }
-    ]
+    ],
+    "sectionLabel": "FAQ"
   },
   "downloadCTA": {
     "title": "Commencez à apprendre aujourd'hui",
     "subtitle": "Votre premier ensemble prend moins d'une minute. Téléchargez l'application ou ouvrez-la dans votre navigateur.",
-    "iosButton": "Télécharger pour iOS",
     "webButton": "Lancer l'App Web",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
@@ -1346,5 +1388,32 @@
         "content": "Vous pouvez bloquer ou supprimer les cookies dans les réglages de votre navigateur, ou utiliser un bloqueur de contenu : le site fonctionne très bien sans eux et seule notre statistique de visites est perdue. Google propose aussi un module de désactivation d'Analytics sur tools.google.com/dlpage/gaoptout. L'application iOS Calleo n'utilise aucun cookie ; ce qu'elle stocke est décrit dans la Politique de confidentialité. Questions : viacheslav@exquizite.app."
       }
     ]
+  },
+  "a11y": {
+    "skip": "Aller au contenu",
+    "primaryNav": "Principale",
+    "mobileNav": "Mobile",
+    "footerNav": "Pied de page",
+    "menu": "Menu",
+    "language": "Langue"
+  },
+  "tapes": {
+    "label": "Modes d'entraînement et fonctionnalités",
+    "features": [
+      "Plus de 40 langues",
+      "Traductions par IA",
+      "Transcriptions",
+      "Phrases d'exemple",
+      "CECR A1–C2",
+      "Sans publicité"
+    ]
+  },
+  "languages": {
+    "sectionLabel": "Langues",
+    "sectionTitle": "Plus de 40 langues.",
+    "sectionSubtitle": "Localisation complète de l'interface et support natif des langues. Apprenez dans votre zone de confort.",
+    "cubesLabel": "Des cubes de lettres qui tournent pour écrire bonjour en anglais, en français, en polonais et en ukrainien",
+    "phoneAlt": "L'écran d'accueil de Calleo avec son interface en ukrainien",
+    "phoneCaption": "Toute l'app, en ukrainien"
   }
 }

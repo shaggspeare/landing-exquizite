@@ -9,6 +9,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import Support from './components/Support';
 import LegalPage from './components/LegalPage';
 import ScrollToTop from './components/ScrollToTop';
+import { useData } from './hooks/useData';
 
 function LanguageWrapper({ children }: { children: React.ReactNode }) {
   const { lang } = useParams<{ lang: string }>();
@@ -29,6 +30,7 @@ function LanguageWrapper({ children }: { children: React.ReactNode }) {
 
 function App() {
   const { i18n } = useTranslation();
+  const data = useData();
 
   useEffect(() => {
     document.documentElement.lang = i18n.language;
@@ -36,24 +38,27 @@ function App() {
   }, [i18n.language]);
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="cl">
+      <a className="skip" href="#main">{data.a11y.skip}</a>
       <ScrollToTop />
       <Navbar />
-      <Routes>
-        {/* English (default) routes */}
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/terms" element={<LegalPage page="terms" />} />
-        <Route path="/cookies" element={<LegalPage page="cookies" />} />
+      <main id="main">
+        <Routes>
+          {/* English (default) routes */}
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/support" element={<Support />} />
+          <Route path="/terms" element={<LegalPage page="terms" />} />
+          <Route path="/cookies" element={<LegalPage page="cookies" />} />
 
-        {/* Localized routes */}
-        <Route path="/:lang" element={<LanguageWrapper><LandingPage /></LanguageWrapper>} />
-        <Route path="/:lang/privacy-policy" element={<LanguageWrapper><PrivacyPolicy /></LanguageWrapper>} />
-        <Route path="/:lang/support" element={<LanguageWrapper><Support /></LanguageWrapper>} />
-        <Route path="/:lang/terms" element={<LanguageWrapper><LegalPage page="terms" /></LanguageWrapper>} />
-        <Route path="/:lang/cookies" element={<LanguageWrapper><LegalPage page="cookies" /></LanguageWrapper>} />
-      </Routes>
+          {/* Localized routes */}
+          <Route path="/:lang" element={<LanguageWrapper><LandingPage /></LanguageWrapper>} />
+          <Route path="/:lang/privacy-policy" element={<LanguageWrapper><PrivacyPolicy /></LanguageWrapper>} />
+          <Route path="/:lang/support" element={<LanguageWrapper><Support /></LanguageWrapper>} />
+          <Route path="/:lang/terms" element={<LanguageWrapper><LegalPage page="terms" /></LanguageWrapper>} />
+          <Route path="/:lang/cookies" element={<LanguageWrapper><LegalPage page="cookies" /></LanguageWrapper>} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   );

@@ -13,10 +13,10 @@ Calleo is completely free: no ads, no subscriptions and no in-app purchases. It 
 ## Key features
 
 - AI-powered word generation: instantly generate vocabulary word pairs and translations for any topic
-- Quick Generate: turn a single topic (e.g. "restaurant," "travel") into a ready-to-use vocabulary set instantly, with AI skipping words you already have
+- Quick Generate: turn a topic (e.g. "restaurant," "travel"), a photo of a menu, sign or page, or pasted text (an article, lyrics, a chat) into a ready-to-use vocabulary set, with AI skipping words you already have
 - Wordwall Import: import existing word sets directly from Wordwall
-- 6 interactive learning modes: Flashcards, Match Game, Quiz Mode, Fill in the Blank, Listening, Writing
-- Learn (CEFR Path): a guided, auto-progressing curriculum spanning all six CEFR levels (A1 through C2), unlocking the next focused set as you pass each quiz
+- 6 interactive learning modes: Flashcards, Match, Quiz, Fill in the Blank, Listening, Writing
+- Learn (CEFR Path): a guided, auto-progressing curriculum spanning all six CEFR levels (A1 through C2), unlocking the next focused set after a Full run (all six practice modes back to back)
 - Word Practice: swipe-based quick review of known/unknown words
 - Custom word sets: create, edit, and organize vocabulary lists manually or via AI
 - Sharing: turn any set into a share code; anyone with the code can preview the set and copy it into their own collection, and the owner sees view and copy counts (there is no public discovery feed)

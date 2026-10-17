@@ -3,10 +3,11 @@
     "brandName": "Calleo",
     "links": {
       "features": "Özellikler",
-      "howItWorks": "Nasıl Çalışır",
+      "howItWorks": "Nasıl çalışır",
       "pricing": "Ücretsiz",
-      "getApp": "Uygulamayı İndir",
-      "downloadApp": "Uygulamayı İndir"
+      "getApp": "Uygulamayı indir",
+      "downloadApp": "Uygulamayı indir",
+      "faq": "SSS"
     }
   },
   "hero": {
@@ -15,23 +16,22 @@
     "titleLine2": "kelimeleri öğrenin",
     "subtitle": "Öğrenmek istediğiniz kelimeleri ekleyin; çeviriyi, okunuşu ve örnek cümleleri yapay zekâ tamamlasın. Sonra 6 oyun modunda, 40'tan fazla dilde pratik yapın.",
     "freeNote": "Ücretsiz. Reklam yok. Abonelik yok.",
-    "appStoreButton": "App Store'dan İndir",
     "webAppButton": "Web Uygulamasını Dene",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "images": {
-      "dashboard": {
-        "src": "/images/dashboard.png",
-        "alt": "Pratik serisi ve kelime setlerini gösteren Calleo panosu"
-      },
-      "gameModes": {
-        "src": "/images/learning-modes.png",
-        "alt": "Calleo'da bir kelime seti için pratik modu seçme"
-      }
+    "tagline": "Kendi kelimeleriniz için yapay zekâ destekli kelime antrenörü",
+    "titleOutline": "Gerçekten",
+    "titleAccent": "ihtiyaç",
+    "appStoreSmall": "Hemen indirin",
+    "stageLabel": "iPhone'da Calleo: kelime setleriniz, pratik ekranı ve bir quiz; çevresinde kelime kartları",
+    "cards": {
+      "flashcard": "Bilgi kartı",
+      "translate": "Çeviri",
+      "addWords": "17 kelime ekle"
     }
   },
   "whatsNew": {
-    "sectionLabel": "Son Güncelleme",
+    "sectionLabel": "Son güncelleme",
     "sectionTitle": "Calleo'da Yenilikler",
     "items": [
       {
@@ -40,47 +40,60 @@
       },
       {
         "title": "Bir seti dakikalar içinde değil, saniyeler içinde oluştur",
-        "description": "Kelime listelerini yazmak sıkıcı kısım, o yüzden atla. Hızlı Oluştur ile \"restoran\" veya \"seyahat\" gibi bir konu yaz, yapay zeka anında kullanıma hazır bir kelime seti oluştursun. Zaten devam eden bir setin mi var? Tek dokunuşla ilgili daha fazla kelime üret, Calleo zaten sahip olduklarını otomatik olarak atlar. Kendi listeni mi getirmek istiyorsun? Doğrudan Wordwall'dan içe aktar ve hemen pratik yapmaya başla."
+        "description": "Kelime listelerini yazmak sıkıcı kısım, o yüzden atla. Hızlı Oluştur ile “restoran” veya “seyahat” gibi bir konu yaz, bir menünün, tabelanın ya da sayfanın fotoğrafını tara veya bir makale, şarkı sözü ya da sohbet yapıştır; yapay zekâ kullanıma hazır bir kelime seti oluştursun. Zaten devam eden bir setin mi var? Tek dokunuşla ilgili daha fazla kelime üret, Calleo zaten sahip olduklarını otomatik olarak atlar."
       },
       {
         "title": "Öğren: ilk kelimelerinden akıcılığa rehberli bir yol",
-        "description": "Sırada ne çalışacağından emin değil misin? Öğren, A1'den C2'ye tüm altı CEFR seviyesini kapsayan yapılandırılmış bir müfredattır — başlangıçta selamlaşmalar ve sayılar, ilerleyen aşamalarda iş, seyahat ve soyut konular. Her adım senin için özel oluşturulmuş odaklı bir settir. Quiz'i geç, bir sonraki setin otomatik olarak açılsın — baskı yok, tekrar denemek için ceza yok."
+        "description": "Sırada ne çalışacağından emin değil misin? Öğren, A1'den C2'ye tüm altı CEFR seviyesini kapsayan yapılandırılmış bir müfredattır — başlangıçta selamlaşmalar ve sayılar, ilerleyen aşamalarda iş, seyahat ve soyut konular. Her adım senin için özel oluşturulmuş odaklı bir settir. Bir tam tur bitir (altı pratik modunun hepsi art arda, kaçırdığın kelimeler bir sonrakinde geri gelir), sıradaki setinin kilidi açılsın."
       }
-    ]
+    ],
+    "quickGenerate": {
+      "newTopic": "Yeni konu",
+      "newTopicHint": "Herhangi bir konu yaz",
+      "fromSet": "Bir setten",
+      "fromSetHint": "Setlerinden biri için daha fazla kelime",
+      "scan": "Fotoğraf tara",
+      "scanHint": "Menüler, tabelalar, sayfalar, kitaplar",
+      "paste": "Metin yapıştır",
+      "pasteHint": "Makaleler, şarkı sözleri, sohbetler"
+    }
   },
   "bentoFeatures": {
-    "sectionLabel": "Özellikler ve Öne Çıkanlar",
+    "sectionLabel": "Özellikler ve öne çıkanlar",
     "sectionTitle": "Bir dili öğrenmek için ihtiyacınız olan her şey",
     "sectionSubtitle": "Akıllı yapay zeka üretiminden eğlenceli oyun modlarına kadar, Calleo daha hızlı öğrenmenize yardımcı olacak araçlarla dolu.",
     "tiles": {
       "learnYourWay": {
-        "title": "Kendi Tarzınızda Öğrenin",
+        "title": "Kendi tarzınızda öğrenin",
         "description": "Benzersiz öğrenme tarzınıza uygun 6 etkileşimli öğrenme modundan birini seçin.",
         "modes": [
           "Bilgi Kartları",
-          "Eşleştirme Oyunu",
-          "Quiz Modu",
+          "Eşleştirme",
+          "Quiz",
           "Boşluk Doldurma",
           "Dinleme",
           "Yazma"
+        ],
+        "label": "6 mod",
+        "hints": [
+          "Görmek için çevirin",
+          "Eşleri birleştirin",
+          "Çoktan seçmeli",
+          "Cümleyi tamamlayın",
+          "Duyun ve seçin",
+          "Ezberden yazın"
         ]
       },
       "aiPowered": {
         "title": "Yapay Zeka Destekli",
         "description": "Anında kelime çiftleri oluşturun ve akıllı ipuçları alın.",
-        "image": {
-          "src": "/images/ai-generation.png",
-          "alt": "Yapay zekâ bir konu için kelime çiftleri üretiyor"
-        }
-      },
-      "languages": {
-        "title": "40'tan Fazla Dil",
-        "description": "Tam arayüz yerelleştirmesi ve ana dil desteği.",
-        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+        "label": "Yapay zekâ",
+        "chip": "Yapay zekâ önerileri"
       },
       "nativeIos": {
         "title": "Yerel iOS",
-        "description": "Hareket halindeyken öğrenmek için uygulamayı edinin."
+        "description": "Hareket halindeyken öğrenmek için uygulamayı edinin.",
+        "label": "iPhone"
       },
       "shareDiscover": {
         "title": "Setlerinizi paylaşın",
@@ -96,94 +109,120 @@
             "label": "Kopyalama",
             "value": "12"
           }
-        ]
+        ],
+        "label": "Paylaşım kodları"
       },
       "seamlessSync": {
-        "title": "Kesintisiz Senkronizasyon",
-        "description": "iPhone'da başlayın, Web'de devam edin. İlerlemeniz sizi takip eder."
+        "title": "Kesintisiz senkronizasyon",
+        "description": "iPhone'da başlayın, Web'de devam edin. İlerlemeniz sizi takip eder.",
+        "label": "Senkronizasyon"
       }
     }
   },
   "howItWorks": {
-    "sectionTitle": "Nasıl Çalışır",
-    "sectionSubtitle": "Öğrenme yolculuğunuza dört basit adımda başlayın",
+    "sectionTitle": "Nasıl çalışır",
+    "sectionSubtitle": "Öğrenme yolculuğunuza dört basit adımda başlayın.",
     "steps": [
       {
-        "title": "1. Set Oluşturun",
+        "title": "Set oluşturun",
         "desc": "Kelime listeleri oluşturun veya yapay zeka ile herhangi bir konu için anında kelime üretin."
       },
       {
-        "title": "2. Oyun Seçin",
+        "title": "Oyun seçin",
         "desc": "Öğrenmeyi eğlenceye dönüştüren 6 çekici oyun modundan birini seçin."
       },
       {
-        "title": "3. İlerlemeyi Takip Edin",
+        "title": "İlerlemeyi takip edin",
         "desc": "Seriinizi, ustalık seviyelerinizi ve geçmişinizi kontrol panelinizden izleyin."
       },
       {
-        "title": "4. Bir set paylaşın",
+        "title": "Bir set paylaşın",
         "desc": "Bir arkadaşınıza setin paylaşım kodunu gönderin. Kendi koleksiyonuna kopyalar, siz de görüntüleme ve kopyalama sayısını görürsünüz."
       }
-    ]
+    ],
+    "sectionLabel": "Nasıl çalışır"
   },
   "whyUs": {
     "sectionTitle": "Neden Calleo?",
     "sectionSubtitle": "Calleo'i dil öğrenimindeki engelleri kaldırmak için geliştirdik. İster sıradan bir öğrenci ister çok dilli olun, platformumuz size uyum sağlar.",
     "points": [
       {
-        "title": "Saniyeler İçinde Başlayın",
+        "title": "Saniyeler içinde başlayın",
         "description": "Misafir modunu anında deneyin. Senkronize etmek isteyene kadar kayıt gerekmez."
       },
       {
-        "title": "Gerçekten Çok Dilli",
+        "title": "Gerçekten çok dilli",
         "description": "Arayüz birden fazla dilde mevcut. Rahat olduğunuz dilde öğrenin."
       },
       {
-        "title": "Gizlilik Öncelikli",
+        "title": "Gizlilik öncelikli",
         "description": "Misafir modu hesap gerektirmez. Hesap açtığınızda yalnızca e-postanızı ve oluşturduğunuz setleri saklarız. Ürettiğiniz kelimeler çeviri ve örnekler için OpenAI'ye gönderilir."
       },
       {
-        "title": "Modern ve Hızlı",
+        "title": "Modern ve hızlı",
         "description": "Her platformda akıcı performans için modern teknolojiyle geliştirildi."
       }
     ],
-    "image": {
-      "src": "/images/added-words.png",
-      "alt": "Çevirileri yapay zekâ tarafından eklenmiş bir kelime seti"
-    }
+    "sectionLabel": "Neden Calleo",
+    "cardLabel": "Yapay zekâ ekledi"
   },
   "screenshotGallery": {
-    "sectionTitle": "Uygulamayı Keşfedin",
+    "sectionTitle": "Uygulamayı keşfedin",
     "sectionSubtitle": "Etkileşimli öğrenme modlarımıza yakından bakın.",
     "screenshots": [
       {
-        "src": "/images/learning-modes.png",
-        "alt": "Öğrenme Modları"
+        "name": "Setleriniz",
+        "alt": "Setleriniz: Devam et kartıyla birlikte kelime setlerinden oluşan bir ızgara"
       },
       {
-        "src": "/images/my-sets.png",
-        "alt": "Setlerim"
+        "name": "Pratik",
+        "alt": "Pratik ekranı: 6 modun hepsiyle bir tam tur ya da birini seçin"
       },
       {
-        "src": "/images/dashboard.png",
-        "alt": "Kontrol paneli"
+        "name": "Bilgi kartı",
+        "alt": "İspanyolca viaje kelimesini okunuşuyla gösteren bilgi kartı"
       },
       {
-        "src": "/images/create-set.png",
-        "alt": "Set oluşturma"
+        "name": "Quiz",
+        "alt": "leche kelimesinin çevirisini soran quiz"
       },
       {
-        "src": "/images/quiz.png",
-        "alt": "Quiz Modu"
+        "name": "Boşluk Doldurma",
+        "alt": "Boşluk Doldurma: Bebo ___ hecho con hojas secas"
       },
       {
-        "src": "/images/word-practice.png",
-        "alt": "Kelime pratiği"
+        "name": "Öğrenme yolu",
+        "alt": "A2 seviyesinde öğrenme yolu: Yönler ve Mekânlar"
+      },
+      {
+        "name": "Hızlı Oluştur",
+        "alt": "Hızlı Oluştur: yeni konu, bir setten, fotoğraf tara veya metin yapıştır"
+      },
+      {
+        "name": "Yapay zekâ önerileri",
+        "alt": "Animales teması için yapay zekâ kelime önerileri"
+      },
+      {
+        "name": "Set ayrıntıları",
+        "alt": "food seti: İngilizce çevirileriyle İspanyolca kelimeler"
+      },
+      {
+        "name": "Kelimeler",
+        "alt": "Kelimeler: 397 kelimelik bir sözlük ve pratik gerektiren 17 kelime"
       }
-    ]
+    ],
+    "sectionLabel": "Uygulamanın içi",
+    "carouselLabel": "Uygulama ekranları",
+    "roledescription": "karusel",
+    "prev": "Önceki ekran",
+    "next": "Sonraki ekran",
+    "play": "Oynat",
+    "pause": "Duraklat",
+    "playLabel": "Otomatik geçişi başlat",
+    "pauseLabel": "Otomatik geçişi duraklat"
   },
   "pricing": {
-    "sectionTitle": "Gerçekten ücretsiz",
+    "sectionTitle": "Ücretsiz,",
     "sectionSubtitle": "Reklam yok. Abonelik yok. Uygulama içi satın alma yok.",
     "planName": "Her şey dahil",
     "planDescription": "Aşağıdaki tüm özellikler herkese açık. Geçilecek ücretli bir plan yok.",
@@ -195,10 +234,13 @@
       "Setleriniz için paylaşım kodları",
       "iOS ve web arasında senkronizasyon"
     ],
-    "ctaButton": "Başla"
+    "ctaButton": "Başla",
+    "sectionLabel": "Fiyatlandırma",
+    "sectionTitleAccent": "gerçekten.",
+    "planLabel": "Tek plan"
   },
   "faq": {
-    "sectionTitle": "Sıkça Sorulan Sorular",
+    "sectionTitle": "Sıkça sorulan sorular",
     "items": [
       {
         "q": "Calleo'i kullanmak için hesap gerekli mi?",
@@ -234,14 +276,14 @@
       },
       {
         "q": "CEFR Öğrenme yolu nedir?",
-        "a": "Öğren, A1'den C2'ye tüm altı CEFR seviyesini kapsayan rehberli bir müfredattır. Bir sonraki seti otomatik olarak açmak için her quiz'i geçin."
+        "a": "Öğren, A1'den C2'ye tüm altı CEFR seviyesini kapsayan rehberli bir müfredattır. Bir sonraki odaklı seti açmak için altı pratik modunun hepsini içeren bir tam tur bitirin."
       }
-    ]
+    ],
+    "sectionLabel": "SSS"
   },
   "downloadCTA": {
-    "title": "Bugün Öğrenmeye Başlayın",
+    "title": "Bugün öğrenmeye başlayın",
     "subtitle": "İlk setiniz bir dakikadan kısa sürer. Uygulamayı indirin ya da tarayıcınızda açın.",
-    "iosButton": "iOS için İndir",
     "webButton": "Web Uygulamasını Aç",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
@@ -259,7 +301,7 @@
             "href": "#features"
           },
           {
-            "label": "Nasıl Çalışır",
+            "label": "Nasıl çalışır",
             "href": "#how-it-works"
           },
           {
@@ -1346,5 +1388,32 @@
         "content": "Çerezleri tarayıcı ayarlarınızdan engelleyebilir ya da silebilirsiniz, bir içerik engelleyici de kullanabilirsiniz: site onlar olmadan da sorunsuz çalışır, kaybedilen tek şey ziyaret sayımızdır. Google ayrıca tools.google.com/dlpage/gaoptout adresinde Analytics için devre dışı bırakma eklentisi sunuyor. Calleo'nun iOS uygulaması çerez kullanmaz; neleri sakladığı Gizlilik Politikası'nda yazıyor. Sorular: viacheslav@exquizite.app."
       }
     ]
+  },
+  "a11y": {
+    "skip": "İçeriğe geç",
+    "primaryNav": "Ana menü",
+    "mobileNav": "Mobil menü",
+    "footerNav": "Alt bilgi",
+    "menu": "Menü",
+    "language": "Dil"
+  },
+  "tapes": {
+    "label": "Pratik modları ve özellikler",
+    "features": [
+      "40'tan fazla dil",
+      "Yapay zekâ çevirileri",
+      "Okunuşlar",
+      "Örnek cümleler",
+      "CEFR A1–C2",
+      "Reklam yok"
+    ]
+  },
+  "languages": {
+    "sectionLabel": "Diller",
+    "sectionTitle": "40'tan fazla dil.",
+    "sectionSubtitle": "Tam arayüz yerelleştirmesi ve ana dil desteği. Rahat olduğunuz dilde öğrenin.",
+    "cubesLabel": "Harf küpleri dönerek İngilizce, Fransızca, Lehçe ve Ukraynaca “merhaba” yazıyor",
+    "phoneAlt": "Arayüzü Ukraynaca olan Calleo ana ekranı",
+    "phoneCaption": "Uygulamanın tamamı Ukraynaca"
   }
 }

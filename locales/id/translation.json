@@ -3,10 +3,11 @@
     "brandName": "Calleo",
     "links": {
       "features": "Fitur",
-      "howItWorks": "Cara Kerja",
+      "howItWorks": "Cara kerja",
       "pricing": "Gratis",
-      "getApp": "Dapatkan Aplikasi",
-      "downloadApp": "Unduh Aplikasi"
+      "getApp": "Dapatkan aplikasi",
+      "downloadApp": "Unduh aplikasi",
+      "faq": "FAQ"
     }
   },
   "hero": {
@@ -15,23 +16,22 @@
     "titleLine2": "yang benar-benar kamu butuhkan",
     "subtitle": "Tambahkan kata yang ingin kamu pelajari, lalu AI melengkapi terjemahan, transkripsi, dan contoh kalimat. Latih di 6 mode permainan, dalam 40+ bahasa.",
     "freeNote": "Gratis. Tanpa iklan. Tanpa langganan.",
-    "appStoreButton": "Unduh di App Store",
     "webAppButton": "Coba Aplikasi Web",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "images": {
-      "dashboard": {
-        "src": "/images/dashboard.png",
-        "alt": "Dasbor Calleo dengan rentetan latihan dan set kata"
-      },
-      "gameModes": {
-        "src": "/images/learning-modes.png",
-        "alt": "Memilih mode latihan untuk sebuah set kata di Calleo"
-      }
+    "tagline": "Pelatih kosakata AI untuk kata-katamu sendiri",
+    "titleOutline": "benar-benar",
+    "titleAccent": "butuhkan",
+    "appStoreSmall": "Unduh di",
+    "stageLabel": "Calleo di iPhone: set kata kamu, layar latihan, dan kuis, dikelilingi kartu kata",
+    "cards": {
+      "flashcard": "Kartu flash",
+      "translate": "Terjemahkan",
+      "addWords": "Tambah 17 kata"
     }
   },
   "whatsNew": {
-    "sectionLabel": "Pembaruan Terbaru",
+    "sectionLabel": "Pembaruan terbaru",
     "sectionTitle": "Baru di Calleo",
     "items": [
       {
@@ -40,47 +40,60 @@
       },
       {
         "title": "Buat set dalam hitungan detik, bukan menit",
-        "description": "Mengetik daftar kata adalah bagian yang membosankan, jadi lewati saja. Dengan Buat Cepat, cukup ketik topik seperti \"restoran\" atau \"perjalanan\" dan AI langsung membuat set kosakata siap pakai. Sudah punya set yang sedang dikerjakan? Hasilkan lebih banyak kata terkait dengan satu ketukan, dan Calleo otomatis melewati kata yang sudah kamu punya. Lebih suka membawa daftarmu sendiri? Impor langsung dari Wordwall dan mulai berlatih saat itu juga."
+        "description": "Mengetik daftar kata adalah bagian yang membosankan, jadi lewati saja. Dengan Buat Cepat, ketik topik seperti “restoran” atau “perjalanan”, pindai foto menu, papan tanda, atau halaman buku, atau tempel artikel, lirik lagu, atau obrolan, dan AI membuat set kosakata siap pakai. Sudah punya set yang sedang dikerjakan? Hasilkan lebih banyak kata terkait dengan satu ketukan, dan Calleo otomatis melewati kata yang sudah kamu punya."
       },
       {
         "title": "Belajar: jalur terpandu dari kata pertamamu hingga fasih",
-        "description": "Bingung mau belajar apa selanjutnya? Belajar adalah kurikulum terstruktur yang mencakup keenam level CEFR, dari A1 hingga C2, dimulai dengan salam dan angka lalu berkembang ke pekerjaan, perjalanan, dan topik abstrak. Setiap langkah adalah set terfokus yang dibuat khusus untukmu. Lulus kuisnya, dan set berikutnya otomatis terbuka, tanpa tekanan dan tanpa hukuman jika mencoba lagi."
+        "description": "Bingung mau belajar apa selanjutnya? Belajar adalah kurikulum terstruktur yang mencakup keenam level CEFR, dari A1 hingga C2, dimulai dengan salam dan angka lalu berkembang ke pekerjaan, perjalanan, dan topik abstrak. Setiap langkah adalah set terfokus yang dibuat khusus untukmu. Selesaikan putaran penuh (keenam mode latihan berturut-turut, dan kata yang salah muncul lagi di mode berikutnya), lalu set berikutnya terbuka."
       }
-    ]
+    ],
+    "quickGenerate": {
+      "newTopic": "Topik baru",
+      "newTopicHint": "Ketik topik apa saja",
+      "fromSet": "Dari set",
+      "fromSetHint": "Lebih banyak kata untuk salah satu set kamu",
+      "scan": "Pindai foto",
+      "scanHint": "Menu, papan, halaman, buku",
+      "paste": "Tempel teks",
+      "pasteHint": "Artikel, lirik, obrolan"
+    }
   },
   "bentoFeatures": {
-    "sectionLabel": "Fitur dan Keunggulan",
+    "sectionLabel": "Fitur dan keunggulan",
     "sectionTitle": "Semua yang kamu butuhkan untuk menguasai bahasa",
     "sectionSubtitle": "Dari pembuatan cerdas dengan AI hingga mode permainan yang seru, Calleo dilengkapi dengan alat untuk membantumu belajar lebih cepat.",
     "tiles": {
       "learnYourWay": {
-        "title": "Belajar Sesuai Gayamu",
+        "title": "Belajar sesuai gayamu",
         "description": "Pilih dari 6 mode pembelajaran interaktif yang cocok dengan gaya belajarmu.",
         "modes": [
           "Kartu Flash",
-          "Permainan Cocokkan",
-          "Mode Kuis",
+          "Cocokkan",
+          "Kuis",
           "Isi Bagian Kosong",
-          "Mendengarkan",
+          "Menyimak",
           "Menulis"
+        ],
+        "label": "6 mode",
+        "hints": [
+          "Balik untuk melihat",
+          "Hubungkan pasangan",
+          "Pilihan ganda",
+          "Lengkapi kalimat",
+          "Dengar lalu pilih",
+          "Ketik dari ingatan"
         ]
       },
       "aiPowered": {
         "title": "Bertenaga AI",
         "description": "Buat pasangan kata secara instan dan dapatkan petunjuk cerdas.",
-        "image": {
-          "src": "/images/ai-generation.png",
-          "alt": "AI membuat pasangan kata untuk sebuah topik"
-        }
-      },
-      "languages": {
-        "title": "40+ Bahasa",
-        "description": "Lokalisasi antarmuka lengkap dan dukungan bahasa asli.",
-        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+        "label": "AI",
+        "chip": "Saran AI"
       },
       "nativeIos": {
         "title": "iOS Native",
-        "description": "Dapatkan aplikasinya untuk belajar di mana saja."
+        "description": "Dapatkan aplikasinya untuk belajar di mana saja.",
+        "label": "iPhone"
       },
       "shareDiscover": {
         "title": "Bagikan set kamu",
@@ -96,94 +109,120 @@
             "label": "Disalin",
             "value": "12"
           }
-        ]
+        ],
+        "label": "Kode berbagi"
       },
       "seamlessSync": {
-        "title": "Sinkronisasi Mulus",
-        "description": "Mulai di iPhone, lanjutkan di Web. Progresmu mengikutimu ke mana saja."
+        "title": "Sinkronisasi mulus",
+        "description": "Mulai di iPhone, lanjutkan di Web. Progresmu mengikutimu ke mana saja.",
+        "label": "Sinkronisasi"
       }
     }
   },
   "howItWorks": {
-    "sectionTitle": "Cara Kerja",
-    "sectionSubtitle": "Mulai perjalanan belajarmu dalam empat langkah sederhana",
+    "sectionTitle": "Cara kerja",
+    "sectionSubtitle": "Mulai perjalanan belajarmu dalam empat langkah sederhana.",
     "steps": [
       {
-        "title": "1. Buat Set",
+        "title": "Buat set",
         "desc": "Bangun daftar kosakata atau gunakan AI untuk menghasilkan kata untuk topik apa pun secara instan."
       },
       {
-        "title": "2. Pilih Permainan",
+        "title": "Pilih permainan",
         "desc": "Pilih dari 6 mode permainan seru yang membuat belajar terasa seperti bermain."
       },
       {
-        "title": "3. Lacak Progres",
+        "title": "Lacak progres",
         "desc": "Pantau streak, level penguasaan, dan riwayatmu di dasbor."
       },
       {
-        "title": "4. Bagikan set",
+        "title": "Bagikan set",
         "desc": "Kirim kode berbagi sebuah set ke teman. Mereka menyalinnya ke koleksi sendiri, dan kamu melihat jumlah dilihat dan disalin."
       }
-    ]
+    ],
+    "sectionLabel": "Cara kerja"
   },
   "whyUs": {
     "sectionTitle": "Mengapa Calleo?",
     "sectionSubtitle": "Kami membangun Calleo untuk menghilangkan hambatan dalam belajar bahasa. Baik kamu pelajar kasual atau poliglot, platform kami menyesuaikan denganmu.",
     "points": [
       {
-        "title": "Mulai dalam Hitungan Detik",
+        "title": "Mulai dalam hitungan detik",
         "description": "Coba mode tamu secara instan. Tidak perlu mendaftar sampai kamu ingin sinkronisasi."
       },
       {
-        "title": "Benar-benar Multibahasa",
+        "title": "Benar-benar multibahasa",
         "description": "Antarmuka tersedia dalam berbagai bahasa. Belajar di zona nyamanmu."
       },
       {
-        "title": "Privasi Diutamakan",
+        "title": "Privasi diutamakan",
         "description": "Mode tamu tidak perlu akun. Dengan akun, kami hanya menyimpan email kamu dan set yang kamu buat. Kata yang kamu minta dibuat dikirim ke OpenAI untuk terjemahan dan contoh."
       },
       {
-        "title": "Modern dan Cepat",
+        "title": "Modern dan cepat",
         "description": "Dibangun dengan teknologi modern untuk performa mulus di setiap platform."
       }
     ],
-    "image": {
-      "src": "/images/added-words.png",
-      "alt": "Set kata dengan terjemahan yang dilengkapi AI"
-    }
+    "sectionLabel": "Mengapa Calleo",
+    "cardLabel": "Ditambahkan oleh AI"
   },
   "screenshotGallery": {
-    "sectionTitle": "Jelajahi Aplikasinya",
+    "sectionTitle": "Jelajahi aplikasinya",
     "sectionSubtitle": "Lihat lebih dekat mode pembelajaran interaktif kami.",
     "screenshots": [
       {
-        "src": "/images/learning-modes.png",
-        "alt": "Mode Pembelajaran"
+        "name": "Set kamu",
+        "alt": "Set kamu: kisi set kata dengan kartu Lanjutkan"
       },
       {
-        "src": "/images/my-sets.png",
-        "alt": "Set Saya"
+        "name": "Latihan",
+        "alt": "Layar latihan: putaran penuh keenam mode, atau pilih salah satu"
       },
       {
-        "src": "/images/dashboard.png",
-        "alt": "Dasbor"
+        "name": "Kartu Flash",
+        "alt": "Kartu flash yang menampilkan kata Spanyol viaje beserta pelafalannya"
       },
       {
-        "src": "/images/create-set.png",
-        "alt": "Buat set"
+        "name": "Kuis",
+        "alt": "Kuis yang menanyakan terjemahan leche"
       },
       {
-        "src": "/images/quiz.png",
-        "alt": "Mode Kuis"
+        "name": "Isi Bagian Kosong",
+        "alt": "Isi Bagian Kosong: Bebo ___ hecho con hojas secas"
       },
       {
-        "src": "/images/word-practice.png",
-        "alt": "Latihan kata"
+        "name": "Jalur Belajar",
+        "alt": "Jalur Belajar di level A2: Arah dan Tempat"
+      },
+      {
+        "name": "Buat Cepat",
+        "alt": "Buat Cepat: topik baru, dari set, pindai foto, atau tempel teks"
+      },
+      {
+        "name": "Saran AI",
+        "alt": "Saran kata dari AI untuk tema Animales"
+      },
+      {
+        "name": "Detail set",
+        "alt": "Set food: kata-kata Spanyol dengan terjemahan bahasa Inggris"
+      },
+      {
+        "name": "Kata",
+        "alt": "Kata: kamus berisi 397 kata dan 17 yang perlu dilatih"
       }
-    ]
+    ],
+    "sectionLabel": "Di dalam aplikasi",
+    "carouselLabel": "Layar aplikasi",
+    "roledescription": "korsel",
+    "prev": "Layar sebelumnya",
+    "next": "Layar berikutnya",
+    "play": "Putar",
+    "pause": "Jeda",
+    "playLabel": "Putar rotasi otomatis",
+    "pauseLabel": "Jeda rotasi otomatis"
   },
   "pricing": {
-    "sectionTitle": "Gratis, sungguhan",
+    "sectionTitle": "Gratis,",
     "sectionSubtitle": "Tanpa iklan. Tanpa langganan. Tanpa pembelian dalam aplikasi.",
     "planName": "Semuanya sudah termasuk",
     "planDescription": "Semua fitur di bawah terbuka untuk siapa saja. Tidak ada paket berbayar untuk ditingkatkan.",
@@ -195,10 +234,13 @@
       "Kode berbagi untuk set kamu",
       "Sinkronisasi antara iOS dan web"
     ],
-    "ctaButton": "Mulai"
+    "ctaButton": "Mulai",
+    "sectionLabel": "Harga",
+    "sectionTitleAccent": "sungguhan.",
+    "planLabel": "Satu paket"
   },
   "faq": {
-    "sectionTitle": "Pertanyaan yang Sering Diajukan",
+    "sectionTitle": "Pertanyaan yang sering diajukan",
     "items": [
       {
         "q": "Apakah saya perlu akun untuk menggunakan Calleo?",
@@ -234,14 +276,14 @@
       },
       {
         "q": "Apa itu jalur belajar CEFR?",
-        "a": "Belajar adalah kurikulum terpandu yang mencakup keenam level CEFR, dari A1 hingga C2. Lulus setiap kuis untuk otomatis membuka set berikutnya."
+        "a": "Belajar adalah kurikulum terpandu yang mencakup keenam level CEFR, dari A1 hingga C2. Selesaikan putaran penuh keenam mode latihan untuk membuka set terfokus berikutnya."
       }
-    ]
+    ],
+    "sectionLabel": "FAQ"
   },
   "downloadCTA": {
-    "title": "Mulai Belajar Hari Ini",
+    "title": "Mulai belajar hari ini",
     "subtitle": "Set pertama kamu selesai dalam waktu kurang dari satu menit. Unduh aplikasinya atau buka di browser.",
-    "iosButton": "Unduh untuk iOS",
     "webButton": "Buka Aplikasi Web",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
@@ -259,7 +301,7 @@
             "href": "#features"
           },
           {
-            "label": "Cara Kerja",
+            "label": "Cara kerja",
             "href": "#how-it-works"
           },
           {
@@ -1346,5 +1388,32 @@
         "content": "Kamu bisa memblokir atau menghapus cookie di pengaturan browser, atau memakai pemblokir konten: situs tetap berjalan normal tanpa cookie, dan yang hilang hanya hitungan kunjungan kami. Google juga menyediakan add-on penonaktifan Analytics di tools.google.com/dlpage/gaoptout. Aplikasi Calleo untuk iOS sendiri tidak memakai cookie; apa yang disimpannya dijelaskan di Kebijakan Privasi. Pertanyaan: viacheslav@exquizite.app."
       }
     ]
+  },
+  "a11y": {
+    "skip": "Langsung ke konten",
+    "primaryNav": "Utama",
+    "mobileNav": "Seluler",
+    "footerNav": "Kaki halaman",
+    "menu": "Menu",
+    "language": "Bahasa"
+  },
+  "tapes": {
+    "label": "Mode latihan dan fitur",
+    "features": [
+      "40+ bahasa",
+      "Terjemahan AI",
+      "Transkripsi",
+      "Contoh kalimat",
+      "CEFR A1–C2",
+      "Tanpa iklan"
+    ]
+  },
+  "languages": {
+    "sectionLabel": "Bahasa",
+    "sectionTitle": "40+ bahasa.",
+    "sectionSubtitle": "Lokalisasi antarmuka lengkap dan dukungan bahasa asli. Belajar di zona nyamanmu.",
+    "cubesLabel": "Kubus huruf berputar mengeja halo dalam bahasa Inggris, Prancis, Polandia, dan Ukraina",
+    "phoneAlt": "Layar beranda Calleo dengan antarmuka berbahasa Ukraina",
+    "phoneCaption": "Seluruh aplikasi, dalam bahasa Ukraina"
   }
 }

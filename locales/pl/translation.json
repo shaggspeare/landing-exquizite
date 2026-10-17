@@ -3,10 +3,11 @@
     "brandName": "Calleo",
     "links": {
       "features": "Funkcje",
-      "howItWorks": "Jak to dziala",
+      "howItWorks": "Jak to działa",
       "pricing": "Bezpłatnie",
-      "getApp": "Pobierz aplikacje",
-      "downloadApp": "Pobierz aplikacje"
+      "getApp": "Pobierz aplikację",
+      "downloadApp": "Pobierz aplikację",
+      "faq": "FAQ"
     }
   },
   "hero": {
@@ -15,19 +16,18 @@
     "titleLine2": "których naprawdę potrzebujesz",
     "subtitle": "Dodaj słowa, których chcesz się nauczyć – AI uzupełni tłumaczenie, transkrypcję i przykładowe zdania. Potem ćwicz je w 6 trybach gry, w ponad 40 językach.",
     "freeNote": "Bezpłatnie. Bez reklam. Bez subskrypcji.",
-    "appStoreButton": "Pobierz z App Store",
     "webAppButton": "Wypróbuj aplikacje webowa",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "images": {
-      "dashboard": {
-        "src": "/images/dashboard.png",
-        "alt": "Panel Calleo z serią ćwiczeń i zestawami słów"
-      },
-      "gameModes": {
-        "src": "/images/learning-modes.png",
-        "alt": "Wybór trybu ćwiczeń dla zestawu w Calleo"
-      }
+    "tagline": "Trener słownictwa z AI dla Twoich własnych słów",
+    "titleOutline": "naprawdę",
+    "titleAccent": "potrzebujesz",
+    "appStoreSmall": "Pobierz z",
+    "stageLabel": "Calleo na iPhonie: Twoje zestawy słów, ekran ćwiczeń i quiz w otoczeniu kart ze słowami",
+    "cards": {
+      "flashcard": "Fiszka",
+      "translate": "Tłumaczenie",
+      "addWords": "Dodaj 17 słów"
     }
   },
   "whatsNew": {
@@ -40,13 +40,23 @@
       },
       {
         "title": "Twórz zestaw w sekundy, nie minuty",
-        "description": "Wpisywanie list słów to nudna część, więc ją pomiń. Dzięki Szybkiemu generowaniu wystarczy wpisać temat, np. „restauracja\" lub „podróże\", a AI natychmiast zbuduje gotowy zestaw słówek. Masz już zestaw? Wygeneruj więcej powiązanych słów jednym dotknięciem, a Calleo automatycznie pominie to, co już masz. Wolisz przynieść własną listę? Zaimportuj ją bezpośrednio z Wordwall i od razu zacznij ćwiczyć."
+        "description": "Wpisywanie list słów to nudna część, więc ją pomiń. Dzięki Szybkiemu generowaniu wpisz temat, np. „restauracja” lub „podróże”, zeskanuj zdjęcie menu, szyldu lub strony albo wklej artykuł, tekst piosenki czy czat, a AI zbuduje gotowy zestaw słówek. Masz już zestaw? Wygeneruj więcej powiązanych słów jednym dotknięciem, a Calleo automatycznie pominie to, co już masz."
       },
       {
         "title": "Nauka: prowadzona ścieżka od pierwszych słów do biegłości",
-        "description": "Nie wiesz, czego uczyć się dalej? Nauka to uporządkowany program obejmujący wszystkie sześć poziomów CEFR, od A1 do C2 — zaczynając od powitań i liczb, a kończąc na pracy, podróżach i tematach abstrakcyjnych. Każdy krok to skupiony zestaw wygenerowany specjalnie dla ciebie. Zdaj quiz, a kolejny zestaw odblokuje się automatycznie — bez presji i bez kary za ponowne próby."
+        "description": "Nie wiesz, czego uczyć się dalej? Nauka to uporządkowany program obejmujący wszystkie sześć poziomów CEFR, od A1 do C2 — od powitań i liczb aż po pracę, podróże i tematy abstrakcyjne. Każdy krok to skupiony zestaw wygenerowany specjalnie dla Ciebie. Ukończ pełną rundę (wszystkie sześć trybów ćwiczeń po kolei, a słowa z błędami wracają w następnym trybie), a odblokujesz kolejny zestaw."
       }
-    ]
+    ],
+    "quickGenerate": {
+      "newTopic": "Nowy temat",
+      "newTopicHint": "Wpisz dowolny temat",
+      "fromSet": "Z zestawu",
+      "fromSetHint": "Więcej słów do jednego z Twoich zestawów",
+      "scan": "Skanuj zdjęcie",
+      "scanHint": "Menu, szyldy, strony, książki",
+      "paste": "Wklej tekst",
+      "pasteHint": "Artykuły, teksty piosenek, czaty"
+    }
   },
   "bentoFeatures": {
     "sectionLabel": "Funkcje i zalety",
@@ -54,33 +64,36 @@
     "sectionSubtitle": "Od inteligentnego generowania przez AI po wciagajace tryby gry — Calleo jest pelen narzedzi, które pomoga Ci uczyc sie szybciej.",
     "tiles": {
       "learnYourWay": {
-        "title": "Ucz sie po swojemu",
+        "title": "Ucz się po swojemu",
         "description": "Wybierz spośród 6 interaktywnych trybów nauki dopasowanych do Twojego stylu uczenia się.",
         "modes": [
           "Fiszki",
-          "Gra w dopasowywanie",
-          "Tryb quizu",
-          "Uzupelnianie luk",
+          "Dopasowywanie",
+          "Quiz",
+          "Uzupełnianie luk",
           "Słuchanie",
           "Pisanie"
+        ],
+        "label": "6 trybów",
+        "hints": [
+          "Odwróć, by zobaczyć",
+          "Połącz pary",
+          "Wielokrotny wybór",
+          "Uzupełnij zdanie",
+          "Posłuchaj i wybierz",
+          "Wpisz z pamięci"
         ]
       },
       "aiPowered": {
         "title": "Napedzane przez AI",
         "description": "Generuj pary slów natychmiast i otrzymuj inteligentne podpowiedzi.",
-        "image": {
-          "src": "/images/ai-generation.png",
-          "alt": "AI generuje pary słów dla tematu"
-        }
-      },
-      "languages": {
-        "title": "40+ jezyków",
-        "description": "Pelna lokalizacja interfejsu i wsparcie dla jezyków ojczystych.",
-        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+        "label": "AI",
+        "chip": "Sugestie AI"
       },
       "nativeIos": {
         "title": "Natywna aplikacja iOS",
-        "description": "Pobierz aplikacje i ucz sie w podrózy."
+        "description": "Pobierz aplikacje i ucz sie w podrózy.",
+        "label": "iPhone"
       },
       "shareDiscover": {
         "title": "Udostępniaj swoje zestawy",
@@ -96,35 +109,38 @@
             "label": "Kopie",
             "value": "12"
           }
-        ]
+        ],
+        "label": "Kody do udostępniania"
       },
       "seamlessSync": {
-        "title": "Plynna synchronizacja",
-        "description": "Zacznij na iPhonie, kontynuuj w sieci. Postepy podazaja za Toba."
+        "title": "Płynna synchronizacja",
+        "description": "Zacznij na iPhonie, kontynuuj w sieci. Postepy podazaja za Toba.",
+        "label": "Synchronizacja"
       }
     }
   },
   "howItWorks": {
-    "sectionTitle": "Jak to dziala",
-    "sectionSubtitle": "Rozpocznij nauke w czterech prostych krokach",
+    "sectionTitle": "Jak to działa",
+    "sectionSubtitle": "Rozpocznij naukę w czterech prostych krokach.",
     "steps": [
       {
-        "title": "1. Twórz zestawy",
+        "title": "Twórz zestawy",
         "desc": "Buduj listy slownictwa lub uzyj AI do natychmiastowego generowania slów na dowolny temat."
       },
       {
-        "title": "2. Wybierz gre",
+        "title": "Wybierz grę",
         "desc": "Wybierz sposród 6 wciagajacych trybów gry, które sprawia, ze nauka staje sie zabawa."
       },
       {
-        "title": "3. Sledz postepy",
+        "title": "Śledź postępy",
         "desc": "Monitoruj swoja serie, poziom opanowania materialu i historie na swoim panelu."
       },
       {
-        "title": "4. Udostępnij zestaw",
+        "title": "Udostępnij zestaw",
         "desc": "Wyślij znajomemu kod zestawu. Skopiuje go do swojej kolekcji, a Ty zobaczysz liczbę wyświetleń i kopii."
       }
-    ]
+    ],
+    "sectionLabel": "Jak to działa"
   },
   "whyUs": {
     "sectionTitle": "Dlaczego Calleo?",
@@ -135,11 +151,11 @@
         "description": "Wypróbuj tryb goscia natychmiast. Rejestracja nie jest wymagana, dopóki nie chcesz synchronizowac danych."
       },
       {
-        "title": "Prawdziwie wielojezyczny",
+        "title": "Prawdziwie wielojęzyczny",
         "description": "Interfejs dostepny w wielu jezykach. Ucz sie w swojej strefie komfortu."
       },
       {
-        "title": "Prywatnosc przede wszystkim",
+        "title": "Prywatność przede wszystkim",
         "description": "Tryb gościa nie wymaga konta. Przy koncie przechowujemy tylko Twój e-mail i utworzone zestawy. Słowa, które generujesz, trafiają do OpenAI po tłumaczenia i przykłady."
       },
       {
@@ -147,43 +163,66 @@
         "description": "Zbudowany z wykorzystaniem nowoczesnych technologii dla plynnego dzialania na kazdej platformie."
       }
     ],
-    "image": {
-      "src": "/images/added-words.png",
-      "alt": "Zestaw słów z tłumaczeniami dodanymi przez AI"
-    }
+    "sectionLabel": "Dlaczego Calleo",
+    "cardLabel": "Dodane przez AI"
   },
   "screenshotGallery": {
-    "sectionTitle": "Poznaj aplikacje",
+    "sectionTitle": "Poznaj aplikację",
     "sectionSubtitle": "Przyjrzyj sie blizej naszym interaktywnym trybom nauki.",
     "screenshots": [
       {
-        "src": "/images/learning-modes.png",
-        "alt": "Tryby nauki"
+        "name": "Twoje zestawy",
+        "alt": "Twoje zestawy: siatka zestawów słów z kartą Kontynuuj"
       },
       {
-        "src": "/images/my-sets.png",
-        "alt": "Moje zestawy"
+        "name": "Ćwiczenia",
+        "alt": "Ekran ćwiczeń: pełna runda we wszystkich 6 trybach albo wybór jednego"
       },
       {
-        "src": "/images/dashboard.png",
-        "alt": "Panel główny"
+        "name": "Fiszka",
+        "alt": "Fiszka z hiszpańskim słowem viaje i jego wymową"
       },
       {
-        "src": "/images/create-set.png",
-        "alt": "Tworzenie zestawu"
+        "name": "Quiz",
+        "alt": "Quiz z pytaniem o tłumaczenie słowa leche"
       },
       {
-        "src": "/images/quiz.png",
-        "alt": "Tryb quizu"
+        "name": "Uzupełnianie luk",
+        "alt": "Uzupełnianie luk: Bebo ___ hecho con hojas secas"
       },
       {
-        "src": "/images/word-practice.png",
-        "alt": "Trening słówek"
+        "name": "Ścieżka nauki",
+        "alt": "Ścieżka nauki na poziomie A2: Kierunki i miejsca"
+      },
+      {
+        "name": "Szybkie generowanie",
+        "alt": "Szybkie generowanie: nowy temat, z zestawu, skan zdjęcia lub wklejony tekst"
+      },
+      {
+        "name": "Sugestie AI",
+        "alt": "Sugestie słów od AI dla tematu Animales"
+      },
+      {
+        "name": "Szczegóły zestawu",
+        "alt": "Zestaw food: hiszpańskie słowa z angielskimi tłumaczeniami"
+      },
+      {
+        "name": "Słowa",
+        "alt": "Słowa: słownik z 397 słowami, z których 17 wymaga ćwiczeń"
       }
-    ]
+    ],
+    "sectionLabel": "W aplikacji",
+    "carouselLabel": "Ekrany aplikacji",
+    "roledescription": "karuzela",
+    "prev": "Poprzedni ekran",
+    "next": "Następny ekran",
+    "play": "Odtwórz",
+    "pause": "Wstrzymaj",
+    "playLabel": "Włącz automatyczne przewijanie",
+    "pauseLabel": "Wstrzymaj automatyczne przewijanie"
   },
   "pricing": {
-    "sectionTitle": "Naprawdę bezpłatnie",
+    "sectionTitle": "Naprawdę",
     "sectionSubtitle": "Bez reklam. Bez subskrypcji. Bez zakupów w aplikacji.",
     "planName": "Wszystko jest w środku",
     "planDescription": "Każda funkcja poniżej jest dostępna dla wszystkich. Nie ma płatnego planu, na który można przejść.",
@@ -195,10 +234,13 @@
       "Kody do udostępniania zestawów",
       "Synchronizacja między iOS i siecią"
     ],
-    "ctaButton": "Zacznij"
+    "ctaButton": "Zacznij",
+    "sectionLabel": "Cennik",
+    "sectionTitleAccent": "bezpłatnie.",
+    "planLabel": "Jeden plan"
   },
   "faq": {
-    "sectionTitle": "Czesto zadawane pytania",
+    "sectionTitle": "Często zadawane pytania",
     "items": [
       {
         "q": "Czy potrzebuje konta, zeby korzystac z Calleo?",
@@ -234,14 +276,14 @@
       },
       {
         "q": "Czym jest ścieżka nauki CEFR?",
-        "a": "Nauka to prowadzony program obejmujący wszystkie sześć poziomów CEFR, od A1 do C2. Zdaj każdy quiz, aby automatycznie odblokować kolejny zestaw."
+        "a": "Nauka to prowadzony program obejmujący wszystkie sześć poziomów CEFR, od A1 do C2. Ukończ pełną rundę wszystkich sześciu trybów ćwiczeń, aby odblokować kolejny zestaw."
       }
-    ]
+    ],
+    "sectionLabel": "FAQ"
   },
   "downloadCTA": {
-    "title": "Zacznij sie uczyc juz dzis",
+    "title": "Zacznij się uczyć już dziś",
     "subtitle": "Pierwszy zestaw powstaje w mniej niż minutę. Pobierz aplikację lub otwórz ją w przeglądarce.",
-    "iosButton": "Pobierz na iOS",
     "webButton": "Uruchom aplikacje webowa",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
@@ -259,7 +301,7 @@
             "href": "#features"
           },
           {
-            "label": "Jak to dziala",
+            "label": "Jak to działa",
             "href": "#how-it-works"
           },
           {
@@ -1346,5 +1388,32 @@
         "content": "Pliki cookie możesz zablokować lub usunąć w ustawieniach przeglądarki albo użyć blokera treści: strona działa bez nich bez problemu, a tracimy tylko licznik wizyt. Google udostępnia też dodatek wyłączający Analytics pod adresem tools.google.com/dlpage/gaoptout. Sama aplikacja Calleo na iOS nie używa plików cookie; co przechowuje, opisuje Polityka prywatności. Pytania: viacheslav@exquizite.app."
       }
     ]
+  },
+  "a11y": {
+    "skip": "Przejdź do treści",
+    "primaryNav": "Główna",
+    "mobileNav": "Mobilna",
+    "footerNav": "Stopka",
+    "menu": "Menu",
+    "language": "Język"
+  },
+  "tapes": {
+    "label": "Tryby ćwiczeń i funkcje",
+    "features": [
+      "40+ języków",
+      "Tłumaczenia AI",
+      "Transkrypcje",
+      "Przykładowe zdania",
+      "CEFR A1–C2",
+      "Bez reklam"
+    ]
+  },
+  "languages": {
+    "sectionLabel": "Języki",
+    "sectionTitle": "40+ języków.",
+    "sectionSubtitle": "Pełna lokalizacja interfejsu i wsparcie dla języków ojczystych. Ucz się w swojej strefie komfortu.",
+    "cubesLabel": "Obracające się kostki z literami układają „cześć” po angielsku, francusku, polsku i ukraińsku",
+    "phoneAlt": "Ekran główny Calleo z interfejsem po ukraińsku",
+    "phoneCaption": "Cała aplikacja po ukraińsku"
   }
 }

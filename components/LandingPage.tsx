@@ -1,10 +1,11 @@
 import React from 'react';
 import Hero from './Hero';
 import WhatsNew from './WhatsNew';
+import Languages from './Languages';
 import BentoFeatures from './BentoFeatures';
+import WhyUs from './WhyUs';
 import ScreenshotGallery from './ScreenshotGallery';
 import HowItWorks from './HowItWorks';
-import WhyUs from './WhyUs';
 import Pricing from './Pricing';
 import FAQ from './FAQ';
 import DownloadCTA from './DownloadCTA';
@@ -13,9 +14,10 @@ import { useSeo } from '../hooks/useSeo';
 const LandingPage: React.FC = () => {
   useSeo('home');
   return (
-    <main>
+    <>
       <Hero />
       <WhatsNew />
+      <Languages />
       <BentoFeatures />
       <WhyUs />
       <ScreenshotGallery />
@@ -23,7 +25,7 @@ const LandingPage: React.FC = () => {
       <Pricing />
       <FAQ />
       <DownloadCTA />
-    </main>
+    </>
   );
 };
 

@@ -2,63 +2,52 @@ import React from 'react';
 import { useData } from '../hooks/useData';
 import { useLanguagePrefix } from '../hooks/useLanguagePrefix';
 import { Link } from 'react-router-dom';
+import { LanguageMenu } from './Navbar';
+import { ICON_SRC } from './ui';
 
 const Footer: React.FC = () => {
   const data = useData();
   const d = data.footer;
   const prefix = useLanguagePrefix();
+  const home = prefix || '/';
 
-  // links carry either `to` (an in-app route, language-prefixed) or `href`
+  // links carry either `to` (an in-app route, language-prefixed) or `href`;
+  // `#section` hrefs point at the home page so they work from every route
   const renderLink = (link: { label: string; to?: string; href?: string }, i: number) => (
     <li key={i}>
       {link.to ? (
-        <Link to={`${prefix}${link.to}`} className="hover:text-accent transition-colors">{link.label}</Link>
+        <Link to={`${prefix}${link.to}`}>{link.label}</Link>
       ) : (
-        <a href={link.href} className="hover:text-accent transition-colors">{link.label}</a>
+        <a href={link.href?.startsWith('#') ? `${home}${link.href}` : link.href}>{link.label}</a>
       )}
     </li>
   );
 
   return (
-    <footer className="bg-paper border-t border-ink/10 pt-16 pb-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-          <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="w-2 h-2 rounded-full bg-accent"></span>
-              <span className="font-display text-base tracking-[-0.01em] text-ink">{d.brandName}</span>
-            </div>
-            <p className="text-sm text-ink/50 mb-6">
-              {d.brandDescription}
-            </p>
+    <footer className="foot">
+      <div className="wrap">
+        <div className="foot-top">
+          <div className="foot-brand">
+            <a className="brand" href={`${home}#top`}>
+              <img src={ICON_SRC} alt="" width={38} height={38} loading="lazy" />
+              <span>{d.brandName}</span>
+            </a>
+            <p>{d.brandDescription}</p>
+            <LanguageMenu up long />
           </div>
-
-          <div>
-            <h3 className="text-[11px] font-extrabold tracking-[0.15em] uppercase text-ink/40 mb-4">{d.columns.product.title}</h3>
-            <ul className="space-y-2.5 text-sm text-ink/60">
-              {d.columns.product.links.map(renderLink)}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-[11px] font-extrabold tracking-[0.15em] uppercase text-ink/40 mb-4">{d.columns.support.title}</h3>
-            <ul className="space-y-2.5 text-sm text-ink/60">
-              {d.columns.support.links.map(renderLink)}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-[11px] font-extrabold tracking-[0.15em] uppercase text-ink/40 mb-4">{d.columns.legal.title}</h3>
-            <ul className="space-y-2.5 text-sm text-ink/60">
-              {d.columns.legal.links.map(renderLink)}
-            </ul>
-          </div>
+          <nav className="foot-cols" aria-label={data.a11y.footerNav}>
+            {(['product', 'support', 'legal'] as const).map((key) => (
+              <div key={key}>
+                <h2>{d.columns[key].title}</h2>
+                <ul>{d.columns[key].links.map(renderLink)}</ul>
+              </div>
+            ))}
+          </nav>
         </div>
-
-        <div className="pt-8 border-t border-ink/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-ink/40">
-            {d.copyright.replace('{{year}}', String(new Date().getFullYear()))}
-          </p>
+        <span className="foot-mark" aria-hidden="true">{d.brandName}</span>
+        <div className="foot-bot">
+          <span>{d.copyright.replace('{{year}}', String(new Date().getFullYear()))}</span>
+          <span>calleo.xyz</span>
         </div>
       </div>
     </footer>

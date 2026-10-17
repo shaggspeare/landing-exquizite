@@ -6,7 +6,8 @@
       "howItWorks": "사용 방법",
       "pricing": "무료",
       "getApp": "앱 받기",
-      "downloadApp": "앱 다운로드"
+      "downloadApp": "앱 다운로드",
+      "faq": "FAQ"
     }
   },
   "hero": {
@@ -15,19 +16,18 @@
     "titleLine2": "공부하세요",
     "subtitle": "배우고 싶은 단어를 넣으면 AI가 번역, 발음 기호, 예문을 채워 줍니다. 6가지 게임 모드로 연습하세요. 40개 이상의 언어를 지원합니다.",
     "freeNote": "무료입니다. 광고도, 구독도 없습니다.",
-    "appStoreButton": "App Store에서 다운로드",
     "webAppButton": "웹 앱 사용해보기",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
-    "images": {
-      "dashboard": {
-        "src": "/images/dashboard.png",
-        "alt": "연속 학습 기록과 단어 세트가 보이는 Calleo 대시보드"
-      },
-      "gameModes": {
-        "src": "/images/learning-modes.png",
-        "alt": "Calleo에서 단어 세트의 연습 모드를 고르는 화면"
-      }
+    "tagline": "내 단어로 공부하는 AI 단어 트레이너",
+    "titleOutline": "정말",
+    "titleAccent": "필요한",
+    "appStoreSmall": "다운로드",
+    "stageLabel": "iPhone의 Calleo: 단어 세트, 연습 화면, 퀴즈와 그 주위를 둘러싼 단어 카드",
+    "cards": {
+      "flashcard": "플래시카드",
+      "translate": "번역",
+      "addWords": "단어 17개 추가"
     }
   },
   "whatsNew": {
@@ -40,13 +40,23 @@
       },
       {
         "title": "몇 분이 아니라 몇 초 만에 세트 만들기",
-        "description": "단어 목록을 직접 입력하는 건 지루한 작업이니 건너뛰세요. 빠른 생성 기능으로 \"레스토랑\"이나 \"여행\" 같은 주제를 입력하기만 하면 AI가 바로 사용 가능한 어휘 세트를 즉시 만들어 줍니다. 이미 만들고 있는 세트가 있나요? 탭 한 번으로 관련 단어를 더 생성할 수 있고, 이미 있는 단어는 Calleo가 자동으로 건너뜁니다. 직접 만든 목록을 가져오고 싶다면? Wordwall에서 바로 가져와 즉시 연습을 시작하세요."
+        "description": "단어 목록을 직접 입력하는 건 지루한 작업이니 건너뛰세요. 빠른 생성으로 “레스토랑”이나 “여행” 같은 주제를 입력하거나, 메뉴·간판·책 페이지를 사진으로 스캔하거나, 기사·가사·채팅을 붙여 넣으면 AI가 바로 쓸 수 있는 어휘 세트를 만들어 줍니다. 이미 만들고 있는 세트가 있나요? 탭 한 번으로 관련 단어를 더 생성할 수 있고, 이미 있는 단어는 Calleo가 자동으로 건너뜁니다."
       },
       {
         "title": "학습: 첫 단어부터 유창함까지 안내하는 학습 경로",
-        "description": "다음에 무엇을 공부해야 할지 모르겠나요? 학습은 A1부터 C2까지 CEFR 6개 레벨 전체를 아우르는 체계적인 커리큘럼입니다. 처음에는 인사말과 숫자로 시작해 이후 직장, 여행, 추상적인 주제로 확장됩니다. 각 단계는 당신만을 위해 생성된 집중 세트입니다. 퀴즈를 통과하면 다음 세트가 자동으로 열리며, 부담도 없고 다시 시도해도 불이익이 없습니다."
+        "description": "다음에 무엇을 공부해야 할지 모르겠나요? 학습은 A1부터 C2까지 CEFR 6개 레벨 전체를 아우르는 체계적인 커리큘럼입니다. 처음에는 인사말과 숫자로 시작해 이후 직장, 여행, 추상적인 주제로 확장됩니다. 각 단계는 당신만을 위해 생성된 집중 세트입니다. 풀 런(6가지 연습 모드를 연달아 진행하고, 틀린 단어는 다음 모드에서 다시 나옵니다)을 마치면 다음 세트가 열립니다."
       }
-    ]
+    ],
+    "quickGenerate": {
+      "newTopic": "새 주제",
+      "newTopicHint": "아무 주제나 입력",
+      "fromSet": "세트에서",
+      "fromSetHint": "내 세트에 단어 더하기",
+      "scan": "사진 스캔",
+      "scanHint": "메뉴, 간판, 페이지, 책",
+      "paste": "텍스트 붙여넣기",
+      "pasteHint": "기사, 가사, 채팅"
+    }
   },
   "bentoFeatures": {
     "sectionLabel": "기능 및 하이라이트",
@@ -57,30 +67,33 @@
         "title": "나만의 방식으로 학습",
         "description": "자신만의 학습 스타일에 맞는 6가지 인터랙티브 학습 모드를 선택하세요.",
         "modes": [
-          "플래시 카드",
-          "매칭 게임",
-          "퀴즈 모드",
+          "플래시카드",
+          "매칭",
+          "퀴즈",
           "빈칸 채우기",
           "듣기",
           "쓰기"
+        ],
+        "label": "6가지 모드",
+        "hints": [
+          "뒤집어서 확인",
+          "짝 맞추기",
+          "객관식",
+          "문장 완성",
+          "듣고 고르기",
+          "기억해서 입력"
         ]
       },
       "aiPowered": {
         "title": "AI 기반",
         "description": "단어 쌍을 즉시 생성하고 스마트한 힌트를 받으세요.",
-        "image": {
-          "src": "/images/ai-generation.png",
-          "alt": "AI가 주제에 맞는 단어 쌍을 생성하는 화면"
-        }
-      },
-      "languages": {
-        "title": "40개 이상의 언어",
-        "description": "완전한 인터페이스 현지화 및 모국어 지원.",
-        "flags": "🇬🇧 🇪🇸 🇫🇷 🇩🇪 🇮🇹\n🇵🇹 🇨🇳 🇯🇵 🇰🇷\n🇸🇦 🇹🇷 🇳🇱 🇵🇱 🇸🇪\n🇺🇦 🇮🇳 🇻🇳 🇹🇭 🇮🇩"
+        "label": "AI",
+        "chip": "AI 제안"
       },
       "nativeIos": {
         "title": "네이티브 iOS",
-        "description": "앱을 다운로드하고 이동 중에도 학습하세요."
+        "description": "앱을 다운로드하고 이동 중에도 학습하세요.",
+        "label": "iPhone"
       },
       "shareDiscover": {
         "title": "세트 공유",
@@ -96,35 +109,38 @@
             "label": "복사",
             "value": "12"
           }
-        ]
+        ],
+        "label": "공유 코드"
       },
       "seamlessSync": {
         "title": "완벽한 동기화",
-        "description": "iPhone에서 시작하고 웹에서 계속하세요. 진행 상황이 따라옵니다."
+        "description": "iPhone에서 시작하고 웹에서 계속하세요. 진행 상황이 따라옵니다.",
+        "label": "동기화"
       }
     }
   },
   "howItWorks": {
     "sectionTitle": "사용 방법",
-    "sectionSubtitle": "네 가지 간단한 단계로 학습 여정을 시작하세요",
+    "sectionSubtitle": "네 가지 간단한 단계로 학습 여정을 시작하세요.",
     "steps": [
       {
-        "title": "1. 세트 만들기",
+        "title": "세트 만들기",
         "desc": "어휘 목록을 직접 만들거나 AI를 사용하여 모든 주제의 단어를 즉시 생성하세요."
       },
       {
-        "title": "2. 게임 선택",
+        "title": "게임 선택",
         "desc": "학습을 놀이처럼 만들어주는 6가지 재미있는 게임 모드 중 선택하세요."
       },
       {
-        "title": "3. 진행 추적",
+        "title": "진행 추적",
         "desc": "대시보드에서 연속 학습 기록, 숙달 수준, 학습 이력을 확인하세요."
       },
       {
-        "title": "4. 세트 공유",
+        "title": "세트 공유",
         "desc": "친구에게 세트의 공유 코드를 보내세요. 친구가 자기 컬렉션으로 복사하면 조회 수와 복사 횟수를 볼 수 있습니다."
       }
-    ]
+    ],
+    "sectionLabel": "사용 방법"
   },
   "whyUs": {
     "sectionTitle": "왜 Calleo인가요?",
@@ -147,43 +163,66 @@
         "description": "모든 플랫폼에서 부드러운 성능을 위해 최신 기술로 구축되었습니다."
       }
     ],
-    "image": {
-      "src": "/images/added-words.png",
-      "alt": "AI가 번역을 채운 단어 세트"
-    }
+    "sectionLabel": "왜 Calleo인가",
+    "cardLabel": "AI가 추가함"
   },
   "screenshotGallery": {
     "sectionTitle": "앱 체험하기",
     "sectionSubtitle": "인터랙티브 학습 모드를 자세히 살펴보세요.",
     "screenshots": [
       {
-        "src": "/images/learning-modes.png",
-        "alt": "학습 모드"
+        "name": "내 세트",
+        "alt": "내 세트: 단어 세트 그리드와 ‘계속하기’ 카드"
       },
       {
-        "src": "/images/my-sets.png",
-        "alt": "내 세트"
+        "name": "연습",
+        "alt": "연습 화면: 6가지 모드를 모두 하는 풀 런, 또는 하나 고르기"
       },
       {
-        "src": "/images/dashboard.png",
-        "alt": "대시보드"
+        "name": "플래시카드",
+        "alt": "스페인어 단어 viaje와 발음을 보여 주는 플래시카드"
       },
       {
-        "src": "/images/create-set.png",
-        "alt": "세트 만들기"
+        "name": "퀴즈",
+        "alt": "leche의 번역을 묻는 퀴즈"
       },
       {
-        "src": "/images/quiz.png",
-        "alt": "퀴즈 모드"
+        "name": "빈칸 채우기",
+        "alt": "빈칸 채우기: Bebo ___ hecho con hojas secas"
       },
       {
-        "src": "/images/word-practice.png",
-        "alt": "단어 연습"
+        "name": "학습 경로",
+        "alt": "A2 레벨 학습 경로: 길 안내와 장소"
+      },
+      {
+        "name": "빠른 생성",
+        "alt": "빠른 생성: 새 주제, 세트에서, 사진 스캔, 텍스트 붙여넣기"
+      },
+      {
+        "name": "AI 제안",
+        "alt": "테마 Animales에 대한 AI 단어 제안"
+      },
+      {
+        "name": "세트 상세",
+        "alt": "food 세트: 스페인어 단어와 영어 번역"
+      },
+      {
+        "name": "단어",
+        "alt": "단어: 397개 단어가 담긴 사전과 연습이 필요한 단어 17개"
       }
-    ]
+    ],
+    "sectionLabel": "앱 둘러보기",
+    "carouselLabel": "앱 화면",
+    "roledescription": "캐러셀",
+    "prev": "이전 화면",
+    "next": "다음 화면",
+    "play": "재생",
+    "pause": "일시정지",
+    "playLabel": "자동 넘김 재생",
+    "pauseLabel": "자동 넘김 일시정지"
   },
   "pricing": {
-    "sectionTitle": "정말로 무료입니다",
+    "sectionTitle": "무료입니다.",
     "sectionSubtitle": "광고 없음. 구독 없음. 인앱 결제 없음.",
     "planName": "모든 기능이 포함됩니다",
     "planDescription": "아래 기능은 모두에게 열려 있습니다. 업그레이드할 유료 요금제가 없습니다.",
@@ -195,7 +234,10 @@
       "세트 공유 코드",
       "iOS와 웹 동기화"
     ],
-    "ctaButton": "시작하기"
+    "ctaButton": "시작하기",
+    "sectionLabel": "요금",
+    "sectionTitleAccent": "정말로.",
+    "planLabel": "단일 요금제"
   },
   "faq": {
     "sectionTitle": "자주 묻는 질문",
@@ -234,14 +276,14 @@
       },
       {
         "q": "CEFR 학습 경로란 무엇인가요?",
-        "a": "학습은 A1부터 C2까지 CEFR 6개 레벨을 아우르는 안내형 커리큘럼입니다. 각 퀴즈를 통과하면 다음 세트가 자동으로 열립니다."
+        "a": "학습은 A1부터 C2까지 CEFR 6개 레벨을 아우르는 안내형 커리큘럼입니다. 6가지 연습 모드를 모두 거치는 풀 런을 마치면 다음 집중 세트가 열립니다."
       }
-    ]
+    ],
+    "sectionLabel": "FAQ"
   },
   "downloadCTA": {
     "title": "오늘 학습을 시작하세요",
     "subtitle": "첫 세트는 1분이면 만듭니다. 앱을 다운로드하거나 브라우저에서 바로 여세요.",
-    "iosButton": "iOS용 다운로드",
     "webButton": "웹 앱 열기",
     "appStoreUrl": "https://apps.apple.com/app/id6759112720",
     "webAppUrl": "https://app.calleo.xyz/",
@@ -1346,5 +1388,32 @@
         "content": "브라우저 설정에서 쿠키를 차단하거나 삭제해도, 콘텐츠 차단기를 써도 사이트는 잘 작동합니다. 사라지는 것은 방문 수 집계뿐입니다. Google도 tools.google.com/dlpage/gaoptout 에서 Analytics 차단 부가 기능을 제공합니다. Calleo iOS 앱 자체는 쿠키를 쓰지 않으며, 앱이 저장하는 내용은 개인정보 처리방침에 있습니다. 문의: viacheslav@exquizite.app."
       }
     ]
+  },
+  "a11y": {
+    "skip": "본문으로 건너뛰기",
+    "primaryNav": "주 메뉴",
+    "mobileNav": "모바일 메뉴",
+    "footerNav": "푸터",
+    "menu": "메뉴",
+    "language": "언어"
+  },
+  "tapes": {
+    "label": "연습 모드와 기능",
+    "features": [
+      "40개 이상의 언어",
+      "AI 번역",
+      "발음 기호",
+      "예문",
+      "CEFR A1–C2",
+      "광고 없음"
+    ]
+  },
+  "languages": {
+    "sectionLabel": "언어",
+    "sectionTitle": "40개 이상의 언어.",
+    "sectionSubtitle": "완전한 인터페이스 현지화 및 모국어 지원. 편안한 언어 환경에서 학습하세요.",
+    "cubesLabel": "글자 큐브가 돌아가며 영어, 프랑스어, 폴란드어, 우크라이나어로 ‘안녕하세요’를 만듭니다",
+    "phoneAlt": "인터페이스가 우크라이나어로 표시된 Calleo 홈 화면",
+    "phoneCaption": "앱 전체를 우크라이나어로"
   }
 }

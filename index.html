@@ -77,8 +77,8 @@
     <meta name="apple-mobile-web-app-title" content="Calleo" />
 
     <!-- Theme Color -->
-    <meta name="theme-color" content="#0A0A0A" />
-    <meta name="msapplication-TileColor" content="#0A0A0A" />
+    <meta name="theme-color" content="#F4F2EC" />
+    <meta name="msapplication-TileColor" content="#F4F2EC" />
 
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -90,8 +90,7 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Hero images: above the fold, fetched before the JS bundle -->
-    <link rel="preload" as="image" href="/images/dashboard.png" fetchpriority="high" />
-    <link rel="preload" as="image" href="/images/learning-modes.png" />
+    <link rel="preload" as="image" href="/images/screens/sets.webp" fetchpriority="high" />
 
     <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -122,10 +121,10 @@
         "name": "Calleo",
         "url": "https://www.calleo.xyz/"
       },
-      "screenshot": "https://www.calleo.xyz/images/quiz.png",
+      "screenshot": "https://www.calleo.xyz/images/screens/quiz.webp",
       "featureList": [
         "Add your own words; AI writes translations, transcriptions and example sentences",
-        "Quick Generate: a topic becomes a ready vocabulary set",
+        "Quick Generate: a topic, a photo or pasted text becomes a ready vocabulary set",
         "Bulk import and Wordwall import",
         "6 practice modes: Flashcards, Match, Quiz, Fill in the Blank, Listening, Writing",
         "Guided CEFR learn path (A1 to C2)",
@@ -211,17 +210,17 @@
           "name": "What is the CEFR Learn path?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Learn is a guided curriculum spanning all six CEFR levels, A1 through C2. Pass each quiz to automatically unlock the next focused set."
+            "text": "Learn is a guided curriculum spanning all six CEFR levels, A1 through C2. Finish a Full run of all six practice modes to unlock the next focused set."
           }
         }
       ]
     }
     </script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=JetBrains+Mono:wght@400;500;700&family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/index.css">
   </head>
-  <body class="bg-paper text-ink antialiased">
+  <body>
     <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>

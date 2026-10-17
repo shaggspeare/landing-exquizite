@@ -1,54 +1,38 @@
 import React from 'react';
 import { useData } from '../hooks/useData';
-import { Zap, Globe, Lock, Code } from 'lucide-react';
+import { Icon, IconName, Lbl, Phone } from './ui';
+
+const icons: IconName[] = ['bolt', 'globe', 'shield', 'pulse'];
 
 const WhyUs: React.FC = () => {
-  const data = useData();
-  const d = data.whyUs;
-
-  const icons = [Zap, Globe, Lock, Code];
+  const d = useData().whyUs;
 
   return (
-    <section className="py-20 md:py-28 bg-ink text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <h2 className="font-display text-3xl md:text-4xl tracking-[-0.02em] mb-6">{d.sectionTitle}</h2>
-            <p className="text-white/60 text-lg mb-10">
-              {d.sectionSubtitle}
-            </p>
-
-            <div className="space-y-8">
-              {d.points.map((point: { title: string; description: string }, i: number) => {
-                const Icon = icons[i];
-                return (
-                  <div key={i} className="flex gap-4">
-                    <div className="border-[1.5px] border-white/20 p-3 rounded-xl h-fit">
-                      <Icon className="text-accent" size={22} />
-                    </div>
-                    <div>
-                      <h3 className="font-extrabold text-lg mb-1.5 tracking-[-0.01em]">{point.title}</h3>
-                      <p className="text-white/55">{point.description}</p>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
+    <section id="why" className="sec sec-flush">
+      <div className="wrap why-grid">
+        <div className="why-vis" aria-hidden="true">
+          <div className="sun" />
+          <div className="why-shadow" />
+          <Phone src="/images/screens/words.webp" delay="-2.4s" />
+          <div className="card-w why-card">
+            <span className="k"><Icon name="sparkle" className="ic icf" />{d.cardLabel}</span>
+            <b>leche</b>
+            <span className="tr">LEH-cheh</span>
+            <span>milk</span>
           </div>
-
-          <div className="relative flex justify-center lg:justify-end">
-             <div className="relative rounded-[2rem] border-[6px] md:border-8 border-white/10 bg-[#111] overflow-hidden shadow-xl max-w-[240px] md:max-w-[320px]">
-               <img
-                 src={d.image.src}
-                 alt={d.image.alt}
-                 width={1290}
-                 height={2796}
-                 loading="lazy"
-                 decoding="async"
-                 className="w-full h-auto block"
-               />
-             </div>
-          </div>
+        </div>
+        <div className="why-copy rv">
+          <Lbl>(04) {d.sectionLabel}</Lbl>
+          <h2 className="h2">{d.sectionTitle}</h2>
+          <p className="lead">{d.sectionSubtitle}</p>
+          <ul className="pts">
+            {d.points.map((point: { title: string; description: string }, i: number) => (
+              <li key={i}>
+                <span className="pi"><Icon name={icons[i]} /></span>
+                <div><h3>{point.title}</h3><p>{point.description}</p></div>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
